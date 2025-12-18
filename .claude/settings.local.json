@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm info:*)",
+      "Bash(npx bmad-method@alpha install)",
+      "Bash(printf:*)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}

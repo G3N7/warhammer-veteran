@@ -1,0 +1,77 @@
+# Warhammer Veteran Module Configuration
+# This file defines installation questions and module configuration values
+
+code: "warhammer-40k"
+name: "Warhammer Veteran"
+default_selected: false
+
+# Welcome message shown during installation
+prompt:
+  - "Thank you for choosing Warhammer Veteran!"
+  - "Comprehensive AI assistance for Warhammer 40k players across all aspects of the hobby - from building competitive army lists with meta analysis, to resolving rules disputes during gameplay, mastering painting techniques, exploring deep lore, and managing narrative campaigns."
+
+# Core config values are automatically inherited from installer:
+## user_name
+## communication_language
+## document_output_language
+## output_folder
+
+# ============================================================================
+# CONFIGURATION FIELDS
+# ============================================================================
+
+# Output folder for generated content
+w40k_output_folder:
+  prompt: "Where should Warhammer Veteran save generated content (army lists, guides, etc.)?"
+  default: "{project-root}/_bmad-output/warhammer-40k"
+  result: "{value}"
+
+# Default game mode preference
+default_game_mode:
+  prompt: "What's your primary game mode?"
+  default: "matched-play"
+  result: "{value}"
+  single-select:
+    - value: "matched-play"
+      label: "Matched Play - Competitive tournament format"
+    - value: "crusade"
+      label: "Crusade - Narrative campaign format"
+    - value: "open-play"
+      label: "Open Play - Casual unrestricted format"
+
+# Tournament data cache refresh frequency
+tournament_cache_days:
+  prompt: "How often should tournament meta data refresh?"
+  default: "7"
+  result: "{value}"
+  single-select:
+    - value: "1"
+      label: "Daily - Most current data, higher bandwidth usage"
+    - value: "7"
+      label: "Weekly - Recommended balance"
+    - value: "30"
+      label: "Monthly - Less frequent updates"
+
+# Meta analysis detail level
+meta_detail_level:
+  prompt: "How detailed should meta analysis be?"
+  default: "standard"
+  result: "{value}"
+  single-select:
+    - value: "minimal"
+      label: "Minimal - Win rates only"
+    - value: "standard"
+      label: "Standard - Win rates + popularity (Recommended)"
+    - value: "detailed"
+      label: "Detailed - Full tournament breakdown"
+
+# Static values
+module_version:
+  result: "1.0.0"
+
+# Module paths
+wahapedia_cache_path:
+  result: "{project-root}/_bmad-output/warhammer-40k/cache/wahapedia"
+
+tournament_cache_path:
+  result: "{project-root}/_bmad-output/warhammer-40k/cache/tournaments"
