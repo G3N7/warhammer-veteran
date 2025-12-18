@@ -1,15 +1,43 @@
 {
-  "name": "warhammer-veteran",
+  "name": "@bmad-modules/warhammer-veteran",
   "version": "1.0.0",
-  "description": "Warhammer Agents Plugin for BMAD_Method",
+  "description": "Comprehensive AI assistance for Warhammer 40k players - army building, rules judging, painting guides, lore exploration, campaign management, and hobby advice",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+  "main": "module.yaml",
+  "keywords": [
+    "bmad",
+    "bmad-module",
+    "warhammer",
+    "warhammer-40k",
+    "40k",
+    "army-builder",
+    "painting",
+    "lore",
+    "campaign",
+    "hobby"
+  ],
+  "author": "Node",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/warhammer-veteran.git"
   },
-  "dependencies": {
-    "bmad_method": "^6.0.0-alpha"
+  "bugs": {
+    "url": "https://github.com/yourusername/warhammer-veteran/issues"
   },
-  "devDependencies": {}
+  "homepage": "https://github.com/yourusername/warhammer-veteran#readme",
+  "peerDependencies": {
+    "bmad-method": ">=6.0.0-alpha"
+  },
+  "files": [
+    "agents/",
+    "workflows/",
+    "tasks/",
+    "templates/",
+    "data/",
+    "_module-installer/",
+    "module.yaml",
+    "README.md",
+    "TODO.md"
+  ]
 }

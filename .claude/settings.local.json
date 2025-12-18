@@ -5,7 +5,11 @@
       "Bash(npx bmad-method@alpha install)",
       "Bash(printf:*)",
       "Bash(mkdir:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(tree:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)"
     ]
   }
 }

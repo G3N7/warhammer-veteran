@@ -1,0 +1,48 @@
+# Agent sidecar memory - user-specific data (keep folder structure, ignore contents)
+agents/tacticus-sidecar/memories.md
+agents/tacticus-sidecar/lists.md
+agents/tacticus-sidecar/sessions/*
+agents/arbitrator-sidecar/rulings.md
+agents/arbitrator-sidecar/faqs.md
+agents/arbitrator-sidecar/sessions/*
+agents/lorekeeper-sidecar/explorations.md
+agents/lorekeeper-sidecar/timelines.md
+agents/lorekeeper-sidecar/sessions/*
+agents/brushmaster-sidecar/projects.md
+agents/brushmaster-sidecar/techniques.md
+agents/brushmaster-sidecar/schemes/*
+agents/brushmaster-sidecar/sessions/*
+agents/chronicler-sidecar/campaigns.md
+agents/chronicler-sidecar/battles.md
+agents/chronicler-sidecar/sessions/*
+agents/artisan-sidecar/projects.md
+agents/artisan-sidecar/collection.md
+agents/artisan-sidecar/sessions/*
+
+# Keep .gitkeep files in empty sidecar folders
+!agents/*/sidecar/sessions/.gitkeep
+
+# Cache directories - generated data
+cache/
+*.cache
+
+# BMAD development folders (not part of module)
+_bmad/
+_bmad-output/
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
