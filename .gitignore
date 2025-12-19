@@ -48,4 +48,4 @@ Thumbs.db
 npm-debug.log*
 
 # LLMs
-.claude
+.claude/
