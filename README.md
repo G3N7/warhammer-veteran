@@ -13,6 +13,24 @@ Warhammer Veteran is a complete BMAD module providing specialized AI agents for 
 - **📖 Campaign Management** - Track Crusade campaigns with narrative progression
 - **🔨 Hobby Advice** - Plan conversions, basing, and collection strategies
 
+## ✨ Phase 2 Enhancements (NEW!)
+
+**Project Tracking & Continuity:**
+- 🆕 **Track Project Progress** - Unified project files linking army lists, paint schemes, and campaigns
+- 🆕 **Resume Projects** - Pick up where you left off across sessions with full context
+- 🆕 **Session Logging** - Track painting progress, time spent, models completed
+- 🆕 **Milestone Tracking** - Automatic detection of 25%, 50%, 75%, completion
+
+**Enhanced Paint Scheme Designer:**
+- 🆕 **Paint Set Presets** - Instant inventory for Army Painter, Citadel, Vallejo starter sets
+- 🆕 **3-Tier Complexity** - Speed → Standard → Advanced progression in every scheme
+- 🆕 **Army List Integration** - Auto-imports model counts and generates painting roadmaps
+- 🆕 **Painting Roadmap** - Phased approach: batch paint troops → practice techniques → showcase characters
+
+**Continuous Improvement:**
+- 🆕 **Session Retrospective Workflow** - Analyzes conversations to extract requirements
+- 🆕 **Preference Learning** - Agents remember your choices and adapt over time
+
 ### Data Sources
 
 - **Rules & Units:** [Wahapedia](https://wahapedia.ru/)
@@ -83,16 +101,18 @@ During installation, you'll be asked:
    - Collection planning strategies
    - Tool recommendations
 
-### Workflows (2)
+### Workflows (3)
 
 1. **Build Army List** - Interactive list construction with validation and meta analysis
-2. **Design Paint Scheme** - Collaborative paint scheme designer with lore validation
+2. **Design Paint Scheme** - Collaborative designer with 3-tier complexity and paint set presets
+3. **Session Retrospective** 🆕 - Analyze conversations to extract requirements and improvements
 
-### Tasks (3)
+### Tasks (4)
 
 1. **Query Wahapedia** - Centralized rules and unit data retrieval
 2. **Fetch Tournament Data** - Cached meta analysis from multiple sources
 3. **Validate Army List** - Points calculation and legality checking
+4. **Track Project Progress** 🆕 - Unified project tracking across army lists, paint schemes, and campaigns
 
 ## Quick Start
 

@@ -1,40 +1,45 @@
 # Warhammer Veteran Development Roadmap
 
-## Phase 1: Core Implementation (MVP)
+## Phase 1: Core Implementation (MVP) ✅ COMPLETE
 
 ### Workflows - High Priority
 
-- [ ] **Implement Build Army List Workflow**
+- [x] **Implement Build Army List Workflow** ✅
   - Use: `workflow create-workflow`
   - Input: workflows/build-army-list/README.md
   - Features: Faction selection, unit addition, points validation, meta analysis
   - Priority: **CRITICAL** - Core competitive player feature
+  - **Status:** COMPLETE
 
-- [ ] **Implement Design Paint Scheme Workflow**
+- [x] **Implement Design Paint Scheme Workflow** ✅
   - Use: `workflow create-workflow`
   - Input: workflows/design-paint-scheme/README.md
   - Features: Paint inventory, budget constraints, Lorekeeper integration
   - Priority: **HIGH** - Multi-agent collaboration showcase
+  - **Status:** COMPLETE + Phase 2 enhancements
 
 ### Tasks - High Priority
 
-- [ ] **Create Query Wahapedia Task**
+- [x] **Create Query Wahapedia Task** ✅
   - Centralized data retrieval from https://wahapedia.ru/
   - Used by: Tacticus, Arbitrator, Lorekeeper
   - Features: Caching, error handling, data parsing
   - Priority: **CRITICAL** - Foundational for all agents
+  - **Status:** COMPLETE
 
-- [ ] **Create Fetch Tournament Data Task**
+- [x] **Create Fetch Tournament Data Task** ✅
   - Aggregate data from 5 tournament sources
   - Implement caching with timestamp tracking
   - Respect tournament_cache_days config setting
   - Priority: **HIGH** - Enables meta analysis
+  - **Status:** COMPLETE
 
-- [ ] **Create Validate Army List Task**
+- [x] **Create Validate Army List Task** ✅
   - Points calculation logic
   - Detachment rules validation
   - Force organization checking
   - Priority: **HIGH** - Required for Build Army List workflow
+  - **Status:** COMPLETE
 
 ### Integration & Testing
 
@@ -52,14 +57,47 @@
 - [ ] Test all config values are accessible to agents
 - [ ] Validate cache paths are created on-demand
 
-## Phase 2: Enhanced Features
+## Phase 2: Enhanced Features 🎯 IN PROGRESS
+
+### ✅ Completed Phase 2 Features
+
+- [x] **Track Project Progress Task** ✅
+  - Unified project files linking army lists, paint schemes, campaigns
+  - Session logging with time tracking
+  - Progress calculation and milestone detection
+  - Resume project functionality
+  - **Status:** COMPLETE
+
+- [x] **Enhanced Design Paint Scheme Workflow** ✅
+  - Paint set presets (Army Painter, Citadel, Vallejo)
+  - 3-tier complexity system (Speed/Standard/Advanced)
+  - Army list integration with auto model counting
+  - Painting roadmap generation
+  - Project creation integration
+  - **Status:** COMPLETE
+
+- [x] **Session Retrospective Workflow** ✅
+  - Conversation analysis for requirement extraction
+  - User preference discovery
+  - Pain point identification
+  - Workflow gap analysis
+  - Agent memory updates
+  - **Status:** COMPLETE
+
+- [x] **Brushmaster Agent Enhancements** ✅
+  - Track Project menu triggers
+  - Resume Project functionality
+  - Integration with track-project-progress task
+  - **Status:** COMPLETE
+
+### 🔄 In Progress / Planned
 
 ### Additional Agent Enhancements
 
 - [ ] Add more embedded prompts to existing agents based on usage patterns
 - [ ] Implement advanced meta analysis features (tier lists, matchup predictions)
 - [ ] Enhance Lorekeeper with timeline visualization
-- [ ] Add Brushmaster paint collection inventory tracking
+- [x] Add Brushmaster paint collection inventory tracking ✅ (via project tracking)
 - [ ] Enhance Chronicler with automated battle report generation
 - [ ] Add Artisan budget tracking and spending analytics
 
