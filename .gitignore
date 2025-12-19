@@ -46,3 +46,6 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+# LLMs
+.claude
