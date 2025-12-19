@@ -180,7 +180,7 @@ agent:
       triggers:
         - design-scheme:
           input: DPS or fuzzy match design paint scheme
-          route: '{project-root}/_bmad-output/bmb-creations/warhammer-40k/workflows/design-paint-scheme/workflow.md'
+          route: '{module-root}/workflows/design-paint-scheme/workflow.md'
           description: 'Interactive scheme designer 🎨✨'
         - color-scheme:
           input: CS or fuzzy match color scheme

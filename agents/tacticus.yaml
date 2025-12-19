@@ -131,7 +131,7 @@ agent:
       triggers:
         - build-list:
           input: BL or fuzzy match build list
-          route: '{project-root}/_bmad-output/bmb-creations/warhammer-40k/workflows/build-army-list/workflow.md'
+          route: '{module-root}/workflows/build-army-list/workflow.md'
           description: 'Build competitive army list ⚔️'
         - analyze-list:
           input: AL or fuzzy match analyze list
