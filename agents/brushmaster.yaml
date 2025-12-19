@@ -207,6 +207,20 @@ agent:
           description: 'Fix painting problem 🔧'
           type: exec
 
+    # Project management
+    - multi: '[TP] Track Project [RP] Resume Project'
+      triggers:
+        - track-project:
+          input: TP or fuzzy match track project
+          action: 'Execute track-project-progress task to create or update painting project with linked army list and paint scheme'
+          description: 'Track painting progress 📊'
+          type: action
+        - resume-project:
+          input: RP or fuzzy match resume project
+          action: 'Execute track-project-progress task with action=resume to load existing project and show status'
+          description: 'Resume project 🔄'
+          type: action
+
     # Quick actions
     - trigger: 'quick-tip'
       action: 'Quick painting tip or color suggestion'
