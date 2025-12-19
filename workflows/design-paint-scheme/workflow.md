@@ -26,6 +26,47 @@ Collaborative paint scheme design that considers:
 
 ## Workflow Steps
 
+### Step 0: Import Army Context (Optional)
+
+**Check for linked army list:**
+```
+Checking if you're coming from Tacticus with an army list...
+```
+
+**If army list linked:**
+- Load army list from `tacticus-sidecar/lists.md`
+- Extract faction, points, unit counts
+- Calculate total models to paint
+- Identify unit types (infantry, vehicles, characters)
+
+**Display army context:**
+```
+I see you're painting:
+- Faction: {faction}
+- Points: {points}
+- Total Models: ~{count} (estimated)
+- Unit Breakdown:
+  - {count} Infantry
+  - {count} Characters
+  - {count} Vehicles
+
+This helps me design a scheme optimized for your army size!
+```
+
+**If no army list:**
+- Skip to Step 1
+- Continue with standard workflow
+
+**Benefits:**
+- Auto-calculate painting time estimates
+- Suggest batch painting order
+- Tailor complexity to army size
+- Link paint scheme to specific project
+
+**Output:** Army context (if available)
+
+---
+
 ### Step 1: Gather Painting Preferences
 
 **Greet user:**
@@ -66,6 +107,83 @@ User selects techniques they're comfortable with or want to learn.
 - Suggest based on skill level if new user
 
 **Output:** User preference profile
+
+---
+
+### Step 1.5: Select Paint Set Preset (NEW - Optional Fast Track)
+
+**Offer common paint set presets:**
+```
+Do you have one of these common paint sets? I can design using only those paints!
+```
+
+**Paint Set Presets:**
+
+**[AP] Army Painter Mega Paint Set (54 colors)**
+- Includes: Full color range, metallics, washes
+- Perfect for: Any scheme, beginner-friendly
+- **Auto-loads:** All 54 colors from set
+
+**[APS] Army Painter Speedpaints Set**
+- Includes: 24 Speedpaints + primers
+- Perfect for: Fast batch painting, one-coat schemes
+- **Auto-loads:** Speedpaint range
+
+**[CE] Citadel Essentials Set**
+- Includes: ~20 core paints + shades
+- Perfect for: Standard Games Workshop schemes
+- **Auto-loads:** Citadel starter colors
+
+**[VP] Vallejo Game Color Basic Set**
+- Includes: 16 basic colors
+- Perfect for: Traditional painting techniques
+- **Auto-loads:** Vallejo basics
+
+**[CI] Custom Inventory**
+- **Continue to Step 2:** Manual paint entry
+
+**If preset selected:**
+- Load complete paint inventory for that set
+- Skip Step 2 (inventory already known)
+- Jump to Step 3 (budget)
+- **Fast-track benefit:** Saves 5-10 minutes of workflow time
+
+**Preset Inventory Database:**
+
+```yaml
+Army Painter Mega Set:
+  base_colors:
+    - Matt Black, Matt White, Pure Red, Electric Blue, etc. (54 total)
+  metallics:
+    - Plate Mail Metal, Greedy Gold, Weapon Bronze
+  washes:
+    - Dark Tone, Strong Tone, Soft Tone
+  primers:
+    - Compatible with all Army Painter sprays
+
+Army Painter Speedpaints:
+  speedpaints:
+    - Holy White, Zealot Yellow, Grim Black, etc. (24 colors)
+  technique:
+    - One-coat painting over light primer
+
+Citadel Essentials:
+  base:
+    - Abaddon Black, Corax White, Mephiston Red, etc.
+  shade:
+    - Agrax Earthshade, Nuln Oil, Reikland Fleshshade
+  layer:
+    - Evil Sunz Scarlet, Calgar Blue, etc.
+```
+
+**Benefits:**
+- Instant paint inventory
+- Guaranteed scheme compatibility
+- Eliminates manual entry errors
+- Optimizes for what user actually owns
+- Common beginner purchase = fast onboarding
+
+**Output:** Paint inventory (if preset selected) OR continue to Step 2
 
 ---
 
@@ -258,8 +376,69 @@ Which lore elements do you want to preserve?
 4. **Suggest alternatives** from user's collection
 5. **Apply color theory** (complementary, analogous)
 6. **Match to skill level** (complexity check)
+7. **Generate 3-TIER SCHEME** (Speed/Standard/Advanced)
 
-**Generate scheme:**
+---
+
+## 🎨 3-TIER SCHEME APPROACH (FORMALIZED)
+
+**CRITICAL: All paint schemes MUST provide three tiers of complexity**
+
+This allows beginners to start fast and grow their skills progressively.
+
+### **TIER 1: SPEED PAINT** (Beginner Start Here)
+**Goal:** Tabletop ready FAST - 30-45min per model
+- Base colors only
+- Washes for automatic shading
+- Minimal highlighting (optional)
+- Perfect for: Batch painting troops, getting army on table quickly
+
+**Techniques:**
+- Basecoating
+- Washing/shading
+- (Optional) Drybrushing for quick highlights
+
+**Time Estimate:** Calculate based on army size from Step 0
+- Example: 30 models × 40min = 20 hours total
+
+### **TIER 2: STANDARD** (Add When Comfortable)
+**Goal:** Great tabletop quality - 45-75min per model
+- Everything from Tier 1
+- PLUS: Edge highlighting
+- PLUS: Layering on armor
+- Perfect for: Once user has painted 5-10 models and wants more
+
+**Techniques:**
+- All Tier 1 techniques
+- Edge highlighting (THE technique for crisp models)
+- Layering for smooth transitions
+- (Optional) Glazing for color shifts
+
+**Time Estimate:** +15-30min per model over Tier 1
+
+### **TIER 3: ADVANCED** (Future You / Characters)
+**Goal:** Display quality - 90-120+ min per model
+- Everything from Tier 2
+- PLUS: Smooth blending
+- PLUS: Advanced effects (NMM, OSL, battle damage)
+- PLUS: Freehand details
+- Perfect for: Characters, centerpiece models, showcase pieces
+
+**Techniques:**
+- All Tier 1 + 2 techniques
+- Wet blending
+- NMM (Non-Metallic Metal)
+- OSL (Object Source Lighting)
+- Battle damage/weathering
+- Freehand iconography
+
+**Time Estimate:** 2-4+ hours per model
+
+---
+
+## Scheme Presentation Format
+
+**Generate scheme in this structure:**
 ```markdown
 # Paint Scheme: Ultramarines (Lore-Flexible)
 
@@ -325,6 +504,31 @@ Lorekeeper notes: "Close enough to 'read' as Ultramarines at tabletop
 distance. The bronze trim actually evokes younger companies."
 ```
 
+**Include Painting Roadmap (if army list linked from Step 0):**
+```markdown
+## 🎯 Your Painting Roadmap
+
+### Phase 1: Speed Paint Your Army (Tier 1)
+Paint these first to get tabletop-ready quickly:
+- All {count} Troops units (Intercessors, Infiltrators, etc.)
+- {count} Fast Attack / Heavy Support units
+**Goal:** Fully painted army in ~{hours} hours total
+**Batch painting:** Do 5-10 models at once for efficiency
+
+### Phase 2: Level Up (Add Tier 2)
+Go back and upgrade quality:
+- Add edge highlights to {count} troops
+- Practice on "safe" models before characters
+**Goal:** Learn edge highlighting on forgiving models
+
+### Phase 3: Showcase Characters (Tier 3)
+Paint your centerpieces last:
+- HQ Characters (Captain, Librarian, etc.)
+- Elite units or special models
+- Dreadnoughts / Vehicles
+**Goal:** Display-worthy showcase pieces
+```
+
 **Present alternatives:**
 ```
 Want to see alternatives?
@@ -333,7 +537,7 @@ Want to see alternatives?
 [C] Custom colors (move away from lore)
 ```
 
-**Output:** Complete paint scheme with rationale
+**Output:** Complete 3-tier paint scheme with roadmap
 
 ---
 
@@ -428,6 +632,34 @@ Skill Level: Beginner-Intermediate
 **Update sidecar files:**
 - `brushmaster-sidecar/projects.md` - Add to active projects
 - `brushmaster-sidecar/techniques.md` - Update paint inventory
+
+**OPTIONAL: Create Unified Project (if army list linked):**
+
+Ask user:
+```
+Would you like me to create a unified hobby project to track your painting progress?
+
+This will link your army list + paint scheme and let you:
+- Track models painted over time
+- Log painting sessions with notes
+- See progress toward completion
+- Resume project anytime with "continue my {project_name}"
+
+[Y] Yes, create project
+[N] No, just save the scheme
+```
+
+If Yes:
+- Execute `track-project-progress` task:
+  ```yaml
+  project_name: "{faction} {points}pt Army"
+  project_type: "painting"
+  action: "create"
+  linked_army_list: "{path to army list}"
+  linked_paint_scheme: "{path to this scheme}"
+  ```
+- Display project created message
+- Show how to resume project
 
 **Present completion:**
 ```
