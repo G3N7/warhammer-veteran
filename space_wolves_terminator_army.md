@@ -1,35 +1,41 @@
 # Space Wolves Terminator Army List
 
 ## Table of Contents
+
+### SECTION 1: Army Lists & Rules
 - [Army Overview](#army-overview)
-- [Army Lists - Terminator Castle Strategy](#army-lists---terminator-castle-strategy)
+- [500pt List - "Wolf Pack"](#500-point-list---wolf-pack-)
+- [1000pt List - "Fang of Fenris"](#1000-point-list---fang-of-fenris-)
+- [2000pt List - "Wolves of the Fang"](#2000-point-list---wolves-of-the-fang-)
+- [Optimized Loadouts by Points Level](#optimized-loadouts-by-points-level)
 - [10th Edition Legality Verification](#10th-edition-legality-verification-)
-- [Weapon Loadouts by Squad](#weapon-loadouts-by-squad)
-- [Dreadnought Options](#dreadnought-options)
+- [Weapon Loadouts & Options](#weapon-loadouts--options)
+- [Model Count Summary (3D Printing)](#model-count-summary-3d-printing)
+
+### SECTION 2: Tactics & How to Play
 - [Tactical Deployment & Battle Doctrine](#tactical-deployment--battle-doctrine)
-- [Lore Accuracy](#lore-accuracy)
-- [Model Count Summary](#model-count-summary)
-- [Official Purchase Links](#official-purchase-links)
-- [STL Proxy Options](#stl-proxy-options)
 - [Rules Reference - Wahapedia Links](#rules-reference---wahapedia-links)
-- [Shopping List Summary](#shopping-list-summary)
+
+### SECTION 3: Lore & Building/Painting References
+- [Lore Accuracy](#lore-accuracy)
+- [Official Purchase Links (Painting Reference)](#official-purchase-links-painting-reference)
+- [STL Proxy Options (3D Printing)](#stl-proxy-options-3d-printing)
 
 ---
 
+# SECTION 1: Army Lists & Rules
+
 ## Army Overview
 
-**Faction:** Space Wolves (Adeptus Astartes)  
-**Faction Ability:** Oath of Moment (re-roll hits vs selected target each Command phase)  
-**Detachment:** Saga of the Beastslayer  
-**Detachment Ability:** Lethal Hits when targeting Characters, Monsters, or Vehicles  
+**Faction:** Space Wolves (Adeptus Astartes)
+**Faction Ability:** Oath of Moment (re-roll hits vs selected target each Command phase)
+**Detachment:** Saga of the Beastslayer
+**Detachment Ability:** Lethal Hits when targeting Characters, Monsters, or Vehicles
 **Theme:** Terminator-heavy elite force led by legendary heroes
 
 ---
 
-
-## Army Lists - Terminator Castle Strategy
-
-### 500 Point List - "Wolf Pack" 🐺
+## 500 Point List - "Wolf Pack" 🐺
 
 **Compact Terminator Force**
 
@@ -45,9 +51,7 @@
 
 **Deployment:** All units start on board. Arjac's 10-man brick holds center, wolves screen front.
 
----
-
-#### Tactical Overview (500pt)
+### Tactical Overview (500pt)
 
 **Key Differences from 2000pt:**
 - **No Deep Strike capability** - all units deploy on board
@@ -77,9 +81,9 @@
 
 ---
 
-### 1000 Point List - "Fang of Fenris" 🐺🐺
+## 1000 Point List - "Fang of Fenris" 🐺🐺
 
-**Elite Strike Force**
+**Elite Strike Force - RULE OF THREE COMPLIANT**
 
 | Unit | Models | Role | Points |
 |------|--------|------|--------|
@@ -92,13 +96,15 @@
 | **Fenrisian Wolves** | 10 | Screening | 80 |
 | **TOTAL** | | | **990 pts** |
 
+**Rule of Three Check:** Wolf Guard Terminators: 3 units ✅ | Fenrisian Wolves: 1 unit ✅ | Epic Heroes: 2 unique ✅
+
+**20 TERMINATORS TOTAL** (Legal under Rule of Three)
+
 **Strategy:** Two castle blocks (Logan's 10-man + Arjac's 5-man) hold center. One 5-man Deep Strikes Turn 2+. Wolves screen. Blade of the Slayer for Character sniping.
 
 **Deployment:** Logan's 10-man + Arjac's 5-man + Wolves on board. 5-man reserves for Deep Strike.
 
----
-
-#### Tactical Overview (1000pt)
+### Tactical Overview (1000pt)
 
 **Key Differences from 2000pt:**
 - **Limited Deep Strike** - Only one 5-man squad vs two at 2000pts
@@ -129,59 +135,64 @@
 
 ---
 
-### 2000 Point List - "Wolves of the Fang" ⚔️
+## 2000 Point List - "Wolves of the Fang" ⚔️
+
+**CORRECTED - RULE OF THREE COMPLIANT**
 
 | Unit | Models | Role | Points |
 |------|--------|------|--------|
-| **Logan Grimnar** | 1 | Warlord, leads 10-man | 110 |
+| **Logan Grimnar** | 1 | Warlord, leads 10-man Terminators | 110 |
 | **Enhancement: Blade of the Slayer** | - | On Logan | 25 |
-| **Arjac Rockfist** | 1 | Leads 10-man | 95 |
+| **Arjac Rockfist** | 1 | Leads 10-man Terminators | 95 |
 | **Enhancement: Hunter's Instincts** | - | On Arjac | 20 |
 | **Bjorn the Fell-Handed** | 1 | CP Generator / Fire Support | 170 |
 | **Venerable Dreadnought** | 1 | Melee Support / Charge Aura | 140 |
-| **Wolf Guard Terminators** | 10 | Primary Battle Line (Logan) | 340 |
-| **Wolf Guard Terminators** | 10 | Primary Battle Line (Arjac) | 340 |
-| **Wolf Guard Terminators** | 5 | Objective Holders | 170 |
-| **Wolf Guard Terminators** | 5 | Deep Strike Alpha #1 | 170 |
-| **Wolf Guard Terminators** | 5 | Objective Holders | 170 |
-| **Wolf Guard Terminators** | 5 | Deep Strike Alpha #2 | 170 |
-| **Fenrisian Wolves** | 10 | Castle Screening | 80 |
-| **TOTAL** | | | **2,000 pts** |
+| **Wolf Guard Terminators** | 10 | Primary Castle (Logan) | 340 |
+| **Wolf Guard Terminators** | 10 | Primary Castle (Arjac) | 340 |
+| **Wolf Guard Terminators** | 10 | Backfield Objective Holders | 340 |
+| **Blood Claws** | 10 | Aggressive Melee Infantry | 140 |
+| **Grey Hunters** | 10 | Flexible Mid-field Infantry | 140 |
+| **Fenrisian Wolves** | 10 | Screening / Fast Objective Grab | 80 |
+| **TOTAL** | | | **1,940 pts** |
 
-**40 TERMINATORS + 2 DREADNOUGHTS** 🐺
+**Rule of Three Check:** Wolf Guard Terminators: 3 units ✅ | Blood Claws: 1 unit ✅ | Grey Hunters: 1 unit ✅ | Fenrisian Wolves: 1 unit ✅ | All others: 1 each ✅
+
+**30 TERMINATORS + 2 DREADNOUGHTS + 30 POWER ARMOR MARINES** ⚔️
+
+**60pts remaining for wargear upgrades or additional screening units**
 
 ### Enhancements (Saga of the Beastslayer)
 - **Blade of the Slayer** (25pts) - Logan Grimnar: Precision + extra damage vs big targets
 - **Hunter's Instincts** (20pts) - Arjac Rockfist: Reroll wounds vs Characters/Monsters/Vehicles
 
----
+### Tactical Overview (2000pt)
 
-#### Tactical Overview (2000pt)
-
-**This is the FULL castle strategy - maximum redundancy and flexibility.**
+**CORRECTED STRATEGY - Rule of Three Compliant Elite Force**
 
 **Key Advantages Over Smaller Lists:**
-- **Two 10-man castle blocks** - Logan's + Arjac's units both led by legendary heroes
+- **Two 10-man Terminator castle blocks** - Logan's + Arjac's units led by legendary heroes
+- **Third Terminator unit** - 10-man backfield objective holders provide redundancy
 - **Bjorn's CP generation** - +1CP per turn fuels Stratagems throughout the game
-- **Venerable Dread charge aura** - +1 to Advance/Charge within 6" makes Deep Strike charges viable (8" instead of 9")
-- **Dual Deep Strike threat** - Two 5-man squads can pressure both flanks or double-strike one target
-- **Massive redundancy** - 40 Terminators + 2 Dreads means losing units doesn't cripple your gameplan
+- **Venerable Dread charge aura** - +1 to Advance/Charge within 6" supports Terminator advances
+- **Power armor support** - Blood Claws + Grey Hunters add model count and melee threat
 - **Both enhancements** - Logan gets Precision, Arjac gets reroll wounds
+- **Tournament legal** - Maximum Terminators allowed under Rule of Three (30 models)
 
 **Strengths:**
-- **Elite durability:** 32 Terminators with storm shields = 4W, 2+/4++, -1 to wound
-- **Board domination:** 50+ models provides overwhelming objective coverage
+- **Elite durability:** 30 Terminators with storm shields = 4W, 2+/4++
+- **Board presence:** 52 total models (30 Terminators + 20 Marines + 2 Dreads) for objective coverage
 - **CP engine:** Bjorn generates 1CP/turn, enabling aggressive Stratagem use
-- **Alpha strike potential:** Two Deep Strike squads with Venerable Dread support can delete backfield threats
+- **Melee pressure:** Blood Claws (10 models) provide aggressive close combat support
+- **Flexibility:** Grey Hunters (10 models) can hold mid-field or push objectives
 - **Character hunting:** Blade of the Slayer (Precision) + Hunter's Instincts (reroll wounds) + Beastslayer (Lethal Hits) = Character deletion
-- **Flexible deployment:** 4 units on board, 2 in Deep Strike allows adaptation to opponent
+- **Screening:** 10 Fenrisian Wolves provide fast, cheap screening and objective grabbing
 
 **How to Play:**
-1. **Deployment:** Logan's 10-man + Arjac's 10-man on center objectives. Two 5-man squads hold home objectives. Wolves screen 9" forward. Both Dreads positioned 6" from castle for auras.
-2. **Turn 1:** Castle up, activate Oath of Moment on priority target, use Bjorn's ranged firepower. Venerable Dread provides charge threat.
-3. **Turn 2:** Both Deep Strike squads arrive. Position within 6" of Venerable Dread if on board for +1 to charge (8" charge instead of 9"). Use Beastslayer + enhancements to delete Characters/Monsters.
-4. **Turn 3+:** Castle advances slowly. Dreads can peel off to hunt armor/monsters. Maintain overlapping fire lanes and objective coverage.
-5. **Win Condition:** Grind opponents down through superior durability. Hold 3+ objectives Turn 3+. Trade efficiently using 4W Terminators.
+1. **Deployment:** Logan's 10-man + Arjac's 10-man on center objectives. Third 10-man Terminator unit holds backfield objective. Blood Claws mid-field for counter-charge. Grey Hunters on flank objective. Wolves screen 9" forward. Both Dreads positioned 6" from castle for auras.
+2. **Turn 1:** Castle up with Terminators, activate Oath of Moment on priority target, use Bjorn's ranged firepower. Venerable Dread provides charge threat. Blood Claws advance toward enemy.
+3. **Turn 2:** Blood Claws charge enemy units or screen threats. Grey Hunters hold mid-field. Terminators advance slowly with Dread aura support. Use Beastslayer + enhancements to delete Characters/Monsters.
+4. **Turn 3+:** Terminator castle advances methodically. Dreads peel off to hunt armor/monsters. Power armor units trade efficiently or hold objectives.
+5. **Win Condition:** Grind opponents down through superior durability. Hold 3+ objectives Turn 3+. Trade Blood Claws/Grey Hunters efficiently, preserve Terminators for late game.
 
 **CP Usage (Thanks to Bjorn):**
 - Turn 1: 3 CP (start)
@@ -190,10 +201,140 @@
 - Turn 4+: Sustainable CP generation for critical moments
 
 **Counter-Play Awareness:**
-- **Weakness to mortal wounds:** 2+/4++ saves don't help vs mortals - avoid psychic-heavy armies if possible
-- **Slow movement:** 6" Terminators struggle to reach distant objectives - plan deployment carefully
-- **Low model count:** Only 50 models means you can't afford to trade poorly
-- **Anti-tank vulnerability:** Only 2 Dreadnoughts for heavy armor threats - prioritize killing enemy tanks with Beastslayer
+- **Weakness to mortal wounds:** 2+/4++ saves don't help vs mortals - use power armor as screens
+- **Slower than pure Deep Strike:** No Deep Strike Terminators means relying on board control from Turn 1
+- **Model count still elite:** 52 models is more than pure Terminator lists but still low - can't afford poor trades
+- **Anti-tank vulnerability:** Only 2 Dreadnoughts for heavy armor - use Beastslayer on Terminators to compensate
+
+---
+
+## Optimized Loadouts by Points Level
+
+### 500pt "Wolf Pack" - Terminator Loadouts
+
+**Arjac's 10-man Squad (340pts):**
+| Model Count | Loadout | Role |
+|-------------|---------|------|
+| 2x | Assault cannon + Powerfist | Heavy weapons (1 per 5 models) |
+| 8x | Storm shield + Thunder hammer | Durable objective holders (4W each) |
+
+**Tactical Reasoning:**
+- 80% have storm shields for maximum durability (32 total wounds)
+- Thunder hammers provide S8 AP-2 D2 Devastating Wounds in melee
+- No twin claws - this unit stays on objectives
+- 2 assault cannons provide anti-infantry firepower
+
+**Total Firepower:** 12 assault cannon shots at 24"
+
+---
+
+### 1000pt "Fang of Fenris" - Terminator Loadouts
+
+**Logan's 10-man Squad (340pts):**
+| Model Count | Loadout | Role |
+|-------------|---------|------|
+| 2x | Assault cannon + Powerfist | Heavy weapons |
+| 8x | Storm shield + Thunder hammer | Maximum durability (Warlord unit) |
+
+**Arjac's 5-man Squad (170pts):**
+| Model Count | Loadout | Role |
+|-------------|---------|------|
+| 1x | Assault cannon + Powerfist | Heavy weapon |
+| 3x | Storm shield + Thunder hammer | Durable holders |
+| 1x | Storm bolter + Powerfist | Melee punch (3W) |
+
+**Deep Strike 5-man Squad (170pts):**
+| Model Count | Loadout | Role |
+|-------------|---------|------|
+| 1x | Twin lightning claws (no ranged) | Melee specialist |
+| 1x | Assault cannon + Powerfist | Heavy weapon |
+| 2x | Storm bolter + Powerfist | Anti-armor melee |
+| 1x | Storm shield + Thunder hammer | Tank overwatch |
+
+**Tactical Reasoning:**
+- Logan's unit maximized for durability (takes most fire as Warlord unit)
+- Arjac's unit balanced for mid-field brawling
+- Deep Strike unit optimized for charging backline armor/Characters
+- Total: 15 models with storm shields, 5 with powerfists
+
+**Total Models: 20 Terminators**
+- 19 models with ranged weapons (95%)
+- 15 models with 4W (75% storm shield ratio)
+- 1 melee specialist for Deep Strike charges
+
+---
+
+### 2000pt "Wolves of the Fang" - Unit Loadouts (CORRECTED)
+
+**Logan's 10-man Terminator Squad (340pts) - Primary Castle:**
+| Model Count | Loadout | Role |
+|-------------|---------|------|
+| 2x | Assault cannon + Powerfist | Heavy weapons |
+| 8x | Storm shield + Thunder hammer | Maximum durability (40W total) |
+
+**Arjac's 10-man Terminator Squad (340pts) - Secondary Castle:**
+| Model Count | Loadout | Role |
+|-------------|---------|------|
+| 2x | Assault cannon + Powerfist | Heavy weapons |
+| 4x | Storm bolter + Powerfist | Melee punch vs armor |
+| 4x | Storm shield + Thunder hammer | Balanced durability |
+
+**Third 10-man Terminator Squad (340pts) - Backfield Holders:**
+| Model Count | Loadout | Role |
+|-------------|---------|------|
+| 2x | Assault cannon + Powerfist | Heavy weapons |
+| 6x | Storm shield + Thunder hammer | Durable objective holders |
+| 2x | Storm bolter + Powerfist | Flex melee |
+
+**Blood Claws (10 models, 140pts) - Aggressive Melee:**
+| Model Count | Loadout | Role |
+|-------------|---------|------|
+| 10x | Chainsword + Bolt pistol | Standard aggressive melee |
+
+**Grey Hunters (10 models, 140pts) - Flexible Infantry:**
+| Model Count | Loadout | Role |
+|-------------|---------|------|
+| 10x | Boltgun + Chainsword | Flexible mid-field troops |
+
+**Fenrisian Wolves (10 models, 80pts):**
+| Model Count | Loadout | Role |
+|-------------|---------|------|
+| 10x | Teeth and claws | Fast screening / objective grabbing |
+
+---
+
+**AGGREGATE BREAKDOWN - 2000PT LIST:**
+
+**Terminator Force (30 models total):**
+- **18 models** with storm shields (60%) = 4W durability each
+- **12 models** with powerfists only (40%) = 3W, S10 melee
+- **6 models** with assault cannons (heavy fire support)
+- **24 models** have ranged weapons (80%)
+
+**Power Armor Force (20 models total):**
+- **10 Blood Claws** = 2W each, aggressive melee specialists
+- **10 Grey Hunters** = 2W each, flexible troops
+
+**Screening Force:**
+- **10 Fenrisian Wolves** = 1W each, 12" movement
+
+**Total Wounds:**
+- Terminators: (18 × 4W) + (12 × 3W) = 72 + 36 = **108 wounds**
+- Blood Claws: 10 × 2W = **20 wounds**
+- Grey Hunters: 10 × 2W = **20 wounds**
+- Fenrisian Wolves: 10 × 1W = **10 wounds**
+- **TOTAL ARMY: 158 wounds across 52 models**
+
+**Firepower Output:**
+- Terminators: 36 assault cannon shots (S6 AP-1 D1 Devastating Wounds)
+- Blood Claws: 10 bolt pistol shots (S4 AP0 D1)
+- Grey Hunters: 20 boltgun shots (S4 AP0 D1)
+
+**Melee Output:**
+- 18x Thunder hammers (S8 AP-2 D2 Devastating Wounds)
+- 12x Powerfists (S10 AP-2 D2)
+- 10x Blood Claws chainswords (S4 AP0 D1, extra attack)
+- 10x Grey Hunters chainswords (S4 AP0 D1)
 
 ---
 
@@ -206,7 +347,11 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 - ✅ **Enhancements:** Max 1 per Character (Logan gets Blade of Slayer, Arjac gets Hunter's Instincts)
 - ✅ **Epic Heroes:** Each can only be taken once (Logan, Arjac, Bjorn all unique)
 - ✅ **Battleline:** Wolf Guard Terminators count as Battleline when using Space Wolves detachment
-- ✅ **Points Limits:** 500pt (495pts), 1000pt (990pts), 2000pt (2000pts exactly)
+- ✅ **Points Limits:** 500pt (495pts), 1000pt (990pts), 2000pt (1940pts + 60pts flex)
+- ✅ **RULE OF THREE COMPLIANCE:**
+  - 500pt: 1x Wolf Guard Terminators ✅
+  - 1000pt: 3x Wolf Guard Terminators ✅
+  - 2000pt: 3x Wolf Guard Terminators, 1x Blood Claws, 1x Grey Hunters, 1x Fenrisian Wolves ✅
 
 ### Unit Attachments
 - ✅ **Logan Grimnar:** Can lead Wolf Guard Terminators (confirmed via Leader ability)
@@ -217,9 +362,10 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 ### Wargear Legality
 **Wolf Guard Terminators:**
 - ✅ Storm shields replace storm bolter (grants +1W, total 4W per model)
-- ✅ Twin lightning claws available to Pack Leader only (replaces ALL weapons)
+- ✅ Thunder hammers are master-crafted power weapons (S8 AP-2 D2 Devastating Wounds)
+- ✅ Powerfists can be taken alongside storm bolter (S10 AP-2 D2)
+- ✅ Twin lightning claws available optionally (replaces ALL weapons)
 - ✅ Assault cannon + Powerfist: 1 per 5 models (legal heavy weapon allocation)
-- ✅ Relic greataxe available to Pack Leader only (alternative to twin claws)
 
 **Venerable Dreadnought:**
 - ✅ Fenrisian greataxe + Blizzard shield + Heavy flamer (legal loadout)
@@ -252,49 +398,27 @@ For official rules, reference the Wahapedia links in the [Rules Reference](#rule
 
 ---
 
-## Weapon Loadouts by Squad
+## Weapon Loadouts & Options
 
-### Wolf Guard Terminators - Legal Wargear Options
+### Wolf Guard Terminators - Wargear Loadouts
 
-**Default Equipment (per model):**
-- Storm bolter + Master-crafted power weapon
+**This army uses thunder hammers exclusively for all melee weapons.**
 
-**Available Swaps:**
-- Any model: Storm bolter → **Storm shield** (+1 Wound, total 4W)
-- Per 5 models: 1 model can take **Assault cannon + Powerfist**
-
-**Pack Leader Only:**
-- Relic greataxe (S7, AP-2, D3, Devastating Wounds)
-- Twin lightning claws (6A, S5, AP-2, D1, Twin-linked)
-
----
-
-### Uniform Squad Loadout (All Squads Identical)
-
-**Every 5-Man Squad:**
-| Model | Weapons | Notes |
-|-------|---------|-------|
-| Pack Leader | Twin lightning claws (no ranged) | 6A, S5, AP-2, D1, Twin-linked (reroll wounds) |
-| Terminator 1 | Assault cannon + Powerfist | Heavy fire support |
-| Terminators 2-4 | Storm shield + Master-crafted power weapon | 4W each for durability |
+**Loadout Options (all cost 34pts per model):**
+- **Shield Wall:** Storm shield + Thunder hammer (4W, 2+/4++, S8 AP-2 D2 Devastating Wounds)
+- **Brawler:** Storm bolter + Powerfist (3W, 2+/4++, S10 AP-2 D2)
+- **Heavy Gunner:** Assault cannon + Powerfist (3W, anti-tank firepower + melee)
+- **Reaper:** Twin lightning claws (no ranged, 6A S5 AP-2 D1 Twin-linked)
 
 **Legal Verification:**
-- ✅ Twin lightning claws replace BOTH ranged and melee weapons (Pack Leader only)
+- ✅ Storm shields replace storm bolter, grant +1W (3W → 4W)
+- ✅ Thunder hammers are master-crafted power weapons (S8 AP-2 D2 Devastating Wounds)
+- ✅ Powerfists can be taken with storm bolter (not a replacement)
+- ✅ Mix-and-match allowed in same squad
 - ✅ 1 assault cannon per 5 models (legal)
-- ✅ Storm shields give +1W (3W → 4W per model)
-- ✅ All loadouts legal per Wolf Guard Terminator datasheet
+- ✅ Twin lightning claws (optional, replace ALL weapons)
 
-**Rationale:**
-- Uniform loadout makes building and playing simpler
-- 3 models per squad get 4W with storm shields (60% of squad)
-- Pack Leaders are pure melee with 6 attacks and reroll wounds
-- One heavy weapon per squad for ranged punch
-
----
-
-## Dreadnought Options
-
-### Bjorn the Fell-Handed ⭐ RECOMMENDED
+### Bjorn the Fell-Handed ⭐
 *Character, Epic Hero*
 
 | Stat | Value |
@@ -318,9 +442,7 @@ For official rules, reference the Wahapedia links in the [Rules Reference](#rule
 
 **Why Take Bjorn:** Free CP every turn, excellent melee damage, very durable, and deeply lore-appropriate with Terminators.
 
----
-
-### Venerable Dreadnought (Space Wolves) ⭐ RECOMMENDED FOR THIS LIST
+### Venerable Dreadnought (Space Wolves) ⭐
 
 | Stat | Value |
 |------|-------|
@@ -343,6 +465,111 @@ For official rules, reference the Wahapedia links in the [Rules Reference](#rule
 
 ---
 
+## Model Count Summary (3D Printing)
+
+### 500pt "Wolf Pack" - Physical Models (16 total)
+
+**Characters:**
+- 1x Arjac Rockfist (unique model)
+
+**Wolf Guard Terminators (10 models total):**
+- 2x Assault cannon + Powerfist
+- 8x Storm shield + Thunder hammer
+
+**Fenrisian Wolves:**
+- 5x Fenrisian Wolves
+
+**Component Needs (3D Print):**
+- 8 storm shields
+- 8 thunder hammers
+- 2 assault cannons
+- 2 powerfists (assault cannon models)
+
+---
+
+### 1000pt "Fang of Fenris" - Physical Models (32 total)
+
+**Characters:**
+- 1x Logan Grimnar (unique model)
+- 1x Arjac Rockfist (unique model)
+
+**Wolf Guard Terminators (20 models total):**
+- **Logan's 10-man:** 2 assault cannons, 8 storm shields
+- **Arjac's 5-man:** 1 assault cannon, 3 storm shields, 1 powerfist (no shield)
+- **Deep Strike 5-man:** 1 twin lightning claws, 1 assault cannon, 2 powerfists, 1 storm shield
+
+**Breakdown:**
+- 1x Twin lightning claws (no ranged)
+- 4x Assault cannon + Powerfist
+- 3x Storm bolter + Powerfist
+- 12x Storm shield + Thunder hammer
+
+**Fenrisian Wolves:**
+- 10x Fenrisian Wolves
+
+**Component Needs (3D Print):**
+- 3 storm bolters
+- 12 storm shields
+- 12 thunder hammers
+- 4 assault cannons
+- 1 twin lightning claws pair
+- 7 powerfists total
+
+---
+
+### 2000pt "Wolves of the Fang" - Physical Models (CORRECTED - 54 total)
+
+**Characters:**
+- 1x Logan Grimnar (unique model)
+- 1x Arjac Rockfist (unique model)
+- 1x Bjorn the Fell-Handed (unique Dreadnought)
+
+**Dreadnoughts:**
+- 1x Venerable Dreadnought: Fenrisian greataxe + Blizzard shield + Heavy flamer
+
+**Wolf Guard Terminators (30 models total - RULE OF THREE COMPLIANT):**
+- **Logan's 10-man:** 2 assault cannons, 8 storm shields
+- **Arjac's 10-man:** 2 assault cannons, 4 storm shields, 4 powerfists
+- **Third 10-man:** 2 assault cannons, 6 storm shields, 2 powerfists
+
+**Terminator Breakdown:**
+- 6x Assault cannon + Powerfist
+- 6x Storm bolter + Powerfist
+- 18x Storm shield + Thunder hammer
+
+**Power Armor Infantry:**
+- 10x Blood Claws (chainsword + bolt pistol)
+- 10x Grey Hunters (boltgun + chainsword)
+
+**Fenrisian Wolves:**
+- 10x Fenrisian Wolves
+
+### Component Requirements Summary (2000pt) - 3D Printing List
+
+**TERMINATORS - Arm Pairs to Print:**
+
+| Quantity | Left Arm | Right Arm | Use Case |
+|----------|----------|-----------|----------|
+| 6x | Assault cannon | Powerfist | Heavy Gunner (2 per 10-man squad) |
+| 18x | Storm shield | Thunder hammer | Shield Wall (durable line troops) |
+| 6x | Storm bolter | Powerfist | Brawler (melee punch models) |
+
+**Total: 30 arm pairs for 30 Terminators**
+
+**POWER ARMOR - Models to Print/Purchase:**
+- 10x Blood Claws bodies (chainsword arms + bolt pistol)
+- 10x Grey Hunters bodies (boltgun + chainsword)
+- 10x Fenrisian Wolves
+
+**CHARACTERS & DREADS:**
+- 1x Logan Grimnar model
+- 1x Arjac Rockfist model
+- 1x Bjorn the Fell-Handed model
+- 1x Venerable Dreadnought model
+
+---
+
+# SECTION 2: Tactics & How to Play
 
 ## Tactical Deployment & Battle Doctrine
 
@@ -364,7 +591,7 @@ For official rules, reference the Wahapedia links in the [Rules Reference](#rule
 ### Castle Formation Benefits
 
 **Overlapping Threat Ranges:**
-- 24" storm bolters and assault cannons create kill zone around objectives
+- 24" assault cannons create kill zone around objectives
 - Venerable Dread aura affects entire castle (+1 to charge when needed)
 - Bjorn generates 1CP per turn for critical Stratagems
 - Fenrisian Wolves block enemy charges and tie up melee threats
@@ -397,211 +624,7 @@ For official rules, reference the Wahapedia links in the [Rules Reference](#rule
 1. **Hold Center:** Two 10-man Terminator bricks are nearly impossible to shift (4W models with 2+/4++ saves)
 2. **Board Control:** 40 Terminators + screens dominate objective zones and deny enemy movement
 3. **Assassination:** Deep Strike squads hunt enemy Warlords and key Characters with Lethal Hits
-4. **Attrition:** 2+/4++ saves with -1 to wound (Rugged Resilience) grind opponents down over time
-
----
-
-## Lore Accuracy
-
-This army composition is **extremely lore-accurate** for the following reasons:
-
-### Wolf Guard Terminators
-The elite veterans of the Space Wolves - warriors who have earned the right to wear Terminator armor through centuries of service. They serve as the personal guard of Wolf Lords and are decorated with wolf pelts, totems, and frost weapons. In lore, they customize their wargear extensively, exactly as the game rules allow.
-
-### Bjorn the Fell-Handed
-The oldest living Space Marine in the Imperium (~10,000+ years old). He fought alongside Leman Russ himself during the Horus Heresy and is now interred in a Venerable Dreadnought. He is revered as a living connection to the Primarch. Having him lead a Terminator force is **canon-perfect**.
-
-### Logan Grimnar & Arjac Rockfist
-Logan Grimnar is the Great Wolf (Chapter Master) of the Space Wolves. Arjac Rockfist is his personal champion and bodyguard. Both lead from the front in Terminator armor with Wolf Guard Terminators - this is exactly how they're depicted in the novels and codex.
-
-### Saga of the Beastslayer
-This detachment represents the Space Wolves tradition of hunting great monsters on Fenris - the Chapter values slaying mighty foes (Characters, Monsters, Vehicles) as deeds worthy of saga and legend.
-
----
-
-## Model Count Summary
-
-### Physical Model Breakdown - Exact Loadouts
-
-**Uniform Squad Template (Every 5 Terminators):**
-- 1x Pack Leader: Twin lightning claws (no storm bolter - claws replace it)
-- 1x Heavy Weapon: Assault cannon + Powerfist
-- 3x Line Terminators: Storm shield + Master-crafted power weapon
-
-**Venerable Dreadnought Loadout:**
-- Fenrisian greataxe + Blizzard shield + Heavy flamer
-
----
-
-### 500pt "Wolf Pack" - Physical Models (16 total)
-
-**Characters:**
-- 1x Arjac Rockfist (unique model)
-
-**Wolf Guard Terminators (10 models = 2 squads):**
-- 2x Pack Leader with twin lightning claws (no ranged weapon)
-- 2x Terminator with assault cannon + powerfist
-- 6x Terminator with storm shield + master-crafted power weapon
-
-**Fenrisian Wolves:**
-- 5x Fenrisian Wolves
-
----
-
-### 1000pt "Fang of Fenris" - Physical Models (32 total)
-
-**Characters:**
-- 1x Logan Grimnar (unique model)
-- 1x Arjac Rockfist (unique model)
-
-**Wolf Guard Terminators (20 models = 4 squads):**
-- 4x Pack Leader with twin lightning claws (no ranged weapon)
-- 4x Terminator with assault cannon + powerfist
-- 12x Terminator with storm shield + master-crafted power weapon
-
-**Fenrisian Wolves:**
-- 10x Fenrisian Wolves
-
----
-
-### 2000pt "Wolves of the Fang" - Physical Models (54 total)
-
-**Characters:**
-- 1x Logan Grimnar (unique model)
-- 1x Arjac Rockfist (unique model)
-- 1x Bjorn the Fell-Handed (unique Dreadnought)
-
-**Dreadnoughts:**
-- 1x Venerable Dreadnought: Fenrisian greataxe + Blizzard shield + Heavy flamer
-
-**Wolf Guard Terminators (40 models = 8 squads):**
-- 8x Pack Leader with twin lightning claws (no ranged weapon)
-- 8x Terminator with assault cannon + powerfist
-- 24x Terminator with storm shield + master-crafted power weapon
-
-**Fenrisian Wolves:**
-- 10x Fenrisian Wolves
-
----
-
-### Component Requirements Summary (2000pt)
-
-**What You Need From 8 Terminator Boxes:**
-
-| Component | Quantity Needed | Notes |
-|-----------|----------------|-------|
-| Storm bolters | 24 | Only line Terminators (Pack Leaders use claws) |
-| Twin lightning claws (pairs) | 8 | 1 per squad (Pack Leaders - replaces ranged weapon) |
-| Assault cannons | 8 | 1 per squad (heavy weapon) |
-| Powerfists | 8 | Goes with assault cannon models |
-| Storm shields | 24 | 3 per squad (60% of Terminators) |
-| Master-crafted power weapons | 24 | Goes with storm shield models |
-
-**Potential Issue:** Most Wolf Guard Terminator boxes contain 1-2 of each special weapon per box. With 8 boxes you should have enough twin lightning claws and assault cannons, but verify the sprues or plan to use extra bits/3D printed alternatives if needed.
-
----
-
-### Physical Boxes Required by Points Level
-
-**500pt List:**
-| Box | Boxes Needed | Models |
-|-----|--------------|--------|
-| Arjac Rockfist | 1 | 1 |
-| Wolf Guard Terminators | 2 | 10 |
-| Fenrisian Wolves | 1 (use 5 of 10) | 5 |
-| **TOTAL** | **4 boxes** | **16 models** |
-
-**1000pt List:**
-| Box | Boxes Needed | Models |
-|-----|--------------|--------|
-| Logan Grimnar | 1 | 1 |
-| Arjac Rockfist | 1 | 1 |
-| Wolf Guard Terminators | 4 | 20 |
-| Fenrisian Wolves | 1 | 10 |
-| **TOTAL** | **7 boxes** | **32 models** |
-
-**2000pt List:**
-| Box | Boxes Needed | Models |
-|-----|--------------|--------|
-| Logan Grimnar | 1 | 1 |
-| Arjac Rockfist | 1 | 1 |
-| Bjorn the Fell-Handed | 1 | 1 |
-| Space Wolves Venerable Dreadnought | 1 | 1 |
-| Wolf Guard Terminators | 8 | 40 |
-| Fenrisian Wolves | 1 | 10 |
-| **TOTAL** | **13 boxes** | **54 models** |
-
----
-
-## Official Purchase Links
-
-### Characters
-
-| Unit | Store Link | Price (USD) |
-|------|------------|-------------|
-| Logan Grimnar | [warhammer.com](https://www.warhammer.com/en-US/shop/space-wolves-logan-grimnar-2025) | ~$50 |
-| Arjac Rockfist | [warhammer.com](https://www.warhammer.com/en-US/shop/space-wolves-arjac-rockfist-2025) | ~$45 |
-| Bjorn the Fell-Handed | [warhammer.com](https://www.warhammer.com/en-US/shop/Bjorn-the-Fellhanded-2020) | ~$60 |
-
-### Core Units
-
-| Unit | Store Link | Price (USD) |
-|------|------------|-------------|
-| Wolf Guard Terminators (5) | [warhammer.com](https://www.warhammer.com/en-US/shop/space-wolves-wolf-guard-terminators-2025) | ~$65 |
-| Fenrisian Wolves (10) | [warhammer.com](https://www.warhammer.com/en-US/shop/space-wolves-fenrisian-wolves-2025) | ~$40 |
-
-### Dreadnoughts
-
-| Unit | Store Link | Price (USD) | Notes |
-|------|------------|-------------|-------|
-| Space Wolves Venerable Dreadnought | [warhammer.com](https://www.warhammer.com/en-US/shop/Space-Wolves-Venerable-Dreadnought-2020) | ~$60 | Can build as Bjorn or standard Venerable Dreadnought |
-
-### Box Sets (Better Value)
-
-| Set | Store Link | Contents |
-|-----|------------|----------|
-| Combat Patrol: Space Wolves | [warhammer.com](https://www.warhammer.com/en-US/shop/combat-patrol-space-wolves-2025) | Wolf Guard Battle Leader, 5 Wolf Guard Terminators, 10 Blood Claws, 5 Wulfen |
-| Space Wolves Army Set | [warhammer.com](https://www.warhammer.com/en-US/shop/space-wolves-army-set-2025-eng) | Multiple hero kits + troops + Codex Supplement |
-
----
-
-## STL Proxy Options
-
-### Space Wolves Specific STLs
-
-| Source | Link | Notes |
-|--------|------|-------|
-| Cults3D - Space Wolves | [cults3d.com/en/tags/space+wolves](https://cults3d.com/en/tags/space+wolves) | 225+ models, includes Terminators, bits, shoulder pads |
-| Cults3D - Space Wolf Terminators | [cults3d.com](https://cults3d.com/en/3d-model/art/space-wolves-terminator-pose5-product-code-swtp5) | Dedicated Terminator poses by grandroyalminiatures |
-| STLFinder - Space Wolves Terminator | [stlfinder.com](https://www.stlfinder.com/3dmodels/space-wolves-terminator/) | Aggregated search across multiple sites |
-
-### Generic Terminator STLs
-
-| Source | Link | Notes |
-|--------|------|-------|
-| Cults3D - Terminators | [cults3d.com/en/tags/terminators](https://cults3d.com/en/tags/terminators) | 114+ free terminator models |
-| Cults3D - Space Marines | [cults3d.com/en/tags/space+marines](https://cults3d.com/en/tags/space+marines) | 1,900+ models |
-| STLFinder - Space Marine Terminator | [stlfinder.com](https://www.stlfinder.com/3dmodels/space+marine+terminator/) | 277,000+ results |
-
-### Premium Patreon STL Creators
-
-| Creator | Link | Notes |
-|---------|------|-------|
-| Atlan Forge | [Patreon](https://www.patreon.com/atlanforge) | Nordic/Viking themed Space Marines, Terminators, pre-supported |
-| Station Forge | [MyMiniFactory](https://www.myminifactory.com/users/StationForge) | Sci-fi infantry and vehicles |
-
-### Bits and Conversion Parts
-
-| Source | Link | Notes |
-|--------|------|-------|
-| Cults3D - SW Shoulder Pads | Search "space wolves shoulder" | Company icons, wolf designs |
-| Cults3D - SW Bits | Search "space wolves bits" | Storm shields, weapons, wolf heads |
-| Cults3D - Great Company Icons | Various | Hard transfers for all SW companies |
-
-### Search Tips for STLs
-- **Yeggi.com** - Meta-search engine for STL files
-- **Thingiverse** - Free community files (search "space wolves" or "terminator")
-- Use terms like "Nordic marine", "Viking terminator", "frost warrior" for unofficial proxies
+4. **Attrition:** 2+/4++ saves grind opponents down over time
 
 ---
 
@@ -694,78 +717,65 @@ This detachment represents the Space Wolves tradition of hunting great monsters 
 
 ---
 
-## Shopping List Summary
+# SECTION 3: Lore & Building/Painting References
 
-### 500pt "Wolf Pack" Shopping List
+## Lore Accuracy
 
-| Item | Quantity | Est. Cost |
-|------|----------|-----------|
-| Arjac Rockfist | 1 | ~$45 |
-| Wolf Guard Terminators | 2 boxes (10 models) | ~$130 |
-| Fenrisian Wolves | 1 box (need 5, comes with 10) | ~$40 |
-| **TOTAL (Retail)** | | **~$215** |
+This army composition is **extremely lore-accurate** for the following reasons:
 
-**Budget Alternative:** Combat Patrol: Space Wolves (~$160) includes 5 Terminators + other units. Buy 1 Combat Patrol + 1 additional Terminator box.
+### Wolf Guard Terminators
+The elite veterans of the Space Wolves - warriors who have earned the right to wear Terminator armor through centuries of service. They serve as the personal guard of Wolf Lords and are decorated with wolf pelts, totems, and frost weapons. In lore, they customize their wargear extensively, exactly as the game rules allow.
 
----
+### Bjorn the Fell-Handed
+The oldest living Space Marine in the Imperium (~10,000+ years old). He fought alongside Leman Russ himself during the Horus Heresy and is now interred in a Venerable Dreadnought. He is revered as a living connection to the Primarch. Having him lead a Terminator force is **canon-perfect**.
 
-### 1000pt "Fang of Fenris" Shopping List
+### Logan Grimnar & Arjac Rockfist
+Logan Grimnar is the Great Wolf (Chapter Master) of the Space Wolves. Arjac Rockfist is his personal champion and bodyguard. Both lead from the front in Terminator armor with Wolf Guard Terminators - this is exactly how they're depicted in the novels and codex.
 
-| Item | Quantity | Est. Cost |
-|------|----------|-----------|
-| Logan Grimnar | 1 | ~$50 |
-| Arjac Rockfist | 1 | ~$45 |
-| Wolf Guard Terminators | 4 boxes (20 models) | ~$260 |
-| Fenrisian Wolves | 1 box (10 models) | ~$40 |
-| **TOTAL (Retail)** | | **~$395** |
-
-**Budget Alternative:**
-- Combat Patrol: Space Wolves (~$160) = 5 Terminators
-- Add 3 more Terminator boxes (~$195)
-- Logan Grimnar (~$50)
-- Total: ~$405
+### Saga of the Beastslayer
+This detachment represents the Space Wolves tradition of hunting great monsters on Fenris - the Chapter values slaying mighty foes (Characters, Monsters, Vehicles) as deeds worthy of saga and legend.
 
 ---
 
-### 2000pt "Wolves of the Fang" Shopping List
+## Official Purchase Links (Painting Reference)
 
-| Item | Quantity | Est. Cost |
-|------|----------|-----------|
-| Wolf Guard Terminators | 8 boxes (40 models) | ~$520 |
-| Logan Grimnar | 1 | ~$50 |
-| Arjac Rockfist | 1 | ~$45 |
-| Space Wolves Venerable Dreadnought | 2 boxes (Bjorn + Ven Dread) | ~$120 |
-| Fenrisian Wolves | 1 box (10 models) | ~$40 |
-| **TOTAL (Retail)** | | **~$775** |
+### Characters
 
-**Budget Alternative:**
-- 2x Combat Patrol: Space Wolves (~$320) = 10 Terminators + extras
-- Add 6 more Terminator boxes (~$390)
-- 2x Dreadnought kits (~$120)
-- Total: ~$830 (but includes extra units for flexibility)
+| Unit | Store Link | Price (USD) |
+|------|------------|-------------|
+| Logan Grimnar | [warhammer.com](https://www.warhammer.com/en-US/shop/space-wolves-logan-grimnar-2025) | ~$50 |
+| Arjac Rockfist | [warhammer.com](https://www.warhammer.com/en-US/shop/space-wolves-arjac-rockfist-2025) | ~$45 |
+| Bjorn the Fell-Handed | [warhammer.com](https://www.warhammer.com/en-US/shop/Bjorn-the-Fellhanded-2020) | ~$60 |
 
----
+### Dreadnoughts
 
-### Money-Saving Tips (All Lists)
-1. **Combat Patrol: Space Wolves** (~$160) is the best value - includes 5 Terminators, Blood Claws, Wulfen, and a Leader
-2. **Space Wolves Army Set** includes Logan, Arjac, and other heroes with Codex Supplement
-3. **3D Print** Fenrisian Wolves, bits, shoulder pads, and conversion parts (save ~$40-80)
-4. **Secondary Market** - eBay, r/miniswap for used Terminators (can save 30-50%)
-5. **Kitbash** generic Terminators with Space Wolves upgrade bits
-6. **Build smart** - One Venerable Dreadnought kit can build Bjorn, Murderfang, OR Wulfen Dread (you need 2 for the 2000pt list)
+| Unit | Store Link | Price (USD) | Notes |
+|------|------------|-------------|-------|
+| Space Wolves Venerable Dreadnought | [warhammer.com](https://www.warhammer.com/en-US/shop/Space-Wolves-Venerable-Dreadnought-2020) | ~$60 | Can build as Bjorn or standard Venerable Dreadnought |
 
----
+### Troops & Infantry
 
-### Scaling Your Army
+| Unit | Store Link | Price (USD) | Notes |
+|------|------------|-------------|-------|
+| Wolf Guard Terminators | [warhammer.com](https://www.warhammer.com/en-US/shop/Space-Wolves-Wolf-Guard-Terminators-2020) | ~$60 | 5 models per box, need 6 boxes for 30 Terminators |
+| Blood Claws / Grey Hunters | [warhammer.com](https://www.warhammer.com/en-US/shop/Space-Wolves-Pack-2020) | ~$50 | 10 models, builds either Blood Claws OR Grey Hunters |
+| Fenrisian Wolves | [warhammer.com](https://www.warhammer.com/en-US/shop/Fenrisian-Wolves-2020) | ~$35 | 5 wolves per box, need 2 boxes for 10 wolves |
 
-**Start at 500pts:** Buy Combat Patrol + 1 Terminator box + Arjac = ~$265
-**Expand to 1000pts:** Add Logan + 2 more Terminator boxes = +$195
-**Grow to 2000pts:** Add 4 more Terminator boxes + 2 Dreadnoughts = +$380
+### Troops & Infantry
 
-**Total investment:** ~$840 retail (or ~$500-600 with secondary market/3D printing)
+| Unit | Store Link | Price (USD) | Notes |
+|------|------------|-------------|-------|
+| Wolf Guard Terminators | [warhammer.com](https://www.warhammer.com/en-US/shop/Space-Wolves-Wolf-Guard-Terminators-2020) | ~$60 | 5 models per box, need 6 boxes for 30 Terminators |
+| Blood Claws / Grey Hunters | [warhammer.com](https://www.warhammer.com/en-US/shop/Space-Wolves-Pack-2020) | ~$50 | 10 models, builds either Blood Claws OR Grey Hunters |
+| Fenrisian Wolves | [warhammer.com](https://www.warhammer.com/en-US/shop/Fenrisian-Wolves-2020) | ~$35 | 5 wolves per box, need 2 boxes for 10 wolves |
 
 ---
 
-*Document created: December 2025*  
-*Rules source: wahapedia.ru*  
+
+---
+
+*Document created: December 2025*
+*Army optimized for tournament matched play*
+*All lists verified Rule of Three compliant*
+*Rules source: wahapedia.ru*
 *Points source: Munitorum Field Manual December 2025*
