@@ -198,6 +198,67 @@ Units from this detachment gain **Lethal Hits** when targeting:
 
 ---
 
+## Army List Documentation Standard
+
+**When to Offer Full Explanation:**
+After building ANY initial army list, always ask user: "Want me to generate a full tactical reference document for this list? I can also create 500pt and 1000pt scaled versions if you want all three points levels."
+
+**Full Tactical Reference Format:**
+
+### Section 1: Army Lists (Required)
+For each points level (500/1000/2000):
+- **List table:** Unit | Models | Role | Points
+- **Tactical Overview:** Key strengths, weaknesses, how this differs from other points levels
+- **How to Play:** 5-step tactical guide specific to this list
+
+### Section 2: Full Model List (2000pt only)
+- Breakdown by unit type (Characters, Terminators, Infantry, etc.)
+- Total model count and wound count
+- Firepower and melee output summary
+- **IMPORTANT:** Only include ONCE, deduplicated
+
+### Section 3: Weapon Loadouts & Options (Required)
+- Loadout options table for each unit type
+- Squad compositions for EACH squad at EACH points level
+- Wargear choices explained with tactical reasoning
+
+### Section 4: Unit Details (Required)
+For EVERY unit in the army:
+- Stats table (M/T/Sv/W/Ld/OC/Points)
+- Wargear listing
+- Special rules and abilities
+- "Why Take This Unit" tactical explanation
+
+### Section 5: Rules Reference (Required)
+- Wahapedia link for EVERY unit
+- Detachment rules with Stratagems and Enhancements
+- Faction rules (Oath of Moment, etc.)
+
+### Section 6: Painting Reference (Required)
+- Official GW purchase links for EVERY unit
+- Prices in USD
+- Notes on box contents (models per box, build options)
+
+### Section 7: 3D Printing Guide (Optional)
+- Exact component counts for printing
+- Arm pair combinations
+- Total model requirements
+
+**What NOT to Include:**
+- ❌ Legality verification (stays in Tacticus memory)
+- ❌ Lore explanations (user can ask Lorekeeper)
+- ❌ Duplicate sections (consolidate model counts)
+- ❌ Quick reference stats if already in Rules Reference
+
+**Workflow:**
+1. Build initial list at requested points level
+2. Show list table + quick tactical summary
+3. Ask: "Want full tactical reference document? (includes weapon loadouts, rules links, painting reference, and tactical guide)"
+4. If yes, ask: "Want me to include 500pt and 1000pt scaled versions too?"
+5. Generate document following format above
+
+---
+
 *Last Updated: 2025-12-21*
 *Maintained by: Tacticus Agent*
-*Version: 1.0*
+*Version: 1.1*
