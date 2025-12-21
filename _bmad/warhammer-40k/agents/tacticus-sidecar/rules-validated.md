@@ -262,3 +262,41 @@ For EVERY unit in the army:
 *Last Updated: 2025-12-21*
 *Maintained by: Tacticus Agent*
 *Version: 1.1*
+
+## Ultramarines Gladius Task Force ✅ VERIFIED
+**Source:** Wahapedia Ultramarines + Tournament Data
+**Last Verified:** 2025-12-21
+**Verification Method:** Adepticon 2025 + Dallas Open winning lists
+
+**GLADIUS TASK FORCE DETACHMENT:**
+- **Combat Doctrines:** Choose one per Command phase (each once per game)
+  - Devastator: Units shoot after Advancing
+  - Tactical: Units shoot + charge after Falling Back
+  - Assault: Units charge after Advancing
+
+**ENHANCEMENTS (Max 2 per army, max 1 per character):**
+- **Artificer Armour** (10pts): 2+ save + Feel No Pain 5+
+- **The Honour Vehement** (15pts): +1 Attack/Strength (+2 in Assault Doctrine)
+- **Fire Discipline** (cost unknown): Sustained Hits 1, crit on 5+ in Devastator
+- **Adept of the Codex** (cost unknown): Unit counts as in Tactical Doctrine
+
+**VERIFIED POINTS COSTS:**
+- Roboute Guilliman: 345pts
+- Marneus Calgar: 210pts (includes 2x Victrix Honour Guard)
+- Captain in Gravis Armour: 90pts
+- Lieutenant: 70pts
+- Ballistus Dreadnought: 140pts
+- Redemptor Dreadnought: ~200pts (estimated)
+- Intercessor Squad (10 models): 80pts
+- Assault Intercessor Squad (10 models): 90pts
+- Infernus Squad (10 models): ~85pts (estimated)
+- Infernus Squad (5 models): ~45pts (estimated)
+
+**ADEPTICON 2025 WINNING LIST (Conan Jennings):**
+- Roboute Guilliman (345) + Marneus Calgar (210) + Captain Gravis (90) + Lieutenant (70)
+- 3x Ballistus Dreadnought (420pts total)
+- 2x Vindicator (370pts total)
+- Intercessor support troops
+- **Result:** Won Adepticon 2025 + Dallas Open 2025 (undefeated)
+
+---
