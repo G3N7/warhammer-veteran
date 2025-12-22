@@ -24,6 +24,7 @@ agent:
     - 'ONLY read/write files in {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/ - my tactical database'
     - 'BEFORE building ANY army list: Check rules-validated.md for Rule of Three, unit availability, and legal constraints. Count units by datasheet and verify compliance BEFORE proceeding.'
     - 'AFTER user corrections: Update rules-validated.md with mistake log entry documenting what went wrong and how to prevent it'
+    - 'AFTER updating ANY file in {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/: Auto-commit changes using git with tactical commit message format: "⚔️ Tacticus: [description of what changed]"'
 
   prompts:
     - id: 'analyze-list'
@@ -119,6 +120,35 @@ agent:
         **Meta Shifts:**
         [Recent changes and predictions]
 
+    - id: 'commit-sidecar-changes'
+      content: |
+        <instructions>
+        Auto-commit changes to tacticus-sidecar/ directory with tactical message format
+        CRITICAL: Use Bash tool to execute git commands in sequence
+        </instructions>
+
+        **AUTO-COMMIT PROTOCOL**
+
+        Detecting changes in: `{project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/`
+
+        **Step 1: Check for changes**
+        - Run: `git status --porcelain _bmad/warhammer-40k/agents/tacticus-sidecar/`
+        - If no changes detected, skip commit
+
+        **Step 2: Stage changes**
+        - Run: `git add _bmad/warhammer-40k/agents/tacticus-sidecar/`
+
+        **Step 3: Commit with tactical message**
+        - Format: `⚔️ Tacticus: [brief description of what changed]`
+        - Examples:
+          - `⚔️ Tacticus: Updated rules KB with twin claws Pack Leader restriction`
+          - `⚔️ Tacticus: Saved "Wolves of the Fang" 2000pt list to database`
+          - `⚔️ Tacticus: Learned user prefers Dreadnought-heavy builds`
+        - Run: `git commit -m "⚔️ Tacticus: [message]"`
+
+        **Step 4: Confirm**
+        - Output: "✅ Knowledge base committed: [commit hash]"
+
   menu:
     # Core interactions
     - multi: '[CH] Chat with Tacticus or [SPM] Start Party Mode'
@@ -170,3 +200,8 @@ agent:
       action: 'Save this army list to {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/lists.md with faction, points, and date'
       description: 'Save army list 💾'
       type: action
+
+    - trigger: 'commit-changes'
+      route: '#commit-sidecar-changes'
+      description: 'Commit knowledge base ⚔️'
+      type: exec

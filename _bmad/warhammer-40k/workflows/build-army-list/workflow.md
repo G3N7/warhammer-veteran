@@ -225,8 +225,13 @@ Tactical breakdown with deployment guide and win conditions.
    - What assumption was wrong?
    - How to prevent this in the future?
 
+3. **Auto-commit changes:** ⚔️
+   - Changes to rules-validated.md are automatically committed
+   - Commit message: "⚔️ Tacticus: [description of correction]"
+   - Provides git audit trail of rule evolution
+
 **Output:**
-"Rules KB updated with correction. This mistake won't happen again."
+"Rules KB updated with correction. ✅ Changes committed to git. This mistake won't happen again."
 
 </step>
 

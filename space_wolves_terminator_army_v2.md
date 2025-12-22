@@ -110,7 +110,8 @@
 - 1x Venerable Dreadnought
 
 ### Terminators (30 models)
-- 18x Storm shield + Thunder hammer (4W each = 72 wounds)
+- 3x Pack Leaders with twin lightning claws (3W each = 9 wounds, no ranged)
+- 15x Storm shield + Thunder hammer (4W each = 60 wounds)
 - 6x Assault cannon + Powerfist (3W each = 18 wounds)
 - 6x Storm bolter + Powerfist (3W each = 18 wounds)
 
@@ -132,43 +133,48 @@
 **Loadout Options (34pts per model):**
 - **Shield Wall:** Storm shield + Thunder hammer → 4W, 2+/4++, S8 AP-2 D2 Devastating Wounds
 - **Brawler:** Storm bolter + Powerfist → 3W, 2+/4++, S10 AP-2 D2
-- **Heavy Gunner:** Assault cannon + Powerfist → 3W, anti-infantry firepower + melee
-- **Reaper:** Twin lightning claws → 6A S5 AP-2 D1 Twin-linked, no ranged
+- **Heavy Gunner:** Assault cannon + Powerfist → 3W, anti-infantry firepower + melee (1 per 5 models)
+- **Pack Leader with Claws:** Twin lightning claws → 6A S5 AP-2 D1 Twin-linked, no ranged (PACK LEADER ONLY - 1 per unit)
 
 **Squad Compositions:**
 
 **500pt - Arjac's 10-man:**
+- 1x Pack Leader: Twin lightning claws
 - 2x Assault cannon + Powerfist
-- 8x Storm shield + Thunder hammer
+- 7x Storm shield + Thunder hammer
 
 **1000pt - Logan's 10-man:**
+- 1x Pack Leader: Storm shield + Thunder hammer
 - 2x Assault cannon + Powerfist
-- 8x Storm shield + Thunder hammer
+- 7x Storm shield + Thunder hammer
 
 **1000pt - Arjac's 5-man:**
+- 1x Pack Leader: Storm shield + Thunder hammer
 - 1x Assault cannon + Powerfist
 - 3x Storm shield + Thunder hammer
-- 1x Storm bolter + Powerfist
 
 **1000pt - Deep Strike 5-man:**
-- 1x Twin lightning claws (melee specialist)
+- 1x Pack Leader: Twin lightning claws
 - 1x Assault cannon + Powerfist
 - 2x Storm bolter + Powerfist
 - 1x Storm shield + Thunder hammer
 
 **2000pt - Logan's 10-man:**
+- 1x Pack Leader: Storm shield + Thunder hammer
 - 2x Assault cannon + Powerfist
-- 8x Storm shield + Thunder hammer
+- 7x Storm shield + Thunder hammer
 
 **2000pt - Arjac's 10-man:**
+- 1x Pack Leader: Twin lightning claws
 - 2x Assault cannon + Powerfist
-- 4x Storm bolter + Powerfist
+- 3x Storm bolter + Powerfist
 - 4x Storm shield + Thunder hammer
 
 **2000pt - Third 10-man:**
+- 1x Pack Leader: Storm shield + Thunder hammer
 - 2x Assault cannon + Powerfist
 - 2x Storm bolter + Powerfist
-- 6x Storm shield + Thunder hammer
+- 5x Storm shield + Thunder hammer
 
 ---
 
@@ -387,8 +393,9 @@
 
 | Quantity | Left Arm | Right Arm |
 |----------|----------|-----------|
+| 3x | Twin lightning claws | Twin lightning claws (Pack Leaders) |
 | 6x | Assault cannon | Powerfist |
-| 18x | Storm shield | Thunder hammer |
+| 15x | Storm shield | Thunder hammer |
 | 6x | Storm bolter | Powerfist |
 
 ### Power Armor Models (20 models)

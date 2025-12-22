@@ -80,6 +80,34 @@ Before building ANY list, count units by datasheet name and verify ≤ 3 units.
 
 ---
 
+### Wolf Guard Terminators Wargear Rules ✅ VERIFIED
+**Source:** Wolf Guard Terminators Datasheet (Wahapedia)
+**Last Verified:** 2025-12-22
+**Verification Method:** User correction
+
+**WARGEAR STRUCTURE:**
+- **Pack Leader (1 per unit):** Can equip twin lightning claws OR standard weapons
+- **Heavy Weapons (1 per 5 models):** Assault cannon + powerfist OR Cyclone missile launcher + powerfist
+- **Regular Models:** Storm bolter + power weapon (can swap for storm shield, thunder hammer, etc.)
+
+**LEGAL 10-MAN SQUAD EXAMPLE:**
+- 1x Pack Leader with twin lightning claws
+- 2x Heavy weapon models (assault cannons)
+- 7x Regular Terminators (storm shields, thunder hammers, etc.)
+
+**CRITICAL RULE:**
+- Twin lightning claws = **PACK LEADER ONLY** (1 per unit maximum)
+- Cannot give twin claws to multiple models in same squad
+
+**Validation History:**
+- ❌ **2025-12-22 ERROR:** Stated any model could take twin lightning claws
+  - **User correction:** "twin claw is only able to be equiped by the pack leader and the pack leader is only 1 per unit/squad"
+  - **What went wrong:** Did not verify Pack Leader restriction on datasheet
+  - **Lesson learned:** Always check model type restrictions (Pack Leader vs regular models)
+- ✅ **2025-12-22 CORRECTED:** Twin claws restricted to Pack Leader only (1 per unit)
+
+---
+
 ### Saga of the Beastslayer Detachment ✅ VERIFIED
 **Source:** Wahapedia Space Wolves Detachment Rules
 **Last Verified:** 2025-12-21
@@ -271,9 +299,135 @@ For EVERY unit in the army:
 
 ---
 
-*Last Updated: 2025-12-21*
+---
+
+## List Building Protocol ✅ REQUIRED
+**When to Use:** Before building ANY army list (initial or iterations)
+**Last Updated:** 2025-12-22
+
+**STEP-BY-STEP PROTOCOL:**
+
+1. **Load Faction Army Rules**
+   - URL: `https://wahapedia.ru/wh40k10ed/factions/{faction-name}/`
+   - Extract: Faction abilities, army-wide special rules, available detachments
+   - Example: `https://wahapedia.ru/wh40k10ed/factions/space-marines/space-wolves`
+
+2. **Load Detachment Rules** (chosen detachment)
+   - URL: `https://wahapedia.ru/wh40k10ed/factions/{faction-name}/#{Detachment-Name}`
+   - Extract: Detachment ability, ALL Enhancements (with costs), Stratagems, restrictions
+   - Example: `https://wahapedia.ru/wh40k10ed/factions/space-marines/space-wolves#Saga-of-the-Beastslayer`
+   - **CRITICAL:** Enhancements are ALWAYS in the detachment rules section
+
+3. **Load Unit Datasheets** (for each unit in planned list)
+   - URL: `https://wahapedia.ru/wh40k10ed/factions/{faction-name}/{Unit-Name}`
+   - Extract: Stats, wargear options, points costs, special rules, unit size options
+   - Ask user for wargear structure if WebFetch cannot extract details
+
+4. **Build List** (with full context loaded)
+   - Validate Rule of Three compliance
+   - Verify points totals
+   - Check enhancement restrictions (max 1 per character)
+   - Confirm wargear legality per datasheet
+
+5. **Include Wahapedia Links** (in final document)
+   - Link to faction rules in Rules Reference section
+   - Link to detachment rules (with enhancements clearly marked)
+   - Link to EVERY unit datasheet
+   - Format: `[Unit Name](https://wahapedia.ru/wh40k10ed/factions/{faction}/{Unit})`
+
+**WHY THIS MATTERS:**
+- Prevents building lists with invalid enhancements (don't exist or wrong cost)
+- Ensures all detachment abilities and Stratagems are referenced
+- Provides user with clickable links to verify all rules
+- Loads full context BEFORE making list decisions
+
+**EXAMPLE WORKFLOW:**
+
+```
+User: "Build me a 2000pt Space Wolves list with Saga of the Beastslayer"
+
+Step 1: Load https://wahapedia.ru/wh40k10ed/factions/space-marines/space-wolves
+        → Extract Oath of Moment, Space Wolves faction rules
+
+Step 2: Load https://wahapedia.ru/wh40k10ed/factions/space-marines/space-wolves#Saga-of-the-Beastslayer
+        → Extract Lethal Hits ability
+        → Extract ALL 4 Enhancements:
+          - Blade of the Slayer (25pts)
+          - Hunter's Instincts (20pts)
+          - The Pelt of Balewolf (15pts)
+          - Black Death (15pts)
+
+Step 3: Load datasheets for Wolf Guard Terminators, Logan Grimnar, etc.
+        → Extract wargear, points, restrictions
+
+Step 4: Build list with enhancements from Step 2, units from Step 3
+
+Step 5: Include all Wahapedia links in final document
+```
+
+---
+
+## Universal Datasheet Wargear Pattern ✅ VALIDATED
+**Source:** Cross-faction datasheet analysis
+**Last Updated:** 2025-12-22
+**Status:** User validated
+
+**PATTERN:**
+Most unit datasheets follow this structure:
+1. **Special Models (varies per unit):** Sergeant/Pack Leader/Boss Nob/Champion - unique wargear options
+   - Usually 1 per unit, but could be different (datasheet explicitly states quantity)
+2. **Heavy/Special Weapons (X per Y models):** Limited special weapons
+   - Example: "For every 10 models, 1 can take..." or "1 per 5 models can take..."
+3. **Regular Models:** Standard wargear with swap options available to all non-special models
+
+**VALIDATED EXAMPLES:**
+
+**Wolf Guard Terminators (Space Wolves):**
+- ✅ Pack Leader (1 per unit): Twin lightning claws OR standard weapons
+- ✅ Heavy Weapons (1 per 5 models): Assault cannon OR Cyclone missile launcher
+- ✅ Regular Models: Storm bolter + power weapon (swap options)
+
+**Immortals (Necrons):**
+- ❌ NO special models - all identical
+- ❌ NO heavy weapon slots
+- ✅ Regular Models: Gauss blaster OR tesla carbine (squad-wide, all must match)
+
+**Ork Boyz (Orks):**
+- ✅ Boss Nob (1 per unit): Power klaw OR kombi-weapon options (unique to Boss Nob)
+- ✅ Heavy Weapons (1 per 10 models): Big shoota OR rokkit launcha
+- ✅ Regular Models: Slugga + choppa OR shoota (any number can swap)
+
+**PATTERN VARIANCE:**
+- NOT all units have special models (e.g., Necron Immortals are uniform)
+- Heavy weapon ratios vary: "1 per 5", "1 per 10", or none
+- Some squads require uniform loadouts (Immortals), others allow mixing (Boyz)
+
+**CRITICAL LEARNING:**
+- **ALWAYS read the datasheet explicitly** - don't assume pattern
+- Special model restrictions (Sergeant, Pack Leader, Boss Nob) are ALWAYS stated on datasheet
+- Heavy weapon limits are ALWAYS explicitly stated (e.g., "1 per 5 models")
+- WebFetch cannot extract datasheet details from Wahapedia (returns JavaScript/navigation only)
+
+**KNOWN VALID WAHAPEDIA URLS:**
+- Faction lists: `https://wahapedia.ru/wh40k10ed/factions/{faction-name}/`
+- Unit datasheets: `https://wahapedia.ru/wh40k10ed/factions/{faction-name}/{Unit-Name}`
+- Examples:
+  - `https://wahapedia.ru/wh40k10ed/factions/space-marines/`
+  - `https://wahapedia.ru/wh40k10ed/factions/space-marines/Wolf-Guard-Terminators`
+  - `https://wahapedia.ru/wh40k10ed/factions/necrons/Immortals`
+  - `https://wahapedia.ru/wh40k10ed/factions/orks/Boyz`
+
+**ACTION REQUIRED:**
+When building lists for new unit types:
+1. Ask user for datasheet wargear structure if uncertain
+2. Do NOT assume pattern from other units
+3. User will provide correct wargear rules or better links
+
+---
+
+*Last Updated: 2025-12-22*
 *Maintained by: Tacticus Agent*
-*Version: 1.1*
+*Version: 1.2*
 
 ## Ultramarines Gladius Task Force ✅ VERIFIED
 **Source:** Wahapedia Ultramarines + Tournament Data
