@@ -180,6 +180,18 @@ Units from this detachment gain **Lethal Hits** when targeting:
 
 **Prevention:** Always check this KB BEFORE building lists, not after user correction.
 
+### 2025-12-21: Incorrect GW Store URL Year Suffixes
+**Mistake:** Generated URLs like `roboute-guilliman-2023` when actual URL is `Roboute-Guilliman-Ultramarines-Primarch-2020`
+**User Correction:** "you seem to have gotten a bunch of the urls wrong. You consistantly get the year at the end of the url wrong"
+**Root Cause:** Cannot reliably guess URL patterns without fetching actual pages
+**Fix Applied:**
+- **DO NOT construct direct product URLs manually**
+- Use warhammer.com search URLs with pre-filled queries
+- Format: `https://www.warhammer.com/en-US/plp?search=Unit%20Name` (URL-encoded spaces as %20)
+- Example: `https://www.warhammer.com/en-US/plp?search=Roboute%20Guilliman`
+
+**Prevention:** Always use search URLs with `/plp?search=`, never direct product URLs. User provided correct URL structure.
+
 ---
 
 ## Rule Update Protocol

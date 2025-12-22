@@ -361,23 +361,23 @@
 
 | Unit | Official Model | Price (USD) |
 |------|----------------|-------------|
-| Logan Grimnar | [Games Workshop](https://www.warhammer.com/en-US/shop/space-wolves-logan-grimnar-2025) | ~$50 |
-| Arjac Rockfist | [Games Workshop](https://www.warhammer.com/en-US/shop/space-wolves-arjac-rockfist-2025) | ~$45 |
-| Bjorn the Fell-Handed | [Games Workshop](https://www.warhammer.com/en-US/shop/Bjorn-the-Fellhanded-2020) | ~$60 |
+| Logan Grimnar | [Search →](https://www.warhammer.com/en-US/plp?search=Logan%20Grimnar) | ~$50 |
+| Arjac Rockfist | [Search →](https://www.warhammer.com/en-US/plp?search=Arjac%20Rockfist) | ~$45 |
+| Bjorn the Fell-Handed | [Search →](https://www.warhammer.com/en-US/plp?search=Bjorn%20Fell-Handed) | ~$60 |
 
 ### Dreadnoughts
 
 | Unit | Official Model | Price (USD) | Notes |
 |------|----------------|-------------|-------|
-| Venerable Dreadnought | [Games Workshop](https://www.warhammer.com/en-US/shop/Space-Wolves-Venerable-Dreadnought-2020) | ~$60 | Can build as Bjorn OR standard Venerable |
+| Venerable Dreadnought | [Search →](https://www.warhammer.com/en-US/plp?search=Space%20Wolves%20Venerable%20Dreadnought) | ~$60 | Can build as Bjorn OR standard Venerable |
 
 ### Troops & Infantry
 
 | Unit | Official Model | Price (USD) | Notes |
 |------|----------------|-------------|-------|
-| Wolf Guard Terminators | [Games Workshop](https://www.warhammer.com/en-US/shop/Space-Wolves-Wolf-Guard-Terminators-2020) | ~$60 | 5 models per box (need 6 boxes for 30) |
-| Blood Claws / Grey Hunters | [Games Workshop](https://www.warhammer.com/en-US/shop/Space-Wolves-Pack-2020) | ~$50 | 10 models, builds EITHER Blood Claws OR Grey Hunters |
-| Fenrisian Wolves | [Games Workshop](https://www.warhammer.com/en-US/shop/Fenrisian-Wolves-2020) | ~$35 | 5 wolves per box (need 2 boxes for 10) |
+| Wolf Guard Terminators | [Search →](https://www.warhammer.com/en-US/plp?search=Wolf%20Guard%20Terminators) | ~$60 | 5 models per box (need 6 boxes for 30) |
+| Blood Claws / Grey Hunters | [Search →](https://www.warhammer.com/en-US/plp?search=Space%20Wolves%20Pack) | ~$50 | 10 models, builds EITHER Blood Claws OR Grey Hunters |
+| Fenrisian Wolves | [Search →](https://www.warhammer.com/en-US/plp?search=Fenrisian%20Wolves) | ~$35 | 5 wolves per box (need 2 boxes for 10) |
 
 ---
 

@@ -739,38 +739,54 @@ This detachment represents the Space Wolves tradition of hunting great monsters 
 
 ## Official Purchase Links (Painting Reference)
 
+**Note:** Click the search links below to find current product pages on warhammer.com.
+
 ### Characters
 
-| Unit | Store Link | Price (USD) |
-|------|------------|-------------|
-| Logan Grimnar | [warhammer.com](https://www.warhammer.com/en-US/shop/space-wolves-logan-grimnar-2025) | ~$50 |
-| Arjac Rockfist | [warhammer.com](https://www.warhammer.com/en-US/shop/space-wolves-arjac-rockfist-2025) | ~$45 |
-| Bjorn the Fell-Handed | [warhammer.com](https://www.warhammer.com/en-US/shop/Bjorn-the-Fellhanded-2020) | ~$60 |
+| Unit | Search Link | Price (USD) |
+|------|-------------|-------------|
+| Logan Grimnar | [Search →](https://www.warhammer.com/en-US/plp?search=Logan%20Grimnar) | ~$50 |
+| Arjac Rockfist | [Search →](https://www.warhammer.com/en-US/plp?search=Arjac%20Rockfist) | ~$45 |
+| Bjorn the Fell-Handed | [Search →](https://www.warhammer.com/en-US/plp?search=Bjorn%20Fell-Handed) | ~$60 |
 
 ### Dreadnoughts
 
-| Unit | Store Link | Price (USD) | Notes |
-|------|------------|-------------|-------|
-| Space Wolves Venerable Dreadnought | [warhammer.com](https://www.warhammer.com/en-US/shop/Space-Wolves-Venerable-Dreadnought-2020) | ~$60 | Can build as Bjorn or standard Venerable Dreadnought |
+| Unit | Search Link | Price (USD) | Notes |
+|------|-------------|-------------|-------|
+| Space Wolves Venerable Dreadnought | [Search →](https://www.warhammer.com/en-US/plp?search=Space%20Wolves%20Venerable%20Dreadnought) | ~$60 | Can build as Bjorn or standard Venerable Dreadnought |
 
 ### Troops & Infantry
 
-| Unit | Store Link | Price (USD) | Notes |
-|------|------------|-------------|-------|
-| Wolf Guard Terminators | [warhammer.com](https://www.warhammer.com/en-US/shop/Space-Wolves-Wolf-Guard-Terminators-2020) | ~$60 | 5 models per box, need 6 boxes for 30 Terminators |
-| Blood Claws / Grey Hunters | [warhammer.com](https://www.warhammer.com/en-US/shop/Space-Wolves-Pack-2020) | ~$50 | 10 models, builds either Blood Claws OR Grey Hunters |
-| Fenrisian Wolves | [warhammer.com](https://www.warhammer.com/en-US/shop/Fenrisian-Wolves-2020) | ~$35 | 5 wolves per box, need 2 boxes for 10 wolves |
+| Unit | Search Link | Price (USD) | Notes |
+|------|-------------|-------------|-------|
+| Wolf Guard Terminators | [Search →](https://www.warhammer.com/en-US/plp?search=Wolf%20Guard%20Terminators) | ~$60 | 5 models per box, need 6 boxes for 30 Terminators |
+| Blood Claws / Grey Hunters | [Search →](https://www.warhammer.com/en-US/plp?search=Space%20Wolves%20Pack) | ~$50 | 10 models, builds either Blood Claws OR Grey Hunters |
+| Fenrisian Wolves | [Search →](https://www.warhammer.com/en-US/plp?search=Fenrisian%20Wolves) | ~$35 | 5 wolves per box, need 2 boxes for 10 wolves |
 
-### Troops & Infantry
+### Cost Breakdown by Points Level
 
-| Unit | Store Link | Price (USD) | Notes |
-|------|------------|-------------|-------|
-| Wolf Guard Terminators | [warhammer.com](https://www.warhammer.com/en-US/shop/Space-Wolves-Wolf-Guard-Terminators-2020) | ~$60 | 5 models per box, need 6 boxes for 30 Terminators |
-| Blood Claws / Grey Hunters | [warhammer.com](https://www.warhammer.com/en-US/shop/Space-Wolves-Pack-2020) | ~$50 | 10 models, builds either Blood Claws OR Grey Hunters |
-| Fenrisian Wolves | [warhammer.com](https://www.warhammer.com/en-US/shop/Fenrisian-Wolves-2020) | ~$35 | 5 wolves per box, need 2 boxes for 10 wolves |
+**500pt List (~$195 USD):**
+- 1x Arjac Rockfist: $45
+- 2x Wolf Guard Terminators boxes: $120 (10 models)
+- 1x Fenrisian Wolves box: $35 (5 models)
+- **TOTAL: ~$200**
 
----
+**1000pt List (~$375 USD):**
+- 1x Logan Grimnar: $50
+- 1x Arjac Rockfist: $45
+- 3x Wolf Guard Terminators boxes: $180 (15 models)
+- 2x Fenrisian Wolves boxes: $70 (10 models)
+- **TOTAL: ~$345**
 
+**2000pt List (~$590 USD):**
+- 1x Logan Grimnar: $50
+- 1x Arjac Rockfist: $45
+- 1x Bjorn the Fell-Handed: $60
+- 1x Space Wolves Venerable Dreadnought: $60
+- 6x Wolf Guard Terminators boxes: $360 (30 models)
+- 1x Space Wolves Pack: $50 (10 Blood Claws)
+- 1x Space Wolves Pack: $50 (10 Grey Hunters)
+- **TOTAL: ~$675**
 
 ---
 
