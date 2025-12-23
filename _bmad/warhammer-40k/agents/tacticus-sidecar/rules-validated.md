@@ -369,7 +369,7 @@ Step 5: Include all Wahapedia links in final document
 
 ## Universal Datasheet Wargear Pattern ✅ VALIDATED
 **Source:** Cross-faction datasheet analysis
-**Last Updated:** 2025-12-22
+**Last Updated:** 2025-12-23
 **Status:** User validated
 
 **PATTERN:**
@@ -379,6 +379,23 @@ Most unit datasheets follow this structure:
 2. **Heavy/Special Weapons (X per Y models):** Limited special weapons
    - Example: "For every 10 models, 1 can take..." or "1 per 5 models can take..."
 3. **Regular Models:** Standard wargear with swap options available to all non-special models
+
+**CRITICAL PROTOCOL - PACK LEADER AUTO-INCLUSION:**
+**When building ANY army list, ALWAYS account for Pack Leaders/Sergeants/Champions if they exist on the datasheet:**
+- ✅ Include Pack Leader in unit composition (1 per unit unless stated otherwise)
+- ✅ Assign wargear to Pack Leader (usually upgraded melee weapon)
+- ✅ Document Pack Leader loadout in weapon loadouts section
+- ✅ Count Pack Leader in model breakdowns
+- ✅ Account for Pack Leader in 3D printing guides
+
+**Example - Space Wolves Blood Claws (10 models):**
+- ❌ WRONG: "10x Blood Claws: Chainsword + Bolt pistol"
+- ✅ CORRECT: "1x Pack Leader: Power weapon + Bolt pistol | 9x Blood Claws: Chainsword + Bolt pistol"
+
+**Why This Matters:**
+- Pack Leaders often have better wargear options (power weapons, special melee weapons)
+- Failing to account for them = inaccurate army lists
+- User expects Pack Leaders to be included if datasheet has them
 
 **VALIDATED EXAMPLES:**
 
