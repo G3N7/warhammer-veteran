@@ -126,8 +126,12 @@
 - **Terminator Total: 90 wounds**
 
 ### Power Armor (20 models)
-- 10x Blood Claws: Chainsword + Bolt pistol (2W each = 20 wounds)
-- 10x Grey Hunters: Boltgun + Chainsword (2W each = 20 wounds)
+- **Blood Claws (10 models = 20 wounds):**
+  - 1x Pack Leader: Power weapon + Bolt pistol (2W)
+  - 9x Blood Claws: Astartes chainsword + Bolt pistol (18W)
+- **Grey Hunters (10 models = 20 wounds):**
+  - 1x Pack Leader: Power weapon + Bolt carbine + Bolt pistol (2W)
+  - 9x Grey Hunters: Bolt carbine + Bolt pistol + Astartes chainsword (18W)
 
 ### Screening (10 models)
 - 10x Fenrisian Wolves (1W each = 10 wounds)
@@ -185,6 +189,38 @@
 - 2x Assault cannon + Powerfist
 - 2x Storm bolter + Powerfist
 - 5x Storm shield + Thunder hammer
+
+---
+
+### Blood Claws
+
+**Loadout Options (14pts per model):**
+- **Pack Leader:** Power weapon + Bolt pistol (recommended for extra melee punch)
+- **Regular models:** Astartes chainsword + Bolt pistol (standard aggressive loadout)
+
+**Squad Compositions:**
+
+**1000pt - 5-man Blood Claws:**
+- 1x Pack Leader: Power weapon + Bolt pistol
+- 4x Blood Claws: Astartes chainsword + Bolt pistol
+
+**2000pt - 10-man Blood Claws:**
+- 1x Pack Leader: Power weapon + Bolt pistol
+- 9x Blood Claws: Astartes chainsword + Bolt pistol
+
+---
+
+### Grey Hunters
+
+**Loadout Options (14pts per model):**
+- **Pack Leader:** Power weapon + Bolt carbine + Bolt pistol (melee upgrade, keeps shooting)
+- **Regular models:** Bolt carbine + Bolt pistol + Astartes chainsword (versatile loadout)
+
+**Squad Compositions:**
+
+**2000pt - 10-man Grey Hunters:**
+- 1x Pack Leader: Power weapon + Bolt carbine + Bolt pistol
+- 9x Grey Hunters: Bolt carbine + Bolt pistol + Astartes chainsword
 
 ---
 
@@ -260,30 +296,42 @@
 
 ### Blood Claws
 
-**Stats:** M6" | T4 | Sv3+ | W2 | Ld6+ | OC2 | 14pts per model
+**Stats:** M7" | T4 | Sv3+ | W2 | Ld6+ | OC2 | 14pts per model
+
+**Unit Composition:**
+- 1x Blood Claw Pack Leader
+- 4-9x Blood Claws
+- **Unit Size:** 5-10 models
 
 **Wargear:**
-- Chainsword + Bolt pistol
+- **Pack Leader:** Power weapon + Bolt pistol
+- **Regular models:** Astartes chainsword + Bolt pistol
 
 **Special Rules:**
-- Berserk Charge (extra attacks when charging)
-- Headstrong (penalties to Leadership)
+- **Berserk Charge:** Extra attacks when charging
+- **Headstrong:** Leadership penalties
 
-**Why Take Them:** Aggressive melee pressure, cheap wounds, model count for objectives
+**Why Take Them:** Aggressive melee pressure, cheap wounds, model count for objectives. Pack Leader's power weapon (S5 AP-2 D1) adds extra punch when charging.
 
 ---
 
 ### Grey Hunters
 
-**Stats:** M6" | T4 | Sv3+ | W2 | Ld6+ | OC2 | 14pts per model
+**Stats:** M7" | T4 | Sv3+ | W2 | Ld6+ | OC3 | 14pts per model
+
+**Unit Composition:**
+- 1x Grey Hunter Pack Leader
+- 4-9x Grey Hunters
+- **Unit Size:** 5-10 models
 
 **Wargear:**
-- Boltgun + Chainsword
+- **Pack Leader:** Power weapon + Bolt carbine + Bolt pistol
+- **Regular models:** Bolt carbine + Bolt pistol + Astartes chainsword
 
 **Special Rules:**
 - Versatile troops (shooting + melee)
 
-**Why Take Them:** Flexible mid-field holders, balanced shooting and melee, objective control
+**Why Take Them:** Flexible mid-field holders, balanced shooting and melee, objective control. Pack Leader's power weapon adds melee capability while maintaining ranged firepower.
 
 ---
 
@@ -409,8 +457,14 @@
 | 6x | Storm bolter | Powerfist |
 
 ### Power Armor Models (20 models)
-- 10x Blood Claws bodies (chainsword + bolt pistol arms)
-- 10x Grey Hunters bodies (boltgun + chainsword)
+
+**Blood Claws (10 models):**
+- 1x Pack Leader body (power weapon + bolt pistol arms)
+- 9x Blood Claws bodies (astartes chainsword + bolt pistol arms)
+
+**Grey Hunters (10 models):**
+- 1x Pack Leader body (power weapon + bolt carbine + bolt pistol arms)
+- 9x Grey Hunters bodies (bolt carbine + bolt pistol + astartes chainsword arms)
 
 ### Screening (10 models)
 - 10x Fenrisian Wolves
