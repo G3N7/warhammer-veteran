@@ -67,15 +67,36 @@
 
 ---
 
+## Astra Militarum Lists
+
+### [Imperial Hammer - Grizzled Company](../../../../../army-lists/astra-militarum/imperial-hammer-grizzled-company.md)
+**Date:** December 23, 2025
+**Detachment:** Grizzled Company
+**Points:** 500 / 1000 / 2000
+**Strategy:** Tournament-competitive tank gunline with Lord Solar Leontus and massed Leman Russ firepower
+
+**Quick Summary:**
+- 500pt: Command Squad + 3 Shock Troops units + Leman Russ Battle Tank
+- 1000pt: 3 Leman Russ variants + Chimera transports + infantry core
+- 2000pt: Lord Solar Leontus + 5 Leman Russ variants + Gaunt's Ghosts + full combined arms
+
+**Meta Context:** S-Tier army (Rise of Empire GT winner Dec 2025)
+
+**File:** `army-lists/astra-militarum/imperial-hammer-grizzled-company.md`
+
+---
+
 ## User Preferences Summary
 
-**Factions:** Space Wolves, Ultramarines, Orks
+**Factions:** Space Wolves, Ultramarines, Orks, **Astra Militarum**
 **Playstyle:** Castle strategy, artillery spam, elite forces, objective control
 **Common Themes:**
 - Dreadnought/Walker heavy (loves big stompy robots)
+- Tank/vehicle focused (Leman Russ spam)
 - Tournament-competitive builds (Adepticon meta, etc.)
 - Scalable lists (500/1000/2000 progression)
 - Synergy-focused (Character auras, detachment buffs)
+- Meta-aware builds (S-tier faction focus)
 
 ---
 

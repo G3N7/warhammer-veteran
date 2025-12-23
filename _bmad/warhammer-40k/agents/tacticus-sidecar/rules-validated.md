@@ -455,7 +455,60 @@ Before finalizing ANY list, verify total points ≤ mission size limit.
 
 *Last Updated: 2025-12-23*
 *Maintained by: Tacticus Agent*
-*Version: 1.3*
+*Version: 1.4*
+
+---
+
+## Competitive Meta Tracking ✅ ACTIVE
+**Purpose:** Cache tournament meta data to reduce web searches - only query for deltas/changes
+**Last Meta Update:** 2025-12-23
+**Next Scheduled Update:** 2026-01-15 (or when user requests refresh)
+
+### December 2025 Meta Snapshot
+
+**Balance Dataslate:** December 2025 (pre-Christmas release)
+**Philosophy:** "Light-touch" - game in healthy spot, mostly points tweaks
+
+**S-Tier Armies (Tournament Winners):**
+1. **Astra Militarum** - Won Rise of Empire GT (Dec 19), consistent top finishes
+2. **Space Marines** (Ultramarines, Dark Angels, Black Templars) - Multiple wins
+3. **Drukhari** - Everwinter GT placement, avoided nerfs
+4. **Chaos Daemons** - S-Tier rated, flexible
+5. **Death Guard** - Multiple December top finishes (despite points nerfs)
+
+**A-Tier (Strong):**
+- T'au Empire (won King of Blades Dec 18, but win rate crashed - no buffs given)
+- Necrons (early December strong showings)
+- Thousand Sons (competitive)
+- Imperial Knights (some nerfs applied)
+- Adepta Sororitas (top finish Everwinter, but hit with big points nerfs)
+
+**December Dataslate Major Changes:**
+- ❌ **Aeldari NERFED HARD:** Skyborne Sanctuary + Swift as the Wind ability changes
+- ❌ **AdMech:** Big points increases
+- ❌ **Adepta Sororitas:** Points nerfs across board
+- ❌ **Raven Guard:** Points + ability nerfs
+- ❌ **Death Guard:** Points adjustments
+- ❌ **Black Templars:** Points increases (still competitive)
+- 😢 **T'au + Genestealer Cults:** Left untouched despite needing help
+
+**Top Tournament Results (December 2025):**
+- Rise of Empire GT (Dec 19): Astra Militarum, Dark Angels, Death Guard
+- King of Blades (Dec 18): T'au Empire, Aeldari
+- Everwinter GT (Dec 10): Adepta Sororitas, T'au, Drukhari
+
+**Sources:**
+- Stat Check Meta Dashboard: https://www.stat-check.com/the-meta
+- Goonhammer Q4 2025 Balance Update: https://www.goonhammer.com/40k-the-q4-2025-balance-update-overview/
+- Frontline Gaming Winter 2025 Balance: https://frontlinegaming.org/2025/12/10/warhammer-40k-winter-2025-balance-update-every-faction-touched-no-meta-left-behind/
+- Spikey Bits Tournament Lists: https://spikeybits.com/army-lists/
+
+**Meta Refresh Protocol:**
+- Check monthly (mid-month after potential balance updates)
+- Search query: "Warhammer 40k 10th edition meta [current month] [current year] tournament"
+- Store deltas only (what changed since last update)
+
+---
 
 ## Ultramarines Gladius Task Force ✅ VERIFIED
 **Source:** Wahapedia Ultramarines + Tournament Data
