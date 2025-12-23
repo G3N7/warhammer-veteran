@@ -1,81 +1,83 @@
-# Saved Army Lists
+# Tacticus - Army List Index
 
-## "Wolf Pack" - Space Wolves 500pt
-**Date:** December 21, 2025
-**Points:** 495
-**Faction:** Space Wolves
-**Detachment:** Saga of the Beastslayer
-**Strategy:** Single Terminator brick castle
-
-### Composition
-- Arjac Rockfist (95) + Hunter's Instincts (20) = 115
-- Wolf Guard Terminators x10 (340)
-- Fenrisian Wolves x5 (40)
-
-**Total: 10 Terminators**
-
-### Notes
-- No Deep Strike at 500pts
-- All units on board, castle center objective
-- Wolves screen the Terminator brick
+**Purpose:** Quick reference index to all saved army lists
+**Location:** All full tactical documents are stored in `/workspaces/warhammer-veteran/army-lists/`
 
 ---
 
-## "Fang of Fenris" - Space Wolves 1000pt
-**Date:** December 21, 2025
-**Points:** 990
-**Faction:** Space Wolves
-**Detachment:** Saga of the Beastslayer
-**Strategy:** Dual castle + Deep Strike
+## Naming Convention
 
-### Composition
-- Logan Grimnar (110) + Blade of the Slayer (25) = 135
-- Arjac Rockfist (95)
-- Wolf Guard Terminators x10 (340) - Logan's unit
-- Wolf Guard Terminators x5 (170) - Arjac's unit
-- Wolf Guard Terminators x5 (170) - Deep Strike
-- Fenrisian Wolves x10 (80)
+**Format:** `{list-name}-{faction-keyword}-{detachment-keyword}.md`
 
-**Total: 20 Terminators**
-
-### Notes
-- Logan's 10-man + Arjac's 5-man hold center
-- 5-man Deep Strike Turn 2+
-- Wolves screen castle
+**Examples:**
+- `wolves-of-the-fang-terminator-army.md`
+- `sons-of-guilliman-gladius-army.md`
+- `mek-gunz-apocalypse-dread-mob.md`
 
 ---
 
-## "Wolves of the Fang" - Space Wolves 2000pt (CORRECTED - RULE OF THREE COMPLIANT)
-**Date:** December 21, 2025 (Updated with Rule of Three compliance)
-**Points:** 1,940 (60pts remaining)
-**Faction:** Space Wolves
+## Space Wolves Lists
+
+### [Wolves of the Fang - Terminator Army](../../../../../army-lists/space-wolves/wolves-of-the-fang-terminator-army.md)
+**Date:** December 21, 2025
 **Detachment:** Saga of the Beastslayer
-**Strategy:** Elite Terminator-heavy force with power armor support
-**Status:** ✅ TOURNAMENT LEGAL
+**Points:** 500 / 1000 / 2000
+**Strategy:** Maximum legal Terminators (30 models at 2000pts) with Deep Strike and castle tactics
 
-### Composition
-- Logan Grimnar (110) + Blade of the Slayer (25) = 135
-- Arjac Rockfist (95) + Hunter's Instincts (20) = 115
-- Bjorn the Fell-Handed (170)
-- Venerable Dreadnought (140)
-- Wolf Guard Terminators x10 (340) - Logan's castle
-- Wolf Guard Terminators x10 (340) - Arjac's castle
-- Wolf Guard Terminators x10 (340) - Backfield holders
-- Blood Claws x10 (140) - Aggressive melee
-- Grey Hunters x10 (140) - Mid-field flex
-- Fenrisian Wolves x10 (80)
+**Quick Summary:**
+- 500pt: Single Terminator brick with Arjac
+- 1000pt: Dual castle (Logan + Arjac) with Deep Strike unit
+- 2000pt: 30 Terminators + 2 Dreadnoughts + power armor support
 
-**Total: 30 Terminators + 2 Dreadnoughts + 20 Power Armor Marines**
+**File:** `army-lists/space-wolves/wolves-of-the-fang-terminator-army.md`
 
-### Rule of Three Compliance
-- Wolf Guard Terminators: 3 units ✅
-- All other units: 1 each ✅
+---
 
-### Notes
-- Maximum legal Terminators under Rule of Three (30 models)
-- Power armor support adds model count and melee pressure
-- Blood Claws provide aggressive close combat
-- Grey Hunters hold mid-field objectives
-- Venerable Dread aura supports Terminator advances
-- Bjorn generates 1CP per turn
-- All units get Lethal Hits vs Characters/Monsters/Vehicles
+## Ultramarines Lists
+
+### [Sons of Guilliman - Gladius Army](../../../../../army-lists/ultramarines/sons-of-guilliman-gladius-army.md)
+**Date:** December 21, 2025
+**Detachment:** Gladius Task Force
+**Points:** 500 / 1000 / 2000
+**Strategy:** Dreadnought-heavy gunline with Combat Doctrines flexibility
+
+**Quick Summary:**
+- 500pt: Compact Intercessor + Dread firebase
+- 1000pt: 3 Dreadnoughts + Calgar
+- 2000pt: Guilliman + Calgar + 3 Ballistus + 2 Vindicators (Adepticon-inspired)
+
+**File:** `army-lists/ultramarines/sons-of-guilliman-gladius-army.md`
+
+---
+
+## Orks Lists
+
+### [Mek Gunz Apocalypse - Dread Mob](../../../../../army-lists/orks/mek-gunz-apocalypse-dread-mob.md)
+**Date:** December 23, 2025
+**Detachment:** Dread Mob
+**Points:** 500 / 1000 / 2000
+**Strategy:** Maximum Mek Gunz artillery (9 models) with walker support and CP farming
+
+**Quick Summary:**
+- 500pt: 6 Mek Gunz + Gretchin screen
+- 1000pt: 9 Mek Gunz (max legal) + walkers
+- 2000pt: 9 Mek Gunz + 12 Killa Kans + 3 Deff Dreads + 86 Gretchin swarm
+
+**File:** `army-lists/orks/mek-gunz-apocalypse-dread-mob.md`
+
+---
+
+## User Preferences Summary
+
+**Factions:** Space Wolves, Ultramarines, Orks
+**Playstyle:** Castle strategy, artillery spam, elite forces, objective control
+**Common Themes:**
+- Dreadnought/Walker heavy (loves big stompy robots)
+- Tournament-competitive builds (Adepticon meta, etc.)
+- Scalable lists (500/1000/2000 progression)
+- Synergy-focused (Character auras, detachment buffs)
+
+---
+
+*Last Updated: December 23, 2025*
+*Maintained by: Tacticus Agent*
