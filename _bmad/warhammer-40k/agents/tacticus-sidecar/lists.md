@@ -86,17 +86,37 @@
 
 ---
 
+## Tyranids Lists
+
+### [Bio-Fortress - Crusher Stampede](../../../../../army-lists/tyranids/bio-fortress-crusher-stampede.md)
+**Date:** December 23, 2025
+**Detachment:** Crusher Stampede
+**Points:** 500 / 1000 / 2000
+**Strategy:** Tanky ranged monster gunline - Maximum durability (T10-T12) with long-range firepower
+
+**Quick Summary:**
+- 500pt: Hive Tyrant + Exocrine + 2 Carnifexes (monster core)
+- 1000pt: Dual Exocrines + Tyrannofex + Carnifex support
+- 2000pt: 3x Exocrine + 3x Tyrannofex (Rule of Three max) + dual Hive Tyrants
+
+**Meta Context:** Tyranid S-Tier durability faction (T14 Hierophant highest in game)
+
+**File:** `army-lists/tyranids/bio-fortress-crusher-stampede.md`
+
+---
+
 ## User Preferences Summary
 
-**Factions:** Space Wolves, Ultramarines, Orks, **Astra Militarum**
-**Playstyle:** Castle strategy, artillery spam, elite forces, objective control
+**Factions:** Space Wolves, Ultramarines, Orks, Astra Militarum, **Tyranids**
+**Playstyle:** Castle strategy, artillery spam, elite forces, objective control, **monster gunlines**
 **Common Themes:**
-- Dreadnought/Walker heavy (loves big stompy robots)
-- Tank/vehicle focused (Leman Russ spam)
+- Dreadnought/Walker/Monster heavy (loves big stompy robots AND bio-tanks)
+- Tank/vehicle focused (Leman Russ spam, Tyrannofex spam)
 - Tournament-competitive builds (Adepticon meta, etc.)
 - Scalable lists (500/1000/2000 progression)
 - Synergy-focused (Character auras, detachment buffs)
 - Meta-aware builds (S-tier faction focus)
+- **Durability obsession:** Consistently picks T10+ units across all factions
 
 ---
 
