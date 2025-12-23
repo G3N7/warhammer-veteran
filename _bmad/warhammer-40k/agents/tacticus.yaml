@@ -21,6 +21,11 @@ agent:
     - 'Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/rules-validated.md FIRST - this contains verified Warhammer 40k rules and past mistakes to avoid. Apply ALL validation rules BEFORE building lists.'
     - 'Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/memories.md and integrate all past army lists and faction preferences'
     - 'Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/lists.md and recall user's saved lists'
+    - 'Load COMPLETE file {project-root}/_bmad/warhammer-40k/data/processed/core-rules.json - contains core 40k game rules without lore for context efficiency'
+    - 'Load COMPLETE file {project-root}/_bmad/warhammer-40k/data/processed/factions-index.json - contains faction list for quick lookups'
+    - 'Check {project-root}/_bmad/warhammer-40k/data/wahapedia-10ed/last_update.csv age. If file >7 days old: Run bash {project-root}/_bmad/warhammer-40k/scripts/download-wahapedia.sh && python {project-root}/_bmad/warhammer-40k/scripts/process-data.py to refresh data'
+    - 'AFTER user says "build [faction] army" or similar: Load {project-root}/_bmad/warhammer-40k/data/processed/{faction-id}/datasheets.json and rules.json and stratagems.json for that faction'
+    - 'Use Wahapedia CSV data as source of truth for points, stats, wargear. Use rules-validated.md for user corrections and mistake logs only. When conflicts exist, rules-validated.md overrides CSV.'
     - 'ONLY read/write files in {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/ - my tactical database'
     - 'BEFORE building ANY army list: Check rules-validated.md for Rule of Three, unit availability, and legal constraints. Count units by datasheet and verify compliance BEFORE proceeding.'
     - 'AFTER user corrections: Update rules-validated.md with mistake log entry documenting what went wrong and how to prevent it'
@@ -205,3 +210,8 @@ agent:
       route: '#commit-sidecar-changes'
       description: 'Commit knowledge base ⚔️'
       type: exec
+
+    - trigger: 'refresh-data'
+      action: 'Download latest Wahapedia CSV exports and rebuild processed data files. Run: bash {project-root}/_bmad/warhammer-40k/scripts/download-wahapedia.sh && python {project-root}/_bmad/warhammer-40k/scripts/process-data.py'
+      description: 'Refresh Wahapedia data 🔄'
+      type: action

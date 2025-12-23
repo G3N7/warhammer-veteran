@@ -466,3 +466,68 @@ When building lists for new unit types:
 - **Result:** Won Adepticon 2025 + Dallas Open 2025 (undefeated)
 
 ---
+
+## Wahapedia CSV Data Integration ✅ IMPLEMENTED
+**Last Updated:** 2025-12-22
+**Status:** Active - Auto-refresh weekly
+
+**PURPOSE:**
+Integration of official Wahapedia CSV data exports to eliminate manual datasheet lookups and ensure points/wargear accuracy.
+
+**DATA HIERARCHY:**
+1. **Wahapedia CSVs:** Official source of truth for stats, points, wargear
+2. **rules-validated.md:** User corrections, mistake logs, learned patterns
+3. **When conflicts exist:** rules-validated.md overrides CSV (user has corrected an error)
+
+**LOADING PROTOCOL:**
+1. On agent activation: Check CSV age (auto-refresh if >7 days old)
+2. Load core-rules.json + factions-index.json on startup
+3. On faction request: Load faction-specific datasheets/rules/stratagems
+4. Cross-reference rules-validated.md for known corrections
+
+**CSV FILES USED:**
+- `Datasheets.csv`: Unit profiles (id, name, faction_id, role, loadout, transport, points)
+- `Datasheets_wargear.csv`: Equipment options with costs (datasheet_id, wargear_id, cost)
+- `Datasheets_models.csv`: Individual model stats (M, T, SV, W, LD, OC)
+- `Wargear_list.csv`: Weapon/equipment profiles (range, A, BS_WS, S, AP, D, abilities)
+- `Abilities.csv`: Unit and faction abilities (id, name, type, description)
+- `Stratagems.csv`: Detachment stratagems (id, name, CP_cost, description, detachment)
+- `Factions.csv`: Faction index (id, name)
+
+**PROCESSED FILES STRUCTURE:**
+```
+_bmad/warhammer-40k/data/
+├── wahapedia-10ed/              # Raw CSVs (auto-downloaded weekly)
+│   └── last_update.csv          # Timestamp for refresh checks
+└── processed/                   # Agent-optimized JSON
+    ├── core-rules.json          # Core abilities (lore trimmed)
+    ├── factions-index.json      # Faction list
+    └── {faction-id}/            # Per-faction data
+        ├── datasheets.json      # Full unit stats + wargear
+        ├── rules.json           # Faction abilities
+        └── stratagems.json      # Detachment stratagems
+```
+
+**EXAMPLE USAGE:**
+```
+User: "Build a Space Wolves 2000pt list"
+
+Agent:
+1. Load processed/SM/datasheets.json (Space Marines includes Space Wolves)
+2. Filter for Space Wolves units (faction_id match)
+3. Query units where role in ['HQ', 'Troops', 'Elites', 'Heavy Support']
+4. Cross-check rules-validated.md for Pack Leader wargear restriction (known override)
+5. Build list using CSV points + rules-validated corrections
+```
+
+**BENEFITS:**
+- ✅ No more "ask user for datasheet details" workarounds
+- ✅ Perfect wargear validation (Pack Leader restrictions from CSV)
+- ✅ Instant points accuracy (always current)
+- ✅ Offline capability (CSVs cached locally)
+- ✅ Weekly auto-refresh ensures rules updates (errata, FAQs, points changes)
+
+**MANUAL REFRESH:**
+Use the `refresh-data` menu trigger to force download + reprocess if needed.
+
+---
