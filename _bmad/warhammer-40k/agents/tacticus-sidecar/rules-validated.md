@@ -425,9 +425,37 @@ When building lists for new unit types:
 
 ---
 
-*Last Updated: 2025-12-22*
+## Points Limit Enforcement ✅ VERIFIED
+**Source:** Warhammer 40k 10th Edition Matched Play Rules
+**Last Verified:** 2025-12-23
+
+**THE RULE:**
+Points limits are HARD CAPS in matched play:
+- 500pt games: Maximum 500pts (not 501, not 510)
+- 1000pt games: Maximum 1000pts
+- 2000pt games: Maximum 2000pts
+
+**CRITICAL:**
+- Going over by even 1 point = ILLEGAL list
+- "Close enough" is not tournament legal
+- Better to be under than over
+
+**Validation History:**
+- ❌ **2025-12-23 ERROR:** Recommended 1,010pt list for 1000pt game
+  - **What went wrong:** Prioritized "maximizing enhancement value" over legality
+  - **User correction:** "i feel like the rules of warhammer are 1000 points or under"
+  - **Lesson learned:** Points limits are STRICT. Never exceed. Legal first, optimized second.
+
+- ✅ **2025-12-23 CORRECTED:** Stayed at exactly 1,000pts by optimizing unit selection instead
+
+**VALIDATION STEP:**
+Before finalizing ANY list, verify total points ≤ mission size limit.
+
+---
+
+*Last Updated: 2025-12-23*
 *Maintained by: Tacticus Agent*
-*Version: 1.2*
+*Version: 1.3*
 
 ## Ultramarines Gladius Task Force ✅ VERIFIED
 **Source:** Wahapedia Ultramarines + Tournament Data

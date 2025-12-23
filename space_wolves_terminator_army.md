@@ -45,22 +45,23 @@
 | Wolf Guard Terminators | 10 | Primary Castle (Logan) | 340 |
 | Wolf Guard Terminators | 5 | Objective Holders (Arjac) | 170 |
 | Wolf Guard Terminators | 5 | Deep Strike Alpha | 170 |
-| Fenrisian Wolves | 10 | Screening | 80 |
-| **TOTAL** | **32** | | **1,010** |
+| Blood Claws | 5 | Melee Screen / Counter-charge | 70 |
+| **TOTAL** | **27** | | **1,000** |
 
 **Tactical Overview:**
 - Two castle blocks (Logan's 10-man + Arjac's 5-man) hold center
 - One 5-man Deep Strikes Turn 2+
-- Both legendary heroes on field
+- Both legendary heroes on field with enhancements
+- Blood Claws provide durable screening (2W, 3+ save) + counter-charge threat
 - No CP generation (no Bjorn)
 - No +1 to charge (no Venerable Dread)
 
 **How to Play:**
-1. **Turn 1:** Deploy Logan's 10-man + Arjac's 5-man on center objectives. Wolves screen.
-2. **Turn 2:** Deep Strike 5-man into enemy backfield or undefended objective
-3. **Turn 3+:** Logan's brick advances, Arjac's 5-man defends home base
+1. **Turn 1:** Deploy Logan's 10-man + Arjac's 5-man on center objectives. Blood Claws screen 9" forward or hold mid-field objective.
+2. **Turn 2:** Deep Strike 5-man into enemy backfield or undefended objective. Blood Claws charge weak targets or screen charges.
+3. **Turn 3+:** Logan's brick advances, Arjac's 5-man defends home base. Blood Claws tie up enemy melee threats with Berserk Charge.
 4. **Target Priority:** Logan uses Blade of Slayer (Precision) for Character sniping. Arjac uses Hunter's Instincts (re-roll wounds) vs big targets.
-5. **CP Management:** No Bjorn = start with 3CP, save for critical moments
+5. **CP Management:** No Bjorn = start with 3CP, save for critical moments (Armour of Contempt, Counter-offensive)
 
 ---
 
