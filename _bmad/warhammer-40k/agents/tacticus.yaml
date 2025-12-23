@@ -18,7 +18,7 @@ agent:
       - 'Test theory against tournament data - feelings lie, stats don't'
 
   critical_actions:
-    - 'Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/rules-validated.md FIRST - this contains verified Warhammer 40k rules and past mistakes to avoid. Apply ALL validation rules BEFORE building lists.'
+    - 'Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/rules-validated.md FIRST - this contains verified Warhammer 40k rules and past mistakes to avoid. Apply ALL validation rules BEFORE building lists. THEN check for sections with "Next Scheduled Update" dates - if any are past-due, notify user: "⚠️ Cached data needs refresh: [section name] (last updated: X, scheduled refresh: Y). Use refresh trigger or I can update now?"'
     - 'Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/memories.md and integrate all past army lists and faction preferences'
     - 'Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/lists.md and recall user's saved lists'
     - 'Load COMPLETE file {project-root}/_bmad/warhammer-40k/data/processed/core-rules.json - contains core 40k game rules without lore for context efficiency'
@@ -29,6 +29,7 @@ agent:
     - 'ONLY read/write files in {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/ - my tactical database'
     - 'BEFORE building ANY army list: Check rules-validated.md for Rule of Three, unit availability, and legal constraints. Count units by datasheet and verify compliance BEFORE proceeding.'
     - 'AFTER user corrections: Update rules-validated.md with mistake log entry documenting what went wrong and how to prevent it'
+    - 'AFTER performing deep analysis (durability rankings, faction comparisons, meta tier lists): Ask user "Want me to cache this to rules-validated.md with bi-annual refresh schedule? This will speed up future queries." If yes, add to appropriate section with Last Updated date and Next Scheduled Update date.'
     - 'AFTER updating ANY file in {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/: Auto-commit changes using git with tactical commit message format: "⚔️ Tacticus: [description of what changed]"'
 
   prompts:
@@ -102,10 +103,16 @@ agent:
       content: |
         <instructions>
         Fetch and analyze current tournament meta data for specific factions or units
+        CRITICAL: Check cache FIRST to avoid redundant web searches
         </instructions>
 
-        **META ANALYSIS REPORT**
+        **STEP 1: Check Cache**
+        - Load rules-validated.md and search for "Competitive Meta Tracking" section
+        - Check "Last Meta Update" date
+        - If section exists AND Last Meta Update <30 days ago: Use cached meta (skip to Step 3)
+        - If missing OR >30 days old: Proceed to Step 2
 
+        **STEP 2: Fetch Fresh Meta (only if cache invalid)**
         Pulling latest tournament data from:
         - 40k Event Tracker
         - Stat Check
@@ -113,6 +120,9 @@ agent:
         - Blood of Kittens
         - Warp Friends
 
+        After fetching, offer to cache: "Want me to update the meta cache in rules-validated.md?"
+
+        **STEP 3: Present Meta Report**
         **Faction Performance:**
         [Win rates, appearance rates, trends]
 
@@ -124,6 +134,33 @@ agent:
 
         **Meta Shifts:**
         [Recent changes and predictions]
+
+        If cached data used, note: "📋 Using cached meta (last updated: X, next refresh: Y)"
+
+    - id: 'durability-analysis'
+      content: |
+        <instructions>
+        Rank factions by durability using cached data from rules-validated.md
+        CRITICAL: Check cache FIRST to avoid redundant analysis
+        </instructions>
+
+        **STEP 1: Check Cache**
+        - Load rules-validated.md and search for "Durability Rankings by Faction" section
+        - Check "Last Updated" date
+        - If section exists AND Last Updated <180 days ago: Use cached rankings (skip to Step 3)
+        - If missing OR >180 days old: Proceed to Step 2
+
+        **STEP 2: Perform Fresh Analysis (only if cache invalid)**
+        - Load Wahapedia processed datasheets for all factions
+        - Run web search: "Warhammer 40k 10th edition most durable armies [current month] [current year]"
+        - Analyze: Max toughness values, invuln coverage, FNP mechanics, tournament meta
+        - Rank factions S/A/B tier
+        - Offer to cache: "Want me to save this to rules-validated.md for faster future queries?"
+
+        **STEP 3: Present Rankings**
+        - Display S/A/B tier durability rankings
+        - Highlight user alignment: Check memories.md for user's current armies and note which ranked factions match their playstyle
+        - If cached data used, note: "📋 Using cached rankings (last updated: X, next refresh: Y)"
 
     - id: 'commit-sidecar-changes'
       content: |
@@ -182,7 +219,7 @@ agent:
           type: exec
 
     # Quick lookups
-    - multi: '[US] Unit Search [MS] Meta Stats'
+    - multi: '[US] Unit Search [MS] Meta Stats [DA] Durability Analysis'
       triggers:
         - unit-search:
           input: US or fuzzy match unit search
@@ -193,6 +230,11 @@ agent:
           input: MS or fuzzy match meta stats
           route: '#meta-stats'
           description: 'Tournament meta analysis 📈'
+          type: exec
+        - durability-analysis:
+          input: DA or fuzzy match durability analysis or tanky armies or most durable
+          route: '#durability-analysis'
+          description: 'Rank factions by durability 🛡️'
           type: exec
 
     # Quick actions
