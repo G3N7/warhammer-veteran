@@ -510,6 +510,138 @@ Before finalizing ANY list, verify total points ≤ mission size limit.
 
 ---
 
+## Durability Rankings by Faction ✅ VALIDATED
+**Purpose:** Persistent durability analysis to guide tank-heavy/durable army building
+**Last Updated:** 2025-12-23
+**Next Scheduled Update:** 2026-06-15 (bi-annual: June + December after balance dataslates)
+**Verification Method:** Wahapedia processed data + tournament meta + web research
+
+### S-TIER DURABILITY (Competitive + Tank-Heavy)
+
+**1. ASTRA MILITARUM** ⭐ Tournament Winner
+- **Max Toughness:** T13 (15+ Baneblade/Macharius variants)
+- **Core Durability:** Leman Russ spam (T11, 2+ save, 13W)
+- **Meta Status:** S-Tier, won Rise of Empire GT (Dec 19, 2025)
+- **Synergies:** Lord Solar Leontus (CP farming), Grizzled Company detachment
+- **Why S-Tier:** Most T13 units in game + active tournament success + accessible durability
+- **User Alignment:** Matches castle strategy + vehicle-heavy preference (has "Imperial Hammer" list)
+
+**2. IMPERIAL KNIGHTS** 🛡️ Universal Invulns
+- **Max Toughness:** T13 (Acastus Porphyrion/Asterius, W30)
+- **Core Durability:** ALL units have 4+/5+ invulnerable saves (built-in)
+- **Meta Status:** A-Tier (some nerfs applied December dataslate)
+- **Synergies:** Pure invuln faction - no conditional mechanics needed
+- **Why S-Tier:** Only faction with universal invulns + consistent T11-T13 across roster
+- **Playstyle:** Elite, low model count (3-6 Knights at 2000pts)
+
+**3. TYRANIDS** 🦖 Monster Supremacy
+- **Max Toughness:** T14 (Hierophant - highest in game)
+- **Core Durability:** Monster swarm (T11-T12 with 2+ armor, inv4 on key units)
+- **Meta Status:** Mid-tier (not featured in December S-Tier)
+- **Synergies:** 2 FNP stratagems + 2 invuln stratagems (most defensive density)
+- **Why S-Tier:** Highest raw T value + monster layering + stratagem depth
+- **Playstyle:** Monster-heavy lists (Norn Emissary, Tyrannofex, Tervigon spam)
+
+---
+
+### A-TIER DURABILITY (Elite Armor Specialists)
+
+**4. NECRONS** 🤖 Invuln Specialists
+- **Max Toughness:** T13 (Tomb Citadel, Gauss Pylon fortifications)
+- **Core Durability:** Widest invuln distribution (C'tan T11/inv4, constructs T12/inv5)
+- **Meta Status:** A-Tier (early December strong showings)
+- **Synergies:** Reanimation protocols + vehicle invuln stacking
+- **Playstyle:** C'tan + Ghost Ark + Doomsday Ark spam (all have inv4/5)
+
+**5. DEATH GUARD** ☠️ Nurgle's Chosen
+- **Max Toughness:** T14 (Mastodon super-heavy transport)
+- **Core Durability:** Mortarion T12/inv4, daemon princes, plague marines
+- **Meta Status:** S-Tier (multiple December top finishes despite points nerfs)
+- **Synergies:** Army-wide Nurgle durability + FNP stratagems
+- **Playstyle:** Mortarion + daemon engines + plague marine spam
+
+**6. ADEPTUS CUSTODES** 🛡️ Golden Elite
+- **Max Toughness:** T12 (Coronus, Orion, Ares gunships)
+- **Core Durability:** Entire army has 2+/3+ armor + 4+/5+ invulns (elite quality)
+- **Meta Status:** Mid-tier
+- **Synergies:** T6 infantry with 2+/inv4 (3W per model) + durable vehicles
+- **Playstyle:** Elite, low model count (30-40 models at 2000pts)
+
+---
+
+### B-TIER DURABILITY (Competitive but Lower T Ceiling)
+
+**7. SPACE MARINES** (Ultramarines/Dark Angels/Black Templars)
+- **Max Toughness:** T10 (Redemptor Dreadnought), T9 (Ballistus)
+- **Core Durability:** Dreadnought-heavy castles with character auras
+- **Meta Status:** S-Tier (Adepticon 2025 winner, Dallas Open winner)
+- **Synergies:** Gladius Task Force (Combat Doctrines), character buffs
+- **User Alignment:** Has "Sons of Guilliman" Dreadnought castle list
+
+**8. ADEPTA SORORITAS**
+- **Max Toughness:** T10 (Castigator, Exorcist)
+- **Core Durability:** Shield of Faith (FNP 5+ vs mortals), Army of Faith detachment
+- **Meta Status:** A-Tier early December, NERFED HARD (points increases)
+- **Synergies:** Ignore modifiers + -1 to hit stratagems
+
+**9. ADEPTUS MECHANICUS**
+- **Max Toughness:** T11 (Skorpius Disintegrator)
+- **Core Durability:** 1 FNP stratagem + 3 invuln stratagems (most defensive options)
+- **Meta Status:** A-Tier (big points increases December dataslate)
+- **Synergies:** Data-Psalm Conclave (4+ invuln + FNP 4+ vs mortals stacking)
+
+---
+
+### KEY INSIGHTS (December 2025)
+
+**Toughness Meta Gap:**
+- Competitive play shows gap between T7-T9
+- T10+ is premium durability tier
+- T13-T14 units define fortress armies (AM, Knights, Tyranids)
+
+**Invulns > Raw Toughness:**
+- Imperial Knights prove universal invulns outperform raw T alone
+- Necrons/Custodes combine high T + invulns for layered defense
+- AP-4+ weapons punish armies without invuln saves
+
+**S-Tier ≠ Most Tanky:**
+- Drukhari (S-Tier) relies on speed/mobility, not durability
+- Tournament success = durability + firepower + CP generation
+- Astra Militarum wins by combining all three
+
+**Meta Shifts to Watch:**
+- GW balance philosophy: "Light-touch" tweaks (mostly points)
+- Tank-heavy armies avoided major nerfs (AM, Knights stable)
+- Infantry-heavy armies hit harder (Sororitas, AdMech points increases)
+
+---
+
+### DURABILITY REFRESH PROTOCOL
+
+**When to Update (Bi-Annual):**
+1. **June Update:** After Q2 balance dataslate (mid-year adjustments)
+2. **December Update:** After Q4 balance dataslate (pre-Christmas release)
+
+**What to Track:**
+- Max Toughness values (if new units released)
+- Tournament meta shifts (S-Tier → A-Tier movements)
+- Points changes affecting tank/monster spam viability
+- New detachment rules granting defensive bonuses
+- Errata/FAQ changes to invuln/FNP mechanics
+
+**Search Queries:**
+- "Warhammer 40k 10th edition most durable armies [month] [year] tournament"
+- "Warhammer 40k toughness tier list [year]"
+- "Warhammer 40k tank meta [year] balance dataslate"
+
+**Data Sources:**
+- Wahapedia processed datasheets (toughness values, saves, wounds)
+- Stat Check Meta Dashboard (win rates, appearance rates)
+- Goonhammer balance updates (detailed analysis)
+- Spikey Bits tournament results (winning lists)
+
+---
+
 ## Ultramarines Gladius Task Force ✅ VERIFIED
 **Source:** Wahapedia Ultramarines + Tournament Data
 **Last Verified:** 2025-12-21
