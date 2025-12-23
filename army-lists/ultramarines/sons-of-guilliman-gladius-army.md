@@ -307,13 +307,13 @@ At 1000pts, Guilliman dominates the battlefield:
 
 **Intercessor Squad #1 (80pts - 10 models) - Captain's Unit:**
 
-- 10x Bolt rifle (24" Rapid Fire 1)
-- 1x Intercessor Sergeant (can take power fist/weapon upgrades with remaining 30pts)
+- 1x Intercessor Sergeant: Bolt rifle (can upgrade with remaining 30pts)
+- 9x Intercessors: Bolt rifle
 
 **Intercessor Squad #2 (80pts - 10 models):**
 
-- 10x Bolt rifle (24" Rapid Fire 1)
-- Standard loadout
+- 1x Intercessor Sergeant: Bolt rifle
+- 9x Intercessors: Bolt rifle
 
 **Total Models: 22 (2 Characters + 1 Dreadnought + 19 Infantry)**
 
@@ -344,18 +344,19 @@ At 1000pts, Guilliman dominates the battlefield:
 
 **Intercessor Squad #1 (80pts - 10 models) - Guilliman's Unit:**
 
-- 10x Bolt rifle
-- Intercessor Sergeant with power fist (use remaining 25pts)
+- 1x Intercessor Sergeant: Bolt rifle + power fist (use remaining 25pts)
+- 9x Intercessors: Bolt rifle
 
 **Intercessor Squad #2 (80pts - 10 models) - Captain's Unit:**
 
-- 10x Auto bolt rifle (24" Assault 3)
-- For Devastator Doctrine synergy (Advance + shoot)
+- 1x Intercessor Sergeant: Auto bolt rifle
+- 9x Intercessors: Auto bolt rifle (24" Assault 3)
+- **Tactical Note:** Devastator Doctrine synergy (Advance + shoot)
 
 **Assault Intercessor Squad (90pts - 10 models):**
 
-- 10x Heavy bolt pistol + Astartes chainsword
-- Assault Intercessor Sergeant with plasma pistol + power fist
+- 1x Assault Intercessor Sergeant: Heavy bolt pistol + plasma pistol + thunder hammer
+- 9x Assault Intercessors: Heavy bolt pistol + Astartes chainsword
 
 **Total Models: 32 (2 Characters + 2 Dreadnoughts + 28 Infantry)**
 
@@ -401,32 +402,35 @@ At 1000pts, Guilliman dominates the battlefield:
 
 **Intercessor Squad #1 (80pts - 10 models) - Guilliman's Unit:**
 
-- 10x Bolt rifle
-- Intercessor Sergeant with power fist
+- 1x Intercessor Sergeant: Bolt rifle + power fist
+- 9x Intercessors: Bolt rifle
 
 **Intercessor Squad #2 (80pts - 10 models) - Calgar's Unit:**
 
-- 10x Bolt rifle
-- Intercessor Sergeant with power fist
+- 1x Intercessor Sergeant: Bolt rifle + power fist
+- 9x Intercessors: Bolt rifle
 
 **Intercessor Squad #3 (80pts - 10 models) - Captain's Unit:**
 
-- 10x Auto bolt rifle (for Devastator Doctrine synergy)
+- 1x Intercessor Sergeant: Auto bolt rifle
+- 9x Intercessors: Auto bolt rifle (for Devastator Doctrine synergy)
 
 **Assault Intercessor Squad (90pts - 10 models) - Lieutenant Attached:**
 
-- 10x Heavy bolt pistol + Astartes chainsword
-- Assault Intercessor Sergeant with plasma pistol + thunder hammer
+- 1x Assault Intercessor Sergeant: Heavy bolt pistol + plasma pistol + thunder hammer
+- 9x Assault Intercessors: Heavy bolt pistol + Astartes chainsword
 
 **Infernus Squad #1 (85pts - 10 models):**
 
-- 10x Pyreblaster (12" Assault D6+3, Ignores Cover, Torrent)
-- Devastating vs GEQ (Guard, Orks, Tau Fire Warriors)
+- 1x Infernus Sergeant: Pyreblaster
+- 9x Infernus: Pyreblaster (12" Assault D6+3, Ignores Cover, Torrent)
+- **Tactical Role:** Devastating vs GEQ (Guard, Orks, Tau Fire Warriors)
 
 **Infernus Squad #2 (45pts - 5 models):**
 
-- 5x Pyreblaster
-- Screening / backfield objective holders
+- 1x Infernus Sergeant: Pyreblaster
+- 4x Infernus: Pyreblaster
+- **Tactical Role:** Screening / backfield objective holders
 
 **Total Models: ~60 (5 Characters + 4 Dreadnoughts + 51 Infantry)**
 
@@ -575,7 +579,9 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 
 **Infantry:**
 
-- 20x Intercessors (2 squads of 10)
+- **Intercessors (20 models total):**
+  - 2x Intercessor Sergeant
+  - 18x Intercessors
 
 **TOTAL: 22 models + 1 Dreadnought**
 
@@ -594,8 +600,12 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 
 **Infantry:**
 
-- 20x Intercessors (2 squads of 10)
-- 10x Assault Intercessors (1 squad)
+- **Intercessors (20 models total):**
+  - 2x Intercessor Sergeant
+  - 18x Intercessors
+- **Assault Intercessors (10 models total):**
+  - 1x Assault Intercessor Sergeant
+  - 9x Assault Intercessors
 
 **TOTAL: 30 models + 1 Epic Hero + 2 Dreadnoughts**
 
@@ -620,10 +630,17 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 
 **Infantry:**
 
-- 30x Intercessors (3 squads of 10)
-- 10x Assault Intercessors (1 squad)
-- 15x Infernus Squad models (1x 10-man squad + 1x 5-man squad)
-- 2x Victrix Honour Guard (included with Calgar)
+- **Intercessors (30 models total):**
+  - 3x Intercessor Sergeant
+  - 27x Intercessors
+- **Assault Intercessors (10 models total):**
+  - 1x Assault Intercessor Sergeant
+  - 9x Assault Intercessors
+- **Infernus Squad (15 models total):**
+  - 2x Infernus Sergeant (1 per squad)
+  - 13x Infernus
+- **Victrix Honour Guard:**
+  - 2x Victrix Honour Guard (included with Calgar)
 
 **TOTAL BREAKDOWN:**
 
