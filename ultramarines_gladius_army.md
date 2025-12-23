@@ -30,7 +30,7 @@
 ## Army Overview
 
 **Faction:** Ultramarines (Adeptus Astartes)
-**Faction Ability:** Oath of Moment (re-roll hits + +1 to wound vs 2 selected targets each Command phase)
+**Faction Ability:** Oath of Moment (re-roll hit rolls vs 1 selected enemy unit each Command phase)
 **Detachment:** Gladius Task Force
 **Detachment Ability:** Combat Doctrines - Choose one per turn (each once per game):
 
@@ -95,7 +95,7 @@
 1. Deploy Captain's Intercessor brick on center objective
 2. Position Ballistus with clear fire lanes to enemy tanks
 3. Use Devastator Doctrine Turn 1-2 to Advance + Shoot with Intercessors
-4. Oath of Moment: Target enemy anti-tank units (reroll hits + +1 to wound)
+4. Oath of Moment: Target enemy anti-tank units (reroll hit rolls)
 5. Grind opponents down through superior durability
 
 ---
@@ -160,7 +160,7 @@ At 1000pts, Guilliman dominates the battlefield:
 2. **Turn 2 - Assault Doctrine:** Assault Intercessors charge after Advancing, backed by Guilliman
 3. **Turn 3+ - Tactical Doctrine:** Use if you need to Fall Back + shoot with Intercessors
 4. **Guilliman Positioning:** Keep within 6" of Ballistus whenever possible for reroll aura
-5. **Oath of Moment:** Target enemy Characters/Vehicles (reroll hits + +1 to wound)
+5. **Oath of Moment:** Target 1 enemy Character or Vehicle unit (reroll hit rolls)
 
 **CP Management:**
 
@@ -227,7 +227,7 @@ At 1000pts, Guilliman dominates the battlefield:
 
 **Key Advantages Over Smaller Lists:**
 
-- **CP Engine:** Guilliman (Supreme Strategist) + Calgar (Master Tactician) = 4CP per turn
+- **CP Engine:** Guilliman (Supreme Strategist) + Calgar (Honour Guard of Macragge) = 4CP per turn
 - **Triple Ballistus Firepower:** 420pts of anti-tank delete anything T10+
 - **Redemptor Flex:** Macro plasma OR gatling for infantry shredding
 - **5 Characters:** Guilliman + Calgar + Captain + Lieutenant + Victrix Honour Guard
@@ -237,10 +237,10 @@ At 1000pts, Guilliman dominates the battlefield:
 **Why This List Won Adepticon 2025:**
 **Source:** [Bell of Lost Souls Tournament Report](https://www.belloflostsouls.net/?p=567833)
 
-1. **Oath of Moment on Steroids:** +1 to wound on 2 targets PLUS Guilliman/Calgar rerolls = guaranteed kills
+1. **Oath of Moment + Guilliman Synergy:** Oath of Moment (reroll hits) PLUS Guilliman's 6" reroll hits AND wounds aura = guaranteed kills
 2. **Ballistus Spam:** 3 Dreadnoughts wound everything on 2s with D6+3 damage
 3. **Unkillable Characters:** Guilliman (9W, 2+/4++), Calgar (FNP 4+ with Victrix), Captain (FNP 5+)
-4. **CP Sustainability:** Calgar generates +1CP per turn, Guilliman reduces costs = 4-5CP per round
+4. **CP Sustainability:** Calgar generates +1CP per turn (Honour Guard of Macragge), Guilliman reduces costs = 4-5CP per round
 5. **Combat Doctrines:** Flexible gameplay (shoot after Advance, Fall Back + shoot, charge after Advance)
 
 **Strengths:**
@@ -260,7 +260,7 @@ At 1000pts, Guilliman dominates the battlefield:
 3. **Turn 2 - Assault Doctrine:** Assault Intercessors + Infernus charge after Advancing. Guilliman/Calgar counter-charge threats.
 4. **Turn 3+ - Tactical Doctrine:** Fall Back + shoot with Intercessors if tied up. Grind opponents through superior durability.
 5. **Guilliman Positioning:** CRITICAL - Keep all Dreadnoughts within 6" reroll aura bubble.
-6. **Oath of Moment:** Target 2 enemy Characters/Vehicles every Command phase (reroll hits + +1 to wound)
+6. **Oath of Moment:** Target 1 enemy Character or Vehicle unit every Command phase (reroll hit rolls)
 
 **CP Usage (Thanks to Guilliman + Calgar):**
 
@@ -736,7 +736,7 @@ Infernus Squad #1 (10 models - flame screen)
 
 ### Target Priority Guide
 
-**Oath of Moment Targets (Pick 2 per Command Phase):**
+**Oath of Moment Target (Pick 1 per Command Phase):**
 
 **Priority 1 - Enemy Anti-Tank:**
 
@@ -780,7 +780,7 @@ Infernus Squad #1 (10 models - flame screen)
 ```
 Command Phase:
 - Activate Devastator Doctrine
-- Use Oath of Moment on 2x enemy anti-tank units
+- Use Oath of Moment on 1 enemy anti-tank unit (reroll hits for all your units)
 - Calgar generates +1 CP (total 4 CP)
 
 Movement:
@@ -792,8 +792,8 @@ Movement:
 - Keep Ballistus #2 + #3 + Redemptor in backfield fire positions
 
 Shooting:
-- Ballistus #1 (within Guilliman reroll aura): Target Oath of Moment unit #1 (enemy tank)
-- Ballistus #2 + #3: Target Oath of Moment unit #2 (enemy Dreadnought)
+- Ballistus #1 (within Guilliman reroll aura): Target Oath of Moment unit (enemy tank)
+- Ballistus #2 + #3: Also target Oath of Moment unit (focus fire)
 - Redemptor (plasma mode): Target enemy elite infantry (Crisis Suits, etc.)
 - All Intercessor squads: Shoot despite Advancing (Devastator Doctrine) at enemy screens
 
@@ -805,7 +805,7 @@ Expected Result: 2-3 enemy vehicles/monsters deleted, board control established
 ```
 Command Phase:
 - Activate Assault Doctrine
-- Oath of Moment on enemy Characters + elite infantry
+- Oath of Moment on 1 enemy Character unit (reroll hits)
 - Calgar generates +1 CP (total ~4 CP after Turn 1 spending)
 
 Movement:
@@ -833,7 +833,7 @@ Expected Result: Enemy backfield disrupted, center objectives held, 3-4 enemy un
 ```
 Command Phase:
 - Activate Tactical Doctrine (only if units are tied up in melee)
-- Oath of Moment on remaining priority threats
+- Oath of Moment on 1 remaining priority threat (reroll hits)
 - Calgar +1 CP
 
 Movement:
@@ -852,7 +852,7 @@ Expected Result: Hold 3-4 objectives, grind remaining enemy forces
 **CP Generation:**
 
 - Start of game: 3 CP
-- Calgar's Master Tactician: +1 CP per Command phase (if Calgar is Warlord)
+- Calgar's Honour Guard of Macragge: +1 CP per Command phase (if Calgar is Warlord)
 - Guilliman's Supreme Strategist: Reduce cost of 1 Stratagem per battle round
 
 **Effective CP per Turn:**
