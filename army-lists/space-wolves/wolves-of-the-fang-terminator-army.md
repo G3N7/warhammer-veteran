@@ -882,109 +882,29 @@
 
 ## 3D Printing Guide
 
-### 2000pt Army - Complete Model Breakdown
+### Model Requirements - 2000pt Army
 
-**Characters & Dreadnoughts (4 models):**
-- 1x Logan Grimnar (unique sculpt)
-- 1x Arjac Rockfist (unique sculpt)
-- 1x Bjorn the Fell-Handed (unique sculpt)
-- 1x Venerable Dreadnought (Fenrisian greataxe + Blizzard shield + Heavy flamer)
-
-**Wolf Guard Terminators (30 models = 30 arm pairs):**
-
-| Quantity | Left Arm | Right Arm | Notes |
-|----------|----------|-----------|-------|
-| 3x | Twin lightning claws | Twin lightning claws | Pack Leaders (1 per squad) |
-| 6x | Assault cannon | Powerfist | Heavy weapons (2 per squad) |
-| 15x | Storm shield | Thunder hammer | Melee specialists |
-| 6x | Storm bolter | Powerfist | Balanced loadout |
-
-**CRITICAL:** Each Terminator needs:
-- 1x Terminator body/torso
-- 1x Terminator legs
-- 1x Head (Space Wolves helmets or bare heads)
-- 1x Left arm (from table above)
-- 1x Right arm (from table above)
-
-**Power Armor Infantry (20 models):**
-
-**Blood Claws (10 models):**
-- 1x Pack Leader body + power weapon arm + bolt pistol arm + bare head
-- 9x Blood Claws bodies + chainsword arm + bolt pistol arm + helmets
-
-**Grey Hunters (10 models):**
-- 1x Pack Leader body + power weapon arm + boltgun arm + bolt pistol arm + bare head
-- 9x Grey Hunters bodies + boltgun arm + bolt pistol arm + chainsword arm + helmets
-
-**Fenrisian Wolves (10 models):**
-- 10x Fenrisian Wolf bodies (large wolf sculpts, not regular wolves)
-
----
-
-### Terminator Arm Pairing Guide
-
-**How to Assemble 30 Terminators:**
-
-1. **3x Pack Leaders with Twin Lightning Claws:**
-   - Left arm: Twin lightning claws
-   - Right arm: Twin lightning claws
-   - **Print:** 3 left arms, 3 right arms (6 arms total)
-
-2. **6x Heavy Weapon Terminators (Assault Cannon + Powerfist):**
-   - Left arm: Assault cannon
-   - Right arm: Powerfist
-   - **Print:** 6 assault cannons, 6 powerfists (12 arms total)
-
-3. **15x Shield Wall Terminators (Storm Shield + Thunder Hammer):**
-   - Left arm: Storm shield
-   - Right arm: Thunder hammer
-   - **Print:** 15 storm shields, 15 thunder hammers (30 arms total)
-
-4. **6x Balanced Terminators (Storm Bolter + Powerfist):**
-   - Left arm: Storm bolter
-   - Right arm: Powerfist
-   - **Print:** 6 storm bolters, 6 powerfists (12 arms total)
-
-**Total Arms to Print:** 60 arms (30 left + 30 right)
-
----
-
-### Printing Tips
-
-**Terminator Bodies:**
-- Print at 0.05mm layer height for detail (shoulders, chest eagles)
-- Support placement: Under arms, chest, backpack vents
-- Orientation: 45-degree angle (reduces support marks on visible surfaces)
-
-**Weapons:**
-- Storm shields: Print flat on build plate (minimal supports)
-- Thunder hammers: Print vertically (hammer head up, handle supported)
-- Assault cannons: Print horizontally (barrel supported, ammo feed needs care)
-- Lightning claws: Print at angle (claws up, wrist supported)
-
-**Space Wolves Details:**
-- Print extra wolf pelts, runes, totems for customization
-- Bare heads with beards (very Space Wolves)
-- Wolf tails, fetishes, furs for character
-
-**Scale:**
-- Use 28mm heroic scale (matches GW Terminators)
-- Terminators are chunkier than regular Marines (broader shoulders, bigger bases)
-
----
-
-### STL Sources (Generic)
-
-**Free STL Sites:**
-- Thingiverse (search: "space marine terminators")
-- MyMiniFactory (search: "space wolves")
-- Cults3D (search: "wolf guard terminators")
-
-**Paid STL Sites (Higher Quality):**
-- Patreon creators (search: space marine proxies)
-- MyMiniFactory Tribes (premium STL subscriptions)
-
-**IMPORTANT:** Ensure STLs are scaled correctly (28mm heroic scale). Test print 1 model before printing entire army.
+| Quantity | Model Type | Loadout | Role |
+|----------|------------|---------|------|
+| **CHARACTERS & DREADNOUGHTS** | | | |
+| 1 | Logan Grimnar | Axe Morkai + Storm bolter | Character |
+| 1 | Arjac Rockfist | Foehammer + Storm shield | Character |
+| 1 | Bjorn the Fell-Handed | Assault cannon + Heavy flamer + Trueclaw | Dreadnought |
+| 1 | Venerable Dreadnought | Fenrisian greataxe + Blizzard shield + Heavy flamer | Dreadnought |
+| **WOLF GUARD TERMINATORS** | | | |
+| 3 | Pack Leader | Twin lightning claws | Pack Leader |
+| 6 | Terminator | Assault cannon + Powerfist | Heavy Weapon |
+| 15 | Terminator | Storm shield + Thunder hammer | Regular |
+| 6 | Terminator | Storm bolter + Powerfist | Regular |
+| **BLOOD CLAWS** | | | |
+| 1 | Pack Leader | Power weapon + Bolt pistol | Pack Leader |
+| 9 | Blood Claw | Chainsword + Bolt pistol | Regular |
+| **GREY HUNTERS** | | | |
+| 1 | Pack Leader | Power weapon + Boltgun + Bolt pistol | Pack Leader |
+| 9 | Grey Hunter | Boltgun + Bolt pistol + Chainsword | Regular |
+| **FENRISIAN WOLVES** | | | |
+| 10 | Fenrisian Wolf | Teeth and claws | Fast Attack |
+| **TOTAL** | **64 models** | | |
 
 ---
 
