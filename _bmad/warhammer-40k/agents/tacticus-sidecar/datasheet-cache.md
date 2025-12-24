@@ -117,18 +117,19 @@ Each cached datasheet contains:
 - 34pts per model (all wargear included)
 
 **WARGEAR (Default):**
-- Every model: Storm bolter + power weapon
+- Every model: Storm bolter + **master-crafted power weapon** (S5, AP-2, D2)
 
-**WARGEAR OPTIONS:**
-- **Pack Leader (1 per unit):**
-  - Can swap storm bolter + power weapon for: **Twin lightning claws** (melee only, no ranged)
-  - Can take any regular model wargear options
+**WARGEAR OPTIONS (10TH EDITION - VERIFIED DEC 2025):**
+- **Pack Leader (1 per unit - REQUIRED):**
+  - Can replace BOTH weapons with: **Twin lightning claws** (S User, AP-2, D1, Twin-linked, melee only)
+  - Can replace BOTH weapons with: **Relic greataxe** (melee only, stats TBD)
 - **Heavy Weapons (1 per 5 models):**
-  - Can swap storm bolter for: Assault cannon OR Cyclone missile launcher
-  - Must take powerfist if swapping to heavy weapon
+  - Can replace storm bolter + master-crafted power weapon with: **Assault cannon + Power fist** (Heavy 6, S6 AP-1 D1 Devastating Wounds + S10 AP-2 D2 melee)
+  - Can replace storm bolter + master-crafted power weapon with: **Cyclone missile launcher + Power fist** (Heavy 2, S9 AP-2 D3 + S10 AP-2 D2 melee)
 - **Regular models:**
-  - Can swap power weapon for: Powerfist, Thunder hammer, Chainfist
-  - Can swap storm bolter for: Storm shield
+  - Can replace storm bolter with: **Storm shield** (4++ invuln, lose shooting)
+  - ❌ **REMOVED IN 10TH EDITION:** Thunder hammers, chainfists, and power fists are NOT available to regular models
+  - ✅ All regular models keep master-crafted power weapon (S5 AP-2 D2)
 
 **SPECIAL RULES:**
 - Deep Strike

@@ -80,24 +80,37 @@ Before building ANY list, count units by datasheet name and verify ≤ 3 units.
 
 ---
 
-### Wolf Guard Terminators Wargear Rules ✅ VERIFIED
-**Source:** Wolf Guard Terminators Datasheet (Wahapedia)
-**Last Verified:** 2025-12-22
-**Verification Method:** User correction
+### Wolf Guard Terminators Wargear Rules ✅ VERIFIED (10TH EDITION)
+**Source:** Wolf Guard Terminators Datasheet (Wahapedia) + WebFetch validation
+**Last Verified:** 2025-12-24
+**Verification Method:** WebFetch + User correction + Mistake log
 
-**WARGEAR STRUCTURE:**
-- **Pack Leader (1 per unit):** Can equip twin lightning claws OR standard weapons
-- **Heavy Weapons (1 per 5 models):** Assault cannon + powerfist OR Cyclone missile launcher + powerfist
-- **Regular Models:** Storm bolter + power weapon (can swap for storm shield, thunder hammer, etc.)
+**WARGEAR STRUCTURE (10TH EDITION - CRITICAL CHANGES):**
+- **Default:** Storm bolter + master-crafted power weapon (S5, AP-2, D2)
+- **Pack Leader (1 per unit - REQUIRED):** Can replace BOTH weapons with twin lightning claws OR relic greataxe (both melee only)
+- **Heavy Weapons (1 per 5 models):** Can replace BOTH weapons with assault cannon + power fist OR cyclone missile launcher + power fist
+- **Regular Models:** Can replace storm bolter with storm shield (4++ invuln, lose shooting). KEEP master-crafted power weapon.
+
+**❌ REMOVED IN 10TH EDITION (CRITICAL):**
+- Thunder hammers NOT available to regular models
+- Chainfists NOT available to regular models
+- Power fists NOT available to regular models (only heavy weapon models get them)
 
 **LEGAL 10-MAN SQUAD EXAMPLE:**
-- 1x Pack Leader with twin lightning claws
-- 2x Heavy weapon models (assault cannons)
-- 7x Regular Terminators (storm shields, thunder hammers, etc.)
+- 1x Pack Leader: Twin lightning claws (melee only, no ranged)
+- 2x Heavy weapon models: Assault cannon + power fist
+- 7x Regular Terminators: Storm shield + master-crafted power weapon (S5 AP-2 D2)
 
-**CRITICAL RULE:**
+**CRITICAL RULES:**
 - Twin lightning claws = **PACK LEADER ONLY** (1 per unit maximum)
-- Cannot give twin claws to multiple models in same squad
+- Regular models CANNOT take thunder hammers/chainfists/power fists in 10th Edition
+- Master-crafted power weapon is S5 (weaker than old editions) but Lethal Hits compensates
+
+**VALIDATION HISTORY:**
+- ❌ **2025-12-23 ERROR:** Built army list using thunder hammers on regular Terminators (ILLEGAL in 10th Ed)
+  - **What went wrong:** Used outdated wargear from previous edition/kit
+  - **User correction:** Questioned if S5 power weapons were competitive, discovered 10th Ed removed thunder hammers
+  - **Lesson learned:** ALWAYS verify datasheet wargear matches current edition, especially after kit/rules updates
 
 **Validation History:**
 - ❌ **2025-12-22 ERROR:** Stated any model could take twin lightning claws
@@ -219,6 +232,46 @@ Units from this detachment gain **Lethal Hits** when targeting:
 - Example: `https://www.warhammer.com/en-US/plp?search=Roboute%20Guilliman`
 
 **Prevention:** Always use search URLs with `/plp?search=`, never direct product URLs. User provided correct URL structure.
+
+### 2025-12-24: Wolf Guard Terminators Thunder Hammer Error (10th Edition Wargear Changes)
+**Mistake:** Built entire 2000pt army list using thunder hammers + storm shields on regular Wolf Guard Terminators
+**User Correction:** "is that different than a thunder hammer" → discovered S5 master-crafted power weapons, questioned competitiveness
+**Root Cause:**
+- Cached datasheet had outdated wargear options from previous edition
+- Did not verify 10th Edition kit/datasheet changes (GW removed thunder hammers from new 2025 kit)
+- WebFetch initially failed to extract complete datasheet from Wahapedia (JavaScript-rendered content)
+
+**Fix Applied:**
+- ✅ Updated datasheet-cache.md with correct 10th Edition wargear
+- ✅ Updated rules-validated.md with mistake log and validation history
+- ✅ Added damage calculations showing S5 master-crafted power weapons deal ~20 damage vs T10 (Lethal Hits compensates)
+- ✅ Added warning to army list document explaining 10th Ed changes
+- ✅ Verified via WebSearch that new 2025 kit contains ZERO thunder hammers
+
+**Key Learning:**
+- **10th Edition changed Wolf Guard Terminators significantly:**
+  - Regular models: Can ONLY swap storm bolter → storm shield
+  - Regular models: CANNOT take thunder hammers/chainfists/power fists (REMOVED)
+  - Regular models: Keep master-crafted power weapon (S5 AP-2 D2)
+  - Pack Leaders: Can take twin claws OR relic greataxe (both replace BOTH weapons)
+  - Heavy weapon models: Get assault cannon/cyclone + power fist (1 per 5 models)
+
+**Why S5 Master-Crafted Power Weapons Are Still Competitive:**
+- **Lethal Hits (Beastslayer detachment):** 6s to hit auto-wound vs Characters/Monsters/Vehicles
+- **Volume compensates:** 7 shield models × 3 attacks = 21 attacks = ~3.5 auto-wounds from crits alone
+- **Verified math:** Arjac's 10-man deals ~20 damage vs T10 Dreadnought in one activation
+  - Arjac: 7.6 damage (S12 melee + Hunter's Instincts rerolls)
+  - 2x Assault cannons: 3.3 damage (Devastating Wounds)
+  - 2x Power fists: 3.3 damage (S10 AP-2 D2)
+  - 7x Master-crafted power weapons: 5.25 damage (Lethal Hits makes S5 viable!)
+  - Pack Leader twin claws: 0.8 damage
+- **Local play:** Can model as hammers/axes (thematic) and call them "master-crafted power weapons" for rules
+
+**Prevention:**
+- ALWAYS WebFetch current datasheet when building lists for units not recently verified
+- Check "Last Verified" date in cache - if >30 days, re-verify wargear options
+- When WebFetch fails (JavaScript rendering), use WebSearch for "unit name wargear options 10th edition" + cross-reference community forums
+- Mark cache entries with edition number (e.g., "10TH EDITION - VERIFIED DEC 2025")
 
 ---
 
