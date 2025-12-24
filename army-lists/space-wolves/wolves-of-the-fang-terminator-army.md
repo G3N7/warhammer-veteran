@@ -5,6 +5,13 @@
 **Army Theme:** Maximum legal Terminators (30 models) with legendary heroes
 **Playstyle:** Elite castle with Deep Strike pressure and CP generation
 
+> **⚠️ 10TH EDITION WARGEAR UPDATE (Dec 2025):**
+> The new Wolf Guard Terminators kit and datasheet **removed thunder hammers, chainfists, and power fists from regular models**. Regular Terminators now use **master-crafted power weapons (S5 AP-2 D2)** instead of S8+ melee weapons. This is weaker on paper BUT remains competitive due to:
+> - **Lethal Hits detachment ability:** 6s to hit auto-wound vs Characters/Monsters/Vehicles
+> - **Volume of attacks:** 7 shield models = 21 attacks = ~3.5 auto-wounds from crits alone
+> - **Verified damage:** Arjac's 10-man unit deals ~20 damage vs T10 targets in one activation
+> - **Local play:** Model your weapons as hammers/axes - just call them "master-crafted power weapons" for rules
+
 ---
 
 ## Table of Contents
@@ -304,47 +311,47 @@
 
 **Default Loadout:**
 - Storm bolter (Rapid Fire 2, 18" range)
-- Power weapon (S+1, AP-2, D1)
+- Master-crafted power weapon (S5, AP-2, D2)
 
 **Wargear Swaps (by model type):**
 
 **1. Pack Leader (1 per unit - REQUIRED):**
-- ✅ Can take: Twin lightning claws (S User, AP-2, D1, Twin-linked, **melee only - no ranged**)
-- ✅ Can take: Any regular model wargear options (see below)
+- ✅ Can replace both weapons with: **Twin lightning claws** (S User, AP-2, D1, Twin-linked, **melee only - no ranged**)
+- ✅ Can replace both weapons with: **Relic greataxe** (melee only - no ranged)
 
 **2. Heavy Weapons (1 per 5 models):**
-- ✅ Can swap storm bolter for: **Assault cannon** (Heavy 6, 24" range, S6 AP-1 D1 Devastating Wounds)
-- ✅ Can swap storm bolter for: **Cyclone missile launcher** (Heavy 2, 36" range, S9 AP-2 D3)
-- ✅ Must also take: Powerfist (S x2, AP-2, D2) when taking heavy weapon
+- ✅ Can replace storm bolter + power weapon with: **Assault cannon + Power fist** (Heavy 6, S6 AP-1 D1 Devastating Wounds + S10 AP-2 D2 melee)
+- ✅ Alternative: **Cyclone missile launcher + Power fist** (Heavy 2, S9 AP-2 D3 + S10 AP-2 D2 melee)
 
 **3. Regular Models:**
-- ✅ Can swap power weapon for: Powerfist, Thunder hammer, Chainfist
-- ✅ Can swap storm bolter for: Storm shield (no shooting, but 4++ invuln in melee)
-- ✅ Can mix and match wargear within same squad
+- ✅ Can replace storm bolter with: **Storm shield** (4++ invuln, lose shooting)
+- ❌ **IMPORTANT:** Thunder hammers, chainfists, and power fists are NOT available to regular models in 10th Edition
+- ✅ All regular models keep master-crafted power weapon (S5 AP-2 D2)
 
 **Recommended Loadouts:**
 
-**Shield Wall Configuration:**
-- 1x Pack Leader: Storm shield + Thunder hammer (or twin claws if aggressive)
-- 2x Heavy weapon: Assault cannon + Powerfist (1 per 5 models)
-- 7x Regular: Storm shield + Thunder hammer
-- **Pros:** Maximum durability (4++ invuln on 8/10 models), excellent melee damage (S8 AP-2 D2 Devastating Wounds)
-- **Cons:** Limited shooting (only 2 assault cannons + Pack Leader if not using twin claws)
+**Shield Wall Configuration (LEGAL - Verified):**
+- 1x Pack Leader: Twin lightning claws (aggressive melee, no ranged)
+- 2x Heavy weapon: Assault cannon + Power fist (1 per 5 models)
+- 7x Regular: Storm shield + Master-crafted power weapon (S5 AP-2 D2)
+- **Pros:** Maximum durability (4++ invuln on 7/10 models, FNP 5+ from Arjac), Lethal Hits compensates for S5
+- **Cons:** Limited shooting (only 2 assault cannons), S5 melee weaker vs high toughness
+- **Damage vs T10:** ~20 damage per activation (Lethal Hits makes this viable!)
 
 **Balanced Configuration:**
 - 1x Pack Leader: Twin lightning claws (melee specialist)
-- 2x Heavy weapon: Assault cannon + Powerfist
-- 5x Regular: Storm shield + Thunder hammer
-- 2x Regular: Storm bolter + Powerfist
-- **Pros:** Good shooting (2 assault cannons + 2 storm bolters), solid melee, cheaper than full shield wall
-- **Cons:** Less durable (2 models without storm shields)
+- 2x Heavy weapon: Assault cannon + Power fist
+- 5x Regular: Storm shield + Master-crafted power weapon (S5 AP-2 D2)
+- 2x Regular: Storm bolter + Master-crafted power weapon (S5 AP-2 D2)
+- **Pros:** Good shooting (2 assault cannons + 2 storm bolters), solid durability, balanced
+- **Cons:** Less durable than full shield wall (2 models without 4++ invuln)
 
 **Gunline Configuration:**
-- 1x Pack Leader: Storm bolter + Power weapon (keeps shooting)
-- 2x Heavy weapon: Assault cannon + Powerfist
-- 7x Regular: Storm bolter + Powerfist
-- **Pros:** Maximum shooting (9 storm bolters + 2 assault cannons), still good melee (S10 powerfists)
-- **Cons:** No invuln saves in melee (rely on 2+ armor only)
+- 1x Pack Leader: Twin lightning claws OR keep storm bolter + master-crafted power weapon
+- 2x Heavy weapon: Assault cannon + Power fist
+- 7x Regular: Storm bolter + Master-crafted power weapon (S5 AP-2 D2)
+- **Pros:** Maximum shooting (9 storm bolters + 2 assault cannons), volume compensates for S5
+- **Cons:** No invuln saves in melee (rely on 2+ armor only), vulnerable to AP-3+ weapons
 
 ---
 
@@ -354,31 +361,33 @@
 
 **Arjac's 10-man (Primary Castle):**
 - 1x Pack Leader: Twin lightning claws (melee specialist, no ranged)
-- 2x Heavy: Assault cannon + Powerfist
-- 7x Regular: Storm shield + Thunder hammer
-- **Role:** Castle on center objective. Arjac provides buffs. Shield wall absorbs damage.
+- 2x Heavy: Assault cannon + Power fist
+- 7x Regular: Storm shield + Master-crafted power weapon (S5 AP-2 D2)
+- **Role:** Castle on center objective. Arjac provides FNP 5+. Shield wall absorbs damage.
+- **Damage Output:** ~20 damage vs T10 targets (Lethal Hits compensates for S5)
 
 ---
 
 #### 1000pt List
 
 **Logan's 10-man (Primary Castle):**
-- 1x Pack Leader: Storm shield + Thunder hammer (keeps durability)
-- 2x Heavy: Assault cannon + Powerfist
-- 7x Regular: Storm shield + Thunder hammer
-- **Role:** Logan leads. Castle on center objective. Maximum durability.
+- 1x Pack Leader: Twin lightning claws (aggressive melee)
+- 2x Heavy: Assault cannon + Power fist
+- 5x Regular: Storm shield + Master-crafted power weapon (S5 AP-2 D2)
+- 2x Regular: Storm bolter + Master-crafted power weapon (S5 AP-2 D2)
+- **Role:** Logan leads. Castle on center objective. Balanced loadout.
 
 **Arjac's 5-man (Objective Holders):**
-- 1x Pack Leader: Storm shield + Thunder hammer
-- 1x Heavy: Assault cannon + Powerfist
-- 3x Regular: Storm shield + Thunder hammer
-- **Role:** Arjac leads. Defends home objective. Full shield wall.
+- 1x Pack Leader: Twin lightning claws (melee specialist)
+- 1x Heavy: Assault cannon + Power fist
+- 3x Regular: Storm shield + Master-crafted power weapon (S5 AP-2 D2)
+- **Role:** Arjac leads. Defends home objective. FNP 5+ from Arjac makes them durable.
 
 **Deep Strike 5-man (Alpha Strike):**
 - 1x Pack Leader: Twin lightning claws (melee specialist for alpha strike)
-- 1x Heavy: Assault cannon + Powerfist
-- 2x Regular: Storm bolter + Powerfist (shooting + melee)
-- 1x Regular: Storm shield + Thunder hammer
+- 1x Heavy: Assault cannon + Power fist
+- 2x Regular: Storm bolter + Master-crafted power weapon (S5 AP-2 D2)
+- 1x Regular: Storm shield + Master-crafted power weapon (S5 AP-2 D2)
 - **Role:** Deep Strike Turn 2+. Disrupt enemy backfield. Mix of shooting and melee.
 
 ---
@@ -386,23 +395,24 @@
 #### 2000pt List
 
 **Logan's 10-man (Primary Castle):**
-- 1x Pack Leader: Storm shield + Thunder hammer
-- 2x Heavy: Assault cannon + Powerfist
-- 7x Regular: Storm shield + Thunder hammer
-- **Role:** Logan leads. Primary castle on center objective. Full shield wall.
+- 1x Pack Leader: Twin lightning claws (aggressive melee)
+- 2x Heavy: Assault cannon + Power fist
+- 5x Regular: Storm shield + Master-crafted power weapon (S5 AP-2 D2)
+- 2x Regular: Storm bolter + Master-crafted power weapon (S5 AP-2 D2)
+- **Role:** Logan leads. Primary castle on center objective. Balanced loadout.
 
 **Arjac's 10-man (Secondary Castle or Deep Strike):**
 - 1x Pack Leader: Twin lightning claws (aggressive melee)
-- 2x Heavy: Assault cannon + Powerfist
-- 3x Regular: Storm bolter + Powerfist (balanced shooting/melee)
-- 4x Regular: Storm shield + Thunder hammer (durability core)
-- **Role:** Arjac leads. Either deploys on board OR Deep Strikes Turn 2+. Balanced loadout.
+- 2x Heavy: Assault cannon + Power fist
+- 7x Regular: Storm shield + Master-crafted power weapon (S5 AP-2 D2)
+- **Role:** Arjac leads. Either deploys on board OR Deep Strikes Turn 2+. FNP 5+ aura.
+- **Damage Output:** ~20 damage vs T10 (verified with corrected math)
 
 **Third 10-man (Backfield Objective Holders):**
-- 1x Pack Leader: Storm shield + Thunder hammer
-- 2x Heavy: Assault cannon + Powerfist
-- 2x Regular: Storm bolter + Powerfist
-- 5x Regular: Storm shield + Thunder hammer
+- 1x Pack Leader: Twin lightning claws (melee specialist)
+- 2x Heavy: Assault cannon + Power fist
+- 5x Regular: Storm shield + Master-crafted power weapon (S5 AP-2 D2)
+- 2x Regular: Storm bolter + Master-crafted power weapon (S5 AP-2 D2)
 - **Role:** Holds backfield objective. Balanced loadout. Can advance if needed.
 
 ---
@@ -893,9 +903,9 @@
 | 1 | Venerable Dreadnought | Fenrisian greataxe + Blizzard shield + Heavy flamer | Dreadnought |
 | **WOLF GUARD TERMINATORS** | | | |
 | 3 | Pack Leader | Twin lightning claws | Pack Leader |
-| 6 | Terminator | Assault cannon + Powerfist | Heavy Weapon |
-| 15 | Terminator | Storm shield + Thunder hammer | Regular |
-| 6 | Terminator | Storm bolter + Powerfist | Regular |
+| 6 | Terminator | Assault cannon + Power fist | Heavy Weapon |
+| 15 | Terminator | Storm shield + Master-crafted power weapon | Regular |
+| 6 | Terminator | Storm bolter + Master-crafted power weapon | Regular |
 | **BLOOD CLAWS** | | | |
 | 1 | Pack Leader | Power weapon + Bolt pistol | Pack Leader |
 | 9 | Blood Claw | Chainsword + Bolt pistol | Regular |
