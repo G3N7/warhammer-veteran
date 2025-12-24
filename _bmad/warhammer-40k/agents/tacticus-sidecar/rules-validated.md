@@ -9,6 +9,37 @@
 
 ---
 
+## CRITICAL: Current Edition Enforcement
+
+**WARHAMMER 40,000: 10TH EDITION (CURRENT)**
+**Last Verified:** 2025-12-24
+**Source:** [Goonhammer 10th Edition Hub](https://www.goonhammer.com/warhammer-40k-10th-edition/)
+
+**EDITION VALIDATION PROTOCOL:**
+- ✅ ALL datasheets MUST be marked "10TH EDITION - VERIFIED [DATE]"
+- ✅ ALL WebFetch/WebSearch queries MUST include "10th edition"
+- ✅ ALL cached rules MUST verify edition tag before use
+- ❌ REJECT any cache entries from 9th/8th/7th editions without re-verification
+- 🔄 If cache missing edition tag, mark as OUTDATED and re-fetch
+
+**WHY THIS MATTERS:**
+- **Edition changes remove/add wargear:** 10th Ed Wolf Guard Terminators lost thunder hammers/chainfists
+- **Edition changes stats:** Weapon profiles change between editions
+- **Edition changes unit composition:** Rules for Pack Leaders, Sergeants, etc. vary
+- **Points values change:** MFM updates quarterly, but edition changes are major
+
+**PREVENTION CHECKLIST:**
+1. Before using cached datasheet: Verify edition tag present and correct
+2. Before WebFetch/WebSearch: Include "10th edition" in query
+3. After fetching new data: Tag with "10TH EDITION - VERIFIED [DATE]"
+4. When edition changes (e.g., 11th Ed in 2026): Mark ALL cache as 🔄 OUTDATED
+
+**AGE OF SIGMAR: 4TH EDITION (CURRENT)**
+**Last Verified:** 2025-12-24
+**Source:** [Goonhammer AoS 4th Edition](https://www.goonhammer.com/age-of-sigmar-new-edition-4th-explained/)
+
+---
+
 ## Core Matched Play Rules
 
 ### Rule of Three ✅ VERIFIED
@@ -272,6 +303,27 @@ Units from this detachment gain **Lethal Hits** when targeting:
 - Check "Last Verified" date in cache - if >30 days, re-verify wargear options
 - When WebFetch fails (JavaScript rendering), use WebSearch for "unit name wargear options 10th edition" + cross-reference community forums
 - Mark cache entries with edition number (e.g., "10TH EDITION - VERIFIED DEC 2025")
+- **ENFORCE EDITION VALIDATION:** Verify edition tag on ALL cached data before use
+
+### 2025-12-24: Edition Enforcement Added (Root Cause Analysis)
+**Why This Error Happened:**
+- Datasheet cache had NO edition validation
+- Agent assumed cached data was current without checking edition
+- 10th Edition made significant wargear changes vs 9th Edition
+- No system in place to detect outdated cache entries
+
+**Fix Applied:**
+- ✅ Added "CRITICAL: Current Edition Enforcement" section to rules-validated.md
+- ✅ Updated agent critical_actions with edition validation protocol
+- ✅ Marked all cached datasheets with "10TH EDITION - VERIFIED DEC 2025"
+- ✅ Added checklist: verify edition tag before using cache, include "10th edition" in searches
+- ✅ Added 🔄 OUTDATED tag protocol for when editions change
+
+**Future-Proofing:**
+- When 11th Edition releases (rumored Summer 2026), mark ALL cache as 🔄 OUTDATED
+- Update critical_actions with new edition number
+- Re-verify ALL datasheets against new edition rules
+- Document edition-specific changes in mistake log
 
 ---
 

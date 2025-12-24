@@ -1,14 +1,20 @@
 # Tacticus - Datasheet Cache
 
 **Purpose:** Local cache of frequently-used datasheets to avoid repeated web fetches
-**Last Updated:** 2025-12-23
+**Last Updated:** 2025-12-24
 **Format:** Concise, LLM-optimized datasheet summaries
+
+**⚠️ CRITICAL: EDITION VALIDATION REQUIRED**
+**Current Edition:** Warhammer 40k 10th Edition (verified Dec 2025)
+**ALL cached datasheets MUST include edition tag:** "10TH EDITION - VERIFIED [DATE]"
+**REJECT cache entries without edition tag** - re-fetch with "10th edition" in query
 
 ---
 
 ## Schema
 
 Each cached datasheet contains:
+- **Edition Tag:** "10TH EDITION - VERIFIED [DATE]" (REQUIRED)
 - **Unit Composition:** Model types (Pack Leader, special weapons, regular models)
 - **Wargear Options:** By model type (Pack Leader vs regular)
 - **Unit Size:** Min/Max models
@@ -18,13 +24,19 @@ Each cached datasheet contains:
 - **Source:** Wahapedia URL
 - **Last Verified:** Date
 
+**Status Indicators:**
+- ✅ COMPLETE = Has edition tag + full wargear + verified date
+- ⚠️ INCOMPLETE = Missing wargear details (ask user, don't WebFetch)
+- 🔄 OUTDATED = Wrong edition or >6 months old, needs refresh
+
 ---
 
 ## Space Wolves Units
 
 ### Blood Claws
+**Edition:** 10TH EDITION - VERIFIED DEC 2025 ✅
 **Source:** https://wahapedia.ru/wh40k10ed/factions/space-marines/Blood-Claws
-**Last Verified:** 2025-12-23 (applied to Ultramarines Sergeant audit)
+**Last Verified:** 2025-12-24
 **Faction:** Space Marines (Space Wolves)
 **Role:** Battleline
 
@@ -62,8 +74,9 @@ Each cached datasheet contains:
 ---
 
 ### Grey Hunters
+**Edition:** 10TH EDITION - VERIFIED DEC 2025 ✅
 **Source:** https://wahapedia.ru/wh40k10ed/factions/space-marines/Grey-Hunters
-**Last Verified:** 2025-12-23 (validated via Ultramarines Sergeant audit)
+**Last Verified:** 2025-12-24
 **Faction:** Space Marines (Space Wolves)
 **Role:** Battleline
 
@@ -100,8 +113,9 @@ Each cached datasheet contains:
 ---
 
 ### Wolf Guard Terminators ✅ VERIFIED
+**Edition:** 10TH EDITION - VERIFIED DEC 2025 ✅
 **Source:** https://wahapedia.ru/wh40k10ed/factions/space-marines/Wolf-Guard-Terminators
-**Last Verified:** 2025-12-22 (user corrected twin claws restriction)
+**Last Verified:** 2025-12-24 (wargear corrected for 10th Ed - thunder hammers removed)
 **Faction:** Space Marines (Space Wolves)
 **Role:** Elites
 
