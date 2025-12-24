@@ -1,0 +1,628 @@
+{
+  "stratagems": [
+    {
+      "id": "000010152007",
+      "name": "SHROUD OF CHAOS",
+      "type": "Cabal of Chaos \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Start of your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00756\" data-tooltip-content=\"#tooltip_content00756\" data-tooltip-anchor=\"#tooltip_content00756\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">PSYKER</span></span>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Heretic-Astartes-Daemon-Prince\"><span class=\"kwb kwbo\">HERETIC</span> <span class=\"kwb kwbo\">ASTARTES</span> <span class=\"kwb kwbo\">DAEMON</span> <span class=\"kwb kwbo\">PRINCE</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Heretic-Astartes-Daemon-Prince-With-Wings\"><span class=\"kwb kwbo\">HERETIC</span> <span class=\"kwb kwbo\">ASTARTES</span> <span class=\"kwb kwbo\">DAEMON</span> <span class=\"kwb kwbo\">PRINCE</span> <span class=\"kwb2 kwbo\">WITH</span> <span class=\"kwb kwbo\">WINGS</span></a> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, your unit has the following ability:<br><br><b>Shroud of Chaos (Aura):</b> Models in friendly <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> units within 6\" of this unit have the <a href=\"/wh40k10ed/the-rules/core-rules/#_STEALTH\">Stealth</a> ability.",
+      "detachment": "Cabal of Chaos"
+    },
+    {
+      "id": "000010152006",
+      "name": "UNHOLY HASTE",
+      "type": "Cabal of Chaos \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that has not been selected to charge that phase.<br><br><b>EFFECT:</b> Until the end of the phase, your unit is eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advanced</a>.",
+      "detachment": "Cabal of Chaos"
+    },
+    {
+      "id": "000010152002",
+      "name": "BALEFUL BLESSING",
+      "type": "Cabal of Chaos \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase, just after a <span class=\"tooltip00613\" data-tooltip-content=\"#tooltip_content00613\" data-tooltip-anchor=\"#tooltip_content00613\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span></span> unit from your army has a <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wound</a> allocated to it.<br><br><b>TARGET:</b> That <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit.<br><br><b>EFFECT:</b> Until the end of the phase, models in your unit have the <span class=\"tooltip00144\" data-tooltip-content=\"#tooltip_content00144\"><span class=\"tt kwbu\">Feel</span> <span class=\"tt kwbu\">No</span> <span class=\"tt kwbu\">Pain</span> <span class=\"tt kwbu\">5+</span></span> ability against mortal wounds.",
+      "detachment": "Cabal of Chaos"
+    },
+    {
+      "id": "000010152005",
+      "name": "SOULSEEKERS",
+      "type": "Cabal of Chaos \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00613\" data-tooltip-content=\"#tooltip_content00613\" data-tooltip-anchor=\"#tooltip_content00613\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span></span> unit from your army that has not been selected to shoot that phase.<br><br><b>EFFECT:</b> Until the end of the phase, ranged weapons equipped by models in your unit have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Ignores-Cover\">[IGNORES COVER]</a></span> ability.",
+      "detachment": "Cabal of Chaos"
+    },
+    {
+      "id": "000010152003",
+      "name": "NO REST IN DEATH",
+      "type": "Cabal of Chaos \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00613\" data-tooltip-content=\"#tooltip_content00613\" data-tooltip-anchor=\"#tooltip_content00613\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span></span> unit from your army within 9\" of a <span class=\"tooltip00756\" data-tooltip-content=\"#tooltip_content00756\" data-tooltip-anchor=\"#tooltip_content00756\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">PSYKER</span></span>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Heretic-Astartes-Daemon-Prince\"><span class=\"kwb kwbo\">HERETIC</span> <span class=\"kwb kwbo\">ASTARTES</span> <span class=\"kwb kwbo\">DAEMON</span> <span class=\"kwb kwbo\">PRINCE</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Heretic-Astartes-Daemon-Prince-With-Wings\"><span class=\"kwb kwbo\">HERETIC</span> <span class=\"kwb kwbo\">ASTARTES</span> <span class=\"kwb kwbo\">DAEMON</span> <span class=\"kwb kwbo\">PRINCE</span> <span class=\"kwb2 kwbo\">WITH</span> <span class=\"kwb kwbo\">WINGS</span></a> unit from your army.<br><br><b>EFFECT:</b> One model in your unit regains up to D3+1 lost wounds. If your unit has the <span class=\"tooltip00754\" data-tooltip-content=\"#tooltip_content00754\" data-tooltip-anchor=\"#tooltip_content00754\"><span class=\"kwb\">BATTLELINE</span></span> keyword, you can return up to D3 destroyed models (excluding <span class=\"tooltip00370\" data-tooltip-content=\"#tooltip_content00370\" data-tooltip-anchor=\"#tooltip_content00370\"><span class=\"kwb\">CHARACTER</span></span> models) to your unit with their full wounds remaining, instead.",
+      "detachment": "Cabal of Chaos"
+    },
+    {
+      "id": "000010152004",
+      "name": "MUTATION\u2019S CURSE",
+      "type": "Cabal of Chaos \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00756\" data-tooltip-content=\"#tooltip_content00756\" data-tooltip-anchor=\"#tooltip_content00756\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">PSYKER</span></span> unit from your army.<br><br><b>EFFECT:</b> Select one <a href=\"/wh40k10ed/the-rules/core-rules/#Determining-Visibility\">visible</a> enemy unit within 12\" of your unit. Roll one D6: on a 1, that enemy unit suffers 1 <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wound</a>; on a 2-4, that enemy unit suffers D3 mortal wounds; on a 5-6, that enemy unit suffers 2D3 mortal wounds.",
+      "detachment": "Cabal of Chaos"
+    },
+    {
+      "id": "000009521002",
+      "name": "IMPERIOUS ADVANCE",
+      "type": "Champions of Chaos \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00822\" data-tooltip-content=\"#tooltip_content00822\" data-tooltip-anchor=\"#tooltip_content00822\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">TERMINATOR</span></span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Select any number of models in your unit. Until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by the selected models, and each time you <a href=\"/wh40k10ed/the-rules/core-rules/#Select-Targets\">select targets</a> for attacks made by those models, they must target an enemy unit that is wholly on the opposite side of a <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Terrain\">Hatchway</a> from them.",
+      "detachment": "Champions of Chaos"
+    },
+    {
+      "id": "000009521003",
+      "name": "MALIGN WILL",
+      "type": "Champions of Chaos \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Shooting-Phase\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army that has not been selected to shoot or fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time your unit takes a <a href=\"/wh40k10ed/the-rules/core-rules/#Leadership-Tests\">Leadership test</a> for the <span class=\"tooltip00485\" data-tooltip-content=\"#tooltip_content00485\"><span class=\"tt kwbu\">Dark</span> <span class=\"tt kwbu\">Pacts</span></span> ability, subtract 1 from the result and, if passed, select one <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Objective-Markers\">objective marker</a> within 6\" of your unit. If there are no enemy units within range of that objective marker (excluding <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a> units], that objective marker is <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#SEIZING-AND-SECURING-OBJECTIVE-MARKERS\">Secured</a> by your army.",
+      "detachment": "Champions of Chaos"
+    },
+    {
+      "id": "000009521004",
+      "name": "INFERNAL PATRONS",
+      "type": "Champions of Chaos \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase, just after your opponent targets a unit from their army with a Stratagem.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army within 3\" of and <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Visibility\">visible</a> to that enemy unit.<br><br><b>EFFECT:</b> That enemy unit must take a <a href=\"/wh40k10ed/the-rules/core-rules/#Leadership-Tests\">Leadership test</a>; if failed, that usage of that Stratagem has no effect (your opponent cannot use that Stratagem again this phase).",
+      "detachment": "Champions of Chaos"
+    },
+    {
+      "id": "000009521005",
+      "name": "AGGRESSIVE STRIKE",
+      "type": "Champions of Chaos \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Movement-Phase\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army that arrived using the <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Before-the-Battle\">Deep Strike ability</a> this turn.<br><br><b>EFFECT:</b> Your unit can make a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal move</a> of up to 6\".<br><br><b>RESTRICTIONS:</b> Until the end of the turn, your unit is not eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a>.",
+      "detachment": "Champions of Chaos"
+    },
+    {
+      "id": "000008982004",
+      "name": "INFERNAL SACRIFICE",
+      "type": "Chaos Cult \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Your unit can make a <span class=\"tooltip00823\" data-tooltip-content=\"#tooltip_content00823\"><span class=\"tt kwbu\">Desperate</span> <span class=\"tt kwbu\">Pact</span></span>. If it does, your unit suffers D3 <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wounds</a> (in  addition to any suffered for failing the resulting <a href=\"/wh40k10ed/the-rules/core-rules/#Leadership-Tests\">Leadership test</a>), and until the end of the phase, add 1 to the Attacks characteristic of the melee weapons equipped by models in your unit, and if your unit did not fail the resulting Leadership test when making that Desperate Pact, until the end of the  phase, improve the Strength characteristic of those  weapons by 1 as well.",
+      "detachment": "Chaos Cult"
+    },
+    {
+      "id": "000008982002",
+      "name": "CHOSEN FOR GLORY",
+      "type": "Chaos Cult \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> unit from your army that has not been selected to shoot or fight this phase.<br><br><b>EFFECT:</b> Your unit can make a <span class=\"tooltip00823\" data-tooltip-content=\"#tooltip_content00823\"><span class=\"tt kwbu\">Desperate</span> <span class=\"tt kwbu\">Pact</span></span>. If it does, until the end of the phase, each time a model in your unit makes an attack, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>, and if your unit did not fail the resulting <a href=\"/wh40k10ed/the-rules/core-rules/#Leadership-Tests\">Leadership test</a> when making that Desperate Pact, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a> as well.",
+      "detachment": "Chaos Cult"
+    },
+    {
+      "id": "000008982005",
+      "name": "CRAZED FOCUS",
+      "type": "Chaos Cult \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Your unit can make a <span class=\"tooltip00823\" data-tooltip-content=\"#tooltip_content00823\"><span class=\"tt kwbu\">Desperate</span> <span class=\"tt kwbu\">Pact</span></span>. If it does, until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1, and if your unit did not fail the resulting <a href=\"/wh40k10ed/the-rules/core-rules/#Leadership-Tests\">Leadership test</a> when making that Desperate Pact, improve the Strength characteristic of that attack by 1 as well.",
+      "detachment": "Chaos Cult"
+    },
+    {
+      "id": "000008982006",
+      "name": "RECKLESS HASTE",
+      "type": "Chaos Cult \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a> <br><br><b>TARGET:</b> One <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the turn, your unit is eligible to declare a charge in a turn in which it <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advanced</a>.",
+      "detachment": "Chaos Cult"
+    },
+    {
+      "id": "000008982003",
+      "name": "SELFLESS DEMISE",
+      "type": "Chaos Cult \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the attacking unit has resolved all of its attacks, each time a model in your unit is <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a>, roll one D6 on a 6, the attacking unit suffers 1 <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wound</a> after all of its attacks have been resolved.",
+      "detachment": "Chaos Cult"
+    },
+    {
+      "id": "000008982007",
+      "name": "MORTAL THRALLS",
+      "type": "Chaos Cult \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected ts targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army that was selected as the target of one or more of the attacking units attacks, and one friendly <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> unit within 3\" of your unit and <a href=\"/wh40k10ed/the-rules/core-rules/#Determining-Visibility\">visible</a> to both your unit and the attacking unit.<br><br><b>EFFECT:</b> Until the end of the phase, while your <span class=\"kwb\">DAMNED</span> unit is on the battlefield, each time your opponent would make a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a> for an attack that targets your <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit, if your <span class=\"kwb\">DAMNED</span> <a href=\"/wh40k10ed/the-rules/core-rules/#Unit-Visible\">unit is visible</a> to the attacking model and is an eligible target for that attack, no roll is made; instead, your <span class=\"kwb\">DAMNED</span> unit suffers a number of <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wounds</a> equal to the Damage characteristic of that attack.",
+      "detachment": "Chaos Cult"
+    },
+    {
+      "id": "000009774004",
+      "name": "SPECIMENS FOR THE SPIDER",
+      "type": "Creations of Bile \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes a melee attack that targets a <span class=\"kwb\">CHARACTER</span> unit, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>. After your unit has fought, if one or more enemy <span class=\"kwb\">CHARACTER</span> models were destroyed as a result of those attacks, select one enemy unit within 6\" of your unit. That enemy unit must take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a>. If the enemy <span class=\"kwb\">WARLORD</span> was destroyed as a result of those attacks, each enemy unit within 6\" of your unit must take a Battle-shock test instead.",
+      "detachment": "Creations of Bile"
+    },
+    {
+      "id": "000009774007",
+      "name": "AUTOSTIMULANTS",
+      "type": "Creations of Bile \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Start of your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the turn, your unit is eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advanced</a>.",
+      "detachment": "Creations of Bile"
+    },
+    {
+      "id": "000009774006",
+      "name": "DIABOLIC REGENERATION",
+      "type": "Creations of Bile \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit (excluding <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> units) from your army.<br><br><b>EFFECT:</b> One destroyed model (excluding <span class=\"tooltip00370\" data-tooltip-content=\"#tooltip_content00370\" data-tooltip-anchor=\"#tooltip_content00370\"><span class=\"kwb\">CHARACTER</span></span> models) is returned to your unit. If your unit is a <span class=\"tooltip00754\" data-tooltip-content=\"#tooltip_content00754\" data-tooltip-anchor=\"#tooltip_content00754\"><span class=\"kwb\">BATTLELINE</span></span> unit, D3 destroyed models (excluding <span class=\"kwb\">CHARACTER</span> models) are returned to your unit instead.",
+      "detachment": "Creations of Bile"
+    },
+    {
+      "id": "000009774005",
+      "name": "DELAYED MUTATIONS",
+      "type": "Creations of Bile \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit (excluding <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> units) from your army.<br><br><b>EFFECT:</b> Your unit suffers D3 <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wounds</a>. Then select one augmentation (see <span class=\"tooltip00824\" data-tooltip-content=\"#tooltip_content00824\"><span class=\"tt kwbu\">Experimental</span> <span class=\"tt kwbu\">Augmentations</span></span>). Until the start of your next Command phase, models in your unit have the selected augmentation in addition to any other augmentations they have.",
+      "detachment": "Creations of Bile"
+    },
+    {
+      "id": "000009774003",
+      "name": "MASTERS ARE WATCHING",
+      "type": "Creations of Bile \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, subtracting 1 from the result if it is a <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> unit: on a 4+, do not remove it from play. That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "detachment": "Creations of Bile"
+    },
+    {
+      "id": "000009774002",
+      "name": "MONSTROUS VISAGES",
+      "type": "Creations of Bile \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack targets your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Creations of Bile"
+    },
+    {
+      "id": "000008965003",
+      "name": "FROM ALL SIDES",
+      "type": "Deceptors \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Start of your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, add 1 to <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge rolls</a> made for your unit for each other <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army that made a Charge move this phase (to a maximum of +3)",
+      "detachment": "Deceptors"
+    },
+    {
+      "id": "000008965004",
+      "name": "PICK THEM OFF",
+      "type": "Deceptors \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is below its <a href=\"/wh40k10ed/the-rules/core-rules/#Starting-Strength\">Starting Strength</a>, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>. If the target is <a href=\"/wh40k10ed/the-rules/core-rules/#Below-Half-strength\">Below Half-strength</a>, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a> as well.",
+      "detachment": "Deceptors"
+    },
+    {
+      "id": "000008965006",
+      "name": "RELENTLESS PURSUIT",
+      "type": "Deceptors \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, just after an enemy unit ends a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal</a>, <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall Back move</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> or <span class=\"tooltip00368\" data-tooltip-content=\"#tooltip_content00368\" data-tooltip-anchor=\"#tooltip_content00368\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">MOUNTED</span></span> unit from your army that is within 9\" of that enemy unit and not within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units.<br><br><b>EFFECT:</b> Your unit can make a Normal move of up to 6\".",
+      "detachment": "Deceptors"
+    },
+    {
+      "id": "000008965007",
+      "name": "SCRAMBLED COORDINATES",
+      "type": "Deceptors \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Start of the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Reinforcements\">Reinforcements step</a> of your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, enemy units that are set up on the battlefield from <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Reinforcements\">Reserves</a> cannot be set up within 12\" horizontally of your unit.",
+      "detachment": "Deceptors"
+    },
+    {
+      "id": "000008965005",
+      "name": "COILS OF DECEPTION",
+      "type": "Deceptors \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, just after a <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Falls Back</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit.<br><br><b>EFFECT:</b> Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back",
+      "detachment": "Deceptors"
+    },
+    {
+      "id": "000008965002",
+      "name": "DETONATOR",
+      "type": "Deceptors \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase, just after an enemy model with the <a href=\"/wh40k10ed/the-rules/core-rules/#Assault\">Deadly Demise</a> ability (excluding <span class=\"kwb\">TITANIC</span> models) is destroyed<br><br><b>TARGET:</b> One <span class=\"tooltip00825\" data-tooltip-content=\"#tooltip_content00825\" data-tooltip-anchor=\"#tooltip_content00825\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">CHARACTER</span></span> unit from your army that was within 18\" of that enemy model when it was destroyed.<br><br><b>EFFECT:</b> Your opponent does not roll to determine whether <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wounds</a> are inflicted by their model\u2019s Deadly Demise ability. Instead, mortal wounds are automatically inflicted (if that ability inflicts a random number of mortal wounds, your opponent rolls to determine that number as normal).",
+      "detachment": "Deceptors"
+    },
+    {
+      "id": "000008973004",
+      "name": "PITILESS HUNTERS",
+      "type": "Dread Talons \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit from  your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a> and/or <a href=\"/wh40k10ed/the-rules/core-rules/#Below-Half-strength\">Below Half-strength</a>, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> and you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Dread Talons"
+    },
+    {
+      "id": "000008973002",
+      "name": "DEPTHLESS CRUELTY",
+      "type": "Dread Talons \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a><br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a> and/or <a href=\"/wh40k10ed/the-rules/core-rules/#Below-Half-strength\">Below Half-strength</a>, improve the Armour Penetration characteristic of that attack by 1.",
+      "detachment": "Dread Talons"
+    },
+    {
+      "id": "000008973003",
+      "name": "BLOODY EXAMPLE",
+      "type": "Dread Talons \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after a <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army destroys a <span class=\"kwb\">CHARACTER</span> unit.<br><br><b>TARGET:</b> That <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit.<br><br><b>EFFECT:</b> Each enemy unit within 12\" of and <a href=\"/wh40k10ed/the-rules/core-rules/#Determining-Visibility\">visible</a> to your unit must take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a>.",
+      "detachment": "Dread Talons"
+    },
+    {
+      "id": "000008973005",
+      "name": "RELENTLESS TERROR",
+      "type": "Dread Talons \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, just after a <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Falls Back</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span> unit. <br><br><b>EFFECT:</b> Until the end of the turn, your unit is eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it Fell Back.",
+      "detachment": "Dread Talons"
+    },
+    {
+      "id": "000008973006",
+      "name": "SCREAMING DESCENT",
+      "type": "Dread Talons \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Reinforcements\">Reinforcements step</a> of your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, from the second <a href=\"/wh40k10ed/the-rules/core-rules/#The-Battle-Round\">battle round</a> onwards.<br><br><b>TARGET:</b> One <span class=\"tooltip00826\" data-tooltip-content=\"#tooltip_content00826\" data-tooltip-anchor=\"#tooltip_content00826\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span> unit from your army that is in <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Reinforcements\">Reserves</a>.<br><br><b>EFFECT:</b> Set your unit up anywhere on the battlefield that is more than 6\" horizontally away from all  enemy units, but until the end of the turn, it is not eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a>. Then select one enemy <span class=\"kwb\">INFANTRY</span> or <span class=\"kwb\">MOUNTED</span> unit within 9\" of and <a href=\"/wh40k10ed/the-rules/core-rules/#Determining-Visibility\">visible</a> to your unit: that unit must take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a>.",
+      "detachment": "Dread Talons"
+    },
+    {
+      "id": "000008973007",
+      "name": "MERCILESS PURSUIT",
+      "type": "Dread Talons \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that is not within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement range</a> of one or more enemy units.<br><br><b>EFFECT:</b> Select one enemy unit that <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fell Back</a> this turn and is within 6\" of your unit. Your unit can  <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> as if it were your Charge phase. When doing so, you can only select that enemy  unit as the target of that charge (and only if it is an eligible target). Note that even if this charge is successful, your unit does not receive any Charge bonus this turn.",
+      "detachment": "Dread Talons"
+    },
+    {
+      "id": "000008977002",
+      "name": "PERSISTENT ASSAILANTS",
+      "type": "Fellhammer Siege-Host \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army that was selected as the target of one or more attacks this phase and has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>, and if your unit is <a href=\"/wh40k10ed/the-rules/core-rules/#Below-Half-strength\">Below Half-strength</a> you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a> as well.",
+      "detachment": "Fellhammer Siege-host"
+    },
+    {
+      "id": "000008977005",
+      "name": "POINT-BLANK DESTRUCTION",
+      "type": "Fellhammer Siege-Host \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a><br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army that is within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units and has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, your unit\u2019s ranged weapons (excluding <a href=\"/wh40k10ed/the-rules/core-rules/#Blast\">Blast weapons</a>) have the  <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Pistol\">[PISTOL]</a></span> ability.",
+      "detachment": "Fellhammer Siege-host"
+    },
+    {
+      "id": "000008977004",
+      "name": "PITILESS CANNONADE",
+      "type": "Fellhammer Siege-Host \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack that targets a unit  that is <a href=\"/wh40k10ed/the-rules/core-rules/#Below-Half-strength\">Below Half-strength</a>, a successful unmodified <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> of 5+ scores a <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Critical Hit</a>",
+      "detachment": "Fellhammer Siege-host"
+    },
+    {
+      "id": "000008977003",
+      "name": "BRUTAL ATTRITION",
+      "type": "Fellhammer Siege-Host \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army (excluding <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> units) that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time a melee attack is allocated to your unit, after the attacking unit has finished making its attacks, roll one D6 (to maximum of six D6 per attacking unit): for each 4+, the attacking unit suffers 1 <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wound</a>.",
+      "detachment": "Fellhammer Siege-host"
+    },
+    {
+      "id": "000008977006",
+      "name": "STEADFAST DETERMINATION",
+      "type": "Fellhammer Siege-Host \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army (excluding <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> units) that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, models in your unit have the <span class=\"tooltip00144\" data-tooltip-content=\"#tooltip_content00144\"><span class=\"tt kwbu\">Feel</span> <span class=\"tt kwbu\">No</span> <span class=\"tt kwbu\">Pain</span> <span class=\"tt kwbu\">5+</span></span> ability.",
+      "detachment": "Fellhammer Siege-host"
+    },
+    {
+      "id": "000008977007",
+      "name": "SIEGECRAFT",
+      "type": "Fellhammer Siege-Host \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Start of your opponents <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, each time an enemy unit selects your unit as a target of a charge,  subtract 2 from the <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge roll</a> (this is not cumulative with any other negative modifiers to that Charge roll).",
+      "detachment": "Fellhammer Siege-host"
+    },
+    {
+      "id": "000009504002",
+      "name": "INVETERATE MURDERERS",
+      "type": "Infernal Reavers \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army (excluding <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> units) that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack, if the Strength characteristic of that attack is less than or equal to the Toughness characteristic of the target, add 1 to the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Infernal Reavers"
+    },
+    {
+      "id": "000009504003",
+      "name": "LOW CUNNING",
+      "type": "Infernal Reavers \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent's <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Shooting-Phase\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army (excluding <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> units) that was selected as the target of one or more of the attacking unit's attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Infernal Reavers"
+    },
+    {
+      "id": "000009504005",
+      "name": "CRUEL EXECUTION",
+      "type": "Infernal Reavers \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Shooting-Phase\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army (excluding <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> units).<br><br><b>EFFECT:</b> Until the end of the phase, your unit is eligible to shoot in a turn in which it <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fell Back</a>.",
+      "detachment": "Infernal Reavers"
+    },
+    {
+      "id": "000009504004",
+      "name": "NEXT PRIZE",
+      "type": "Infernal Reavers \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>, just after a <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army has <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#SEIZING-AND-SECURING-OBJECTIVE-MARKERS\">Secured</a> an <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Objective-Markers\">objective marker</a>, or your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Movement-Phase\">Movement phase</a>, just after a <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army has opened a <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Terrain\">Hatchway</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit.<br><br><b>EFFECT:</b> Your unit can make a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal move</a> of up to 3\". If this Stratagem is used in your Movement phase, at least one model from your unit must end that move on the opposite side of the Hatchway from the one it started the phase on.",
+      "detachment": "Infernal Reavers"
+    },
+    {
+      "id": "000010642007",
+      "name": "HORRIFIC INCURSION",
+      "type": "Nightmare Hunt \u2013 Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army that arrived from <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Reinforcements\">Reserves</a> this turn.<br><br><b>EFFECT:</b> Select one enemy unit (excluding <span class=\"kwb\">MONSTER</span> and <span class=\"kwb\">VEHICLE</span> units) within 12\" of and <a href=\"/wh40k10ed/the-rules/core-rules/#Determining-Visibility\">visible</a> to your unit: that unit must take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a>, subtracting 1 from the result.",
+      "detachment": "Nightmare Hunt"
+    },
+    {
+      "id": "000010642003",
+      "name": "PREY ON THE WEAK",
+      "type": "Nightmare Hunt \u2013 Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that has not been selected to shoot or fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a> and/or <a href=\"/wh40k10ed/the-rules/core-rules/#Below-Half-strength\">Below Half-strength</a>, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Nightmare Hunt"
+    },
+    {
+      "id": "000010642005",
+      "name": "MALICIOUS SURGE",
+      "type": "Nightmare Hunt \u2013 Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, your unit is eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advanced</a>.",
+      "detachment": "Nightmare Hunt"
+    },
+    {
+      "id": "000010642002",
+      "name": "TALONS SUNK DEEP",
+      "type": "Nightmare Hunt \u2013 Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that has not been selected to shoot or fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a> and/or <a href=\"/wh40k10ed/the-rules/core-rules/#Below-Half-strength\">Below Half-strength</a>, improve the Armour Penetration characteristic of that attack by 1.",
+      "detachment": "Nightmare Hunt"
+    },
+    {
+      "id": "000010642006",
+      "name": "RELENTLESS TERROR",
+      "type": "Nightmare Hunt \u2013 Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, just after a <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Falls Back</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit.<br><br><b>EFFECT:</b> Until the end of the turn, your unit is eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">shoot</a> and <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it Fell Back.",
+      "detachment": "Nightmare Hunt"
+    },
+    {
+      "id": "000010642004",
+      "name": "SADISTIC DISPLAY",
+      "type": "Nightmare Hunt \u2013 Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after a <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army destroys an enemy unit.<br><br><b>TARGET:</b> That <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit.<br><br><b>EFFECT:</b> Each enemy unit within 6\" of and <a href=\"/wh40k10ed/the-rules/core-rules/#Determining-Visibility\">visible</a> to your unit (excluding <span class=\"kwb\">MONSTER</span> and <span class=\"kwb\">VEHICLE</span> units) must take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a>.",
+      "detachment": "Nightmare Hunt"
+    },
+    {
+      "id": "000008358004",
+      "name": "PROFANE ZEAL",
+      "type": "Pactbound Zealots \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00827\" data-tooltip-content=\"#tooltip_content00827\" data-tooltip-anchor=\"#tooltip_content00827\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">CHAOS</span> <span class=\"kwb\">UNDIVIDED</span></span> unit from your army that has not been selected to shoot or fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Pactbound Zealots"
+    },
+    {
+      "id": "000008358002",
+      "name": "EYE OF THE GODS",
+      "type": "Pactbound Zealots \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after a <span class=\"tooltip00825\" data-tooltip-content=\"#tooltip_content00825\" data-tooltip-anchor=\"#tooltip_content00825\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">CHARACTER</span></span> unit from your army (excluding  <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span>, <span class=\"tooltip00828\" data-tooltip-content=\"#tooltip_content00828\" data-tooltip-anchor=\"#tooltip_content00828\"><span class=\"kwb\">DAEMON</span></span> and <span class=\"tooltip00538\" data-tooltip-content=\"#tooltip_content00538\" data-tooltip-anchor=\"#tooltip_content00538\"><span class=\"kwb\">EPIC</span> <span class=\"kwb\">HERO</span></span> units) destroys a enemy unit.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">CHARACTER</span> model in that unit. <br><br><b>EFFECT:</b> Until the end of the battle, add 1 to the Move, Toughness and Wounds characteristics of that  <span class=\"kwb\">CHARACTER</span> model, and add 1 to the Attacks. Strength and Damage characteristics of that <span class=\"kwb\">CHARACTER</span> model\u2019s melee weapons.",
+      "detachment": "Pactbound Zealots"
+    },
+    {
+      "id": "000008358005",
+      "name": "SKINSHIFT",
+      "type": "Pactbound Zealots \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army.<br><br><b>EFFECT:</b> One model in your unit regains up to 3 lost wounds. In addition, if your unit is a <span class=\"tooltip00750\" data-tooltip-content=\"#tooltip_content00750\" data-tooltip-anchor=\"#tooltip_content00750\"><span class=\"kwb\">TZEENTCH</span></span> unit below its <a href=\"/wh40k10ed/the-rules/core-rules/#Starting-Strength\">Starting Strength</a>, one <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a> model (excluding <span class=\"tooltip00370\" data-tooltip-content=\"#tooltip_content00370\" data-tooltip-anchor=\"#tooltip_content00370\"><span class=\"kwb\">CHARACTER</span></span> models) is returned to your unit with its full wounds remaining.",
+      "detachment": "Pactbound Zealots"
+    },
+    {
+      "id": "000008358003",
+      "name": "ETERNAL HATE",
+      "type": "Pactbound Zealots \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit is <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a>, if that model has not fought this phase, roll one D6, adding 1 to the result if it is a <span class=\"tooltip00612\" data-tooltip-content=\"#tooltip_content00612\" data-tooltip-anchor=\"#tooltip_content00612\"><span class=\"kwb\">KHORNE</span></span> unit: on a 4+, do not remove it from play. That destroyed model can fight after the attacking model\u2019s unit has finished making its attacks, and is then removed from play.",
+      "detachment": "Pactbound Zealots"
+    },
+    {
+      "id": "000008358006",
+      "name": "TORPEFYING REFRAIN",
+      "type": "Pactbound Zealots \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the turn, your unit is eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fell Back</a>. If your unit is a <span class=\"tooltip00752\" data-tooltip-content=\"#tooltip_content00752\" data-tooltip-anchor=\"#tooltip_content00752\"><span class=\"kwb\">SLAANESH</span></span> unit, until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advanced</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fell Back</a>.",
+      "detachment": "Pactbound Zealots"
+    },
+    {
+      "id": "000008358007",
+      "name": "FESTERING MIASMA",
+      "type": "Pactbound Zealots \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, your unit has the <a href=\"/wh40k10ed/the-rules/core-rules/#_STEALTH\">Stealth</a> ability. In addition, if your unit is a <span class=\"tooltip00751\" data-tooltip-content=\"#tooltip_content00751\" data-tooltip-anchor=\"#tooltip_content00751\"><span class=\"kwb\">NURGLE</span></span> unit, it can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+      "detachment": "Pactbound Zealots"
+    },
+    {
+      "id": "000008969002",
+      "name": "UNFAILINGLY OBDURATE",
+      "type": "Renegade Raiders \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army (excluding <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> units) that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+      "detachment": "Renegade Raiders"
+    },
+    {
+      "id": "000008969003",
+      "name": "SCOUR AND SEIZE",
+      "type": "Renegade Raiders \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack that targets a unit within range of an <a href=\"/wh40k10ed/the-rules/core-rules/#Objective-Markers\">objective marker</a>, that attack has the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Precision\">[PRECISION]</a></span> ability.",
+      "detachment": "Renegade Raiders"
+    },
+    {
+      "id": "000008969006",
+      "name": "RUINOUS RAID",
+      "type": "Renegade Raiders \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or your <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a> <br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army that <a href=\"/wh40k10ed/the-rules/core-rules/#Disembark\">disembarked</a> from a <span class=\"tooltip00489\" data-tooltip-content=\"#tooltip_content00489\" data-tooltip-anchor=\"#tooltip_content00489\"><span class=\"kwb\">TRANSPORT</span></span> this turn and has not been selected to shoot or fight this phase. <br><br><b>EFFECT:</b> Until the end of the phase, each time a  model in your unit makes an attack, if the target of that attack is within range of an <a href=\"/wh40k10ed/the-rules/core-rules/#Objective-Markers\">objective marker</a>, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> and you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Renegade Raiders"
+    },
+    {
+      "id": "000008969004",
+      "name": "OPPORTUNISTIC RAIDERS",
+      "type": "Renegade Raiders \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a><br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army that was eligible to fight this phase.<br><br><b>EFFECT:</b> If your unit is not within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units, it can make a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal</a> move of up to 6\", or up to 12\" if it is a <span class=\"tooltip00369\" data-tooltip-content=\"#tooltip_content00369\" data-tooltip-anchor=\"#tooltip_content00369\"><span class=\"kwb\">MOUNTED</span></span> unit. Otherwise, your unit can make a <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall Back move</a>. It cannot <a href=\"/wh40k10ed/the-rules/core-rules/#Embark\">embark</a> within a <span class=\"tooltip00489\" data-tooltip-content=\"#tooltip_content00489\" data-tooltip-anchor=\"#tooltip_content00489\"><span class=\"kwb\">TRANSPORT</span></span> at the end of this move if it <a href=\"/wh40k10ed/the-rules/core-rules/#Disembark\">disembarked</a> from a <span class=\"kwb\">TRANSPORT</span> this turn.",
+      "detachment": "Renegade Raiders"
+    },
+    {
+      "id": "000008969007",
+      "name": "REAVERS\u2019 HASTE",
+      "type": "Renegade Raiders \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> or <span class=\"tooltip00368\" data-tooltip-content=\"#tooltip_content00368\" data-tooltip-anchor=\"#tooltip_content00368\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">MOUNTED</span></span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, your unit is eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it  <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advanced</a>. If you select one or more units within range of an <a href=\"/wh40k10ed/the-rules/core-rules/#Objective-Markers\">objective marker</a> as a target of that charge, add 1 to the <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge roll</a>.",
+      "detachment": "Renegade Raiders"
+    },
+    {
+      "id": "000008969005",
+      "name": "WARPCHARGED ENGINES",
+      "type": "Renegade Raiders \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00489\" data-tooltip-content=\"#tooltip_content00489\" data-tooltip-anchor=\"#tooltip_content00489\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">TRANSPORT</span></span> or <span class=\"tooltip00368\" data-tooltip-content=\"#tooltip_content00368\" data-tooltip-anchor=\"#tooltip_content00368\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">MOUNTED</span></span> unit from your army that has not been selected to move this phase.<br><br><b>EFFECT:</b> Until the end of the phase, if your unit  <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advances</a>, do not make an <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance roll</a> for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+      "detachment": "Renegade Raiders"
+    },
+    {
+      "id": "000008986002",
+      "name": "DESPERATE PLEDGE",
+      "type": "Soulforged Warpack \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00829\" data-tooltip-content=\"#tooltip_content00829\" data-tooltip-anchor=\"#tooltip_content00829\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">DAEMON</span> <span class=\"kwb\">VEHICLE</span></span> unit from your army that has not been selected to shoot or fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, if your unit invokes its contract, each time it makes an attack, improve the Armour Penetration characteristic of that attack by 1.",
+      "detachment": "Soulforged Warpack"
+    },
+    {
+      "id": "000008986004",
+      "name": "DAEMONIC POSSESION",
+      "type": "Soulforged Warpack \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your Command phase.<br><br><b>TARGET:</b> One <span class=\"tooltip00488\" data-tooltip-content=\"#tooltip_content00488\" data-tooltip-anchor=\"#tooltip_content00488\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">VEHICLE</span></span> unit from your army (excluding <span class=\"tooltip00534\" data-tooltip-content=\"#tooltip_content00534\" data-tooltip-anchor=\"#tooltip_content00534\"><span class=\"kwb\">DAEMON</span></span> units).<br><br><b>EFFECT:</b> Until the end of the battle, your unit has the <span class=\"kwb\">DAEMON</span> keyword.",
+      "detachment": "Soulforged Warpack"
+    },
+    {
+      "id": "000008986003",
+      "name": "GLUT OF SOULS",
+      "type": "Soulforged Warpack \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00829\" data-tooltip-content=\"#tooltip_content00829\" data-tooltip-anchor=\"#tooltip_content00829\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">DAEMON</span> <span class=\"kwb\">VEHICLE</span></span> unit from your army (excluding <span class=\"tooltip00830\" data-tooltip-content=\"#tooltip_content00830\" data-tooltip-anchor=\"#tooltip_content00830\"><span class=\"kwb\">TITANIC</span></span> units) that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, if your unit invokes its contract, each time it makes an attack that destroys an enemy model, roll one D6: on 5+, your unit regains 1 lost wound after all of its attacks have been resolved (to a maximum of 6 wound).",
+      "detachment": "Soulforged Warpack"
+    },
+    {
+      "id": "000008986005",
+      "name": "UNSTOPPABLE RAMPAGE",
+      "type": "Soulforged Warpack \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a> or Charge phase.<br><br><b>TARGET:</b> One <span class=\"tooltip00488\" data-tooltip-content=\"#tooltip_content00488\" data-tooltip-anchor=\"#tooltip_content00488\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">VEHICLE</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Vashtorr-The-Arkifane\"><span class=\"kwb kwbo\">VASHTORR</span> <span class=\"kwb2 kwbo\">THE</span> <span class=\"kwb kwbo\">ARKIFANE</span></a> unit from your army that has not been selected to move or charge this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time your unit makes <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal</a>, <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">charge move</a>, it can move horizontally through <a href=\"/wh40k10ed/the-rules/core-rules/#Terrain-Features\">terrain features</a> as if they were not there.",
+      "detachment": "Soulforged Warpack"
+    },
+    {
+      "id": "000008986006",
+      "name": "PREDATORY PURSUIT",
+      "type": "Soulforged Warpack \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, just after an enemy unit ends a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal</a>, <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall back move</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00488\" data-tooltip-content=\"#tooltip_content00488\" data-tooltip-anchor=\"#tooltip_content00488\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">VEHICLE</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Vashtorr-The-Arkifane\"><span class=\"kwb kwbo\">VASHTORR</span> <span class=\"kwb2 kwbo\">THE</span> <span class=\"kwb kwbo\">ARKIFANE</span></a> unit from your army that is within 9\" of that enemy unit and not within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units.<br><br><b>EFFECT:</b> Your unit can make a Normal move of up to 6\", but must end that move as close as possible to that enemy unit.",
+      "detachment": "Soulforged Warpack"
+    },
+    {
+      "id": "000008986007",
+      "name": "FEEDING FRENZY",
+      "type": "Soulforged Warpack \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, when an enemy unit (excluding <span class=\"kwb\">MONSTER</span> and <span class=\"kwb\">VEHICLES</span>) is selected to <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall Back</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00829\" data-tooltip-content=\"#tooltip_content00829\" data-tooltip-anchor=\"#tooltip_content00829\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">DAEMON</span> <span class=\"kwb\">VEHICLE</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Vashtorr-The-Arkifane\"><span class=\"kwb kwbo\">VASHTORR</span> <span class=\"kwb2 kwbo\">THE</span> <span class=\"kwb kwbo\">ARKIFANE</span></a> unit from your army that is within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of that enemy unit.<br><br><b>EFFECT:</b> Until the end of the phase, each time an enemy unit (excluding <span class=\"kwb\">MONSTERS</span> and <span class=\"kwb\">VEHICLES</span>) that is within Engagement Range of your units <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Falls Back</a>, all models in that enemy unit must take a <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Desperate Escape test</a>. When doing so, of that enemy unit is <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a>, substract 1 from each of those tests.",
+      "detachment": "Soulforged Warpack"
+    },
+    {
+      "id": "000009513003",
+      "name": "FLEETING MIGHT",
+      "type": "Underdeck Uprising \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Shooting-Phase\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>, just after a <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> unit from your army makes a <span class=\"tooltip00485\" data-tooltip-content=\"#tooltip_content00485\"><span class=\"tt kwbu\">Dark</span> <span class=\"tt kwbu\">Pact</span></span>.<br><br><b>TARGET:</b> That <span class=\"kwb\">DAMNED</span> unit.<br><br><b>EFFECT:</b> Until the end of the phase, weapons equipped by models in your unit have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Devastating-Wounds\">[DEVASTATING WOUNDS]</a></span> ability.",
+      "detachment": "Underdeck Uprising"
+    },
+    {
+      "id": "000009513002",
+      "name": "INFERNAL ALTARS",
+      "type": "Underdeck Uprising \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Shooting-Phase\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> unit from your army that was selected as the target of one or more of the attacking unit's attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack targets your unit, if your unit is within range of an <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Objective-Markers\">objective marker</a>, models in your unit have the <span class=\"tooltip00144\" data-tooltip-content=\"#tooltip_content00144\"><span class=\"tt kwbu\">Feel</span> <span class=\"tt kwbu\">No</span> <span class=\"tt kwbu\">Pain</span> <span class=\"tt kwbu\">5+</span></span> ability against that attack. If your unit has the <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Cultist-Mob\"><span class=\"kwb kwbo\">CULTIST</span> <span class=\"kwb kwbo\">MOB</span></a> keyword, models in it have the <span class=\"tooltip00144\" data-tooltip-content=\"#tooltip_content00144\"><span class=\"tt kwbu\">Feel</span> <span class=\"tt kwbu\">No</span> <span class=\"tt kwbu\">Pain</span> <span class=\"tt kwbu\">4+</span></span> ability against that attack instead.",
+      "detachment": "Underdeck Uprising"
+    },
+    {
+      "id": "000009513004",
+      "name": "CRUDE SABOTAGE",
+      "type": "Underdeck Uprising \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Movement-Phase\">Movement phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Cultist-Mob\"><span class=\"kwb kwbo\">CULTIST</span> <span class=\"kwb kwbo\">MOB</span></a> or <span class=\"tooltip00831\" data-tooltip-content=\"#tooltip_content00831\" data-tooltip-anchor=\"#tooltip_content00831\"><span class=\"kwb\">DAMNED</span> <span class=\"kwb\">CHARACTER</span></span> unit from your army that has not been selected to move this phase and is not within <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units.<br><br><b>EFFECT:</b> Select one closed <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Terrain\">Hatchway</a> within 1\u201c of your unit. Your unit can attempt to operate that Hatchway.<br><br><b>RESTRICTIONS:</b> Until the end of the turn, your unit cannot attempt to <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Open-Hatchways\">operate a Hatchway</a> again.",
+      "detachment": "Underdeck Uprising"
+    },
+    {
+      "id": "000009513005",
+      "name": "STORM THE BRIDGE!",
+      "type": "Underdeck Uprising \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Charge-Phase\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Chaos-Spawn\"><span class=\"kwb kwbo\">CHAOS</span> <span class=\"kwb kwbo\">SPAWN</span></a> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, your unit is eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advanced</a>.",
+      "detachment": "Underdeck Uprising"
+    },
+    {
+      "id": "000008961003",
+      "name": "CONTEMPTUOUS DISREGARD",
+      "type": "Veterans of the Long War \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponents <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army (excluding <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> units) that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+      "detachment": "Veterans of the Long War"
+    },
+    {
+      "id": "000008961006",
+      "name": "LET THE GALAXY BURN",
+      "type": "Veterans of the Long War \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army (excluding <span class=\"tooltip00750\" data-tooltip-content=\"#tooltip_content00750\" data-tooltip-anchor=\"#tooltip_content00750\"><span class=\"kwb\">TZEENTCH</span></span> units) that has not been selected to shoot this phase<br><br><b>EFFECT:</b> Until the end of the phase, ranged weapons equipped by models in your unit have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Ignores-Cover\">[IGNORES COVER]</a></span> ability, and change the Attacks characteristic of <a href=\"/wh40k10ed/the-rules/core-rules/#Torrent\">Torrent</a> weapons equipped by models in your unit to 6.",
+      "detachment": "Veterans of the Long War"
+    },
+    {
+      "id": "000008961004",
+      "name": "BRINGERS OF DESPAIR",
+      "type": "Veterans of the Long War \u2013 Epic Deed Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Start of the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> unit from your army (excluding <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> units) that is within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of your <span class=\"tooltip00614\" data-tooltip-content=\"#tooltip_content00614\"><span class=\"tt kwbu\">focus</span> <span class=\"tt kwbu\">of</span> <span class=\"tt kwbu\">hatred</span></span>.<br><br><b>EFFECT:</b> Until the end of the phase, your unit has the <a href=\"/wh40k10ed/the-rules/core-rules/#_col2-6\">Fights First</a> ability.",
+      "detachment": "Veterans of the Long War"
+    },
+    {
+      "id": "000008961002",
+      "name": "ENDLESS IRE",
+      "type": "Veterans of the Long War \u2013 Epic Deed Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Any phase, just after your <span class=\"tooltip00614\" data-tooltip-content=\"#tooltip_content00614\"><span class=\"tt kwbu\">focus</span> <span class=\"tt kwbu\">of</span> <span class=\"tt kwbu\">hatred</span></span> is <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00825\" data-tooltip-content=\"#tooltip_content00825\" data-tooltip-anchor=\"#tooltip_content00825\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">CHARACTER</span></span> unit from  your army (excluding <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> units) <br><br><b>EFFECT:</b> Select one enemy unit within 12\" of and <a href=\"/wh40k10ed/the-rules/core-rules/#Determining-Visibility\">visible</a> to your unit. Until the start of your next <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>, that enemy unit is considered to be your focus of hatred.",
+      "detachment": "Veterans of the Long War"
+    },
+    {
+      "id": "000008961005",
+      "name": "BLACK CRUSADE",
+      "type": "Veterans of the Long War \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a><br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> unit or <span class=\"tooltip00368\" data-tooltip-content=\"#tooltip_content00368\" data-tooltip-anchor=\"#tooltip_content00368\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">MOUNTED</span></span> unit from your army  (excluding <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> units).<br><br><b>EFFECT:</b> Until the end of the turn, your unit is  eligible to shoot in a turn in which it <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advanced</a>  or <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fell Back</a>, and bolt pistols, boltguns and combi-bolters equipped by models in your unit have  the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Devastating-Wounds\">[DEVASTATING WOUNDS]</a></span> ability while your unit has not already inflicted 6 wounds this turn using that ability.",
+      "detachment": "Veterans of the Long War"
+    },
+    {
+      "id": "000008961007",
+      "name": "MILLENNIA OF EXPERIENCE",
+      "type": "Veterans of the Long War \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, just after an enemy unit ends a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal</a>, <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall Back move</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> or <span class=\"tooltip00369\" data-tooltip-content=\"#tooltip_content00369\" data-tooltip-anchor=\"#tooltip_content00369\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">MOUNTED</span></span> unit from your army (excluding  <span class=\"tooltip00486\" data-tooltip-content=\"#tooltip_content00486\" data-tooltip-anchor=\"#tooltip_content00486\"><span class=\"kwb\">DAMNED</span></span> units) that is within 9\" of that enemy unit and not within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units.<br><br><b>EFFECT:</b> Your unit can make a Normal move of up to 6\".",
+      "detachment": "Veterans of the Long War"
+    }
+  ]
+}

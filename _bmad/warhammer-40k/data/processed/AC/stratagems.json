@@ -1,0 +1,356 @@
+{
+  "stratagems": [
+    {
+      "id": "000008931006",
+      "name": "VIGIL UNENDING",
+      "type": "Auric Champions \u2013 Epic Deed Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00726\" data-tooltip-content=\"#tooltip_content00726\" data-tooltip-anchor=\"#tooltip_content00726\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">CHARACTER</span></span> model from your army that was just <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a> and has not fought this phase. You can use this Stratagem on that unit even though it was just destroyed.<br><br><b>EFFECT:</b> Do not remove your destroyed model from play. The destroyed model can fight after the attacking unit has finished <a href=\"/wh40k10ed/the-rules/core-rules/#Making-Attacks\">making attacks</a>, and is then removed from play.",
+      "detachment": "Auric Champions"
+    },
+    {
+      "id": "000008931007",
+      "name": "SHOULDER THE MANTLE",
+      "type": "Auric Champions \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, before the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Reinforcements\">Reinforcements step</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00726\" data-tooltip-content=\"#tooltip_content00726\" data-tooltip-anchor=\"#tooltip_content00726\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">CHARACTER</span></span> model from your army that is not leading a unit.<br><br><b>EFFECT:</b> Select one friendly unit (excluding <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a> and <a href=\"/wh40k10ed/the-rules/core-rules/#Attached-Units\">Attached</a> units) within 2\" horizontally and 5\" vertically of your model that it could lead (as described in the Leader section of its <a href=\"/wh40k10ed/the-rules/core-rules/#Datasheets-1\">datasheet</a>). Your model attaches to that unit as a Leader. Change that unit\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#Starting-Strength\">Starting Strength</a> accordingly.",
+      "detachment": "Auric Champions"
+    },
+    {
+      "id": "000008931005",
+      "name": "EARNING OF A NAME",
+      "type": "Auric Champions \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> Up to two <span class=\"tooltip00726\" data-tooltip-content=\"#tooltip_content00726\" data-tooltip-anchor=\"#tooltip_content00726\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">CHARACTER</span></span> units from your army that have not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a <span class=\"kwb\">CHARACTER</span> model in either of your units makes an attack that targets a <span class=\"kwb\">MONSTER</span> or <span class=\"kwb\">VEHICLE</span> unit, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> and you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Auric Champions"
+    },
+    {
+      "id": "000008931002",
+      "name": "SLAYER OF CHAMPIONS",
+      "type": "Auric Champions \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase.<br><br><b>TARGET:</b> One <span class=\"tooltip00726\" data-tooltip-content=\"#tooltip_content00726\" data-tooltip-anchor=\"#tooltip_content00726\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">CHARACTER</span></span> unit from your army that has just <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a> the unit you selected at the start of your <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a> as the target of your <span class=\"tooltip00790\" data-tooltip-content=\"#tooltip_content00790\"><span class=\"tt kwbu\">Assemblage</span> <span class=\"tt kwbu\">of</span> <span class=\"tt kwbu\">Might</span></span> ability.<br><br><b>EFFECT:</b> Select one enemy unit on the battlefield Until the start of your next Command phase, each time an <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">CHARACTER</span> model from your army makes an attack that target that enemy unit, add 1 to the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a> In addition, if the destroyed unit was a <span class=\"kwb\">CHARACTER</span> unit, gain 1CP.",
+      "detachment": "Auric Champions"
+    },
+    {
+      "id": "000008931004",
+      "name": "THE EMPEROR\u2019S AUSPICE",
+      "type": "Auric Champions \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00726\" data-tooltip-content=\"#tooltip_content00726\" data-tooltip-anchor=\"#tooltip_content00726\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">CHARACTER</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, <span class=\"kwb\">CHARACTER</span> models in your unit have the <span class=\"tooltip00144\" data-tooltip-content=\"#tooltip_content00144\"><span class=\"tt kwbu\">Feel</span> <span class=\"tt kwbu\">No</span> <span class=\"tt kwbu\">Pain</span> <span class=\"tt kwbu\">4+</span></span> ability.",
+      "detachment": "Auric Champions"
+    },
+    {
+      "id": "000008931003",
+      "name": "SUPERHUMAN RESERVES",
+      "type": "Auric Champions \u2013 Epic Deed Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Any phase, just after an <span class=\"tooltip00550\" data-tooltip-content=\"#tooltip_content00550\" data-tooltip-anchor=\"#tooltip_content00550\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">WARLORD</span></span> model from your army has used an ability on its datasheet or from an Enhancement that says it can only be used Once per battle.<br><br><b>TARGET:</b> That <span class=\"tooltip00791\" data-tooltip-content=\"#tooltip_content00791\" data-tooltip-anchor=\"#tooltip_content00791\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">WARLORD</span></span> model.<br><br><b>EFFECT:</b> Your model can use its Once per battle\u2019 ability one additional time during this battle (but not in the same phase).<br><br><b>RESTRICTIONS:</b> You cannot use this Stratagem more than once per battle.",
+      "detachment": "Auric Champions"
+    },
+    {
+      "id": "000009274002",
+      "name": "BLADES OF THE VIGILATORS",
+      "type": "Black Ship Guardians \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adeptus-custodes/Vigilators\"><span class=\"kwb kwbo\">VIGILATORS</span></a>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adeptus-custodes/Aleya\"><span class=\"kwb kwbo\">ALEYA</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adeptus-custodes/Knight-centura\"><span class=\"kwb kwbo\">KNIGHT-CENTURA</span></a> equipped with an executioner greatblade unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack targets your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Black Ship Guardians"
+    },
+    {
+      "id": "000009274005",
+      "name": "PUNISHMENT OF THE PROSECUTORS",
+      "type": "Black Ship Guardians \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Shooting-Phase\">Shooting phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adeptus-custodes/Prosecutors\"><span class=\"kwb kwbo\">PROSECUTORS</span></a> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in your unit by 1. In addition, each time a model in your unit makes a ranged attack, on a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Critical Wound</a>, improve the Armour Penetration characteristic of that attack by an additional 1.",
+      "detachment": "Black Ship Guardians"
+    },
+    {
+      "id": "000009274003",
+      "name": "FOCUSED FEAR",
+      "type": "Black Ship Guardians \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Shooting-Phase\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+      "detachment": "Black Ship Guardians"
+    },
+    {
+      "id": "000009274004",
+      "name": "CORNERED PREY",
+      "type": "Black Ship Guardians \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Movement-Phase\">Movement phase</a>, just after an <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> unit from your army <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Falls Back</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span> unit.<br><br><b>EFFECT:</b> Until the end of the turn, your unit is eligible to shoot and <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fell Back</a>.",
+      "detachment": "Black Ship Guardians"
+    },
+    {
+      "id": "000009988004",
+      "name": "PEERLESS WARRIOR",
+      "type": "Lions of the Emperor \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, melee weapons equipped by models in your unit have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Precision\">[PRECISION]</a></span> ability.",
+      "detachment": "Lions of the Emperor"
+    },
+    {
+      "id": "000009988003",
+      "name": "DEFIANT TO THE LAST",
+      "type": "Lions of the Emperor \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 2 to the result if that model has the <span class=\"kwb\">CHARACTER</span> keyword. On a 4+, do not remove it from play; the destroyed model can fight after the attacking unit has finished making its attacks (when doing so, it is treated as having 1 wound remaining), and is then removed from play.",
+      "detachment": "Lions of the Emperor"
+    },
+    {
+      "id": "000009988007",
+      "name": "SWIFT AS THE EAGLE",
+      "type": "Lions of the Emperor \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has shot.<br><br><b>TARGET:</b> One <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit from your army (excluding <span class=\"kwb\">VEHICLE</span> units) that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Your unit can make a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal move</a> of up to D6\".",
+      "detachment": "Lions of the Emperor"
+    },
+    {
+      "id": "000009988006",
+      "name": "MANOEUVRE AND FIRE",
+      "type": "Lions of the Emperor \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, just after an <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit from your army <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Falls Back</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit.<br><br><b>EFFECT:</b> Until the end of the turn, your unit is eligible to shoot and <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it Fell Back.",
+      "detachment": "Lions of the Emperor"
+    },
+    {
+      "id": "000009988005",
+      "name": "UNLEASH THE LIONS",
+      "type": "Lions of the Emperor \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adeptus-custodes/Allarus-Custodians\"><span class=\"kwb kwbo\">ALLARUS</span> <span class=\"kwb kwbo\">CUSTODIANS</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adeptus-custodes/Aquilon-Custodians\"><span class=\"kwb kwbo\">AQUILON</span> <span class=\"kwb kwbo\">CUSTODIANS</span></a> unit from your army that is on the battlefield.<br><br><b>EFFECT:</b> That unit is split into separate units, each containing one model. These new units each have a <a href=\"/wh40k10ed/the-rules/core-rules/#Starting-Strength\">Starting Strength</a> of 1.",
+      "detachment": "Lions of the Emperor"
+    },
+    {
+      "id": "000009988002",
+      "name": "GILDED CHAMPION",
+      "type": "Lions of the Emperor \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase, just after an <span class=\"tooltip00726\" data-tooltip-content=\"#tooltip_content00726\" data-tooltip-anchor=\"#tooltip_content00726\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">CHARACTER</span></span> model from your army has used an ability on its <a href=\"/wh40k10ed/the-rules/core-rules/#Datasheets-1\">datasheet</a> that states it can only be used \u2018once per battle\u2019.<br><br><b>TARGET:</b> That <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">CHARACTER</span> model.<br><br><b>EFFECT:</b> Your model can use that \u2018once per battle\u2019 ability one additional time during the battle (but not in the same phase).<br><br><b>RESTRICTIONS:</b> You cannot use this <a href=\"/wh40k10ed/the-rules/core-rules/#Stratagems\">Stratagem</a> on the same <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">CHARACTER</span> model more than once per battle.",
+      "detachment": "Lions of the Emperor"
+    },
+    {
+      "id": "000008927003",
+      "name": "WITCH HUNTERS",
+      "type": "Null Maiden Vigil \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> unit from your army that has not been selected to shoot or fight this phase.<br><br><b>EFFECT:</b> Select either the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Lethal-Hits\">[LETHAL HITS]</a></span> or <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Sustained-Hits\">[SUSTAINED HITS 1]</a></span> ability. Until the end of the phase, weapons equipped by models in your unit have the selected ability, but models in your unit can only target <span class=\"kwb\">PSYKER</span> units with their attacks.",
+      "detachment": "Null Maiden Vigil"
+    },
+    {
+      "id": "000008927006",
+      "name": "PURGATION SWEEP",
+      "type": "Null Maiden Vigil \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adeptus-custodes/Witchseekers\"><span class=\"kwb kwbo\">WITCHSEEKERS</span></a> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, add 1 to the Attacks characteristic of <a href=\"/wh40k10ed/the-rules/core-rules/#Torrent\">Torrent</a> weapons equipped by models in your unit. If such a weapon targets a <span class=\"kwb\">PSYKER</span> or <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a> unit this phase, add 2 to its Attacks characteristic instead.",
+      "detachment": "Null Maiden Vigil"
+    },
+    {
+      "id": "000008927004",
+      "name": "ANATHEMA BLADEMASTERY",
+      "type": "Null Maiden Vigil \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adeptus-custodes/Vigilators\"><span class=\"kwb kwbo\">VIGILATORS</span></a> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes a melee attack, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> If the target of that attack is <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a> or a <span class=\"kwb\">PSYKER</span>, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a> as well.",
+      "detachment": "Null Maiden Vigil"
+    },
+    {
+      "id": "000008927002",
+      "name": "DESPERATION\u2019S PRICE",
+      "type": "Null Maiden Vigil \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase, just after an enemy <span class=\"kwb\">PSYKER</span> unit has either finished using a Psychic ability that targets a unit, or finished making <a href=\"/wh40k10ed/the-rules/core-rules/#Psychic-Weapons-and-Abilities\">Psychic Attacks</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> unit from your army within 18\" of that enemy <span class=\"kwb\">PSYKER</span> unit.<br><br><b>EFFECT:</b> That enemy <span class=\"kwb\">PSYKER</span> unit must take a <a href=\"/wh40k10ed/the-rules/core-rules/#Leadership-Tests\">Leadership test</a> If the test is passed, that <span class=\"kwb\">PSYKER</span> unit is <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a>; if the test is failed that <span class=\"kwb\">PSYKER</span> unit suffers 3 <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wounds</a> and is Battle-shocked.",
+      "detachment": "Null Maiden Vigil"
+    },
+    {
+      "id": "000008927007",
+      "name": "PSYCHIC ABOMINATIONS",
+      "type": "Null Maiden Vigil \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00332\" data-tooltip-content=\"#tooltip_content00332\" data-tooltip-anchor=\"#tooltip_content00332\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, your unit has the <a href=\"/wh40k10ed/the-rules/core-rules/#_STEALTH\">Stealth</a> ability, and <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a> and <span class=\"kwb\">PSYKER</span> models can only select your unit as a target of a ranged attack if they are within 12\".",
+      "detachment": "Null Maiden Vigil"
+    },
+    {
+      "id": "000008927005",
+      "name": "PSY-CHAFF VOLLEY",
+      "type": "Null Maiden Vigil \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adeptus-custodes/Prosecutors\"><span class=\"kwb kwbo\">PROSECUTORS</span></a> unit from your army that has just shot.<br><br><b>EFFECT:</b> Select one enemy unit hit by one or more of those attacks. Until the start of your next turn, while your unit is on the battlefield, that enemy unit is prosecuted. While a unit is prosecuted, each time an <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> model makes an attack against that unit, improve the Armour Penetration characteristic of that attack by 1. While a <span class=\"kwb\">PSYKER</span> or <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a> unit is prosecuted, each time a model in that unit makes an attack, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Null Maiden Vigil"
+    },
+    {
+      "id": "000008394007",
+      "name": "ARCHEOTECH MUNITIONS",
+      "type": "Shield Host  \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit from your army (excluding <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> units) that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Select either the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Lethal-Hits\">[LETHAL HITS]</a></span> or <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Sustained-Hits\">[SUSTAINED HITS 1]</a></span> ability. Until the end of the phase ranged weapons equipped by models in your unit have the selected ability.",
+      "detachment": "Shield Host"
+    },
+    {
+      "id": "000008394002",
+      "name": "ARCANE GENETIC ALCHEMY",
+      "type": "Shield Host \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase, just after a <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wound</a> has been allocated to an <span class=\"tooltip00550\" data-tooltip-content=\"#tooltip_content00550\" data-tooltip-anchor=\"#tooltip_content00550\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span></span> model from your army(excluding <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> models).<br><br><b>TARGET:</b> That <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> model\u2019s unit.<br><br><b>EFFECT:</b> Until the end of the phase, models in your unit have the <span class=\"tooltip00144\" data-tooltip-content=\"#tooltip_content00144\"><span class=\"tt kwbu\">Feel</span> <span class=\"tt kwbu\">No</span> <span class=\"tt kwbu\">Pain</span> <span class=\"tt kwbu\">4+</span></span> ability against <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wounds</a>.",
+      "detachment": "Shield Host"
+    },
+    {
+      "id": "000008394006",
+      "name": "VIGILANCE ETERNAL",
+      "type": "Shield Host \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adeptus-custodes/Custodian-Guard\"><span class=\"kwb kwbo\">ADEPTUS</span> <span class=\"kwb kwbo\">CUSTODES</span> <span class=\"kwb kwbo\">BATTLELINE</span></a> unit from your army (excluding <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> units) within range of an <a href=\"/wh40k10ed/the-rules/core-rules/#Objective-Markers\">objective marker</a> you control.<br><br><b>EFFECT:</b> That objective marker remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "detachment": "Shield Host"
+    },
+    {
+      "id": "000008394004",
+      "name": "UNWAVERING SENTINELS",
+      "type": "Shield Host \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00331\" data-tooltip-content=\"#tooltip_content00331\" data-tooltip-anchor=\"#tooltip_content00331\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army (excluding <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> units) that is within range of an <a href=\"/wh40k10ed/the-rules/core-rules/#Objective-Markers\">objective marker</a> you control and that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time a melee attack targets your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Shield Host"
+    },
+    {
+      "id": "000008394003",
+      "name": "AVENGE THE FALLEN",
+      "type": "Shield Host \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Start of the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit from your army (excluding <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> units) that is below its <a href=\"/wh40k10ed/the-rules/core-rules/#Starting-Strength\">Starting Strength</a>.<br><br><b>EFFECT:</b> Until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit. If your unit is <a href=\"/wh40k10ed/the-rules/core-rules/#Below-Half-strength\">Below Half-strength</a>, until the end of the phase, add 2 to the Attacks characteristic of those melee weapons instead.",
+      "detachment": "Shield Host"
+    },
+    {
+      "id": "000008394005",
+      "name": "MULTIPOTENTIALITY",
+      "type": "Shield Host \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00550\" data-tooltip-content=\"#tooltip_content00550\" data-tooltip-anchor=\"#tooltip_content00550\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span></span> unit from your army that <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fell Back</a> this phase.<br><br><b>EFFECT:</b> Until the end of your turn, that unit is eligible to shoot and <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it Fell Back.",
+      "detachment": "Shield Host"
+    },
+    {
+      "id": "000009754002",
+      "name": "FLAWLESS CONSTRUCTION",
+      "type": "Solar Spearhead \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00553\" data-tooltip-content=\"#tooltip_content00553\" data-tooltip-anchor=\"#tooltip_content00553\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">VEHICLE</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack targets a model in your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Solar Spearhead"
+    },
+    {
+      "id": "000009754004",
+      "name": "WRATHFUL ADVANCE",
+      "type": "Solar Spearhead \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just before an <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit from your army <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Pile-In\">Piles In</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes a Pile-in move, it can move up to D3+3\" instead of up to 3\".",
+      "detachment": "Solar Spearhead"
+    },
+    {
+      "id": "000009754003",
+      "name": "EMPEROR\u2019S VENGEANCE",
+      "type": "Solar Spearhead \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if your unit has the <span class=\"tooltip00792\" data-tooltip-content=\"#tooltip_content00792\" data-tooltip-anchor=\"#tooltip_content00792\"><span class=\"kwb\">WALKER</span></span> keyword. On a 4+, do not remove it from play; The destroyed model can fight after the attacking unit has finished making its attacks (when doing so, it is assumed to have 1 wound remaining), and is then removed from play.",
+      "detachment": "Solar Spearhead"
+    },
+    {
+      "id": "000009754007",
+      "name": "PUNISHMENT INESCAPABLE",
+      "type": "Solar Spearhead \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, ranged weapons equipped by models in your unit have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Ignores-Cover\">[IGNORES COVER]</a></span> ability, and until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack\u2019s Ballistic Skill characteristic and/or any or all modifiers to the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Solar Spearhead"
+    },
+    {
+      "id": "000009754006",
+      "name": "RELENTLESS PERSECUTION",
+      "type": "Solar Spearhead \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, just after an <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">VEHICLE</span> unit from your army <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advances</a>.<br><br><b>TARGET:</b> That <span class=\"tooltip00553\" data-tooltip-content=\"#tooltip_content00553\" data-tooltip-anchor=\"#tooltip_content00553\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">VEHICLE</span></span> unit.<br><br><b>EFFECT:</b> Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced. If your unit has the <span class=\"tooltip00792\" data-tooltip-content=\"#tooltip_content00792\" data-tooltip-anchor=\"#tooltip_content00792\"><span class=\"kwb\">WALKER</span></span> keyword, until the end of the turn, your unit is eligible to shoot and <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it Advanced instead.",
+      "detachment": "Solar Spearhead"
+    },
+    {
+      "id": "000009754005",
+      "name": "UNSTOPPABLE",
+      "type": "Solar Spearhead \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a> or your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00553\" data-tooltip-content=\"#tooltip_content00553\" data-tooltip-anchor=\"#tooltip_content00553\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">VEHICLE</span></span> or <span class=\"tooltip00554\" data-tooltip-content=\"#tooltip_content00554\" data-tooltip-anchor=\"#tooltip_content00554\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">MOUNTED</span></span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes a move, it can move through <a href=\"/wh40k10ed/the-rules/core-rules/#Terrain-Features-1\">terrain features</a>.",
+      "detachment": "Solar Spearhead"
+    },
+    {
+      "id": "000008922005",
+      "name": "EMPEROR\u2019S EXECUTIONERS",
+      "type": "Talons Of The Emperor \u2013 Battle Tactic Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Start of the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> Up to two <span class=\"tooltip00550\" data-tooltip-content=\"#tooltip_content00550\" data-tooltip-anchor=\"#tooltip_content00550\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span></span> units from your army.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in one of your units targets an enemy unit that is below its <a href=\"/wh40k10ed/the-rules/core-rules/#Starting-Strength\">Starting Strength</a>, add 1 to the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.<br><br><b>RESTRICTIONS:</b> You can only select two units if one (and only one) of them is an <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> unit and both are within 6\" of each other.",
+      "detachment": "Talons Of The Emperor"
+    },
+    {
+      "id": "000008922004",
+      "name": "EMPYRIC SEVERANCE",
+      "type": "Talons Of The Emperor \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00550\" data-tooltip-content=\"#tooltip_content00550\" data-tooltip-anchor=\"#tooltip_content00550\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks, and one friendly <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> unit within 6\" of that <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit.<br><br><b>EFFECT:</b> Until the end of the phase, your unit has the <span class=\"tooltip00144\" data-tooltip-content=\"#tooltip_content00144\"><span class=\"tt kwbu\">Feel</span> <span class=\"tt kwbu\">No</span> <span class=\"tt kwbu\">Pain</span> <span class=\"tt kwbu\">4+</span></span> ability against <a href=\"/wh40k10ed/the-rules/core-rules/#Psychic-Weapons-and-Abilities\">Psychic attacks</a> and <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wounds</a>.",
+      "detachment": "Talons Of The Emperor"
+    },
+    {
+      "id": "000008922006",
+      "name": "TALONED PINCER",
+      "type": "Talons Of The Emperor \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, just after an enemy unit ends a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal</a>, <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall Back move</a>.<br><br><b>TARGET:</b> Up to two <span class=\"tooltip00550\" data-tooltip-content=\"#tooltip_content00550\" data-tooltip-anchor=\"#tooltip_content00550\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span></span> units from your army that are within 9\" of that enemy unit.<br><br><b>EFFECT:</b> Your units can make a Normal move of up to 6\".<br><br><b>RESTRICTIONS:</b> You cannot <a href=\"/wh40k10ed/the-rules/core-rules/#5.-Select-Units\">select units</a> that are within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units. You can only select two units if one (and only one) of them is an <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> unit and both are within 6\" of each other.",
+      "detachment": "Talons Of The Emperor"
+    },
+    {
+      "id": "000008922003",
+      "name": "TALONS INTERLOCKED",
+      "type": "Talons Of The Emperor \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> Up to two <span class=\"tooltip00331\" data-tooltip-content=\"#tooltip_content00331\" data-tooltip-anchor=\"#tooltip_content00331\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">INFANTRY</span></span> units from your army, and one enemy unit that is an eligible target for all of those units.<br><br><b>EFFECT:</b> Until the end of the phase, your units can only target that enemy unit, but each time a model in one of your units makes a ranged attack, improve the Strength and Armour Penetration characteristics of that attack by 1.<br><br><b>RESTRICTIONS:</b> You can only select two units if one (and only one) of them is an <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> unit and both are within 6\" of each other.",
+      "detachment": "Talons Of The Emperor"
+    },
+    {
+      "id": "000008922007",
+      "name": "SHIELD OF HONOUR",
+      "type": "Talons Of The Emperor \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00332\" data-tooltip-content=\"#tooltip_content00332\" data-tooltip-anchor=\"#tooltip_content00332\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks, and one other friendly <span class=\"tooltip00331\" data-tooltip-content=\"#tooltip_content00331\" data-tooltip-anchor=\"#tooltip_content00331\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> <span class=\"kwb\">INFANTRY</span></span> unit (excluding <span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span> units) within 6\" of that <span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span> <span class=\"kwb\">INFANTRY</span> unit.<br><br><b>EFFECT:</b> Until the end of the phase, any attack that targets your <span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span> unit must instead target your other <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit (unless it is not an eligible target).",
+      "detachment": "Talons Of The Emperor"
+    },
+    {
+      "id": "000008922002",
+      "name": "HUNT AS ONE",
+      "type": "Talons Of The Emperor \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Start of your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> Up to two <span class=\"tooltip00550\" data-tooltip-content=\"#tooltip_content00550\" data-tooltip-anchor=\"#tooltip_content00550\"><span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span></span> units from your army.<br><br><b>EFFECT:</b> Until the end of the turn, your units are eilgible to shoot and/or <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which they <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fell Back</a>.<br><br><b>RESTRICTIONS:</b> You can only select two units if one (and only one) of them is an <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> unit and both are within 6\" of each other.",
+      "detachment": "Talons Of The Emperor"
+    },
+    {
+      "id": "000009265004",
+      "name": "ARTIFICER ROUNDS",
+      "type": "Voyagers in Darkness \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Shooting-Phase\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, ranged weapons equipped by models in your unit (excluding ballistus grenade launchers) have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Sustained-Hits\">[SUSTAINED HITS 1]</a></span> ability while targeting units within 6\".",
+      "detachment": "Voyagers in Darkness"
+    },
+    {
+      "id": "000009265002",
+      "name": "INESCAPABLE VENGEANCE",
+      "type": "Voyagers in Darkness \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit from your army (excluding <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> units) that has not been selected to move this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes a <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Pile-In\">Pile-in</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#3.-Consolidate\">Consolidation move</a>, it can ignore <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Terrain\">Walls</a> and other models for the purposes of determining which enemy units are <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Visibility\">visible</a> to its own.",
+      "detachment": "Voyagers in Darkness"
+    },
+    {
+      "id": "000009265005",
+      "name": "AURIC STORM",
+      "type": "Voyagers in Darkness \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Charge-Phase\">Charge phase</a>, just after an <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adeptus-custodes/Allarus-Custodians\"><span class=\"kwb kwbo\">ALLARUS</span> <span class=\"kwb kwbo\">CUSTODIANS</span></a> unit from your army ends a <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge move</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">ALLARUS</span> <span class=\"kwb\">CUSTODIANS</span> unit.<br><br><b>EFFECT:</b> Each enemy unit within <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Engagement-Range\">Engagement Range</a> of your unit must take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a>, subtracting 1 from the result.",
+      "detachment": "Voyagers in Darkness"
+    },
+    {
+      "id": "000009265003",
+      "name": "BREACHING BEHEMOTHS",
+      "type": "Voyagers in Darkness \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Movement-Phase\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">CUSTODES</span> unit from your army (excluding <span class=\"tooltip00548\" data-tooltip-content=\"#tooltip_content00548\" data-tooltip-anchor=\"#tooltip_content00548\"><span class=\"kwb\">ANATHEMA</span> <span class=\"kwb\">PSYKANA</span></span> units) that has not been selected to move this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time your unit makes a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal</a>, <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall Back move</a>, models in your unit can move through other models as if they were not there. In addition, any <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Desperate Escape tests</a> taken for models in your unit are automatically passed.",
+      "detachment": "Voyagers in Darkness"
+    }
+  ]
+}

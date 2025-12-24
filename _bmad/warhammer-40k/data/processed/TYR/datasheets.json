@@ -1,0 +1,1505 @@
+{
+  "datasheets": [
+    {
+      "id": "000000460",
+      "name": "Hive Tyrant",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> monstrous bonesword and lash whip; monstrous scything talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000460",
+          "line": "1",
+          "name": "Hive Tyrant",
+          "M": "8\"",
+          "T": "10",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "7+",
+          "OC": "3",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000461",
+      "name": "The Swarmlord",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Synaptic pulse; bone sabres.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000461",
+          "line": "1",
+          "name": "The Swarmlord",
+          "M": "8\"",
+          "T": "10",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "7+",
+          "OC": "3",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000462",
+      "name": "Old One Eye",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Old One Eye\u2019s claws and talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000462",
+          "line": "1",
+          "name": "Old One Eye",
+          "M": "8\"",
+          "T": "9",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "9",
+          "Ld": "8+",
+          "OC": "3",
+          "base_size": "105 x 70mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000463",
+      "name": "Broodlord",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Broodlord claws and talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000463",
+          "line": "1",
+          "name": "Broodlord",
+          "M": "8\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "6",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "75 x 42mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000465",
+      "name": "Tervigon",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> stinger salvoes; massive scything talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000465",
+          "line": "1",
+          "name": "Tervigon",
+          "M": "8\"",
+          "T": "11",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "16",
+          "Ld": "7+",
+          "OC": "5",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000467",
+      "name": "Genestealers",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> Genestealer claws and talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000467",
+          "line": "1",
+          "name": "Genestealers",
+          "M": "8\"",
+          "T": "4",
+          "Sv": "5+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000468",
+      "name": "Termagants",
+      "role": "Battleline",
+      "loadout": "<b>Every model is equipped with:</b> fleshborer; chitinous claws and teeth.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000468",
+          "line": "1",
+          "name": "Termagants",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "8+",
+          "OC": "2",
+          "base_size": "28.5mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000469",
+      "name": "Hormagaunts",
+      "role": "Battleline",
+      "loadout": "<b>Every model is equipped with:</b> Hormagaunt talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000469",
+          "line": "1",
+          "name": "Hormagaunts",
+          "M": "10\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "8+",
+          "OC": "2",
+          "base_size": "28.5mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000470",
+      "name": "Ripper Swarms",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> chitinous claws and teeth.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000470",
+          "line": "1",
+          "name": "Ripper Swarms",
+          "M": "6\"",
+          "T": "2",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "8+",
+          "OC": "0",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000471",
+      "name": "Tyrant Guard",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> scything talons and rending claws.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000471",
+          "line": "1",
+          "name": "Tyrant Guard",
+          "M": "6\"",
+          "T": "8",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "8+",
+          "OC": "1",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000472",
+      "name": "Hive Guard",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> shockcannon; chitinous claws and teeth.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000472",
+          "line": "1",
+          "name": "Hive Guard",
+          "M": "6\"",
+          "T": "7",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "8+",
+          "OC": "1",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000473",
+      "name": "Lictor",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> Lictor claws and talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000473",
+          "line": "1",
+          "name": "Lictor",
+          "M": "8\"",
+          "T": "6",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "6",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000474",
+      "name": "Maleceptor",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> psychic overload; massive scything talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000474",
+          "line": "1",
+          "name": "Maleceptor",
+          "M": "8\"",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "7+",
+          "OC": "4",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000475",
+      "name": "Zoanthropes",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> Warp Blast; chitinous claws and teeth.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000475",
+          "line": "1",
+          "name": "Zoanthropes",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "5+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000476",
+      "name": "Venomthropes",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> toxic lashes.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000476",
+          "line": "1",
+          "name": "Venomthropes",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "8+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000477",
+      "name": "Pyrovores",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> flamespurt; chitin-barbed limbs.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000477",
+          "line": "1",
+          "name": "Pyrovores",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "8+",
+          "OC": "1",
+          "base_size": "80mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000478",
+      "name": "Haruspex",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> grasping tongue; ravenous maw; shovelling claws.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000478",
+          "line": "1",
+          "name": "Haruspex",
+          "M": "8\"",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "8+",
+          "OC": "4",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000479",
+      "name": "Deathleaper",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Lictor claws and talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000479",
+          "line": "1",
+          "name": "Deathleaper",
+          "M": "8\"",
+          "T": "6",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "7",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000482",
+      "name": "Raveners",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> Ravener claws and talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000482",
+          "line": "1",
+          "name": "Raveners",
+          "M": "10\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "8+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000483",
+      "name": "Sky-slasher Swarms",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> claws and teeth.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000483",
+          "line": "1",
+          "name": "Sky-slasher Swarms",
+          "M": "12\"",
+          "T": "2",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "8+",
+          "OC": "0",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000484",
+      "name": "Gargoyles",
+      "role": "Battleline",
+      "loadout": "<b>Every model is equipped with:</b> fleshborer; blinding venom.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000484",
+          "line": "1",
+          "name": "Gargoyles",
+          "M": "12\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "8+",
+          "OC": "2",
+          "base_size": "32mm flying base",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000485",
+      "name": "Harpy",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> stinger salvoes; twin stranglethorn cannon; scything wings.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000485",
+          "line": "1",
+          "name": "Harpy",
+          "M": "20+\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "12",
+          "Ld": "8+",
+          "OC": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000486",
+      "name": "Hive Crone",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> drool cannon; stinger salvoes; tentaclids; scything wings; thorax spur.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000486",
+          "line": "1",
+          "name": "Hive Crone",
+          "M": "20+\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "12",
+          "Ld": "8+",
+          "OC": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000487",
+      "name": "Mucolid Spores",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> nothing.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000487",
+          "line": "1",
+          "name": "Mucolid Spores",
+          "M": "4\"",
+          "T": "4",
+          "Sv": "7+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "8+",
+          "OC": "0",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000488",
+      "name": "Spore Mines",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> nothing.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000488",
+          "line": "1",
+          "name": "Spore Mines",
+          "M": "4\"",
+          "T": "1",
+          "Sv": "7+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "8+",
+          "OC": "0",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000489",
+      "name": "Tyrannocyte",
+      "role": "Dedicated Transports",
+      "loadout": "<b>This model is equipped with:</b> Tyrannocyte bio-weapons; flensing whips.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 20 <span class=\"tooltip00417\" data-tooltip-content=\"#tooltip_content00417\" data-tooltip-anchor=\"#tooltip_content00417\"><span class=\"kwb\">TYRANIDS</span> <span class=\"kwb\">INFANTRY</span></span> models, or 1 <span class=\"tooltip00418\" data-tooltip-content=\"#tooltip_content00418\" data-tooltip-anchor=\"#tooltip_content00418\"><span class=\"kwb\">TYRANIDS</span> <span class=\"kwb\">MONSTER</span></span> model with a Wounds characteristic of 12 or less. Each <span class=\"kwb\">INFANTRY</span> model with a Wounds characteristic of more than 1 takes up the space of 3 models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000489",
+          "line": "1",
+          "name": "Tyrannocyte",
+          "M": "8\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "8+",
+          "OC": "2",
+          "base_size": "100mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000490",
+      "name": "Carnifexes",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> Carnifex scything talons; Carnifex extra scything talons; chitinous claws and teeth.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000490",
+          "line": "1",
+          "name": "Carnifexes",
+          "M": "8\"",
+          "T": "9",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "8",
+          "Ld": "8+",
+          "OC": "3",
+          "base_size": "105 x 70mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000491",
+      "name": "Biovores",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> Spore Mine launcher; chitin-barbed limbs.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000491",
+          "line": "1",
+          "name": "Biovores",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "8+",
+          "OC": "1",
+          "base_size": "80mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000493",
+      "name": "Trygon",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> bio-electric pulse; Trygon scything talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000493",
+          "line": "1",
+          "name": "Trygon",
+          "M": "10\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "8+",
+          "OC": "4",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000494",
+      "name": "Mawloc",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> distensible jaw; Mawloc scything talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000494",
+          "line": "1",
+          "name": "Mawloc",
+          "M": "10\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "8+",
+          "OC": "4",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000495",
+      "name": "Exocrine",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> bio-plasmic cannon; powerful limbs.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000495",
+          "line": "1",
+          "name": "Exocrine",
+          "M": "8\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "8+",
+          "OC": "4",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000496",
+      "name": "Tyrannofex",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> fleshborer hive; stinger salvoes; powerful limbs.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000496",
+          "line": "1",
+          "name": "Tyrannofex",
+          "M": "9\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "16",
+          "Ld": "8+",
+          "OC": "5",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000497",
+      "name": "Toxicrene",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> massive toxic lashes.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000497",
+          "line": "1",
+          "name": "Toxicrene",
+          "M": "8\"",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "8+",
+          "OC": "4",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000498",
+      "name": "Sporocyst",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> Sporocyst bio-weapons; flensing whips.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000498",
+          "line": "1",
+          "name": "Sporocyst",
+          "M": "-",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "8+",
+          "OC": "0",
+          "base_size": "100mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000499",
+      "name": "Malanthrope",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> grasping tail.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000499",
+          "line": "1",
+          "name": "Malanthrope",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "7+",
+          "OC": "3",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000500",
+      "name": "Dimachaeron",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> massive scything sickle-talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000500",
+          "line": "1",
+          "name": "Dimachaeron",
+          "M": "12\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "16",
+          "Ld": "7+",
+          "OC": "5",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000503",
+      "name": "Barbed Hierodule",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 bio-cannons; Hierodule scything talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000503",
+          "line": "1",
+          "name": "Barbed Hierodule",
+          "M": "8\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "18",
+          "Ld": "8+",
+          "OC": "5",
+          "base_size": "127mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000504",
+      "name": "Harridan",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 dire bio-cannons; gargantuan scything talons.",
+      "transport": "This model has a transport capacity of 20 <a href=\"/wh40k10ed/factions/tyranids/Gargoyles\">Gargoyles</a> models and 1 <a href=\"/wh40k10ed/factions/tyranids/Winged-Tyranid-Prime\">Winged Tyranid Prime</a> model.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000504",
+          "line": "1",
+          "name": "Harridan",
+          "M": "20+\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "30",
+          "Ld": "8+",
+          "OC": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000505",
+      "name": "Hierophant",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> bio-plasma torrent; 2 dire bio-cannons; lashwhip pods; titanic scything talons.",
+      "transport": "This model has a transport capacity of 20 <span class=\"tooltip00417\" data-tooltip-content=\"#tooltip_content00417\" data-tooltip-anchor=\"#tooltip_content00417\"><span class=\"kwb\">TYRANIDS</span> <span class=\"kwb\">INFANTRY</span></span> models. Each model with a Wounds characteristic of more than 1 takes up the space of 3 models. This model cannot transport models that can <a href=\"/wh40k10ed/the-rules/core-rules/#Flying\">Fly</a>.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000505",
+          "line": "1",
+          "name": "Hierophant",
+          "M": "12\"",
+          "T": "14",
+          "Sv": "2+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "30",
+          "Ld": "8+",
+          "OC": "12",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000506",
+      "name": "Scythed Hierodule",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> bio-acid spray; Hierodule scything talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000506",
+          "line": "1",
+          "name": "Scythed Hierodule",
+          "M": "12\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "18",
+          "Ld": "8+",
+          "OC": "5",
+          "base_size": "127mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002528",
+      "name": "Winged Hive Tyrant",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> monstrous bonesword and lash whip; Tyrant talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002528",
+          "line": "1",
+          "name": "Winged Hive Tyrant",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "7+",
+          "OC": "3",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002529",
+      "name": "Parasite Of Mortrex",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> barbed ovipositor; clawed limbs.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002529",
+          "line": "1",
+          "name": "Parasite Of Mortrex",
+          "M": "12\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "8+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002686",
+      "name": "Barbgaunts",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> barblauncher; chitinous claws and teeth.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002686",
+          "line": "1",
+          "name": "Barbgaunts",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "8+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002687",
+      "name": "Neurogaunts",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> chitinous claws and teeth. <br><br><i>*This unit can only contain 2 Neurogaunt Nodebeasts if it contains 20 Neurogaunts.</i>",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002687",
+          "line": "1",
+          "name": "Neurogaunts",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "8+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "Nodebeast 28mm",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002688",
+      "name": "Neurotyrant",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Psychic Scream; Neurotyrant claws and lashes.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002688",
+          "line": "1",
+          "name": "Neurotyrant",
+          "M": "6\"",
+          "T": "8",
+          "Sv": "4+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "9",
+          "Ld": "7+",
+          "OC": "3",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002689",
+      "name": "Psychophage",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> psychoclastic torrent; talons and betentacled maw.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002689",
+          "line": "1",
+          "name": "Psychophage",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "8+",
+          "OC": "3",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002690",
+      "name": "Screamer-killer",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> bio-plasmic scream; Screamer-Killer talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002690",
+          "line": "1",
+          "name": "Screamer-killer",
+          "M": "8\"",
+          "T": "9",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "8+",
+          "OC": "3",
+          "base_size": "90mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002691",
+      "name": "Tyranid Warriors With Melee Bio-weapons",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> Tyranid Warrior claws and talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002691",
+          "line": "1",
+          "name": "Tyranid Warriors With Melee Bio-weapons",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002692",
+      "name": "Tyranid Warriors With Ranged Bio-weapons",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> devourer; Tyranid Warrior claws and talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002692",
+          "line": "1",
+          "name": "Tyranid Warriors With Ranged Bio-weapons",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002693",
+      "name": "Von Ryan\u2019s Leapers",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> Leaper\u2019s talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002693",
+          "line": "1",
+          "name": "Von Ryan\u2019s Leapers",
+          "M": "10\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "8+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002694",
+      "name": "Winged Tyranid Prime",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Prime talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002694",
+          "line": "1",
+          "name": "Winged Tyranid Prime",
+          "M": "12\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "6",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002751",
+      "name": "Norn Emissary",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> Psychic Tendril; monstrous scything talons; monstrous rending claws.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002751",
+          "line": "1",
+          "name": "Norn Emissary",
+          "M": "10\"",
+          "T": "11",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "16",
+          "Ld": "7+",
+          "OC": "5",
+          "base_size": "100mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002752",
+      "name": "Norn Assimilator",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> toxinjector harpoon; monstrous scything talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002752",
+          "line": "1",
+          "name": "Norn Assimilator",
+          "M": "10\"",
+          "T": "11",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "16",
+          "Ld": "7+",
+          "OC": "5",
+          "base_size": "100mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002753",
+      "name": "Neurolictor",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> piercing claws and talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002753",
+          "line": "1",
+          "name": "Neurolictor",
+          "M": "8\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "7",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000004117",
+      "name": "Hyperadapted Raveners",
+      "role": "Characters",
+      "loadout": "<b>The Ravener Prime is equipped with:</b> Prime claws and talons.<br><br><b>3 Raveners are equipped with:</b> Ravener heavy claws and talons.<br><br><b>1 Ravener is equipped with:</b> venom bolt; Ravener heavy claws and talons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000004117",
+          "line": "1",
+          "name": "Ravener Prime",
+          "M": "10\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "6",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000004117",
+          "line": "2",
+          "name": "Raveners",
+          "M": "10\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "8+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    }
+  ]
+}

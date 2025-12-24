@@ -1,0 +1,340 @@
+{
+  "stratagems": [
+    {
+      "id": "000010011006",
+      "name": "UNCANNY REACTIONS",
+      "type": "Carnival of Excess \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00543\" data-tooltip-content=\"#tooltip_content00543\" data-tooltip-anchor=\"#tooltip_content00543\"><span class=\"kwb\">SLAANESH</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack targets your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Carnival of Excess"
+    },
+    {
+      "id": "000010011002",
+      "name": "SUSTAINED BY AGONY",
+      "type": "Carnival of Excess \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army destroys an enemy unit.<br><br><b>TARGET:</b> That <span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> unit.<br><br><b>EFFECT:</b> Select one friendly <span class=\"tooltip00324\" data-tooltip-content=\"#tooltip_content00324\" data-tooltip-anchor=\"#tooltip_content00324\"><span class=\"kwb\">LEGIONS</span> <span class=\"kwb2\">OF</span> <span class=\"kwb\">EXCESS</span></span> unit within 6\" of your unit. One model in that <span class=\"kwb\">LEGIONS</span> <span class=\"kwb2\">OF</span> <span class=\"kwb\">EXCESS</span> unit recovers up to 3 lost wounds or, if it is a <a class=\"kwbOne\" href=\"/wh40k10ed/factions/emperor-s-children/Daemonettes\"><span class=\"kwb kwbo\">DAEMONETTES</span></a> unit, return upto D3+3 destroyed models to it instead.",
+      "detachment": "Carnival of Excess"
+    },
+    {
+      "id": "000010011005",
+      "name": "SYCOPHANTIC SURGE",
+      "type": "Carnival of Excess \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00324\" data-tooltip-content=\"#tooltip_content00324\" data-tooltip-anchor=\"#tooltip_content00324\"><span class=\"kwb\">LEGIONS</span> <span class=\"kwb2\">OF</span> <span class=\"kwb\">EXCESS</span></span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, your unit is eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advanced</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fell Back</a>, provided at least one of the targets of that charge is within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> units from your army.",
+      "detachment": "Carnival of Excess"
+    },
+    {
+      "id": "000010011003",
+      "name": "ECSTATIC SLAUGHTER",
+      "type": "Carnival of Excess \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after a <span class=\"kwb\">LEGIONS</span> <span class=\"kwb2\">OF</span> <span class=\"kwb\">EXCESS</span> unit from your army destroys an enemy unit.<br><br><b>TARGET:</b> That <span class=\"tooltip00324\" data-tooltip-content=\"#tooltip_content00324\" data-tooltip-anchor=\"#tooltip_content00324\"><span class=\"kwb\">LEGIONS</span> <span class=\"kwb2\">OF</span> <span class=\"kwb\">EXCESS</span></span> unit and one friendly <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit within 6\" of it that is not within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units.<br><br><b>EFFECT:</b> Your <span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> unit can <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a>. If it does so and it has already been selected to fight this phase, it cannot fight again this phase.",
+      "detachment": "Carnival of Excess"
+    },
+    {
+      "id": "000010011007",
+      "name": "DARK APPARITIONS",
+      "type": "Carnival of Excess \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> End of your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/emperor-s-children/Daemonettes\"><span class=\"kwb kwbo\">DAEMONETTES</span></a> unit from your army that is not within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units.<br><br><b>EFFECT:</b> Remove your unit from the battlefield and place it into <a href=\"/wh40k10ed/the-rules/core-rules/#Strategic-Reserves\">Strategic Reserves</a>. If it arrives back on the battlefield in the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Reinforcements\">Reinforcements step</a> of your next <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a> using the <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Deep Strike</a> ability, it can be set up anywhere that is more than 6\" horizontally away from all enemy units (instead of more than 9\"), provided it is also set up wholly within 9\" of one or more friendly <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> units.",
+      "detachment": "Carnival of Excess"
+    },
+    {
+      "id": "000010011004",
+      "name": "VIOLENT CRESCENDO",
+      "type": "Carnival of Excess \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00841\" data-tooltip-content=\"#tooltip_content00841\" data-tooltip-anchor=\"#tooltip_content00841\"><span class=\"kwb\">SLAANESH</span> <span class=\"kwb\">BEASTS</span></span>, <span class=\"tooltip00542\" data-tooltip-content=\"#tooltip_content00542\" data-tooltip-anchor=\"#tooltip_content00542\"><span class=\"kwb\">SLAANESH</span> <span class=\"kwb\">INFANTRY</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/emperor-s-children/Seekers\"><span class=\"kwb kwbo\">SLAANESH</span> <span class=\"kwb kwbo\">MOUNTED</span></a> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes a <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Pile-In\">Pile-in</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#3.-Consolidate\">Consolidation move</a>, it can move up to 6\" instead of up to 3\". When doing so, it does not need to end that move closer to the closest enemy model, provided it ends that move as close as possible to the closest enemy unit.",
+      "detachment": "Carnival of Excess"
+    },
+    {
+      "id": "000010015005",
+      "name": "MARTIAL PERFECTION",
+      "type": "Coterie of the Conceited \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Coterie of the Conceited"
+    },
+    {
+      "id": "000010015003",
+      "name": "UNSHAKEABLE OPPONENTS",
+      "type": "Coterie of the Conceited \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the turn, each time a model in your unit makes an attack, you can ignore any or all modifiers to the following: that attack\u2019s Ballistic Skill or Weapon Skill characteristic; the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>; the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Coterie of the Conceited"
+    },
+    {
+      "id": "000010015006",
+      "name": "UNBOUND ARROGANCE",
+      "type": "Coterie of the Conceited \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army destroys an enemy unit.<br><br><b>TARGET:</b> That <span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> unit.<br><br><b>EFFECT:</b> Increase your <span class=\"tooltip00842\" data-tooltip-content=\"#tooltip_content00842\"><span class=\"tt kwbu\">pledge</span> <span class=\"tt kwbu\">to</span> <span class=\"tt kwbu\">Slaanesh</span></span> by 1.<br><br><b>RESTRICTIONS:</b> You can only use this Stratagem once per <a href=\"/wh40k10ed/the-rules/core-rules/#The-Battle-Round\">battle round</a>.",
+      "detachment": "Coterie of the Conceited"
+    },
+    {
+      "id": "000010015002",
+      "name": "PROTECTION OF THE DARK PRINCE",
+      "type": "Coterie of the Conceited \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase, just after a <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wound</a> or attack is allocated to a model in an <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army.<br><br><b>TARGET:</b> That <span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> unit.<br><br><b>EFFECT:</b> Until the end of the phase, models in your unit have the <span class=\"tooltip00144\" data-tooltip-content=\"#tooltip_content00144\"><span class=\"tt kwbu\">Feel</span> <span class=\"tt kwbu\">No</span> <span class=\"tt kwbu\">Pain</span> <span class=\"tt kwbu\">6+</span></span> ability, and the <span class=\"tooltip00144\" data-tooltip-content=\"#tooltip_content00144\"><span class=\"tt kwbu\">Feel</span> <span class=\"tt kwbu\">No</span> <span class=\"tt kwbu\">Pain</span> <span class=\"tt kwbu\">4+</span></span> ability against <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wounds</a>.",
+      "detachment": "Coterie of the Conceited"
+    },
+    {
+      "id": "000010015004",
+      "name": "EMBRACE THE PAIN",
+      "type": "Coterie of the Conceited \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Start of the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00380\" data-tooltip-content=\"#tooltip_content00380\" data-tooltip-anchor=\"#tooltip_content00380\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, each time an enemy model within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of your unit selects targets, it must select your unit as the target of its attacks.",
+      "detachment": "Coterie of the Conceited"
+    },
+    {
+      "id": "000010015007",
+      "name": "ARMOUR OF ABHORRENCE",
+      "type": "Coterie of the Conceited \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the attacking unit has finished making its attacks, each time an attack targets a model in your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+      "detachment": "Coterie of the Conceited"
+    },
+    {
+      "id": "000010655004",
+      "name": "SINUOUS BREACH",
+      "type": "Court of the Phoenician \u2013 Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a> or your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00763\" data-tooltip-content=\"#tooltip_content00763\" data-tooltip-anchor=\"#tooltip_content00763\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">DAEMON</span></span> unit from your army that has not been selected to move or charge this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time your unit makes a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal</a>, <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge move</a>, it can move horizontally through <a href=\"/wh40k10ed/the-rules/core-rules/#Terrain-Features-1\">terrain features</a>.",
+      "detachment": "Court of the Phoenician"
+    },
+    {
+      "id": "000010655003",
+      "name": "PRIDEFUL SUPERIORITY",
+      "type": "Court of the Phoenician \u2013 Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack that targets a <span class=\"kwb\">CHARACTER</span> unit, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> and you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Court of the Phoenician"
+    },
+    {
+      "id": "000010655002",
+      "name": "CONTEMPTUOUS DISREGARD",
+      "type": "Court of the Phoenician \u2013 Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Court of the Phoenician"
+    },
+    {
+      "id": "000010655007",
+      "name": "CATALYTIC STIMULUS",
+      "type": "Court of the Phoenician \u2013 Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has shot.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army that lost one or more wounds as a result of those attacks.<br><br><b>EFFECT:</b> Your unit can make a Stimulus move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding <a href=\"/wh40k10ed/the-rules/core-rules/#Aircraft\"><span class=\"kwb\">AIRCRAFT</span></a>). When doing so, those models can be moved within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of that enemy unit.",
+      "detachment": "Court of the Phoenician"
+    },
+    {
+      "id": "000010655005",
+      "name": "CLOSE-QUARTERS EXCRUCIATION",
+      "type": "Court of the Phoenician \u2013 Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time an <span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> model in your unit makes an attack that targets an eligible unit within 12\", improve the Strength and Armour Penetration characteristics of that attack by 1.",
+      "detachment": "Court of the Phoenician"
+    },
+    {
+      "id": "000010655006",
+      "name": "EUPHORIC INSPIRATION",
+      "type": "Court of the Phoenician \u2013 Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00763\" data-tooltip-content=\"#tooltip_content00763\" data-tooltip-anchor=\"#tooltip_content00763\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">DAEMON</span></span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, you can re-roll <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge rolls</a> for friendly <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> units within 6\" of your unit.",
+      "detachment": "Court of the Phoenician"
+    },
+    {
+      "id": "000009999004",
+      "name": "HONOUR THE PRINCE",
+      "type": "Mercurial Host \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00380\" data-tooltip-content=\"#tooltip_content00380\" data-tooltip-anchor=\"#tooltip_content00380\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that has not been selected to move this phase.<br><br><b>EFFECT:</b> Until the end of the phase, if your unit Advances, do not make an <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance roll</a>. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+      "detachment": "Mercurial Host"
+    },
+    {
+      "id": "000009999003",
+      "name": "COMBAT STIMMS",
+      "type": "Mercurial Host \u2013 Battle Tactic Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00380\" data-tooltip-content=\"#tooltip_content00380\" data-tooltip-anchor=\"#tooltip_content00380\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack targets your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Mercurial Host"
+    },
+    {
+      "id": "000009999002",
+      "name": "VIOLENT EXCESS",
+      "type": "Mercurial Host \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, <i><span class=\"tooltip00843\" data-tooltip-content=\"#tooltip_content00843\"><span class=\"tt\">melee</span> <span class=\"tt\">weapons</span></span></i> equipped by models in your unit have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Sustained-Hits\">[SUSTAINED HITS 1]</a></span> ability.",
+      "detachment": "Mercurial Host"
+    },
+    {
+      "id": "000009999006",
+      "name": "CAPRICIOUS REACTIONS",
+      "type": "Mercurial Host \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack targets your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Mercurial Host"
+    },
+    {
+      "id": "000009999005",
+      "name": "DARK VIGOUR",
+      "type": "Mercurial Host \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, just after an enemy unit ends a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal</a>, <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall Back move</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army (excluding <span class=\"tooltip00844\" data-tooltip-content=\"#tooltip_content00844\" data-tooltip-anchor=\"#tooltip_content00844\"><span class=\"kwb\">BEASTS</span></span> and <span class=\"tooltip00845\" data-tooltip-content=\"#tooltip_content00845\" data-tooltip-anchor=\"#tooltip_content00845\"><span class=\"kwb\">VEHICLES</span></span>) that is within 9\" of the enemy unit that just ended that move.<br><br><b>EFFECT:</b> Your unit can make a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal move</a> of up to 6\".",
+      "detachment": "Mercurial Host"
+    },
+    {
+      "id": "000009999007",
+      "name": "CRUEL RAIDERS",
+      "type": "Mercurial Host \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army that is wholly within 9\" of one or more battlefield edges and not within 3\" horizontally of one or more enemy units.<br><br><b>EFFECT:</b> Remove your unit from the battlefield and place it into <a href=\"/wh40k10ed/the-rules/core-rules/#Strategic-Reserves\">Strategic Reserves</a>.",
+      "detachment": "Mercurial Host"
+    },
+    {
+      "id": "000010003004",
+      "name": "INCESSANT VIOLENCE",
+      "type": "Peerless Bladesmen \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just before an <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army <a href=\"/wh40k10ed/the-rules/core-rules/#3.-Consolidate\">Consolidates</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> unit.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes a <a href=\"/wh40k10ed/the-rules/core-rules/#3.-Consolidate\">Consolidation move</a>, it can move up to 6\" instead of up to 3\", provided your unit ends that Consolidation move within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units.",
+      "detachment": "Peerless Bladesmen"
+    },
+    {
+      "id": "000010003005",
+      "name": "CRUEL BLADESMAN",
+      "type": "Peerless Bladesmen \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army that made a <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge move</a> this turn and has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1.",
+      "detachment": "Peerless Bladesmen"
+    },
+    {
+      "id": "000010003002",
+      "name": "DEFT PARRY",
+      "type": "Peerless Bladesmen \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack targets your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Peerless Bladesmen"
+    },
+    {
+      "id": "000010003003",
+      "name": "DEATH ECSTASY",
+      "type": "Peerless Bladesmen \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "detachment": "Peerless Bladesmen"
+    },
+    {
+      "id": "000010003006",
+      "name": "TERRIFYING SPECTACLE",
+      "type": "Peerless Bladesmen \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army that made a <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge move</a> in the previous turn and destroyed one or more enemy units in the previous <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>EFFECT:</b> Each enemy unit within 6\" of your unit must take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a>, subtracting 1 from that test if they are <a href=\"/wh40k10ed/the-rules/core-rules/#Below-Half-strength\">Below Half-strength</a>. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase.",
+      "detachment": "Peerless Bladesmen"
+    },
+    {
+      "id": "000010003007",
+      "name": "CUT DOWN THE WEAK",
+      "type": "Peerless Bladesmen \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, just after an enemy unit <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Falls Back</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army (you can only select a <span class=\"tooltip00632\" data-tooltip-content=\"#tooltip_content00632\" data-tooltip-anchor=\"#tooltip_content00632\"><span class=\"kwb\">VEHICLE</span></span> if it is a <a class=\"kwbOne\" href=\"/wh40k10ed/factions/emperor-s-children/Maulerfiend\"><span class=\"kwb kwbo\">WALKER</span></a>) that is within 6\" of that enemy unit and would be eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> against that enemy unit if it were your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>.<br><br><b>EFFECT:</b> Your unit can declare a charge. When doing so, you must select that enemy unit as a target of that charge, and your unit does not receive a <a href=\"/wh40k10ed/the-rules/core-rules/#Charge-Bonus\">Charge bonus</a> this turn.",
+      "detachment": "Peerless Bladesmen"
+    },
+    {
+      "id": "000010007004",
+      "name": "DYNAMIC BREAKTHROUGH",
+      "type": "Rapid Evisceration \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00632\" data-tooltip-content=\"#tooltip_content00632\" data-tooltip-anchor=\"#tooltip_content00632\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">VEHICLE</span></span> unit from your army that has not been selected to move this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes a move, it can move through enemy models (excluding <span class=\"kwb\">MONSTERS</span> and <span class=\"kwb\">VEHICLES</span>). When doing so, it can move within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of such models but cannot end that move within Engagement Range of them, and any <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Desperate Escape test</a> is automatically passed.",
+      "detachment": "Rapid Evisceration"
+    },
+    {
+      "id": "000010007007",
+      "name": "OUTFLANKING STRIKE",
+      "type": "Rapid Evisceration \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00627\" data-tooltip-content=\"#tooltip_content00627\" data-tooltip-anchor=\"#tooltip_content00627\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">TRANSPORT</span></span> from your army, or up to two <a class=\"kwbOne\" href=\"/wh40k10ed/factions/emperor-s-children/Chaos-Rhino\"><span class=\"kwb kwbo\">EMPEROR\u2019S</span> <span class=\"kwb kwbo\">CHILDREN</span> <span class=\"kwb kwbo\">DEDICATED</span> <span class=\"kwb kwbo\">TRANSPORTS</span></a> from your army.<br><br><b>EFFECT:</b> For each of those <span class=\"kwb\">TRANSPORTS</span> wholly within 9\" of one or more battlefield edges, remove it from the battlefield and place it into <a href=\"/wh40k10ed/the-rules/core-rules/#Strategic-Reserves\">Strategic Reserves</a>.",
+      "detachment": "Rapid Evisceration"
+    },
+    {
+      "id": "000010007006",
+      "name": "REACTIVE DISEMBARKATION",
+      "type": "Rapid Evisceration \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00627\" data-tooltip-content=\"#tooltip_content00627\" data-tooltip-anchor=\"#tooltip_content00627\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">TRANSPORT</span></span> from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit embarked within your <span class=\"kwb\">TRANSPORT</span> can <a href=\"/wh40k10ed/the-rules/core-rules/#Disembark\">disembark</a>. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\" of that <span class=\"kwb\">TRANSPORT</span> and not within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units.",
+      "detachment": "Rapid Evisceration"
+    },
+    {
+      "id": "000010007005",
+      "name": "CEASELESS ONSLAUGHT",
+      "type": "Rapid Evisceration \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army that <a href=\"/wh40k10ed/the-rules/core-rules/#Disembark\">disembarked</a> from a <span class=\"tooltip00630\" data-tooltip-content=\"#tooltip_content00630\" data-tooltip-anchor=\"#tooltip_content00630\"><span class=\"kwb\">TRANSPORT</span></span> that made a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal move</a> this turn.<br><br><b>EFFECT:</b> Until the end of the phase, your <span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> unit is eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a>.",
+      "detachment": "Rapid Evisceration"
+    },
+    {
+      "id": "000010007002",
+      "name": "ONTO THE NEXT",
+      "type": "Rapid Evisceration \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00323\" data-tooltip-content=\"#tooltip_content00323\" data-tooltip-anchor=\"#tooltip_content00323\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span></span> unit from your army that destroyed an enemy unit this phase, and one friendly <span class=\"tooltip00630\" data-tooltip-content=\"#tooltip_content00630\" data-tooltip-anchor=\"#tooltip_content00630\"><span class=\"kwb\">TRANSPORT</span></span> it is able to <a href=\"/wh40k10ed/the-rules/core-rules/#Embark\">embark</a> within.<br><br><b>EFFECT:</b> If your <span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> unit is wholly within 6\" of that <span class=\"kwb\">TRANSPORT</span>, it can embark within it.",
+      "detachment": "Rapid Evisceration"
+    },
+    {
+      "id": "000010007003",
+      "name": "ADVANCE AND CLAIM",
+      "type": "Rapid Evisceration \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00627\" data-tooltip-content=\"#tooltip_content00627\" data-tooltip-anchor=\"#tooltip_content00627\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">TRANSPORT</span></span> from your army that has one or more <a class=\"kwbOne\" href=\"/wh40k10ed/factions/emperor-s-children/Tormentors\"><span class=\"kwb kwbo\">TORMENTORS</span></a> units <a href=\"/wh40k10ed/the-rules/core-rules/#Embark\">embarked</a> within it (excluding <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a> units).<br><br><b>EFFECT:</b> Select one <a href=\"/wh40k10ed/the-rules/core-rules/#Objective-Markers\">objective marker</a> you control that your <span class=\"kwb\">TRANSPORT</span> is within range of. That objective marker remains under your control until your opponent\u2019s Level of Control over that objective marker is greater than yours at the end of a phase.",
+      "detachment": "Rapid Evisceration"
+    },
+    {
+      "id": "000010019004",
+      "name": "HEIGHTENED JEALOUSY",
+      "type": "Slaanesh\u2019s Chosen \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an <span class=\"tooltip00628\" data-tooltip-content=\"#tooltip_content00628\" data-tooltip-anchor=\"#tooltip_content00628\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">CHARACTER</span></span> unit becomes your army\u2019s <span class=\"tooltip00629\" data-tooltip-content=\"#tooltip_content00629\"><span class=\"tt kwbu\">Favoured</span> <span class=\"tt kwbu\">Champions</span></span>, or just after your army\u2019s Favoured Champions unit destroys an enemy unit.<br><br><b>TARGET:</b> Your army\u2019s <span class=\"tooltip00629\" data-tooltip-content=\"#tooltip_content00629\"><span class=\"tt kwbu\">Favoured</span> <span class=\"tt kwbu\">Champions</span></span> unit.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in an <span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">CHARACTER</span> unit from your army that is not your army\u2019s Favoured Champions makes an attack, add 1 to the Strength characteristic of that attack.",
+      "detachment": "Slaanesh\u2019s Chosen"
+    },
+    {
+      "id": "000010019002",
+      "name": "DEVOTED DUELLISTS",
+      "type": "Slaanesh\u2019s Chosen \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One or more <span class=\"tooltip00628\" data-tooltip-content=\"#tooltip_content00628\" data-tooltip-anchor=\"#tooltip_content00628\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">CHARACTER</span></span> units from your army that have not been selected to fight this phase.<br><br><b>EFFECT:</b> Select one enemy unit. Until the end of the phase, melee weapons equipped by models in those <span class=\"kwb\">CHARACTER</span> units have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Sustained-Hits\">[SUSTAINED HITS 1]</a></span> ability while targeting that enemy unit.",
+      "detachment": "Slaanesh\u2019s Chosen"
+    },
+    {
+      "id": "000010019006",
+      "name": "REFUSAL TO BE OUTDONE",
+      "type": "Slaanesh\u2019s Chosen \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00628\" data-tooltip-content=\"#tooltip_content00628\" data-tooltip-anchor=\"#tooltip_content00628\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">CHARACTER</span></span> unit from your army.<br><br><b>EFFECT:</b> Select one enemy unit within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more units from your army. Until the end of the phase, each time your unit <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">declares a charge</a>, if that enemy unit is one of the targets of that charge, add 2 to the <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge roll</a>.",
+      "detachment": "Slaanesh\u2019s Chosen"
+    },
+    {
+      "id": "000010019005",
+      "name": "DIABOLIC MAJESTY",
+      "type": "Slaanesh\u2019s Chosen \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an <span class=\"tooltip00628\" data-tooltip-content=\"#tooltip_content00628\" data-tooltip-anchor=\"#tooltip_content00628\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">CHARACTER</span></span> unit becomes your army\u2019s <span class=\"tooltip00629\" data-tooltip-content=\"#tooltip_content00629\"><span class=\"tt kwbu\">Favoured</span> <span class=\"tt kwbu\">Champions</span></span>.<br><br><b>TARGET:</b> That <span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> unit.<br><br><b>EFFECT:</b> Each enemy unit within 6\" of your unit must take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a>, subtracting 1 from the result.<br><br><b>RESTRICTIONS:</b> You can only use this Stratagem once per <a href=\"/wh40k10ed/the-rules/core-rules/#The-Battle-Round\">battle round</a>.",
+      "detachment": "Slaanesh\u2019s Chosen"
+    },
+    {
+      "id": "000010019003",
+      "name": "BEAUTIFUL DEATH",
+      "type": "Slaanesh\u2019s Chosen \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00628\" data-tooltip-content=\"#tooltip_content00628\" data-tooltip-anchor=\"#tooltip_content00628\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">CHARACTER</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if your unit is your army\u2019s <span class=\"tooltip00629\" data-tooltip-content=\"#tooltip_content00629\"><span class=\"tt kwbu\">Favoured</span> <span class=\"tt kwbu\">Champions</span></span>. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "detachment": "Slaanesh\u2019s Chosen"
+    },
+    {
+      "id": "000010019007",
+      "name": "VENGEFUL SURGE",
+      "type": "Slaanesh\u2019s Chosen \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00628\" data-tooltip-content=\"#tooltip_content00628\" data-tooltip-anchor=\"#tooltip_content00628\"><span class=\"kwb\">EMPEROR\u2019S</span> <span class=\"kwb\">CHILDREN</span> <span class=\"kwb\">CHARACTER</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> After the attacking unit has shot, your unit can make a Surge move. To do so, roll one D6: each model in your unit can move a distance in inches up to the result, but your unit must end that move as close as possible to the closest enemy unit. When doing so, those models can be moved within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of that enemy unit. If your unit is not your army\u2019s <span class=\"tooltip00629\" data-tooltip-content=\"#tooltip_content00629\"><span class=\"tt kwbu\">Favoured</span> <span class=\"tt kwbu\">Champions</span></span>, you can re-roll the dice to determine the distance of its Surge move.",
+      "detachment": "Slaanesh\u2019s Chosen"
+    }
+  ]
+}

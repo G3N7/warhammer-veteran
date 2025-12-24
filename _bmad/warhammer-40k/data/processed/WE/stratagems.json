@@ -1,0 +1,356 @@
+{
+  "stratagems": [
+    {
+      "id": "000008431003",
+      "name": "HACK AND SLASH",
+      "type": "Berzerker Warband \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00531\" data-tooltip-content=\"#tooltip_content00531\" data-tooltip-anchor=\"#tooltip_content00531\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span></span> unit from your army that has not been selected to fight this phase and that made a <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">charge move</a> this turn.<br><br><b>EFFECT:</b> Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1.",
+      "detachment": "Berzerker Warband"
+    },
+    {
+      "id": "000008431004",
+      "name": "FRENZIED RESILIENCE",
+      "type": "Berzerker Warband \u2013 Battle Tactic Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00531\" data-tooltip-content=\"#tooltip_content00531\" data-tooltip-anchor=\"#tooltip_content00531\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+      "detachment": "Berzerker Warband"
+    },
+    {
+      "id": "000008431002",
+      "name": "BLOOD OFFERING",
+      "type": "Berzerker Warband \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase.<br><br><b>TARGET:</b> One <span class=\"tooltip00531\" data-tooltip-content=\"#tooltip_content00531\" data-tooltip-anchor=\"#tooltip_content00531\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span></span> unit from your army that was just destroyed while it was within range of one or more <a href=\"/wh40k10ed/the-rules/core-rules/#Objective-Markers\">objective markers</a> you controlled at the end of the previous phase. You can use this Stratagem on that unit even though it was just destroyed.<br><br><b>EFFECT:</b> Select one of those objective markers. That objective marker remains under your control until your opponent\u2019s Level of Control over that objective marker is greater than yours at the end of a phase.",
+      "detachment": "Berzerker Warband"
+    },
+    {
+      "id": "000008431005",
+      "name": "SKULLS FOR THE SKULL THRONE!",
+      "type": "Berzerker Warband \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after a <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit from your army destroys a <span class=\"kwb\">CHARACTER</span> or <span class=\"kwb\">MONSTER</span> model.<br><br><b>TARGET:</b> That <span class=\"tooltip00531\" data-tooltip-content=\"#tooltip_content00531\" data-tooltip-anchor=\"#tooltip_content00531\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span></span> unit.<br><br><b>EFFECT:</b> Make a <span class=\"tooltip00530\" data-tooltip-content=\"#tooltip_content00530\"><span class=\"tt kwbu\">Blessings</span> <span class=\"tt kwbu\">of</span> <span class=\"tt kwbu\">Khorne</span> <span class=\"tt kwbu\">roll</span></span> and use the results to activate one Blessing of Khorne. Until the end of the <a href=\"/wh40k10ed/the-rules/core-rules/#The-Battle-Round\">battle round</a>, that Blessing of Khorne is active in addition to any other Blessings of Khorne that are currently active.",
+      "detachment": "Berzerker Warband"
+    },
+    {
+      "id": "000008431006",
+      "name": "APOPLECTIC FRENZY",
+      "type": "Berzerker Warband \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, just after a <span class=\"kwb\">KHORNE</span> <span class=\"kwb\">BERZERKERS</span> unit from your army is selected to <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a>.<br><br><b>TARGET:</b> That <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Khorne-Berzerkers\"><span class=\"kwb kwbo\">KHORNE</span> <span class=\"kwb kwbo\">BERZERKERS</span></a> unit.<br><br><b>EFFECT:</b> Until the end of the turn, your unit is eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it Advanced.",
+      "detachment": "Berzerker Warband"
+    },
+    {
+      "id": "000008431007",
+      "name": "BERZERKER\u2019S WRATH",
+      "type": "Berzerker Warband \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has shot.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Khorne-Berzerkers\"><span class=\"kwb kwbo\">KHORNE</span> <span class=\"kwb kwbo\">BERZERKERS</span></a> unit from your army that can make a Blood Surge move as a result of those attacks.<br><br><b>EFFECT:</b> Do not roll a D6 to determine how far models in your unit can move when they make their Blood Surge move. Instead, when making their Blood Surge move, these models can move up to 8\".",
+      "detachment": "Berzerker Warband"
+    },
+    {
+      "id": "000009709004",
+      "name": "SAVAGE RESILIENCE",
+      "type": "Boarding Butchers \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Shooting-Phase\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+      "detachment": "Boarding Butchers"
+    },
+    {
+      "id": "000009709005",
+      "name": "COWARDS\u2019 BANE",
+      "type": "Boarding Butchers \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Movement-Phase\">Movement phase</a>, just after an enemy unit is selected to <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall Back</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit from your army (excluding <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Jakhals\"><span class=\"kwb kwbo\">JAKHAL</span></a> units) within <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Engagement-Range\">Engagement Range</a> of that enemy unit.<br><br><b>EFFECT:</b> Until the end of the phase, each time that enemy unit <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Falls Back</a>, models in it must take <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Desperate Escape tests</a> as if their unit was <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a>. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests.",
+      "detachment": "Boarding Butchers"
+    },
+    {
+      "id": "000009709003",
+      "name": "UNSTOPPABLE RAGE",
+      "type": "Boarding Butchers \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Movement-Phase\">Movement phase</a>, just after a <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit from your army (excluding <span class=\"kwb\">JAKHAL</span> units) opens a <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Terrain\">Hatchway</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit.<br><br><b>EFFECT:</b> For each enemy unit within 3\" of that Hatchway and wholly on the opposite side of it from your unit, until the start of your next Movement phase, that enemy unit is stunned. While a unit is stunned, each time a model in it makes an attack, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Boarding Butchers"
+    },
+    {
+      "id": "000009709002",
+      "name": "TERRIFYING SCREAMS",
+      "type": "Boarding Butchers \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>, just after a <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit from your army destroys an enemy unit.<br><br><b>TARGET:</b> That <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit.<br><br><b>EFFECT:</b> Until the end of your opponent\u2019s next <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>, subtract 1 from <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock</a> and <a href=\"/wh40k10ed/the-rules/core-rules/#Leadership-Tests\">Leadership tests</a> taken for all enemy units.",
+      "detachment": "Boarding Butchers"
+    },
+    {
+      "id": "000010075005",
+      "name": "BLOODTHIRSTY HORDE",
+      "type": "Cult of Blood \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Jakhals\"><span class=\"kwb kwbo\">JAKHALS</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Goremongers\"><span class=\"kwb kwbo\">GOREMONGERS</span></a> unit from your army that has not been selected to fight this phase and is within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units.<br><br><b>EFFECT:</b> Until the end of the phase, each time your unit is selected to fight, when determining which models in it are eligible to fight, any models in your unit that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit.",
+      "detachment": "Cult of Blood"
+    },
+    {
+      "id": "000010075002",
+      "name": "BLOODY VENGEANCE",
+      "type": "Cult of Blood \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase.<br><br><b>TARGET:</b> One <span class=\"tooltip00719\" data-tooltip-content=\"#tooltip_content00719\" data-tooltip-anchor=\"#tooltip_content00719\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">MONSTER</span></span> or <span class=\"tooltip00789\" data-tooltip-content=\"#tooltip_content00789\" data-tooltip-anchor=\"#tooltip_content00789\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">TITANIC</span></span> unit from your army that was just destroyed by an enemy unit. You can use this Stratagem on that unit even though it was just destroyed.<br><br><b>EFFECT:</b> Until the end of the battle, each time a model in a <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Jakhals\"><span class=\"kwb kwbo\">JAKHALS</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Goremongers\"><span class=\"kwb kwbo\">GOREMONGERS</span></a> unit from your army makes an attack that targets the enemy unit that just destroyed your unit, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Cult of Blood"
+    },
+    {
+      "id": "000010075007",
+      "name": "BRAZEN IDOL",
+      "type": "Cult of Blood \u2013 Epic Deed Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00719\" data-tooltip-content=\"#tooltip_content00719\" data-tooltip-anchor=\"#tooltip_content00719\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">MONSTER</span></span> or <span class=\"tooltip00789\" data-tooltip-content=\"#tooltip_content00789\" data-tooltip-anchor=\"#tooltip_content00789\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">TITANIC</span></span> unit from your army.<br><br><b>EFFECT:</b> Select the Idol of Infinite Rage, Idol of Burning Wrath or Idol of Blessed Blood. Until the start of your next Command phase, that <span class=\"tooltip00892\" data-tooltip-content=\"#tooltip_content00892\"><span class=\"tt kwbu\">Idols</span> <span class=\"tt kwbu\">of</span> <span class=\"tt kwbu\">Khorne</span></span> ability is active for your unit instead of any other Idols of Khorne ability that is active for your army, even if you have already selected that ability this battle.<br><br><b>RESTRICTIONS:</b> You can only use this Stratagem once per battle.",
+      "detachment": "Cult of Blood"
+    },
+    {
+      "id": "000010075006",
+      "name": "FAIL NOT THE BLOOD GOD",
+      "type": "Cult of Blood \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Jakhals\"><span class=\"kwb kwbo\">JAKHALS</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Goremongers\"><span class=\"kwb kwbo\">GOREMONGERS</span></a> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack, re-roll a <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> of 1. If that model\u2019s unit is within 6\" of one or more friendly <span class=\"tooltip00719\" data-tooltip-content=\"#tooltip_content00719\" data-tooltip-anchor=\"#tooltip_content00719\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">MONSTER</span></span> units, or within 9\" of one or more friendly <span class=\"tooltip00789\" data-tooltip-content=\"#tooltip_content00789\" data-tooltip-anchor=\"#tooltip_content00789\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">TITANIC</span></span> units, you can re-roll the Hit roll instead.",
+      "detachment": "Cult of Blood"
+    },
+    {
+      "id": "000010075003",
+      "name": "DRAWN TO THE SLAUGHTER",
+      "type": "Cult of Blood \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Any phase.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Jakhals\"><span class=\"kwb kwbo\">JAKHALS</span></a> unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.<br><br><b>EFFECT:</b> Add a new unit to your army identical to your destroyed unit, in <a href=\"/wh40k10ed/the-rules/core-rules/#Strategic-Reserves\">Strategic Reserves</a>, at its <a href=\"/wh40k10ed/the-rules/core-rules/#Starting-Strength\">Starting Strength</a>.<br><br><b>RESTRICTIONS:</b> This Stratagem cannot be used to return destroyed <span class=\"tooltip00893\" data-tooltip-content=\"#tooltip_content00893\" data-tooltip-anchor=\"#tooltip_content00893\"><span class=\"kwb\">CHARACTER</span></span> units to <a href=\"/wh40k10ed/the-rules/core-rules/#Attached-Units\">Attached units</a>. You can only use this Stratagem once per battle.",
+      "detachment": "Cult of Blood"
+    },
+    {
+      "id": "000010075004",
+      "name": "IN THE SHADOW OF BRASS IDOLS",
+      "type": "Cult of Blood \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Jakhals\"><span class=\"kwb kwbo\">JAKHALS</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Goremongers\"><span class=\"kwb kwbo\">GOREMONGERS</span></a> unit from your army that was selected as the target as one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, models in your unit have the <span class=\"tooltip00144\" data-tooltip-content=\"#tooltip_content00144\"><span class=\"tt kwbu\">Feel</span> <span class=\"tt kwbu\">No</span> <span class=\"tt kwbu\">Pain</span> <span class=\"tt kwbu\">6+</span></span> ability. If your unit is within 6\" of one or more friendly <span class=\"tooltip00719\" data-tooltip-content=\"#tooltip_content00719\" data-tooltip-anchor=\"#tooltip_content00719\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">MONSTER</span></span> units, or within 9\" of one or more friendly <span class=\"tooltip00789\" data-tooltip-content=\"#tooltip_content00789\" data-tooltip-anchor=\"#tooltip_content00789\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">TITANIC</span></span> units, your unit has the <span class=\"tooltip00144\" data-tooltip-content=\"#tooltip_content00144\"><span class=\"tt kwbu\">Feel</span> <span class=\"tt kwbu\">No</span> <span class=\"tt kwbu\">Pain</span> <span class=\"tt kwbu\">5+</span></span> ability instead.",
+      "detachment": "Cult of Blood"
+    },
+    {
+      "id": "000010087003",
+      "name": "SMASH THROUGH",
+      "type": "Goretrack Onslaught \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00894\" data-tooltip-content=\"#tooltip_content00894\" data-tooltip-anchor=\"#tooltip_content00894\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">VEHICLE</span></span> model from your army that has not been selected to move this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time your unit makes a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance move</a>, it can move horizontally through <a href=\"/wh40k10ed/the-rules/core-rules/#Terrain-Features-1\">terrain features</a>.",
+      "detachment": "Goretrack Onslaught"
+    },
+    {
+      "id": "000010087002",
+      "name": "ENDLESS PURSUIT OF VIOLENCE",
+      "type": "Goretrack Onslaught \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00419\" data-tooltip-content=\"#tooltip_content00419\" data-tooltip-anchor=\"#tooltip_content00419\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army and one friendly <span class=\"tooltip00715\" data-tooltip-content=\"#tooltip_content00715\" data-tooltip-anchor=\"#tooltip_content00715\"><span class=\"kwb\">TRANSPORT</span></span> that it is able to <a href=\"/wh40k10ed/the-rules/core-rules/#Embark\">embark</a> within.<br><br><b>EFFECT:</b> If your <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">INFANTRY</span> unit is wholly within 6\" of that <span class=\"kwb\">TRANSPORT</span>, it can embark within it.",
+      "detachment": "Goretrack Onslaught"
+    },
+    {
+      "id": "000010087007",
+      "name": "FURY UNLEASHED",
+      "type": "Goretrack Onslaught \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has shot.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Chaos-Rhino\"><span class=\"kwb kwbo\">WORLD</span> <span class=\"kwb kwbo\">EATERS</span> <span class=\"kwb kwbo\">RHINO</span></a> model from your army that has one or more wounds remaining and was hit by one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Khorne-Berzerkers\"><span class=\"kwb kwbo\">KHORNE</span> <span class=\"kwb kwbo\">BERZERKERS</span></a> unit embarked within your model can <a href=\"/wh40k10ed/the-rules/core-rules/#Disembark\">disembark</a> and make a Blood Surge move.<br><br><b>RESTRICTIONS:</b> A unit cannot be targeted by this Stratagem and the Unrelenting Advance Stratagem in the same phase.",
+      "detachment": "Goretrack Onslaught"
+    },
+    {
+      "id": "000010087006",
+      "name": "UNRELENTING ADVANCE",
+      "type": "Goretrack Onslaught \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has shot.<br><br><b>TARGET:</b> One <span class=\"tooltip00894\" data-tooltip-content=\"#tooltip_content00894\" data-tooltip-anchor=\"#tooltip_content00894\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">VEHICLE</span></span> model from your army that was hit by one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Your model can make a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal move</a> of up to 6\".<br><br><b>RESTRICTIONS:</b> A unit cannot be targeted by this Stratagem and the Fury Unleashed Stratagem in the same phase.",
+      "detachment": "Goretrack Onslaught"
+    },
+    {
+      "id": "000010087005",
+      "name": "FULL-THROTTLE ASSAULT",
+      "type": "Goretrack Onslaught \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Chaos-Rhino\"><span class=\"kwb kwbo\">WORLD</span> <span class=\"kwb kwbo\">EATERS</span> <span class=\"kwb kwbo\">RHINO</span></a> model from your army that has not been selected to move this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit <a href=\"/wh40k10ed/the-rules/core-rules/#Disembark\">disembarks</a> from that model after it has made a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal move</a>, that unit is still eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> this turn.",
+      "detachment": "Goretrack Onslaught"
+    },
+    {
+      "id": "000010087004",
+      "name": "AGGRESSIVE DISEMBARKATION",
+      "type": "Goretrack Onslaught \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Chaos-Rhino\"><span class=\"kwb kwbo\">WORLD</span> <span class=\"kwb kwbo\">EATERS</span> <span class=\"kwb kwbo\">RHINO</span></a> model from your army that has not been selected to move this phase.<br><br><b>EFFECT:</b> One <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit embarked within your <span class=\"kwb\">RHINO</span> can <a href=\"/wh40k10ed/the-rules/core-rules/#Disembark\">disembark</a>. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\" of your <span class=\"kwb\">RHINO</span> and can be set up within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units.",
+      "detachment": "Goretrack Onslaught"
+    },
+    {
+      "id": "000010079005",
+      "name": "BLESSING OF BURNING BLOOD",
+      "type": "Khorne Daemonkin \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00325\" data-tooltip-content=\"#tooltip_content00325\" data-tooltip-anchor=\"#tooltip_content00325\"><span class=\"kwb\">BLOOD</span> <span class=\"kwb\">LEGIONS</span></span> unit from your army that is within 6\" of a friendly <span class=\"tooltip00531\" data-tooltip-content=\"#tooltip_content00531\" data-tooltip-anchor=\"#tooltip_content00531\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span></span> unit that was selected as the target as one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, models in your <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit have a 5+ <a href=\"/wh40k10ed/the-rules/core-rules/#Invulnerable-Saves\">invulnerable save</a>. If the <span class=\"tooltip00720\" data-tooltip-content=\"#tooltip_content00720\"><span class=\"tt kwbu\">Boon</span> <span class=\"tt kwbu\">of</span> <span class=\"tt kwbu\">Blood</span></span> ability is active for your army, then until the end of the phase, models in your <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit have a 4+ invulnerable save.",
+      "detachment": "Khorne Daemonkin"
+    },
+    {
+      "id": "000010079003",
+      "name": "DAEMONIC FURY",
+      "type": "Khorne Daemonkin \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Start of your <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00325\" data-tooltip-content=\"#tooltip_content00325\" data-tooltip-anchor=\"#tooltip_content00325\"><span class=\"kwb\">BLOOD</span> <span class=\"kwb\">LEGIONS</span></span> unit from your army.<br><br><b>EFFECT:</b> Select one friendly <span class=\"tooltip00531\" data-tooltip-content=\"#tooltip_content00531\" data-tooltip-anchor=\"#tooltip_content00531\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span></span> unit within 6\" of your unit. Until the end of the turn, melee weapons equipped by models in your <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Lance\">[LANCE]</a></span> ability. If the <span class=\"tooltip00720\" data-tooltip-content=\"#tooltip_content00720\"><span class=\"tt kwbu\">Daemonic</span> <span class=\"tt kwbu\">Rage</span></span> ability is active for your army, then until the end of the phase those melee weapons also have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Twin-linked\">[TWIN-LINKED]</a></span> ability.",
+      "detachment": "Khorne Daemonkin"
+    },
+    {
+      "id": "000010079004",
+      "name": "A WORTHY SKULL",
+      "type": "Khorne Daemonkin \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after a <span class=\"tooltip00325\" data-tooltip-content=\"#tooltip_content00325\" data-tooltip-anchor=\"#tooltip_content00325\"><span class=\"kwb\">BLOOD</span> <span class=\"kwb\">LEGIONS</span></span> or <span class=\"tooltip00531\" data-tooltip-content=\"#tooltip_content00531\" data-tooltip-anchor=\"#tooltip_content00531\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span></span> unit from your army has fought, and one or more enemy <span class=\"kwb\">CHARACTER</span> or <span class=\"kwb\">MONSTER</span> models were destroyed as a result of those attacks.<br><br><b>TARGET:</b> That <span class=\"kwb\">BLOOD</span> <span class=\"kwb\">LEGIONS</span> or <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit.<br><br><b>EFFECT:</b> You gain <span class=\"tooltip00720\" data-tooltip-content=\"#tooltip_content00720\"><span class=\"tt kwbu\">D3BTP</span></span> and you can then spend one or more BTP you have to activate one of the <span class=\"tooltip00720\" data-tooltip-content=\"#tooltip_content00720\"><span class=\"tt kwbu\">Blood</span> <span class=\"tt kwbu\">Tithe</span></span> abilities.<br>",
+      "detachment": "Khorne Daemonkin"
+    },
+    {
+      "id": "000010079002",
+      "name": "SUMMONED BY SLAUGHTER",
+      "type": "Khorne Daemonkin \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase, when the last model in a unit is destroyed, before removing it from play. (If that unit is a <span class=\"tooltip00715\" data-tooltip-content=\"#tooltip_content00715\" data-tooltip-anchor=\"#tooltip_content00715\"><span class=\"kwb\">TRANSPORT</span></span>, any units embarked within that <span class=\"kwb\">TRANSPORT</span> model must <a href=\"/wh40k10ed/the-rules/core-rules/#Disembark\">disembark</a> first.)<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Bloodletters\"><span class=\"kwb kwbo\">BLOODLETTERS</span></a> unit from your army that is in <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Reinforcements\">Reserves</a>.<br><br><b>EFFECT:</b> Set your unit up anywhere on the battlefield wholly within 9\" of that destroyed model and more than 6\" horizontally away from all enemy units, then remove the destroyed model from play.<br><br><b>RESTRICTIONS:</b> You cannot use this Stratagem more than once per <a href=\"/wh40k10ed/the-rules/core-rules/#The-Battle-Round\">battle round</a>.",
+      "detachment": "Khorne Daemonkin"
+    },
+    {
+      "id": "000010079007",
+      "name": "MURDER-CALL",
+      "type": "Khorne Daemonkin \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00325\" data-tooltip-content=\"#tooltip_content00325\" data-tooltip-anchor=\"#tooltip_content00325\"><span class=\"kwb\">BLOOD</span> <span class=\"kwb\">LEGIONS</span></span> unit from your army that is on the battlefield and not within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units.<br><br><b>EFFECT:</b> Remove your unit from the battlefield and place it into <a href=\"/wh40k10ed/the-rules/core-rules/#Strategic-Reserves\">Strategic Reserves</a>.",
+      "detachment": "Khorne Daemonkin"
+    },
+    {
+      "id": "000010079006",
+      "name": "DAEMONTIDE",
+      "type": "Khorne Daemonkin \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00531\" data-tooltip-content=\"#tooltip_content00531\" data-tooltip-anchor=\"#tooltip_content00531\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span></span> unit from your army.<br><br><b>EFFECT:</b> Select one friendly <span class=\"tooltip00325\" data-tooltip-content=\"#tooltip_content00325\" data-tooltip-anchor=\"#tooltip_content00325\"><span class=\"kwb\">BLOOD</span> <span class=\"kwb\">LEGIONS</span></span> unit within 6\" of your unit. One destroyed <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Bloodcrushers\"><span class=\"kwb kwbo\">MOUNTED</span></a> model, up to D3 destroyed <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Flesh-Hounds\"><span class=\"kwb kwbo\">BEAST</span></a> models, or up to D6 destroyed <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Bloodletters\"><span class=\"kwb kwbo\">INFANTRY</span></a> models are returned to that <span class=\"kwb\">BLOOD</span> <span class=\"kwb\">LEGIONS</span> unit with their full wounds remaining.<br><br><b>RESTRICTIONS:</b> This Stratagem cannot be used to return destroyed <span class=\"tooltip00893\" data-tooltip-content=\"#tooltip_content00893\" data-tooltip-anchor=\"#tooltip_content00893\"><span class=\"kwb\">CHARACTER</span></span> models to <a href=\"/wh40k10ed/the-rules/core-rules/#Attached-Units\">Attached units</a>.",
+      "detachment": "Khorne Daemonkin"
+    },
+    {
+      "id": "000010083002",
+      "name": "DAEMONIC RESISTANCE",
+      "type": "Possessed Slaughterband \u2013 Battle Tactic Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00544\" data-tooltip-content=\"#tooltip_content00544\" data-tooltip-anchor=\"#tooltip_content00544\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">POSSESSED</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack targets your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Possessed Slaughterband"
+    },
+    {
+      "id": "000010083003",
+      "name": "DAEMONIC STRENGTH",
+      "type": "Possessed Slaughterband \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00544\" data-tooltip-content=\"#tooltip_content00544\" data-tooltip-anchor=\"#tooltip_content00544\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">POSSESSED</span></span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack made by a model in your unit is allocated to an enemy model, if your unit has the <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Eightbound\"><span class=\"kwb kwbo\">EIGHTBOUND</span></a> keyword and that enemy model is not a <span class=\"kwb\">MONSTER</span> or <span class=\"kwb\">VEHICLE</span>, add 1 to the Damage characteristic of that attack. If your unit has the <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Exalted-Eightbound\"><span class=\"kwb kwbo\">EXALTED</span> <span class=\"kwb kwbo\">EIGHTBOUND</span></a> keyword and that enemy model is a <span class=\"kwb\">MONSTER</span> or <span class=\"kwb\">VEHICLE</span>, add 1 to the Damage characteristic of that attack instead.",
+      "detachment": "Possessed Slaughterband"
+    },
+    {
+      "id": "000010083004",
+      "name": "IMMORTAL FURY",
+      "type": "Possessed Slaughterband \u2013 Battle Tactic Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00544\" data-tooltip-content=\"#tooltip_content00544\" data-tooltip-anchor=\"#tooltip_content00544\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">POSSESSED</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking model\u2019s unit has finished making its attacks, and is then removed from play.",
+      "detachment": "Possessed Slaughterband"
+    },
+    {
+      "id": "000010083005",
+      "name": "RAPID MANIFESTATION",
+      "type": "Possessed Slaughterband \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Exalted-Eightbound\"><span class=\"kwb kwbo\">EXALTED</span> <span class=\"kwb kwbo\">EIGHTBOUND</span></a> unit from your army that is arriving using the <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Deep Strike</a> ability this phase.<br><br><b>EFFECT:</b> Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.<br><br><b>RESTRICTIONS:</b> A unit targeted with this Stratagem is not eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in the same turn.",
+      "detachment": "Possessed Slaughterband"
+    },
+    {
+      "id": "000010083006",
+      "name": "WARP STALKERS",
+      "type": "Possessed Slaughterband \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a> or your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00544\" data-tooltip-content=\"#tooltip_content00544\" data-tooltip-anchor=\"#tooltip_content00544\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">POSSESSED</span></span> unit from your army that has not been selected to move or <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal</a>, <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a>, <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall Back</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge move</a>, it can move through enemy models (excluding <span class=\"kwb\">MONSTERS</span> and <span class=\"kwb\">VEHICLES</span>). When doing so, it can move within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of such models but, unless that move was a Charge move, it cannot end that move within Engagement Range of them, and any <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Desperate Escape test</a> is automatically passed.",
+      "detachment": "Possessed Slaughterband"
+    },
+    {
+      "id": "000010083007",
+      "name": "HORRIFYING VIOLENCE",
+      "type": "Possessed Slaughterband \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00544\" data-tooltip-content=\"#tooltip_content00544\" data-tooltip-anchor=\"#tooltip_content00544\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">POSSESSED</span></span> unit from your army.<br><br><b>EFFECT:</b> Each enemy unit within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of your unit must take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a>, subtracting 1 from that test.",
+      "detachment": "Possessed Slaughterband"
+    },
+    {
+      "id": "000009717005",
+      "name": "SHOCKING ONSLAUGHT",
+      "type": "Skullsworn \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement</a> or <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Charge-Phase\">Charge phase</a>, just after an enemy unit is selected to fire <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Set-Overwatch\">Overwatch</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, each time an enemy unit is selected to fire Overwatch, it must take a <a href=\"/wh40k10ed/the-rules/core-rules/#Leadership-Tests\">Leadership test</a>, subtracting 1 from the result: if failed, that enemy unit cannot fire Overwatch at your unit this phase.",
+      "detachment": "Skullsworn"
+    },
+    {
+      "id": "000009717003",
+      "name": "FURIOUS MOMENTUM",
+      "type": "Skullsworn \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes a <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Pile-In\">Pile-in</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#3.-Consolidate\">Consolidation move</a>, it can move up to 6\" instead of up to 3\".",
+      "detachment": "Skullsworn"
+    },
+    {
+      "id": "000009717004",
+      "name": "RUINOUS RAMPAGE",
+      "type": "Skullsworn \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement</a> or <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Charge-Phase\">Charge phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Chaos-Terminators\"><span class=\"kwb kwbo\">WORLD</span> <span class=\"kwb kwbo\">EATERS</span> <span class=\"kwb kwbo\">TERMINATOR</span></a>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Eightbound\"><span class=\"kwb kwbo\">EIGHTBOUND</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Exalted-Eightbound\"><span class=\"kwb kwbo\">EXALTED</span> <span class=\"kwb kwbo\">EIGHTBOUND</span></a> unit from your army that has not been selected to move this phase and has not <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">declared a charge</a> this phase.<br><br><b>EFFECT:</b> Until the end of the phase, when making a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal</a>, <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge move</a>, your unit can move through a single closed <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Terrain\">Hatchway</a> as if it was open. When doing so, that Hatchway is opened and cannot be closed for the rest of the battle. This can allow that unit to declare a charge against enemy units that are not <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Visibility\">visible</a> to it, but to do so those enemy units must be within 1\" of that Hatchway and wholly on the opposite side of it from your unit.<br><br><b>RESTRICTIONS:</b> You can only use this Stratagem once per turn.",
+      "detachment": "Skullsworn"
+    },
+    {
+      "id": "000009717002",
+      "name": "BLOOD RITE",
+      "type": "Skullsworn \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>, just after a <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Chaos-Terminators\"><span class=\"kwb kwbo\">WORLD</span> <span class=\"kwb kwbo\">EATERS</span> <span class=\"kwb kwbo\">TERMINATOR</span></a>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Eightbound\"><span class=\"kwb kwbo\">EIGHTBOUND</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Exalted-Eightbound\"><span class=\"kwb kwbo\">EXALTED</span> <span class=\"kwb kwbo\">EIGHTBOUND</span></a> unit from your army destroys an enemy unit.<br><br><b>TARGET:</b> That unit.<br><br><b>EFFECT:</b> Select one <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Objective-Markers\">objective marker</a> that your unit or the <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a> unit was within range of at the start of the phase. That objective marker is <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#SEIZING-AND-SECURING-OBJECTIVE-MARKERS\">Secured</a> by your army.",
+      "detachment": "Skullsworn"
+    },
+    {
+      "id": "000009848002",
+      "name": "ASPIRE TO INFAMY",
+      "type": "Vessels of Wrath \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Khorne-Berzerkers\"><span class=\"kwb kwbo\">KHORNE</span> <span class=\"kwb kwbo\">BERZERKERS</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Jakhals\"><span class=\"kwb kwbo\">JAKHALS</span></a> unit from your army that has not been selected to fight this phase and is within 8\" of one or more friendly <span class=\"tooltip00716\" data-tooltip-content=\"#tooltip_content00716\" data-tooltip-anchor=\"#tooltip_content00716\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">CHARACTER</span></span> models.<br><br><b>EFFECT:</b> Until the end of the phase, improve the Strength and Armour Penetration characteristics of melee weapons equipped by non-<span class=\"kwb\">CHARACTER</span> models in your unit by 1.",
+      "detachment": "Vessels of Wrath"
+    },
+    {
+      "id": "000009848007",
+      "name": "BRAZEN CONTEMPT",
+      "type": "Vessels of Wrath \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>, or, if it is a <span class=\"tooltip00718\" data-tooltip-content=\"#tooltip_content00718\"><span class=\"tt kwbu\"><span class=\"kwb\">VESSEL</span></span> <span class=\"tt kwbu\"><span class=\"kwb\">OF</span></span> <span class=\"tt kwbu\"><span class=\"kwb\">WRATH</span></span></span> unit, subtract 1 from the Wound roll instead.",
+      "detachment": "Vessels of Wrath"
+    },
+    {
+      "id": "000009848003",
+      "name": "OVERSHADOWED BY NONE",
+      "type": "Vessels of Wrath \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00419\" data-tooltip-content=\"#tooltip_content00419\" data-tooltip-anchor=\"#tooltip_content00419\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">INFANTRY</span></span>, <span class=\"tooltip00421\" data-tooltip-content=\"#tooltip_content00421\" data-tooltip-anchor=\"#tooltip_content00421\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">MOUNTED</span></span> or <span class=\"tooltip00725\" data-tooltip-content=\"#tooltip_content00725\" data-tooltip-anchor=\"#tooltip_content00725\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">DAEMON</span> <span class=\"kwb\">PRINCE</span></span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack that targets a <span class=\"kwb\">MONSTER</span> or <span class=\"kwb\">VEHICLE</span> unit, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Vessels of Wrath"
+    },
+    {
+      "id": "000009848004",
+      "name": "GORY DEDICATION",
+      "type": "Vessels of Wrath \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> unit from your army that destroyed one or more enemy models with a melee attack this phase.<br><br><b>EFFECT:</b> Select one <a href=\"/wh40k10ed/the-rules/core-rules/#Objective-Markers\">objective marker</a> you control that your unit is within range of. That objective marker remains under your control until your opponent\u2019s Level of Control over that objective marker is greater than yours at the end of a phase.",
+      "detachment": "Vessels of Wrath"
+    },
+    {
+      "id": "000009848006",
+      "name": "MEET FORCE WITH FORCE",
+      "type": "Vessels of Wrath \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has shot.<br><br><b>TARGET:</b> One <span class=\"tooltip00419\" data-tooltip-content=\"#tooltip_content00419\" data-tooltip-anchor=\"#tooltip_content00419\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">INFANTRY</span></span>, <span class=\"tooltip00421\" data-tooltip-content=\"#tooltip_content00421\" data-tooltip-anchor=\"#tooltip_content00421\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">MOUNTED</span></span> or <span class=\"tooltip00725\" data-tooltip-content=\"#tooltip_content00725\" data-tooltip-anchor=\"#tooltip_content00725\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">DAEMON</span> <span class=\"kwb\">PRINCE</span></span> unit from your army that lost one or more wounds as a result of those attacks.<br><br><b>EFFECT:</b> Your unit can make a Blood Surge move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding <a href=\"/wh40k10ed/the-rules/core-rules/#Aircraft\"><span class=\"kwb\">AIRCRAFT</span></a>). When doing so, those models can be moved within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of that enemy unit. If your unit is a <a class=\"kwbOne\" href=\"/wh40k10ed/factions/world-eaters/Khorne-Berzerkers\"><span class=\"kwb kwbo\">KHORNE</span> <span class=\"kwb kwbo\">BERZERKERS</span></a> or <span class=\"tooltip00718\" data-tooltip-content=\"#tooltip_content00718\"><span class=\"tt kwbu\"><span class=\"kwb\">VESSEL</span></span> <span class=\"tt kwbu\"><span class=\"kwb\">OF</span></span> <span class=\"tt kwbu\"><span class=\"kwb\">WRATH</span></span></span>  unit, you can re-roll the D6 to determine how far your unit can move.",
+      "detachment": "Vessels of Wrath"
+    },
+    {
+      "id": "000009848005",
+      "name": "PUNISH THE CRAVEN",
+      "type": "Vessels of Wrath \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, just after an enemy unit (excluding <span class=\"kwb\">MONSTERS</span> and <span class=\"kwb\">VEHICLES</span>) is selected to <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall Back</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00419\" data-tooltip-content=\"#tooltip_content00419\" data-tooltip-anchor=\"#tooltip_content00419\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">INFANTRY</span></span> or <span class=\"tooltip00725\" data-tooltip-content=\"#tooltip_content00725\" data-tooltip-anchor=\"#tooltip_content00725\"><span class=\"kwb\">WORLD</span> <span class=\"kwb\">EATERS</span> <span class=\"kwb\">DAEMON</span> <span class=\"kwb\">PRINCE</span></span> unit from your army within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of that enemy unit.<br><br><b>EFFECT:</b> When that enemy unit <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Falls Back</a>, all models in that enemy unit must take a <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Desperate Escape test</a>. When doing so, if your unit is a <span class=\"tooltip00718\" data-tooltip-content=\"#tooltip_content00718\"><span class=\"tt kwbu\"><span class=\"kwb\">VESSEL</span></span> <span class=\"tt kwbu\"><span class=\"kwb\">OF</span></span> <span class=\"tt kwbu\"><span class=\"kwb\">WRATH</span></span></span>  unit, subtract 1 from each of those tests.",
+      "detachment": "Vessels of Wrath"
+    }
+  ]
+}

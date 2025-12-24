@@ -1,0 +1,37 @@
+{
+  "faction_id": "TL",
+  "faction_name": "Adeptus Titanicus",
+  "abilities": [
+    {
+      "id": "000008533",
+      "name": "Towering Example",
+      "type": "",
+      "description": "When mustering your army, if your Army Faction is <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">TITANICUS</span>, ignore the <a href=\"/wh40k10ed/the-rules/core-rules/#4.-Select-Detachment-Rules\">Select Detachment Rules</a> step. In the <a href=\"/wh40k10ed/the-rules/core-rules/#6.-Select-Warlord\">Select Warlord</a> step, select one <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">TITANICUS</span> model from your army to be your <span class=\"kwb\">WARLORD</span>, even though that model does not have the <span class=\"kwb\">CHARACTER</span> keyword."
+    },
+    {
+      "id": "000008534",
+      "name": "Titanic Support",
+      "type": "",
+      "description": "If every model in your army has the <span class=\"kwb\">IMPERIUM</span> keyword, you can include 1 <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">TITANICUS</span> model in your army, even if it does not have the <a href=\"/wh40k10ed/the-rules/core-rules/#Keywords\">Faction keyword</a> you selected in the <a href=\"/wh40k10ed/the-rules/core-rules/#3.-Select-Army-Faction\">Select Army Faction</a> step."
+    },
+    {
+      "id": "000008535",
+      "name": "Titanicus Traitoris",
+      "type": "",
+      "description": "You can use the <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">TITANICUS</span> <a href=\"/wh40k10ed/the-rules/core-rules/#Datasheets-1\">datasheets</a> in this document to represent <span class=\"kwb\">TITANICUS</span> <span class=\"kwb\">TRAITORIS</span> models if you wish. To do so, on those datasheets and on this Army Rules card, replace all instances of the <span class=\"kwb\">IMPERIUM</span> keyword with <span class=\"kwb\">CHAOS</span>, and replace all instances of the <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">TITANICUS</span> <a href=\"/wh40k10ed/the-rules/core-rules/#Keywords\">Faction keyword</a> with <span class=\"kwb\">TITANICUS</span> <span class=\"kwb\">TRAITORIS</span>. For the purposes of points values, use those published for the equivalent <span class=\"kwb\">ADEPTUS</span> <span class=\"kwb\">TITANICUS</span> models."
+    },
+    {
+      "id": "000008536",
+      "name": "Designer\u2019s Note",
+      "type": "",
+      "description": "<b>Designer\u2019s Note:</b> <i>Titans are colossal war machines that can turn the tide of battle. As such, the points values of some of these models are greater than even Onslaught-sized battles can accommodate; they are designed for battlefields of the most apocalyptic scale you can imagine!</i>"
+    },
+    {
+      "id": "000008538",
+      "name": "Super-heavy Walker",
+      "type": "",
+      "description": "Each time a model with this ability makes a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal</a>, <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall Back move</a>, it can move over models (excluding <span class=\"kwb\">TITANIC</span> models) and <a href=\"/wh40k10ed/the-rules/core-rules/#Terrain-Features-1\">terrain features</a> that are 4\" or less in height as if they were not there."
+    }
+  ],
+  "note": "Datasheets in separate file. Lore trimmed for context efficiency."
+}

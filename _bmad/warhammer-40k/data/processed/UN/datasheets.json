@@ -1,0 +1,544 @@
+{
+  "datasheets": [
+    {
+      "id": "000000243",
+      "name": "Fortress Of Redemption",
+      "role": "Fortifications",
+      "loadout": "<b>This model is equipped with:</b> redemptor lascannons; redemptor missile silo.",
+      "transport": "This <span class=\"kwb\">FORTIFICATION</span> has a transport capacity of 20 <span class=\"kwb\">INFANTRY</span> models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-<span class=\"kwb\">CHARACTER</span> models with a Wounds characteristic of 4 or more.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000243",
+          "line": "1",
+          "name": "Fortress Of Redemption",
+          "M": "-",
+          "T": "13",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "30",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000785",
+      "name": "Imperial Fortress Walls",
+      "role": "Fortifications",
+      "loadout": "<b>Every gate tower section is equipped with:</b> twin heavy bolter. <br><br><b>Every tower section is equipped with:</b> twin long-barrelled autocannon.",
+      "transport": "This <span class=\"kwb\">FORTIFICATION</span> has a transport capacity of 65 <span class=\"kwb\">INFANTRY</span> models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-<span class=\"kwb\">CHARACTER</span> models with a Wounds characteristic of 4 or more.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000785",
+          "line": "1",
+          "name": "Imperial Fortress Walls",
+          "M": "-",
+          "T": "14",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "80",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000786",
+      "name": "Primaris Redoubt",
+      "role": "Fortifications",
+      "loadout": "<b>This model is equipped with:</b> Primaris Redoubt turbo-laser destructor.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000786",
+          "line": "1",
+          "name": "Primaris Redoubt",
+          "M": "-",
+          "T": "12",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "18",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000914",
+      "name": "Bastion",
+      "role": "Fortifications",
+      "loadout": "<b>This model is equipped with:</b> 4 heavy bolters.",
+      "transport": "This <span class=\"kwb\">FORTIFICATION</span> has a transport capacity of 15 <span class=\"kwb\">INFANTRY</span> models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-<span class=\"kwb\">CHARACTER</span> models with a Wounds characteristic of 4 or more.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000914",
+          "line": "1",
+          "name": "Bastion",
+          "M": "-",
+          "T": "13",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "18",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000917",
+      "name": "Vengeance Weapon Battery",
+      "role": "Fortifications",
+      "loadout": "<b>This model is equipped with:</b> battle cannon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000917",
+          "line": "1",
+          "name": "Vengeance Weapon Battery",
+          "M": "-",
+          "T": "13",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000918",
+      "name": "Firestorm Redoubt",
+      "role": "Fortifications",
+      "loadout": "<b>This model is equipped with:</b> 2 quad lascannons.",
+      "transport": "This <span class=\"kwb\">FORTIFICATION</span> has a transport capacity of 15 <span class=\"kwb\">INFANTRY</span> models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-<span class=\"kwb\">CHARACTER</span> models with a Wounds characteristic of 4 or more.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000918",
+          "line": "1",
+          "name": "Firestorm Redoubt",
+          "M": "-",
+          "T": "13",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "18",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000919",
+      "name": "Plasma Obliterator",
+      "role": "Fortifications",
+      "loadout": "<b>This model is equipped with:</b> plasma obliterator.",
+      "transport": "This <span class=\"kwb\">FORTIFICATION</span> has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 20 Infantry models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-<span class=\"kwb\">CHARACTER</span> models with a Wounds characteristic of 4 or more.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000919",
+          "line": "1",
+          "name": "Plasma Obliterator",
+          "M": "-",
+          "T": "13",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "18",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000920",
+      "name": "Macro-cannon Aquila Strongpoint",
+      "role": "Fortifications",
+      "loadout": "<b>This model is equipped with:</b> Aquila macro-cannon.",
+      "transport": "This <span class=\"kwb\">FORTIFICATION</span> has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 30 Infantry models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-<span class=\"kwb\">CHARACTER</span> models with a Wounds characteristic of 4 or more.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000920",
+          "line": "1",
+          "name": "Macro-cannon Aquila Strongpoint",
+          "M": "-",
+          "T": "13",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "30",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000921",
+      "name": "Vortex Missile Strongpoint",
+      "role": "Fortifications",
+      "loadout": "<b>This model is equipped with:</b> vortex missile battery.",
+      "transport": "This <span class=\"kwb\">FORTIFICATION</span> has a transport capacity of 30 <span class=\"kwb\">INFANTRY</span> models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non- <span class=\"kwb\">CHARACTER</span> models with a Wounds characteristic of 4 or more.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000921",
+          "line": "1",
+          "name": "Vortex Missile Strongpoint",
+          "M": "-",
+          "T": "13",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "30",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000922",
+      "name": "Void Shield Generator",
+      "role": "Fortifications",
+      "loadout": "<b>This model is equipped with:</b> nothing.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000922",
+          "line": "1",
+          "name": "Void Shield Generator",
+          "M": "-",
+          "T": "12",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "16",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000923",
+      "name": "Skyshield Landing Pad",
+      "role": "Fortifications",
+      "loadout": "<b>This unit is equipped with:</b> nothing.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000923",
+          "line": "1",
+          "name": "Skyshield Landing Pad",
+          "M": "-",
+          "T": "12",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "16",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001603",
+      "name": "Spindle Drones",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> drone pulse; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001603",
+          "line": "1",
+          "name": "Spindle Drones",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001630",
+      "name": "Ambull",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> enormous claws.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001630",
+          "line": "1",
+          "name": "Ambull",
+          "M": "6\"",
+          "T": "8",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "8",
+          "Ld": "8+",
+          "OC": "3",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002093",
+      "name": "The Archivist",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> atomic disassembler; eradicator glove.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002093",
+          "line": "1",
+          "name": "The Archivist",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "6",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002363",
+      "name": "Guardian Drone",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> destroyer pulse; Guardian salvo launchers; manipulator limbs.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002363",
+          "line": "1",
+          "name": "Guardian Drone",
+          "M": "5\"",
+          "T": "7",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "7",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002807",
+      "name": "Castellum Stronghold",
+      "role": "Fortifications",
+      "loadout": "<b>This model is equipped with:</b> nothing.",
+      "transport": "This <span class=\"kwb\">FORTIFICATION</span> has a transport capacity of 60 <span class=\"kwb\">INFANTRY</span> models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-<span class=\"kwb\">CHARACTER</span> models with a Wounds characteristic of 4 or more.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002807",
+          "line": "1",
+          "name": "Castellum Stronghold",
+          "M": "-",
+          "T": "13",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "50",
+          "Ld": "6+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002808",
+      "name": "Wall Of Martyrs Bunker",
+      "role": "Fortifications",
+      "loadout": "<b>This model is equipped with:</b> nothing.",
+      "transport": "This <span class=\"kwb\">FORTIFICATION</span> has a transport capacity of 11 <span class=\"kwb\">INFANTRY</span> models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-<span class=\"kwb\">CHARACTER</span> models with a Wounds characteristic of 4 or more.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002808",
+          "line": "1",
+          "name": "Wall Of Martyrs Bunker",
+          "M": "-",
+          "T": "13",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002809",
+      "name": "Wall Of Martyrs Defence Line",
+      "role": "Fortifications",
+      "loadout": "<b>This unit is equipped with:</b> nothing.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002809",
+          "line": "1",
+          "name": "Wall Of Martyrs Defence Line",
+          "M": "-",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002810",
+      "name": "Wall Of Martyrs Defence Emplacement",
+      "role": "Fortifications",
+      "loadout": "<b>This model is equipped with:</b> nothing.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002810",
+          "line": "1",
+          "name": "Wall Of Martyrs Defence Emplacement",
+          "M": "-",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002811",
+      "name": "Aegis Defence Line With Weapon Emplacement",
+      "role": "Fortifications",
+      "loadout": "<b>This unit is equipped with:</b> quad-gun.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002811",
+          "line": "1",
+          "name": "Aegis Defence Line With Weapon Emplacement",
+          "M": "-",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    }
+  ]
+}

@@ -1,0 +1,1056 @@
+{
+  "datasheets": [
+    {
+      "id": "000000894",
+      "name": "Crusaders",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> power weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000894",
+          "line": "1",
+          "name": "Crusaders",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000895",
+      "name": "Death Cult Assassins",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> Death Cult power blades.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000895",
+          "line": "1",
+          "name": "Death Cult Assassins",
+          "M": "7\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000896",
+      "name": "Arco-flagellants",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> arco-flails.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000896",
+          "line": "1",
+          "name": "Arco-flagellants",
+          "M": "7\"",
+          "T": "3",
+          "Sv": "7+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "8+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000897",
+      "name": "Penitent Engines",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> penitent flamers; twin penitent buzz-blades.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000897",
+          "line": "1",
+          "name": "Penitent Engines",
+          "M": "8\"",
+          "T": "6",
+          "Sv": "4+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000898",
+      "name": "Saint Celestine",
+      "role": "Characters",
+      "loadout": "<b>Saint Celestine is equipped with:</b> the Ardent Blade. <br><br><b>Each Geminae Superia is equipped with:</b> bolt pistol; power weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000898",
+          "line": "1",
+          "name": "CELESTINE",
+          "M": "12\"",
+          "T": "3",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000000898",
+          "line": "2",
+          "name": "GEMINAE SUPERIA",
+          "M": "12\"",
+          "T": "3",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000899",
+      "name": "Canoness",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; hallowed chainsword.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000899",
+          "line": "1",
+          "name": "Canoness",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000900",
+      "name": "Imagifier",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; boltgun; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000900",
+          "line": "1",
+          "name": "Imagifier",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000901",
+      "name": "Hospitaller",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; chirurgeon\u2019s tools.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000901",
+          "line": "1",
+          "name": "Hospitaller",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000902",
+      "name": "Dialogus",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; Dialogus staff.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000902",
+          "line": "1",
+          "name": "Dialogus",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000903",
+      "name": "Battle Sisters Squad",
+      "role": "Battleline",
+      "loadout": "<b>Every model is equipped with:</b> bolt pistol; boltgun; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000903",
+          "line": "1",
+          "name": "Battle Sisters Squad",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000904",
+      "name": "Seraphim Squad",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> 2 bolt pistols; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000904",
+          "line": "1",
+          "name": "Seraphim Squad",
+          "M": "12\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000907",
+      "name": "Repentia Squad",
+      "role": "Other",
+      "loadout": "<b>The Repentia Superior is equipped with:</b> bolt pistol; neural whips. <br><br><b>Each Sister Repentia is equipped with:</b> penitent eviscerator.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000907",
+          "line": "1",
+          "name": "REPENTIA SUPERIOR",
+          "M": "7\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000000907",
+          "line": "2",
+          "name": "SISTERS REPENTIA",
+          "M": "7\"",
+          "T": "3",
+          "Sv": "7+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "8+",
+          "OC": "1",
+          "base_size": "28.5mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000908",
+      "name": "Retributor Squad",
+      "role": "Other",
+      "loadout": "<b>The Retributor Superior is equipped with:</b> bolt pistol; boltgun; close combat weapon. <br><br><b>Each Retributor is equipped with:</b> bolt pistol; heavy bolter; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000908",
+          "line": "1",
+          "name": "Retributor Squad",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000909",
+      "name": "Dominion Squad",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> bolt pistol; boltgun; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000909",
+          "line": "1",
+          "name": "Dominion Squad",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000910",
+      "name": "Sororitas Rhino",
+      "role": "Dedicated Transports",
+      "loadout": "<b>This model is equipped with:</b> storm bolter; armoured tracks.",
+      "transport": "This model has a transport capacity of 12 <span class=\"tooltip00361\" data-tooltip-content=\"#tooltip_content00361\" data-tooltip-anchor=\"#tooltip_content00361\"><span class=\"kwb\">ADEPTA</span> <span class=\"kwb\">SORORITAS</span> <span class=\"kwb\">INFANTRY</span></span> models. It cannot transport <span class=\"tooltip00362\" data-tooltip-content=\"#tooltip_content00362\" data-tooltip-anchor=\"#tooltip_content00362\"><span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span> models or the <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adepta-sororitas/Triumph-Of-Saint-Katherine\"><span class=\"kwb kwbo\">TRIUMPH</span> <span class=\"kwb2 kwbo\">OF</span> <span class=\"kwb kwbo\">SAINT</span> <span class=\"kwb kwbo\">KATHERINE</span></a>.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000910",
+          "line": "1",
+          "name": "Sororitas Rhino",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000911",
+      "name": "Immolator",
+      "role": "Dedicated Transports",
+      "loadout": "<b>This model is equipped with:</b> heavy bolter; immolation flamers; armoured tracks.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 6 <span class=\"tooltip00361\" data-tooltip-content=\"#tooltip_content00361\" data-tooltip-anchor=\"#tooltip_content00361\"><span class=\"kwb\">ADEPTA</span> <span class=\"kwb\">SORORITAS</span> <span class=\"kwb\">INFANTRY</span></span> models. It cannot transport <span class=\"tooltip00362\" data-tooltip-content=\"#tooltip_content00362\" data-tooltip-anchor=\"#tooltip_content00362\"><span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span> models or the <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adepta-sororitas/Triumph-Of-Saint-Katherine\"><span class=\"kwb kwbo\">TRIUMPH</span> <span class=\"kwb2 kwbo\">OF</span> <span class=\"kwb kwbo\">SAINT</span> <span class=\"kwb kwbo\">KATHERINE</span></a>. <br><br>At the start of the <a href=\"/wh40k10ed/the-rules/core-rules/#Declare-Battle-Formations\">Declare Battle Formations</a> step, you can select one <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adepta-sororitas/Battle-Sisters-Squad\"><span class=\"kwb kwbo\">BATTLE</span> <span class=\"kwb kwbo\">SISTERS</span> <span class=\"kwb kwbo\">SQUAD</span></a>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adepta-sororitas/Dominion-Squad\"><span class=\"kwb kwbo\">DOMINION</span> <span class=\"kwb kwbo\">SQUAD</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adepta-sororitas/Sisters-Novitiate-Squad\"><span class=\"kwb kwbo\">SISTERS</span> <span class=\"kwb kwbo\">NOVITIATE</span> <span class=\"kwb kwbo\">SQUAD</span></a> from your army. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units. If you are splitting a unit that has the Cherub ability, only one of the new units can use that ability during the battle \u2013 make a note of which of the new units this will be). One of these units must start the battle <a href=\"/wh40k10ed/the-rules/core-rules/#Embark\">embarked</a> within this <span class=\"kwb\">TRANSPORT</span>; the other can start the battle embarked within another <span class=\"tooltip00363\" data-tooltip-content=\"#tooltip_content00363\" data-tooltip-anchor=\"#tooltip_content00363\"><span class=\"kwb\">TRANSPORT</span></span>, or it can be deployed as a separate unit.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000911",
+          "line": "1",
+          "name": "Immolator",
+          "M": "12\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "11",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000912",
+      "name": "Exorcist",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> Exorcist missile launcher; heavy bolter; armoured tracks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000912",
+          "line": "1",
+          "name": "Exorcist",
+          "M": "10\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "11",
+          "Ld": "7+",
+          "OC": "3",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001199",
+      "name": "Repressor",
+      "role": "Dedicated Transports",
+      "loadout": "<b>This model is equipped with:</b> Repressor twin heavy flamer; storm bolter; dozer ram.",
+      "transport": "This model has a transport capacity of 12 <span class=\"tooltip00361\" data-tooltip-content=\"#tooltip_content00361\" data-tooltip-anchor=\"#tooltip_content00361\"><span class=\"kwb\">ADEPTA</span> <span class=\"kwb\">SORORITAS</span> <span class=\"kwb\">INFANTRY</span></span> models. It cannot transport <span class=\"tooltip00362\" data-tooltip-content=\"#tooltip_content00362\" data-tooltip-anchor=\"#tooltip_content00362\"><span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span> models or the <a class=\"kwbOne\" href=\"/wh40k10ed/factions/adepta-sororitas/Triumph-Of-Saint-Katherine\"><span class=\"kwb kwbo\">TRIUMPH</span> <span class=\"kwb2 kwbo\">OF</span> <span class=\"kwb kwbo\">SAINT</span> <span class=\"kwb kwbo\">KATHERINE</span></a>.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001199",
+          "line": "1",
+          "name": "Repressor",
+          "M": "12\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "12",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001553",
+      "name": "Ministorum Priest",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> zealot\u2019s vindictor.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001553",
+          "line": "1",
+          "name": "Preacher",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002063",
+      "name": "Triumph Of Saint Katherine",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistols; relic weapons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002063",
+          "line": "1",
+          "name": "Triumph Of Saint Katherine",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "18",
+          "Ld": "6+",
+          "OC": "6",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002064",
+      "name": "Junith Eruita",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> twin Ministorum heavy flamer; Mace of Castigation.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002064",
+          "line": "1",
+          "name": "Junith Eruita",
+          "M": "8\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "8",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002066",
+      "name": "Zephyrim Squad",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> bolt pistol; power weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002066",
+          "line": "1",
+          "name": "Zephyrim Squad",
+          "M": "12\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002067",
+      "name": "Mortifiers",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> 2 heavy bolters; twin penitent buzz-blades.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002067",
+          "line": "1",
+          "name": "Mortifiers",
+          "M": "8\"",
+          "T": "6",
+          "Sv": "4+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002068",
+      "name": "Battle Sanctum",
+      "role": "Fortifications",
+      "loadout": "<b>This model is equipped with:</b> nothing.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002068",
+          "line": "1",
+          "name": "Battle Sanctum",
+          "M": "-",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "20",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002472",
+      "name": "Palatine",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; Palatine blade.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002472",
+          "line": "1",
+          "name": "Palatine",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002479",
+      "name": "Morvenn Vahl",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Fidelis; Paragon missile launcher; Lance of Illumination.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002479",
+          "line": "1",
+          "name": "Morvenn Vahl",
+          "M": "8\"",
+          "T": "7",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "8",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002480",
+      "name": "Aestred Thurga And Agathae Dolan",
+      "role": "Characters",
+      "loadout": "<b>Aestred Thurga is equipped with:</b> bolt pistol; Blade of Vigil. <br><br><b>Agathae Dolan is equipped with:</b> bolt pistol; scribe\u2019s staff.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002480",
+          "line": "1",
+          "name": "AESTRED THURGA",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000002480",
+          "line": "2",
+          "name": "AGATHAE DOLAN",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002481",
+      "name": "Celestian Sacresants",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> bolt pistol; hallowed mace.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002481",
+          "line": "1",
+          "name": "Celestian Sacresants",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002482",
+      "name": "Dogmata",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; mace of the righteous.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002482",
+          "line": "1",
+          "name": "Dogmata",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002483",
+      "name": "Paragon Warsuits",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> bolt pistol; heavy bolter; Paragon storm bolters; Paragon war blade.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002483",
+          "line": "1",
+          "name": "Paragon Warsuits",
+          "M": "8\"",
+          "T": "7",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002484",
+      "name": "Castigator",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> Castigator autocannons; 3 heavy bolters; armoured tracks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002484",
+          "line": "1",
+          "name": "Castigator",
+          "M": "10\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "11",
+          "Ld": "7+",
+          "OC": "3",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002507",
+      "name": "Sisters Novitiate Squad",
+      "role": "Other",
+      "loadout": "<b>The Novitiate Superior is equipped with:</b> bolt pistol; boltgun; close combat weapon. <br><br><b>Each Sister Novitiate is equipped with:</b> autopistol; autogun; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002507",
+          "line": "1",
+          "name": "NOVITIATE SUPERIOR",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000002507",
+          "line": "2",
+          "name": "SISTER NOVITIATE",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "4+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "8+",
+          "OC": "2",
+          "base_size": "28.5mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002771",
+      "name": "Daemonifuge",
+      "role": "Characters",
+      "loadout": "<b>Ephrael Stern is equipped with:</b> bolt pistol; Sanctity. <br><br><b>Kyganil of the Bloody Tears is equipped with:</b> the Outcast\u2019s Weapons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002771",
+          "line": "1",
+          "name": "EPHRAEL STERN",
+          "M": "8\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000002771",
+          "line": "2",
+          "name": "KYGANIL OF THE BLOODY TEARS",
+          "M": "8\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003714",
+      "name": "Canoness with Jump Pack",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> blessed halberd.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003714",
+          "line": "1",
+          "name": "Canoness",
+          "M": "12\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003811",
+      "name": "Celestian Sacresant Aveline",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Ministorum hand flamer; The Thorn of the White Rose.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003811",
+          "line": "1",
+          "name": "Celestian Sacresant Aveline",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000004075",
+      "name": "Sanctifiers",
+      "role": "Other",
+      "loadout": "<b>The Miraculist is equipped with:</b> holy fire; burning hands.<br><br><b>The Salvationist is equipped with:</b> close combat weapon; Salvationist medikit.<br><br><b>The Death Cult Assassin is equipped with:</b> Death Cult blades.<br><br><b>1 Missionary is equipped with:</b> plasma gun; Sanctifier melee weapon.<br><br><b>1 Missionary is equipped with:</b> Ministorum flamer; Sanctifier melee weapon.<br><br><b>Every Sanctifier is equipped with:</b> Ministorum hand flamer; Sanctifier melee weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000004075",
+          "line": "1",
+          "name": "",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    }
+  ]
+}

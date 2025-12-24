@@ -1,0 +1,619 @@
+{
+  "datasheets": [
+    {
+      "id": "000002593",
+      "name": "\u00dbthar the Destined",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> volkanite disintegrator; Blade of the Ancestors; rampart crest.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002593",
+          "line": "1",
+          "name": "\u00dbthar The Destined",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002594",
+      "name": "K\u00e2hl",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Autoch-pattern combi-bolter; forgewrought plasma axe; rampart crest.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002594",
+          "line": "1",
+          "name": "K\u00e2hl",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002595",
+      "name": "Einhyr Champion",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Autoch-pattern combi-bolter; mass hammer; weavefield crest.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002595",
+          "line": "1",
+          "name": "Einhyr Champion",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002596",
+      "name": "Grimnyr",
+      "role": "Characters",
+      "loadout": "<i>* If this unit\u2019s Grimnyr model is ever destroyed, all of this unit\u2019s remaining CORV models are also destroyed. While embarking within a <span class=\"tooltip00389\" data-tooltip-content=\"#tooltip_content00389\" data-tooltip-anchor=\"#tooltip_content00389\"><span class=\"kwb\">TRANSPORT</span></span> and while embarked within a <span class=\"kwb\">TRANSPORT</span>, each CORV model takes up the space of 0 models.</i><br><br><b>The Grimnyr is equipped with:</b> Ancestral Wrath; ancestral ward stave. <br><br><b>Every CORV is equipped with:</b> Autoch-pattern bolter; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002596",
+          "line": "1",
+          "name": "GRIMNYR",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000002596",
+          "line": "2",
+          "name": "CORV",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002597",
+      "name": "Br\u00f4khyr Iron-master",
+      "role": "Characters",
+      "loadout": "<i>* If this unit\u2019s Br\u00f4khyr Iron-master model is ever destroyed, all of this unit\u2019s remaining E-COG models are also destroyed. While embarking within a <span class=\"tooltip00389\" data-tooltip-content=\"#tooltip_content00389\" data-tooltip-anchor=\"#tooltip_content00389\"><span class=\"kwb\">TRANSPORT</span></span> and while embarked within a <span class=\"kwb\">TRANSPORT</span>, each E-COG model takes up the space of 0 models.</i><br><br><b>The Br\u00f4khyr Iron-master is equipped with:</b> graviton rifle; graviton hammer. <br><br><b>The Ironkin Assistant is equipped with:</b> las-beam cutter; close combat weapon. <br><br><b>One E-COG is equipped with:</b> Autoch-pattern bolt pistol; close combat weapon. <br><br><b>One other E-COG is equipped with:</b> plasma torch. <br><br><b>One other E-COG is equipped with:</b> manipulator arms.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002597",
+          "line": "1",
+          "name": "BR\u00d4KHYR IRON-MASTER",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000002597",
+          "line": "2",
+          "name": "IRONKIN ASSISTANT",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "28.5mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000002597",
+          "line": "3",
+          "name": "E-COG",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002598",
+      "name": "Hearthkyn Warriors",
+      "role": "Battleline",
+      "loadout": "<b>The Theyn is equipped with:</b> Autoch-pattern bolt pistol; Autoch-pattern bolter; close combat weapon; weavefield crest.<br><br><b>Every Hearthkyn Warrior is equipped with:</b> Autoch-pattern bolt pistol; Autoch-pattern bolter; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002598",
+          "line": "1",
+          "name": "Hearthkyn Warriors",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "28.5mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002599",
+      "name": "Einhyr Hearthguard",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> EtaCarn plasma gun; exoarmour grenade launcher; concussion gauntlet.<br><br><b>The Hesyr is additionally equipped with:</b> weavefield crest.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002599",
+          "line": "1",
+          "name": "Einhyr Hearthguard",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002600",
+      "name": "Cthonian Beserks",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> heavy plasma axe.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002600",
+          "line": "1",
+          "name": "Cthonian Beserks",
+          "M": "6\"",
+          "T": "6",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "28.5mm",
+          "base_size_descr": "50mm with mole grenade launcher",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002601",
+      "name": "Hernkyn Pioneers",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> bolt revolver; bolt shotgun; magna-coil autocannon; plasma knife.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002601",
+          "line": "1",
+          "name": "Hernkyn Pioneers",
+          "M": "12\"",
+          "T": "6",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "90 x 52mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002602",
+      "name": "Sagitaur",
+      "role": "Dedicated Transports",
+      "loadout": "<b>This model is equipped with:</b> HYLas beam cannon; twin bolt cannon; armoured wheels.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 6 <span class=\"tooltip00390\" data-tooltip-content=\"#tooltip_content00390\" data-tooltip-anchor=\"#tooltip_content00390\"><span class=\"kwb\">LEAGUES</span> <span class=\"kwb2\">OF</span> <span class=\"kwb\">VOTANN</span> <span class=\"kwb\">INFANTRY</span></span> models. It cannot transport <a class=\"kwbOne\" href=\"/wh40k10ed/factions/leagues-of-votann/Cthonian-Earthshakers\"><span class=\"kwb kwbo\">ARTILLERY</span></a>, <span class=\"tooltip00391\" data-tooltip-content=\"#tooltip_content00391\" data-tooltip-anchor=\"#tooltip_content00391\"><span class=\"kwb\">EXOARMOUR</span></span>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/leagues-of-votann/Br\u00f4khyr-Thunderkyn\"><span class=\"kwb kwbo\">EXOFRAME</span></a> or <span class=\"tooltip00392\" data-tooltip-content=\"#tooltip_content00392\" data-tooltip-anchor=\"#tooltip_content00392\"><span class=\"kwb\">IRONKIN</span> <span class=\"kwb\">STEELJACKS</span></span> models.<br><br>At the start of the Declare Battle Formations step, you can select one <a class=\"kwbOne\" href=\"/wh40k10ed/factions/leagues-of-votann/Hearthkyn-Warriors\"><span class=\"kwb kwbo\">HEARTHKYN</span> <span class=\"kwb kwbo\">WARRIORS</span></a> unit from your army that has not been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle <a href=\"/wh40k10ed/the-rules/core-rules/#Embark\">embarked</a> within this <span class=\"kwb\">TRANSPORT</span>; the other can start the battle embarked within another <span class=\"kwb\">TRANSPORT</span>, or it can be deployed as a separate unit.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002602",
+          "line": "1",
+          "name": "Sagitaur",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "9",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002603",
+      "name": "Br\u00f4khyr Thunderkyn",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> bolt cannon; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002603",
+          "line": "1",
+          "name": "Br\u00f4khyr Thunderkyn",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002604",
+      "name": "Hekaton Land Fortress",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> cyclic ion cannon; MATR autocannon; 2 twin bolt cannons; armoured wheels; pan spectral scanner.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 14 <span class=\"tooltip00390\" data-tooltip-content=\"#tooltip_content00390\" data-tooltip-anchor=\"#tooltip_content00390\"><span class=\"kwb\">LEAGUES</span> <span class=\"kwb2\">OF</span> <span class=\"kwb\">VOTANN</span> <span class=\"kwb\">INFANTRY</span></span> models. Each <span class=\"tooltip00391\" data-tooltip-content=\"#tooltip_content00391\" data-tooltip-anchor=\"#tooltip_content00391\"><span class=\"kwb\">EXOARMOUR</span></span>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/leagues-of-votann/Br\u00f4khyr-Thunderkyn\"><span class=\"kwb kwbo\">EXOFRAME</span></a> or <span class=\"tooltip00392\" data-tooltip-content=\"#tooltip_content00392\" data-tooltip-anchor=\"#tooltip_content00392\"><span class=\"kwb\">IRONKIN</span> <span class=\"kwb\">STEELJACKS</span></span> model takes up the space of 2 models. It cannot transport <a class=\"kwbOne\" href=\"/wh40k10ed/factions/leagues-of-votann/Cthonian-Earthshakers\"><span class=\"kwb kwbo\">ARTILLERY</span></a> models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002604",
+          "line": "1",
+          "name": "Hekaton Land Fortress",
+          "M": "10\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "16",
+          "Ld": "7+",
+          "OC": "5",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003710",
+      "name": "Hernkyn Yaegirs",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> bolt shotgun; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003710",
+          "line": "1",
+          "name": "",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "28.5mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000004140",
+      "name": "Buri Aegnirssen",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Autoch-pattern bolt pistol; Bane.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000004140",
+          "line": "1",
+          "name": "Buri Aegnirssen",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000004141",
+      "name": "Memnyr Strategist",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Autoch-pattern bolt pistol; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000004141",
+          "line": "1",
+          "name": "Memnyr Strategist",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000004142",
+      "name": "Arkanyst Evaluator",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> transmatter inverter; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000004142",
+          "line": "1",
+          "name": "Arkanyst Evaluator",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000004143",
+      "name": "Ironkin Steeljacks with Heavy Volkanite Disintegrators",
+      "role": "Other",
+      "loadout": "<b>The Steeljack Theyn is equipped with:</b> heavy volkanite disintegrator; plasma knife; preymark crest.<br><br><b>Every Ironkin Steeljack is equipped with:</b> heavy volkanite disintegrator; plasma knife.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000004143",
+          "line": "1",
+          "name": "",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000004144",
+      "name": "Ironkin Steeljacks with Melee Weapons",
+      "role": "Other",
+      "loadout": "<b>The Steeljack Theyn is equipped with:</b> Autoch-pattern bolter; plasma sword; preymark crest.<br><br><b>Every Ironkin Steeljack is equipped with:</b> Autoch-pattern bolter; plasma sword.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000004144",
+          "line": "1",
+          "name": "",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000004145",
+      "name": "Cthonian Earthshakers",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> 2 Autoch-pattern bolt pistols, breacher ordnance; plasma picks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000004145",
+          "line": "1",
+          "name": "",
+          "M": "4\"",
+          "T": "6",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "6",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "80mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000004146",
+      "name": "Kapricus Defenders",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> magna-rail cannon; twin magna-coil autocannon; armoured hull.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000004146",
+          "line": "1",
+          "name": "",
+          "M": "12\"",
+          "T": "7",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "7",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "105 x 70mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000004147",
+      "name": "Kapricus Carrier",
+      "role": "Dedicated Transports",
+      "loadout": "<b>This model is equipped with:</b> magna-coil autocannon; twin magna-coil autocannon; armoured hull.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 5 <a class=\"kwbOne\" href=\"/wh40k10ed/factions/leagues-of-votann/Hernkyn-Yaegirs\"><span class=\"kwb kwbo\">HERNKYN</span> <span class=\"kwb kwbo\">YAEGIR</span></a> models.<br><br>At the start of the Declare Battle Formations step, you can select one <span class=\"kwb\">HERNKYN</span> <span class=\"kwb\">YAEGIR</span> unit from your army that has not been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle <a href=\"/wh40k10ed/the-rules/core-rules/#Embark\">embarked</a> within this <span class=\"kwb\">TRANSPORT</span>; the other can start the battle embarked within another <span class=\"kwb\">TRANSPORT</span>, or it can be deployed as a separate unit.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000004147",
+          "line": "1",
+          "name": "",
+          "M": "12\"",
+          "T": "7",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "7",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "105 x 70mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    }
+  ]
+}

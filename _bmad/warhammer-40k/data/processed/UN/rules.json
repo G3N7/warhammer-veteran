@@ -1,0 +1,13 @@
+{
+  "faction_id": "UN",
+  "faction_name": "Unaligned Forces",
+  "abilities": [
+    {
+      "id": "000008537",
+      "name": "Unaligned Forces",
+      "type": "",
+      "description": "You can include <span class=\"kwb\">UNALIGNED</span> <span class=\"kwb\">FORCES</span> units in your army even if they do not have the <a href=\"/wh40k10ed/the-rules/core-rules/#Keywords\">Faction keyword</a> you selected in the <a href=\"/wh40k10ed/the-rules/core-rules/#3.-Select-Army-Faction\">Select Army Faction</a> step. The combined points value of <span class=\"kwb\">UNALIGNED</span> <span class=\"kwb\">FORCES</span> units you can include in your army depends on the battle size, as follows:<br><ul><li><b>Incursion:</b> Up to 250 pts</li><li><b>Strike Force:</b> Up to 500 pts</li><li><b>Onslaught:</b> Up to 1000 pts</li></ul>No <span class=\"kwb\">UNALIGNED</span> <span class=\"kwb\">FORCES</span> models can be your <a href=\"/wh40k10ed/the-rules/core-rules/#6.-Select-Warlord\"><span class=\"kwb\">WARLORD</span></a>."
+    }
+  ],
+  "note": "Datasheets in separate file. Lore trimmed for context efficiency."
+}

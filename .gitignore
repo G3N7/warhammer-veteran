@@ -27,7 +27,8 @@ cache/
 *.cache
 
 # BMAD development folders (not part of module)
-_bmad/
+_bmad/*
+!_bmad/warhammer-40k/
 _bmad-output/
 
 # Node modules

@@ -1,0 +1,13 @@
+{
+  "faction_id": "ORK",
+  "faction_name": "Orks",
+  "abilities": [
+    {
+      "id": "000003676",
+      "name": "Waaagh!",
+      "type": "",
+      "description": "If your Army Faction is <span class=\"kwb\">ORKS</span>, once per battle, at the start of your <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:<br><ul><li>Units from your army with this ability are eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which they <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advanced</a>.</li><li>Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.</li><li>Models from your army with this ability have a 5+ <a href=\"/wh40k10ed/the-rules/core-rules/#Invulnerable-Saves\">invulnerable save</a>.</li></ul>"
+    }
+  ],
+  "note": "Datasheets in separate file. Lore trimmed for context efficiency."
+}

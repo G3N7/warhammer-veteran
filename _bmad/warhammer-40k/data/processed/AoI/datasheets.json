@@ -1,0 +1,1363 @@
+{
+  "datasheets": [
+    {
+      "id": "000000870",
+      "name": "Vindicare Assassin",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> exitus pistol; exitus rifle; Vindicare combat knife.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000870",
+          "line": "1",
+          "name": "Vindicare Assassin",
+          "M": "7\"",
+          "T": "4",
+          "Sv": "6+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000871",
+      "name": "Callidus Assassin",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> neural shredder; phase sword and poison blades.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000871",
+          "line": "1",
+          "name": "Callidus Assassin",
+          "M": "7\"",
+          "T": "4",
+          "Sv": "6+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000872",
+      "name": "Eversor Assassin",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> executioner pistol; power sword and neuro gauntlet.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000872",
+          "line": "1",
+          "name": "Eversor Assassin",
+          "M": "9\"",
+          "T": "4",
+          "Sv": "6+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000873",
+      "name": "Culexus Assassin",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> animus speculum; life-draining touch.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000873",
+          "line": "1",
+          "name": "Culexus Assassin",
+          "M": "7\"",
+          "T": "4",
+          "Sv": "6+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000874",
+      "name": "Inquisitor Greyfax",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Castigation; condemnor stake; master-crafter power sword.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000874",
+          "line": "1",
+          "name": "Inquisitor Greyfax",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000875",
+      "name": "Inquisitor Karamazov",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> master-crafted multi-melta; master-crafted power sword.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000875",
+          "line": "1",
+          "name": "Inquisitor Karamazov",
+          "M": "8\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000876",
+      "name": "Inquisitor Coteaz",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; Psychic Blast; Nemesis daemon hammer; Glovodan psyber-eagle.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000876",
+          "line": "1",
+          "name": "Inquisitor Coteaz",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000877",
+      "name": "Inquisitor",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; Inquisitorial melee weapon; blessed wardings.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000877",
+          "line": "1",
+          "name": "Inquisitor",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "4+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001579",
+      "name": "Inquisitor Eisenhorn",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> artificer bolt pistol; Mind Assault; runestaff and Barbarisater",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001579",
+          "line": "1",
+          "name": "Inquisitor Eisenhorn",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "4+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002090",
+      "name": "Inquisitor Draxus",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Dirgesinger; Psychic Tempest; power fist.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002090",
+          "line": "1",
+          "name": "Inquisitor Draxus",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002509",
+      "name": "Voidsmen-at-arms",
+      "role": "Other",
+      "loadout": "<b>The Voidmaster is equipped with:</b> artificer shotgun; laspistol; close combat weapon.<br><br><b>One Voidsman is equipped with:</b> laspistol; Voidsman rotor cannon; close combat weapon.<br><br><b>Every other Voidsman is equipped with:</b> lasgun; laspistol; close combat weapon.<br><br><b>The Canid is equipped with:</b> vicious bite.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002509",
+          "line": "1",
+          "name": "Voidsmen-at-arms",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002587",
+      "name": "Imperial Navy Breachers",
+      "role": "Battleline",
+      "loadout": "<b>The Navis Sergeant-at-Arms is equipped with:</b> Navis shotgun; close combat weapon.<br><br><b>One Navis Armsman is equipped with:</b> Navis las-volley; close combat weapon.<br><br><b>One other Navis Armsman is equipped with:</b> Navis heavy shotgun; close combat weapon; endurant shield.<br><br><b>Every other model is equipped with:</b> Navis shotgun; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002587",
+          "line": "1",
+          "name": "Imperial Navy Breachers",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "25mm",
+          "base_size_descr": "Navis Armsman 28mm if armed with meltagun or plasmagun",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002683",
+      "name": "Vigilant Squad",
+      "role": "Battleline",
+      "loadout": "<b>Every Proctor-Vigilant and Vigilant is equipped with:</b> Arbites combat shotgun; Arbites shotpistol; close combat weapon. <br><br><b>The Cyber-mastiff is equipped with:</b> mechanical bite.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002683",
+          "line": "1",
+          "name": "Vigilant Squad",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "28.5mm",
+          "base_size_descr": "Cyber-mastiff 25mm",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002684",
+      "name": "Subductor Squad",
+      "role": "Other",
+      "loadout": "<b>Every Proctor-Subductor and Subductor is equipped with:</b> Arbites shotpistol; shock maul. <br><br><b>The Cyber-mastiff is equipped with:</b> mechanical bite.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002684",
+          "line": "1",
+          "name": "Subductor Squad",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "*Excluding the Cyber-mastiff.",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "28.5mm",
+          "base_size_descr": "Cyber-mastiff 25mm",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002685",
+      "name": "Exaction Squad",
+      "role": "Other",
+      "loadout": "<b>Every Proctor-Exactant and Exaction Vigilant is equipped with:</b> Arbites combat shotgun; Arbites shotpistol; close combat weapon.<br><br><b>The Cyber-mastiff is equipped with:</b> mechanical bite.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002685",
+          "line": "1",
+          "name": "Exaction Squad",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "28.5mm",
+          "base_size_descr": "Cyber-mastiff 25mm",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002760",
+      "name": "Inquisitor In Terminator Armour",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> storm bolter; Inquisitorial melee weapon; blessed wardings.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002760",
+          "line": "1",
+          "name": "Inquisitor In Terminator Armour",
+          "M": "5\"",
+          "T": "4",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002761",
+      "name": "Damned Legionnaires",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> boltgun; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002761",
+          "line": "1",
+          "name": "Damned Legionnaires",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002762",
+      "name": "Rogue Trader Entourage",
+      "role": "Characters",
+      "loadout": "<b>The Rogue Trader is equipped with:</b> household pistol; monomolecular cane-rapier.<br><br><b>The Death Cult Assassin is equipped with:</b> dartmask; Death Cult power blade.<br><br><b>The Lectro-Maester is equipped with:</b> voltaic pistol; close combat weapon.<br><br><b>The Rejuvenat Adept is equipped with:</b> laspistol; close combat weapon; healing serum.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002762",
+          "line": "1",
+          "name": "ROGUE TRADER",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "4+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000002762",
+          "line": "2",
+          "name": "OTHER MODELS",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "4+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002763",
+      "name": "Janus Draik",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> heirloom pistol; monomolecular rapier.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002763",
+          "line": "1",
+          "name": "Janus Draik",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "4+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002764",
+      "name": "Neyam Shai Murad",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> negotiator pistols; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002764",
+          "line": "1",
+          "name": "Neyam Shai Murad",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "4+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002765",
+      "name": "Navigator",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> laspistol; force-orb cane.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002765",
+          "line": "1",
+          "name": "Navigator",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002766",
+      "name": "UR-025",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Mk 1 assault weapon; power claw.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002766",
+          "line": "1",
+          "name": "Ur-025",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002767",
+      "name": "Inquisitorial Agents",
+      "role": "Other",
+      "loadout": "<i>*This unit can only contain 2 Gun Servitors if it also contains 10 Inquisitorial Agents.</i><br><br><b>Every Inquisitorial Agent is equipped with:</b> agent firearm; agent melee weapon.<br><br><b>Every Gun Servitor is equipped with:</b> heavy bolter; agent melee weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002767",
+          "line": "1",
+          "name": "Inquisitorial Agents",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "Gun servitors 32mm",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003812",
+      "name": "Ministorum Priest",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> zealot\u2019s vindictor.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003812",
+          "line": "1",
+          "name": "Ministorum Priest",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003813",
+      "name": "Grey Knights Terminator Squad",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> storm bolter; Nemesis force weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003813",
+          "line": "1",
+          "name": "Grey Knights Terminator Squad",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003814",
+      "name": "Watch Captain Artemis",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Hellfire Extremis; master-crafted power weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003814",
+          "line": "1",
+          "name": "Watch Captain Artemis",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003815",
+      "name": "Watch Master",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> vigil spear.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003815",
+          "line": "1",
+          "name": "Watch Master",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003816",
+      "name": "Deathwatch Kill Team",
+      "role": "Battleline",
+      "loadout": "<b>Every model is equipped with:</b> boltgun; power weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003816",
+          "line": "1",
+          "name": "Deathwatch Veterans",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003817",
+      "name": "Corvus Blackstar",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 Blackstar rocket launchers; twin assault cannon; armoured hull.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 12 <span class=\"tooltip00355\" data-tooltip-content=\"#tooltip_content00355\" data-tooltip-anchor=\"#tooltip_content00355\"><span class=\"kwb\">DEATHWATCH</span> <span class=\"kwb\">INFANTRY</span></span> models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003817",
+          "line": "1",
+          "name": "Corvus Blackstar",
+          "M": "20+\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "6+",
+          "OC": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003818",
+      "name": "Sisters of Battle Squad",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> bolt pistol; boltgun; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003818",
+          "line": "1",
+          "name": "Battle Sisters Squad",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003819",
+      "name": "Sisters of Battle Immolator",
+      "role": "Dedicated Transports",
+      "loadout": "<b>This model is equipped with:</b> heavy bolter; immolation flamers; armoured tracks.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 6 <span class=\"tooltip00356\" data-tooltip-content=\"#tooltip_content00356\" data-tooltip-anchor=\"#tooltip_content00356\"><span class=\"kwb\">ORDO</span> <span class=\"kwb\">HERETICUS</span> <span class=\"kwb\">INFANTRY</span></span> models.<br><br>At the start of the <a href=\"/wh40k10ed/the-rules/core-rules/#Declare-Battle-Formations\">Declare Battle Formations</a> step, you can select one <a class=\"kwbOne\" href=\"/wh40k10ed/factions/imperial-agents/Sisters-of-Battle-Squad\"><span class=\"kwb kwbo\">SISTERS</span> <span class=\"kwb2 kwbo\">OF</span> <span class=\"kwb kwbo\">BATTLE</span> <span class=\"kwb kwbo\">SQUAD</span></a> from your army. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle <a href=\"/wh40k10ed/the-rules/core-rules/#Embark\">embarked</a> within this <a href=\"/wh40k10ed/the-rules/core-rules/#Transports\"><span class=\"kwb\">TRANSPORT</span></a>; the other can start the battle embarked within another <span class=\"kwb\">TRANSPORT</span>, or it can be deployed as a separate unit.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003819",
+          "line": "1",
+          "name": "Immolator",
+          "M": "12\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "11",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003820",
+      "name": "Inquisitorial Chimera",
+      "role": "Dedicated Transports",
+      "loadout": "<b>This model is equipped with:</b> multi-laser; heavy bolter; lasgun array; armoured tracks.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 13 <span class=\"tooltip00357\" data-tooltip-content=\"#tooltip_content00357\" data-tooltip-anchor=\"#tooltip_content00357\"><span class=\"kwb\">INQUISITOR</span> <span class=\"kwb\">INFANTRY</span></span> and <a class=\"kwbOne\" href=\"/wh40k10ed/factions/imperial-agents/Inquisitorial-Agents\"><span class=\"kwb kwbo\">INQUISITORIAL</span> <span class=\"kwb kwbo\">AGENT</span></a> models. It cannot transport <span class=\"tooltip00308\" data-tooltip-content=\"#tooltip_content00308\" data-tooltip-anchor=\"#tooltip_content00308\"><span class=\"kwb\">TERMINATOR</span></span> models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003820",
+          "line": "1",
+          "name": "Chimera",
+          "M": "10\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "11",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003821",
+      "name": "Kill Team Cassius",
+      "role": "Characters",
+      "loadout": "",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003821",
+          "line": "1",
+          "name": "KILL TEAM VETERAN",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000003821",
+          "line": "2",
+          "name": "KILL TEAM BIKER",
+          "M": "12\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "75 x 42mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000003821",
+          "line": "3",
+          "name": "CHAPLAIN CASSIUS",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "5+",
+          "OC": "2",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000003821",
+          "line": "4",
+          "name": "KILL TEAM TERMINATOR",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003822",
+      "name": "Deathwatch Terminator Squad",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> power fist; storm bolter.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003822",
+          "line": "1",
+          "name": "Deathwatch Terminator Squad",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003823",
+      "name": "Veteran Bike Squad",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> bolt pistol; close combat weapon; twin boltgun.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003823",
+          "line": "1",
+          "name": "Veteran Bike Squad",
+          "M": "12\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "75 x 25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003824",
+      "name": "Proteus Kill Team",
+      "role": "Other",
+      "loadout": "<b>Every Kill Team Veteran is equipped with:</b> boltgun; Long Vigil melee weapon; close combat weapon.<br><br><b>Every Kill Team Veteran with Jump Pack is equipped with:</b> Long Vigil melee weapon; close combat weapon; jump pack.<br><br><b>Every Kill Team Biker is equipped with:</b> twin boltgun; close combat weapon.<br><br><b>Every Kill Team Terminator is equipped with:</b> storm bolter; power fist.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003824",
+          "line": "1",
+          "name": "KILL TEAM VETERANS",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000003824",
+          "line": "2",
+          "name": "KILL TEAM BIKER",
+          "M": "12\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "75 x 42mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000003824",
+          "line": "3",
+          "name": "KILL TEAM TERMINATOR",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "* Kill Team Terminator models only.",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003825",
+      "name": "Fortis Kill Team",
+      "role": "Other",
+      "loadout": "<b>Every Kill Team Intercessor is equipped with:</b> bolt pistol; bolt rifle; close combat weapon.<br><br><b>Every Kill Team Intercessor with plasma incinerator is equipped with:</b> bolt pistol; plasma incinerator; close combat weapon.<br><br><b>Every Kill Team Intercessor with heavy bolt pistol is equipped with:</b> heavy bolt pistol; Astartes chainsword.<br><br><b>Every Kill Team Outrider is equipped with:</b> bolt pistol; twin bolt rifle; Astartes chainsword.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003825",
+          "line": "1",
+          "name": "KILL TEAM INTERCESSOR",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000003825",
+          "line": "2",
+          "name": "KILL TEAM OUTRIDER",
+          "M": "12\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "90 x 52mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003826",
+      "name": "Indomitor Kill Team",
+      "role": "Other",
+      "loadout": "<b>Every Kill Team Heavy Intercessor is equipped with:</b> bolt pistol; heavy bolt rifle; close combat weapon. <br><br><b>Every Kill Team Heavy Intercessor with power fists is equipped with:</b> flamestorm gauntlets; power fists. <br><br><b>Every Kill Team Heavy Intercessor with melta rifle is equipped with:</b> bolt pistol; melta rifle; close combat weapon. <br><br><b>Every Kill Team Heavy Intercessor with jump pack is equipped with:</b> assault bolters; close combat weapon; jump pack.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003826",
+          "line": "1",
+          "name": "Indomitor Kill Team",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003827",
+      "name": "Spectrus Kill Team",
+      "role": "Other",
+      "loadout": "<b>Every Kill Team Infiltrator is equipped with:</b> bolt pistol; marksman bolt carbine; close combat weapon.<br><br><b>Every Kill Team Infiltrator with bolt sniper rifle is equipped with:</b> bolt pistol; bolt sniper rifle; close combat weapon.<br><br><b>Every Kill Team Infiltrator with jump pack is equipped with:</b> bolt pistol; accelerator autocannon; close combat weapon; jump pack.<br><br><b>Every Kill Team Infiltrator with occulus bolt carbine is equipped with:</b> bolt pistol; occulus bolt carbine; paired combat blades.<br><br><b>Every Kill Team Infiltrator with combat knife is equipped with: </b>special-issue bolt pistol; combat knife.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003827",
+          "line": "1",
+          "name": "Spectrus Kill Team",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "Kill Team Infiltrators with bolt sniper rifles 40mm",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003828",
+      "name": "Daemonhost",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> unholy gaze; Warp grasp.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003828",
+          "line": "1",
+          "name": "Daemonhost",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003829",
+      "name": "Jokaero Weaponsmith",
+      "role": "Characters",
+      "loadout": "<b>Every model is equipped with:</b> Jokaero weapons; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003829",
+          "line": "1",
+          "name": "Jokaero Weaponsmith",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003830",
+      "name": "Imperial Rhino",
+      "role": "Dedicated Transports",
+      "loadout": "<b>This model is equipped with:</b> storm bolter; armoured tracks.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 12 <span class=\"tooltip00358\" data-tooltip-content=\"#tooltip_content00358\" data-tooltip-anchor=\"#tooltip_content00358\"><span class=\"kwb\">AGENTS</span> <span class=\"kwb2\">OF</span> <span class=\"kwb2\">THE</span> <span class=\"kwb\">IMPERIUM</span> <span class=\"kwb\">INFANTRY</span></span> models. It cannot transport <span class=\"tooltip00308\" data-tooltip-content=\"#tooltip_content00308\" data-tooltip-anchor=\"#tooltip_content00308\"><span class=\"kwb\">TERMINATOR</span></span> or <span class=\"tooltip00359\" data-tooltip-content=\"#tooltip_content00359\" data-tooltip-anchor=\"#tooltip_content00359\"><span class=\"kwb\">OFFICIO</span> <span class=\"kwb\">ASSASSINORUM</span></span> models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003830",
+          "line": "1",
+          "name": "Imperial Rhino",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000004074",
+      "name": "Sanctifiers",
+      "role": "Other",
+      "loadout": "<b>The Miraculist is equipped with:</b> holy fire; burning hands.<br><br><b>The Salvationist is equipped with:</b> close combat weapon; Salvationist medikit.<br><br><b>The Death Cult Assassin is equipped with:</b> Death Cult blades.<br><br><b>1 Missionary is equipped with:</b> plasma gun; Sanctifier melee weapon.<br><br><b>1 Missionary is equipped with:</b> Ministorum flamer; Sanctifier melee weapon.<br><br><b>Every Sanctifier is equipped with:</b> Ministorum hand flamer; Sanctifier melee weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000004074",
+          "line": "1",
+          "name": "",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000004173",
+      "name": "Inquisitor Ostromandeus",
+      "role": "Characters",
+      "loadout": "<b>Inquisitor Ostromandeus is equipped with:</b> inferno pistol; power sword, vox-skull.<br><br><b>Stentor-I-52 is equipped with:</b> hydraulic vox-ram.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000004173",
+          "line": "1",
+          "name": "INQUISITOR OSTROMANDEUS",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Inquisitor Ostromandeus only.",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000004173",
+          "line": "2",
+          "name": "STENTOR-I-52",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "8+",
+          "OC": "1",
+          "base_size": "28.5mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000004174",
+      "name": "Aquila Kill Team",
+      "role": "Battleline",
+      "loadout": "<b>The Kill Team Sergeant is equipped with:</b> plasma pistol; power weapon.<br><br><b>Each Gravis Veteran is equipped with:</b> infernus heavy bolter; bolt pistol; close combat weapon.<br><br><b>For every 5 models in the unit, 1 Deathwatch Veteran is equipped with:</b> stalker bolt rifle; bolt pistol; close combat weapon.<br><br><b>For every 5 models in the unit, 1 Deathwatch Veteran is equipped with:</b> bolt pistol; heavy thunder hammer.<br><br><b>For every 5 models in the unit, 1 Deathwatch Veteran is equipped with:</b> Deathwatch marksman bolt carbine; special-issue bolt pistol; close combat weapon.<br><br><b>If the unit contains 10 models, 1 Deathwatch Veteran is equipped with:</b> special-issue bolt pistol; xenophase blade.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000004174",
+          "line": "1",
+          "name": "KILL TEAM SERGEANT, DEATHWATCH VETERAN",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000004174",
+          "line": "2",
+          "name": "GRAVIS VETERAN",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    }
+  ]
+}

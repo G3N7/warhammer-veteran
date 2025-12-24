@@ -1,0 +1,112 @@
+{
+  "datasheets": [
+    {
+      "id": "000000867",
+      "name": "Warhound Titan",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> Warhound plasma blastgun; Warhound vulcan mega-bolter; Warhound feet.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000867",
+          "line": "1",
+          "name": "Warhound Titan",
+          "M": "14\"",
+          "T": "13",
+          "Sv": "2+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "40",
+          "Ld": "6+",
+          "OC": "16",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000868",
+      "name": "Reaver Titan",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> Reaver apocalypse launcher; Reaver gatling blaster; Reaver laser blaster; Reaver feet.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000868",
+          "line": "1",
+          "name": "Reaver Titan",
+          "M": "12\"",
+          "T": "14",
+          "Sv": "2+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "60",
+          "Ld": "6+",
+          "OC": "20",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000869",
+      "name": "Warlord Titan",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 apocalypse launchers; 2 ardex-defensor lascannons; 2 ardex-defensor maulers; macro gatling blaster; arioch power claw; Warlord feet.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000869",
+          "line": "1",
+          "name": "Warlord Titan",
+          "M": "10\"",
+          "T": "16",
+          "Sv": "2+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "100",
+          "Ld": "6+",
+          "OC": "30",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002077",
+      "name": "Warbringer Nemesis Titan",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 anvillus defence batteries; 3 ardex-defensor maulers; Nemesis quake cannon; Reaver gatling blaster; Reaver laser blaster; Nemesis feet.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002077",
+          "line": "1",
+          "name": "Warbringer Nemesis Titan",
+          "M": "12\"",
+          "T": "14",
+          "Sv": "2+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "80",
+          "Ld": "6+",
+          "OC": "20",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    }
+  ]
+}

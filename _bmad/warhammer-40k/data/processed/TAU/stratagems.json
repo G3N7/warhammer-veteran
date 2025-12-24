@@ -1,0 +1,356 @@
+{
+  "stratagems": [
+    {
+      "id": "000009840003",
+      "name": "MULTISENSORY SCANNING",
+      "type": "Auxiliary Cadre \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> unit from your army that has not been selected to shoot or fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack, re-roll a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a> of 1. If it is a <span class=\"tooltip00413\" data-tooltip-content=\"#tooltip_content00413\" data-tooltip-anchor=\"#tooltip_content00413\"><span class=\"kwb\">KROOT</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/t-au-empire/Vespid-Stingwings\"><span class=\"kwb kwbo\">VESPID</span> <span class=\"kwb kwbo\">STINGWINGS</span></a> unit, you can re-roll the Wound roll instead.",
+      "detachment": "Auxiliary Cadre"
+    },
+    {
+      "id": "000009840007",
+      "name": "GUIDED FIRE",
+      "type": "Auxiliary Cadre \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> unit from your army (excluding <span class=\"tooltip00413\" data-tooltip-content=\"#tooltip_content00413\" data-tooltip-anchor=\"#tooltip_content00413\"><span class=\"kwb\">KROOT</span></span> and <a class=\"kwbOne\" href=\"/wh40k10ed/factions/t-au-empire/Vespid-Stingwings\"><span class=\"kwb kwbo\">VESPID</span> <span class=\"kwb kwbo\">STINGWINGS</span></a> units) that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, add 1 to the Strength characteristic of ranged weapons equipped by models in your unit. If your unit is wholly within 9\" of one or more <span class=\"kwb\">KROOT</span> or <span class=\"kwb\">VESPID</span> <span class=\"kwb\">STINGWINGS</span> units from your army, add 2 to the Strength characteristic of ranged weapons equipped by models in your unit instead.",
+      "detachment": "Auxiliary Cadre"
+    },
+    {
+      "id": "000009840006",
+      "name": "ALIEN EXPERTISE",
+      "type": "Auxiliary Cadre \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the turn, your unit is eligible to shoot in a turn in which it <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advanced</a>. If it is a <span class=\"tooltip00413\" data-tooltip-content=\"#tooltip_content00413\" data-tooltip-anchor=\"#tooltip_content00413\"><span class=\"kwb\">KROOT</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/t-au-empire/Vespid-Stingwings\"><span class=\"kwb kwbo\">VESPID</span> <span class=\"kwb kwbo\">STINGWINGS</span></a> unit, until the end of the turn, your unit is eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it Advanced as well.",
+      "detachment": "Auxiliary Cadre"
+    },
+    {
+      "id": "000009840005",
+      "name": "PHEROMONE WAYPOINTS",
+      "type": "Auxiliary Cadre \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00413\" data-tooltip-content=\"#tooltip_content00413\" data-tooltip-anchor=\"#tooltip_content00413\"><span class=\"kwb\">KROOT</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/t-au-empire/Vespid-Stingwings\"><span class=\"kwb kwbo\">VESPID</span> <span class=\"kwb kwbo\">STINGWINGS</span></a> unit from your army that has not been selected to move this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time your unit Advances, do not make an <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance roll</a> for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+      "detachment": "Auxiliary Cadre"
+    },
+    {
+      "id": "000009840002",
+      "name": "EXPERIMENTAL MODIFICATIONS",
+      "type": "Auxiliary Cadre \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00413\" data-tooltip-content=\"#tooltip_content00413\" data-tooltip-anchor=\"#tooltip_content00413\"><span class=\"kwb\">KROOT</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/t-au-empire/Vespid-Stingwings\"><span class=\"kwb kwbo\">VESPID</span> <span class=\"kwb kwbo\">STINGWINGS</span></a> unit from your army that has not been selected to shoot or fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by models in your unit by 1.",
+      "detachment": "Auxiliary Cadre"
+    },
+    {
+      "id": "000009840004",
+      "name": "INTERLOCKING MANOUEVRES",
+      "type": "Auxiliary Cadre \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> unit from your army that was eligible to fight this phase.<br><br><b>EFFECT:</b> If your unit is not within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units, it can make a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal move</a> of up to 6\". Otherwise, your unit can make a <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall Back move</a>. It cannot <a href=\"/wh40k10ed/the-rules/core-rules/#Embark\">embark</a> within a <span class=\"tooltip00876\" data-tooltip-content=\"#tooltip_content00876\" data-tooltip-anchor=\"#tooltip_content00876\"><span class=\"kwb\">TRANSPORT</span></span> at the end of this move if it disembarked from a <span class=\"kwb\">TRANSPORT</span> this turn.",
+      "detachment": "Auxiliary Cadre"
+    },
+    {
+      "id": "000009984004",
+      "name": "EXPERIMENTAL WEAPONRY",
+      "type": "Experimental Prototype Cadre \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time you roll one or more dice to determine the number of attacks made with a weapon equipped by a model in your unit, you can re-roll the result.",
+      "detachment": "Experimental Prototype Cadre"
+    },
+    {
+      "id": "000009984003",
+      "name": "REACTIVE IMPACT DAMPENERS",
+      "type": "Experimental Prototype Cadre \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00698\" data-tooltip-content=\"#tooltip_content00698\" data-tooltip-anchor=\"#tooltip_content00698\"><span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> <span class=\"kwb\">BATTLESUIT</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Experimental Prototype Cadre"
+    },
+    {
+      "id": "000009984002",
+      "name": "AUTOMATED REPAIR DRONES",
+      "type": "Experimental Prototype Cadre \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00698\" data-tooltip-content=\"#tooltip_content00698\" data-tooltip-anchor=\"#tooltip_content00698\"><span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> <span class=\"kwb\">BATTLESUIT</span></span> unit from your army.<br><br><b>EFFECT:</b> Select one <span class=\"kwb\">BATTLESUIT</span> model in your unit: that model regains up to D3+1 lost wounds.",
+      "detachment": "Experimental Prototype Cadre"
+    },
+    {
+      "id": "000009984007",
+      "name": "NEUROWEB SYSTEM JAMMER",
+      "type": "Experimental Prototype Cadre \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00877\" data-tooltip-content=\"#tooltip_content00877\" data-tooltip-anchor=\"#tooltip_content00877\"><span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> <span class=\"kwb\">CRISIS</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+      "detachment": "Experimental Prototype Cadre"
+    },
+    {
+      "id": "000009984006",
+      "name": "THREAT ASSESSMENT ANALYSER",
+      "type": "Experimental Prototype Cadre \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Select the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Sustained-Hits\">[SUSTAINED HITS 1]</a></span> or <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Lethal-Hits\">[LETHAL HITS]</a></span> ability. Until the end of the phase, ranged weapons equipped by models in your unit have the selected ability. You can instead select the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Sustained-Hits\">[SUSTAINED HITS 1]</a></span>, <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Lethal-Hits\">[LETHAL HITS]</a></span> and <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Hazardous\">[HAZARDOUS]</a></span> abilities to apply to those weapons until the end of the phase.<br><br><b>RESTRICTIONS:</b> You cannot target the same unit with the Experimental Ammunition and Threat Assessment Analyser Stratagems in the same phase.",
+      "detachment": "Experimental Prototype Cadre"
+    },
+    {
+      "id": "000009984005",
+      "name": "EXPERIMENTAL AMMUNITION",
+      "type": "Experimental Prototype Cadre \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Select one of the following to apply to your unit until the end of the phase:<br><ul><li>Improve the Strength characteristic of ranged weapons equipped by models in your unit by 1.</li><li>Improve the Strength and Armour Penetration characteristics of ranged weapons equipped by models in your unit by 1, and those weapons have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Hazardous\">[HAZARDOUS]</a></span> ability.</li></ul><br><b>RESTRICTIONS:</b> You cannot target the same unit with the Experimental Ammunition and Threat Assessment Analyser Stratagems in the same phase.",
+      "detachment": "Experimental Prototype Cadre"
+    },
+    {
+      "id": "000008443004",
+      "name": "COORDINATE TO ENGAGE",
+      "type": "Kauyon \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> unit from your army that has just been selected as an Observer unit (see <span class=\"tooltip00423\" data-tooltip-content=\"#tooltip_content00423\"><span class=\"tt kwbu\">For</span> <span class=\"tt kwbu\">the</span> <span class=\"tt kwbu\">Greater</span> <span class=\"tt kwbu\">Good</span></span>).<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if your unit has the <span class=\"tooltip00293\" data-tooltip-content=\"#tooltip_content00293\" data-tooltip-anchor=\"#tooltip_content00293\"><span class=\"kwb\">MARKERLIGHT</span></span> keyword, that attack has the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Ignores-Cover\">[IGNORES COVER]</a></span> ability.",
+      "detachment": "Kauyon"
+    },
+    {
+      "id": "000008443002",
+      "name": "A TEMPTING TRAP",
+      "type": "Kauyon \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> unit from your army that has not been selected to shoot this phase. The first time you use this Stratagem, you must also select one <a href=\"/wh40k10ed/the-rules/core-rules/#Objective-Markers\">objective marker</a> that is not in your opponent\u2019s deployment zone; until the end of the battle, this becomes your Trap objective marker.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within range of your Trap objective marker, add 1 to the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.<br><br><b>RESTRICTIONS:</b> You cannot use this Stratagem during the first or second <a href=\"/wh40k10ed/the-rules/core-rules/#The-Battle-Round\">battle rounds</a>.",
+      "detachment": "Kauyon"
+    },
+    {
+      "id": "000008443003",
+      "name": "POINT-BLANK AMBUSH",
+      "type": "Kauyon \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within 9\", improve the Armour Penetration characteristic of that attack by 1.<br><br><b>RESTRICTIONS:</b> You cannot use this Stratagem during the first or second <a href=\"/wh40k10ed/the-rules/core-rules/#The-Battle-Round\">battle rounds</a>.",
+      "detachment": "Kauyon"
+    },
+    {
+      "id": "000008443007",
+      "name": "WALL OF MIRRORS",
+      "type": "Kauyon \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/t-au-empire/Stealth-Battlesuits\"><span class=\"kwb kwbo\">STEALTH</span></a>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/t-au-empire/Ghostkeel-Battlesuit\"><span class=\"kwb kwbo\">GHOSTKEEL</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/t-au-empire/Commander-Shadowsun\"><span class=\"kwb kwbo\">COMMANDER</span> <span class=\"kwb kwbo\">SHADOWSUN</span></a> unit from your army.<br><br><b>EFFECT:</b> Remove your unit from the battlefield and place it into <a href=\"/wh40k10ed/the-rules/core-rules/#Strategic-Reserves\">Strategic Reserves</a>.<br><br><b>RESTRICTIONS:</b> You cannot target a unit that is within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units.",
+      "detachment": "Kauyon"
+    },
+    {
+      "id": "000008443006",
+      "name": "PHOTON GRENADES",
+      "type": "Kauyon \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>, just after an enemy unit has <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">declared a charge</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00878\" data-tooltip-content=\"#tooltip_content00878\" data-tooltip-anchor=\"#tooltip_content00878\"><span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> <span class=\"kwb\">GRENADES</span></span> unit from your army that was selected as one of the targets of that charge.<br><br><b>EFFECT:</b> That enemy unit must immediately take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a>, and until the end of the phase, subtract 2 from <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge rolls</a> made for that enemy unit.",
+      "detachment": "Kauyon"
+    },
+    {
+      "id": "000008443005",
+      "name": "COMBAT EMBARKATION",
+      "type": "Kauyon \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>, just after an enemy unit has <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">declared a charge</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00411\" data-tooltip-content=\"#tooltip_content00411\" data-tooltip-anchor=\"#tooltip_content00411\"><span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that was selected as one of the targets of that charge, and one friendly <span class=\"tooltip00876\" data-tooltip-content=\"#tooltip_content00876\" data-tooltip-anchor=\"#tooltip_content00876\"><span class=\"kwb\">TRANSPORT</span></span>.<br><br><b>EFFECT:</b> Your unit can <a href=\"/wh40k10ed/the-rules/core-rules/#Embark\">embark</a> within that <span class=\"kwb\">TRANSPORT</span>. If it does, your opponent can select new targets for that charge.<br><br><b>RESTRICTIONS:</b> Every model in your <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> <span class=\"kwb\">INFANTRY</span> unit must be within 3\" of that <span class=\"kwb\">TRANSPORT</span> and there must be sufficient <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> to embark the entire unit.",
+      "detachment": "Kauyon"
+    },
+    {
+      "id": "000008822002",
+      "name": "JOIN THE HUNT",
+      "type": "Kroot Hunting Pack \u2013 Battle Tactic Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Any phase.<br><br><b>TARGET:</b> One <span class=\"tooltip00441\" data-tooltip-content=\"#tooltip_content00441\" data-tooltip-anchor=\"#tooltip_content00441\"><span class=\"kwb\">KROOT</span> <span class=\"kwb\">INFANTRY</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/t-au-empire/Kroot-Hounds\"><span class=\"kwb kwbo\">KROOT</span> <span class=\"kwb kwbo\">HOUNDS</span></a> unit from your army that was just <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a>. You can use this Stratagem on that unit even though it was just destroyed.<br><br><b>EFFECT:</b> Add a new unit to your army identical to your destroyed unit, in <a href=\"/wh40k10ed/the-rules/core-rules/#Strategic-Reserves\">Strategic Reserves</a>, at its <a href=\"/wh40k10ed/the-rules/core-rules/#Starting-Strength\">Starting Strength</a>.<br><br><b>RESTRICTIONS:</b> This Stratagem cannot be used to return destroyed <span class=\"tooltip00879\" data-tooltip-content=\"#tooltip_content00879\" data-tooltip-anchor=\"#tooltip_content00879\"><span class=\"kwb\">CHARACTER</span></span> units to <a href=\"/wh40k10ed/the-rules/core-rules/#Attached-Units\">Attached units</a>. You can only use this Stratagem once per battle.",
+      "detachment": "Kroot Hunting Pack"
+    },
+    {
+      "id": "000008822003",
+      "name": "A TRAP WELL LAID",
+      "type": "Kroot Hunting Pack \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00413\" data-tooltip-content=\"#tooltip_content00413\" data-tooltip-anchor=\"#tooltip_content00413\"><span class=\"kwb\">KROOT</span></span> unit from your army that has not been selected to shoot or fight this phase.<br><br><b>EFFECT:</b> After your unit has resolved its attacks this phase, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a <span class=\"kwb\">KROOT</span> model from your army makes an attack that targets that enemy unit, unless the attacking unit is <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a>, improve the Armour Penetration characteristic of that attack by 1.",
+      "detachment": "Kroot Hunting Pack"
+    },
+    {
+      "id": "000008822007",
+      "name": "HIDDEN HUNTERS",
+      "type": "Kroot Hunting Pack \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00413\" data-tooltip-content=\"#tooltip_content00413\" data-tooltip-anchor=\"#tooltip_content00413\"><span class=\"kwb\">KROOT</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+      "detachment": "Kroot Hunting Pack"
+    },
+    {
+      "id": "000008822006",
+      "name": "GUERRILLA WARRIORS",
+      "type": "Kroot Hunting Pack \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, just after a <span class=\"tooltip00413\" data-tooltip-content=\"#tooltip_content00413\" data-tooltip-anchor=\"#tooltip_content00413\"><span class=\"kwb\">KROOT</span></span> unit from your army <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Falls Back</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">KROOT</span> unit.<br><br><b>EFFECT:</b> Until the end of the turn, your unit is eligible to shoot and <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a>.",
+      "detachment": "Kroot Hunting Pack"
+    },
+    {
+      "id": "000008822005",
+      "name": "THE GRISLY FEAST",
+      "type": "Kroot Hunting Pack \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00413\" data-tooltip-content=\"#tooltip_content00413\" data-tooltip-anchor=\"#tooltip_content00413\"><span class=\"kwb\">KROOT</span></span> unit from your army that <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a> one or more enemy units this phase.<br><br><b>EFFECT:</b> In your opponent\u2019s next <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>, each enemy unit within 6\" of your unit must take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a>. If the unit taking that test is <a href=\"/wh40k10ed/the-rules/core-rules/#Below-Half-strength\">Below Half-strength</a>, subtract 1 from that test. Enemy units affected by this Stratagem do not need to take any other <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock tests</a> in the same phase.",
+      "detachment": "Kroot Hunting Pack"
+    },
+    {
+      "id": "000008822004",
+      "name": "EMP GRENADES",
+      "type": "Kroot Hunting Pack \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy <span class=\"kwb\">VEHICLE</span> unit is selected to shoot or fight.<br><br><b>TARGET:</b> One <span class=\"tooltip00880\" data-tooltip-content=\"#tooltip_content00880\" data-tooltip-anchor=\"#tooltip_content00880\"><span class=\"kwb\">KROOT</span> <span class=\"kwb\">GRENADES</span></span> unit from your army within 8\" of that enemy <span class=\"kwb\">VEHICLE</span> unit.<br><br><b>EFFECT:</b> Until the end of the phase, worsen the Weapon Skill and Ballistic Skill characteristics of that enemy <span class=\"kwb\">VEHICLE</span> unit\u2019s weapons by 1.",
+      "detachment": "Kroot Hunting Pack"
+    },
+    {
+      "id": "000009646002",
+      "name": "BOARDING BLADES",
+      "type": "Kroot Raiding Party \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00413\" data-tooltip-content=\"#tooltip_content00413\" data-tooltip-anchor=\"#tooltip_content00413\"><span class=\"kwb\">KROOT</span></span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1. In addition, each time a model in your unit makes an attack, on a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Critical Wound</a>, improve the Armour Penetration characteristic of that attack by an additional 1.",
+      "detachment": "Kroot Raiding Party"
+    },
+    {
+      "id": "000009646003",
+      "name": "SWEEPING AMBUSH",
+      "type": "Kroot Raiding Party \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00413\" data-tooltip-content=\"#tooltip_content00413\" data-tooltip-anchor=\"#tooltip_content00413\"><span class=\"kwb\">KROOT</span></span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes a <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Pile-In\">Pile-in</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#3.-Consolidate\">Consolidation move</a>, it can move up to 6\" instead of up to 3\". In addition, when making a Consolidation move, that model can end that move within <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Engagement-Range\">Engagement Range</a> of the closest enemy unit that was not <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Visibility\">visible</a> to its unit when it started that move.",
+      "detachment": "Kroot Raiding Party"
+    },
+    {
+      "id": "000009646004",
+      "name": "BRUTE FORCE",
+      "type": "Kroot Raiding Party \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Movement-Phase\">Movement phase</a>, just after a <a class=\"kwbOne\" href=\"/wh40k10ed/factions/t-au-empire/Krootox-Riders\"><span class=\"kwb kwbo\">KROOTOX</span> <span class=\"kwb kwbo\">RIDERS</span></a> unit from your army opens a <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Terrain\">Hatchway</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">KROOTOX</span> <span class=\"kwb\">RIDERS</span> unit.<br><br><b>EFFECT:</b> Roll one D6 for each unit that is within 3\" of that Hatchway, if that Hatchway is <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Visibility\">visible</a> to that unit and that unit is wholly on the opposite side of it from your unit: on a 2-4, that enemy unit suffers 1 <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wound</a>; on a 5+, that enemy unit suffers 2 mortal wounds.",
+      "detachment": "Kroot Raiding Party"
+    },
+    {
+      "id": "000009646005",
+      "name": "TANGLEBOMB BOLAS",
+      "type": "Kroot Raiding Party \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Shooting-Phase\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00413\" data-tooltip-content=\"#tooltip_content00413\" data-tooltip-anchor=\"#tooltip_content00413\"><span class=\"kwb\">KROOT</span></span> unit from your army.<br><br><b>EFFECT:</b> Select one enemy unit within 9\" of and <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Visibility\">visible</a> to your unit and roll one D6: on a 2+, until the start of your next Shooting phase, halve the Move characteristic of models in that enemy unit and halve <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a> and <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge rolls</a> made for it.",
+      "detachment": "Kroot Raiding Party"
+    },
+    {
+      "id": "000008812005",
+      "name": "COMBAT DEBARKATION",
+      "type": "Mont\u2019ka \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00411\" data-tooltip-content=\"#tooltip_content00411\" data-tooltip-anchor=\"#tooltip_content00411\"><span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that <a href=\"/wh40k10ed/the-rules/core-rules/#Disembark\">disembarked</a> from a <span class=\"kwb\">TRANSPORT</span> this turn.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack that targets the closest enemy unit, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Mont\u2019ka"
+    },
+    {
+      "id": "000008812003",
+      "name": "AGGRESSIVE MOBILITY",
+      "type": "Mont\u2019ka \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> unit from your army that has not been selected to move this phase.<br><br><b>EFFECT:</b> Until the end of the phase, if your unit <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advances</a>, do not make an <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance roll</a> for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+      "detachment": "Mont\u2019ka"
+    },
+    {
+      "id": "000008812002",
+      "name": "PINPOINT COUNTER-OFFENSIVE",
+      "type": "Mont\u2019ka \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase.<br><br><b>TARGET:</b> One <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> unit (excluding <span class=\"tooltip00413\" data-tooltip-content=\"#tooltip_content00413\" data-tooltip-anchor=\"#tooltip_content00413\"><span class=\"kwb\">KROOT</span></span> units) from your army that was just <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a>. You can use this Stratagem on that unit even though it was just destroyed.<br><br><b>EFFECT:</b> Until the end of the battle, each time a <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> unit (excluding <span class=\"kwb\">KROOT</span> units) from your army makes an attack that targets the enemy unit that just destroyed your unit, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Mont\u2019ka"
+    },
+    {
+      "id": "000008812004",
+      "name": "FOCUSED FIRE",
+      "type": "Mont\u2019ka \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Start of your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> Two <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> units from your army that have not been selected to shoot this phase, and one enemy unit.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in either of your units makes an attack, it can only target that enemy unit (and only if it is an eligible target for that attack), and when resolving that attack, improve the Armour Penetration characteristic by 1.<br><br><b>RESTRICTIONS:</b> You cannot use this Stratagem during the fourth or fifth <a href=\"/wh40k10ed/the-rules/core-rules/#The-Battle-Round\">battle rounds</a>.",
+      "detachment": "Mont\u2019ka"
+    },
+    {
+      "id": "000008812006",
+      "name": "PULSE ONSLAUGHT",
+      "type": "Mont\u2019ka \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00411\" data-tooltip-content=\"#tooltip_content00411\" data-tooltip-anchor=\"#tooltip_content00411\"><span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> <span class=\"kwb\">INFANTRY</span></span> unit (excluding <span class=\"tooltip00413\" data-tooltip-content=\"#tooltip_content00413\" data-tooltip-anchor=\"#tooltip_content00413\"><span class=\"kwb\">KROOT</span></span> units) from your army that has just shot, and one enemy unit (excluding <span class=\"kwb\">MONSTERS</span> and <span class=\"kwb\">VEHICLES</span>) hit by one or more of those attacks.<br><br><b>EFFECT:</b> Until the end of your opponent\u2019s next turn, that enemy unit is shaken. While a unit is shaken, subtract 2 from its Move characteristic and subtract 2 from <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a> and <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge rolls</a> made for it.",
+      "detachment": "Mont\u2019ka"
+    },
+    {
+      "id": "000008812007",
+      "name": "COUNTERFIRE DEFENCE SYSTEMS",
+      "type": "Mont\u2019ka \u2013 Wargear Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack is allocated to your unit, subtract 1 from the Damage characteristic of that attack.",
+      "detachment": "Mont\u2019ka"
+    },
+    {
+      "id": "000008816005",
+      "name": "THE ARRO\u2019KON PROTOCOL",
+      "type": "Retaliation Cadre \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00698\" data-tooltip-content=\"#tooltip_content00698\" data-tooltip-anchor=\"#tooltip_content00698\"><span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> <span class=\"kwb\">BATTLESUIT</span></span> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that contains 6 or more models, that attack has the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Sustained-Hits\">[SUSTAINED HITS 1]</a></span> ability. If that attack targets an enemy unit that contains 11 or more models, it has the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Sustained-Hits\">[SUSTAINED HITS 2]</a></span> ability instead.",
+      "detachment": "Retaliation Cadre"
+    },
+    {
+      "id": "000008816002",
+      "name": "FAIL-SAFE DETONATOR",
+      "type": "Retaliation Cadre \u2013 Epic Deed Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Any phase, just after a <span class=\"tooltip00698\" data-tooltip-content=\"#tooltip_content00698\" data-tooltip-anchor=\"#tooltip_content00698\"><span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> <span class=\"kwb\">BATTLESUIT</span></span> model from your army is <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a>.<br><br><b>TARGET:</b> That destroyed model\u2019s unit. You can use this Stratagem on that unit even if that unit was just destroyed.<br><br><b>EFFECT:</b> Before removing your model from play, if it has the <a href=\"/wh40k10ed/the-rules/core-rules/#Assault\">Deadly Demise</a> ability, do not roll for that ability; instead, you can choose whether the result of that roll is a 1 or a 6. If your model does not have the Deadly Demise ability, roll one D6 for each unit within 6\" of it: on a 4+, that unit suffers D3 <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wounds</a>.",
+      "detachment": "Retaliation Cadre"
+    },
+    {
+      "id": "000008816004",
+      "name": "THE SHORTENED BLADE",
+      "type": "Retaliation Cadre \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00698\" data-tooltip-content=\"#tooltip_content00698\" data-tooltip-anchor=\"#tooltip_content00698\"><span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> <span class=\"kwb\">BATTLESUIT</span></span> unit from your army that is arriving using the <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Deep Strike</a> ability this phase.<br><br><b>EFFECT:</b> Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.<br><br><b>RESTRICTIONS:</b> A unit targeted with this Stratagem is not eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in the same turn.",
+      "detachment": "Retaliation Cadre"
+    },
+    {
+      "id": "000008816006",
+      "name": "THE TORCHSTAR GAMBIT",
+      "type": "Retaliation Cadre \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00881\" data-tooltip-content=\"#tooltip_content00881\" data-tooltip-anchor=\"#tooltip_content00881\"><span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> <span class=\"kwb\">BATTLESUIT</span></span> unit from your army that can <span class=\"kwb\">FLY</span> whose attacks have been resolved this phase.<br><br><b>EFFECT:</b> If your unit is not within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units, it can make a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal move</a>. If it does, your unit cannot <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> this turn",
+      "detachment": "Retaliation Cadre"
+    },
+    {
+      "id": "000008816007",
+      "name": "GRAV-INHIBITOR FIELD",
+      "type": "Retaliation Cadre \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>, just after an enemy unit has <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">declared a charge</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00698\" data-tooltip-content=\"#tooltip_content00698\" data-tooltip-anchor=\"#tooltip_content00698\"><span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> <span class=\"kwb\">BATTLESUIT</span></span> unit from your army that was selected as a target of that charge.<br><br><b>EFFECT:</b> That enemy unit must immediately take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a> and you must roll one D6 for each model in that enemy unit: for each 6, that enemy unit suffers 1 <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wound</a>.",
+      "detachment": "Retaliation Cadre"
+    },
+    {
+      "id": "000008816003",
+      "name": "STIMM INJECTORS",
+      "type": "Retaliation Cadre \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00698\" data-tooltip-content=\"#tooltip_content00698\" data-tooltip-anchor=\"#tooltip_content00698\"><span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> <span class=\"kwb\">BATTLESUIT</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, models in your unit have the <span class=\"tooltip00144\" data-tooltip-content=\"#tooltip_content00144\"><span class=\"tt kwbu\">Feel</span> <span class=\"tt kwbu\">No</span> <span class=\"tt kwbu\">Pain</span> <span class=\"tt kwbu\">6+</span></span> ability.",
+      "detachment": "Retaliation Cadre"
+    },
+    {
+      "id": "000009637004",
+      "name": "RESPONSIVE VOLLEY",
+      "type": "Starfire Cadre \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Movement-Phase\">Movement phase</a>, just after a <span class=\"tooltip00699\" data-tooltip-content=\"#tooltip_content00699\" data-tooltip-anchor=\"#tooltip_content00699\"><span class=\"kwb\">FIRE</span> <span class=\"kwb\">WARRIOR</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/t-au-empire/Pathfinder-Team\"><span class=\"kwb kwbo\">PATHFINDER</span> <span class=\"kwb kwbo\">TEAM</span></a> unit from your army opens a <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Terrain\">Hatchway</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">FIRE</span> <span class=\"kwb\">WARRIOR</span> or <span class=\"kwb\">PATHFINDER</span> <span class=\"kwb\">TEAM</span> unit.<br><br><b>EFFECT:</b> Until the end of the turn, each time a model in your unit makes a ranged attack that targets an enemy unit wholly on the opposite side of that Hatchway from them, a <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Critical Hit</a> is scored on an unmodified <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> of 5+, instead of only a 6.",
+      "detachment": "Starfire Cadre"
+    },
+    {
+      "id": "000009637005",
+      "name": "PULSE BARRAGE",
+      "type": "Starfire Cadre \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement</a> or <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Charge-Phase\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00699\" data-tooltip-content=\"#tooltip_content00699\" data-tooltip-anchor=\"#tooltip_content00699\"><span class=\"kwb\">FIRE</span> <span class=\"kwb\">WARRIOR</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/t-au-empire/Pathfinder-Team\"><span class=\"kwb kwbo\">PATHFINDER</span> <span class=\"kwb kwbo\">TEAM</span></a> unit from your army that has not fired <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Set-Overwatch\">Overwatch</a> this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> of 5+ is required to score a hit, instead of an unmodified 6.",
+      "detachment": "Starfire Cadre"
+    },
+    {
+      "id": "000009637003",
+      "name": "RETREATING FIRE",
+      "type": "Starfire Cadre \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Shooting-Phase\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00699\" data-tooltip-content=\"#tooltip_content00699\" data-tooltip-anchor=\"#tooltip_content00699\"><span class=\"kwb\">FIRE</span> <span class=\"kwb\">WARRIOR</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/t-au-empire/Pathfinder-Team\"><span class=\"kwb kwbo\">PATHFINDER</span> <span class=\"kwb kwbo\">TEAM</span></a> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, your unit is eligible to shoot in a turn in which it <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fell Back</a>.",
+      "detachment": "Starfire Cadre"
+    },
+    {
+      "id": "000009637002",
+      "name": "FIRING LINE",
+      "type": "Starfire Cadre \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>, just after an enemy unit destroys a <span class=\"kwb\">T\u2019AU</span> <span class=\"kwb\">EMPIRE</span> unit from your army.<br><br><b>TARGET:</b> One <span class=\"tooltip00699\" data-tooltip-content=\"#tooltip_content00699\" data-tooltip-anchor=\"#tooltip_content00699\"><span class=\"kwb\">FIRE</span> <span class=\"kwb\">WARRIOR</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/t-au-empire/Pathfinder-Team\"><span class=\"kwb kwbo\">PATHFINDER</span> <span class=\"kwb kwbo\">TEAM</span></a> unit from your army that is not within <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units, has not fired <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Set-Overwatch\">Overwatch</a> this turn and is within 9\" of that enemy unit.<br><br><b>EFFECT:</b> Your unit can shoot as if it were your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, but when doing so, models in your unit can only target that enemy unit (and only if it is an eligible target) and, each time a model in your unit makes an attack, an unmodified <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> of 5+ is required to score a hit.",
+      "detachment": "Starfire Cadre"
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "stratagems": [
+    {
+      "id": "000008413007",
+      "name": "RAPACIOUS HUNGER",
+      "type": "Assimilation Swarm \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">TYRANIDS</span> unit from your army that just <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a> an enemy unit.<br><br><b>EFFECT:</b> Your unit immediately Regenerates (See <span class=\"tooltip00714\" data-tooltip-content=\"#tooltip_content00714\"><span class=\"tt kwbu\">Feed</span> <span class=\"tt kwbu\">the</span> <span class=\"tt kwbu\">Swarm</span></span>). When doing so, if your unit is a <span class=\"tooltip00710\" data-tooltip-content=\"#tooltip_content00710\" data-tooltip-anchor=\"#tooltip_content00710\"><span class=\"kwb\">HARVESTER</span></span> unit and you choose for one model to regain up to D3 lost wounds, that model regains up to 3 lost wounds instead.",
+      "detachment": "Assimilation Swarm"
+    },
+    {
+      "id": "000008413002",
+      "name": "BROODGUARD IMPULSE",
+      "type": "Assimilation Swarm \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase.<br><br><b>TARGET:</b> One <span class=\"tooltip00710\" data-tooltip-content=\"#tooltip_content00710\" data-tooltip-anchor=\"#tooltip_content00710\"><span class=\"kwb\">HARVESTER</span></span> unit from your army that was just <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a>. You can use this Stratagem on that unit even though it was just destroyed.<br><br><b>EFFECT:</b> Until the end of the battle, each time a friendly <span class=\"kwb\">TYRANIDS</span> model makes an attack that targets the enemy unit that just destroyed your <span class=\"kwb\">HARVESTER</span> unit, add 1 to the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Assimilation Swarm"
+    },
+    {
+      "id": "000008413005",
+      "name": "ABLATIVE CARAPACE",
+      "type": "Assimilation Swarm \u2013 Epic Deed Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00710\" data-tooltip-content=\"#tooltip_content00710\" data-tooltip-anchor=\"#tooltip_content00710\"><span class=\"kwb\">HARVESTER</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, models in your unit have the <span class=\"tooltip00144\" data-tooltip-content=\"#tooltip_content00144\"><span class=\"tt kwbu\">Feel</span> <span class=\"tt kwbu\">No</span> <span class=\"tt kwbu\">Pain</span> <span class=\"tt kwbu\">5+</span></span> ability. If your unit is within range of an <a href=\"/wh40k10ed/the-rules/core-rules/#Objective-Markers\">objective marker</a> you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead.",
+      "detachment": "Assimilation Swarm"
+    },
+    {
+      "id": "000008413006",
+      "name": "SECURE BIOMASS",
+      "type": "Assimilation Swarm \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">TYRANIDS</span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, melee weapons equipped by models in your unit have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Lethal-Hits\">[LETHAL HITS]</a></span> ability. If your unit is a <span class=\"tooltip00710\" data-tooltip-content=\"#tooltip_content00710\" data-tooltip-anchor=\"#tooltip_content00710\"><span class=\"kwb\">HARVESTER</span></span> unit, each time a model in that unit makes a melee attack, a successful unmodified <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> of 5+ scores a Critical Hit as well.",
+      "detachment": "Assimilation Swarm"
+    },
+    {
+      "id": "000008413004",
+      "name": "TYRANNOFORMED",
+      "type": "Assimilation Swarm \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00710\" data-tooltip-content=\"#tooltip_content00710\" data-tooltip-anchor=\"#tooltip_content00710\"><span class=\"kwb\">HARVESTER</span></span> unit from your army that is within range of an <a href=\"/wh40k10ed/the-rules/core-rules/#Objective-Markers\">objective marker</a> you control.<br><br><b>EFFECT:</b> That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "detachment": "Assimilation Swarm"
+    },
+    {
+      "id": "000008413003",
+      "name": "RECLAIM BIOMASS",
+      "type": "Assimilation Swarm \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase, when a <span class=\"kwb\">TYRANIDS</span> unit from your army is <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a>, before the last model in it is removed from play.<br><br><b>TARGET:</b> One <span class=\"tooltip00710\" data-tooltip-content=\"#tooltip_content00710\" data-tooltip-anchor=\"#tooltip_content00710\"><span class=\"kwb\">HARVESTER</span></span> unit from your army that is within 6\" of that destroyed unit.<br><br><b>EFFECT:</b> Regenerate one friendly <span class=\"kwb\">TYRANIDS</span> unit within 6\" of your <span class=\"kwb\">HARVESTER</span> unit (See <span class=\"tooltip00714\" data-tooltip-content=\"#tooltip_content00714\"><span class=\"tt kwbu\">Feed</span> <span class=\"tt kwbu\">the</span> <span class=\"tt kwbu\">Swarm</span></span>).",
+      "detachment": "Assimilation Swarm"
+    },
+    {
+      "id": "000009700004",
+      "name": "SWARM HUNTERS",
+      "type": "Biotide \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Shooting-Phase\">Shooting phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/tyranids/Termagants\"><span class=\"kwb kwbo\">TERMAGANTS</span></a> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, models in your unit can ignore other models in their unit for the purposes of <a href=\"/wh40k10ed/the-rules/core-rules/#Determining-Visibility\">determining visibility</a>. In addition, if your unit is within <span class=\"tooltip00445\" data-tooltip-content=\"#tooltip_content00445\"><span class=\"tt kwbu\">Synapse</span> <span class=\"tt kwbu\">Range</span></span> of your army, each time a model in your unit makes an attack, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Biotide"
+    },
+    {
+      "id": "000009700005",
+      "name": "ONRUSHING HORDE",
+      "type": "Biotide \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Shooting-Phase\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">TYRANIDS</span> unit from your army (excluding <a class=\"kwbOne\" href=\"/wh40k10ed/factions/tyranids/Winged-Tyranid-Prime\"><span class=\"kwb kwbo\">WINGED</span> <span class=\"kwb kwbo\">TYRANID</span> <span class=\"kwb kwbo\">PRIME</span></a> units), that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack targets your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Biotide"
+    },
+    {
+      "id": "000009700003",
+      "name": "SQUIRMING MASSES",
+      "type": "Biotide \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Movement-Phase\">Movement phase</a>, at the start of the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Reinforcements\">Reinforcements step</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00709\" data-tooltip-content=\"#tooltip_content00709\" data-tooltip-anchor=\"#tooltip_content00709\"><span class=\"kwb\">ENDLESS</span> <span class=\"kwb\">MULTITUDE</span></span> unit from your army that is in <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Reinforcements\">Reserves</a>.<br><br><b>EFFECT:</b> Until the end of the phase, models in your unit have the <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Before-the-Battle\">Deep Strike ability</a> and, when setting them upon the battlefield using that ability, they can be <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Set-Up\">set up</a> anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, provided they are also within <span class=\"tooltip00445\" data-tooltip-content=\"#tooltip_content00445\"><span class=\"tt kwbu\">Synapse</span> <span class=\"tt kwbu\">Range</span></span> of your army.<br><br><b>RESTRICTIONS:</b> You can only use this Stratagem once and, until the end of the turn, your unit is not eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a>.",
+      "detachment": "Biotide"
+    },
+    {
+      "id": "000009700002",
+      "name": "LIVING AVALANCHE",
+      "type": "Biotide \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Movement-Phase\">Movement phase</a>, just after a <span class=\"kwb\">TYRANIDS</span> unit from your army has opened a <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Terrain\">Hatchway</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">TYRANIDS</span> unit.<br><br><b>EFFECT:</b> Your unit can make a Swarm move. To do so, your unit can be moved up to 3\", but at least one model from your unit must end that move on the opposite side of that Hatchway from the one it started the phase on. When doing so, those models can be moved within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of enemy units.",
+      "detachment": "Biotide"
+    },
+    {
+      "id": "000009691002",
+      "name": "LITHE KILLERS",
+      "type": "Boarding Swarm \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">TYRANIDS</span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, models in your unit have a 5+ <a href=\"/wh40k10ed/the-rules/core-rules/#Invulnerable-Saves\">invulnerable save</a>.",
+      "detachment": "Boarding Swarm"
+    },
+    {
+      "id": "000009691003",
+      "name": "ADRENALISED SLAUGHTER",
+      "type": "Boarding Swarm \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">TYRANIDS</span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit is <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a>, if that model has not fought this phase, roll one D6. On a 5+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "detachment": "Boarding Swarm"
+    },
+    {
+      "id": "000009691005",
+      "name": "PREDATORY POUNCE",
+      "type": "Boarding Swarm \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Movement-Phase\">Movement phase</a>, just after an enemy unit opens a <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Terrain\">Hatchway</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">TYRANIDS</span> unit from your army that is within 3\" of that Hatchway and is not within <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units.<br><br><b>EFFECT:</b> Your unit can make a Pounce move. To do so, your unit can be moved up to 3\", but must end that move <a href=\"/wh40k10ed/the-rules/rules-commentary/#_intro2\">as close as possible</a> to that Hatchway. When doing so, those models can be moved within Engagement Range of that enemy unit, but only that enemy unit.",
+      "detachment": "Boarding Swarm"
+    },
+    {
+      "id": "000009691004",
+      "name": "TALON-TIP SWARM",
+      "type": "Boarding Swarm \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>, just after a <span class=\"kwb\">TYRANIDS</span> unit from your army destroys an enemy unit.<br><br><b>TARGET:</b> That <span class=\"kwb\">TYRANIDS</span> unit.<br><br><b>EFFECT:</b> If your unit is not within <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units, it can make a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal move</a> of up to 3\". After that move, if your unit is within range of an <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Objective-Markers\">objective marker</a> and no enemy units are within range of that objective marker, that objective marker is <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#SEIZING-AND-SECURING-OBJECTIVE-MARKERS\">Secured</a> by your army.",
+      "detachment": "Boarding Swarm"
+    },
+    {
+      "id": "000008422003",
+      "name": "RAMPAGING MONSTROSITIES",
+      "type": "Crusher Stampede \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00418\" data-tooltip-content=\"#tooltip_content00418\" data-tooltip-anchor=\"#tooltip_content00418\"><span class=\"kwb\">TYRANIDS</span> <span class=\"kwb\">MONSTER</span></span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Crusher Stampede"
+    },
+    {
+      "id": "000008422004",
+      "name": "SAVAGE ROAR",
+      "type": "Crusher Stampede \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00418\" data-tooltip-content=\"#tooltip_content00418\" data-tooltip-anchor=\"#tooltip_content00418\"><span class=\"kwb\">TYRANIDS</span> <span class=\"kwb\">MONSTER</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> That enemy unit must take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a> and, until the end of the phase, each time a model in that enemy unit makes an attack that targets your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>. If that Battle-shock test was failed, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a> as well.",
+      "detachment": "Crusher Stampede"
+    },
+    {
+      "id": "000008422006",
+      "name": "SWARM-GUIDED SALVOES",
+      "type": "Crusher Stampede \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00418\" data-tooltip-content=\"#tooltip_content00418\" data-tooltip-anchor=\"#tooltip_content00418\"><span class=\"kwb\">TYRANIDS</span> <span class=\"kwb\">MONSTER</span></span> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, ranged weapons equipped by models in your unit have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Ignores-Cover\">[IGNORES COVER]</a></span> ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model\u2019s Ballistic Skill characteristic and any or all modifiers to the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Crusher Stampede"
+    },
+    {
+      "id": "000008422007",
+      "name": "MASSIVE IMPACT",
+      "type": "Crusher Stampede \u2013 Epic Deed Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>, just after a <span class=\"tooltip00418\" data-tooltip-content=\"#tooltip_content00418\" data-tooltip-anchor=\"#tooltip_content00418\"><span class=\"kwb\">TYRANIDS</span> <span class=\"kwb\">MONSTER</span></span> model from your army ends a <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge move</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">TYRANIDS</span> <span class=\"kwb\">MONSTER</span> model.<br><br><b>EFFECT:</b> Select one enemy unit within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of your model and roll six D6: for each 4+, that enemy unit suffers 1 <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wound</a>.",
+      "detachment": "Crusher Stampede"
+    },
+    {
+      "id": "000008422005",
+      "name": "UNTRAMMELLED FEROCITY",
+      "type": "Crusher Stampede \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00418\" data-tooltip-content=\"#tooltip_content00418\" data-tooltip-anchor=\"#tooltip_content00418\"><span class=\"kwb\">TYRANIDS</span> <span class=\"kwb\">MONSTER</span></span> unit from your army that has not been selected to move this phase.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit makes a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal</a>, <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall Back move</a>, it can move through models (excluding <span class=\"kwb\">TITANIC</span> models) and sections of <a href=\"/wh40k10ed/the-rules/core-rules/#Terrain-Features-1\">terrain features</a> that are 4\" or less in height. When doing so: <br><ul><li>It can move within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of enemy models, but cannot end that move within Engagement Range of them. </li><li>It can also move through sections of terrain features that are more than 4\" in height, but if it does, after its unit has moved, roll one D6: on a 1, your unit is <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a>.</li></ul>",
+      "detachment": "Crusher Stampede"
+    },
+    {
+      "id": "000008422002",
+      "name": "CORROSIVE VISCERA",
+      "type": "Crusher Stampede \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after a <span class=\"tooltip00418\" data-tooltip-content=\"#tooltip_content00418\" data-tooltip-anchor=\"#tooltip_content00418\"><span class=\"kwb\">TYRANIDS</span> <span class=\"kwb\">MONSTER</span></span> model from your army with the <a href=\"/wh40k10ed/the-rules/core-rules/#Assault\">Deadly Demise</a> ability that cannot <a href=\"/wh40k10ed/the-rules/core-rules/#Flying\"><span class=\"kwb\">FLY</span></a> is <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">TYRANIDS</span> <span class=\"kwb\">MONSTER</span> model. You can use this Stratagem on that model even though it was just destroyed.<br><br><b>EFFECT:</b> Do not roll one D6 to determine whether <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wounds</a> are inflicted by your model\u2019s Deadly Demise ability. Instead, mortal wounds are automatically inflicted.",
+      "detachment": "Crusher Stampede"
+    },
+    {
+      "id": "000009725002",
+      "name": "HYPERADRENAL REFLEXES",
+      "type": "Infestation Swarm \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00787\" data-tooltip-content=\"#tooltip_content00787\" data-tooltip-anchor=\"#tooltip_content00787\"><span class=\"kwb\">GREAT</span> <span class=\"kwb\">DEVOURER</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, models in your unit have a 4+ <a href=\"/wh40k10ed/the-rules/core-rules/#Invulnerable-Saves\">invulnerable save</a>.",
+      "detachment": "Infestation Swarm"
+    },
+    {
+      "id": "000009725005",
+      "name": "OUTFLANK",
+      "type": "Infestation Swarm \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of your opponent\u2019s <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/tyranids/Genestealers\"><span class=\"kwb kwbo\">GENESTEALERS</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/genestealer-cults/Purestrain-Genestealers\"><span class=\"kwb kwbo\">PURESTRAIN</span> <span class=\"kwb kwbo\">GENESTEALERS</span></a> unit from your army that is wholly within an Entry Zone.<br><br><b>EFFECT:</b> Remove your unit from the battlefield and place it into <a href=\"/wh40k10ed/the-rules/core-rules/#Strategic-Reserves\">Strategic Reserves</a>. It will arrive back on the battlefield in the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Reinforcements\">Reinforcements step</a> of your next <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Movement-Phase\">Movement phase</a>. When doing so, if it was within one of your Entry Zones when it was removed, it must be <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Set-Up\">set up</a> wholly within another one of your Entry Zones. If it was within one of your opponent\u2019s Entry Zones when it was removed, it must be set up wholly within another one of your opponent\u2019s Entry Zones instead. If this is not possible, your unit is <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a>.",
+      "detachment": "Infestation Swarm"
+    },
+    {
+      "id": "000009725004",
+      "name": "HUNTING GROUNDS",
+      "type": "Infestation Swarm \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Movement-Phase\">Movement phase</a>, just after a <span class=\"tooltip00787\" data-tooltip-content=\"#tooltip_content00787\" data-tooltip-anchor=\"#tooltip_content00787\"><span class=\"kwb\">GREAT</span> <span class=\"kwb\">DEVOURER</span></span> unit from your army opens a <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Terrain\">Hatchway</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">GREAT</span> <span class=\"kwb\">DEVOURER</span> unit.<br><br><b>EFFECT:</b> Your unit can make a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal move</a> of up to 3\", provided at least one of its models ends that move on the opposite side of that Hatchway from when your unit opened it.",
+      "detachment": "Infestation Swarm"
+    },
+    {
+      "id": "000009725003",
+      "name": "PERVASIVE DREAD",
+      "type": "Infestation Swarm \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>, just after the enemy <span class=\"kwb\">WARLORD</span> is <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a> (and is not returned to the battlefield) by a <span class=\"tooltip00787\" data-tooltip-content=\"#tooltip_content00787\" data-tooltip-anchor=\"#tooltip_content00787\"><span class=\"kwb\">GREAT</span> <span class=\"kwb\">DEVOURER</span></span> unit from your army.<br><br><b>TARGET:</b> That <span class=\"kwb\">GREAT</span> <span class=\"kwb\">DEVOURER</span> unit.<br><br><b>EFFECT:</b> In your opponent\u2019s next <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>, each enemy unit on the battlefield must take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a>, subtracting 1 from the result. This Stratagem cannot cause a unit to take two Battle-shock tests in the same phase.",
+      "detachment": "Infestation Swarm"
+    },
+    {
+      "id": "000008349003",
+      "name": "ADRENAL SURGE",
+      "type": "Invasion Fleet \u2013 Battle Tactic Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> Up to two <span class=\"kwb\">TYRANIDS</span> units from your army that are within <span class=\"tooltip00445\" data-tooltip-content=\"#tooltip_content00445\"><span class=\"tt kwbu\">Synapse</span> <span class=\"tt kwbu\">Range</span></span> of your army and are eligible to fight, or one other <span class=\"kwb\">TYRANIDS</span> unit from your army that is eligible to fight.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in any of those selected units makes an attack, an unmodified <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> of 5+ scores a Critical Hit.",
+      "detachment": "Invasion Fleet"
+    },
+    {
+      "id": "000008349002",
+      "name": "RAPID REGENERATION",
+      "type": "Invasion Fleet \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">TYRANIDS</span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, models in your unit have the <span class=\"tooltip00144\" data-tooltip-content=\"#tooltip_content00144\"><span class=\"tt kwbu\">Feel</span> <span class=\"tt kwbu\">No</span> <span class=\"tt kwbu\">Pain</span> <span class=\"tt kwbu\">6+</span></span> ability. If your unit is within <span class=\"tooltip00445\" data-tooltip-content=\"#tooltip_content00445\"><span class=\"tt kwbu\">Synapse</span> <span class=\"tt kwbu\">Range</span></span> of your army, models in your unit have the Feel No Pain 5+ ability instead.",
+      "detachment": "Invasion Fleet"
+    },
+    {
+      "id": "000008349007",
+      "name": "ENDLESS SWARM",
+      "type": "Invasion Fleet \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> Up to two <span class=\"tooltip00709\" data-tooltip-content=\"#tooltip_content00709\" data-tooltip-anchor=\"#tooltip_content00709\"><span class=\"kwb\">ENDLESS</span> <span class=\"kwb\">MULTITUDE</span></span> units from your army that are within <span class=\"tooltip00445\" data-tooltip-content=\"#tooltip_content00445\"><span class=\"tt kwbu\">Synapse</span> <span class=\"tt kwbu\">Range</span></span> of your army, or one other <span class=\"kwb\">ENDLESS</span> <span class=\"kwb\">MULTITUDE</span> unit from your army.<br><br><b>EFFECT:</b> You can return up to D3+3 <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a> models to each of the selected units.",
+      "detachment": "Invasion Fleet"
+    },
+    {
+      "id": "000008349004",
+      "name": "DEATH FRENZY",
+      "type": "Invasion Fleet \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"kwb\">TYRANIDS</span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit is <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a>, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model\u2019s unit has finished <a href=\"/wh40k10ed/the-rules/core-rules/#Making-Attacks\">making its attacks</a>, and is then removed from play.",
+      "detachment": "Invasion Fleet"
+    },
+    {
+      "id": "000008349006",
+      "name": "PREDATORY IMPERATIVE",
+      "type": "Invasion Fleet \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> Up to two <span class=\"kwb\">TYRANIDS</span> units from your army that are within <span class=\"tooltip00445\" data-tooltip-content=\"#tooltip_content00445\"><span class=\"tt kwbu\">Synapse</span> <span class=\"tt kwbu\">Range</span></span> of your army, or one other <span class=\"kwb\">TYRANIDS</span> unit from your army.<br><br><b>EFFECT:</b> Select one <span class=\"tooltip00888\" data-tooltip-content=\"#tooltip_content00888\"><span class=\"tt kwbu\">Hyper-adaptation</span></span>. Until the start of your next Command phase, that Hyper-adaptation is active for those selected units in addition to any other that may be active for your army.<br><br><b>RESTRICTIONS:</b> You cannot select the same Hyper-adaptation you selected at the start of the first <a href=\"/wh40k10ed/the-rules/core-rules/#The-Battle-Round\">battle round</a>.",
+      "detachment": "Invasion Fleet"
+    },
+    {
+      "id": "000008349005",
+      "name": "OVERRUN",
+      "type": "Invasion Fleet \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just before a <span class=\"kwb\">TYRANIDS</span> unit from your army <a href=\"/wh40k10ed/the-rules/core-rules/#3.-Consolidate\">Consolidates</a>.<br><br><b>TARGET:</b> That <span class=\"kwb\">TYRANIDS</span> unit.<br><br><b>EFFECT:</b> Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3\" as long as your unit can end that move within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units. If your unit is within <span class=\"tooltip00445\" data-tooltip-content=\"#tooltip_content00445\"><span class=\"tt kwbu\">Synapse</span> <span class=\"tt kwbu\">Range</span></span> of your army and not within Engagement Range of any enemy units, instead of making that <a href=\"/wh40k10ed/the-rules/core-rules/#3.-Consolidate\">Consolidation move</a>, it can make a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal move</a> of up to 6\".",
+      "detachment": "Invasion Fleet"
+    },
+    {
+      "id": "000010148004",
+      "name": "ENFILADING EMERGENCE",
+      "type": "Subterranean Assault \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00447\" data-tooltip-content=\"#tooltip_content00447\" data-tooltip-anchor=\"#tooltip_content00447\"><span class=\"kwb\">TYRANIDS</span></span> unit from your army that was set up as <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Reinforcements\">Reinforcements</a> this turn.<br><br><b>EFFECT:</b> Until the end of your next <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, weapons equipped by models in your unit have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Sustained-Hits\">[SUSTAINED HITS 1]</a></span> and <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Ignores-Cover\">[IGNORES COVER]</a></span> abilities.",
+      "detachment": "Subterranean Assault"
+    },
+    {
+      "id": "000010148005",
+      "name": "TUNNEL NETWORK",
+      "type": "Subterranean Assault \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00447\" data-tooltip-content=\"#tooltip_content00447\" data-tooltip-anchor=\"#tooltip_content00447\"><span class=\"kwb\">TYRANIDS</span></span> unit from your army that is wholly within 9\" of one or more of your <span class=\"tooltip00889\" data-tooltip-content=\"#tooltip_content00889\"><span class=\"tt kwbu\">Tunnel</span> <span class=\"tt kwbu\">Markers</span></span> and not within Engagement Range of one or more enemy units.<br><br><b>EFFECT:</b> Remove your unit from the battlefield and set it up again, wholly within 9\" of another Tunnel Marker you placed, and more than 6\" horizontally away from all enemy units.",
+      "detachment": "Subterranean Assault"
+    },
+    {
+      "id": "000010148007",
+      "name": "RETREAT BELOW",
+      "type": "Subterranean Assault \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00447\" data-tooltip-content=\"#tooltip_content00447\" data-tooltip-anchor=\"#tooltip_content00447\"><span class=\"kwb\">TYRANIDS</span></span> unit or up to two <span class=\"tooltip00788\" data-tooltip-content=\"#tooltip_content00788\" data-tooltip-anchor=\"#tooltip_content00788\"><span class=\"kwb\">BURROWER</span></span> units from your army that are not within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units.<br><br><b>EFFECT:</b> Remove your unit from the battlefield and place it into <a href=\"/wh40k10ed/the-rules/core-rules/#Strategic-Reserves\">Strategic Reserves</a>.",
+      "detachment": "Subterranean Assault"
+    },
+    {
+      "id": "000010148006",
+      "name": "SWARMING ASSAULT",
+      "type": "Subterranean Assault \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00418\" data-tooltip-content=\"#tooltip_content00418\" data-tooltip-anchor=\"#tooltip_content00418\"><span class=\"kwb\">TYRANIDS</span> <span class=\"kwb\">MONSTER</span></span> unit from your army that was set up as <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Reinforcements\">Reinforcements</a> this turn.<br><br><b>EFFECT:</b> Until the end of the phase, friendly <span class=\"tooltip00447\" data-tooltip-content=\"#tooltip_content00447\" data-tooltip-anchor=\"#tooltip_content00447\"><span class=\"kwb\">TYRANIDS</span></span> units within 6\" of your unit can re-roll <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge rolls</a>.",
+      "detachment": "Subterranean Assault"
+    },
+    {
+      "id": "000010148002",
+      "name": "ADAPTIVE OPTIMISATION",
+      "type": "Subterranean Assault \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/tyranids/Mawloc\"><span class=\"kwb kwbo\">MAWLOC</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/tyranids/Trygon\"><span class=\"kwb kwbo\">TRYGON</span></a> unit from your army.<br><br><b>EFFECT:</b> Until the start of your next Command phase, your unit has the <span class=\"tooltip00276\" data-tooltip-content=\"#tooltip_content00276\" data-tooltip-anchor=\"#tooltip_content00276\"><span class=\"kwb\">SYNAPSE</span></span> keyword.",
+      "detachment": "Subterranean Assault"
+    },
+    {
+      "id": "000010148003",
+      "name": "REPLENISHING SWARMS",
+      "type": "Subterranean Assault \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00447\" data-tooltip-content=\"#tooltip_content00447\" data-tooltip-anchor=\"#tooltip_content00447\"><span class=\"kwb\">TYRANIDS</span></span> unit from your army, wholly within 9\" of one or more <span class=\"tooltip00889\" data-tooltip-content=\"#tooltip_content00889\"><span class=\"tt kwbu\">Tunnel</span> <span class=\"tt kwbu\">Markers</span></span> you placed.<br><br><b>EFFECT:</b> One model in your unit regains up to D3+1 lost wounds, or you can return up to D3+1 destroyed models with a Wounds characteristic of 1 to your unit, with their full wounds remaining, instead.",
+      "detachment": "Subterranean Assault"
+    },
+    {
+      "id": "000008556003",
+      "name": "SYNAPTIC CHANNELLING",
+      "type": "Synaptic Nexus \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00276\" data-tooltip-content=\"#tooltip_content00276\" data-tooltip-anchor=\"#tooltip_content00276\"><span class=\"kwb\">SYNAPSE</span></span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the turn, while a friendly <span class=\"kwb\">TYRANIDS</span> unit is within 9\" of the selected unit, that unit is within <span class=\"tooltip00445\" data-tooltip-content=\"#tooltip_content00445\"><span class=\"tt kwbu\">Synapse</span> <span class=\"tt kwbu\">Range</span></span> of your army.",
+      "detachment": "Synaptic Nexus"
+    },
+    {
+      "id": "000008556004",
+      "name": "IRRESISTIBLE WILL",
+      "type": "Synaptic Nexus \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00276\" data-tooltip-content=\"#tooltip_content00276\" data-tooltip-anchor=\"#tooltip_content00276\"><span class=\"kwb\">SYNAPSE</span></span> unit from your army that has not been selected to shoot or fight this phase, and one enemy unit within 24\" of and visible to the <span class=\"kwb\">SYNAPSE</span> unit.<br><br><b>EFFECT:</b> Until the end of the phase, each time a friendly <span class=\"kwb\">TYRANIDS</span> model makes an attack that targets that enemy unit, if the attacking model\u2019s unit is within 6\" of your <span class=\"kwb\">SYNAPSE</span> unit, re-roll a <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> of 1 and re-roll a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a> of 1.",
+      "detachment": "Synaptic Nexus"
+    },
+    {
+      "id": "000008556005",
+      "name": "REINFORCED HIVE NODE",
+      "type": "Synaptic Nexus \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00276\" data-tooltip-content=\"#tooltip_content00276\" data-tooltip-anchor=\"#tooltip_content00276\"><span class=\"kwb\">SYNAPSE</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+      "detachment": "Synaptic Nexus"
+    },
+    {
+      "id": "000008556007",
+      "name": "OVERRIDE INSTINCTS",
+      "type": "Synaptic Nexus \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">TYRANIDS</span> unit from your army that is within <span class=\"tooltip00445\" data-tooltip-content=\"#tooltip_content00445\"><span class=\"tt kwbu\">Synapse</span> <span class=\"tt kwbu\">Range</span></span> of your army and made a <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall Back move</a> this phase.<br><br><b>EFFECT:</b> Your unit is eligible to shoot and declare a charge this turn.",
+      "detachment": "Synaptic Nexus"
+    },
+    {
+      "id": "000008556006",
+      "name": "IMPERATIVE DOMINANCE",
+      "type": "Synaptic Nexus \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">TYRANIDS</span> unit from your army that is within <span class=\"tooltip00445\" data-tooltip-content=\"#tooltip_content00445\"><span class=\"tt kwbu\">Synapse</span> <span class=\"tt kwbu\">Range</span></span> of your army.<br><br><b>EFFECT:</b> Select one <span class=\"tooltip00890\" data-tooltip-content=\"#tooltip_content00890\"><span class=\"tt kwbu\">Synaptic</span> <span class=\"tt kwbu\">Imperative</span></span>, even if you have already selected that imperative this battle. Until the start of your next Command phase, that Synaptic Imperative is active for your unit instead of any other Synaptic Imperative that is active for your army.",
+      "detachment": "Synaptic Nexus"
+    },
+    {
+      "id": "000008556002",
+      "name": "THE SMOTHERING SHADOW",
+      "type": "Synaptic Nexus \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase, just after an enemy unit fails a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00276\" data-tooltip-content=\"#tooltip_content00276\" data-tooltip-anchor=\"#tooltip_content00276\"><span class=\"kwb\">SYNAPSE</span></span> unit from your army within 12\" of that enemy unit.<br><br><b>EFFECT:</b> Roll six D6: for each 3+, that enemy unit suffers 1 <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wound</a>.",
+      "detachment": "Synaptic Nexus"
+    },
+    {
+      "id": "000009682002",
+      "name": "BIO-ACID SURGE",
+      "type": "Tyranid Attack \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">TYRANIDS</span> unit from your army that is within <span class=\"tooltip00445\" data-tooltip-content=\"#tooltip_content00445\"><span class=\"tt kwbu\">Synapse</span> <span class=\"tt kwbu\">Range</span></span> of your army and has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, melee weapons equipped by models in your unit have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Sustained-Hits\">[SUSTAINED HITS 1]</a></span> ability.",
+      "detachment": "Tyranid Attack"
+    },
+    {
+      "id": "000009682005",
+      "name": "HIVE SIGHT",
+      "type": "Tyranid Attack \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Charge-Phase\">Charge phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00712\" data-tooltip-content=\"#tooltip_content00712\" data-tooltip-anchor=\"#tooltip_content00712\"><span class=\"kwb\">TYRANIDS</span> <span class=\"kwb\">SYNAPSE</span></span> unit from your army and one friendly <span class=\"kwb\">TYRANIDS</span> unit that has not <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">declared a charge</a> this phase.<br><br><b>EFFECT:</b> Select one enemy unit that is <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Visibility\">visible</a> to your <span class=\"tooltip00276\" data-tooltip-content=\"#tooltip_content00276\" data-tooltip-anchor=\"#tooltip_content00276\"><span class=\"kwb\">SYNAPSE</span></span> unit. Until the end of the phase, each time your other unit <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">declares a charge</a>, it can include that enemy unit as a target of that charge, even if it is not visible to it, and when doing so, add 1 to the Charge roll.",
+      "detachment": "Tyranid Attack"
+    },
+    {
+      "id": "000009682004",
+      "name": "EXPENDABLE BIOMASS",
+      "type": "Tyranid Attack \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "WHEN: Your <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Shooting-Phase\">Shooting phase</a>.<br><br>TARGET: One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/tyranids/Tyranid-Warriors-With-Ranged-Bio-weapons\"><span class=\"kwb kwbo\">TYRANID</span> <span class=\"kwb kwbo\">WARRIORS</span> <span class=\"kwb2 kwbo\">WITH</span> <span class=\"kwb kwbo\">RANGED</span> <span class=\"kwb kwbo\">BIO-WEAPONS</span></a> unit from your army that has not been selected to shoot this phase.<br><br>EFFECT: Select one enemy unit that is <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Visibility\">visible</a> to your unit and within <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Engagement-Range\">Engagement Range</a> of one or more friendly <span class=\"tooltip00709\" data-tooltip-content=\"#tooltip_content00709\" data-tooltip-anchor=\"#tooltip_content00709\"><span class=\"kwb\">ENDLESS</span> <span class=\"kwb\">MULTITUDE</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/tyranids/Ripper-Swarms\"><span class=\"kwb kwbo\">RIPPER</span> <span class=\"kwb kwbo\">SWARMS</span></a> units. Until the end of the phase, your unit is eligible to <a href=\"/wh40k10ed/the-rules/core-rules/#Make-Ranged-Attacks\">make ranged attacks</a> against that enemy unit as if it was not within Engagement Range of those friendly units. When doing so, each time a model in your unit makes a ranged attack, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> and, after your unit has finished making its attacks, each of those friendly units that started the phase within Engagement Range of that enemy unit suffers D3 <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wounds</a>.",
+      "detachment": "Tyranid Attack"
+    },
+    {
+      "id": "000009682003",
+      "name": "PHAGIC SPORES",
+      "type": "Tyranid Attack \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Shooting-Phase\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Fight-Phase\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/tyranids/Tyranid-Warriors-With-Melee-Bio-weapons\"><span class=\"kwb kwbo\">TYRANID</span> <span class=\"kwb kwbo\">WARRIORS</span> <span class=\"kwb2 kwbo\">WITH</span> <span class=\"kwb kwbo\">MELEE</span> <span class=\"kwb kwbo\">BIO-WEAPONS</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/tyranids/Tyranid-Warriors-With-Ranged-Bio-weapons\"><span class=\"kwb kwbo\">TYRANID</span> <span class=\"kwb kwbo\">WARRIORS</span> <span class=\"kwb2 kwbo\">WITH</span> <span class=\"kwb kwbo\">RANGED</span> <span class=\"kwb kwbo\">BIO-WEAPONS</span></a> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time a model in your unit is <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a> as a result of an attack, do not remove it from play; after the attacking unit has finished making its attacks, roll one D6: on a 3-5, the closest enemy unit within 3\" of and <a href=\"/wh40k10ed/the-rules/boarding-action-rules/#Visibility\">visible</a> to your unit suffers 1 <a href=\"/wh40k10ed/the-rules/core-rules/#Mortal-Wounds\">mortal wound</a>; on a 6, the closest enemy unit within 3\" of and visible to your unit suffers 2 mortal wounds. The destroyed model is then removed from play.",
+      "detachment": "Tyranid Attack"
+    },
+    {
+      "id": "000008409005",
+      "name": "SWARMING MASSES",
+      "type": "Unending Swarm \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00709\" data-tooltip-content=\"#tooltip_content00709\" data-tooltip-anchor=\"#tooltip_content00709\"><span class=\"kwb\">ENDLESS</span> <span class=\"kwb\">MULTITUDE</span></span> unit from your army that has not been selected to shoot or fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, weapons equipped by models in your unit have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Sustained-Hits\">[SUSTAINED HITS 1]</a></span> ability, and If your unit contains 15 or more models, each time a model in your unit makes an attack, an unmodified <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> of 5+ scores a Critical Hit.",
+      "detachment": "Unending Swarm"
+    },
+    {
+      "id": "000008409004",
+      "name": "TEEMING MASSES",
+      "type": "Unending Swarm \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00709\" data-tooltip-content=\"#tooltip_content00709\" data-tooltip-anchor=\"#tooltip_content00709\"><span class=\"kwb\">ENDLESS</span> <span class=\"kwb\">MULTITUDE</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, each time an attack targets your unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>.",
+      "detachment": "Unending Swarm"
+    },
+    {
+      "id": "000008409006",
+      "name": "BOUNDING ADVANCE",
+      "type": "Unending Swarm \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00709\" data-tooltip-content=\"#tooltip_content00709\" data-tooltip-anchor=\"#tooltip_content00709\"><span class=\"kwb\">ENDLESS</span> <span class=\"kwb\">MULTITUDE</span></span> unit from your army.<br><br><b>EFFECT:</b> Until the end of the phase, each time your unit <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advances</a>, do not make an <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance roll</a>. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+      "detachment": "Unending Swarm"
+    },
+    {
+      "id": "000008409007",
+      "name": "PRESERVATION IMPERATIVE",
+      "type": "Unending Swarm \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00709\" data-tooltip-content=\"#tooltip_content00709\" data-tooltip-anchor=\"#tooltip_content00709\"><span class=\"kwb\">ENDLESS</span> <span class=\"kwb\">MULTITUDE</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, your unit is treated as containing fewer than five models for the purpose of the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Blast\">[BLAST]</a></span> ability.",
+      "detachment": "Unending Swarm"
+    },
+    {
+      "id": "000008409002",
+      "name": "SYNAPTIC GOADING",
+      "type": "Unending Swarm \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Any phase, just before an <span class=\"tooltip00709\" data-tooltip-content=\"#tooltip_content00709\" data-tooltip-anchor=\"#tooltip_content00709\"><span class=\"kwb\">ENDLESS</span> <span class=\"kwb\">MULTITUDE</span></span> unit from your army that is within <span class=\"tooltip00445\" data-tooltip-content=\"#tooltip_content00445\"><span class=\"tt kwbu\">Synapse</span> <span class=\"tt kwbu\">Range</span></span> of your army makes a Surge move.<br><br><b>TARGET:</b> That <span class=\"kwb\">ENDLESS</span> <span class=\"kwb\">MULTITUDE</span> unit.<br><br><b>EFFECT:</b> When making that Surge move, you can re-roll the D6 to determine how far your unit moves, and your unit can end that move as close as possible to the closest <a href=\"/wh40k10ed/the-rules/core-rules/#Objective-Markers\">objective marker</a> (instead of as close as possible to the closest enemy unit]. All other rules for making Surge moves still apply.",
+      "detachment": "Unending Swarm"
+    },
+    {
+      "id": "000008409003",
+      "name": "UNENDING WAVES",
+      "type": "Unending Swarm \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Any phase.<br><br><b>TARGET:</b> One <span class=\"tooltip00709\" data-tooltip-content=\"#tooltip_content00709\" data-tooltip-anchor=\"#tooltip_content00709\"><span class=\"kwb\">ENDLESS</span> <span class=\"kwb\">MULTITUDE</span></span> unit from your army that was just <a href=\"/wh40k10ed/the-rules/core-rules/#Destroyed\">destroyed</a>. You can use this Stratagem on that unit even though it was just destroyed.<br><br><b>EFFECT:</b> Add a new unit to your army identical to your destroyed unit, in <a href=\"/wh40k10ed/the-rules/core-rules/#Strategic-Reserves\">Strategic Reserves</a>, at its <a href=\"/wh40k10ed/the-rules/core-rules/#Starting-Strength\">Starting Strength</a>.<br><br><b>RESTRICTIONS:</b> Any destroyed <span class=\"tooltip00446\" data-tooltip-content=\"#tooltip_content00446\" data-tooltip-anchor=\"#tooltip_content00446\"><span class=\"kwb\">CHARACTER</span></span> units that were <a href=\"/wh40k10ed/the-rules/core-rules/#Attached-Units\">attached</a> to your unit are not returned. You can only use this Stratagem once per battle.",
+      "detachment": "Unending Swarm"
+    },
+    {
+      "id": "000008418002",
+      "name": "SURPRISE ASSAULT",
+      "type": "Vanguard Onslaught \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, just after a <span class=\"tooltip00711\" data-tooltip-content=\"#tooltip_content00711\" data-tooltip-anchor=\"#tooltip_content00711\"><span class=\"kwb\">VANGUARD</span> <span class=\"kwb\">INVADER</span></span> unit from your army has selected its targets.<br><br><b>TARGET:</b> That <span class=\"kwb\">VANGUARD</span> <span class=\"kwb\">INVADER</span> unit.<br><br><b>EFFECT:</b> Select one enemy unit that was selected as the target of one or more of your unit\u2019s attacks. That enemy unit must take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a>. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, add 1 to the <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a>. If the Battle-shock test was failed, add 1 to the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a> as well.",
+      "detachment": "Vanguard Onslaught"
+    },
+    {
+      "id": "000008418003",
+      "name": "ASSASSIN BEASTS",
+      "type": "Vanguard Onslaught \u2013 Battle Tactic Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00891\" data-tooltip-content=\"#tooltip_content00891\" data-tooltip-anchor=\"#tooltip_content00891\"><span class=\"kwb\">VANGUARD</span> <span class=\"kwb\">INVADER</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that has not been selected to fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, melee weapons equipped by models in your unit have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Precision\">[PRECISION]</a></span> ability.",
+      "detachment": "Vanguard Onslaught"
+    },
+    {
+      "id": "000008418006",
+      "name": "UNSEEN LURKERS",
+      "type": "Vanguard Onslaught \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00711\" data-tooltip-content=\"#tooltip_content00711\" data-tooltip-anchor=\"#tooltip_content00711\"><span class=\"kwb\">VANGUARD</span> <span class=\"kwb\">INVADER</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\" or, if your unit has the <a href=\"/wh40k10ed/the-rules/core-rules/#Look-out-Sir-\">Lone Operative</a> ability, if the attacking model is within 6\". Your opponent can select new targets for the attacking unit\u2019s attacks.",
+      "detachment": "Vanguard Onslaught"
+    },
+    {
+      "id": "000008418004",
+      "name": "SEEDED BROODS",
+      "type": "Vanguard Onslaught \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">TYRANIDS</span> unit from your army that is in <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Reinforcements\">Reserves</a>, or up to two <span class=\"tooltip00711\" data-tooltip-content=\"#tooltip_content00711\" data-tooltip-anchor=\"#tooltip_content00711\"><span class=\"kwb\">VANGUARD</span> <span class=\"kwb\">INVADER</span></span> units from your army that are in Reserves.<br><br><b>EFFECT:</b> Until the end of the phase, for the purposes of setting up those selected units on the battlefield, treat the current <a href=\"/wh40k10ed/the-rules/core-rules/#The-Battle-Round\">battle round</a> number as being one higher than it actually is.",
+      "detachment": "Vanguard Onslaught"
+    },
+    {
+      "id": "000008418005",
+      "name": "HYPERSENSORY SCILLIA",
+      "type": "Vanguard Onslaught \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "2",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, just after an enemy unit ends a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal</a>, <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a> or <a href=\"/wh40k10ed/the-rules/core-rules/#Fall-Back-Moves\">Fall Back move</a>.<br><br><b>TARGET:</b> Up to two <span class=\"tooltip00711\" data-tooltip-content=\"#tooltip_content00711\" data-tooltip-anchor=\"#tooltip_content00711\"><span class=\"kwb\">VANGUARD</span> <span class=\"kwb\">INVADER</span></span> units from your army that are within 9\" of that enemy unit, or one other <span class=\"tooltip00417\" data-tooltip-content=\"#tooltip_content00417\" data-tooltip-anchor=\"#tooltip_content00417\"><span class=\"kwb\">TYRANIDS</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army that is within 9\" of that enemy unit.<br><br><b>EFFECT:</b> Those selected units can each make a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal move</a> of up to 6\".<br><br><b>RESTRICTIONS:</b> You cannot target units that are within <a href=\"/wh40k10ed/the-rules/core-rules/#Engagement-Range\">Engagement Range</a> of one or more enemy units.",
+      "detachment": "Vanguard Onslaught"
+    },
+    {
+      "id": "000008418007",
+      "name": "INVISIBLE HUNTER",
+      "type": "Vanguard Onslaught \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> End of your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> Up to two <span class=\"tooltip00711\" data-tooltip-content=\"#tooltip_content00711\" data-tooltip-anchor=\"#tooltip_content00711\"><span class=\"kwb\">VANGUARD</span> <span class=\"kwb\">INVADER</span></span> units from your army, or one <span class=\"tooltip00417\" data-tooltip-content=\"#tooltip_content00417\" data-tooltip-anchor=\"#tooltip_content00417\"><span class=\"kwb\">TYRANIDS</span> <span class=\"kwb\">INFANTRY</span></span> unit from your army.<br><br><b>EFFECT:</b> Remove the targeted units from the battlefield and place them into <a href=\"/wh40k10ed/the-rules/core-rules/#Strategic-Reserves\">Strategic Reserves</a>.<br><br><b>RESTRICTIONS:</b> The targeted units must be more than 3\" away from all enemy units.",
+      "detachment": "Vanguard Onslaught"
+    },
+    {
+      "id": "000009738007",
+      "name": "SYNAPTIC SHIELD",
+      "type": "Warrior Bioform Onslaught \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your opponent\u2019s <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>, just after an enemy unit has selected its targets.<br><br><b>TARGET:</b> One <span class=\"tooltip00708\" data-tooltip-content=\"#tooltip_content00708\" data-tooltip-anchor=\"#tooltip_content00708\"><span class=\"kwb\">TYRANID</span> <span class=\"kwb\">WARRIORS</span></span> unit from your army that was selected as the target of one or more of the attacking unit\u2019s attacks.<br><br><b>EFFECT:</b> If that unit is a <span class=\"kwb\">TYRANID</span> <span class=\"kwb\">WARRIORS</span> unit, select up to one <span class=\"tooltip00709\" data-tooltip-content=\"#tooltip_content00709\" data-tooltip-anchor=\"#tooltip_content00709\"><span class=\"kwb\">ENDLESS</span> <span class=\"kwb\">MULTITUDE</span></span> unit from your army, that is not <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a>, within 6\" of it. Until the end of the phase, each time a ranged attack targets one of those units, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a>.",
+      "detachment": "Warrior Bioform Onslaught"
+    },
+    {
+      "id": "000009738002",
+      "name": "SYNAPTIC AMPLIFICATION",
+      "type": "Warrior Bioform Onslaught \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">TYRANIDS</span> unit from your army that has not been selected to shoot or fight this phase.<br><br><b>EFFECT:</b> If that unit is a <span class=\"tooltip00708\" data-tooltip-content=\"#tooltip_content00708\" data-tooltip-anchor=\"#tooltip_content00708\"><span class=\"kwb\">TYRANID</span> <span class=\"kwb\">WARRIORS</span></span> unit, select up to one <span class=\"tooltip00709\" data-tooltip-content=\"#tooltip_content00709\" data-tooltip-anchor=\"#tooltip_content00709\"><span class=\"kwb\">ENDLESS</span> <span class=\"kwb\">MULTITUDE</span></span> unit from your army, that is not <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shocked</a>, within 6\" of it. Until the end of the phase, each time a model in those units makes an attack, re-roll a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Wound-Roll\">Wound roll</a> of 1, and, if it is a <span class=\"kwb\">TYRANID</span> <span class=\"kwb\">WARRIORS</span> unit, re-roll a <a href=\"/wh40k10ed/the-rules/core-rules/#1.-Hit-Roll\">Hit roll</a> of 1 as well.",
+      "detachment": "Warrior Bioform Onslaught"
+    },
+    {
+      "id": "000009738006",
+      "name": "PARASITIC PAYLOAD",
+      "type": "Warrior Bioform Onslaught \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a>.<br><br><b>TARGET:</b> One <a class=\"kwbOne\" href=\"/wh40k10ed/factions/tyranids/Tyranid-Warriors-With-Ranged-Bio-weapons\"><span class=\"kwb kwbo\">TYRANID</span> <span class=\"kwb kwbo\">WARRIORS</span> <span class=\"kwb2 kwbo\">WITH</span> <span class=\"kwb kwbo\">RANGED</span> <span class=\"kwb kwbo\">BIO-WEAPONS</span></a> unit from your army that has not been selected to shoot this phase.<br><br><b>EFFECT:</b> Until the end of the phase, ranged weapons equipped by models in your unit have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Ignores-Cover\">[IGNORES COVER]</a></span> ability. After your unit has resolved its shooting attacks this phase, select one enemy unit hit by one or more of those attacks. Until the end of the turn, models in that unit cannot have the <a href=\"/wh40k10ed/the-rules/core-rules/#Benefit-of-Cover\">Benefit of Cover</a>.",
+      "detachment": "Warrior Bioform Onslaught"
+    },
+    {
+      "id": "000009738004",
+      "name": "RESTORATIVE IMPULSE",
+      "type": "Warrior Bioform Onslaught \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#COMMAND-PHASE\">Command phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00708\" data-tooltip-content=\"#tooltip_content00708\" data-tooltip-anchor=\"#tooltip_content00708\"><span class=\"kwb\">TYRANID</span> <span class=\"kwb\">WARRIORS</span></span> unit from your army that is below its <a href=\"/wh40k10ed/the-rules/core-rules/#Starting-Strength\">Starting Strength</a>.<br><br><b>EFFECT:</b> Return 1 destroyed model (excluding <span class=\"kwb\">CHARACTER</span> models) to your unit.",
+      "detachment": "Warrior Bioform Onslaught"
+    },
+    {
+      "id": "000009738005",
+      "name": "SYNAPTIC MICRONODES",
+      "type": "Warrior Bioform Onslaught \u2013 Strategic Ploy Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>.<br><br><b>TARGET:</b> One <span class=\"tooltip00708\" data-tooltip-content=\"#tooltip_content00708\" data-tooltip-anchor=\"#tooltip_content00708\"><span class=\"kwb\">TYRANID</span> <span class=\"kwb\">WARRIORS</span></span> unit from your army.<br><br><b>EFFECT:</b> Select one <a href=\"/wh40k10ed/the-rules/core-rules/#Objective-Markers\">objective marker</a> you control that your unit is within range of. That objective marker remains under your control until your opponent\u2019s Level of Control over that objective marker is greater than yours at the end of a phase.",
+      "detachment": "Warrior Bioform Onslaught"
+    },
+    {
+      "id": "000009738003",
+      "name": "SPONTANEOUS HYPERCORROSION",
+      "type": "Warrior Bioform Onslaught \u2013 Wargear Stratagem",
+      "cp_cost": "1",
+      "description": "<b>WHEN:</b> Your <a href=\"/wh40k10ed/the-rules/core-rules/#SHOOTING-PHASE\">Shooting phase</a> or the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>.<br><br><b>TARGET:</b> One <span class=\"kwb\">TYRANIDS</span> unit from your army that has not been selected to shoot or fight this phase.<br><br><b>EFFECT:</b> Until the end of the phase, add 2 to the Strength characteristic of ranged weapons equipped by models in your unit and add 1 to the Strength characteristic of melee weapons equipped by <span class=\"tooltip00708\" data-tooltip-content=\"#tooltip_content00708\" data-tooltip-anchor=\"#tooltip_content00708\"><span class=\"kwb\">TYRANID</span> <span class=\"kwb\">WARRIORS</span></span> and <a class=\"kwbOne\" href=\"/wh40k10ed/factions/tyranids/Winged-Tyranid-Prime\"><span class=\"kwb kwbo\">WINGED</span> <span class=\"kwb kwbo\">TYRANID</span> <span class=\"kwb kwbo\">PRIME</span></a> models in your unit.",
+      "detachment": "Warrior Bioform Onslaught"
+    }
+  ]
+}

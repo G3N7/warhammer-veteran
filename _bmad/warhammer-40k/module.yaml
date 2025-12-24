@@ -1,0 +1,48 @@
+code: w40k
+name: "Warhammer 40K: Veteran's Companion"
+default_selected: true
+type: module
+
+header: "Warhammer 40K Module"
+subheader: "Army Building, Lore, Hobby, and Game Management"
+
+# Variables from Core Config inserted:
+## user_name
+## communication_language
+## output_folder
+
+# Module-specific configuration
+preferred_faction:
+  prompt: "What is your primary Warhammer 40K faction?"
+  default: "Space Marines"
+  result: "{value}"
+
+preferred_game_size:
+  prompt: "What point size do you typically play?"
+  type: choice
+  options:
+    - label: "Combat Patrol (500pts)"
+      value: "500"
+    - label: "Incursion (1000pts)"
+      value: "1000"
+    - label: "Strike Force (2000pts)"
+      value: "2000"
+    - label: "Onslaught (3000pts)"
+      value: "3000"
+  default: "2000"
+  result: "{value}"
+
+hobby_focus:
+  prompt: "What aspect of the hobby interests you most?"
+  type: choice
+  options:
+    - label: "Competitive Play - Tournament lists and meta analysis"
+      value: "competitive"
+    - label: "Narrative Play - Campaigns and storytelling"
+      value: "narrative"
+    - label: "Hobby - Painting and modeling"
+      value: "hobby"
+    - label: "All of the above"
+      value: "all"
+  default: "all"
+  result: "{value}"

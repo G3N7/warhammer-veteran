@@ -1,0 +1,1083 @@
+{
+  "datasheets": [
+    {
+      "id": "000001094",
+      "name": "Chaos Cerastus Knight Acheron",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Acheron flame cannon; twin heavy bolter; reaper chainfist.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001094",
+          "line": "1",
+          "name": "Chaos Cerastus Knight Acheron",
+          "M": "12\"",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "28",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "170 x 109mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001095",
+      "name": "Chaos Cerastus Knight Lancer",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Cerastus shock lance.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001095",
+          "line": "1",
+          "name": "Chaos Cerastus Knight Lancer",
+          "M": "14\"",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "28",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "170 x 109mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001096",
+      "name": "Chaos Cerastus Knight Castigator",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Castigator bolt cannon; tempest warblade.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001096",
+          "line": "1",
+          "name": "Chaos Cerastus Knight Castigator",
+          "M": "12\"",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "28",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "170 x 109mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001097",
+      "name": "Chaos Cerastus Knight Atrapos",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Atrapos lascutter; graviton singularity cannon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001097",
+          "line": "1",
+          "name": "Chaos Cerastus Knight Atrapos",
+          "M": "12\"",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "28",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "170 x 109mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001098",
+      "name": "Chaos Questoris Knight Magaera",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> lightning cannon; phased plasma-fusil; reaper chainsword.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001098",
+          "line": "1",
+          "name": "Chaos Questoris Knight Magaera",
+          "M": "10\"",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "26",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001099",
+      "name": "Chaos Acastus Knight Porphyrion",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 Acastus autocannons; Acastus ironstorm missile pod; 2 twin magna lascannons; titanic feet.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001099",
+          "line": "1",
+          "name": "Chaos Acastus Knight Porphyrion",
+          "M": "8\"",
+          "T": "13",
+          "Sv": "2+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "30",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001100",
+      "name": "Chaos Questoris Knight Styrix",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> graviton crusher; volkite chierovile; reaper chainsword.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001100",
+          "line": "1",
+          "name": "Chaos Questoris Knight Styrix",
+          "M": "10\"",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "26",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001658",
+      "name": "Knight Despoiler",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> daemonbreath meltagun; reaper chainsword; titanic feet; warpstrike claw.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001658",
+          "line": "1",
+          "name": "Knight Despoiler",
+          "M": "10\"",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": " * Against ranged attacks only",
+          "W": "26",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "170 x 109mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001659",
+      "name": "Knight Tyrant",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> brimstone volcano lance; ectoplasma decimator; 2 gheiststrike missile launchers; 2 twin daemonbreath meltaguns; twin Desecrator cannon; titanic feet.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001659",
+          "line": "1",
+          "name": "Knight Tyrant",
+          "M": "8\"",
+          "T": "12",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "28",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "170 x 109mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001660",
+      "name": "Knight Desecrator",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> desecrator laser destructor; diabolus heavy stubber; reaper chainsword.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001660",
+          "line": "1",
+          "name": "Knight Desecrator",
+          "M": "10\"",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "26",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "170 x 109mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001661",
+      "name": "Knight Rampager",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> diabolus heavy stubber; reaper chainsword; warpstrike claw.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001661",
+          "line": "1",
+          "name": "Knight Rampager",
+          "M": "12\"",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "26",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "170 x 109mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001662",
+      "name": "Chaos Acastus Knight Asterius",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 Asterius volkite culverins; karacnos mortar battery; 2 twin conversion beam cannons; titanic feet.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001662",
+          "line": "1",
+          "name": "Chaos Acastus Knight Asterius",
+          "M": "8\"",
+          "T": "13",
+          "Sv": "2+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "30",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001663",
+      "name": "War Dog Moirax",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> graviton pulsar; volkite veuglaire; armoured feet.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001663",
+          "line": "1",
+          "name": "War Dog Moirax",
+          "M": "12\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "12",
+          "Ld": "7+",
+          "OC": "8",
+          "base_size": "100mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002562",
+      "name": "War Dog Executioner",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> diabolus heavy stubber; 2 War Dog autocannons; armoured feet.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002562",
+          "line": "1",
+          "name": "War Dog Executioner",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "14",
+          "Ld": "7+",
+          "OC": "6",
+          "base_size": "100mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002563",
+      "name": "War Dog Stalker",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> avenger chaincannon; diabolus heavy stubber; slaughterclaw.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002563",
+          "line": "1",
+          "name": "War Dog Stalker",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "14",
+          "Ld": "7+",
+          "OC": "6",
+          "base_size": "100mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002564",
+      "name": "War Dog Karnivore",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> diabolus heavy stubber; reaper chaintalon; slaughterclaw.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002564",
+          "line": "1",
+          "name": "War Dog Karnivore",
+          "M": "14\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "14",
+          "Ld": "7+",
+          "OC": "6",
+          "base_size": "100mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002565",
+      "name": "War Dog Brigand",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> avenger chaincannon; daemonbreath spear; diabolus heavy stubber; armoured feet.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002565",
+          "line": "1",
+          "name": "War Dog Brigand",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "14",
+          "Ld": "7+",
+          "OC": "6",
+          "base_size": "100mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002566",
+      "name": "War Dog Huntsman",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> daemonbreath spear; diabolus heavy stubber; reaper chaintalon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002566",
+          "line": "1",
+          "name": "War Dog Huntsman",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "14",
+          "Ld": "7+",
+          "OC": "6",
+          "base_size": "100mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002567",
+      "name": "Knight Abominant",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> diabolus heavy stubber; volkite combustor; balemace; electroscourge.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002567",
+          "line": "1",
+          "name": "Knight Abominant",
+          "M": "10\"",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "26",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "170 x 109mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003844",
+      "name": "Cultist Firebrand",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> balefire pike, close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003844",
+          "line": "1",
+          "name": "Cultist Firebrand",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003845",
+      "name": "Dark Commune",
+      "role": "Characters",
+      "loadout": "<b>The Cult Demagogue is equipped with:</b> autopistol; Commune stave. <br><br><b>The Mindwitch is equipped with:</b> Warp Curse; close combat weapon. <br><br><b>The Iconarch is equipped with:</b> autopistol; close combat weapon; Chaos icon. <br><br><b>Every Blessed Blade is equipped with:</b> Commune blade.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003845",
+          "line": "1",
+          "name": "CULT DEMAGOGUE",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000003845",
+          "line": "2",
+          "name": "OTHER MODELS",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "28.5mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003846",
+      "name": "Traitor Enforcer",
+      "role": "Characters",
+      "loadout": "<b>The Traitor Enforcer is equipped with:</b> bolt pistol; power fist. <br><br><b>The Traitor Ogryn is equipped with:</b> Ogryn weapons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003846",
+          "line": "1",
+          "name": "TRAITOR ENFORCER",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Traitor Enforcer model only.",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000003846",
+          "line": "2",
+          "name": "TRAITOR OGRYN",
+          "M": "6\"",
+          "T": "6",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003847",
+      "name": "Renegade Enforcer",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Enforcer pistol; Enforcer melee weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003847",
+          "line": "1",
+          "name": "Renegade Enforcer",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003848",
+      "name": "Rogue Psyker",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> laspistol; Psychic Strike; Chaos stave.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003848",
+          "line": "1",
+          "name": "Rogue Psyker",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003849",
+      "name": "Cultist Mob",
+      "role": "Battleline",
+      "loadout": "<b>Every model is equipped with:</b> autopistol; brutal assault weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003849",
+          "line": "1",
+          "name": "Cultist Mob",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003850",
+      "name": "Cultist Mob with Firearms",
+      "role": "Battleline",
+      "loadout": "<b>The Cultist Champion is equipped with:</b> autopistol; brutal assault weapon.<br><br><b>Every Chaos Cultist is equipped with:</b> autopistol; brutal assault weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003850",
+          "line": "1",
+          "name": "Cultist Mob with Firearms",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003851",
+      "name": "Accursed Cultists",
+      "role": "Other",
+      "loadout": "<b>Every Torment is equipped with:</b> hideous mutations. <br><br><b>Every Mutant is equipped with:</b> blasphemous appendages.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003851",
+          "line": "1",
+          "name": "MUTANT",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000003851",
+          "line": "2",
+          "name": "TORMENT",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003852",
+      "name": "Fellgor Beastmen",
+      "role": "Other",
+      "loadout": "<b>The Fellgor Champion is equipped with:</b> bolt pistol; chainsword. <br><br><b>Every Fellgor Beastman is equipped with:</b> autopistol; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003852",
+          "line": "1",
+          "name": "Fellgor Beastmen",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003853",
+      "name": "Traitor Guardsmen Squad",
+      "role": "Other",
+      "loadout": "<b>The Traitor Sergeant is equipped with:</b> corrupted pistol; close combat weapon. <br><br><b>Every Traitor Guardsman is equipped with:</b> lasgun; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003853",
+          "line": "1",
+          "name": "Traitor Guardsmen Squad",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003854",
+      "name": "Gellerpox Infected",
+      "role": "Other",
+      "loadout": "<b>Every Gellerpox Mutant is equipped with:</b> brutal weapons. <br><br><b>One Nightmare Hulk is equipped with:</b> belly-flamer; hideous mutations. <br><br><b>Every other Nightmare Hulk is equipped with:</b> hideous mutations.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003854",
+          "line": "1",
+          "name": "NIGHTMARE HULK",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000003854",
+          "line": "2",
+          "name": "GELLERPOX MUTANTS",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003855",
+      "name": "Mutoid Vermin",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> diseased claws and fangs.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003855",
+          "line": "1",
+          "name": "Mutoid Vermin",
+          "M": "8\"",
+          "T": "2",
+          "Sv": "7+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "8+",
+          "OC": "0",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003856",
+      "name": "Negavolt Cultists",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> electro-goads.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003856",
+          "line": "1",
+          "name": "Negavolt Cultists",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "7+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003857",
+      "name": "Renegade Heavy Weapons Squad",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> renegade firearm; heavy stubber; close combat weapons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003857",
+          "line": "1",
+          "name": "Renegade Heavy Weapons Squad",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003858",
+      "name": "Renegade Ogryn Beast Handler",
+      "role": "Other",
+      "loadout": "<b>The Ogryn Pack Master is equipped with:</b> mauler goad and ripper claw. <br><br><b>Every Chaos Mauler Hound is equipped with:</b> befouled claws and fangs.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003858",
+          "line": "1",
+          "name": "OGRYN PACK MASTER",
+          "M": "6\"",
+          "T": "6",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000003858",
+          "line": "2",
+          "name": "CHAOS MAULER HOUND",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "60 x 35.5mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003859",
+      "name": "Renegade Ogryn Brutes",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> Ogryn weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003859",
+          "line": "1",
+          "name": "Renegade Ogryn Brutes",
+          "M": "6\"",
+          "T": "6",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003860",
+      "name": "Renegade Plague Ogryns",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> Ogryn plague claws.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003860",
+          "line": "1",
+          "name": "Renegade Plague Ogryns",
+          "M": "5\"",
+          "T": "7",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000004134",
+      "name": "Knight Ruinator",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> darkflame lance; terrorpulse missiles; fellbore.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000004134",
+          "line": "1",
+          "name": "Knight Ruinator",
+          "M": "10\"",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": " * Against ranged attacks only",
+          "W": "26",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "170 x 109mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    }
+  ]
+}

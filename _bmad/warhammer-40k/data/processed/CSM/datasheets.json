@@ -1,0 +1,3021 @@
+{
+  "datasheets": [
+    {
+      "id": "000000924",
+      "name": "Abaddon The Despoiler",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Talon of Horus; Drach\u2019nyen.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000924",
+          "line": "1",
+          "name": "Abaddon The Despoiler",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "9",
+          "Ld": "5+",
+          "OC": "4",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000925",
+      "name": "Huron Blackheart",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Tyrant\u2019s Claw; exalted weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000925",
+          "line": "1",
+          "name": "Huron Blackheart",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000926",
+      "name": "Cypher",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Cypher\u2019s bolt pistol; Cypher\u2019s plasma pistol.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000926",
+          "line": "1",
+          "name": "Cypher",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000928",
+      "name": "Fabius Bile",
+      "role": "Characters",
+      "loadout": "<b>Fabius Bile is equipped with:</b> Xyclos Needler; Chirurgeon; Rod of Torment. <br><br><b>The Surgeon Acolyte is equipped with:</b> Surgeon Acolyte\u2019s tools.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000928",
+          "line": "1",
+          "name": "FABIUS BILE",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000000928",
+          "line": "2",
+          "name": "SURGEON ACOLYTE",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000929",
+      "name": "Chaos Lord",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> plasma pistol; daemon hammer.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000929",
+          "line": "1",
+          "name": "Chaos Lord",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000930",
+      "name": "Chaos Lord In Terminator Armour",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> combi-bolter; exalted weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000930",
+          "line": "1",
+          "name": "Chaos Lord In Terminator Armour",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "6",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000931",
+      "name": "Chaos Lord On Bike",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; combi-bolter; Astartes chainsword; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000931",
+          "line": "1",
+          "name": "Chaos Lord On Bike",
+          "M": "12\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "6",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "75 x 25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000932",
+      "name": "Chaos Lord On Juggernaut",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; Astartes chainsword; bladed horn; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000932",
+          "line": "1",
+          "name": "Chaos Lord On Juggernaut",
+          "M": "10\"",
+          "T": "6",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "7",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "90 x 52mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000933",
+      "name": "Chaos Lord On Disc Of Tzeentch",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; Astartes chainsword; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000933",
+          "line": "1",
+          "name": "Chaos Lord On Disc Of Tzeentch",
+          "M": "12\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "6",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000934",
+      "name": "Chaos Lord On Palanquin Of Nurgle",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; Astartes chainsword; close combat weapon; Nurgling's claws and teeth.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000934",
+          "line": "1",
+          "name": "Chaos Lord On Palanquin Of Nurgle",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "8",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000935",
+      "name": "Chaos Lord On Steed Of Slaanesh",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; Astartes chainsword; close combat weapon; lashing tongue.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000935",
+          "line": "1",
+          "name": "Chaos Lord On Steed Of Slaanesh",
+          "M": "14\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "6",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "No official base size",
+          "base_size_descr": "Use the Chaos Daemon's Seeker base size (60 x 35mm)?",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000936",
+      "name": "Dark Apostle",
+      "role": "Characters",
+      "loadout": "<b>The Dark Apostle is equipped with:</b> bolt pistol; accursed crozius. <br><br><b>Every Dark Disciple is equipped with:</b> close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000936",
+          "line": "1",
+          "name": "DARK APOSTLE",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "5+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000000936",
+          "line": "2",
+          "name": "DARK DISCIPLE",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "6+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000937",
+      "name": "Heretic Astartes Daemon Prince",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> infernal cannon; hellforged weapons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000937",
+          "line": "1",
+          "name": "Heretic Astartes Daemon Prince",
+          "M": "8\"",
+          "T": "10",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000938",
+      "name": "Sorcerer",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; Infernal Gaze; force weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000938",
+          "line": "1",
+          "name": "Sorcerer",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000939",
+      "name": "Sorcerer In Terminator Armour",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> combi-bolter; Infernal Gaze; force weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000939",
+          "line": "1",
+          "name": "Sorcerer In Terminator Armour",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000940",
+      "name": "Sorcerer On Bike",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; combi-bolter; Infernal Gaze; force weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000940",
+          "line": "1",
+          "name": "Sorcerer On Bike",
+          "M": "12\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "75 x 25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000941",
+      "name": "Sorcerer On Disc Of Tzeentch",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; Infernal Gaze; force weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000941",
+          "line": "1",
+          "name": "Sorcerer On Disc Of Tzeentch",
+          "M": "12\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000942",
+      "name": "Sorcerer On Palanquin Of Nurgle",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; Infernal Gaze; force weapon; Nurgling's claws and teeth.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000942",
+          "line": "1",
+          "name": "Sorcerer On Palanquin Of Nurgle",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "7",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000943",
+      "name": "Sorcerer On Steed Of Slaanesh",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; Infernal Gaze; force weapon; lashing tongue.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000943",
+          "line": "1",
+          "name": "Sorcerer On Steed Of Slaanesh",
+          "M": "14\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "No official base size",
+          "base_size_descr": "Use the Chaos Daemon's Seeker base size (60 x 35mm)?",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000944",
+      "name": "Warpsmith",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> flamer tendril; melta tendril; plasma pistol; forge weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000944",
+          "line": "1",
+          "name": "Warpsmith",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "60 x 35.5mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000946",
+      "name": "Cultist Mob",
+      "role": "Battleline",
+      "loadout": "<b>Every model is equipped with:</b> autopistol; brutal assault weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000946",
+          "line": "1",
+          "name": "Cultist Mob",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000947",
+      "name": "Chaos Terminator Squad",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> combi-bolter; accursed weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000947",
+          "line": "1",
+          "name": "Chaos Terminator Squad",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000952",
+      "name": "Chosen",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> boltgun; bolt pistol; accursed weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000952",
+          "line": "1",
+          "name": "Chosen",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000953",
+      "name": "Possessed",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> hideous mutations.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000953",
+          "line": "1",
+          "name": "Possessed",
+          "M": "9\"",
+          "T": "6",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000954",
+      "name": "Helbrute",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> missile launcher; multi-melta; close combat weapon",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000954",
+          "line": "1",
+          "name": "Helbrute",
+          "M": "6\"",
+          "T": "9",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "8",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000955",
+      "name": "Mutilators",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> fleshmetal weapons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000955",
+          "line": "1",
+          "name": "Mutilators",
+          "M": "4\"",
+          "T": "7",
+          "Sv": "2+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000956",
+      "name": "Chaos Rhino",
+      "role": "Dedicated Transports",
+      "loadout": "<b>This model is equipped with:</b> combi-bolter; armoured tracks.",
+      "transport": "This model has a transport capacity of 12 <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> models. It cannot transport <span class=\"tooltip00365\" data-tooltip-content=\"#tooltip_content00365\" data-tooltip-anchor=\"#tooltip_content00365\"><span class=\"kwb\">TERMINATOR</span></span>, <span class=\"tooltip00366\" data-tooltip-content=\"#tooltip_content00366\" data-tooltip-anchor=\"#tooltip_content00366\"><span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Obliterators\"><span class=\"kwb kwbo\">OBLITERATOR</span></a> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Possessed\"><span class=\"kwb kwbo\">POSSESSED</span></a> models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000956",
+          "line": "1",
+          "name": "Chaos Rhino",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000957",
+      "name": "Chaos Bikers",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> bolt pistol; combi-bolter; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000957",
+          "line": "1",
+          "name": "Chaos Bikers",
+          "M": "12\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "75 x 42mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000958",
+      "name": "Raptors",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> bolt pistol; Astartes chainsword.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000958",
+          "line": "1",
+          "name": "Raptors",
+          "M": "12\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000959",
+      "name": "Warp Talons",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> warp claws.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000959",
+          "line": "1",
+          "name": "Warp Talons",
+          "M": "12\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000960",
+      "name": "Chaos Spawn",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> hideous mutations.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000960",
+          "line": "1",
+          "name": "Chaos Spawn",
+          "M": "8\"",
+          "T": "5",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "0",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000961",
+      "name": "Heldrake",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> Hades autocannon; Heldrake claws.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000961",
+          "line": "1",
+          "name": "Heldrake",
+          "M": "20+\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "12",
+          "Ld": "6+",
+          "OC": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000962",
+      "name": "Chaos Land Raider",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 soulshatter lascannons; twin heavy bolter; armoured tracks.",
+      "transport": "This model has a transport capacity of 12 <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> models (excluding <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Obliterators\"><span class=\"kwb kwbo\">OBLITERATOR</span></a> and <span class=\"tooltip00366\" data-tooltip-content=\"#tooltip_content00366\" data-tooltip-anchor=\"#tooltip_content00366\"><span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span> models). Each <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Possessed\"><span class=\"kwb kwbo\">POSSESSED</span></a> and <span class=\"tooltip00365\" data-tooltip-content=\"#tooltip_content00365\" data-tooltip-anchor=\"#tooltip_content00365\"><span class=\"kwb\">TERMINATOR</span></span> model takes up the space of 2 models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000962",
+          "line": "1",
+          "name": "Chaos Land Raider",
+          "M": "10\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "16",
+          "Ld": "6+",
+          "OC": "5",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000963",
+      "name": "Chaos Predator Destructor",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> Predator autocannon; armoured tracks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000963",
+          "line": "1",
+          "name": "Chaos Predator Destructor",
+          "M": "10\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "11",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000964",
+      "name": "Chaos Vindicator",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> demolisher cannon; armoured tracks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000964",
+          "line": "1",
+          "name": "Chaos Vindicator",
+          "M": "9\"",
+          "T": "11",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "11",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000965",
+      "name": "Obliterators",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> fleshmetal guns; crushing fists.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000965",
+          "line": "1",
+          "name": "Obliterators",
+          "M": "4\"",
+          "T": "7",
+          "Sv": "2+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "50mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000966",
+      "name": "Havocs",
+      "role": "Other",
+      "loadout": "<b>The Havoc Champion is equipped with:</b> flamer; Astartes chainsword.<br><br><b>2 Havocs are equipped with:</b> Havoc autocannon; close combat weapon. <br><br><b>2 Havocs are equipped with:</b> Havoc lascannon; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000966",
+          "line": "1",
+          "name": "Havocs",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000967",
+      "name": "Forgefiend",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 Hades autocannons; Forgefiend jaws.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000967",
+          "line": "1",
+          "name": "Forgefiend",
+          "M": "8\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "12",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000968",
+      "name": "Maulerfiend",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> lasher tendrils; Maulerfiend fists.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000968",
+          "line": "1",
+          "name": "Maulerfiend",
+          "M": "10\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "12",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000969",
+      "name": "Defiler",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> Defiler cannon; reaper autocannon; twin heavy flamer; Defiler claws.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000969",
+          "line": "1",
+          "name": "Defiler",
+          "M": "8\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "6+",
+          "OC": "5",
+          "base_size": "160mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000970",
+      "name": "Khorne Lord Of Skulls",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> gorestorm cannon; Hades gatling cannon; great cleaver of Khorne.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000970",
+          "line": "1",
+          "name": "Khorne Lord Of Skulls",
+          "M": "8\"",
+          "T": "13",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "24",
+          "Ld": "6+",
+          "OC": "8",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001293",
+      "name": "Blood Slaughterer",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> impaler harpoon; slaughter blade.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001293",
+          "line": "1",
+          "name": "Blood Slaughterer",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001294",
+      "name": "Greater Blight Drone",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> bile maw; blightreaper cannon; greater plague probe.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001294",
+          "line": "1",
+          "name": "Greater Blight Drone",
+          "M": "10\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001295",
+      "name": "Decimator",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 Decimator butcher cannons; armoured feet.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001295",
+          "line": "1",
+          "name": "Decimator",
+          "M": "10\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "12",
+          "Ld": "6+",
+          "OC": "4",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001297",
+      "name": "Kytan Ravager",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> Kytan gatling cannon; Kytan cleaver.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001297",
+          "line": "1",
+          "name": "Kytan Ravager",
+          "M": "10\"",
+          "T": "12",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "24",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "170 x 109mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001298",
+      "name": "Greater Brass Scorpion",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> demolisher cannon; Scorpion cannon; hellmaw flame cannons; hellcrusher claws.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001298",
+          "line": "1",
+          "name": "Greater Brass Scorpion",
+          "M": "12\"",
+          "T": "12",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "26",
+          "Ld": "6+",
+          "OC": "10",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001302",
+      "name": "Chaos Deimos Predator",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> plasma destroyer; armoured tracks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001302",
+          "line": "1",
+          "name": "Chaos Deimos Predator",
+          "M": "10\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "11",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001310",
+      "name": "Dreadclaw Drop Pod",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> blade struts.",
+      "transport": "This model has a transport capacity of 12 <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> models. Each <span class=\"tooltip00366\" data-tooltip-content=\"#tooltip_content00366\" data-tooltip-anchor=\"#tooltip_content00366\"><span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Possessed\"><span class=\"kwb kwbo\">POSSESSED</span></a> and <span class=\"tooltip00365\" data-tooltip-content=\"#tooltip_content00365\" data-tooltip-anchor=\"#tooltip_content00365\"><span class=\"kwb\">TERMINATOR</span></span> model takes up the space of 2 models. Each <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Obliterators\"><span class=\"kwb kwbo\">OBLITERATOR</span></a> model takes up the space of 3 models. This model can instead transport 1 <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Helbrute\"><span class=\"kwb kwbo\">HELBRUTE</span></a> or <span class=\"tooltip00367\" data-tooltip-content=\"#tooltip_content00367\" data-tooltip-anchor=\"#tooltip_content00367\"><span class=\"kwb\">DREADNOUGHT</span></span> model.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001310",
+          "line": "1",
+          "name": "Dreadclaw Drop Pod",
+          "M": "12\"",
+          "T": "7",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "9",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001311",
+      "name": "Kharybdis Assault Claw",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 5 Kharybdis storm launchers; blade struts; melta array.",
+      "transport": "This model has a transport capacity of 22 <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> models. Each <span class=\"tooltip00366\" data-tooltip-content=\"#tooltip_content00366\" data-tooltip-anchor=\"#tooltip_content00366\"><span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Possessed\"><span class=\"kwb kwbo\">POSSESSED</span></a> and <span class=\"tooltip00365\" data-tooltip-content=\"#tooltip_content00365\" data-tooltip-anchor=\"#tooltip_content00365\"><span class=\"kwb\">TERMINATOR</span></span> model takes up the space of 2 models. Each <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Obliterators\"><span class=\"kwb kwbo\">OBLITERATOR</span></a> model takes up the space of 3 models. This model can instead transport 1 <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Helbrute\"><span class=\"kwb kwbo\">HELBRUTE</span></a> or <span class=\"tooltip00367\" data-tooltip-content=\"#tooltip_content00367\" data-tooltip-anchor=\"#tooltip_content00367\"><span class=\"kwb\">DREADNOUGHT</span></span> model.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001311",
+          "line": "1",
+          "name": "Kharybdis Assault Claw",
+          "M": "12\"",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "20",
+          "Ld": "6+",
+          "OC": "4",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001317",
+      "name": "Hell Blade",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 twin autocannons; armoured hull.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001317",
+          "line": "1",
+          "name": "Hell Blade",
+          "M": "20+\"",
+          "T": "8",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "6+",
+          "OC": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001318",
+      "name": "Hell Talon",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> autocannon; twin lascannon; armoured hull.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001318",
+          "line": "1",
+          "name": "Hell Talon",
+          "M": "20+\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "6+",
+          "OC": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001321",
+      "name": "Chaos Thunderhawk",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 lascannons; Thunderhawk heavy cannon; 4 twin heavy bolters; armoured hull; Thunderhawk cluster bombs.",
+      "transport": "This model has a transport capacity of 30 <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> or <span class=\"tooltip00368\" data-tooltip-content=\"#tooltip_content00368\" data-tooltip-anchor=\"#tooltip_content00368\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">MOUNTED</span></span> models. Each <span class=\"tooltip00366\" data-tooltip-content=\"#tooltip_content00366\" data-tooltip-anchor=\"#tooltip_content00366\"><span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Possessed\"><span class=\"kwb kwbo\">POSSESSED</span></a> and <span class=\"tooltip00365\" data-tooltip-content=\"#tooltip_content00365\" data-tooltip-anchor=\"#tooltip_content00365\"><span class=\"kwb\">TERMINATOR</span></span> model takes up the space of 2 models. Each <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Obliterators\"><span class=\"kwb kwbo\">OBLITERATOR</span></a> model takes up the space of 3 models. Each <span class=\"tooltip00369\" data-tooltip-content=\"#tooltip_content00369\" data-tooltip-anchor=\"#tooltip_content00369\"><span class=\"kwb\">MOUNTED</span></span> model takes up the space of 4 models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001321",
+          "line": "1",
+          "name": "Chaos Thunderhawk",
+          "M": "20+\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "30",
+          "Ld": "6+",
+          "OC": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001355",
+      "name": "Exalted Champion",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; combi-weapon; exalted weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001355",
+          "line": "1",
+          "name": "Exalted Champion",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001556",
+      "name": "Haarken Worldclaimer",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Helspear; Herald\u2019s Talon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001556",
+          "line": "1",
+          "name": "Haarken Worldclaimer",
+          "M": "12\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001581",
+      "name": "Master Of Possession",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; Rite of Possession; staff of possession.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001581",
+          "line": "1",
+          "name": "Master Of Possession",
+          "M": "8\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001583",
+      "name": "Lord Discordant On Helstalker",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; Helstalker autocannon; techno-virus injector; bladed limbs; impaler chainglaive.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001583",
+          "line": "1",
+          "name": "Lord Discordant On Helstalker",
+          "M": "14\"",
+          "T": "9",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "6+",
+          "OC": "4",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001584",
+      "name": "Master Of Executions",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; axe of dismemberment.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001584",
+          "line": "1",
+          "name": "Master Of Executions",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001586",
+      "name": "Venomcrawler",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 excruciator cannons; soulflayer tendrils and claws.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001586",
+          "line": "1",
+          "name": "Venomcrawler",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "9",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "100mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001587",
+      "name": "Noctilith Crown",
+      "role": "Fortifications",
+      "loadout": "<b>This model is equipped with:</b> lashing warp energies.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001587",
+          "line": "1",
+          "name": "Noctilith Crown",
+          "M": "-",
+          "T": "11",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "6+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001600",
+      "name": "Rogue Psyker",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> laspistol; Psychic Strike; Chaos stave.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001600",
+          "line": "1",
+          "name": "Rogue Psyker",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001601",
+      "name": "Negavolt Cultists",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> electro-goads.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001601",
+          "line": "1",
+          "name": "Negavolt Cultists",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "7+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001604",
+      "name": "Fellgor Beastmen",
+      "role": "Other",
+      "loadout": "<b>The Fellgor Champion is equipped with:</b> bolt pistol; chainsword. <br><br><b>Every Fellgor Beastman is equipped with:</b> autopistol; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001604",
+          "line": "1",
+          "name": "Fellgor Beastmen",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002569",
+      "name": "Dark Commune",
+      "role": "Characters",
+      "loadout": "<b>The Cult Demagogue is equipped with:</b> autopistol; Commune stave. <br><br><b>The Mindwitch is equipped with:</b> Warp Curse; close combat weapon. <br><br><b>The Iconarch is equipped with:</b> autopistol; close combat weapon; Chaos icon. <br><br><b>Every Blessed Blade is equipped with:</b> Commune blade.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002569",
+          "line": "1",
+          "name": "CULT DEMAGOGUE",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000002569",
+          "line": "2",
+          "name": "OTHER MODELS",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "28.5mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002570",
+      "name": "Legionaries",
+      "role": "Battleline",
+      "loadout": "<b>Every model is equipped with:</b> bolt pistol; boltgun; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002570",
+          "line": "1",
+          "name": "Legionaries",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002571",
+      "name": "Accursed Cultists",
+      "role": "Other",
+      "loadout": "<b>Every Torment is equipped with:</b> hideous mutations. <br><br><b>Every Mutant is equipped with:</b> blasphemous appendages.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002571",
+          "line": "1",
+          "name": "MUTANT",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000002571",
+          "line": "2",
+          "name": "TORMENT",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002572",
+      "name": "Chaos Predator Annihilator",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> Predator twin lascannon; armoured tracks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002572",
+          "line": "1",
+          "name": "Chaos Predator Annihilator",
+          "M": "10\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "11",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002589",
+      "name": "Traitor Enforcer",
+      "role": "Characters",
+      "loadout": "<b>The Traitor Enforcer is equipped with:</b> bolt pistol; power fist. <br><br><b>The Traitor Ogryn is equipped with:</b> Ogryn weapons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002589",
+          "line": "1",
+          "name": "TRAITOR ENFORCER",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "5",
+          "inv_sv_descr": "* Traitor Enforcer model only.",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000002589",
+          "line": "2",
+          "name": "TRAITOR OGRYN",
+          "M": "6\"",
+          "T": "6",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002590",
+      "name": "Traitor Guardsmen Squad",
+      "role": "Other",
+      "loadout": "<b>The Traitor Sergeant is equipped with:</b> corrupted pistol; close combat weapon. <br><br><b>Every Traitor Guardsman is equipped with:</b> lasgun; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002590",
+          "line": "1",
+          "name": "Traitor Guardsmen Squad",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002591",
+      "name": "Mutoid Vermin",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> diseased claws and fangs.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002591",
+          "line": "1",
+          "name": "Mutoid Vermin",
+          "M": "8\"",
+          "T": "2",
+          "Sv": "7+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "8+",
+          "OC": "0",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002592",
+      "name": "Gellerpox Infected",
+      "role": "Other",
+      "loadout": "<b>Every Gellerpox Mutant is equipped with:</b> brutal weapons. <br><br><b>One Nightmare Hulk is equipped with:</b> belly-flamer; hideous mutations. <br><br><b>Every other Nightmare Hulk is equipped with:</b> hideous mutations.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002592",
+          "line": "1",
+          "name": "NIGHTMARE HULK",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000002592",
+          "line": "2",
+          "name": "GELLERPOX MUTANTS",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002679",
+      "name": "Vashtorr The Arkifane",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Vashtorr\u2019s claw; Vashtorr\u2019s hammer.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002679",
+          "line": "1",
+          "name": "Vashtorr The Arkifane",
+          "M": "12\"",
+          "T": "10",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "80mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002730",
+      "name": "Heretic Astartes Daemon Prince With Wings",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> infernal cannon; hellforged weapons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002730",
+          "line": "1",
+          "name": "Heretic Astartes Daemon Prince With Wings",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002731",
+      "name": "Renegade Enforcer",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Enforcer pistol; Enforcer melee weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002731",
+          "line": "1",
+          "name": "Renegade Enforcer",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002732",
+      "name": "Renegade Heavy Weapons Squad",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> renegade firearm; heavy stubber; close combat weapons.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002732",
+          "line": "1",
+          "name": "Renegade Heavy Weapons Squad",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002733",
+      "name": "Renegade Ogryn Beast Handler",
+      "role": "Other",
+      "loadout": "<b>The Ogryn Pack Master is equipped with:</b> mauler goad and ripper claw. <br><br><b>Every Chaos Mauler Hound is equipped with:</b> befouled claws and fangs.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002733",
+          "line": "1",
+          "name": "OGRYN PACK MASTER",
+          "M": "6\"",
+          "T": "6",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000002733",
+          "line": "2",
+          "name": "CHAOS MAULER HOUND",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "60 x 35.5mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002734",
+      "name": "Renegade Ogryn Brutes",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> Ogryn weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002734",
+          "line": "1",
+          "name": "Renegade Ogryn Brutes",
+          "M": "6\"",
+          "T": "6",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002735",
+      "name": "Renegade Plague Ogryns",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> Ogryn plague claws.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002735",
+          "line": "1",
+          "name": "Renegade Plague Ogryns",
+          "M": "5\"",
+          "T": "7",
+          "Sv": "5+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003582",
+      "name": "Khorne Berzerkers",
+      "role": "Battleline",
+      "loadout": "<b>Every model is equipped with:</b> bolt pistol; chainblade.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003582",
+          "line": "1",
+          "name": "Khorne Berzerkers",
+          "M": "8\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003583",
+      "name": "Rubric Marines",
+      "role": "Battleline",
+      "loadout": "<b>The Aspiring Sorcerer is equipped with:</b> inferno bolt pistol; Malefic Curse; force weapon.<br><br><b>Every Rubric Marine is equipped with:</b> inferno boltgun; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003583",
+          "line": "1",
+          "name": "Rubric Marine",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "7+",
+          "OC": "2",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        },
+        {
+          "datasheet_id": "000003583",
+          "line": "2",
+          "name": "Aspiring Sorcerer",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003584",
+      "name": "Plague Marines",
+      "role": "Battleline",
+      "loadout": "<b>Every model is equipped with:</b> boltgun; plague knives.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003584",
+          "line": "1",
+          "name": "Plague Marines",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003606",
+      "name": "Terrax-pattern Termite",
+      "role": "Dedicated Transports",
+      "loadout": "<b>This model is equipped with:</b> Terrax melta cutter; 2 combi-bolters; Termite drill.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 12 <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> models. It cannot transport <span class=\"tooltip00366\" data-tooltip-content=\"#tooltip_content00366\" data-tooltip-anchor=\"#tooltip_content00366\"><span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span>, <span class=\"tooltip\" title=\"Keyword does not appear in that faction.\"><s class=\"kwbs\">WULFEN</s></span>, <span class=\"tooltip\" title=\"Keyword does not appear in that faction.\"><s class=\"kwbs\">PHOBOS</s></span>, <span class=\"tooltip\" title=\"Keyword does not appear in that faction.\"><s class=\"kwbs\">GRAVIS</s></span>, <span class=\"tooltip\" title=\"Keyword does not appear in that faction.\"><s class=\"kwbs\">CENTURION</s></span>, <span class=\"tooltip00365\" data-tooltip-content=\"#tooltip_content00365\" data-tooltip-anchor=\"#tooltip_content00365\"><span class=\"kwb\">TERMINATOR</span></span>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Obliterators\"><span class=\"kwb kwbo\">OBLITERATOR</span></a>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Possessed\"><span class=\"kwb kwbo\">POSSESSED</span></a> or <span class=\"tooltip\" title=\"Keyword does not appear in that faction.\"><s class=\"kwbs\">TACTICUS</s></span> models (excluding <span class=\"kwb\">TACTICUS</span> <span class=\"kwb\">CHARACTER</span> models that began the battle <a href=\"/wh40k10ed/the-rules/core-rules/#Attached-Units\">attached</a> to a non-<span class=\"kwb\">TACTICUS</span> unit).",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003606",
+          "line": "1",
+          "name": "Terrax-pattern Termite",
+          "M": "8\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003610",
+      "name": "Land Raider Achilles",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> quad launcher; 2 twin volkite culverins; armoured tracks.",
+      "transport": "This model has a transport capacity of 12 <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> models. Each <span class=\"tooltip00371\" data-tooltip-content=\"#tooltip_content00371\" data-tooltip-anchor=\"#tooltip_content00371\"><span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span>, <span class=\"tooltip00012\" data-tooltip-content=\"#tooltip_content00012\" data-tooltip-anchor=\"#tooltip_content00012\"><span class=\"kwb\">WULFEN</span></span>, <span class=\"tooltip00372\" data-tooltip-content=\"#tooltip_content00372\" data-tooltip-anchor=\"#tooltip_content00372\"><span class=\"kwb\">GRAVIS</span></span>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Possessed\"><span class=\"kwb kwbo\">POSSESSED</span></a> or <span class=\"tooltip00311\" data-tooltip-content=\"#tooltip_content00311\" data-tooltip-anchor=\"#tooltip_content00311\"><span class=\"kwb\">TERMINATOR</span></span> model takes up the space of 2 models and each <span class=\"tooltip00373\" data-tooltip-content=\"#tooltip_content00373\" data-tooltip-anchor=\"#tooltip_content00373\"><span class=\"kwb\">CENTURION</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Obliterators\"><span class=\"kwb kwbo\">OBLITERATOR</span></a> model takes up the space of 3 models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003610",
+          "line": "1",
+          "name": "Land Raider Achilles",
+          "M": "10\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "16",
+          "Ld": "6+",
+          "OC": "5",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003614",
+      "name": "Land Raider Proteus",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 twin lascannons; armoured tracks.",
+      "transport": "This model has a transport capacity of 12 <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> models. Each <span class=\"tooltip00371\" data-tooltip-content=\"#tooltip_content00371\" data-tooltip-anchor=\"#tooltip_content00371\"><span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span>, <span class=\"tooltip00012\" data-tooltip-content=\"#tooltip_content00012\" data-tooltip-anchor=\"#tooltip_content00012\"><span class=\"kwb\">WULFEN</span></span>, <span class=\"tooltip00372\" data-tooltip-content=\"#tooltip_content00372\" data-tooltip-anchor=\"#tooltip_content00372\"><span class=\"kwb\">GRAVIS</span></span>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Possessed\"><span class=\"kwb kwbo\">POSSESSED</span></a> or <span class=\"tooltip00311\" data-tooltip-content=\"#tooltip_content00311\" data-tooltip-anchor=\"#tooltip_content00311\"><span class=\"kwb\">TERMINATOR</span></span> model takes up the space of 2 models and each <span class=\"tooltip00373\" data-tooltip-content=\"#tooltip_content00373\" data-tooltip-anchor=\"#tooltip_content00373\"><span class=\"kwb\">CENTURION</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Obliterators\"><span class=\"kwb kwbo\">OBLITERATOR</span></a> model takes up the space of 3 models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003614",
+          "line": "1",
+          "name": "Land Raider Proteus",
+          "M": "12\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "16",
+          "Ld": "6+",
+          "OC": "5",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003618",
+      "name": "Fire Raptor Gunship",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> twin avenger bolt cannon; 2 twin autocannons; 2 twin hellstrike launchers; armoured hull",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003618",
+          "line": "1",
+          "name": "Fire Raptor Gunship",
+          "M": "20+\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "18",
+          "Ld": "6+",
+          "OC": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003622",
+      "name": "Spartan",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 quad lascannons; twin heavy bolter; armoured tracks.",
+      "transport": "This model has a transport capacity of 28 <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> models. Each <span class=\"tooltip00371\" data-tooltip-content=\"#tooltip_content00371\" data-tooltip-anchor=\"#tooltip_content00371\"><span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span>, <span class=\"tooltip00012\" data-tooltip-content=\"#tooltip_content00012\" data-tooltip-anchor=\"#tooltip_content00012\"><span class=\"kwb\">WULFEN</span></span>, <span class=\"tooltip00372\" data-tooltip-content=\"#tooltip_content00372\" data-tooltip-anchor=\"#tooltip_content00372\"><span class=\"kwb\">GRAVIS</span></span>, <span class=\"tooltip\" title=\"Keyword does not appear in that faction.\"><s class=\"kwbs\">POSSESSED</s></span> or <span class=\"tooltip00311\" data-tooltip-content=\"#tooltip_content00311\" data-tooltip-anchor=\"#tooltip_content00311\"><span class=\"kwb\">TERMINATOR</span></span> model takes up the space of 2 models and each <span class=\"tooltip00373\" data-tooltip-content=\"#tooltip_content00373\" data-tooltip-anchor=\"#tooltip_content00373\"><span class=\"kwb\">CENTURION</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Obliterators\"><span class=\"kwb kwbo\">OBLITERATOR</span></a> model takes up the space of 3 models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003622",
+          "line": "1",
+          "name": "Spartan",
+          "M": "10\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "18",
+          "Ld": "6+",
+          "OC": "6",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003626",
+      "name": "Deredeo Dreadnought",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> anvilus autocannon battery; twin heavy bolter; armoured feet.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003626",
+          "line": "1",
+          "name": "Deredeo Dreadnought",
+          "M": "6\"",
+          "T": "9",
+          "Sv": "2+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "12",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "80mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003630",
+      "name": "Cerberus",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> Cerberus neutron pulse array; armoured tracks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003630",
+          "line": "1",
+          "name": "Cerberus",
+          "M": "10\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "18",
+          "Ld": "6+",
+          "OC": "6",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003634",
+      "name": "Kratos",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> autocannon; Kratos battle cannon; 4 heavy bolters; armoured tracks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003634",
+          "line": "1",
+          "name": "Kratos",
+          "M": "10\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "18",
+          "Ld": "6+",
+          "OC": "6",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003638",
+      "name": "Sokar-pattern Stormbird",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> hellstrike missile battery; 3 twin heavy bolters; 4 twin lascannons; armoured hull.",
+      "transport": "This model has a transport capacity of 55 <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> or <span class=\"tooltip00368\" data-tooltip-content=\"#tooltip_content00368\" data-tooltip-anchor=\"#tooltip_content00368\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">MOUNTED</span></span> models. Each <span class=\"tooltip00371\" data-tooltip-content=\"#tooltip_content00371\" data-tooltip-anchor=\"#tooltip_content00371\"><span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span>, <span class=\"tooltip00012\" data-tooltip-content=\"#tooltip_content00012\" data-tooltip-anchor=\"#tooltip_content00012\"><span class=\"kwb\">WULFEN</span></span>, <span class=\"tooltip00372\" data-tooltip-content=\"#tooltip_content00372\" data-tooltip-anchor=\"#tooltip_content00372\"><span class=\"kwb\">GRAVIS</span></span>, <span class=\"tooltip\" title=\"Keyword does not appear in that faction.\"><s class=\"kwbs\">POSSESSED</s></span> or <span class=\"tooltip00311\" data-tooltip-content=\"#tooltip_content00311\" data-tooltip-anchor=\"#tooltip_content00311\"><span class=\"kwb\">TERMINATOR</span></span> model takes up the space of 2 models and each <span class=\"kwb\">MOUNTED</span>, <span class=\"tooltip00373\" data-tooltip-content=\"#tooltip_content00373\" data-tooltip-anchor=\"#tooltip_content00373\"><span class=\"kwb\">CENTURION</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Obliterators\"><span class=\"kwb kwbo\">OBLITERATOR</span></a> model takes up the space of 3 models. This model can also transport up to 1 <a class=\"kwbOne\" href=\"/wh40k10ed/factions/space-marines/Rhino\"><span class=\"kwb kwbo\">RHINO</span></a> model (this model \u2013 and any models <a href=\"/wh40k10ed/the-rules/core-rules/#Embark\">embarked</a> within it \u2013 take up the space of 25 models).",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003638",
+          "line": "1",
+          "name": "Sokar-pattern Stormbird",
+          "M": "20+\"",
+          "T": "13",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "* Against ranged attacks only",
+          "W": "40",
+          "Ld": "6+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003642",
+      "name": "Sicaran Battle Tank",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> heavy bolter; Herakles-pattern autocannon; armoured tracks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003642",
+          "line": "1",
+          "name": "Sicaran Battle Tank",
+          "M": "10\"",
+          "T": "11",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "6+",
+          "OC": "4",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003646",
+      "name": "Mastodon",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 heavy flamers; 2 lascannons; siege melta array; skyreaper battery; armoured tracks.",
+      "transport": "This model has a transport capacity of 45 <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> models. Each <span class=\"tooltip00371\" data-tooltip-content=\"#tooltip_content00371\" data-tooltip-anchor=\"#tooltip_content00371\"><span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span>, <span class=\"tooltip00012\" data-tooltip-content=\"#tooltip_content00012\" data-tooltip-anchor=\"#tooltip_content00012\"><span class=\"kwb\">WULFEN</span></span>, <span class=\"tooltip00372\" data-tooltip-content=\"#tooltip_content00372\" data-tooltip-anchor=\"#tooltip_content00372\"><span class=\"kwb\">GRAVIS</span></span>, <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Possessed\"><span class=\"kwb kwbo\">POSSESSED</span></a> or <span class=\"tooltip00311\" data-tooltip-content=\"#tooltip_content00311\" data-tooltip-anchor=\"#tooltip_content00311\"><span class=\"kwb\">TERMINATOR</span></span> model takes up the space of 2 models and each <span class=\"tooltip00373\" data-tooltip-content=\"#tooltip_content00373\" data-tooltip-anchor=\"#tooltip_content00373\"><span class=\"kwb\">CENTURION</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Obliterators\"><span class=\"kwb kwbo\">OBLITERATOR</span></a> model takes up the space of 3 models. This model can also transport up to 2 <span class=\"tooltip00312\" data-tooltip-content=\"#tooltip_content00312\" data-tooltip-anchor=\"#tooltip_content00312\"><span class=\"kwb\">DREADNOUGHT</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Helbrute\"><span class=\"kwb kwbo\">HELBRUTE</span></a> models (these models take up the space of a number of models equal to their Wounds characteristic e.g. A <span class=\"tooltip00367\" data-tooltip-content=\"#tooltip_content00367\" data-tooltip-anchor=\"#tooltip_content00367\"><span class=\"kwb\">DREADNOUGHT</span></span> with a Wounds characteristic of 8 would take up the space of 8 models).",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003646",
+          "line": "1",
+          "name": "Mastodon",
+          "M": "9\"",
+          "T": "14",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "30",
+          "Ld": "6+",
+          "OC": "12",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003650",
+      "name": "Leviathan Dreadnought",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 heavy flamers; 2 grav-flux bombards; armoured feet.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003650",
+          "line": "1",
+          "name": "Leviathan Dreadnought",
+          "M": "8\"",
+          "T": "10",
+          "Sv": "2+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "12",
+          "Ld": "6+",
+          "OC": "4",
+          "base_size": "80mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003654",
+      "name": "Fellblade",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> demolisher cannon; Fellblade accelerator cannon; 2 quad lascannons; twin heavy bolter; armoured tracks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003654",
+          "line": "1",
+          "name": "Fellblade",
+          "M": "9\"",
+          "T": "13",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "24",
+          "Ld": "6+",
+          "OC": "8",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003658",
+      "name": "Relic Contemptor Dreadnought",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 heavy plasma cannons; armoured feet.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003658",
+          "line": "1",
+          "name": "Relic Contemptor Dreadnought",
+          "M": "6\"",
+          "T": "9",
+          "Sv": "2+",
+          "inv_sv": "5",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003662",
+      "name": "Whirlwind Scorpius",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> Scorpius multi-launcher; armoured tracks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003662",
+          "line": "1",
+          "name": "Whirlwind Scorpius",
+          "M": "10\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "11",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003666",
+      "name": "Xiphon Interceptor",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 twin lascannons; Xiphon missile battery; armoured hull.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003666",
+          "line": "1",
+          "name": "Xiphon Interceptor",
+          "M": "20+\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "12",
+          "Ld": "6+",
+          "OC": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003670",
+      "name": "Rapier Carrier",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> boltgun; quad heavy bolter; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003670",
+          "line": "1",
+          "name": "Rapier Carrier",
+          "M": "3\"",
+          "T": "6",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "6",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003674",
+      "name": "Storm Eagle Gunship",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> twin heavy bolter; 2 twin hellstrike launchers; vengeance launcher; armoured hull.",
+      "transport": "This model has a transport capacity of 22 <span class=\"tooltip00364\" data-tooltip-content=\"#tooltip_content00364\" data-tooltip-anchor=\"#tooltip_content00364\"><span class=\"kwb\">HERETIC</span> <span class=\"kwb\">ASTARTES</span> <span class=\"kwb\">INFANTRY</span></span> models and 1 <span class=\"tooltip00312\" data-tooltip-content=\"#tooltip_content00312\" data-tooltip-anchor=\"#tooltip_content00312\"><span class=\"kwb\">DREADNOUGHT</span></span> model. Each <span class=\"tooltip00371\" data-tooltip-content=\"#tooltip_content00371\" data-tooltip-anchor=\"#tooltip_content00371\"><span class=\"kwb\">JUMP</span> <span class=\"kwb\">PACK</span></span>, <span class=\"tooltip00012\" data-tooltip-content=\"#tooltip_content00012\" data-tooltip-anchor=\"#tooltip_content00012\"><span class=\"kwb\">WULFEN</span></span>, <span class=\"tooltip00372\" data-tooltip-content=\"#tooltip_content00372\" data-tooltip-anchor=\"#tooltip_content00372\"><span class=\"kwb\">GRAVIS</span></span>, <span class=\"tooltip00311\" data-tooltip-content=\"#tooltip_content00311\" data-tooltip-anchor=\"#tooltip_content00311\"><span class=\"kwb\">TERMINATOR</span></span> or <span class=\"tooltip\" title=\"Keyword does not appear in that faction.\"><s class=\"kwbs\">POSSESSED</s></span> model takes up the space of 2 models and each <span class=\"tooltip00373\" data-tooltip-content=\"#tooltip_content00373\" data-tooltip-anchor=\"#tooltip_content00373\"><span class=\"kwb\">CENTURION</span></span> or <a class=\"kwbOne\" href=\"/wh40k10ed/factions/chaos-space-marines/Obliterators\"><span class=\"kwb kwbo\">OBLITERATOR</span></a> model takes up the space of 3 models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003674",
+          "line": "1",
+          "name": "Storm Eagle Gunship",
+          "M": "20+\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "18",
+          "Ld": "6+",
+          "OC": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003678",
+      "name": "Sicaran Venator",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> heavy bolter; Venator neutron laser; armoured tracks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003678",
+          "line": "1",
+          "name": "Sicaran Venator",
+          "M": "10\"",
+          "T": "11",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "6+",
+          "OC": "4",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003682",
+      "name": "Typhon",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> dreadhammer siege cannon; armoured tracks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003682",
+          "line": "1",
+          "name": "Typhon",
+          "M": "10\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "18",
+          "Ld": "6+",
+          "OC": "6",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003686",
+      "name": "Sicaran Punisher",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> heavy bolter; Punisher rotary cannon; armoured tracks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003686",
+          "line": "1",
+          "name": "Sicaran Punisher",
+          "M": "10\"",
+          "T": "11",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "6+",
+          "OC": "4",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003690",
+      "name": "Falchion",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 quad lascannons; twin heavy bolter; twin Falchion volcano cannon; armoured tracks.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003690",
+          "line": "1",
+          "name": "Falchion",
+          "M": "9\"",
+          "T": "13",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "24",
+          "Ld": "6+",
+          "OC": "8",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003711",
+      "name": "Chaos Lord with Jump Pack",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> bolt pistol; accursed weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003711",
+          "line": "1",
+          "name": "Chaos Lord",
+          "M": "12\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003712",
+      "name": "Cultist Firebrand",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> balefire pike, close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003712",
+          "line": "1",
+          "name": "Cultist Firebrand",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "4+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003713",
+      "name": "Cultist Mob with Firearms",
+      "role": "Battleline",
+      "loadout": "<b>The Cultist Champion is equipped with:</b> autopistol; brutal assault weapon.<br><br><b>Every Chaos Cultist is equipped with:</b> autopistol; brutal assault weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003713",
+          "line": "1",
+          "name": "Cultist Mob with Firearms",
+          "M": "6\"",
+          "T": "3",
+          "Sv": "6+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "7+",
+          "OC": "1",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000003876",
+      "name": "Nemesis Claw",
+      "role": "Other",
+      "loadout": "<b>The Visionary is equipped with:</b> bolt pistol; Nostraman chainblade.<br><br><b>Each Legionary is equipped with:</b> bolt pistol; boltgun; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000003876",
+          "line": "1",
+          "name": "Legionaries",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000004099",
+      "name": "Noise Marines",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> sonic blaster; close combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000004099",
+          "line": "1",
+          "name": "Noise Marines",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    }
+  ]
+}

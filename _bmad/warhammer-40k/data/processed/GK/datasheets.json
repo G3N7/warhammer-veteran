@@ -1,0 +1,841 @@
+{
+  "datasheets": [
+    {
+      "id": "000000373",
+      "name": "Kaldor Draigo",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Scourging; storm bolter; the Titansword.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000373",
+          "line": "1",
+          "name": "Kaldor Draigo",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "7",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000374",
+      "name": "Grand Master Voldus",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Searing Purity; storm bolter; Malleus Argyrum.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000374",
+          "line": "1",
+          "name": "Grand Master Voldus",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "7",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000375",
+      "name": "Grand Master",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> storm bolter; Nemesis force weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000375",
+          "line": "1",
+          "name": "Grand Master",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "7",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000376",
+      "name": "Brother-captain",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> storm bolter; Nemesis force weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000376",
+          "line": "1",
+          "name": "Brother-captain",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "6",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000377",
+      "name": "Brother-captain Stern",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> storm bolter; Nemesis force sword.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000377",
+          "line": "1",
+          "name": "Brother-captain Stern",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "6",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000379",
+      "name": "Brotherhood Champion",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> storm bolter; Nemesis force weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000379",
+          "line": "1",
+          "name": "Brotherhood Champion",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000380",
+      "name": "Castellan Crowe",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Purifying Flame; storm bolter; Black Blade of Antwyr.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000380",
+          "line": "1",
+          "name": "Castellan Crowe",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000381",
+      "name": "Strike Squad",
+      "role": "Battleline",
+      "loadout": "<b>Every model is equipped with:</b> storm bolter; Nemesis force weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000381",
+          "line": "1",
+          "name": "Strike Squad",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000382",
+      "name": "Brotherhood Terminator Squad",
+      "role": "Battleline",
+      "loadout": "<b>Every model is equipped with:</b> storm bolter; Nemesis force weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000382",
+          "line": "1",
+          "name": "Brotherhood Terminator Squad",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000383",
+      "name": "Purifier Squad",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> Purifying Flame; storm bolter; Nemesis force weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000383",
+          "line": "1",
+          "name": "Purifier Squad",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000384",
+      "name": "Paladin Squad",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> storm bolter; Nemesis force weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000384",
+          "line": "1",
+          "name": "Paladin Squad",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000387",
+      "name": "Interceptor Squad",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> storm bolter; Nemesis force weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000387",
+          "line": "1",
+          "name": "Interceptor Squad",
+          "M": "12\"",
+          "T": "4",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000388",
+      "name": "Purgation Squad",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> storm bolter; Nemesis force weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000388",
+          "line": "1",
+          "name": "Purgation Squad",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000389",
+      "name": "Nemesis Dreadknight",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> dreadfists.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000389",
+          "line": "1",
+          "name": "Nemesis Dreadknight",
+          "M": "8\"",
+          "T": "8",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "13",
+          "Ld": "6+",
+          "OC": "4",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000390",
+      "name": "Grey Knights Dreadnought",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> assault cannon; storm bolter; Dreadnought combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000390",
+          "line": "1",
+          "name": "Grey Knights Dreadnought",
+          "M": "6\"",
+          "T": "9",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "8",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000391",
+      "name": "Land Raider",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 godhammer lascannons; twin heavy bolter; armoured tracks.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 12 <span class=\"tooltip00387\" data-tooltip-content=\"#tooltip_content00387\" data-tooltip-anchor=\"#tooltip_content00387\"><span class=\"kwb\">GREY</span> <span class=\"kwb\">KNIGHTS</span> <span class=\"kwb\">INFANTRY</span></span> models. Each <span class=\"tooltip00388\" data-tooltip-content=\"#tooltip_content00388\" data-tooltip-anchor=\"#tooltip_content00388\"><span class=\"kwb\">TERMINATOR</span></span> model takes up the space of 2 models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000391",
+          "line": "1",
+          "name": "Land Raider",
+          "M": "10\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "16",
+          "Ld": "6+",
+          "OC": "5",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000392",
+      "name": "Land Raider Crusader",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 hurricane bolters; twin assault cannon; armoured tracks.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 16 <span class=\"tooltip00387\" data-tooltip-content=\"#tooltip_content00387\" data-tooltip-anchor=\"#tooltip_content00387\"><span class=\"kwb\">GREY</span> <span class=\"kwb\">KNIGHTS</span> <span class=\"kwb\">INFANTRY</span></span> models. Each <span class=\"tooltip00388\" data-tooltip-content=\"#tooltip_content00388\" data-tooltip-anchor=\"#tooltip_content00388\"><span class=\"kwb\">TERMINATOR</span></span> model takes up the space of 2 models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000392",
+          "line": "1",
+          "name": "Land Raider Crusader",
+          "M": "12\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "16",
+          "Ld": "6+",
+          "OC": "5",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000393",
+      "name": "Land Raider Redeemer",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 flamestorm cannons; twin assault cannon; armoured tracks.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 14 <span class=\"tooltip00387\" data-tooltip-content=\"#tooltip_content00387\" data-tooltip-anchor=\"#tooltip_content00387\"><span class=\"kwb\">GREY</span> <span class=\"kwb\">KNIGHTS</span> <span class=\"kwb\">INFANTRY</span></span> models. Each <span class=\"tooltip00388\" data-tooltip-content=\"#tooltip_content00388\" data-tooltip-anchor=\"#tooltip_content00388\"><span class=\"kwb\">TERMINATOR</span></span> model takes up the space of 2 models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000393",
+          "line": "1",
+          "name": "Land Raider Redeemer",
+          "M": "12\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "16",
+          "Ld": "6+",
+          "OC": "5",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000395",
+      "name": "Razorback",
+      "role": "Dedicated Transports",
+      "loadout": "<b>This model is equipped with:</b> twin heavy bolter; armoured tracks.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 6 <span class=\"tooltip00387\" data-tooltip-content=\"#tooltip_content00387\" data-tooltip-anchor=\"#tooltip_content00387\"><span class=\"kwb\">GREY</span> <span class=\"kwb\">KNIGHTS</span> <span class=\"kwb\">INFANTRY</span></span> models. It cannot transport <span class=\"tooltip00388\" data-tooltip-content=\"#tooltip_content00388\" data-tooltip-anchor=\"#tooltip_content00388\"><span class=\"kwb\">TERMINATOR</span></span> models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000395",
+          "line": "1",
+          "name": "Razorback",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000396",
+      "name": "Rhino",
+      "role": "Dedicated Transports",
+      "loadout": "<b>This model is equipped with:</b> storm bolter; armoured tracks.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 12 <span class=\"tooltip00387\" data-tooltip-content=\"#tooltip_content00387\" data-tooltip-anchor=\"#tooltip_content00387\"><span class=\"kwb\">GREY</span> <span class=\"kwb\">KNIGHTS</span> <span class=\"kwb\">INFANTRY</span></span> models. It cannot transport <span class=\"tooltip00388\" data-tooltip-content=\"#tooltip_content00388\" data-tooltip-anchor=\"#tooltip_content00388\"><span class=\"kwb\">TERMINATOR</span></span> models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000396",
+          "line": "1",
+          "name": "Rhino",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000397",
+      "name": "Servitors",
+      "role": "Other",
+      "loadout": "<b>Every model is equipped with:</b> Servitor\u2019s servo-arm.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000397",
+          "line": "1",
+          "name": "Servitors",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "4+",
+          "inv_sv": "6",
+          "inv_sv_descr": "",
+          "W": "1",
+          "Ld": "8+",
+          "OC": "0",
+          "base_size": "25mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000398",
+      "name": "Stormraven Gunship",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 stormstrike missile launchers; twin assault cannon; typhoon missile launcher; armoured hull.",
+      "transport": "This model has a <a href=\"/wh40k10ed/the-rules/core-rules/#Transport-Capacity\">transport capacity</a> of 12 <span class=\"tooltip00387\" data-tooltip-content=\"#tooltip_content00387\" data-tooltip-anchor=\"#tooltip_content00387\"><span class=\"kwb\">GREY</span> <span class=\"kwb\">KNIGHTS</span> <span class=\"kwb\">INFANTRY</span></span> models and 1 <a class=\"kwbOne\" href=\"/wh40k10ed/factions/grey-knights/Venerable-Dreadnought\"><span class=\"kwb kwbo\">GREY</span> <span class=\"kwb kwbo\">KNIGHTS</span> <span class=\"kwb kwbo\">VENERABLE</span> <span class=\"kwb kwbo\">DREADNOUGHT</span></a> model. Each <span class=\"tooltip00388\" data-tooltip-content=\"#tooltip_content00388\" data-tooltip-anchor=\"#tooltip_content00388\"><span class=\"kwb\">TERMINATOR</span></span> model takes up the space of 2 models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000398",
+          "line": "1",
+          "name": "Stormraven Gunship",
+          "M": "20+\"",
+          "T": "10",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "14",
+          "Ld": "6+",
+          "OC": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000399",
+      "name": "Brotherhood Techmarine",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> forge bolter; grav-pistol; Omnissian power axe; servo-arm.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000399",
+          "line": "1",
+          "name": "Brotherhood Techmarine",
+          "M": "6\"",
+          "T": "4",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "32mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000000400",
+      "name": "Venerable Dreadnought",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> assault cannon; storm bolter; Dreadnought combat weapon.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000000400",
+          "line": "1",
+          "name": "Venerable Dreadnought",
+          "M": "8\"",
+          "T": "9",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "8",
+          "Ld": "6+",
+          "OC": "3",
+          "base_size": "60mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001197",
+      "name": "Grey Knights Thunderhawk Gunship",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> 2 lascannons; Thunderhawk heavy cannon; 4 twin heavy bolters; armoured hull; Thunderhawk cluster bombs.",
+      "transport": "This model has a transport capacity of 30 <span class=\"tooltip00387\" data-tooltip-content=\"#tooltip_content00387\" data-tooltip-anchor=\"#tooltip_content00387\"><span class=\"kwb\">GREY</span> <span class=\"kwb\">KNIGHTS</span> <span class=\"kwb\">INFANTRY</span></span> models. Each <span class=\"tooltip00388\" data-tooltip-content=\"#tooltip_content00388\" data-tooltip-anchor=\"#tooltip_content00388\"><span class=\"kwb\">TERMINATOR</span></span> model takes up the space of 2 models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001197",
+          "line": "1",
+          "name": "Grey Knights Thunderhawk Gunship",
+          "M": "20+\"",
+          "T": "12",
+          "Sv": "2+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "30",
+          "Ld": "6+",
+          "OC": "0",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001360",
+      "name": "Grand Master In Nemesis Dreadknight",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> dreadfists.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001360",
+          "line": "1",
+          "name": "Grand Master In Nemesis Dreadknight",
+          "M": "8\"",
+          "T": "8",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "13",
+          "Ld": "6+",
+          "OC": "4",
+          "base_size": "120 x 92mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001361",
+      "name": "Brotherhood Librarian",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> Nemesis force weapon; Vortex of Doom.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001361",
+          "line": "1",
+          "name": "Brotherhood Librarian",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001362",
+      "name": "Brotherhood Chaplain",
+      "role": "Characters",
+      "loadout": "<b>This model is equipped with:</b> storm bolter; crozius arcanum.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001362",
+          "line": "1",
+          "name": "Brotherhood Chaplain",
+          "M": "5\"",
+          "T": "5",
+          "Sv": "2+",
+          "inv_sv": "4",
+          "inv_sv_descr": "",
+          "W": "5",
+          "Ld": "5+",
+          "OC": "1",
+          "base_size": "40mm",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001363",
+      "name": "Stormhawk Interceptor",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> las-talon; skyhammer missile launcher; twin assault cannon; armoured hull.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001363",
+          "line": "1",
+          "name": "Stormhawk Interceptor",
+          "M": "20+\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "6+",
+          "OC": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000001364",
+      "name": "Stormtalon Gunship",
+      "role": "Other",
+      "loadout": "<b>This model is equipped with:</b> skyhammer missile launcher; twin assault cannon; armoured hull.",
+      "transport": "",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000001364",
+          "line": "1",
+          "name": "Stormtalon Gunship",
+          "M": "20+\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "6+",
+          "OC": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    },
+    {
+      "id": "000002768",
+      "name": "Grey Knights Relic Razorback",
+      "role": "Dedicated Transports",
+      "loadout": "<b>This model is equipped with:</b> twin heavy bolter; armoured tracks.",
+      "transport": "This model has a transport capacity of 6 <span class=\"tooltip00387\" data-tooltip-content=\"#tooltip_content00387\" data-tooltip-anchor=\"#tooltip_content00387\"><span class=\"kwb\">GREY</span> <span class=\"kwb\">KNIGHTS</span> <span class=\"kwb\">INFANTRY</span></span> models. It cannot transport <span class=\"tooltip00388\" data-tooltip-content=\"#tooltip_content00388\" data-tooltip-anchor=\"#tooltip_content00388\"><span class=\"kwb\">TERMINATOR</span></span> models.",
+      "points": "0",
+      "models": [
+        {
+          "datasheet_id": "000002768",
+          "line": "1",
+          "name": "Grey Knights Relic Razorback",
+          "M": "12\"",
+          "T": "9",
+          "Sv": "3+",
+          "inv_sv": "-",
+          "inv_sv_descr": "",
+          "W": "10",
+          "Ld": "6+",
+          "OC": "2",
+          "base_size": "Use model",
+          "base_size_descr": "",
+          "": ""
+        }
+      ],
+      "wargear": []
+    }
+  ]
+}
