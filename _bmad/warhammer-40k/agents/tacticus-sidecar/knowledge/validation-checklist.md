@@ -165,11 +165,100 @@ Check `rules-validated.md` Mistake Log section:
 
 ---
 
-## GATE 6: FINAL PRESENTATION
+## GATE 6: KEYWORD ACCURACY CHECK (NEW - v2.0)
 
-**Only after ALL gates pass:**
+**Purpose:** Verify faction-specific keywords are correctly applied to units.
 
-### 6.1 Present List with Confidence Indicators
+### 6.1 SYNAPSE Keyword Check (Tyranids)
+**CRITICAL:** Only specific units have the SYNAPSE keyword. Most monsters do NOT.
+```
+SYNAPSE VERIFICATION:
+| Unit | Has SYNAPSE? | Source |
+|------|--------------|--------|
+| Hive Tyrant | ✅ YES | Datasheet |
+| Winged Hive Tyrant | ✅ YES | Datasheet |
+| Exocrine | ❌ NO | Datasheet - must stay in Synapse aura |
+| Tyrannofex | ❌ NO | Datasheet - must stay in Synapse aura |
+| Carnifex | ❌ NO | Datasheet - must stay in Synapse aura |
+| Barbgaunts | ❌ NO | Datasheet - benefits from Synapse |
+```
+- [ ] All units marked with correct SYNAPSE status
+- [ ] Tactics mention Synapse bubble positioning for non-SYNAPSE units
+
+### 6.2 Other Critical Keywords
+- [ ] BATTLELINE units correctly identified
+- [ ] LEADER units can actually lead their attached unit
+- [ ] DEEP STRIKE units correctly identified
+- [ ] TRANSPORT capacity correctly stated
+
+---
+
+## GATE 7: INTERNAL CONSISTENCY CHECK (NEW - v2.0)
+
+**Purpose:** Verify prose sections don't contradict each other.
+
+### 7.1 Movement Stats Consistency
+**Cross-reference ALL movement values mentioned in document:**
+```
+MOVEMENT VERIFICATION:
+| Unit | In Table | In Prose | Datasheet | Match? |
+|------|----------|----------|-----------|--------|
+| [unit] | X" | X" | X" | ✓/✗ |
+```
+- [ ] All movement values match actual datasheets
+- [ ] No "9" move" when unit has 8" move
+
+### 7.2 Ability Claims Consistency
+**Verify abilities mentioned in Strengths/Tactics exist:**
+- [ ] "Deep Strike available" → Unit actually has Deep Strike keyword
+- [ ] "Can take enhancement X" → Character is eligible
+- [ ] Aura ranges match actual ability text
+
+### 7.3 Strengths vs Weaknesses Coherence
+**Check for contradictions:**
+- [ ] If Strength says "fast screening" → Weakness shouldn't say "slow army"
+- [ ] If Weakness says "no Deep Strike" → Verify unit actually lacks it
+- [ ] Movement weaknesses clarify WHICH units are slow
+
+---
+
+## GATE 8: SECTION CROSS-REFERENCE (NEW - v2.0)
+
+**Purpose:** Verify all document sections reference the same army composition.
+
+### 8.1 Table vs Prose Unit Count
+```
+UNIT COUNT VERIFICATION:
+| Section | Unit Count | Units Listed |
+|---------|------------|--------------|
+| Army Table | X models | [list] |
+| Strengths | mentions X | [check each] |
+| Weaknesses | mentions X | [check each] |
+| Tactics | mentions X | [check each] |
+| Model Breakdown | X models | [list] |
+```
+- [ ] All sections reference same unit list
+- [ ] No "phantom units" mentioned in prose but not in table
+- [ ] No units in table missing from tactics section
+
+### 8.2 Points Totals Match
+- [ ] Table total matches stated total in prose
+- [ ] "Model count" in prose matches actual table count
+- [ ] Wound totals calculated correctly (Models × Wounds per model)
+
+### 8.3 Tactics Reference Correct Units
+For each tactic mentioned:
+- [ ] Unit referenced exists in army list table
+- [ ] Ability referenced exists on that unit's datasheet
+- [ ] Synergy partners both exist in the list
+
+---
+
+## GATE 9: FINAL PRESENTATION
+
+**Only after ALL 8 gates pass:**
+
+### 9.1 Present List with Confidence Indicators
 ```
 VALIDATION STATUS:
 ✅ Edition verified: 10th Edition
@@ -178,9 +267,12 @@ VALIDATION STATUS:
 ✅ Epic Heroes: X unique characters
 ✅ Enhancements: X/X (legal allocation)
 ✅ Self-review: X issues checked, 0 found
+✅ Keywords: All faction keywords verified
+✅ Consistency: Prose matches tables
+✅ Cross-reference: All sections aligned
 ```
 
-### 6.2 Cite Data Sources
+### 9.2 Cite Data Sources
 - Points source: Wahapedia CSV (last updated: DATE)
 - Wargear source: processed/{faction}/datasheets.json
 - Corrections applied: rules-validated.md (if any)

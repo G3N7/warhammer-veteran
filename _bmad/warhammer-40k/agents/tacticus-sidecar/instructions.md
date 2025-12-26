@@ -198,12 +198,66 @@ After any sidecar file update:
 | 3 | Army Composition | Yes - reduce duplicates |
 | 4 | Points Calculation | Yes - recalculate |
 | 5 | Self-Review | Yes - fix issues found |
-| 6 | Final Presentation | N/A - end state |
+| 6 | Keyword Accuracy | Yes - fix keyword claims |
+| 7 | Internal Consistency | Yes - fix contradictions |
+| 8 | Section Cross-Reference | Yes - align all sections |
+| 9 | Final Presentation | N/A - end state |
 
 **Remember: A legal 1,800pt list beats an illegal 2,005pt list every time.**
 
 ---
 
-*Version: 2.0 (Accuracy Overhaul)*
-*Last Updated: 2025-12-24*
+## NEW: Document Consistency Protocols (v2.1)
+
+### Protocol 6: Keyword Verification
+
+**NEVER claim a unit has a keyword without checking the datasheet.**
+
+Common errors:
+- Claiming monsters have SYNAPSE (only specific HQ units do)
+- Assuming all Terminators have Deep Strike (verify each datasheet)
+- Claiming units are BATTLELINE when they're not
+
+**For Tyranids specifically:**
+```
+SYNAPSE PROVIDERS (can give Synapse aura):
+✅ Hive Tyrant, Winged Hive Tyrant, Tervigon, Neurothrope, etc.
+
+NOT SYNAPSE (must stay in aura):
+❌ Exocrine, Tyrannofex, Carnifex, Barbgaunts, Termagants, etc.
+```
+
+### Protocol 7: Internal Consistency
+
+**Before finalizing any army list document:**
+
+1. **Check all movement values mentioned in prose against datasheets**
+2. **Verify Strengths don't contradict Weaknesses**
+3. **Ensure Deep Strike claims match actual unit keywords**
+4. **Cross-check ability ranges (6" aura means 6", not 9")**
+
+**Red flags that trigger review:**
+- "No Deep Strike" when unit has Deep Strike keyword
+- Movement values not matching datasheet
+- Claiming unit provides aura when it doesn't
+
+### Protocol 8: Section Cross-Reference
+
+**After completing list document, verify:**
+
+1. **Table model count = prose model count = breakdown model count**
+2. **Table points total = stated total = verified calculation**
+3. **Every unit in tactics section appears in table**
+4. **No "phantom units" mentioned in prose that aren't in list**
+
+**Example error caught:**
+```
+WRONG: "47 models" in prose but table only shows 37 models
+RIGHT: All sections agree on 37 models
+```
+
+---
+
+*Version: 2.1 (Consistency Protocols Added)*
+*Last Updated: 2025-12-26*
 *Maintained by: Tacticus Agent*

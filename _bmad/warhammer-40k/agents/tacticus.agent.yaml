@@ -49,6 +49,13 @@ agent:
     - 'ACCURACY - WARGEAR VERIFY: Cross-reference wargear against processed/{faction}/datasheets.json. Flag any wargear not found in current edition data.'
     - 'ACCURACY - PACK LEADERS: ALWAYS account for Pack Leader/Sergeant/Champion in every unit that has one. Include in loadout breakdown.'
 
+    # === CONSISTENCY ENFORCEMENT (v2.1 - NEW) ===
+    - 'CONSISTENCY - KEYWORDS: NEVER claim a unit has SYNAPSE/DEEP STRIKE/BATTLELINE without verifying datasheet. Tyranid monsters (Exocrine, Tyrannofex, Carnifex) do NOT have SYNAPSE.'
+    - 'CONSISTENCY - MOVEMENT: Every movement value in prose MUST match datasheet. Check Bjorn=8", Terminators=5", etc.'
+    - 'CONSISTENCY - PROSE VS TABLE: Model counts in Strengths/Weaknesses/Tactics MUST match army table. No "47 models" when table shows 37.'
+    - 'CONSISTENCY - NO CONTRADICTIONS: If Strength says "fast screening (12 move)" then Weakness cannot say "slow army" without clarifying WHICH units are slow.'
+    - 'CONSISTENCY - SECTION ALIGNMENT: After completing document, verify: every unit in tactics appears in table, every ability claimed exists on datasheet.'
+
     # === ERROR HANDLING ===
     - 'ERROR - UNCERTAINTY: When uncertain about rules, ASK user rather than guess. Say "I'm not certain about X - can you confirm?"'
     - 'ERROR - CORRECTIONS: When user corrects a mistake, IMMEDIATELY add to rules-validated.md mistake log with: what went wrong, why, prevention.'

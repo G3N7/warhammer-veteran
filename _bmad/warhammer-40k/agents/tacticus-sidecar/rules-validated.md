@@ -575,9 +575,86 @@ Before finalizing ANY list, verify total points ≤ mission size limit.
 
 ---
 
-*Last Updated: 2025-12-23*
+### 2025-12-26: Tyranid SYNAPSE Keyword Errors
+**Mistake:** Listed Exocrine, Tyrannofex, Carnifex, and Barbgaunts as having the SYNAPSE keyword
+**User Correction:** User reviewed army list and found inconsistencies - these units do NOT have SYNAPSE
+**Root Cause:**
+- Agent assumed all large Tyranid monsters have SYNAPSE
+- Did not verify keyword presence on actual datasheets
+- SYNAPSE is only on specific SYNAPSE CREATURE keyword units
+
+**Fix Applied:**
+- ✅ Added "⚠️ Note: Does NOT have SYNAPSE keyword" to each datasheet entry
+- ✅ Updated Full Model Breakdown to clarify SYNAPSE status
+- ✅ Added GATE 6: Keyword Accuracy Check to validation-checklist.md
+- ✅ Added CONSISTENCY - KEYWORDS critical action to agent YAML
+
+**Tyranid SYNAPSE Providers (VERIFIED):**
+- ✅ Hive Tyrant (has SYNAPSE keyword)
+- ✅ Winged Hive Tyrant (has SYNAPSE keyword)
+- ✅ Tervigon, Neurothrope, Broodlord, etc. (specific units only)
+
+**Tyranid NON-SYNAPSE Creatures (VERIFIED):**
+- ❌ Exocrine (no SYNAPSE - must stay in Synapse aura)
+- ❌ Tyrannofex (no SYNAPSE - must stay in Synapse aura)
+- ❌ Carnifex (no SYNAPSE - must stay in Synapse aura)
+- ❌ Barbgaunts (no SYNAPSE - benefits from Synapse)
+- ❌ Termagants (no SYNAPSE - benefits from Synapse)
+
+**Prevention:** ALWAYS check unit keywords on datasheet, never assume. Add keyword verification step.
+
+---
+
+### 2025-12-26: Points Budget Violations (Tyranids List)
+**Mistake:** Created army lists that exceeded points limits:
+- 500pt list was 515pts (15 over!)
+- 1000pt list was 1,025pts (25 over!)
+- 2000pt list was 2,035pts (35 over!)
+
+**Root Cause:**
+- Added units without recalculating total
+- Did not verify total against points limit before presenting
+- Gate 4 (Points Calculation) was not properly enforced
+
+**Fix Applied:**
+- ✅ Recalculated all three lists to be under budget
+- ✅ 500pt now 480pts, 1000pt now 965pts, 2000pt now 1,975pts
+- ✅ Emphasized "HARD CAP" nature of points limits in protocols
+
+**Prevention:** Re-add all units before presenting. Points limit is HARD CAP. Under is legal, over is ILLEGAL.
+
+---
+
+### 2025-12-26: Internal Document Consistency Failures (Space Wolves List)
+**Mistake:** Multiple inconsistencies between prose sections:
+- 500pt list claimed "No Deep Strike" when Wolf Guard Terminators have Deep Strike
+- Bjorn listed with "9" move" when actual M=8"
+- Strengths mentioned "12" move wolves" but tactics said "grind forward slowly"
+- 2000pt model count in prose didn't match actual table
+
+**Root Cause:**
+- Wrote Strengths/Weaknesses/Tactics sections without cross-referencing
+- Used movement values from memory instead of datasheets
+- Deep Strike keyword not verified against unit datasheet
+
+**Fix Applied:**
+- ✅ Changed "No Deep Strike" → "Deep Strike available but inadvisable"
+- ✅ Corrected Bjorn movement to 8" (actual datasheet value)
+- ✅ Clarified which units are slow (Terminators 5") vs fast (wolves 12")
+- ✅ Added GATE 7: Internal Consistency Check to validation-checklist.md
+- ✅ Added GATE 8: Section Cross-Reference to validation-checklist.md
+
+**Prevention:**
+- After completing any section, cross-reference stats against datasheets
+- Verify Strengths don't contradict Weaknesses
+- Ensure movement values match actual unit profiles
+- Check all keyword claims (Deep Strike, SYNAPSE, etc.) against datasheets
+
+---
+
+*Last Updated: 2025-12-26*
 *Maintained by: Tacticus Agent*
-*Version: 1.4*
+*Version: 1.5*
 
 ---
 
