@@ -188,7 +188,7 @@ Units from this detachment gain **Lethal Hits** when targeting:
 
 ### Arjac Rockfist ✅ VERIFIED
 **Source:** Wahapedia Space Marines Epic Heroes
-**Points:** 95pts
+**Points:** 105pts (Updated Dec 2025 - was 95pts)
 **Can Lead:** Wolf Guard Terminators (Terminator keyword)
 **Epic Hero:** Only 1 per army
 
@@ -196,7 +196,7 @@ Units from this detachment gain **Lethal Hits** when targeting:
 
 ### Bjorn the Fell-Handed ✅ VERIFIED
 **Source:** Wahapedia Space Marines Epic Heroes
-**Points:** 170pts
+**Points:** 160pts (Updated Dec 2025 - was 170pts)
 **Special Ability:** Ancient Tactician - Gain 1CP at start of each Command phase
 **Epic Hero:** Only 1 per army
 
@@ -204,7 +204,7 @@ Units from this detachment gain **Lethal Hits** when targeting:
 
 ### Venerable Dreadnought ✅ VERIFIED
 **Source:** Wahapedia Space Marines Units
-**Points:** 140pts
+**Points:** 130pts (Updated Dec 2025 - was 140pts)
 **Space Wolves Access:** ✅ Yes (all Space Marines datasheets available)
 **Aura:** Fervour of the Ancients - +1 to Advance/Charge rolls for SPACE WOLVES units within 6"
 **Critical for:** Making 9" Deep Strike charges easier (becomes 8" with aura)
@@ -652,9 +652,41 @@ Before finalizing ANY list, verify total points ≤ mission size limit.
 
 ---
 
+---
+
+### 2025-12-26: Space Wolves Points Corrections (MFM December 2025)
+**Mistake:** Multiple unit points were outdated after December 2025 MFM update
+**User Correction:** User verified via New Recruit app that Arjac was 105pts, not 95pts
+**Root Cause:**
+- Cached points values from earlier MFM version
+- No automated refresh of points data
+- BSData/Wahapedia not being checked regularly
+
+**Corrections Applied:**
+| Unit | Old Points | New Points | Delta |
+|------|------------|------------|-------|
+| Arjac Rockfist | 95pts | 105pts | +10pts |
+| Bjorn the Fell-Handed | 170pts | 160pts | -10pts |
+| Venerable Dreadnought | 140pts | 130pts | -10pts |
+| Blood Claws (10) | 140pts | 135pts | -5pts |
+| Grey Hunters (10) | 140pts | 165pts | +25pts |
+
+**Data Sources Verified:**
+- Wahapedia (primary): https://wahapedia.ru/wh40k10ed/factions/space-marines/
+- BSData GitHub: https://github.com/BSData/wh40k-10e
+- New Recruit app (user verification)
+
+**Prevention:**
+- Created Wahapedia scraper script: `_bmad/warhammer-40k/scripts/scrape-wahapedia.py`
+- Points in PriceTag divs can be extracted programmatically
+- Check points against Wahapedia before building lists
+- Refresh data monthly or after MFM updates
+
+---
+
 *Last Updated: 2025-12-26*
 *Maintained by: Tacticus Agent*
-*Version: 1.5*
+*Version: 1.6*
 
 ---
 

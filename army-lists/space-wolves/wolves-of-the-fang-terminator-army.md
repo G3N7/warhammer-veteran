@@ -33,11 +33,12 @@
 
 | Unit | Models | Role | Points |
 |------|--------|------|--------|
-| Arjac Rockfist | 1 | Warlord (leads Terminators) | 95 |
-| → Enhancement: Hunter's Instincts | - | Reroll wounds vs big targets | 20 |
+| Arjac Rockfist | 1 | Warlord (leads Terminators) | 105 |
 | Wolf Guard Terminators | 10 | Primary Castle (Arjac attached) | 340 |
 | Fenrisian Wolves | 5 | Screening / Fast Grab | 40 |
-| **TOTAL** | **16 models** | | **495pts** |
+| **TOTAL** | **16 models** | | **485pts** |
+
+*Note: No enhancement at 500pts due to points constraints. Arjac's built-in FNP 5+ aura still provides excellent value.*
 
 **Army Composition:**
 - 1 Epic Hero (Arjac)
@@ -53,19 +54,20 @@
 |------|--------|------|--------|
 | Logan Grimnar | 1 | Warlord (leads 10-man) | 110 |
 | → Enhancement: Blade of the Slayer | - | Precision for Character sniping | 25 |
-| Arjac Rockfist | 1 | Leads 5-man Terminators | 95 |
-| → Enhancement: Hunter's Instincts | - | Reroll wounds vs big targets | 20 |
+| Arjac Rockfist | 1 | Leads 5-man Terminators | 105 |
 | Wolf Guard Terminators | 10 | Primary Castle (Logan attached) | 340 |
 | Wolf Guard Terminators | 5 | Objective Holders (Arjac attached) | 170 |
 | Wolf Guard Terminators | 5 | Deep Strike Alpha | 170 |
-| Blood Claws | 5 | Melee Screen / Counter-charge | 70 |
-| **TOTAL** | **27 models** | | **1,000pts** |
+| Fenrisian Wolves | 10 | Screening / Fast Grab | 80 |
+| **TOTAL** | **32 models** | | **1,000pts** |
+
+*Note: Arjac has no enhancement at 1000pts - his FNP 5+ aura provides value without spending points. Blood Claws require minimum 10 models (135pts) which exceeds budget.*
 
 **Army Composition:**
 - 2 Epic Heroes (Logan + Arjac)
 - 20 Terminators (3W each = 60 wounds)
-- 5 Blood Claws (2W each = 10 wounds)
-- **Total: 27 models, 82 wounds**
+- 10 Fenrisian Wolves (1W each = 10 wounds)
+- **Total: 32 models, 82 wounds**
 
 **Rule of Three Compliance:** 3x Wolf Guard Terminators units (LEGAL ✓)
 
@@ -78,22 +80,22 @@
 | **CHARACTERS** | | | |
 | Logan Grimnar | 1 | Warlord (leads 10-man) | 110 |
 | → Enhancement: Blade of the Slayer | - | Precision for Character sniping | 25 |
-| Arjac Rockfist | 1 | Leads 10-man Terminators | 95 |
+| Arjac Rockfist | 1 | Leads 10-man Terminators | 105 |
 | → Enhancement: Hunter's Instincts | - | Reroll wounds vs big targets | 20 |
 | **ELITES** | | | |
-| Bjorn the Fell-Handed | 1 | CP Generator (+1CP/turn) | 170 |
-| Venerable Dreadnought | 1 | Charge Aura (+1 to Advance/Charge) | 140 |
+| Bjorn the Fell-Handed | 1 | CP Generator (+1CP/turn) | 160 |
+| Venerable Dreadnought | 1 | Charge Aura (+1 to Advance/Charge) | 130 |
 | Wolf Guard Terminators | 10 | Primary Castle (Logan attached) | 340 |
 | Wolf Guard Terminators | 10 | Secondary Castle (Arjac attached) | 340 |
 | Wolf Guard Terminators | 10 | Backfield Objective Holders | 340 |
 | **TROOPS** | | | |
-| Blood Claws | 10 | Aggressive Melee Pressure | 140 |
-| Grey Hunters | 10 | Mid-field Flex / OC3 Holders | 140 |
+| Blood Claws | 10 | Aggressive Melee Pressure | 135 |
+| Grey Hunters | 10 | Mid-field Flex / OC3 Holders | 165 |
 | **FAST ATTACK** | | | |
 | Fenrisian Wolves | 10 | Screening / Fast Grab (12" Move) | 80 |
-| **TOTAL** | **64 models** | | **1,940pts** |
+| **TOTAL** | **64 models** | | **1,950pts** |
 
-**60pts unspent** (strict 2000pt cap - cannot exceed)
+**50pts unspent** (strict 2000pt cap - cannot exceed)
 
 **Army Composition:**
 - 2 Epic Heroes (Logan + Arjac = 11W)
@@ -516,7 +518,7 @@
 
 **[Wahapedia - Arjac Rockfist](https://wahapedia.ru/wh40k10ed/factions/space-marines/Arjac-Rockfist)**
 
-**Stats:** M5" | T6 | Sv2+/4++ | W5 | Ld6+ | OC1 | **95pts**
+**Stats:** M5" | T6 | Sv2+/4++ | W5 | Ld6+ | OC1 | **105pts**
 
 **Wargear:**
 - **Foehammer** (Ranged + Melee):
@@ -549,7 +551,7 @@
 
 **[Wahapedia - Bjorn the Fell-Handed](https://wahapedia.ru/wh40k10ed/factions/space-marines/Bjorn-The-Fell-Handed)**
 
-**Stats:** M8" | T9 | Sv2+/5++ | W8 | Ld6+ | OC3 | **170pts**
+**Stats:** M8" | T9 | Sv2+/5++ | W8 | Ld6+ | OC3 | **160pts**
 
 **Wargear (Choose one main weapon):**
 - **Assault cannon** (Heavy 6, 24" range, S6 AP-1 D1 Devastating Wounds) **← RECOMMENDED**
@@ -589,7 +591,7 @@
 
 **[Wahapedia - Venerable Dreadnought](https://wahapedia.ru/wh40k10ed/factions/space-marines/Venerable-Dreadnought)**
 
-**Stats:** M8" | T9 | Sv2+ | W8 | Ld6+ | OC3 | **140pts**
+**Stats:** M8" | T9 | Sv2+ | W8 | Ld6+ | OC3 | **130pts**
 
 **Wargear (Recommended loadout):**
 - **Fenrisian greataxe** (Melee, S14 AP-3 D6) **← RECOMMENDED**
@@ -657,7 +659,7 @@
 
 **[Wahapedia - Blood Claws](https://wahapedia.ru/wh40k10ed/factions/space-marines/Blood-Claws)**
 
-**Stats:** M7" | T4 | Sv3+ | W2 | Ld6+ | OC2 | **14pts per model**
+**Stats:** M7" | T4 | Sv3+ | W2 | Ld6+ | OC2 | **135pts (10 models) / 285pts (20 models)**
 
 **Unit Composition:** See [Weapon Loadouts & Unit Compositions](#weapon-loadouts--unit-compositions) section above
 
@@ -688,7 +690,7 @@
 
 **[Wahapedia - Grey Hunters](https://wahapedia.ru/wh40k10ed/factions/space-marines/Grey-Hunters)**
 
-**Stats:** M7" | T4 | Sv3+ | W2 | Ld6+ | OC3 | **14pts per model**
+**Stats:** M7" | T4 | Sv3+ | W2 | Ld6+ | OC3 | **165pts (10 models)**
 
 **Unit Composition:** See [Weapon Loadouts & Unit Compositions](#weapon-loadouts--unit-compositions) section above
 
@@ -919,8 +921,9 @@
 ---
 
 *Document Generated: December 23, 2025*
+*Last Updated: December 26, 2025 (Points corrections from MFM December 2025)*
 *Army Builder: Tacticus (BMAD Warhammer 40k Module)*
 *Rules Source: [Wahapedia](https://wahapedia.ru/wh40k10ed)*
-*Points Source: Munitorum Field Manual December 2025*
+*Points Source: Munitorum Field Manual December 2025 (verified via New Recruit app)*
 *Tournament Legal: ✓ Rule of Three Compliant*
 *Army Theme: Maximum legal Terminators with CP generation and charge auras*
