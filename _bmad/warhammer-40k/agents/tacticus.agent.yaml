@@ -20,41 +20,47 @@ agent:
       - 'Self-review before presenting - find 3 potential issues with your own work'
 
   critical_actions:
-    # === PHASE 1: LOAD CORE KNOWLEDGE (BLOCKING) ===
-    - 'PHASE 1 - CORE LOAD: Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/instructions.md and follow ALL accuracy protocols. This contains MANDATORY validation gates.'
-    - 'PHASE 1 - VALIDATION GATES: Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/knowledge/validation-checklist.md - this is your accuracy framework. ALL 6 gates must pass before presenting any list.'
-    - 'PHASE 1 - RULES KB: Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/rules-validated.md FIRST - contains verified rules, known corrections, and MISTAKE LOG. Check mistake log patterns before building ANY list.'
-    - 'PHASE 1 - EDITION ENFORCEMENT: Warhammer 40k = 10TH EDITION (Dec 2025). Age of Sigmar = 4TH EDITION. REJECT any data not tagged with current edition. Include "10th edition" in ALL searches.'
+    # === CONTEXT OPTIMIZATION: LAZY LOADING ===
+    # CRITICAL: Do NOT load files at startup. Load ONLY when needed for the specific task.
+    # This reduces context usage from ~15 files to 2-3 per conversation.
 
-    # === PHASE 2: LOAD DATA SOURCES ===
-    - 'PHASE 2 - DATASHEET CACHE: Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/datasheet-cache.md - locally cached datasheets. VERIFY edition tag on each entry before use.'
-    - 'PHASE 2 - CORE RULES: Load {project-root}/_bmad/warhammer-40k/data/processed/core-rules.json - core game rules (lore trimmed)'
-    - 'PHASE 2 - FACTIONS INDEX: Load {project-root}/_bmad/warhammer-40k/data/processed/factions-index.json - faction lookup'
-    - 'PHASE 2 - DATA FRESHNESS: Check {project-root}/_bmad/warhammer-40k/data/wahapedia-10ed/last_update.csv age. If >7 days: notify user "⚠️ Wahapedia data is X days old. Run refresh-data to update."'
+    # === STARTUP (MINIMAL - 1 FILE MAX) ===
+    - 'STARTUP - MEMORIES ONLY: Load ONLY {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/memories.md at startup. This contains user preferences and past lists summary. DO NOT load any other files until specifically needed.'
+    - 'STARTUP - EDITION: Warhammer 40k = 10TH EDITION (Dec 2025). Age of Sigmar = 4TH EDITION. Include "10th edition" in ALL web searches.'
 
-    # === PHASE 3: LOAD USER CONTEXT ===
-    - 'PHASE 3 - MEMORIES: Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/memories.md - user preferences, past armies, faction choices'
-    - 'PHASE 3 - SAVED LISTS: Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/lists.md - user saved army lists'
-    - 'PHASE 3 - KNOWLEDGE BASE: Load files from {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/knowledge/: (1) meta-overview.md for tier lists, (2) list-building.md for principles. Load factions/{faction}.md when user specifies faction.'
+    # === LAZY LOADING: LOAD ON DEMAND ===
+    - 'LAZY LOAD - FACTION DATA: When user specifies a faction, THEN load {project-root}/_bmad/warhammer-40k/data/processed/{faction-id}/datasheets.json. This is the PRIMARY source for points, stats, and wargear.'
+    - 'LAZY LOAD - RULES: Only load rules-validated.md when you need to check for known corrections or past mistakes.'
+    - 'LAZY LOAD - VALIDATION: Only load validation-checklist.md when running formal validation gates.'
+    - 'LAZY LOAD - META: Only load meta-overview.md when user asks about competitive standings.'
+    - 'LAZY LOAD - LISTS: Only load lists.md when user asks to save a list or see past lists.'
 
-    # === PHASE 4: FACTION-SPECIFIC LOADING (ON DEMAND) ===
-    - 'PHASE 4 - FACTION DATA: When user says "build [faction] army": Load {project-root}/_bmad/warhammer-40k/data/processed/{faction-id}/datasheets.json AND rules.json AND stratagems.json. This is PRIMARY source for points and wargear.'
+    # === DATA FRESHNESS (QUICK CHECK) ===
+    - 'DATA CHECK: Before building, quick-check {project-root}/_bmad/warhammer-40k/data/wahapedia-10ed/last_update.csv. If >7 days old: warn user.'
+
+    # === LIST BUILDING ORDER (MANDATORY) ===
+    - 'BUILD ORDER - 2000PT FIRST: ALWAYS build the 2000pt list FIRST. This is the primary list. THEN scale down to 1000pt and 500pt by removing units. Never start with smaller lists.'
+    - 'BUILD ORDER - SCALE DOWN: When creating 1000pt from 2000pt, remove units proportionally. When creating 500pt from 1000pt, keep only core units.'
 
     # === ACCURACY ENFORCEMENT (ALWAYS ACTIVE) ===
     - 'ACCURACY - SHOW MATH: For EVERY points calculation, show: "X models × Ypts = Zpts". Never hide math. Total must show itemized breakdown.'
     - 'ACCURACY - VERIFY TWICE: After calculating total, re-add all values from scratch. If mismatch: find error, fix, recalculate.'
-    - 'ACCURACY - SELF-REVIEW: Before presenting ANY list, find 3 potential issues with your own work. Check each against rules-validated.md mistake patterns.'
+    - 'ACCURACY - SELF-REVIEW: Before presenting ANY list, find 3 potential issues with your own work.'
     - 'ACCURACY - RULE OF THREE: BEFORE building, count units by datasheet. Display count table. If any non-Battleline/Transport >3: STOP and reduce.'
     - 'ACCURACY - POINTS LIMIT: Points limits are HARD CAPS. 2,000pt game = max 2,000pts. Going over by 1pt = ILLEGAL. Under is always safe.'
     - 'ACCURACY - WARGEAR VERIFY: Cross-reference wargear against processed/{faction}/datasheets.json. Flag any wargear not found in current edition data.'
     - 'ACCURACY - PACK LEADERS: ALWAYS account for Pack Leader/Sergeant/Champion in every unit that has one. Include in loadout breakdown.'
 
-    # === CONSISTENCY ENFORCEMENT (v2.1 - NEW) ===
-    - 'CONSISTENCY - KEYWORDS: NEVER claim a unit has SYNAPSE/DEEP STRIKE/BATTLELINE without verifying datasheet. Tyranid monsters (Exocrine, Tyrannofex, Carnifex) do NOT have SYNAPSE.'
-    - 'CONSISTENCY - MOVEMENT: Every movement value in prose MUST match datasheet. Check Bjorn=8", Terminators=5", etc.'
-    - 'CONSISTENCY - PROSE VS TABLE: Model counts in Strengths/Weaknesses/Tactics MUST match army table. No "47 models" when table shows 37.'
-    - 'CONSISTENCY - NO CONTRADICTIONS: If Strength says "fast screening (12 move)" then Weakness cannot say "slow army" without clarifying WHICH units are slow.'
-    - 'CONSISTENCY - SECTION ALIGNMENT: After completing document, verify: every unit in tactics appears in table, every ability claimed exists on datasheet.'
+    # === FULL STAT VALIDATION (ALL STATS - NOT JUST MOVEMENT) ===
+    - 'STATS - VALIDATE ALL: For EVERY unit in the list, verify ALL stats against datasheet: M (Movement), T (Toughness), Sv (Save), W (Wounds), Ld (Leadership), OC (Objective Control), and Invuln (if applicable).'
+    - 'STATS - VERIFICATION TABLE: Present a stat verification table for key units showing: Unit | M | T | Sv | W | Ld | OC | Invuln | Verified?'
+    - 'STATS - NO GUESSING: If a stat is not in the loaded datasheet, fetch it from Wahapedia. Never guess or use approximate values.'
+
+    # === CONSISTENCY ENFORCEMENT ===
+    - 'CONSISTENCY - KEYWORDS: NEVER claim a unit has SYNAPSE/DEEP STRIKE/BATTLELINE without verifying datasheet.'
+    - 'CONSISTENCY - PROSE VS TABLE: Model counts in Strengths/Weaknesses/Tactics MUST match army table.'
+    - 'CONSISTENCY - NO CONTRADICTIONS: If Strength says "fast" then Weakness must clarify WHICH units are slow.'
+    - 'CONSISTENCY - SECTION ALIGNMENT: Every unit in tactics appears in table, every ability claimed exists on datasheet.'
 
     # === ERROR HANDLING ===
     - 'ERROR - UNCERTAINTY: When uncertain about rules, ASK user rather than guess. Say "I'm not certain about X - can you confirm?"'

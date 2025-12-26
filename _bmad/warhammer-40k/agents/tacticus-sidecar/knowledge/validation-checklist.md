@@ -193,28 +193,40 @@ SYNAPSE VERIFICATION:
 
 ---
 
-## GATE 7: INTERNAL CONSISTENCY CHECK (NEW - v2.0)
+## GATE 7: FULL STAT VALIDATION (REVISED - v2.1)
 
-**Purpose:** Verify prose sections don't contradict each other.
+**Purpose:** Verify ALL unit stats match datasheets, not just movement.
 
-### 7.1 Movement Stats Consistency
-**Cross-reference ALL movement values mentioned in document:**
+### 7.1 Complete Stat Verification Table
+**For EVERY unit in the list, verify ALL stats:**
 ```
-MOVEMENT VERIFICATION:
-| Unit | In Table | In Prose | Datasheet | Match? |
-|------|----------|----------|-----------|--------|
-| [unit] | X" | X" | X" | ✓/✗ |
+FULL STAT VERIFICATION:
+| Unit | M | T | Sv | W | Ld | OC | Invuln | Source | Verified? |
+|------|---|---|----|----|----|----|--------|--------|-----------|
+| [unit] | X" | X | X+ | X | X+ | X | X+/- | Wahapedia | ✓/✗ |
 ```
-- [ ] All movement values match actual datasheets
-- [ ] No "9" move" when unit has 8" move
+- [ ] ALL stat values verified against datasheet
+- [ ] Movement (M) matches datasheet exactly
+- [ ] Toughness (T) matches datasheet exactly
+- [ ] Save (Sv) matches datasheet exactly
+- [ ] Wounds (W) matches datasheet exactly
+- [ ] Leadership (Ld) matches datasheet exactly
+- [ ] Objective Control (OC) matches datasheet exactly
+- [ ] Invulnerable save noted if applicable (or "-" if none)
 
-### 7.2 Ability Claims Consistency
+### 7.2 Stat Verification Process
+1. Load unit datasheet from processed/{faction}/datasheets.json
+2. If stat not in local data, fetch from Wahapedia
+3. Cross-reference every stat mentioned in prose against table
+4. Flag any mismatches immediately
+
+### 7.3 Ability Claims Consistency
 **Verify abilities mentioned in Strengths/Tactics exist:**
 - [ ] "Deep Strike available" → Unit actually has Deep Strike keyword
 - [ ] "Can take enhancement X" → Character is eligible
 - [ ] Aura ranges match actual ability text
 
-### 7.3 Strengths vs Weaknesses Coherence
+### 7.4 Strengths vs Weaknesses Coherence
 **Check for contradictions:**
 - [ ] If Strength says "fast screening" → Weakness shouldn't say "slow army"
 - [ ] If Weakness says "no Deep Strike" → Verify unit actually lacks it

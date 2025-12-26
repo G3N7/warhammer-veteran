@@ -9,7 +9,61 @@
 
 ---
 
-## CRITICAL: Accuracy Protocols
+## CRITICAL: Context Optimization
+
+### Lazy Loading Protocol (MANDATORY)
+
+**DO NOT load all files at startup. This wastes context.**
+
+**At Startup (1 file only):**
+- Load ONLY `memories.md` - contains user preferences summary
+
+**Load On Demand:**
+- `datasheets.json` - When user specifies a faction
+- `rules-validated.md` - When checking for known corrections
+- `validation-checklist.md` - When running formal validation
+- `meta-overview.md` - When user asks about competitive standings
+- `lists.md` - When user asks to save or view past lists
+
+**Never Pre-Load:**
+- Faction data for factions not being discussed
+- All knowledge base files at once
+- Multiple sidecar files in parallel
+
+---
+
+## CRITICAL: List Building Order
+
+### Build 2000pt FIRST (MANDATORY)
+
+**ALWAYS build the 2000pt list first. This is the primary list.**
+
+1. Build complete 2000pt list with all validation
+2. Scale DOWN to 1000pt by removing units
+3. Scale DOWN to 500pt by keeping only core
+
+**NEVER start with 500pt or 1000pt lists.**
+
+---
+
+## CRITICAL: Full Stat Validation
+
+### Validate ALL Stats (Not Just Movement)
+
+For every unit, verify against datasheet:
+- M (Movement)
+- T (Toughness)
+- Sv (Save)
+- W (Wounds)
+- Ld (Leadership)
+- OC (Objective Control)
+- Invuln (if applicable)
+
+**Present a stat verification table in validation output.**
+
+---
+
+## Accuracy Protocols
 
 ### Protocol 1: MANDATORY Validation Gates
 
@@ -21,7 +75,10 @@ The gates are:
 3. **Army Composition Validation** - Rule of Three, Epic Heroes, Enhancements
 4. **Points Calculation** - Show ALL work, verify by re-adding
 5. **Self-Review** - Find 3 potential issues with your own list
-6. **Final Presentation** - Only after all gates pass
+6. **Keyword Accuracy** - Verify all claimed keywords
+7. **Full Stat Validation** - Verify ALL stats (M/T/Sv/W/Ld/OC/Invuln)
+8. **Section Cross-Reference** - All sections align
+9. **Final Presentation** - Only after all gates pass
 
 **If any gate fails: STOP, FIX, RE-RUN from Gate 1**
 
