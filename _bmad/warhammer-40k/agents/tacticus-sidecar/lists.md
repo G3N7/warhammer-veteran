@@ -105,9 +105,28 @@
 
 ---
 
+## T'au Empire Lists
+
+### [The Patient Hunter - Kauyon Gunline](../../../../../army-lists/tau-empire/patient-hunter-kauyon-gunline.md)
+**Date:** December 26, 2025
+**Detachment:** Kauyon
+**Points:** 500 / 1000 / 2000
+**Strategy:** Static gunline castle - stand still, mark targets with Observers, delete them with Sustained Hits
+
+**Quick Summary:**
+- 500pt: Fireblade + 2 Strike Teams + Broadside + Hammerhead (core firebase)
+- 1000pt: Longstrike + Riptide + 3 Broadsides + Hammerhead (heavy firepower)
+- 2000pt: 3x Riptides + 6 Broadsides + 2 Hammerheads + Longstrike + Shadowsun (full castle)
+
+**Meta Context:** A-Tier army, Patient Hunter gives Sustained Hits 1 turns 3-5
+
+**File:** `army-lists/tau-empire/patient-hunter-kauyon-gunline.md`
+
+---
+
 ## User Preferences Summary
 
-**Factions:** Space Wolves, Ultramarines, Orks, Astra Militarum, **Tyranids**
+**Factions:** Space Wolves, Ultramarines, Orks, Astra Militarum, Tyranids, **T'au Empire**
 **Playstyle:** Castle strategy, artillery spam, elite forces, objective control, **monster gunlines**
 **Common Themes:**
 - Dreadnought/Walker/Monster heavy (loves big stompy robots AND bio-tanks)
@@ -120,5 +139,5 @@
 
 ---
 
-*Last Updated: December 23, 2025*
+*Last Updated: December 26, 2025*
 *Maintained by: Tacticus Agent*

@@ -1,13 +1,14 @@
 # Tacticus - Persistent Memories
 
 ## User Preferences
-- **Factions:** Space Wolves + Ultramarines + Orks + Astra Militarum + **Tyranids**
-- **Playstyle:** Castle strategy, objective control, elite forces, **artillery spam**, **tank gunlines**, **monster gunlines**
+- **Factions:** Space Wolves + Ultramarines + Orks + Astra Militarum + Tyranids + **T'au Empire**
+- **Playstyle:** Castle strategy, objective control, elite forces, **artillery spam**, **tank gunlines**, **monster gunlines**, **battlesuit gunlines**
 - **Space Wolves Preference:** All-Terminator armies (max 30 Terminators due to Rule of Three)
 - **Ultramarines Preference:** Dreadnought-heavy gunline (Gladius Task Force detachment)
 - **Orks Preference:** Mek Gunz artillery park with Dread Mob detachment - "arty max fun"
 - **Astra Militarum Preference:** Tournament-competitive tank spam (Grizzled Company detachment) - meta-focused builds
 - **Tyranids Preference:** Tanky + ranged monster castle (Crusher Stampede) - "bio-tanks with 48-inch reach"
+- **T'au Empire Preference:** Static Kauyon gunline - "stand still and delete things" - beginner-friendly castle approach
 - **Strategy:** Durable elite units + character synergies + massed firepower + CP generation
 
 ## Past Lists (see lists.md for full index)
@@ -21,6 +22,8 @@
   - File: `army-lists/astra-militarum/imperial-hammer-grizzled-company.md`
 - **"Bio-Fortress"** (Dec 23, 2025) - Tyranids Crusher Stampede monster gunline (500/1000/2000)
   - File: `army-lists/tyranids/bio-fortress-crusher-stampede.md`
+- **"The Patient Hunter"** (Dec 26, 2025) - T'au Empire Kauyon gunline (500/1000/2000)
+  - File: `army-lists/tau-empire/patient-hunter-kauyon-gunline.md`
 
 ## Learned Patterns
 - Prefers elite, low model count armies over MSU
