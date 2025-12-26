@@ -16,20 +16,21 @@
 |------|--------|------|--------|
 | Hive Tyrant (Heavy venom cannon) | 1 | HQ + SYNAPSE | 195 |
 | Exocrine | 1 | Heavy Ranged | 140 |
-| Carnifexes (2x Heavy venom cannon) | 2 | Ranged Support | 180 |
-| **TOTAL** | **4 models** | | **515pts** |
+| Carnifex (Heavy venom cannon) | 1 | Ranged Support | 90 |
+| Barbgaunts (5 models) | 5 | Objective Holders | 55 |
+| **TOTAL** | **8 models** | | **480pts** |
 
-**Note:** Adjust by dropping 1 Carnifex (90pts) to hit exactly 500pts - alternative: Hive Tyrant + Tyrannofex (395pts) + Barbgaunts x10 (110pts) = 505pts
+**20pts remaining** - can add wargear or save for Stratagem flexibility.
 
 **Tactical Overview (500pt):**
-Ultra-elite monster core. Hive Tyrant provides Synapse, Exocrine anchors firebase with Symbiotic Targeting, Carnifexes add ranged volume. Minimal model count = easy to deploy, hard to shift.
+Ultra-elite monster core. Hive Tyrant provides Synapse for fearless troops, Exocrine anchors firebase with Symbiotic Targeting, Carnifex adds ranged punch. Barbgaunts hold objectives and slow enemy melee with Disruption Bombardment.
 
 **How to Play:**
-1. Castle in cover - all units within 6" of Hive Tyrant for Synapse
-2. Exocrine tags priority target, Carnifexes reroll 1s shooting same enemy
+1. Castle in cover - all units within 6" of Hive Tyrant for Synapse benefits
+2. Exocrine tags priority target, other units reroll 1s shooting same enemy (Symbiotic Targeting)
 3. Heavy venom cannons (36", S9, AP-2, D3 damage) focus enemy heavy infantry/light vehicles
-4. Use Enraged Behemoths: damaged units become MORE accurate (+1 to hit below starting strength)
-5. Objective control: Monsters have high OC (3-4), use +2 OC while undamaged to bully objectives
+4. Use Enraged Behemoths: damaged monsters become MORE accurate (+1 to hit below starting strength)
+5. Objective control: Barbgaunts hold objectives, monsters have high OC (3-4 base, +2 while undamaged)
 
 ---
 
@@ -43,13 +44,12 @@ Ultra-elite monster core. Hive Tyrant provides Synapse, Exocrine anchors firebas
 | Tyrannofex (Rupture cannon) | 1 | Super-heavy Ranged | 200 |
 | Carnifexes (2x Heavy venom cannon) | 2 | Ranged Support | 180 |
 | Barbgaunts (10 models) | 10 | Ranged Infantry | 110 |
-| Termagants (10 models) | 10 | Battleline Screen | 60 |
-| **TOTAL** | **27 models** | | **1,025pts** |
+| **TOTAL** | **16 models** | | **965pts** |
 
-**Adjustment to 1000pts:** Drop Termagants (-60pts) = 965pts, add Barbgaunts x5 (+55pts) = 1,020pts (close enough)
+**35pts remaining** - can add 5 more Barbgaunts (55pts over) or save for Stratagems.
 
 **Tactical Overview (1000pt):**
-Adds Tyrannofex (T12 super-tank) for 48" Rupture cannon reach. Dual Exocrines create overlapping fire zones. Barbgaunts provide Disruption Bombardment (-2 Move to enemy infantry). Termagants screen.
+Adds Tyrannofex (T12 super-tank) for 48" Rupture cannon reach. Dual Exocrines create overlapping fire zones. Barbgaunts provide Disruption Bombardment (-2 Move to enemy infantry) and screen monsters.
 
 **How to Play:**
 1. Deploy Tyrannofex + 2x Exocrine in gunline formation, Hive Tyrant central for Synapse bubble
@@ -76,10 +76,9 @@ Adds Tyrannofex (T12 super-tank) for 48" Rupture cannon reach. Dual Exocrines cr
 | **Carnifexes** (2x Stranglethorn cannon) | 2 | Anti-infantry Support | 180 |
 | **Barbgaunts** (10 models) | 10 | Ranged Infantry | 110 |
 | **Barbgaunts** (5 models) | 5 | Objective Holders | 55 |
-| **Termagants** (10 models) | 10 | Battleline Screen | 60 |
-| **TOTAL** | **47 models** | | **2,035pts** |
+| **TOTAL** | **37 models** | | **1,975pts** |
 
-**Adjustment:** Drop Termagants (-60pts) = 1,975pts ✅ LEGAL
+**25pts remaining** - save for Stratagems or add minor wargear.
 
 **Tactical Overview (2000pt):**
 Maximum legal monster spam (3x Exocrine, 3x Tyrannofex per Rule of Three). Dual Synapse nodes (ground + flying Hive Tyrants). Overwhelming firepower from 48" to 18". Hardest list to crack - average Toughness 10+.
@@ -115,20 +114,19 @@ Maximum legal monster spam (3x Exocrine, 3x Tyrannofex per Rule of Three). Dual 
 - **1x Winged Hive Tyrant:** T9, 2+/4++, 10W, M12" - Heavy venom cannon + talons
 
 ### Monsters (11 models, 150 wounds)
-- **3x Exocrine:** T10, 3+, 14W each (42W total) - Bio-plasmic cannon + SYNAPSE
-- **3x Tyrannofex:** T12, 2+, 16W each (48W total) - 2x Rupture cannon, 1x Acid spray + SYNAPSE
+- **3x Exocrine:** T10, 3+, 14W each (42W total) - Bio-plasmic cannon (no SYNAPSE - stay within Hive Tyrant aura)
+- **3x Tyrannofex:** T12, 2+, 16W each (48W total) - 2x Rupture cannon, 1x Acid spray (no SYNAPSE - stay within Hive Tyrant aura)
 - **4x Carnifex:** T9, 2+, 8W each (32W total) - 2x Heavy venom cannon, 2x Stranglethorn cannon
 - **1x Screamer-Killer (optional swap):** T9, 2+, 10W - Bio-plasmic scream
 
-### Infantry (25 models, 35 wounds)
+### Infantry (15 models, 30 wounds)
 - **15x Barbgaunts:** T4, 4+, 2W each (30W total) - Barblauncher (Disruption Bombardment)
-- **10x Termagants (optional):** T3, 5+, 1W each - Fleshborer
 
 **Total Army Stats:**
-- **47 models**
-- **207 total wounds**
-- **Average Toughness:** 9.8 (rounded: T10)
-- **Average Save:** 2.6+ (mostly 2+ armor)
+- **37 models**
+- **~185 total wounds**
+- **Average Toughness:** ~10 (T9-T12 monsters dominate)
+- **Average Save:** 2.5+ (mostly 2+ armor)
 
 ---
 
@@ -277,10 +275,10 @@ Fast Synapse node (M12" + FLY) to keep up with advancing monsters or flank. Can 
 - Powerful limbs (Melee, 3A, 3+, S7, AP0, D2)
 
 **Abilities:**
-- **Synapse:** Provides standard Synapse benefits (Battle-shock on 3D6, +1S in melee)
 - **Symbiotic Targeting:** After shooting, mark enemy hit → friendly TYRANIDS reroll 1s to hit vs that target (end of phase)
 - **Deadly Demise D3**
 - **Damaged (1-5W):** Subtract 1 from Hit rolls
+- ⚠️ **Note:** Does NOT have SYNAPSE keyword - must stay within 6" of Hive Tyrant for Synapse benefits
 
 **Why Take This Unit:**
 S-tier ranged firepower. Bio-plasmic cannon averages 9.5 shots (D6+3) with Blast bonus vs 5+ model units. Lethal Hits + Devastating Wounds = crits bypass saves AND mortal wounds on 6s. Symbiotic Targeting makes nearby monsters MORE accurate. Backbone of gunline.
@@ -307,10 +305,10 @@ S-tier ranged firepower. Bio-plasmic cannon averages 9.5 shots (D6+3) with Blast
 - Powerful limbs (Melee, 4A, 3+, S8, AP0, D2)
 
 **Abilities:**
-- **Synapse**
 - **Resilient Organism:** Once per battle, change one allocated attack's damage to 0 (super-save)
 - **Deadly Demise D6**
 - **Damaged (1-5W):** Subtract 1 from Hit rolls
+- ⚠️ **Note:** Does NOT have SYNAPSE keyword - must stay within 6" of Hive Tyrant for Synapse benefits
 
 **Why Take This Unit:**
 Tankiest unit in Tyranid roster. T12/2+/16W survives massed lascannon fire. Rupture cannon is THE anti-tank gun (S18 wounds Knights on 3+, AP-4 forces invulns, D6+6 averages 9.5 damage = dead vehicles). Resilient Organism clutch save vs killing blow. OC7 at full strength bullies objectives.
@@ -333,9 +331,9 @@ Tankiest unit in Tyranid roster. T12/2+/16W survives massed lascannon fire. Rupt
 - Chitinous claws and teeth (Melee, 4A, 4+, S6, AP0, D1)
 
 **Abilities:**
-- **Synapse**
 - **Blistering Assault:** Each time enemy shoots this unit and inflicts wounds, can move up to D6+2" toward closest enemy (even into Engagement Range) - once per phase
 - **Deadly Demise 1**
+- ⚠️ **Note:** Does NOT have SYNAPSE keyword - must stay within 6" of Hive Tyrant for Synapse benefits
 
 **Why Take This Unit:**
 Cheap(ish) monster with solid ranged firepower. Heavy venom cannon threatens MEQ (Marines/Terminators). Blistering Assault punishes shooting - wounded Carnifex charges you for free. Great for holding midfield objectives with OC5 at full strength.
@@ -357,8 +355,8 @@ Cheap(ish) monster with solid ranged firepower. Heavy venom cannon threatens MEQ
 - Chitinous claws and teeth (Melee, 1A, 4+, S4, AP0, D1)
 
 **Abilities:**
-- **Synapse**
 - **Disruption Bombardment:** Enemy INFANTRY hit by this unit's shooting suffers -2 Move, -2 to Advance/Charge rolls until end of opponent's next turn
+- ⚠️ **Note:** Does NOT have SYNAPSE keyword - must stay within 6" of Hive Tyrant for Synapse benefits
 
 **Why Take This Unit:**
 Speed bump extraordinaire. Disruption Bombardment cripples enemy melee threats (Berzerkers go from 6" Move to 4", charge from 10" average to 8"). 2W per model = survives bolter fire. Cheap objective holders.

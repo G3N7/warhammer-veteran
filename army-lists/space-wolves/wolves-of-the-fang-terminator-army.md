@@ -119,16 +119,16 @@
 
 **Weaknesses:**
 - Only 16 models (limited board control)
-- No Deep Strike (all units deploy on board)
-- No redundancy (if Terminators die, you lose)
+- Deep Strike available but inadvisable (leaves board empty Turn 1 with only 5 wolves)
+- No redundancy (single Terminator brick - if they die, you lose)
 - Limited CP (3 starting, no generation)
 
 **Game Plan:**
 1. Deploy wolves 9" forward to screen charges
 2. Castle Terminators on center objective with fire lanes
 3. Use Oath of Moment each turn on priority target
-4. Wolves grab undefended objectives or tie up enemy shooters
-5. Grind forward slowly (5" move, no Advance bonuses at this level)
+4. Wolves grab undefended objectives or tie up enemy shooters (12" move = board reach)
+5. Terminators grind forward slowly (5" move) - wolves provide mobility this army lacks
 
 ---
 
@@ -175,7 +175,7 @@
 **Weaknesses:**
 - Elite army = vulnerable to attrition (lose trades inefficiently)
 - Limited ranged firepower (mostly storm bolters + assault cannons)
-- Slow movement (5" Terminators, 7" power armor)
+- Core units are slow (5" Terminators, 7" power armor) - wolves provide mobility but are fragile
 - Expensive models (if Terminators die, hard to recover board control)
 
 **New Tactical Depth vs 1000pt:**
@@ -261,7 +261,7 @@
 4. Blood Claws mid-field for counter-charge
 5. Grey Hunters on flank (OC3 for objective holding)
 6. Wolves screen 9" forward or grab flanks (12" move)
-7. Bjorn positioned with fire lanes (9" move)
+7. Bjorn positioned with fire lanes (8" move)
 8. Venerable Dread near Terminators for +1 Advance/Charge aura (6" range)
 
 **Deployment Priority (Deep Strike Variant):**
