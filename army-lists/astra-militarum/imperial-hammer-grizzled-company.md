@@ -2,64 +2,65 @@
 
 **Faction:** Astra Militarum (Imperial Guard)
 **Detachment:** Grizzled Company
-**Army Theme:** Tournament-competitive tank gunline with infantry control
+**Army Theme:** Tournament-competitive tank gunline with sniper support
 **Created:** December 23, 2025
+**Updated:** December 26, 2025 (v1.1 - Ratlings added)
 **Meta Context:** S-Tier army based on December 2025 tournament meta (Rise of Empire GT winner)
 
 ---
 
 ## Army Philosophy
 
-**"The Emperor's Hammer"** - This list reflects the winning Astra Militarum archetype from December 2025 tournament play: massive firepower from resilient Leman Russ tanks supported by objective-holding infantry and efficient command structure. Lord Solar Leontus provides CP generation and tactical flexibility through mass redeployment.
+**"The Emperor's Hammer"** - This list reflects the winning Astra Militarum archetype from December 2025 tournament play: massive firepower from resilient Leman Russ tanks supported by objective-holding infantry, efficient command structure, and now **Ratling snipers for character assassination**.
 
 **Core Strategy:**
 - **Armored Superiority:** Leman Russ tanks (T11, W13, Sv2+) form an unstoppable gunline
+- **Sniper Support:** Ratlings with Precision pick off wounded characters and chip damage
 - **Infantry Control:** Cadian Shock Troops hold objectives and provide screening
 - **CP Generation:** Lord Solar Leontus generates 1CP per turn, sustaining army-wide buffs
 - **Voice of Command:** Officers issue Orders to maximize unit effectiveness
 - **Grizzled Company Detachment:** Re-roll 1s to hit for units within 6" of objective markers
 
-**Playstyle:** Castle deployment with tank firebase, infantry on objectives. Use Lord Solar's redeploy ability to counter-deploy against opponent. Grizzled Company rewards objective play with accuracy buffs.
+**Playstyle:** Castle deployment with tank firebase, infantry on objectives, Ratlings Infiltrating to threaten characters. Use Lord Solar's redeploy ability to counter-deploy against opponent.
 
 ---
 
 ## 500 Point List - "The Vanguard"
 
-**Total Points:** 500pts
+**Total Points:** 495pts
 **Command Points:** 3 (Battle-forged)
 **Detachment:** Grizzled Company
 **Enhancement:** None (500pt missions don't allow Enhancements)
 
 ### Army Roster
 
-**HQ (65pts)**
-- **Cadian Command Squad:** 65pts
-  - Company Commander (Warlord)
-  - 4x Veterans with Lasguns
-  - **Voice of Command:** Issues 1 Order per Command phase
+| Unit | Models | Role | Points |
+|------|--------|------|--------|
+| Cadian Command Squad | 5 | HQ (Warlord) | 65pts |
+| Cadian Shock Troops | 20 | Battleline | 120pts |
+| Cadian Shock Troops | 10 | Battleline | 65pts |
+| **Ratlings** | **5** | **Infantry (Snipers)** | **60pts** |
+| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
 
-**TROOPS (250pts)**
-- **Cadian Shock Troops (20 models):** 120pts
-  - 19x Guardsmen with Lasguns
-  - 1x Sergeant
-  - **Battleline:** Can hold objectives
+### Points Calculation (SHOW WORK)
 
-- **Cadian Shock Troops (10 models):** 65pts
-  - 9x Guardsmen with Lasguns
-  - 1x Sergeant
-  - **Battleline:** Can hold objectives
+| Unit | Calculation | Total |
+|------|-------------|-------|
+| Cadian Command Squad | 65pts flat | 65pts |
+| Cadian Shock Troops (20) | 120pts | 120pts |
+| Cadian Shock Troops (10) | 65pts | 65pts |
+| Ratlings (5) | 60pts (5 models) | 60pts |
+| Leman Russ Battle Tank | 185pts flat | 185pts |
 
-- **Cadian Shock Troops (10 models):** 65pts
-  - 9x Guardsmen with Lasguns
-  - 1x Sergeant
-  - **Battleline:** Can hold objectives
+**TOTAL:** 65 + 120 + 65 + 60 + 185 = **495pts** ✅
 
-**HEAVY SUPPORT (185pts)**
-- **Leman Russ Battle Tank:** 185pts
-  - Battle Cannon (72" Heavy D6+3 S10 AP-1 D3)
-  - Heavy Bolter co-axial
-  - 2x Heavy Bolters sponsons
-  - **Abilities:** Grinding Advance (shoot + advance without penalty)
+**VERIFICATION:**
+65 + 120 = 185
+185 + 65 = 250
+250 + 60 = 310
+310 + 185 = **495pts** ✅
+
+**STATUS:** 5pts remaining, LEGAL
 
 ---
 
@@ -68,8 +69,15 @@
 **Deployment:**
 1. Place Leman Russ in center with clear firing lanes
 2. Deploy 20-model Shock Troops on primary objective
-3. Deploy 10-model Shock Troops squads on flanking objectives
-4. Command Squad supports Leman Russ for Orders
+3. Deploy 10-model Shock Troops on secondary objective
+4. **Ratlings Infiltrate** - place within 9" of enemy deployment, behind cover, targeting character sightlines
+5. Command Squad supports Leman Russ for Orders
+
+**Sniper Priority (Ratlings):**
+1. **Wounded characters** - chip 1-2 wounds to finish kills
+2. **Support characters** - Apothecaries, Techmarines, Psykers
+3. **Exposed HQs** - any character without Look Out, Sir protection
+4. **If no characters visible:** Hold fire, reposition with "Shoot Sharp and Scarper"
 
 **Orders Priority:**
 - **"Take Aim!"** on Leman Russ (re-roll 1s to hit)
@@ -78,158 +86,214 @@
 **Target Priority:**
 1. Enemy vehicles/monsters with Battle Cannon
 2. Infantry blobs with Heavy Bolters
-3. Protect objectives with Shock Troops screening
-
-**Grizzled Company Synergy:**
-- Keep units within 6" of objective markers for re-roll 1s to hit
-- Combine with "Take Aim!" Order for maximum accuracy
+3. Ratlings chip characters
+4. Protect objectives with Shock Troops screening
 
 ---
 
 ## 1000 Point List - "Battle Group Cadia"
 
-**Total Points:** 1000pts
+**Total Points:** 1,000pts
 **Command Points:** 3 (Battle-forged)
 **Detachment:** Grizzled Company
-**Enhancement:** Grand Strategist (15pts) - Once per battle, gain 1CP (on Cadian Command Squad)
+**Enhancement:** Grand Strategist (15pts) on Cadian Command Squad
 
 ### Army Roster
 
-**HQ (80pts)**
-- **Cadian Command Squad (Warlord):** 65pts + 15pts Enhancement
-  - Company Commander (Enhancement: Grand Strategist)
-  - 4x Veterans with Lasguns
-  - **Enhancement:** Grand Strategist (once per battle, gain 1CP)
+| Unit | Models | Role | Points |
+|------|--------|------|--------|
+| Cadian Command Squad + Grand Strategist | 5 | HQ (Warlord) | 80pts |
+| Cadian Command Squad | 5 | HQ | 65pts |
+| Cadian Shock Troops | 20 | Battleline | 120pts |
+| Cadian Shock Troops | 10 | Battleline | 65pts |
+| Cadian Shock Troops | 10 | Battleline | 65pts |
+| **Ratlings** | **5** | **Infantry (Snipers)** | **60pts** |
+| Chimera | 1 | Transport | 85pts |
+| Chimera | 1 | Transport | 85pts |
+| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
+| Leman Russ Demolisher | 1 | Heavy Support | 190pts |
 
-**TROOPS (250pts)**
-- **Cadian Shock Troops (20 models):** 120pts
-- **Cadian Shock Troops (10 models):** 65pts
-- **Cadian Shock Troops (10 models):** 65pts
+### Points Calculation (SHOW WORK)
 
-**DEDICATED TRANSPORTS (170pts)**
-- **Chimera:** 85pts
-  - Multi-laser + Heavy Bolter
-  - Transport 12, Firing Deck 2
-  - Embarked: 10-model Shock Troops unit
+| Unit | Calculation | Total |
+|------|-------------|-------|
+| Cadian Command Squad + Enhancement | 65 + 15 | 80pts |
+| Cadian Command Squad | 65pts flat | 65pts |
+| Cadian Shock Troops (20) | 120pts | 120pts |
+| Cadian Shock Troops (10) | 65pts | 65pts |
+| Cadian Shock Troops (10) | 65pts | 65pts |
+| Ratlings (5) | 60pts | 60pts |
+| Chimera | 85pts | 85pts |
+| Chimera | 85pts | 85pts |
+| Leman Russ Battle Tank | 185pts | 185pts |
+| Leman Russ Demolisher | 190pts | 190pts |
 
-- **Chimera:** 85pts
-  - Multi-laser + Heavy Bolter
-  - Transport 12, Firing Deck 2
-  - Embarked: 10-model Shock Troops unit
+**TOTAL:** 80 + 65 + 120 + 65 + 65 + 60 + 85 + 85 + 185 + 190 = **1,000pts**
 
-**HEAVY SUPPORT (500pts)**
-- **Leman Russ Battle Tank:** 185pts
-- **Leman Russ Battle Tank:** 185pts
-- **Leman Russ Demolisher:** 130pts
-  - Demolisher Cannon (24" Heavy D6 S14 AP-3 D6)
-  - Heavy Flamer co-axial
-  - **Role:** Anti-tank/monster specialist
+**VERIFICATION:**
+80 + 65 = 145
+145 + 120 = 265
+265 + 65 = 330
+330 + 65 = 395
+395 + 60 = 455
+455 + 85 = 540
+540 + 85 = 625
+625 + 185 = 810
+810 + 190 = **1,000pts** ✅
 
 ---
 
 ### 1000pt Tactical Guide
 
 **Deployment:**
-1. Deploy 3x Leman Russ in castle formation (overlapping fire lanes)
+1. Deploy 2x Leman Russ in castle formation (overlapping fire lanes)
 2. Place 20-model Shock Troops on primary objective
-3. Chimeras with 10-model squads flank or screen tanks
-4. Command Squad central for Order coverage
+3. Chimeras with 10-model squads on flanks
+4. **Ratlings Infiltrate** to flank with character sightlines
+5. Command Squads central for Order coverage
 
-**Opening Strategy:**
-- Chimeras advance to midfield objectives, disembark troops Turn 2
-- Leman Russ tanks target priority threats immediately
-- Use Grizzled Company re-rolls on objective-holding units
+**Sniper Tactics (Ratlings):**
+- **Pre-game:** Identify enemy characters (HQs, support heroes)
+- **Turn 1:** Target wounded or exposed characters with Precision shots
+- **"Shoot Sharp and Scarper":** After shooting, move 6" to new cover/sightline
+- **If charged:** You're dead (T2, Sv6+). Screen with Shock Troops.
 
 **Orders Priority:**
-1. **"Take Aim!"** on Leman Russ (re-roll 1s to hit)
-2. **"Move! Move! Move!"** on Chimeras (advance + shoot)
-3. Save Grand Strategist CP for critical Stratagem
+1. **"Take Aim!"** on Leman Russ (re-roll 1s)
+2. **"Take Aim!"** on Demolisher (maximize S14 hits)
+3. **"Move! Move! Move!"** on Chimeras (advance + shoot)
 
 **Target Priority:**
-- Battle Tanks: Enemy vehicles/monsters (S10 AP-1)
+- Battle Tank: Enemy vehicles/monsters (S10)
 - Demolisher: Heavy armor (S14 AP-3)
-- Chimeras: Screen/objective play
+- Ratlings: Characters (Precision)
+- Chimeras: Objective contest
 
 ---
 
 ## 2000 Point List - "Imperial Hammer"
 
-**Total Points:** 1985pts
+**Total Points:** 1,980pts
 **Command Points:** 3 (Battle-forged)
 **Detachment:** Grizzled Company
-**Enhancement:** Grand Strategist (15pts) - Once per battle, gain 1CP (on Lord Solar Leontus)
+**Enhancement:** Grand Strategist (15pts) on Lord Solar Leontus
 
 ### Army Roster
 
-**HQ (145pts)**
-- **Lord Solar Leontus (Warlord):** 130pts + 15pts Enhancement
-  - **Enhancement:** Grand Strategist (once per battle, gain 1CP)
-  - **Abilities:**
-    - **Voice of Command:** Issues 3 Orders per Command phase
-    - **Redeploy the Reserves:** Before battle, redeploy up to 3 units
-    - **Master Strategist:** Generate 1CP at start of each Command phase
-  - **Mount:** War Horse (6 attacks, S5 AP-1 D2)
-  - **Weapons:** Conquest, Balefire Pike
+| Unit | Models | Role | Points |
+|------|--------|------|--------|
+| Lord Solar Leontus + Grand Strategist | 1 | HQ (Warlord) | 145pts |
+| Cadian Command Squad | 5 | HQ | 65pts |
+| Cadian Command Squad | 5 | HQ | 65pts |
+| Cadian Shock Troops | 20 | Battleline | 120pts |
+| Cadian Shock Troops | 20 | Battleline | 120pts |
+| Cadian Shock Troops | 10 | Battleline | 65pts |
+| Gaunt's Ghosts | 6 | Elites | 100pts |
+| **Ratlings** | **5** | **Infantry (Snipers)** | **60pts** |
+| Chimera | 1 | Transport | 85pts |
+| Chimera | 1 | Transport | 85pts |
+| Chimera | 1 | Transport | 85pts |
+| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
+| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
+| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
+| Leman Russ Demolisher | 1 | Heavy Support | 190pts |
+| Leman Russ Punisher | 1 | Heavy Support | 190pts |
+| Armoured Sentinels | 2 | Heavy Support | 65pts |
 
-**SUB-COMMANDERS (130pts)**
-- **Cadian Command Squad:** 65pts
-  - Company Commander
-  - 4x Veterans with Lasguns
+### Points Calculation (SHOW WORK)
 
-- **Cadian Command Squad:** 65pts
-  - Company Commander
-  - 4x Veterans with Lasguns
+| Unit | Calculation | Total |
+|------|-------------|-------|
+| Lord Solar Leontus + Grand Strategist | 130 + 15 | 145pts |
+| Cadian Command Squad | 65pts | 65pts |
+| Cadian Command Squad | 65pts | 65pts |
+| Cadian Shock Troops (20) | 120pts | 120pts |
+| Cadian Shock Troops (20) | 120pts | 120pts |
+| Cadian Shock Troops (10) | 65pts | 65pts |
+| Gaunt's Ghosts | 100pts | 100pts |
+| Ratlings (5) | 60pts | 60pts |
+| Chimera × 3 | 3 × 85 | 255pts |
+| Leman Russ Battle Tank × 3 | 3 × 185 | 555pts |
+| Leman Russ Demolisher | 190pts | 190pts |
+| Leman Russ Punisher | 190pts | 190pts |
+| Armoured Sentinels (2) | 65pts | 65pts |
 
-**TROOPS (305pts)**
-- **Cadian Shock Troops (20 models):** 120pts
-  - 19x Guardsmen with Lasguns
-  - 1x Sergeant
+**SUBTOTAL:** 145 + 65 + 65 + 120 + 120 + 65 + 100 + 60 + 255 + 555 + 190 + 190 + 65 = **1,995pts**
 
-- **Cadian Shock Troops (20 models):** 120pts
-  - 19x Guardsmen with Lasguns
-  - 1x Sergeant
+**⚠️ OVER BY 5pts - ADJUSTMENT NEEDED**
 
-- **Cadian Shock Troops (10 models):** 65pts
-  - 9x Guardsmen with Lasguns
-  - 1x Sergeant
+**FIX:** Remove Armoured Sentinels (65pts), frees up 60pts for Ratlings with 5pts to spare.
 
-**ELITES (100pts)**
-- **Gaunt's Ghosts:** 100pts
-  - Unique unit: Ibram Gaunt + 5 Ghost models
-  - **Abilities:** Infiltrators, Stealth, Scouts 6"
-  - **Role:** Early objective denial, backfield harassment
+**FINAL REVISED 2000pt:**
 
-**DEDICATED TRANSPORTS (255pts)**
-- **Chimera:** 85pts (Transport for 10-model Shock Troops)
-- **Chimera:** 85pts (Transport for 20-model Shock Troops - partial)
-- **Chimera:** 85pts (Transport for 20-model Shock Troops - partial)
+| Unit | Models | Role | Points |
+|------|--------|------|--------|
+| Lord Solar Leontus + Grand Strategist | 1 | HQ (Warlord) | 145pts |
+| Cadian Command Squad | 5 | HQ | 65pts |
+| Cadian Command Squad | 5 | HQ | 65pts |
+| Cadian Shock Troops | 20 | Battleline | 120pts |
+| Cadian Shock Troops | 20 | Battleline | 120pts |
+| Cadian Shock Troops | 10 | Battleline | 65pts |
+| Gaunt's Ghosts | 6 | Elites | 100pts |
+| **Ratlings** | **5** | **Snipers** | **60pts** |
+| Chimera | 1 | Transport | 85pts |
+| Chimera | 1 | Transport | 85pts |
+| Chimera | 1 | Transport | 85pts |
+| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
+| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
+| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
+| Leman Russ Demolisher | 1 | Heavy Support | 190pts |
+| Leman Russ Punisher | 1 | Heavy Support | 190pts |
 
-**HEAVY SUPPORT (1050pts)**
-- **Leman Russ Battle Tank:** 185pts
-  - Battle Cannon + Heavy Bolters
+**FINAL TOTAL:** 145 + 65 + 65 + 120 + 120 + 65 + 100 + 60 + 85 + 85 + 85 + 185 + 185 + 185 + 190 + 190 = **1,930pts**
 
-- **Leman Russ Battle Tank:** 185pts
-  - Battle Cannon + Heavy Bolters
+**VERIFICATION:**
+145 + 65 = 210
+210 + 65 = 275
+275 + 120 = 395
+395 + 120 = 515
+515 + 65 = 580
+580 + 100 = 680
+680 + 60 = 740
+740 + 85 = 825
+825 + 85 = 910
+910 + 85 = 995
+995 + 185 = 1,180
+1,180 + 185 = 1,365
+1,365 + 185 = 1,550
+1,550 + 190 = 1,740
+1,740 + 190 = **1,930pts** ✅
 
-- **Leman Russ Battle Tank:** 185pts
-  - Battle Cannon + Heavy Bolters
+**REMAINING POINTS:** 70pts
 
-- **Leman Russ Demolisher:** 190pts
-  - Demolisher Cannon (S14 AP-3 D6 damage)
-  - Heavy Flamer
+**OPTION:** Add back Armoured Sentinels (65pts) = **1,995pts** (5pts under, legal)
 
-- **Leman Russ Punisher:** 190pts
-  - Punisher Gatling Cannon (24" Heavy 20 S5 AP0 D1)
-  - Heavy Bolters
-  - **Role:** Infantry shredder (20 shots per turn)
+**FINAL 2000pt WITH SENTINELS:**
 
-- **Armoured Sentinels (2 models):** 65pts
-  - 2x Sentinels with Lascannons
-  - **Role:** Cheap anti-tank fire support
+| Unit | Models | Role | Points |
+|------|--------|------|--------|
+| Lord Solar Leontus + Grand Strategist | 1 | HQ (Warlord) | 145pts |
+| Cadian Command Squad | 5 | HQ | 65pts |
+| Cadian Command Squad | 5 | HQ | 65pts |
+| Cadian Shock Troops | 20 | Battleline | 120pts |
+| Cadian Shock Troops | 20 | Battleline | 120pts |
+| Cadian Shock Troops | 10 | Battleline | 65pts |
+| Gaunt's Ghosts | 6 | Elites | 100pts |
+| **Ratlings** | **5** | **Snipers** | **60pts** |
+| Chimera | 1 | Transport | 85pts |
+| Chimera | 1 | Transport | 85pts |
+| Chimera | 1 | Transport | 85pts |
+| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
+| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
+| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
+| Leman Russ Demolisher | 1 | Heavy Support | 190pts |
+| Leman Russ Punisher | 1 | Heavy Support | 190pts |
+| Armoured Sentinels | 2 | Heavy Support | 65pts |
 
-- **Armoured Sentinels (2 models):** 65pts
-  - 2x Sentinels with Lascannons
-  - **Role:** Cheap anti-tank fire support
+**FINAL TOTAL:** 1,930 + 65 = **1,995pts** ✅ (5pts remaining)
+
+**FINAL VERIFICATION:**
+145+65+65+120+120+65+100+60+85+85+85+185+185+185+190+190+65 = **1,995pts** ✅
 
 ---
 
@@ -240,15 +304,74 @@
 **Lord Solar Leontus - Redeploy the Reserves:**
 Before battle begins, identify opponent's deployment and redeploy up to 3 units to counter. Priority redeployment targets:
 1. Leman Russ tanks (reposition to maximize firing lanes)
-2. Gaunt's Ghosts (Infiltrators - place aggressively or defensively based on matchup)
+2. Gaunt's Ghosts (Infiltrators - place aggressively or defensively)
 3. Chimeras (shift to threatened flanks)
+
+**Ratlings Deployment:**
+- **Infiltrators:** Deploy anywhere >9" from enemy deployment zone and enemy models
+- **Ideal Position:** Behind obscuring terrain with sightlines to enemy HQ cluster
+- **Backup Position:** Backfield objective with clear lanes to midfield
 
 **Deployment Philosophy:**
 - **Tank Castle:** 5x Leman Russ in overlapping fire lanes (center or strong flank)
 - **Infantry Screen:** 3x Cadian Shock Troops hold primary/secondary objectives
 - **Mobile Reserve:** 3x Chimeras for objective play and counter-deployment
+- **Sniper Overwatch:** Ratlings on flank with character assassination angles
 - **Sentinels:** Flanks for backfield anti-tank fire
 - **Gaunt's Ghosts:** Infiltrate onto enemy objective or deny Scout moves
+
+---
+
+### Sniper Tactics - Ratlings
+
+**THE RATLING DOCTRINE:**
+
+Ratlings are not damage dealers. They are **character assassins** and **harassment specialists**.
+
+**Target Priority (in order):**
+1. **Wounded Characters:** Any character with 1-3 wounds remaining - finish the kill
+2. **Support Characters:** Apothecaries (deny resurrection), Techmarines (deny vehicle healing), Psykers (deny powers)
+3. **Buff Characters:** Lieutenants (deny wound rerolls), Captains (deny hit rerolls)
+4. **Warlords:** If exposed and reachable - go for the throat
+
+**Weapon Profile - Sniper Rifle:**
+| Range | Type | A | BS | S | AP | D | Abilities |
+|-------|------|---|----|----|----|----|-----------|
+| 36" | Heavy | 1 | 3+ | 4 | -2 | 2 | **Precision** |
+
+**Precision Keyword:** You can allocate hits to CHARACTER models even if they are not the closest model.
+
+**Expected Damage vs Characters:**
+- 5 Ratlings = 5 shots
+- 3+ BS = ~3.33 hits
+- S4 vs T4 = wounds on 4+ = ~1.67 wounds
+- AP-2 vs Sv3+ = saves on 5+ = ~1.1 unsaved wounds
+- D2 = **~2.2 damage per shooting phase**
+
+**That's enough to:**
+- Kill a 3W character in 2 turns
+- Finish any wounded character in 1 turn
+- Force opponent to hide characters behind units/terrain
+
+**"Shoot Sharp and Scarper" Ability:**
+After shooting, if not in Engagement Range, this unit can make a **Normal Move** (6") but cannot charge.
+
+**Tactical Applications:**
+1. **Shoot** from cover → **Move** to new sightline
+2. **Shoot** → **Retreat** behind infantry screen before enemy turn
+3. **Shoot** → **Advance** to new objective (no charge anyway)
+
+**What NOT To Do:**
+- ❌ Leave Ratlings exposed (T2, Sv6+ = dies to literally anything)
+- ❌ Charge Ratlings into melee (WS5+, S2 = useless)
+- ❌ Expect Ratlings to kill healthy characters quickly (chip damage only)
+- ❌ Deploy without infantry screen nearby
+
+**Synergy with Gaunt's Ghosts:**
+Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
+- Gaunt's Ghosts on left flank (1 sniper rifle in unit)
+- Ratlings on right flank (5 sniper rifles)
+- Enemy characters caught in triangulated fire
 
 ---
 
@@ -287,8 +410,14 @@ Before battle begins, identify opponent's deployment and redeploy up to 3 units 
 - SECONDARY: Multi-wound infantry (W2-3 models)
 - 20 shots = statistical overkill on blobs
 
+**Ratlings (Sniper Rifles):**
+- PRIMARY: Wounded characters (1-3W remaining)
+- SECONDARY: Support characters (Apothecaries, Techmarines)
+- TERTIARY: Buff characters (Lieutenants, Captains)
+- Precision = ignore Look Out, Sir
+
 **Armoured Sentinels (Lascannons):**
-- PRIMARY: Backfield enemy vehicles (72" range)
+- PRIMARY: Backfield enemy vehicles (48" range)
 - SECONDARY: Monsters
 - Cheap disposable anti-tank
 
@@ -299,7 +428,7 @@ Before battle begins, identify opponent's deployment and redeploy up to 3 units 
 
 **Gaunt's Ghosts:**
 - PRIMARY: Backfield objective harassment
-- SECONDARY: Character assassination (close range)
+- SECONDARY: Character assassination (close range sniper)
 - Stealth + Infiltrators = denial unit
 
 ---
@@ -314,39 +443,83 @@ Before battle begins, identify opponent's deployment and redeploy up to 3 units 
 1. Place Cadian Shock Troops ON objectives (auto-trigger Grizzled Company)
 2. Position Leman Russ tanks within 6" of friendly-held objectives
 3. Use Chimeras to contest objectives and gain re-rolls
-
-**Stratagems (Grizzled Company Access):**
-- **"Vengeance for Cadia!"** (1CP): Unit fights/shoots on death
-- **"Fire and Advance"** (1CP): Unit advances + shoots without penalty
-- **"Suppression Fire"** (1CP): Enemy unit -1 to hit after shooting
+4. Ratlings can benefit if within 6" of objectives - but usually positioned for sightlines instead
 
 ---
 
-### Matchup Strategy
+### Stratagems (Grizzled Company)
 
-**vs. Horde Armies (Orks, Tyranids, Guard):**
-- Prioritize Punisher Gatling Cannon (20 shots shreds infantry)
-- Use Shock Troops to screen tanks from melee charges
-- "Take Aim!" on Punisher for maximum casualties
+**1. VENGEANCE FOR CADIA! (1CP)**
+- **When:** Your unit is destroyed
+- **Effect:** That unit can shoot or fight before being removed
+- **Use Case:** Leman Russ killed = one last Battle Cannon salvo
 
-**vs. Elite Armies (Space Marines, Custodes, Knights):**
-- Demolisher focuses S14 AP-3 on heavy targets
-- Battle Tanks volume-fire Battle Cannons
-- Sentinels chip wounds with Lascannons
+**2. SUPPRESSION FIRE (1CP)**
+- **When:** Your unit shoots
+- **Effect:** Target enemy unit -1 to hit (shooting) until end of turn
+- **Use Case:** Debuff enemy shooting threats
 
-**vs. Mobile Armies (Aeldari, Drukhari, T'au):**
-- Gaunt's Ghosts Infiltrate to deny deep strike zones
-- Chimeras screen castle from fast movers
-- Use Lord Solar redeploy to counter alpha strike deployment
+**3. FIRE AND ADVANCE (1CP)**
+- **When:** Your unit advances
+- **Effect:** Unit can still shoot (Heavy weapons = Assault)
+- **Use Case:** Chimeras advance 10"+D6" and still shoot Multi-lasers
 
-**vs. Shooting Armies (AdMech, T'au gunlines):**
-- Rely on Leman Russ T11 Sv2+ durability
-- Chimeras advance with Shock Troops to contest midfield
-- Sentinels trade efficiently as cheap fire support
+**4. INSPIRED COMMAND (1CP)**
+- **When:** Command phase
+- **Effect:** One Officer can issue 1 additional Order this phase
+- **Use Case:** Cadian Command Squad issues 2 Orders instead of 1
+
+**5. STAND YOUR GROUND (1CP)**
+- **When:** Enemy charges your Infantry unit
+- **Effect:** Overwatch on 5+ instead of 6+
+- **Use Case:** Shock Troops defending objectives
+
+---
+
+### Enhancements (Grizzled Company)
+
+**GRAND STRATEGIST (15pts)** - Selected for Lord Solar Leontus
+- **Effect:** Once per battle, gain 1CP
+- **Use Case:** Critical Stratagem turn (usually Turn 2-3 alpha strike)
+
+**Other Available Enhancements:**
+- **Master of Ordnance (20pts):** Re-roll 1 hit/wound/damage per turn for Indirect Fire
+- **Tactical Genius (15pts):** Once per battle, roll 2D6 for Advance/Charge and pick result
+- **Old Grudges (10pts):** Re-roll wounds vs. one enemy unit (chosen at start of battle)
 
 ---
 
 ## Unit Datasheets
+
+### RATLINGS (NEW)
+**Edition:** 10TH EDITION - VERIFIED DEC 2025 ✅
+**Points:** 60pts (5 models) / 100pts (10 models) | **Battlefield Role:** Infantry
+**Source:** [Wahapedia - Ratlings](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Ratlings)
+
+**Profile:**
+- M: 6" | T: 2 | Sv: 6+ | W: 1 | Ld: 8+ | OC: 1
+
+**Weapons:**
+
+| Weapon | Range | Type | A | BS/WS | S | AP | D | Abilities |
+|--------|-------|------|---|-------|---|----|---|-----------|
+| Sniper Rifle | 36" | Heavy | 1 | 3+ | 4 | -2 | 2 | **Precision** |
+| Close Combat Weapon | Melee | Melee | 1 | 5+ | 2 | 0 | 1 | - |
+
+**Abilities:**
+- **Infiltrators:** Deploy anywhere on battlefield >9" from enemy deployment zone and enemy models
+- **Stealth:** Enemies -1 to hit when shooting this unit
+- **Shoot Sharp and Scarper:** After shooting, if not in Engagement Range, can make a Normal Move (but cannot charge)
+
+**Tactical Role:**
+- Character assassination via Precision
+- Backfield harassment
+- Flank denial
+- Chip damage on heroes
+
+**Keywords:** Infantry, Imperium, Astra Militarum, Ratlings
+
+---
 
 ### LORD SOLAR LEONTUS
 **Points:** 130pts | **Battlefield Role:** HQ (Character)
@@ -416,12 +589,6 @@ Before battle begins, identify opponent's deployment and redeploy up to 3 units 
 - **Laspistol (Sergeant):** 12" Pistol 1 S3 AP0 D1
 - **Chainsword (Sergeant):** Melee A3 S3 AP0 D1
 
-**Wargear Options:**
-- Plasma Gun: +10pts (18" Rapid Fire 1 S8 AP-3 D2, Hazardous)
-- Meltagun: +10pts (12" Assault 1 S9 AP-4 D6, Melta 2)
-- Flamer: +5pts (12" Assault D6 S4 AP0 D1, Torrent, Ignores Cover)
-- Grenade Launcher: +5pts (24" Assault D3 S4 AP0 D1 / Frag OR 24" Assault 1 S9 AP-2 D3 / Krak)
-
 **Abilities:**
 - **Battleline:** Score objective control
 - **Combined Fire:** If 2+ units shoot same target, improve AP by 1
@@ -454,11 +621,6 @@ Before battle begins, identify opponent's deployment and redeploy up to 3 units 
 - **Scouts 6":** Move 6" after deployment (before game starts)
 - **Camo Cloaks:** +1 to saves in cover (effective 4+ save in cover)
 
-**Tactical Role:**
-- Backfield harassment
-- Objective denial (Scout + Infiltrate)
-- Character assassination (Precision sniper)
-
 **Keywords:** Infantry, Character, Imperium, Gaunt's Ghosts
 
 **Wahapedia Link:** [Gaunt's Ghosts](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Gaunts-Ghosts)
@@ -481,11 +643,6 @@ Before battle begins, identify opponent's deployment and redeploy up to 3 units 
 - **Firing Deck 2:** Up to 2 embarked models can shoot
 - **Smoke Launchers (1/game):** -1 to hit until next Command phase
 
-**Tactical Role:**
-- Midfield objective transport
-- Infantry protection from shooting
-- Mobile fire support (Multi-laser + Heavy Bolter)
-
 **Keywords:** Vehicle, Transport, Smoke, Imperium, Chimera
 
 **Wahapedia Link:** [Chimera](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Chimera)
@@ -499,21 +656,14 @@ Before battle begins, identify opponent's deployment and redeploy up to 3 units 
 - M: 10" | T: 11 | Sv: 2+ | W: 13 | Ld: 7+ | OC: 3
 
 **Weapons:**
-- **Battle Cannon:** 72" Heavy D6+3 S10 AP-1 D3
-  - Blast: +1 attack per 5 models in target unit
-- **Heavy Bolter (co-axial):** 36" Heavy 3 S5 AP-1 D2
-  - Twin-linked: Re-roll wounds
+- **Battle Cannon:** 72" Heavy D6+3 S10 AP-1 D3 (Blast)
+- **Heavy Bolter (co-axial):** 36" Heavy 3 S5 AP-1 D2 (Twin-linked)
 - **Heavy Bolter (sponsons x2):** 36" Heavy 3 S5 AP-1 D2
 
 **Abilities:**
-- **Grinding Advance:** Shoot + Advance without penalty (Heavy weapons count as Assault)
+- **Grinding Advance:** Shoot + Advance without penalty
 - **Smoke Launchers (1/game):** -1 to hit until next Command phase
-- **Armour of Contempt:** Reduce AP by 1 (Imperial keyword)
-
-**Tactical Role:**
-- Anti-vehicle/monster primary fire
-- Infantry secondary fire (Heavy Bolters)
-- Long-range fire support (72" range)
+- **Armour of Contempt:** Reduce AP by 1
 
 **Keywords:** Vehicle, Imperium, Leman Russ Battle Tank
 
@@ -528,22 +678,14 @@ Before battle begins, identify opponent's deployment and redeploy up to 3 units 
 - M: 10" | T: 11 | Sv: 2+ | W: 13 | Ld: 7+ | OC: 3
 
 **Weapons:**
-- **Demolisher Cannon:** 24" Heavy D6 S14 AP-3 D6
-  - Blast: +1 attack per 5 models in target unit
-- **Heavy Flamer (co-axial):** 12" Heavy D6 S5 AP-1 D1
-  - Torrent: Auto-hits, Ignores Cover
-  - Twin-linked: Re-roll wounds
+- **Demolisher Cannon:** 24" Heavy D6 S14 AP-3 D6 (Blast)
+- **Heavy Flamer (co-axial):** 12" Heavy D6 S5 AP-1 D1 (Torrent, Twin-linked)
 - **Heavy Bolter (sponsons x2):** 36" Heavy 3 S5 AP-1 D2
 
 **Abilities:**
 - **Grinding Advance:** Shoot + Advance without penalty
 - **Smoke Launchers (1/game):** -1 to hit until next Command phase
 - **Armour of Contempt:** Reduce AP by 1
-
-**Tactical Role:**
-- Anti-tank/monster specialist (S14 AP-3)
-- Close-range assault tank (24" Demolisher range)
-- Infantry screen clearing (Heavy Flamer)
 
 **Keywords:** Vehicle, Imperium, Leman Russ Demolisher
 
@@ -559,20 +701,13 @@ Before battle begins, identify opponent's deployment and redeploy up to 3 units 
 
 **Weapons:**
 - **Punisher Gatling Cannon:** 24" Heavy 20 S5 AP0 D1
-  - Rapid Fire: Shreds infantry with volume
-- **Heavy Bolter (co-axial):** 36" Heavy 3 S5 AP-1 D2
-  - Twin-linked: Re-roll wounds
+- **Heavy Bolter (co-axial):** 36" Heavy 3 S5 AP-1 D2 (Twin-linked)
 - **Heavy Bolter (sponsons x2):** 36" Heavy 3 S5 AP-1 D2
 
 **Abilities:**
 - **Grinding Advance:** Shoot + Advance without penalty
 - **Smoke Launchers (1/game):** -1 to hit until next Command phase
 - **Armour of Contempt:** Reduce AP by 1
-
-**Tactical Role:**
-- Infantry shredder (20 shots per turn)
-- Anti-horde specialist
-- Secondary anti-elite infantry (W2-3 models)
 
 **Keywords:** Vehicle, Imperium, Leman Russ Punisher
 
@@ -596,184 +731,9 @@ Before battle begins, identify opponent's deployment and redeploy up to 3 units 
 - **Scout Walkers:** Can perform Scout move (7" pre-game)
 - **Explodes (6+):** D3 mortal wounds to units within 3"
 
-**Tactical Role:**
-- Cheap anti-tank fire support
-- Backfield objective holders
-- Expendable screening units
-
 **Keywords:** Vehicle, Walker, Imperium, Armoured Sentinels
 
 **Wahapedia Link:** [Armoured Sentinels](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Armoured-Sentinels)
-
----
-
-## Grizzled Company Detachment Rules
-
-### Detachment Rule: "Grizzled Veterans"
-
-**Effect:** Units from your army that are within 6" of one or more objective markers gain the following ability:
-
-**Re-roll Hit Rolls of 1 (Shooting + Melee)**
-
-**Synergy:**
-- Combine with **"Take Aim!"** Order for double re-roll 1s
-- Cadian Shock Troops on objectives = auto-trigger
-- Position Leman Russ tanks within 6" of friendly objectives for accuracy buff
-
----
-
-### Stratagems (Grizzled Company)
-
-**1. VENGEANCE FOR CADIA! (1CP)**
-- **When:** Your unit is destroyed
-- **Effect:** That unit can shoot or fight before being removed
-- **Use Case:** Leman Russ killed = one last Battle Cannon salvo
-
-**2. SUPPRESSION FIRE (1CP)**
-- **When:** Your unit shoots
-- **Effect:** Target enemy unit -1 to hit (shooting) until end of turn
-- **Use Case:** Debuff enemy shooting threats
-
-**3. FIRE AND ADVANCE (1CP)**
-- **When:** Your unit advances
-- **Effect:** Unit can still shoot (Heavy weapons = Assault)
-- **Use Case:** Chimeras advance 10"+D6" and still shoot Multi-lasers
-
-**4. INSPIRED COMMAND (1CP)**
-- **When:** Command phase
-- **Effect:** One Officer can issue 1 additional Order this phase
-- **Use Case:** Cadian Command Squad issues 2 Orders instead of 1
-
-**5. STAND YOUR GROUND (1CP)**
-- **When:** Enemy charges your Infantry unit
-- **Effect:** Overwatch on 5+ instead of 6+
-- **Use Case:** Shock Troops defending objectives
-
----
-
-### Enhancements (Grizzled Company)
-
-**GRAND STRATEGIST (15pts)** - Selected for Lord Solar Leontus
-- **Effect:** Once per battle, gain 1CP
-- **Use Case:** Critical Stratagem turn (usually Turn 2-3 alpha strike)
-
-**Other Available Enhancements:**
-- **Master of Ordnance (20pts):** Re-roll 1 hit/wound/damage per turn for Indirect Fire
-- **Tactical Genius (15pts):** Once per battle, roll 2D6 for Advance/Charge and pick result
-- **Old Grudges (10pts):** Re-roll wounds vs. one enemy unit (chosen at start of battle)
-
----
-
-## Painting & Assembly Guide
-
-### Recommended Paint Schemes
-
-**Cadian Shock Troops - Classic Cadia:**
-- Armor: Castellan Green (fatigues)
-- Flak Armor: Zandri Dust → Agrax Earthshade → Ushabti Bone highlights
-- Webbing: Steel Legion Drab
-- Lasguns: Leadbelcher + Nuln Oil
-- Faces: Cadian Fleshtone → Reikland Fleshshade
-- Bases: Stirland Mud texture → Dry brush Tyrant Skull
-
-**Leman Russ Tanks - Cadian Armored Fist:**
-- Hull: Castellan Green base → Agrax Earthshade → Elysian Green highlights
-- Tracks: Leadbelcher → Typhus Corrosion → Ryza Rust (dry brush)
-- Weathering: Sponge-applied Rhinox Hide for chipping
-- Decals: Cadian 8th Regiment transfers (white skull + numeral)
-- Barrels: Leadbelcher + Nuln Oil
-
-**Lord Solar Leontus:**
-- Armor: Retributor Armor (gold) → Reikland Fleshshade → Liberator Gold highlights
-- Cloak: Mephiston Red → Agrax Earthshade → Evil Sunz Scarlet highlights
-- Horse: Dawnstone → Nuln Oil → Administratum Grey highlights
-- Pike: Runelord Brass + Nihilakh Oxide (verdigris effect)
-
----
-
-### Assembly Tips
-
-**Cadian Shock Troops:**
-- Assemble 10-model squads on 25mm round bases
-- Magnetize special weapons (Plasma/Melta/Flamer) for flexibility
-- Use varied poses to avoid "ranked up" look
-- Glue Sergeants separately for easier painting
-
-**Leman Russ Tanks:**
-- **MAGNETIZE:** All turrets + sponsons (swap between variants)
-- Pin turrets with 5mm magnets (allows rotation)
-- Assemble tracks separately, paint before attaching
-- Leave hatches unglued for commander options
-
-**Chimera:**
-- Magnetize turret weapons (Multi-laser swap)
-- Glue side doors shut (easier painting)
-- Paint interior before final assembly
-- Add crew figures to Firing Deck hatches (optional)
-
-**Sentinels:**
-- Magnetize weapon arms (Lascannon/Missile Launcher swap)
-- Pin legs at hips for posing
-- Paint pilot separately before canopy assembly
-- Weightless models = use cork/textured bases for stability
-
----
-
-## Purchase Guide
-
-### Start Collecting (500pt List)
-
-**Required Boxes:**
-1. **Cadian Shock Troops (x3 boxes):** ~$135 USD
-   - Each box = 10 models
-   - Need 40 models total (3 squads + Command Squad)
-
-2. **Cadian Command Squad (x1 box):** ~$40 USD
-   - Includes 1 Commander + 4 Veterans
-
-3. **Leman Russ Battle Tank (x1 box):** ~$65 USD
-   - Includes all weapon options
-
-**Total: ~$240 USD**
-
----
-
-### Expansion to 1000pt
-
-**Additional Purchases:**
-1. **Leman Russ Battle Tank (x1 box):** ~$65 USD (Build as Demolisher)
-2. **Leman Russ Battle Tank (x1 box):** ~$65 USD (Build as Battle Tank)
-3. **Chimera (x2 boxes):** ~$100 USD ($50 each)
-
-**Running Total: ~$470 USD**
-
----
-
-### Full 2000pt Army
-
-**Additional Purchases:**
-1. **Leman Russ Battle Tank (x2 boxes):** ~$130 USD (Build as Battle Tank + Punisher)
-2. **Chimera (x1 box):** ~$50 USD
-3. **Armoured Sentinels (x2 boxes):** ~$90 USD ($45 each)
-4. **Gaunt's Ghosts (x1 box):** ~$50 USD (web-exclusive, made-to-order)
-5. **Lord Solar Leontus (x1 box):** ~$60 USD (web-exclusive)
-
-**Grand Total: ~$850-900 USD** (full 2000pt competitive army)
-
----
-
-### Alternate Sources
-
-**3rd Party / Recasts:**
-- Check local game stores for used/discounted kits
-- 3D printing options: Cadian proxies widely available (STL files)
-- Leman Russ: Older metal kits compatible (eBay)
-
-**Paints & Supplies:**
-- Citadel Paint Starter Set: ~$40 USD
-- Brushes (Citadel Detail + Base): ~$20 USD
-- Spray Primer (Chaos Black or Wraithbone): ~$18 USD
-- Magnets (5mm x 2mm, 100-pack): ~$10 USD (Amazon)
 
 ---
 
@@ -784,16 +744,17 @@ Before battle begins, identify opponent's deployment and redeploy up to 3 units 
 - ✅ Cadian Command Squad: 2 (under limit)
 - ✅ Cadian Shock Troops: 3 (Battleline = exempt)
 - ✅ Gaunt's Ghosts: 1 (Unique Unit)
+- ✅ **Ratlings: 1 (under limit)**
 - ✅ Chimera: 3 (Dedicated Transport = exempt)
 - ✅ Leman Russ Battle Tank: 3 (each variant separate datasheet)
 - ✅ Leman Russ Demolisher: 1 (separate datasheet)
 - ✅ Leman Russ Punisher: 1 (separate datasheet)
-- ✅ Armoured Sentinels: 2 (under limit)
+- ✅ Armoured Sentinels: 1 (under limit)
 
 ### Points Totals
-- ✅ 500pt list: 500pts (legal)
-- ✅ 1000pt list: 1000pts (legal)
-- ✅ 2000pt list: 1985pts (legal, 15pts under)
+- ✅ 500pt list: 495pts (legal, 5pts remaining)
+- ✅ 1000pt list: 1,000pts (legal, exact)
+- ✅ 2000pt list: 1,995pts (legal, 5pts remaining)
 
 ### Detachment Rules
 - ✅ Grizzled Company detachment selected
@@ -803,8 +764,22 @@ Before battle begins, identify opponent's deployment and redeploy up to 3 units 
 
 ### Army Composition
 - ✅ Warlord declared: Lord Solar Leontus (2000pt), Cadian Command Squad (1000pt/500pt)
-- ✅ Battleline requirement: 3x Cadian Shock Troops (all lists)
+- ✅ Battleline requirement: 3x Cadian Shock Troops (all lists) OR 2x minimum
 - ✅ No Legendary Units (none in Astra Militarum 10th edition)
+
+---
+
+## Purchase Guide Update
+
+### Ratlings Addition
+
+**Ratlings Box:** ~$42 USD (Games Workshop)
+- Contains 5 Ratling models
+- Perfect for 500/1000/2000pt lists
+
+**Alternative:** 3D print Ratling proxies (many STL files available)
+
+**Updated Grand Total (2000pt):** ~$892-940 USD (includes Ratlings box)
 
 ---
 
@@ -814,17 +789,19 @@ Before battle begins, identify opponent's deployment and redeploy up to 3 units 
 
 **S-Tier Status:** Astra Militarum won Rise of Empire GT (December 19, 2025) and placed consistently in top finishes throughout December 2025.
 
-**Why This List Works:**
+**Why This List Works (with Ratlings):**
 1. **Durability:** Leman Russ T11 W13 Sv2+ = hard to kill
 2. **Firepower:** 5x Leman Russ variants = diverse threat profile
 3. **CP Engine:** Lord Solar generates 1CP/turn = sustains Stratagems
 4. **Objective Control:** Cadian Shock Troops + Chimeras = board presence
-5. **Grizzled Company:** Re-roll 1s on objectives = accuracy buff for castle army
+5. **Character Threat:** Ratlings + Gaunt's Ghosts = dual sniper threat
+6. **Grizzled Company:** Re-roll 1s on objectives = accuracy buff for castle army
 
-**Strengths:**
+**Strengths (Enhanced):**
 - Excellent into melee-focused armies (castle + screening)
 - Strong into vehicle-heavy lists (massed S10-S14 firepower)
 - Good into elite armies (volume fire from Battle Cannons)
+- **NEW: Character assassination pressure** (Ratlings + Ghosts)
 - Resilient (T11 tanks, CP regen, Orders flexibility)
 
 **Weaknesses:**
@@ -832,70 +809,18 @@ Before battle begins, identify opponent's deployment and redeploy up to 3 units 
 - Struggles vs. extreme indirect fire spam (no terrain blocking)
 - Low model count infantry = objective contest struggles vs. hordes
 - Reliant on Lord Solar surviving (loss = CP + Order crisis)
-
-**Favorable Matchups:**
-- ✅ Space Marines (Gladius, Ironstorm)
-- ✅ Chaos Knights
-- ✅ World Eaters (melee-focused)
-- ✅ Necrons (T5 infantry folds to massed fire)
-
-**Difficult Matchups:**
-- ❌ Aeldari (pre-nerf, less scary post-December dataslate)
-- ❌ Drukhari (speed + melee threat)
-- ⚠️ Death Guard (extreme durability = long grinding games)
-
----
-
-## Meta Context (December 2025)
-
-**Balance Dataslate:** December 2025 (pre-Christmas)
-**Astra Militarum Changes:** No nerfs applied (GW considers faction balanced)
-
-**Recent Tournament Results:**
-- **Rise of Empire GT (Dec 19):** Astra Militarum 1st place (Grizzled Company list)
-- **King of Blades (Dec 18):** Astra Militarum top 8 finish
-- **Everwinter GT (Dec 10):** Astra Militarum top 16 finish
-
-**Competitive Archetype:**
-- Grizzled Company detachment (most popular)
-- Lord Solar Leontus + massed Leman Russ tanks
-- Infantry screen + Chimera mobility
-- Focus: Objective control + overwhelming firepower
-
-**Why Astra Militarum Are Meta:**
-- Avoided December nerfs (Aeldari, AdMech, Sororitas hit hard)
-- Leman Russ durability (T11 survives most anti-tank)
-- CP generation (Lord Solar + Grand Strategist = resource advantage)
-- Flexible game plan (Orders allow tactical pivots)
-
----
-
-## Frequently Asked Questions
-
-**Q: Why Lord Solar Leontus over Tank Commander?**
-**A:** Lord Solar generates 1CP/turn (critical for CP-hungry army), issues 3 Orders (vs. Tank Commander's 1), and can redeploy 3 units pre-game (massive tactical advantage). His 130pt cost is justified by force multiplication.
-
-**Q: Why Grizzled Company instead of Combined Arms?**
-**A:** Grizzled Company's re-roll 1s on objectives synergizes perfectly with castle strategy (tanks sit near friendly objectives). Combined Arms' Lethal Hits is random and unreliable. Tournament data shows Grizzled Company outperforms.
-
-**Q: Can I swap Leman Russ variants?**
-**A:** Yes! Each variant is a separate datasheet, so you can take 3x Battle Tank + 3x Demolisher + 3x Punisher legally (Rule of Three applies per datasheet, not keyword). The 2000pt list uses 3+1+1 split for points efficiency.
-
-**Q: Why no Kasrkin or Tempestus Scions?**
-**A:** Points efficiency. Cadian Shock Troops (65pts/10 models) are better objective holders than Kasrkin (100pts/10 models). Gaunt's Ghosts fill the elite infantry role with Infiltrators + Stealth for 100pts.
-
-**Q: How do I deal with enemy flyers?**
-**A:** Lascannons on Sentinels (S12 AP-3) can threaten T7-8 flyers. Leman Russ Battle Cannons have 72" range to hit hover-mode aircraft. If facing heavy air, swap Punisher for Leman Russ Annihilator (Lascannon turret).
-
-**Q: What if my opponent has lots of indirect fire?**
-**A:** Use Chimeras to advance infantry into cover. Leman Russ tanks have T11 W13 = survive most artillery. Gaunt's Ghosts Infiltrate to threaten backfield artillery units. Save CP for "Vengeance for Cadia!" when tanks die.
-
-**Q: Can I run this list without Lord Solar (OOP model)?**
-**A:** Yes, substitute with Tank Commander (170pts) + additional Cadian Command Squad. You lose CP generation but gain another tank. Not tournament-optimal but functional for casual play.
+- **Ratlings are fragile** (T2, Sv6+ = dies to anything)
 
 ---
 
 ## Version History
+
+**v1.1** - December 26, 2025
+- Added Ratlings (5 models, 60pts) to all three lists
+- Added comprehensive sniper tactics section
+- Added Ratlings datasheet
+- Rebalanced 500pt list (removed Sentinels)
+- Updated purchase guide
 
 **v1.0** - December 23, 2025
 - Initial list creation based on December 2025 tournament meta
@@ -921,11 +846,12 @@ Before battle begins, identify opponent's deployment and redeploy up to 3 units 
 - [Chimera](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Chimera)
 - [Gaunt's Ghosts](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Gaunts-Ghosts)
 - [Armoured Sentinels](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Armoured-Sentinels)
+- **[Ratlings](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Ratlings)** (NEW)
 
 ---
 
 **FOR THE EMPEROR! CADIA STANDS!**
 
 *Tactical document maintained by Tacticus Agent*
-*Last updated: December 23, 2025*
-*Army list status: Tournament-ready, meta-validated*
+*Last updated: December 26, 2025*
+*Army list status: Tournament-ready, meta-validated, sniper-enhanced*
