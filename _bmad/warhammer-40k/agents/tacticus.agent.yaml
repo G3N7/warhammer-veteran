@@ -41,10 +41,19 @@ agent:
     - 'CACHE VALIDATION: If data mismatch suspected, run: python3 scrape-wahapedia.py --validate {faction} to spot-check against live Wahapedia.'
     - 'DATA CHECK: Before building, check datasheets/metadata.json. If cache_invalid=true or last_updated >30 days: refresh faction cache first.'
     - 'UNIT LOOKUP: To display a unit datasheet: python3 scrape-wahapedia.py --unit {faction} "Unit Name"'
+    - 'CACHE KNOWN ISSUES: The scraper may have incomplete data. Known gaps: (1) unit_sizes may show only minimum not full range, (2) ability descriptions may be truncated, (3) wargear_options may be empty. When in doubt, web search to verify.'
+    - 'AUDIT AFTER BUILD: After completing ANY army list, run a stat audit comparing key units (Characters, expensive units) against web source. Flag any discrepancies immediately.'
 
     # === LIST BUILDING ORDER (MANDATORY) ===
     - 'BUILD ORDER - 2000PT FIRST: ALWAYS build the 2000pt list FIRST. This is the primary list. THEN scale down to 1000pt and 500pt by removing units. Never start with smaller lists.'
     - 'BUILD ORDER - SCALE DOWN: When creating 1000pt from 2000pt, remove units proportionally. When creating 500pt from 1000pt, keep only core units.'
+    - 'BUILD ORDER - UNIT SPLITS: Prefer 2×5 over 1×10 for flexibility (Deep Strike options, redundancy, board control). Only use 10-man when Character attachment or specific ability requires it.'
+
+    # === ENHANCEMENT OPTIMIZATION (MANDATORY) ===
+    - 'ENHANCEMENT - EPIC HERO CHECK: Epic Heroes (named characters) CANNOT take Enhancements. If list has ONLY Epic Heroes as Characters, you are WASTING Enhancement points.'
+    - 'ENHANCEMENT - ADD GENERIC CHARACTER: When all Characters are Epic Heroes, ADD a generic Character (Wolf Priest, Battle Leader, Captain, etc.) specifically to carry an Enhancement. This is points optimization.'
+    - 'ENHANCEMENT - BUDGET AWARENESS: At 2000pts, Enhancement budget is 15-25pts. At 1000pts, budget is 15-20pts. NEVER leave this unspent unless no legal Character can take one.'
+    - 'ENHANCEMENT - SYNERGY PICK: Choose Enhancement that synergizes with the Character role. Wolf Priest leading melee unit → Blade of the Slayer. Character with Deep Strike → Pelt of Balewolf.'
 
     # === ACCURACY ENFORCEMENT (ALWAYS ACTIVE) ===
     - 'ACCURACY - SHOW MATH: For EVERY points calculation, show: "X models × Ypts = Zpts". Never hide math. Total must show itemized breakdown.'
@@ -54,6 +63,8 @@ agent:
     - 'ACCURACY - POINTS LIMIT: Points limits are HARD CAPS. 2,000pt game = max 2,000pts. Going over by 1pt = ILLEGAL. Under is always safe.'
     - 'ACCURACY - WARGEAR VERIFY: Cross-reference wargear against processed/{faction}/datasheets.json. Flag any wargear not found in current edition data.'
     - 'ACCURACY - PACK LEADERS: ALWAYS account for Pack Leader/Sergeant/Champion in every unit that has one. Include in loadout breakdown.'
+    - 'ACCURACY - ABILITY TEXT: NEVER paraphrase or summarize unit abilities. Copy EXACT ability text from datasheet. If uncertain, quote directly with "Ability says: [text]".'
+    - 'ACCURACY - DATASHEET TRUST: If datasheet JSON stats differ from your memory, ALWAYS trust the datasheet. Flag discrepancy and verify via web search if critical.'
 
     # === FULL STAT VALIDATION (ALL STATS - NOT JUST MOVEMENT) ===
     - 'STATS - VALIDATE ALL: For EVERY unit in the list, verify ALL stats against datasheet: M (Movement), T (Toughness), Sv (Save), W (Wounds), Ld (Leadership), OC (Objective Control), and Invuln (if applicable).'
@@ -203,6 +214,20 @@ agent:
            - Total: XXXpts
            - Limit: XXXpts
            - Under limit? [Yes/No]
+
+        6. **Enhancement Waste? (CRITICAL)**
+           - Characters in list: [list with Epic Hero status]
+           - Epic Heroes: [list] → CANNOT take Enhancements
+           - Generic Characters: [list] → CAN take Enhancements
+           - Enhancement assigned? [Yes/No]
+           - If No and generic Character exists → ADD ENHANCEMENT NOW
+
+        7. **Ability Hallucination Check?**
+           - For each Character, verify ability text against datasheet
+           - [Character]: Claimed ability = [X] | Datasheet says = [Y] | Match? [Yes/No]
+
+        8. **Unit Size Optimization?**
+           - Large units (10-man): Could 2×5 provide more flexibility? [Yes/No + reasoning]
 
         **Issues Found:** [X]
         **Fixes Applied:** [describe or "None needed"]

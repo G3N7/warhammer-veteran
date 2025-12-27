@@ -745,9 +745,87 @@ Before finalizing ANY list, verify total points ≤ mission size limit.
 
 ---
 
-*Last Updated: 2025-12-26*
+### 2025-12-27: Datasheet Stat Errors (Space Wolves Audit)
+**Mistake:** Multiple stat errors in space-wolves.json datasheet cache
+**Discovery Method:** Full audit comparing cached data against web source
+
+**Errors Found:**
+| Unit | Field | Cached | Actual | Severity |
+|------|-------|--------|--------|----------|
+| Logan Grimnar | Wounds | 6 | 8 | MAJOR |
+| Logan Grimnar | Movement | 5" | 6" | Minor |
+| Arjac Rockfist | Toughness | 6 | 5 | MAJOR |
+| Arjac Rockfist | Movement | 5" | 6" | Minor |
+| Arjac Rockfist | Ability | "FNP 5+ aura" | "Anvil of Endurance" (fight on death 4+) | CRITICAL |
+| Arjac Foehammer (ranged) | Profile | 12" S10 AP-3 D4 | 6" S8 AP-2 D3 Anti-Monster/Vehicle 3+ | CRITICAL |
+| Wolf Guard Terminators | unit_sizes | [5] | 5-10 | Scraper bug |
+| Fenrisian Wolves | Movement | 12" | 10" | Minor |
+| Fenrisian Wolves | Toughness | 3 | 4 | Minor (beneficial) |
+| Bjorn the Fell-Handed | Movement | 8" | 9" | Minor |
+
+**Root Cause:**
+- Scraper not capturing all fields correctly
+- Ability text was hallucinated (never existed in datasheet)
+- unit_sizes only capturing minimum, not full range
+
+**Fix Applied:**
+- ✅ Added CACHE KNOWN ISSUES critical action documenting scraper gaps
+- ✅ Added AUDIT AFTER BUILD critical action requiring web verification
+- ✅ Added ACCURACY - ABILITY TEXT rule: never paraphrase, quote exactly
+- ✅ Rebuilt army list document with correct stats
+
+**Prevention:**
+- After completing ANY list, audit key unit stats against web source
+- Never trust cached ability descriptions without verification
+- When ability seems too powerful or different than expected, verify immediately
+
+---
+
+### 2025-12-27: Enhancement Budget Wasted (Space Wolves List)
+**Mistake:** Built 2000pt list with 95pts unspent because all Characters were Epic Heroes
+**User Correction:** User accepted the fix but this should have been caught proactively
+
+**What Happened:**
+- List had Logan Grimnar (Epic Hero) and Arjac Rockfist (Epic Hero)
+- Epic Heroes CANNOT take Enhancements (matched play rule)
+- 25pts Enhancement budget was completely wasted
+- No generic Character was added to utilize the Enhancement slot
+
+**Fix Applied:**
+- ✅ Added Wolf Priest (70pts) + Blade of the Slayer (25pts) to 2000pt list
+- ✅ Added ENHANCEMENT OPTIMIZATION section to critical_actions
+- ✅ Updated self-review prompt to check for Enhancement waste
+
+**Prevention:**
+- When building lists with Epic Heroes only, ALWAYS add a generic Character
+- Check Enhancement budget early in list building, not after
+- Self-review now includes "Enhancement Waste?" check
+
+---
+
+### 2025-12-27: Unit Split Optimization Missed (500pt List)
+**Mistake:** Built 500pt list with 1×10 Terminators when 2×5 would be more flexible
+**User Correction:** "can you break the terminators into two units"
+
+**Why 2×5 is Better Than 1×10:**
+- Deep Strike flexibility (one unit reserves, one deploys)
+- Redundancy (losing one unit doesn't lose everything)
+- Board control (two units cover more objectives)
+- Same points cost (170 + 170 = 340)
+
+**Fix Applied:**
+- ✅ Added BUILD ORDER - UNIT SPLITS critical action
+- ✅ Updated self-review prompt with "Unit Size Optimization?" check
+
+**Prevention:**
+- Default to multiple smaller units unless Character attachment requires larger unit
+- Ask user preference when unit can be split
+
+---
+
+*Last Updated: 2025-12-27*
 *Maintained by: Tacticus Agent*
-*Version: 1.6*
+*Version: 1.7*
 
 ---
 
