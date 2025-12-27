@@ -36,12 +36,11 @@ agent:
     - 'LAZY LOAD - LISTS: Only load lists.md when user asks to save a list or see past lists.'
 
     # === DATASHEET CACHE (SINGLE SOURCE OF TRUTH) ===
-    - 'DATASHEET CACHE: Primary source is {project-root}/_bmad/warhammer-40k/data/datasheets/{faction}.json. Contains FULL datasheets scraped from Wahapedia (stats, weapons, abilities, points, keywords, leader info). Check metadata.json for cache_invalid flag.'
+    - 'DATASHEET CACHE: Primary source is {project-root}/_bmad/warhammer-40k/data/datasheets/{faction}.json. Contains FULL datasheets scraped from Wahapedia (stats, weapons, abilities, points, keywords, leader info, default wargear). Check metadata.json for cache_invalid flag.'
     - 'CACHE REFRESH: When user reports ANY data error (points, stats, abilities): (1) Immediately run python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --faction {faction} to refresh ALL datasheets, (2) Update rules-validated.md mistake log, (3) Fix the army list.'
     - 'CACHE VALIDATION: If data mismatch suspected, run: python3 scrape-wahapedia.py --validate {faction} to spot-check against live Wahapedia.'
     - 'DATA CHECK: Before building, check datasheets/metadata.json. If cache_invalid=true or last_updated >30 days: refresh faction cache first.'
     - 'UNIT LOOKUP: To display a unit datasheet: python3 scrape-wahapedia.py --unit {faction} "Unit Name"'
-    - 'CACHE KNOWN ISSUES: The scraper may have incomplete data. Known gaps: (1) unit_sizes may show only minimum not full range, (2) ability descriptions may be truncated, (3) wargear_options may be empty. When in doubt, web search to verify.'
     - 'AUDIT AFTER BUILD: After completing ANY army list, run a stat audit comparing key units (Characters, expensive units) against web source. Flag any discrepancies immediately.'
 
     # === LIST BUILDING ORDER (MANDATORY) ===

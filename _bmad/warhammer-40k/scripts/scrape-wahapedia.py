@@ -171,9 +171,14 @@ def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str
         'faction_keywords': [],
         'leader_info': None,
         'led_by': [],
+        'can_lead': [],
         'unit_composition': None,
+        'default_wargear': [],
         'wargear_options': [],
         'is_epic_hero': False,
+        'transport_capacity': None,
+        'damaged_profile': None,
+        'role': None,
     }
 
     # 1. Extract stats from dsProfileWrap
@@ -267,14 +272,16 @@ def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str
         elif text.startswith('FACTION:'):
             datasheet['abilities']['faction'] = [text.replace('FACTION:', '').strip()]
 
-        elif ':' in text and not any(text.startswith(x) for x in ['1 ', '2 ', '3 ', '4 ', '5 ', 'This model', 'KEYWORDS']):
-            # Unit ability
+        elif ':' in text and not any(text.startswith(x) for x in ['1 ', '2 ', '3 ', '4 ', '5 ', 'This model', 'KEYWORDS', 'FACTION KEYWORDS']):
+            # Unit ability - keep full description, don't truncate
             parts = text.split(':', 1)
             if len(parts) == 2 and len(parts[0]) < 50:  # Reasonable ability name length
-                datasheet['abilities']['unit'].append({
-                    'name': parts[0].strip(),
-                    'description': parts[1].strip()[:500]  # Truncate long descriptions
-                })
+                # Skip if it looks like wargear option or keywords
+                if not any(skip in parts[0].lower() for skip in ['can replace', 'can be equipped', 'keywords']):
+                    datasheet['abilities']['unit'].append({
+                        'name': parts[0].strip(),
+                        'description': parts[1].strip()  # Full description
+                    })
 
     # 5. Extract points (model count + points)
     for div in soup.find_all('div', class_='dsAbility'):
@@ -325,11 +332,62 @@ def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str
             fkw_text = text.replace('FACTION KEYWORDS:', '').strip()
             datasheet['faction_keywords'] = [k.strip() for k in fkw_text.split(',') if k.strip()]
 
-    # 9. Extract wargear options
+    # 9. Extract wargear options (full text, not truncated)
     for div in soup.find_all('div', class_='dsAbility'):
         text = div.get_text(' ', strip=True)
-        if any(x in text.lower() for x in ['can be equipped with', 'may replace', 'can replace']):
-            datasheet['wargear_options'].append(text[:300])
+        if any(x in text.lower() for x in ['can be equipped with', 'may replace', 'can replace', 'can have its']):
+            datasheet['wargear_options'].append(text)
+
+    # 10. Extract unit composition (e.g., "This unit contains 1 Wolf Guard Terminator Pack Leader...")
+    for div in soup.find_all('div', class_='dsAbility'):
+        text = div.get_text(' ', strip=True)
+        if text.lower().startswith('this unit contains') or text.lower().startswith('this model is equipped'):
+            datasheet['unit_composition'] = text
+
+    # 11. Extract default wargear (from unit composition or dedicated section)
+    for div in soup.find_all('div', class_='dsAbility'):
+        text = div.get_text(' ', strip=True)
+        if 'is equipped with' in text.lower() and 'can be equipped' not in text.lower():
+            datasheet['default_wargear'].append(text)
+
+    # 12. Extract transport capacity
+    for div in soup.find_all('div', class_='dsAbility'):
+        text = div.get_text(' ', strip=True)
+        if 'transport' in text.lower() and 'capacity' in text.lower():
+            datasheet['transport_capacity'] = text
+
+    # 13. Extract damaged profile (for vehicles)
+    for div in soup.find_all('div', class_='dsAbility'):
+        text = div.get_text(' ', strip=True)
+        if 'damaged' in text.lower() and 'wounds remaining' in text.lower():
+            datasheet['damaged_profile'] = text
+
+    # 14. Extract what this unit can lead (for leader units)
+    for div in soup.find_all('div', class_='dsAbility'):
+        text = div.get_text(' ', strip=True)
+        if 'this model can be attached to' in text.lower():
+            datasheet['leader_info'] = text
+            # Extract unit names that can be led
+            match = re.search(r'attached to.*?(?:the following units?)?\s*[:\.]?\s*(.+?)(?:\.|$)', text, re.IGNORECASE)
+            if match:
+                units_text = match.group(1)
+                # Split by common delimiters
+                units = re.split(r'[,\.]|\band\b', units_text)
+                datasheet['can_lead'] = [u.strip() for u in units if u.strip() and len(u.strip()) > 2]
+
+    # 15. Extract role (battlefield role)
+    for div in soup.find_all('div', class_='dsRole'):
+        text = div.get_text(' ', strip=True)
+        if text:
+            datasheet['role'] = text
+
+    # Alternative: look for role in other locations
+    if not datasheet['role']:
+        for span in soup.find_all('span', class_='bfRole'):
+            text = span.get_text(' ', strip=True)
+            if text:
+                datasheet['role'] = text
+                break
 
     return datasheet
 

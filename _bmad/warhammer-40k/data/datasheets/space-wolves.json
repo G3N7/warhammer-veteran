@@ -1,6 +1,6 @@
 {
   "faction": "space-wolves",
-  "last_updated": "2025-12-26T23:49:17.028077+00:00",
+  "last_updated": "2025-12-27T07:27:26.210605+00:00",
   "source": "wahapedia",
   "schema_version": "2.0",
   "unit_count": 19,
@@ -81,9 +81,18 @@
       "led_by": [
         "Wolf Guard Terminators"
       ],
+      "can_lead": [
+        "the following unit: Wolf Guard Terminators"
+      ],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Arjac Rockfist \u2013 EPIC HERO This model is equipped with: Foehammer."
+      ],
       "wargear_options": [],
-      "is_epic_hero": true
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Logan Grimnar": {
       "name": "Logan Grimnar",
@@ -158,7 +167,7 @@
         "unit": [
           {
             "name": "High King of Fenris",
-            "description": "Once per battle round , in your Movement phase , you can select one friendly SPACE WOLVES unit that is in Reserves . If you do, until the end of the phase, for the purpose of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is. Guile of the Wolf (Aura): Each time your opponent targets a unit from their army with a Stratagem , if that unit is within 12\" of this model, increase the cost of that usage of that Stratagem by 1CP (this "
+            "description": "Once per battle round , in your Movement phase , you can select one friendly SPACE WOLVES unit that is in Reserves . If you do, until the end of the phase, for the purpose of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is. Guile of the Wolf (Aura): Each time your opponent targets a unit from their army with a Stratagem , if that unit is within 12\" of this model, increase the cost of that usage of that Stratagem by 1CP (this is not cumulative with any other rules that increase the CP cost of that Stratagem)."
           }
         ]
       },
@@ -177,9 +186,18 @@
       "led_by": [
         "Wolf Guard Terminators"
       ],
+      "can_lead": [
+        "the following unit: Wolf Guard Terminators"
+      ],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Logan Grimnar \u2013 EPIC HERO This model is equipped with: storm bolter; Axe Morkai; Tyrnak and Fenrir."
+      ],
       "wargear_options": [],
-      "is_epic_hero": true
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Bjorn the Fell-Handed": {
       "name": "Bjorn the Fell-Handed",
@@ -300,9 +318,16 @@
       "faction_keywords": [],
       "leader_info": null,
       "led_by": [],
+      "can_lead": [],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Bjorn the Fell-Handed\u2013 EPIC HERO This model is equipped with: assault cannon; heavy flamer; Trueclaw."
+      ],
       "wargear_options": [],
-      "is_epic_hero": true
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Ragnar Blackmane": {
       "name": "Ragnar Blackmane",
@@ -376,9 +401,18 @@
       "led_by": [
         "Blood Claws Wolf Guard Headtakers"
       ],
+      "can_lead": [
+        "the following units: Blood Claws Wolf Guard Headtakers"
+      ],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Ragnar Blackmane \u2013 EPIC HERO This model is equipped with: bolt pistol; Frostfang."
+      ],
       "wargear_options": [],
-      "is_epic_hero": true
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Njal Stormcaller": {
       "name": "Njal Stormcaller",
@@ -458,7 +492,7 @@
         "unit": [
           {
             "name": "Wind Walker (Psychic)",
-            "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability and each time that unit Advances, do not make an Advance roll . Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit. Tempest\u2019s Wrath (Psychic): In your Shooting phase , after this model\u2019s unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES ) hit by one or more of those attacks made with this model\u2019s Living Lightning weapon. Unti"
+            "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability and each time that unit Advances, do not make an Advance roll . Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit. Tempest\u2019s Wrath (Psychic): In your Shooting phase , after this model\u2019s unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES ) hit by one or more of those attacks made with this model\u2019s Living Lightning weapon. Until the start of your next turn, that enemy unit is stormwracked. While a unit is stormwracked, subtract 6\" from the Range characteristic of ranged weapons equipped by models in that unit (to a minimum of 12\")."
           }
         ]
       },
@@ -477,9 +511,18 @@
       "led_by": [
         "Blood Claws Grey Hunters Wolf Guard Headtakers"
       ],
+      "can_lead": [
+        "the following units: Blood Claws Grey Hunters Wolf Guard Headtakers"
+      ],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Njal Stormcaller \u2013 EPIC HERO This model is equipped with: bolt pistol; Living Lightning; Staff of the Stormcaller."
+      ],
       "wargear_options": [],
-      "is_epic_hero": true
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Ulrik the Slayer": {
       "name": "Ulrik the Slayer",
@@ -550,7 +593,7 @@
         "unit": [
           {
             "name": "Slayer\u2019s Oath",
-            "description": "At the start of the battle, select one of the following keywords to be this model\u2019s Slayer\u2019s Oath: CHARACTER ; MONSTER ; VEHICLE . The first time this model\u2019s unit destroys a unit with this model\u2019s Slayer\u2019s Oath keyword, if your Detachment rule has a Saga , until the end of the battle, this model\u2019s unit receives the benefits of that Detachment rule as if that Saga had been completed. Oathbound: While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the "
+            "description": "At the start of the battle, select one of the following keywords to be this model\u2019s Slayer\u2019s Oath: CHARACTER ; MONSTER ; VEHICLE . The first time this model\u2019s unit destroys a unit with this model\u2019s Slayer\u2019s Oath keyword, if your Detachment rule has a Saga , until the end of the battle, this model\u2019s unit receives the benefits of that Detachment rule as if that Saga had been completed. Oathbound: While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll . If that attack targets a unit that has this model\u2019s Slayer\u2019s Oath keyword (see above), add 1 to the Wound roll as well."
           }
         ]
       },
@@ -569,9 +612,18 @@
       "led_by": [
         "Blood Claws Grey Hunters Wolf Guard Headtakers"
       ],
+      "can_lead": [
+        "the following units: Blood Claws Grey Hunters Wolf Guard Headtakers"
+      ],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Ulrik the Slayer \u2013 EPIC HERO This model is equipped with: plasma pistol; artificer crozius arcanum."
+      ],
       "wargear_options": [],
-      "is_epic_hero": true
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Wolf Guard Terminators": {
       "name": "Wolf Guard Terminators",
@@ -695,9 +747,16 @@
       "faction_keywords": [],
       "leader_info": null,
       "led_by": [],
+      "can_lead": [],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Wolf Guard Terminator Pack Leader 4-9 Wolf Guard Terminators The Wolf Guard Terminator Pack Leader is equipped with: storm bolter; master-crafted power weapon. Every Wolf Guard Terminator is equipped with: storm bolter; master-crafted power weapon."
+      ],
       "wargear_options": [],
-      "is_epic_hero": false
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Blood Claws": {
       "name": "Blood Claws",
@@ -806,9 +865,16 @@
       "faction_keywords": [],
       "leader_info": null,
       "led_by": [],
+      "can_lead": [],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Blood Claw Pack Leader 9-19 Blood Claws Every model is equipped with: bolt pistol; Astartes chainsword."
+      ],
       "wargear_options": [],
-      "is_epic_hero": false
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Grey Hunters": {
       "name": "Grey Hunters",
@@ -939,9 +1005,16 @@
       "faction_keywords": [],
       "leader_info": null,
       "led_by": [],
+      "can_lead": [],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Grey Hunter Pack Leader 9 Grey Hunters Every model is equipped with: bolt carbine; bolt pistol; Astartes chainsword."
+      ],
       "wargear_options": [],
-      "is_epic_hero": false
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Fenrisian Wolves": {
       "name": "Fenrisian Wolves",
@@ -999,9 +1072,16 @@
       "faction_keywords": [],
       "leader_info": null,
       "led_by": [],
+      "can_lead": [],
       "unit_composition": null,
+      "default_wargear": [
+        "5-10 Fenrisian Wolves Every model is equipped with: teeth and claws."
+      ],
       "wargear_options": [],
-      "is_epic_hero": false
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Thunderwolf Cavalry": {
       "name": "Thunderwolf Cavalry",
@@ -1126,9 +1206,16 @@
       "faction_keywords": [],
       "leader_info": null,
       "led_by": [],
+      "can_lead": [],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Thunderwolf Cavalry Pack Leader 2-5 Thunderwolf Cavalry Every model is equipped with: bolt pistol; teeth and claws; Wolf Guard weapon."
+      ],
       "wargear_options": [],
-      "is_epic_hero": false
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Wulfen": {
       "name": "Wulfen",
@@ -1206,9 +1293,16 @@
       "faction_keywords": [],
       "leader_info": null,
       "led_by": [],
+      "can_lead": [],
       "unit_composition": null,
+      "default_wargear": [
+        "5-10 Wulfen Every model is equipped with: Wulfen weapons; death totem."
+      ],
       "wargear_options": [],
-      "is_epic_hero": false
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Wolf Guard Battle Leader": {
       "name": "Wolf Guard Battle Leader",
@@ -1338,9 +1432,18 @@
       "led_by": [
         "Blood Claws Grey Hunters Wolf Guard Headtakers"
       ],
+      "can_lead": [
+        "the following units: Blood Claws Grey Hunters Wolf Guard Headtakers"
+      ],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Wolf Guard Battle Leader This model is equipped with: master-crafted power weapon; storm shield."
+      ],
       "wargear_options": [],
-      "is_epic_hero": false
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Wolf Priest": {
       "name": "Wolf Priest",
@@ -1412,9 +1515,18 @@
       "led_by": [
         "Blood Claws Grey Hunters Wolf Guard Headtakers"
       ],
+      "can_lead": [
+        "the following units: Blood Claws Grey Hunters Wolf Guard Headtakers"
+      ],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Wolf Priest This model is equipped with: absolvor bolt pistol; crozius arcanum."
+      ],
       "wargear_options": [],
-      "is_epic_hero": false
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Iron Priest": {
       "name": "Iron Priest",
@@ -1481,7 +1593,7 @@
         "unit": [
           {
             "name": "Iron Priest",
-            "description": "While this model is within 3\" of one or more friendly ADEPTUS ASTARTES VEHICLE units, this model has the Lone Operative ability. Gift of the Iron Wolf: In your Command phase , you can select one friendly ADEPTUS ASTARTES VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, select one ranged weapon equipped by that model to have the [RAPID FIRE 1] ability. Each model can only be selected for this ability or the Blessing of"
+            "description": "While this model is within 3\" of one or more friendly ADEPTUS ASTARTES VEHICLE units, this model has the Lone Operative ability. Gift of the Iron Wolf: In your Command phase , you can select one friendly ADEPTUS ASTARTES VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, select one ranged weapon equipped by that model to have the [RAPID FIRE 1] ability. Each model can only be selected for this ability or the Blessing of the Omnissiah ability once per turn. Judgement of the Omnissiah: Each time this model makes an attack that targets an enemy unit within Engagement Range of one or more friendly ADEPTUS ASTARTES VEHICLE units, you can re-roll the Wound roll ."
           }
         ]
       },
@@ -1500,9 +1612,18 @@
       "led_by": [
         "Blood Claws Grey Hunters Wolf Guard Headtakers"
       ],
+      "can_lead": [
+        "the following units: Blood Claws Grey Hunters Wolf Guard Headtakers"
+      ],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Iron Priest This model is equipped with: helfrost pistol; tempest hammer and servo-arm."
+      ],
       "wargear_options": [],
-      "is_epic_hero": false
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Venerable Dreadnought": {
       "name": "Venerable Dreadnought",
@@ -1656,9 +1777,16 @@
       "faction_keywords": [],
       "leader_info": null,
       "led_by": [],
+      "can_lead": [],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Venerable Dreadnought This model is equipped with: assault cannon; storm bolter; Dreadnought combat weapon."
+      ],
       "wargear_options": [],
-      "is_epic_hero": false
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Murderfang": {
       "name": "Murderfang",
@@ -1745,9 +1873,16 @@
       "faction_keywords": [],
       "leader_info": null,
       "led_by": [],
+      "can_lead": [],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Murderfang \u2013 EPIC HERO This model is equipped with: heavy flamer; storm bolter; Murderclaws."
+      ],
       "wargear_options": [],
-      "is_epic_hero": true
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Wulfen Dreadnought": {
       "name": "Wulfen Dreadnought",
@@ -1834,7 +1969,7 @@
         "unit": [
           {
             "name": "Bestial Rage",
-            "description": "Each time an enemy unit is selected to shoot, after that unit has shot, if this model lost one or more wounds as a result of those attacks, this model can make a Bestial Rage move. To do so, roll one D6, adding 2 to the result: this model can be moved a number of inches up to the result, but must finish that move as close as possible to the closest enemy unit (excluding AIRCRAFT ), When doing so, this model can be moved within Engagement Range of that enemy unit. Each model can only make one Bes"
+            "description": "Each time an enemy unit is selected to shoot, after that unit has shot, if this model lost one or more wounds as a result of those attacks, this model can make a Bestial Rage move. To do so, roll one D6, adding 2 to the result: this model can be moved a number of inches up to the result, but must finish that move as close as possible to the closest enemy unit (excluding AIRCRAFT ), When doing so, this model can be moved within Engagement Range of that enemy unit. Each model can only make one Bestial Rage move per phase. Violent Fury: If this model is equipped with two melee weapons, those weapon profiles have the [TWIN-LINKED] ability."
           },
           {
             "name": "Blizzard Shield",
@@ -1855,9 +1990,17 @@
       "faction_keywords": [],
       "leader_info": null,
       "led_by": [],
+      "can_lead": [],
       "unit_composition": null,
+      "default_wargear": [
+        "Bestial Rage: Each time an enemy unit is selected to shoot, after that unit has shot, if this model lost one or more wounds as a result of those attacks, this model can make a Bestial Rage move. To do so, roll one D6, adding 2 to the result: this model can be moved a number of inches up to the result, but must finish that move as close as possible to the closest enemy unit (excluding AIRCRAFT ), When doing so, this model can be moved within Engagement Range of that enemy unit. Each model can only make one Bestial Rage move per phase. Violent Fury: If this model is equipped with two melee weapons, those weapon profiles have the [TWIN-LINKED] ability.",
+        "1 Wulfen Dreadnought This model is equipped with: storm bolter; Fenrisian greataxe; great wolf claw."
+      ],
       "wargear_options": [],
-      "is_epic_hero": false
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     },
     "Wolf Scouts": {
       "name": "Wolf Scouts",
@@ -2214,9 +2357,16 @@
       "faction_keywords": [],
       "leader_info": null,
       "led_by": [],
+      "can_lead": [],
       "unit_composition": null,
+      "default_wargear": [
+        "1 Wolf Scout Pack Leader 4-9 Wolf Scouts Every model is equipped with: bolt pistol; boltgun; close combat weapon."
+      ],
       "wargear_options": [],
-      "is_epic_hero": false
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
     }
   }
 }
