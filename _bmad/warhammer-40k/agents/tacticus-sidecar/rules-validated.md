@@ -152,6 +152,38 @@ Before building ANY list, count units by datasheet name and verify ≤ 3 units.
 
 ---
 
+### Enhancement Eligibility ✅ VERIFIED (CRITICAL)
+**Source:** Warhammer 40k 10th Edition Core Rules - Matched Play
+**Last Verified:** 2025-12-27
+**Verification Method:** User correction
+
+**THE RULE:**
+**Enhancements can ONLY be given to CHARACTER models that do NOT have the EPIC HERO keyword.**
+
+**EPIC HERO = NO ENHANCEMENTS:**
+- ❌ Logan Grimnar (Epic Hero) - CANNOT take enhancements
+- ❌ Arjac Rockfist (Epic Hero) - CANNOT take enhancements
+- ❌ Bjorn the Fell-Handed (Epic Hero) - CANNOT take enhancements
+- ❌ Roboute Guilliman (Epic Hero) - CANNOT take enhancements
+- ❌ ANY named character (Epic Hero) - CANNOT take enhancements
+
+**ENHANCEMENT-ELIGIBLE CHARACTERS (Generic):**
+- ✅ Wolf Guard Battle Leader (generic) - CAN take enhancements
+- ✅ Primaris Captain (generic) - CAN take enhancements
+- ✅ Primaris Librarian (generic) - CAN take enhancements
+- ✅ Wolf Priest (generic) - CAN take enhancements
+- ✅ Any CHARACTER without EPIC HERO keyword - CAN take enhancements
+
+**Validation History:**
+- ❌ **2025-12-27 ERROR:** Assigned enhancements to Logan Grimnar and Arjac Rockfist
+  - **What went wrong:** Did not know Epic Heroes cannot take Enhancements
+  - **User correction:** "named characters are allowed to have enhancements, they cannot"
+  - **Lesson learned:** Epic Hero keyword = NO enhancements, ever
+
+**Prevention:** Before assigning ANY enhancement, check if target has EPIC HERO keyword. If yes, STOP.
+
+---
+
 ### Saga of the Beastslayer Detachment ✅ VERIFIED
 **Source:** Wahapedia Space Wolves Detachment Rules
 **Last Verified:** 2025-12-21
@@ -162,15 +194,17 @@ Units from this detachment gain **Lethal Hits** when targeting:
 - Monsters
 - Vehicles
 
-**ENHANCEMENTS (Max 1 per Character):**
+**ENHANCEMENTS (Max 1 per Character, NOT Epic Heroes):**
 - **Blade of the Slayer** (25pts): Precision + enhanced damage vs big targets
 - **Hunter's Instincts** (20pts): Re-roll wound rolls vs Characters/Monsters/Vehicles
 - **The Pelt of Balewolf** (15pts): Stealth
 - **Black Death** (15pts): Devastating Wounds
 
 **LEGAL ENHANCEMENT ALLOCATION:**
-- ✅ Logan gets Blade of Slayer (25pts)
-- ✅ Arjac gets Hunter's Instincts (20pts)
+- ✅ Wolf Guard Battle Leader gets Blade of Slayer (25pts)
+- ✅ Primaris Captain gets Hunter's Instincts (20pts)
+- ❌ Logan Grimnar CANNOT take enhancements (Epic Hero)
+- ❌ Arjac Rockfist CANNOT take enhancements (Epic Hero)
 - ❌ Cannot give both enhancements to same Character
 - ❌ Cannot give more than 1 enhancement per Character
 
@@ -226,7 +260,7 @@ Units from this detachment gain **Lethal Hits** when targeting:
 - [ ] Count units by datasheet name
 - [ ] Verify no datasheet appears >3 times (except Battleline/Transports)
 - [ ] Check Epic Heroes (max 1 of each named character)
-- [ ] Verify enhancements (max 1 per character, only on eligible models)
+- [ ] Verify enhancements (max 1 per CHARACTER, NEVER on Epic Heroes)
 - [ ] Confirm points total matches mission size (500/1000/2000)
 - [ ] Check detachment rules compliance
 
@@ -240,6 +274,33 @@ Units from this detachment gain **Lethal Hits** when targeting:
 ---
 
 ## Mistake Log & Corrections
+
+### 2025-12-27: Epic Hero Enhancement Error (CRITICAL)
+**Mistake:** Assigned Enhancements to Logan Grimnar and Arjac Rockfist in Space Wolves army list
+**User Correction:** "named characters are allowed to have enhancements, they cannot"
+**Root Cause:**
+- Did not have the core Matched Play rule documented: "Epic Heroes CANNOT take Enhancements"
+- Validation checklist said "eligible models" but never defined eligibility
+- Knowledge base explicitly (and incorrectly) stated Logan and Arjac could take enhancements
+
+**Fix Applied:**
+- ✅ Added "Enhancement Eligibility" section to Core Matched Play Rules (line 155)
+- ✅ Updated Saga of the Beastslayer examples to show legal allocation (generic characters only)
+- ✅ Updated validation checklist: "NEVER on Epic Heroes"
+- ✅ Documented mistake in log with prevention steps
+
+**What I Needed to Know Ahead of Time:**
+1. The 10th Edition Matched Play rule: "Enhancements can ONLY be given to CHARACTER models that do NOT have the EPIC HERO keyword"
+2. How to identify Epic Heroes: Any named/unique character has the EPIC HERO keyword
+3. Enhancement eligibility should have been a pre-build validation gate
+
+**Prevention:**
+- Before assigning ANY enhancement, explicitly check: Does this CHARACTER have the EPIC HERO keyword?
+- If EPIC HERO = YES → CANNOT take enhancements
+- If EPIC HERO = NO (generic character) → CAN take enhancements
+- Add EPIC HERO check to datasheet loading/verification step
+
+---
 
 ### 2025-12-21: Rule of Three Violation
 **Mistake:** Built 6x Wolf Guard Terminator units in 2000pt list
