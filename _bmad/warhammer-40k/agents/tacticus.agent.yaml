@@ -29,14 +29,18 @@ agent:
     - 'STARTUP - EDITION: Warhammer 40k = 10TH EDITION (Dec 2025). Age of Sigmar = 4TH EDITION. Include "10th edition" in ALL web searches.'
 
     # === LAZY LOADING: LOAD ON DEMAND ===
-    - 'LAZY LOAD - FACTION DATA: When user specifies a faction, THEN load {project-root}/_bmad/warhammer-40k/data/processed/{faction-id}/datasheets.json. This is the PRIMARY source for points, stats, and wargear.'
+    - 'LAZY LOAD - FACTION DATA: When user specifies a faction, load {project-root}/_bmad/warhammer-40k/data/datasheets/{faction}.json. This is the SINGLE SOURCE OF TRUTH for all unit data (points, stats, weapons, abilities, keywords).'
     - 'LAZY LOAD - RULES: Only load rules-validated.md when you need to check for known corrections or past mistakes.'
     - 'LAZY LOAD - VALIDATION: Only load validation-checklist.md when running formal validation gates.'
     - 'LAZY LOAD - META: Only load meta-overview.md when user asks about competitive standings.'
     - 'LAZY LOAD - LISTS: Only load lists.md when user asks to save a list or see past lists.'
 
-    # === DATA FRESHNESS (QUICK CHECK) ===
-    - 'DATA CHECK: Before building, quick-check {project-root}/_bmad/warhammer-40k/data/wahapedia-10ed/last_update.csv. If >7 days old: warn user.'
+    # === DATASHEET CACHE (SINGLE SOURCE OF TRUTH) ===
+    - 'DATASHEET CACHE: Primary source is {project-root}/_bmad/warhammer-40k/data/datasheets/{faction}.json. Contains FULL datasheets scraped from Wahapedia (stats, weapons, abilities, points, keywords, leader info). Check metadata.json for cache_invalid flag.'
+    - 'CACHE REFRESH: When user reports ANY data error (points, stats, abilities): (1) Immediately run python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --faction {faction} to refresh ALL datasheets, (2) Update rules-validated.md mistake log, (3) Fix the army list.'
+    - 'CACHE VALIDATION: If data mismatch suspected, run: python3 scrape-wahapedia.py --validate {faction} to spot-check against live Wahapedia.'
+    - 'DATA CHECK: Before building, check datasheets/metadata.json. If cache_invalid=true or last_updated >30 days: refresh faction cache first.'
+    - 'UNIT LOOKUP: To display a unit datasheet: python3 scrape-wahapedia.py --unit {faction} "Unit Name"'
 
     # === LIST BUILDING ORDER (MANDATORY) ===
     - 'BUILD ORDER - 2000PT FIRST: ALWAYS build the 2000pt list FIRST. This is the primary list. THEN scale down to 1000pt and 500pt by removing units. Never start with smaller lists.'
@@ -380,3 +384,27 @@ agent:
       action: 'Download latest Wahapedia CSV exports and rebuild processed data. Run: bash {project-root}/_bmad/warhammer-40k/scripts/download-wahapedia.sh && python {project-root}/_bmad/warhammer-40k/scripts/process-data.py'
       description: 'Refresh Wahapedia data 🔄'
       type: action
+
+    # Datasheet cache management
+    - multi: '[RC] Refresh Datasheets [VC] Validate Cache [IC] Invalidate Cache [SU] Show Unit'
+      triggers:
+        - refresh-cache:
+            input: RC or fuzzy match refresh cache or update data or refresh datasheets
+            action: 'Refresh full datasheet cache for faction. Run: python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --faction {faction}'
+            description: 'Refresh faction datasheets 🔄'
+            type: action
+        - validate-cache:
+            input: VC or fuzzy match validate cache or check data
+            action: 'Validate cache against live Wahapedia. Run: python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --validate {faction}'
+            description: 'Validate datasheet cache ✓'
+            type: action
+        - invalidate-cache:
+            input: IC or fuzzy match invalidate cache or data wrong
+            action: 'Mark cache as invalid and refresh. Run: python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --invalidate "User reported error" && python3 scrape-wahapedia.py --faction {faction}'
+            description: 'Invalidate and refresh cache ⚠️'
+            type: action
+        - show-unit:
+            input: SU or fuzzy match show unit or unit datasheet
+            action: 'Display full unit datasheet. Run: python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --unit {faction} "Unit Name"'
+            description: 'Show unit datasheet 📋'
+            type: action

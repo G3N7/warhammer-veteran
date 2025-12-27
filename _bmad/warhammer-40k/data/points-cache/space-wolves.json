@@ -1,0 +1,265 @@
+{
+  "faction": "space-wolves",
+  "last_updated": "2025-12-26T23:14:04.627634Z",
+  "source": "wahapedia",
+  "units": {
+    "Arjac Rockfist": {
+      "name": "Arjac Rockfist",
+      "points": [
+        {
+          "models": 1,
+          "points": 105
+        }
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    "Logan Grimnar": {
+      "name": "Logan Grimnar",
+      "points": [
+        {
+          "models": 1,
+          "points": 110
+        }
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    "Bjorn the Fell-Handed": {
+      "name": "Bjorn the Fell-Handed",
+      "points": [
+        {
+          "models": 1,
+          "points": 160
+        }
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    "Ragnar Blackmane": {
+      "name": "Ragnar Blackmane",
+      "points": [
+        {
+          "models": 1,
+          "points": 100
+        }
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    "Njal Stormcaller": {
+      "name": "Njal Stormcaller",
+      "points": [
+        {
+          "models": 1,
+          "points": 85
+        }
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    "Ulrik the Slayer": {
+      "name": "Ulrik the Slayer",
+      "points": [
+        {
+          "models": 1,
+          "points": 70
+        }
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    "Wolf Guard Terminators": {
+      "name": "Wolf Guard Terminators",
+      "points": [
+        {
+          "models": 5,
+          "points": 170
+        },
+        {
+          "models": 10,
+          "points": 340
+        }
+      ],
+      "unit_sizes": [
+        5,
+        10
+      ]
+    },
+    "Blood Claws": {
+      "name": "Blood Claws",
+      "points": [
+        {
+          "models": 10,
+          "points": 135
+        },
+        {
+          "models": 20,
+          "points": 285
+        }
+      ],
+      "unit_sizes": [
+        10,
+        20
+      ]
+    },
+    "Grey Hunters": {
+      "name": "Grey Hunters",
+      "points": [
+        {
+          "models": 10,
+          "points": 165
+        }
+      ],
+      "unit_sizes": [
+        10
+      ]
+    },
+    "Fenrisian Wolves": {
+      "name": "Fenrisian Wolves",
+      "points": [
+        {
+          "models": 5,
+          "points": 40
+        },
+        {
+          "models": 10,
+          "points": 80
+        }
+      ],
+      "unit_sizes": [
+        5,
+        10
+      ]
+    },
+    "Thunderwolf Cavalry": {
+      "name": "Thunderwolf Cavalry",
+      "points": [
+        {
+          "models": 3,
+          "points": 115
+        },
+        {
+          "models": 6,
+          "points": 230
+        }
+      ],
+      "unit_sizes": [
+        3,
+        6
+      ]
+    },
+    "Wulfen": {
+      "name": "Wulfen",
+      "points": [
+        {
+          "models": 5,
+          "points": 85
+        },
+        {
+          "models": 10,
+          "points": 170
+        }
+      ],
+      "unit_sizes": [
+        5,
+        10
+      ]
+    },
+    "Wolf Guard Battle Leader": {
+      "name": "Wolf Guard Battle Leader",
+      "points": [
+        {
+          "models": 1,
+          "points": 65
+        }
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    "Wolf Priest": {
+      "name": "Wolf Priest",
+      "points": [
+        {
+          "models": 1,
+          "points": 70
+        }
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    "Iron Priest": {
+      "name": "Iron Priest",
+      "points": [
+        {
+          "models": 1,
+          "points": 55
+        }
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    "Venerable Dreadnought": {
+      "name": "Venerable Dreadnought",
+      "points": [
+        {
+          "models": 1,
+          "points": 130
+        }
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    "Murderfang": {
+      "name": "Murderfang",
+      "points": [
+        {
+          "models": 1,
+          "points": 150
+        }
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    "Wulfen Dreadnought": {
+      "name": "Wulfen Dreadnought",
+      "points": [
+        {
+          "models": 1,
+          "points": 145
+        }
+      ],
+      "unit_sizes": [
+        1
+      ]
+    },
+    "Wolf Scouts": {
+      "name": "Wolf Scouts",
+      "points": [
+        {
+          "models": 5,
+          "points": 80
+        },
+        {
+          "models": 10,
+          "points": 160
+        }
+      ],
+      "unit_sizes": [
+        5,
+        10
+      ]
+    }
+  }
+}
