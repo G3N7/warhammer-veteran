@@ -53,15 +53,14 @@
 | Unit | Models | Role | Points |
 |------|--------|------|--------|
 | Logan Grimnar | 1 | Warlord (leads 10-man) | 110 |
-| → Enhancement: Blade of the Slayer | - | Precision for Character sniping | 25 |
 | Arjac Rockfist | 1 | Leads 5-man Terminators | 105 |
 | Wolf Guard Terminators | 10 | Primary Castle (Logan attached) | 340 |
 | Wolf Guard Terminators | 5 | Objective Holders (Arjac attached) | 170 |
 | Wolf Guard Terminators | 5 | Deep Strike Alpha | 170 |
 | Fenrisian Wolves | 10 | Screening / Fast Grab | 80 |
-| **TOTAL** | **32 models** | | **1,000pts** |
+| **TOTAL** | **32 models** | | **975pts** |
 
-*Note: Arjac has no enhancement at 1000pts - his FNP 5+ aura provides value without spending points. Blood Claws require minimum 10 models (135pts) which exceeds budget.*
+*Note: No enhancements - Epic Heroes (Logan, Arjac) cannot take Enhancements per Matched Play rules. 25pts unspent.*
 
 **Army Composition:**
 - 2 Epic Heroes (Logan + Arjac)
@@ -79,9 +78,7 @@
 |------|--------|------|--------|
 | **CHARACTERS** | | | |
 | Logan Grimnar | 1 | Warlord (leads 10-man) | 110 |
-| → Enhancement: Blade of the Slayer | - | Precision for Character sniping | 25 |
 | Arjac Rockfist | 1 | Leads 10-man Terminators | 105 |
-| → Enhancement: Hunter's Instincts | - | Reroll wounds vs big targets | 20 |
 | **ELITES** | | | |
 | Bjorn the Fell-Handed | 1 | CP Generator (+1CP/turn) | 160 |
 | Venerable Dreadnought | 1 | Charge Aura (+1 to Advance/Charge) | 130 |
@@ -93,9 +90,9 @@
 | Grey Hunters | 10 | Mid-field Flex / OC3 Holders | 165 |
 | **FAST ATTACK** | | | |
 | Fenrisian Wolves | 10 | Screening / Fast Grab (12" Move) | 80 |
-| **TOTAL** | **64 models** | | **1,950pts** |
+| **TOTAL** | **64 models** | | **1,905pts** |
 
-**50pts unspent** (strict 2000pt cap - cannot exceed)
+**95pts unspent** - No enhancements (Epic Heroes cannot take Enhancements per Matched Play rules)
 
 **Army Composition:**
 - 2 Epic Heroes (Logan + Arjac = 11W)
@@ -116,7 +113,7 @@
 
 **Strengths:**
 - Extremely durable (10x Terminators with 2+/4++ saves)
-- Arjac's T6 and Hunter's Instincts shred big targets
+- Arjac's T6 and S12 melee shred big targets
 - Wolves provide fast screening and objective grabbing (12" move)
 
 **Weaknesses:**
@@ -137,7 +134,7 @@
 ### 1000pt - "Fang of Fenris"
 
 **Strengths:**
-- Dual legendary heroes (Logan + Arjac) with complementary enhancements
+- Dual legendary heroes (Logan + Arjac) with built-in abilities
 - Deep Strike 5-man Terminators for backfield pressure
 - Blood Claws provide durable screening (2W, 3+ save) and counter-charge
 - 20 Terminators split across 3 units = redundancy
@@ -146,20 +143,21 @@
 - No CP generation (no Bjorn)
 - No charge aura (no Venerable Dread)
 - Blood Claws suffer Headstrong penalties (Ld modifiers)
+- No enhancements (Epic Heroes cannot take them)
 
 **New Tactical Depth vs 500pt:**
 - **Deep Strike Alpha:** 5-man drops Turn 2+ into enemy backfield or undefended objective (9" away from enemies)
 - **Dual Castle:** Logan's 10-man holds center, Arjac's 5-man defends home base
-- **Enhancement Synergy:**
-  - Logan's Blade of Slayer (Precision) snipes enemy Characters
-  - Arjac's Hunter's Instincts (reroll wounds) vs Monsters/Vehicles/Characters
+- **Hero Synergy (Built-in abilities):**
+  - Logan's Axe Morkai (S+2 AP-3 D2 Devastating Wounds) + Precision via Oath of Moment target focus
+  - Arjac's FNP 5+ aura protects attached unit, Foehammer one-shots Characters
 - **Blood Claws Role:** Screen charges, counter-charge weak infantry, tie up enemy melee threats with Berserk Charge
 
 **Game Plan:**
 1. **Turn 1:** Deploy Logan's 10-man + Arjac's 5-man on center objectives. Blood Claws screen 9" forward or hold mid-field.
 2. **Turn 2:** Deep Strike 5-man into enemy backfield (target: undefended objective, artillery, Characters). Blood Claws charge or screen.
 3. **Turn 3+:** Logan's brick advances slowly. Arjac's 5-man defends home base. Deep Strike unit disrupts enemy plans.
-4. **Target Priority:** Logan snipes Characters with Precision. Arjac mulches big targets with reroll wounds.
+4. **Target Priority:** Use Oath of Moment to focus fire on biggest threat. Arjac mulches big targets with S12 melee.
 5. **CP Management:** Start with 3CP. Save for critical Stratagems (Armour of Contempt, Counter-offensive).
 
 ---
@@ -197,7 +195,7 @@
 **Alternative: Deep Strike Deployment**
 1. **Reserve:** Place Arjac's 10-man in Deep Strike Reserve.
 2. **Turn 1:** Deploy Logan's 10-man + third 10-man on center. Power armor holds flanks. Wolves screen.
-3. **Turn 2:** Deep Strike Arjac's 10-man into enemy backfield near Venerable Dread for +1 to charge aura (8" charge needed instead of 9"). Use Hunter's Instincts to shred backfield targets.
+3. **Turn 2:** Deep Strike Arjac's 10-man into enemy backfield near Venerable Dread for +1 to charge aura (8" charge needed instead of 9"). Arjac's S12 melee shreds backfield targets.
 4. **Turn 3+:** Arjac's squad disrupts enemy backfield, forces split attention. Logan's castle grinds forward.
 5. **Win Condition:** Two-front pressure overwhelms opponent's ability to respond. Bjorn's CP keeps Stratagems flowing.
 
@@ -248,10 +246,6 @@
 - Only the Strongest (1CP): Reroll charges (combo with Fortress for reliable 9" charge)
 - Armour of Contempt (1CP): Protect Terminators from AP-3 weapons
 
-**Enhancement Usage:**
-- **Logan's Blade of Slayer (Precision):** Allocate attacks to enemy Characters even if they're in units. Use against Character-led bricks.
-- **Arjac's Hunter's Instincts (reroll wounds):** Reroll wound rolls vs Characters/Monsters/Vehicles. Use Arjac's 5-man to mulch big targets.
-
 ---
 
 ### 2000pt - Triple Threat Castle
@@ -280,7 +274,7 @@
 
 **Turn-by-Turn (Deep Strike Variant):**
 - **Turn 1:** Deploy standard. Wolves screen. Bjorn shoots.
-- **Turn 2:** Deep Strike Arjac's 10-man into enemy backfield near Venerable Dread (if possible) for +1 to charge. Use Hunter's Instincts to shred big targets. Blood Claws charge mid-field.
+- **Turn 2:** Deep Strike Arjac's 10-man into enemy backfield near Venerable Dread (if possible) for +1 to charge. Arjac's S12 melee shreds big targets. Blood Claws charge mid-field.
 - **Turn 3+:** Arjac's squad disrupts backfield. Logan's castle grinds forward. Two-front pressure overwhelms opponent.
 
 **Key Stratagems (with Bjorn's CP):**
@@ -295,10 +289,6 @@
 - Bjorn gives +1CP per Command phase (Turns 1-5 = +5CP total)
 - Total available: 8CP across 5 turns
 - Can afford 1-2 Stratagems per turn sustainably
-
-**Enhancement Usage:**
-- **Logan's Blade of Slayer (Precision):** Snipe enemy Characters in units. Focus fire to remove buffs.
-- **Arjac's Hunter's Instincts (reroll wounds):** Mulch enemy Monsters/Vehicles/Characters. Use on high-value targets.
 
 **Detachment Ability (Saga of the Beastslayer):**
 - **Lethal Hits vs Characters/Monsters/Vehicles:** Crit hits (6s to hit) auto-wound. Focus fire on big targets with storm bolters + assault cannons.
@@ -503,7 +493,7 @@
 **Why Take Logan:**
 - Excellent melee damage (S+2 AP-3 D2 Devastating Wounds)
 - Chapter Master-level buffs (+1 Advance/Charge aura, reroll Battleshock)
-- Receives Blade of the Slayer enhancement (Precision = snipe Characters)
+- ⚠️ **Cannot take Enhancements** (Epic Hero restriction)
 - Lore-accurate leader for Terminator armies
 
 **Tactical Role:**
@@ -536,12 +526,12 @@
 - T6 = more durable than Logan vs S6-S10 attacks
 - Feel No Pain 5+ aura for attached unit = incredible durability
 - S x2 melee (S12 with T6 base) hits extremely hard
-- Receives Hunter's Instincts enhancement (reroll wounds vs Characters/Monsters/Vehicles)
+- ⚠️ **Cannot take Enhancements** (Epic Hero restriction)
 - Foehammer ranged attack (12" S10 AP-3 D4) can delete Characters Turn 1
 
 **Tactical Role:**
 - Attach to 5-man or 10-man Terminators for FNP 5+ aura
-- Use Hunter's Instincts to reroll wounds vs big targets
+- Position aggressively - S12 melee rerolls via Oath of Moment target
 - Throw Foehammer Turn 1 at enemy Character (12" range, ONE SHOT)
 - Position aggressively for melee (S12 AP-3 D4 mulches everything)
 
@@ -757,16 +747,19 @@
 - Units from this detachment gain **[LETHAL HITS]** when targeting CHARACTER, MONSTER, or VEHICLE units
 - **Lethal Hits:** Critical hit rolls (unmodified 6s to hit) automatically wound (skip wound roll)
 
-**Enhancements (Max 1 per Character):**
+**Enhancements (Max 1 per CHARACTER, NOT Epic Heroes):**
+
+> ⚠️ **CRITICAL RULE:** Epic Heroes (named characters like Logan, Arjac, Bjorn) **CANNOT** take Enhancements.
+> Only generic Characters (Wolf Guard Battle Leader, Primaris Captain, etc.) can take Enhancements.
 
 1. **Blade of the Slayer (25pts):**
    - Bearer's melee weapons gain [PRECISION]
    - Each time bearer makes a melee attack that targets a CHARACTER, MONSTER, or VEHICLE, improve AP by 1 and add 1 to Damage
-   - **Best on:** Logan Grimnar (Precision lets you snipe Characters in units, +1 AP and +1 D vs big targets)
+   - **Best on:** Wolf Guard Battle Leader or Primaris Captain
 
 2. **Hunter's Instincts (20pts):**
    - Each time bearer makes an attack that targets a CHARACTER, MONSTER, or VEHICLE, you can reroll the wound roll
-   - **Best on:** Arjac Rockfist (reroll wounds with S12 melee + Foehammer ranged)
+   - **Best on:** Generic Character with strong melee
 
 3. **The Pelt of Balewolf (15pts):**
    - Bearer has [STEALTH] (subtract 1 from hit rolls when targeted by ranged attacks)
@@ -774,7 +767,7 @@
 
 4. **Black Death (15pts):**
    - Bearer's melee weapons gain [DEVASTATING WOUNDS] (critical wounds inflict mortal wounds)
-   - **Best on:** High-attack Characters (not optimal for Logan/Arjac who have other uses)
+   - **Best on:** High-attack Characters
 
 **Stratagems (Selected Examples):**
 - **Only the Strongest (1CP):** Reroll charge rolls
@@ -820,8 +813,9 @@
 - **With Fortress of Willpower (1CP):** Additional +1 to charge (total +2 = 7" charge needed)
 
 **Enhancements:**
-- Max 1 per Character
-- ONLY Characters can take enhancements (not units)
+- Max 1 per CHARACTER
+- **⚠️ Epic Heroes CANNOT take Enhancements** (Logan, Arjac, Bjorn, etc.)
+- Only generic Characters (Wolf Guard Battle Leader, Primaris Captain, etc.) can take Enhancements
 - Must be declared during army construction
 
 **Epic Heroes:**
@@ -829,6 +823,7 @@
 - Logan Grimnar: Max 1
 - Arjac Rockfist: Max 1
 - Bjorn the Fell-Handed: Max 1
+- **Cannot take Enhancements** (core Matched Play restriction)
 
 ---
 
