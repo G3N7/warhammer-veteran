@@ -15,7 +15,9 @@
         "bradlc.vscode-tailwindcss",
         "ms-vscode.vscode-typescript-next",
         "github.vscode-github-actions",
-        "mechatroner.rainbow-csv"
+        "mechatroner.rainbow-csv",
+        "ms-azuretools.vscode-containers",
+        "Anthropic.claude-code"
       ],
       "settings": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
