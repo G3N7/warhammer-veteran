@@ -99,9 +99,26 @@
 | **Paragon Warsuits** (3x multi-melta) | 3 | Monster hunters with durability | **210** |
 | **Exorcist** | 1 | Indirect fire missile platform | **210** |
 | **Immolator** (twin multi-melta) | 1 | Transport for Canoness + Dominions | **115** |
-| **Immolator** (twin multi-melta) | 1 | Transport for Canoness + Dominions | **115** |
 
-**TOTAL: 1,945pts**
+**TOTAL: 1,930pts** (70pts remaining)
+
+**Points Calculation (VERIFIED):**
+```
+Saint Celestine:        150pts
+Canoness #1 (60+15):     75pts
+Canoness #2 (60+20):     80pts
+Dominion × 3:       120×3=360pts
+Battle Sisters × 2: 105×2=210pts
+Seraphim Squad:         160pts
+Retributor × 3:     120×3=360pts
+Paragon Warsuits:       210pts
+Exorcist:               210pts
+Immolator:              115pts
+────────────────────────────
+TOTAL: 150+75+80+360+210+160+360+210+210+115 = 1,930pts ✅
+```
+
+**Note:** Removed 1 Immolator (was 2,045pts before - 100pt math error discovered in audit)
 
 **Enhancements:**
 - Canoness #1: Blade of Saint Ellynor (15pts) - Precision melee weapon
@@ -127,12 +144,12 @@
 
 **SPEED & MOBILITY:**
 - 30 Dominions with Scout 6" = Turn 1 alpha strike capability
-- 2 Immolators with 12" move = rapid deployment platforms
+- 1 Immolator with 12" move = rapid deployment platform
 - 10 Seraphim with 12" fly + Deep Strike = backline threat
 - Saint Celestine 12" fly = mobile support
 
 **DURABILITY & RESURRECTION:**
-- T10 tanks (Exorcist, Immolators) with 11W each
+- T10 tanks (Exorcist, Immolator) with 11W each
 - Paragon Warsuits T7, 4W, 2+/4++ saves
 - Celestine resurrection (2+ to return after death)
 - 4+ invulns on all infantry (Acts of Faith)
@@ -172,17 +189,17 @@
 **Deployment:**
 - Castle Retributors (15 models) in backfield with cover
 - Deploy Exorcist with line of sight to enemy deployment zone
-- Place Dominions in Immolators (2x 10-man squads embarked)
-- Deploy 1x Dominion squad forward with Scout 6"
+- Place Dominions in Immolator (1x squad embarked, 2x on foot with Scout)
+- Deploy 2x Dominion squads forward with Scout 6"
 - Hold Celestine + Seraphim in Deep Strike Reserves
 - Battle Sisters on primary objectives
 
 **Scout Move (Before Turn 1):**
-- Forward Dominion squad Scouts 6" toward enemy
-- Immolators can Scout 6" if Dominions embarked have Scout ability
+- Forward Dominion squads Scout 6" toward enemy
+- Immolator can Scout 6" if Dominions embarked have Scout ability
 
 **Turn 1 Shooting Phase:**
-- **Immolators advance 12"** toward enemy (now 18-24" from deployment)
+- **Immolator advances 12"** toward enemy (now 18-24" from deployment)
 - **Dominions disembark 3"** and shoot meltaguns
 - **Target: Enemy elite units** (Terminators, Dreadnoughts, Characters)
 - **Use Acts of Faith** to substitute Miracle 6s for wound rolls
@@ -414,7 +431,7 @@
 
 ---
 
-### IMMOLATOR (2 models @ 115pts each)
+### IMMOLATOR (1 model @ 115pts)
 
 **Wargear:**
 - Twin multi-melta (replacing immolation flamers)
@@ -750,9 +767,9 @@
 | Retributor Squad | 3 | $51 | $153 |
 | Paragon Warsuits | 1 | $70 | $70 |
 | Exorcist | 1 | $80 | $80 |
-| Immolator | 2 | $66 | $132 |
+| Immolator | 1 | $66 | $66 |
 
-**TOTAL COST: ~$972 USD** (for 2000pt army)
+**TOTAL COST: ~$906 USD** (for 2000pt army)
 
 **Budget-Friendly Build Path:**
 1. Buy Combat Patrol ($160) = Canoness, 10 Battle Sisters, 5 Seraphim, 3 Paragon Warsuits
@@ -760,12 +777,12 @@
 3. Add 3x Retributor Squads ($153)
 4. Add Saint Celestine ($65)
 5. Add 1x Exorcist ($80)
-6. Add 2x Immolators ($132)
+6. Add 1x Immolator ($66)
 7. Add 1x more Canoness ($35)
 8. Add 1x more Battle Sisters Squad ($60)
 9. Add 1x more Seraphim Squad ($51)
 
-**Total: ~$916 USD** (saves $56 with Combat Patrol bundle)
+**Total: ~$850 USD** (saves ~$56 with Combat Patrol bundle)
 
 ---
 
@@ -937,8 +954,8 @@ This list trades melta spam for durability, melee threat, and all-around flexibi
 
 | Factor | Terminator Slayer (Army of Faith) | Angels of Faith (Hallowed Martyrdom) |
 |--------|-----------------------------------|--------------------------------------|
-| **Points** | 1,945 | 1,990 |
-| **Melta Weapons** | 33 | 10 |
+| **Points** | 1,930 | 1,990 |
+| **Melta Weapons** | 31 (1 Immolator removed in audit) | 10 |
 | **Win Rate vs Terminators** | 70-80% | 55-60% |
 | **Melee Capability** | Low (Celestine only) | High (Sacresants + Mortifiers) |
 | **Durability** | Moderate | High (Sacresants 4++, Mortifiers T6) |
@@ -956,7 +973,8 @@ This list trades melta spam for durability, melee threat, and all-around flexibi
 
 **Created by:** Tacticus Agent
 **Date:** December 23, 2025
-**Version:** 1.0
+**Updated:** December 28, 2025 (Audit fix: Points calculation error - removed 1 Immolator)
+**Version:** 1.1
 **Army Designer:** For crushing Terminator armies with faith and fire
 
 **FOR THE EMPEROR! 🔥⚔️**

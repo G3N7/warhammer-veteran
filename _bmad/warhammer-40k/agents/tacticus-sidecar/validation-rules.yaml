@@ -1,0 +1,187 @@
+# Tacticus Validation Rules - Machine-Readable Format
+# CRITICAL: Load this BEFORE building any list. Check EVERY rule.
+# Last Updated: 2025-12-28
+# Version: 1.0
+
+# ============================================================
+# HARD RULES - Violations make list ILLEGAL
+# ============================================================
+hard_rules:
+
+  rule_of_three:
+    applies_to: "matched play"
+    rule: "Max 3 units per datasheet (except BATTLELINE and DEDICATED TRANSPORT)"
+    check: "Count units by datasheet name. If any non-exempt > 3, ILLEGAL."
+    exempt_keywords: ["BATTLELINE", "DEDICATED TRANSPORT"]
+
+  points_limit:
+    rule: "Total points must be <= game size limit"
+    limits: {500: 500, 1000: 1000, 2000: 2000}
+    check: "Sum all unit points + enhancement points. If > limit, ILLEGAL."
+
+  epic_hero_unique:
+    rule: "Each Epic Hero can only appear once per army"
+    check: "If same Epic Hero appears twice, ILLEGAL."
+
+  enhancement_eligibility:
+    rule: "Enhancements can ONLY be given to CHARACTER models without EPIC HERO keyword"
+    check: "Before assigning enhancement, verify target.epic_hero == false AND 'CHARACTER' in target.keywords"
+    common_error: "Assigning enhancements to named characters (Logan Grimnar, Shadowsun, etc.)"
+
+  enhancement_limit:
+    rule: "Max 1 enhancement per CHARACTER. Max enhancements = game size dependent."
+    limits: {500: 1, 1000: 1, 2000: 3}
+    check: "Count enhancements assigned. Count characters with enhancements."
+
+  unit_sizes:
+    rule: "Units must be legal sizes per datasheet"
+    check: "unit.models must be in unit.sizes range"
+
+# ============================================================
+# VALIDATION GATES - Run in order before presenting any list
+# ============================================================
+validation_gates:
+
+  gate_1_data_loaded:
+    - "Faction datasheet loaded (compact.json)"
+    - "Detachment rules known"
+    - "Edition confirmed (10th Edition)"
+
+  gate_2_unit_legality:
+    - "Every unit exists in faction datasheet"
+    - "Unit sizes are legal per datasheet"
+    - "Wargear options are legal (if specified)"
+
+  gate_3_composition:
+    - "Rule of Three: count by datasheet, verify <= 3"
+    - "Epic Heroes: verify unique, no duplicates"
+    - "Enhancements: verify CHARACTER + not EPIC HERO"
+
+  gate_4_points:
+    - "Calculate: sum(unit.pts * unit.count) + sum(enhancement.pts)"
+    - "Verify: total <= game_size"
+    - "Show math: list each unit with calculation"
+
+  gate_5_self_review:
+    - "Check 3 potential issues with own work"
+    - "Cross-reference prose vs table (model counts match)"
+
+# ============================================================
+# KNOWN CORRECTIONS - Overrides for datasheet errors
+# When these units appear, use THESE values not cached data
+# ============================================================
+corrections:
+
+  # Format: unit_name: {field: corrected_value, source: "where verified", date: "YYYY-MM-DD"}
+
+  # Space Wolves corrections verified 2025-12-27
+  arjac_rockfist:
+    pts: 105
+    source: "New Recruit app"
+    date: "2025-12-27"
+
+  bjorn_the_fell_handed:
+    pts: 160
+    source: "Wahapedia"
+    date: "2025-12-27"
+
+  # T'au corrections verified 2025-12-28
+  commander_shadowsun:
+    epic_hero: true
+    cannot_take_enhancements: true
+    source: "10th Ed datasheet"
+    date: "2025-12-28"
+
+  longstrike:
+    epic_hero: true
+    cannot_take_enhancements: true
+    source: "10th Ed datasheet"
+    date: "2025-12-28"
+
+  # Astra Militarum corrections
+  lord_solar_leontus:
+    epic_hero: true
+    cannot_take_enhancements: true
+    source: "10th Ed datasheet"
+    date: "2025-12-28"
+
+# ============================================================
+# MISTAKE PATTERNS - Common errors to actively check for
+# Format: pattern_name, description, prevention_check
+# ============================================================
+mistake_patterns:
+
+  epic_hero_enhancement:
+    description: "Assigning enhancements to Epic Heroes"
+    frequency: "HIGH - happened 4+ times"
+    prevention: "BEFORE assigning ANY enhancement: check unit.epic_hero == false"
+    affected_units: ["Logan Grimnar", "Arjac Rockfist", "Commander Shadowsun", "Lord Solar Leontus", "Longstrike"]
+
+  points_overage:
+    description: "List exceeds points limit"
+    frequency: "MEDIUM - happened 3 times"
+    prevention: "Re-add all units BEFORE presenting. Never assume math is correct."
+
+  outdated_wargear:
+    description: "Using wargear from previous editions"
+    frequency: "MEDIUM - Wolf Guard Terminators thunder hammers"
+    prevention: "Verify wargear against current datasheet. 10th Ed changed many options."
+
+  keyword_hallucination:
+    description: "Claiming units have keywords they don't have (SYNAPSE, DEEP STRIKE)"
+    frequency: "LOW - Tyranid SYNAPSE error"
+    prevention: "Only claim keywords that appear in datasheet.keywords or datasheet.core"
+
+  prose_table_mismatch:
+    description: "Model counts in prose sections don't match army table"
+    frequency: "LOW"
+    prevention: "After writing tactics/strengths, cross-reference model counts against table"
+
+# ============================================================
+# DETACHMENT ENHANCEMENTS - Quick reference
+# ============================================================
+detachments:
+
+  saga_of_the_beastslayer:  # Space Wolves
+    ability: "Lethal Hits vs CHARACTER, MONSTER, VEHICLE"
+    enhancements:
+      - {name: "Blade of the Slayer", pts: 25}
+      - {name: "Hunter's Instincts", pts: 20}
+      - {name: "The Pelt of Balewolf", pts: 15}
+      - {name: "Black Death", pts: 15}
+
+  kauyon:  # T'au Empire
+    ability: "Full re-rolls to hit if unit remained stationary"
+    enhancements:
+      - {name: "Puretide Engram Neurochip", pts: 25}
+      - {name: "Precision of the Patient Hunter", pts: 20}
+      - {name: "Through Unity, Devastation", pts: 40}
+      - {name: "The Be'gel Hunter's Plate", pts: 15}
+
+  grizzled_company:  # Astra Militarum
+    ability: "Ignore modifiers to hit and wound, ignore cover"
+    enhancements:
+      - {name: "Grand Strategist", pts: 15}
+      - {name: "Drill Commander", pts: 20}
+      - {name: "Death Mask of Ollanius", pts: 10}
+      - {name: "Gatekeeper", pts: 20}
+
+# ============================================================
+# META SNAPSHOT - December 2025
+# Refresh: Monthly or after balance dataslate
+# ============================================================
+meta:
+  last_updated: "2025-12-23"
+  dataslate: "December 2025"
+
+  s_tier:
+    - "Astra Militarum"
+    - "Space Marines (various chapters)"
+    - "Drukhari"
+    - "Chaos Daemons"
+    - "Death Guard"
+
+  notes:
+    - "Aeldari nerfed hard (Skyborne Sanctuary changes)"
+    - "T'au + GSC left untouched despite needing help"
+    - "Tank-heavy armies stable"

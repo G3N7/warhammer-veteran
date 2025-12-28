@@ -192,14 +192,24 @@ At 1000pts, Guilliman dominates the battlefield:
 | **Assault Intercessor Squad**        | 10     | Melee Battleline                     | 90            |
 | **Infernus Squad**                   | 10     | Flamer Specialists                   | 85            |
 | **Infernus Squad**                   | 5      | Flamer Support                       | 45            |
-| **TOTAL**                            |        |                                      | **1,820 pts** |
+| **Eradicator Squad**                 | 6      | Melta Anti-Tank                      | 180           |
+| **TOTAL**                            |        |                                      | **2,000 pts** |
 
-**180pts REMAINING - Options:**
-
-- Add Heavy Intercessors (10 models, ~110pts)
-- Add Scout Squad (10 models, ~65pts)
-- Add more Infernus models
-- Add Lieutenant upgrades
+**Points Calculation (Dec 2025 MFM v3.7):**
+```
+Guilliman:         345
+Calgar:            210
+Captain + Enh:     90 + 10 = 100
+Lieutenant + Enh:  70 + 15 = 85
+3x Ballistus:      140 × 3 = 420
+Redemptor:         200
+3x Intercessors:   80 × 3 = 240
+Assault Inter:     90
+2x Infernus:       85 + 45 = 130
+Eradicators:       180
+─────────────────────────
+TOTAL: 345 + 210 + 100 + 85 + 420 + 200 + 240 + 90 + 130 + 180 = 2,000pts ✅
+```
 
 **Rule of Three Compliance:**
 
@@ -208,9 +218,16 @@ At 1000pts, Guilliman dominates the battlefield:
 - Intercessor Squads: 3 units ✅ (Battleline exempt from Rule of Three)
 - Assault Intercessors: 1 unit ✅
 - Infernus Squads: 2 units ✅
+- Eradicator Squad: 1 unit ✅
 - All other units: 1 each ✅
 
-**STATUS: ✅ TOURNAMENT LEGAL**
+**STATUS: ✅ TOURNAMENT LEGAL (2,000/2,000pts)**
+
+**Why Eradicators?**
+- 6 melta rifles = 6 shots at S9 AP-4 D6 damage (Melta D6+2 at half range)
+- **Total Obliteration:** Re-roll hit, wound, AND damage vs MONSTER/VEHICLE
+- Stacks with Guilliman's reroll aura for guaranteed tank kills
+- Fills anti-armor role that Infernus flamers can't cover
 
 ### Enhancements (Gladius Task Force)
 

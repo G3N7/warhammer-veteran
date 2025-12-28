@@ -20,28 +20,28 @@ agent:
       - 'Self-review before presenting - find 3 potential issues with your own work'
 
   critical_actions:
-    # === CONTEXT OPTIMIZATION: LAZY LOADING ===
-    # CRITICAL: Do NOT load files at startup. Load ONLY when needed for the specific task.
-    # This reduces context usage from ~15 files to 2-3 per conversation.
+    # === CONTEXT OPTIMIZATION: TWO-TIER DATA ===
+    # COMPACT format (~275 lines) for list-building validation
+    # FULL format (~2400 lines) only for tactical deep-dives
 
-    # === STARTUP (MINIMAL - 1 FILE MAX) ===
-    - 'STARTUP - MEMORIES ONLY: Load ONLY {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/memories.md at startup. This contains user preferences and past lists summary. DO NOT load any other files until specifically needed.'
-    - 'STARTUP - EDITION: Warhammer 40k = 10TH EDITION (Dec 2025). Age of Sigmar = 4TH EDITION. Include "10th edition" in ALL web searches.'
+    # === STARTUP (2 FILES MAX) ===
+    - 'STARTUP: Load (1) memories.md and (2) validation-rules.yaml. These are small and contain everything needed to start.'
+    - 'STARTUP - EDITION: Warhammer 40k = 10TH EDITION (Dec 2025). Include "10th edition" in ALL web searches.'
 
-    # === LAZY LOADING: LOAD ON DEMAND ===
-    - 'LAZY LOAD - FACTION DATA: When user specifies a faction, load {project-root}/_bmad/warhammer-40k/data/datasheets/{faction}.json. This is the SINGLE SOURCE OF TRUTH for all unit data (points, stats, weapons, abilities, keywords).'
-    - 'LAZY LOAD - RULES: Only load rules-validated.md when you need to check for known corrections or past mistakes.'
-    - 'LAZY LOAD - VALIDATION: Only load validation-checklist.md when running formal validation gates.'
-    - 'LAZY LOAD - META: Only load meta-overview.md when user asks about competitive standings.'
-    - 'LAZY LOAD - LISTS: Only load lists.md when user asks to save a list or see past lists.'
+    # === DATA LOADING HIERARCHY ===
+    - 'LIST BUILDING: Load {faction}.compact.json (~275 lines). Contains points, sizes, epic_hero status, keywords, leader info. Sufficient for 95% of list validation.'
+    - 'TACTICAL DEEP-DIVE: Only load {faction}.json (full ~2400 lines) when user asks about specific abilities, weapon profiles, or detailed tactics.'
+    - 'VALIDATION RULES: validation-rules.yaml contains hard rules, validation gates, known corrections, and mistake patterns. Check corrections section for unit overrides.'
 
-    # === DATASHEET CACHE (SINGLE SOURCE OF TRUTH) ===
-    - 'DATASHEET CACHE: Primary source is {project-root}/_bmad/warhammer-40k/data/datasheets/{faction}.json. Contains FULL datasheets scraped from Wahapedia (stats, weapons, abilities, points, keywords, leader info, default wargear). Check metadata.json for cache_invalid flag.'
-    - 'CACHE REFRESH: When user reports ANY data error (points, stats, abilities): (1) Immediately run python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --faction {faction} to refresh ALL datasheets, (2) Update rules-validated.md mistake log, (3) Fix the army list.'
-    - 'CACHE VALIDATION: If data mismatch suspected, run: python3 scrape-wahapedia.py --validate {faction} to spot-check against live Wahapedia.'
-    - 'DATA CHECK: Before building, check datasheets/metadata.json. If cache_invalid=true or last_updated >30 days: refresh faction cache first.'
-    - 'UNIT LOOKUP: To display a unit datasheet: python3 scrape-wahapedia.py --unit {faction} "Unit Name"'
-    - 'AUDIT AFTER BUILD: After completing ANY army list, run a stat audit comparing key units (Characters, expensive units) against web source. Flag any discrepancies immediately.'
+    # === DATASHEET LOCATIONS ===
+    - 'COMPACT: {project-root}/_bmad/warhammer-40k/data/datasheets/{faction}.compact.json'
+    - 'FULL: {project-root}/_bmad/warhammer-40k/data/datasheets/{faction}.json'
+    - 'RULES: {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/validation-rules.yaml'
+
+    # === CACHE MANAGEMENT ===
+    - 'REFRESH BOTH: python3 scrape-wahapedia.py --faction {faction} generates BOTH compact and full formats.'
+    - 'VIEW COMPACT: python3 scrape-wahapedia.py --compact {faction} shows compact format summary.'
+    - 'CHECK STALE: python3 scrape-wahapedia.py --check {faction} verifies cache freshness.'
 
     # === LIST BUILDING ORDER (MANDATORY) ===
     - 'BUILD ORDER - 2000PT FIRST: ALWAYS build the 2000pt list FIRST. This is the primary list. THEN scale down to 1000pt and 500pt by removing units. Never start with smaller lists.'

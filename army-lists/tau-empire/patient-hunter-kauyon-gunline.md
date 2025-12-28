@@ -28,17 +28,18 @@ This is a beginner-friendly gunline army that rewards patience. You stand still,
 
 ## 2000pt List - Primary Build
 
-**Points:** 1,990/2,000 (10pts remaining)
+**Points:** 1,950/2,000 (50pts remaining)
 **Models:** 42 models
 **Validation:** All 9 gates passed
+**Note:** Commander Shadowsun and Longstrike are Epic Heroes and cannot take enhancements.
 
 ### Army List Table
 
 | Unit | Models | Role | Points |
 |------|--------|------|--------|
 | **CHARACTERS** |
-| Longstrike | 1 | Character | 140pts |
-| Commander Shadowsun | 1 | Character | 100pts |
+| Longstrike | 1 | Epic Hero | 140pts |
+| Commander Shadowsun | 1 | Epic Hero | 100pts |
 | Cadre Fireblade | 1 | Character | 50pts |
 | **BATTLELINE** |
 | Strike Team | 10 | Battleline | 70pts |
@@ -54,7 +55,6 @@ This is a beginner-friendly gunline army that rewards patience. You stand still,
 | Hammerhead Gunship | 1 | Heavy Support | 145pts |
 | Hammerhead Gunship | 1 | Heavy Support | 145pts |
 | **ENHANCEMENTS** |
-| Through Unity, Devastation | - | Shadowsun | 40pts |
 | Exemplar of the Kauyon | - | Fireblade | 20pts |
 
 ### Points Breakdown
@@ -64,9 +64,9 @@ Characters:     140 + 100 + 50 = 290pts
 Battleline:     70 × 3 = 210pts
 Battlesuits:    (200 × 3) + (270 × 2) = 600 + 540 = 1,140pts
 Vehicles:       145 × 2 = 290pts
-Enhancements:   40 + 20 = 60pts
+Enhancements:   20pts (Shadowsun is Epic Hero, cannot take enhancement)
 ────────────────────────────────────
-TOTAL:          1,990pts
+TOTAL:          1,950pts
 ```
 
 ### Composition Validation
@@ -77,8 +77,9 @@ TOTAL:          1,990pts
 | Rule of Three (Broadsides) | 2/3 ✅ |
 | Rule of Three (Hammerheads) | 2/3 ✅ |
 | Epic Heroes Unique | Longstrike (1), Shadowsun (1) ✅ |
-| Enhancements (1 per character) | 2 characters, 2 enhancements ✅ |
-| Points Under Limit | 1,990 < 2,000 ✅ |
+| Epic Heroes Enhancement Check | Neither has enhancement (correct) ✅ |
+| Enhancements (1 per character) | 1 enhancement on Fireblade ✅ |
+| Points Under Limit | 1,950 < 2,000 ✅ |
 
 ---
 
@@ -153,7 +154,7 @@ At the start of your Shooting phase:
 | Precision of the Patient Hunter | 15pts | +1 to Hit, +1 to Wound from Turn 3 |
 | Solid-image Projection Unit | 30pts | Redeploy up to 3 units after deployment |
 
-**This list uses:** Through Unity, Devastation (Shadowsun) + Exemplar of the Kauyon (Fireblade)
+**This list uses:** Exemplar of the Kauyon (Fireblade only - Shadowsun/Longstrike are Epic Heroes and cannot take enhancements)
 
 ---
 
@@ -432,16 +433,17 @@ At the start of your Shooting phase:
 ## Validation Record
 
 ```
-VALIDATION STATUS (December 26, 2025):
+VALIDATION STATUS (December 28, 2025 - AUDITED):
 ✅ Edition: 10th Edition verified
 ✅ Rule of Three: PASS
    - Riptide Battlesuit: 3/3
    - Broadside Battlesuits: 2/3
    - Hammerhead Gunship: 2/3
-✅ Points: 1,990/2,000 (10pts remaining)
+✅ Points: 1,950/2,000 (50pts remaining)
 ✅ Epic Heroes: Unique (Longstrike ×1, Shadowsun ×1)
-✅ Enhancements: Legal (1 per character, 2 total)
-✅ Self-review: 3 issues checked, 0 found
+✅ Epic Hero Enhancement Check: Neither Epic Hero has enhancement (CORRECT)
+✅ Enhancements: Legal (1 enhancement on Fireblade only)
+✅ Self-review: 3 issues checked, 1 fixed (Shadowsun enhancement removed)
 ✅ Keywords: All verified against Wahapedia
 ✅ Consistency: All stats match datasheets
 ```
@@ -449,4 +451,4 @@ VALIDATION STATUS (December 26, 2025):
 ---
 
 *Created by Tacticus Agent*
-*Last Updated: December 26, 2025*
+*Last Updated: December 28, 2025 (Epic Hero enhancement fix)*

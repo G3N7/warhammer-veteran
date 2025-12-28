@@ -823,9 +823,46 @@ Before finalizing ANY list, verify total points ≤ mission size limit.
 
 ---
 
-*Last Updated: 2025-12-27*
+### 2025-12-28: Full Army List Audit - Epic Hero Enhancement Errors (Multi-Faction)
+**Discovery Method:** Full audit of all 7 faction army lists
+**Errors Found:**
+
+**1. Astra Militarum - Imperial Hammer 2000pt**
+- **Mistake:** Grand Strategist (15pts) assigned to Lord Solar Leontus
+- **Root Cause:** Lord Solar Leontus is an EPIC HERO - cannot take enhancements
+- **Fix Applied:** Moved enhancement to Cadian Command Squad
+- **Points Impact:** No change (enhancement reassigned)
+
+**2. T'au Empire - Patient Hunter 2000pt**
+- **Mistake:** Through Unity, Devastation (40pts) assigned to Commander Shadowsun
+- **Root Cause:** Shadowsun is an EPIC HERO - cannot take enhancements
+- **Fix Applied:** Removed enhancement entirely (Fireblade already has one, no other generic character)
+- **Points Impact:** 1,990pts → 1,950pts (40pts freed)
+
+**3. Adepta Sororitas - Terminator Slayer 2000pt**
+- **Mistake:** Points calculation claimed 1,945pts but actual total was 2,045pts (100pt error!)
+- **Root Cause:** Math error - units added without recalculating total
+- **Fix Applied:** Removed 1 Immolator (115pts) to bring under 2000pt limit
+- **Points Impact:** 2,045pts → 1,930pts (now legal, 70pts remaining)
+
+**Epic Heroes Verified in This Audit:**
+- ✅ Lord Solar Leontus (Astra Militarum) - EPIC HERO
+- ✅ Commander Shadowsun (T'au Empire) - EPIC HERO
+- ✅ Longstrike (T'au Empire) - EPIC HERO
+- ✅ Saint Celestine (Adepta Sororitas) - EPIC HERO
+- ❌ Hive Tyrant / Winged Hive Tyrant (Tyranids) - NOT Epic Heroes, CAN take enhancements
+
+**Prevention:**
+1. Before assigning ANY enhancement, explicitly verify target is NOT Epic Hero
+2. Use web search to confirm Epic Hero status if uncertain: "[unit name] 10th edition Epic Hero keyword"
+3. After building list, run points verification calculation (add all units independently)
+4. Cross-verify points total matches stated total in document
+
+---
+
+*Last Updated: 2025-12-28*
 *Maintained by: Tacticus Agent*
-*Version: 1.7*
+*Version: 1.8*
 
 ---
 

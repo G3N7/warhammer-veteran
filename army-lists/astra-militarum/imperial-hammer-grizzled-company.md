@@ -176,14 +176,15 @@
 **Total Points:** 1,980pts
 **Command Points:** 3 (Battle-forged)
 **Detachment:** Grizzled Company
-**Enhancement:** Grand Strategist (15pts) on Lord Solar Leontus
+**Enhancement:** Grand Strategist (15pts) on Cadian Command Squad
+**Note:** Lord Solar Leontus is an Epic Hero and cannot take enhancements.
 
 ### Army Roster
 
 | Unit | Models | Role | Points |
 |------|--------|------|--------|
-| Lord Solar Leontus + Grand Strategist | 1 | HQ (Warlord) | 145pts |
-| Cadian Command Squad | 5 | HQ | 65pts |
+| Lord Solar Leontus | 1 | HQ (Warlord) | 130pts |
+| Cadian Command Squad + Grand Strategist | 5 | HQ | 80pts |
 | Cadian Command Squad | 5 | HQ | 65pts |
 | Cadian Shock Troops | 20 | Battleline | 120pts |
 | Cadian Shock Troops | 20 | Battleline | 120pts |
@@ -204,8 +205,8 @@
 
 | Unit | Calculation | Total |
 |------|-------------|-------|
-| Lord Solar Leontus + Grand Strategist | 130 + 15 | 145pts |
-| Cadian Command Squad | 65pts | 65pts |
+| Lord Solar Leontus | 130pts | 130pts |
+| Cadian Command Squad + Grand Strategist | 65 + 15 | 80pts |
 | Cadian Command Squad | 65pts | 65pts |
 | Cadian Shock Troops (20) | 120pts | 120pts |
 | Cadian Shock Troops (20) | 120pts | 120pts |
@@ -218,7 +219,7 @@
 | Leman Russ Punisher | 190pts | 190pts |
 | Armoured Sentinels (2) | 65pts | 65pts |
 
-**SUBTOTAL:** 145 + 65 + 65 + 120 + 120 + 65 + 100 + 60 + 255 + 555 + 190 + 190 + 65 = **1,995pts**
+**SUBTOTAL:** 130 + 80 + 65 + 120 + 120 + 65 + 100 + 60 + 255 + 555 + 190 + 190 + 65 = **1,995pts**
 
 **⚠️ OVER BY 5pts - ADJUSTMENT NEEDED**
 
@@ -228,8 +229,8 @@
 
 | Unit | Models | Role | Points |
 |------|--------|------|--------|
-| Lord Solar Leontus + Grand Strategist | 1 | HQ (Warlord) | 145pts |
-| Cadian Command Squad | 5 | HQ | 65pts |
+| Lord Solar Leontus | 1 | HQ (Warlord) | 130pts |
+| Cadian Command Squad + Grand Strategist | 5 | HQ | 80pts |
 | Cadian Command Squad | 5 | HQ | 65pts |
 | Cadian Shock Troops | 20 | Battleline | 120pts |
 | Cadian Shock Troops | 20 | Battleline | 120pts |
@@ -245,10 +246,10 @@
 | Leman Russ Demolisher | 1 | Heavy Support | 190pts |
 | Leman Russ Punisher | 1 | Heavy Support | 190pts |
 
-**FINAL TOTAL:** 145 + 65 + 65 + 120 + 120 + 65 + 100 + 60 + 85 + 85 + 85 + 185 + 185 + 185 + 190 + 190 = **1,930pts**
+**FINAL TOTAL:** 130 + 80 + 65 + 120 + 120 + 65 + 100 + 60 + 85 + 85 + 85 + 185 + 185 + 185 + 190 + 190 = **1,930pts**
 
 **VERIFICATION:**
-145 + 65 = 210
+130 + 80 = 210
 210 + 65 = 275
 275 + 120 = 395
 395 + 120 = 515
@@ -272,8 +273,8 @@
 
 | Unit | Models | Role | Points |
 |------|--------|------|--------|
-| Lord Solar Leontus + Grand Strategist | 1 | HQ (Warlord) | 145pts |
-| Cadian Command Squad | 5 | HQ | 65pts |
+| Lord Solar Leontus | 1 | HQ (Warlord) | 130pts |
+| Cadian Command Squad + Grand Strategist | 5 | HQ | 80pts |
 | Cadian Command Squad | 5 | HQ | 65pts |
 | Cadian Shock Troops | 20 | Battleline | 120pts |
 | Cadian Shock Troops | 20 | Battleline | 120pts |
@@ -293,7 +294,7 @@
 **FINAL TOTAL:** 1,930 + 65 = **1,995pts** ✅ (5pts remaining)
 
 **FINAL VERIFICATION:**
-145+65+65+120+120+65+100+60+85+85+85+185+185+185+190+190+65 = **1,995pts** ✅
+130+80+65+120+120+65+100+60+85+85+85+185+185+185+190+190+65 = **1,995pts** ✅
 
 ---
 
@@ -478,9 +479,10 @@ Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
 
 ### Enhancements (Grizzled Company)
 
-**GRAND STRATEGIST (15pts)** - Selected for Lord Solar Leontus
+**GRAND STRATEGIST (15pts)** - Selected for Cadian Command Squad
 - **Effect:** Once per battle, gain 1CP
 - **Use Case:** Critical Stratagem turn (usually Turn 2-3 alpha strike)
+- **Note:** Lord Solar Leontus is an Epic Hero and cannot take enhancements
 
 **Other Available Enhancements:**
 - **Master of Ordnance (20pts):** Re-roll 1 hit/wound/damage per turn for Indirect Fire
@@ -758,9 +760,10 @@ Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
 
 ### Detachment Rules
 - ✅ Grizzled Company detachment selected
-- ✅ Enhancement: Grand Strategist (15pts) on Lord Solar Leontus (2000pt list)
+- ✅ Enhancement: Grand Strategist (15pts) on Cadian Command Squad (2000pt list)
 - ✅ Enhancement: Grand Strategist (15pts) on Cadian Command Squad (1000pt list)
 - ✅ No Enhancements in 500pt list (missions don't allow)
+- ✅ Lord Solar Leontus (Epic Hero) correctly has no enhancement
 
 ### Army Composition
 - ✅ Warlord declared: Lord Solar Leontus (2000pt), Cadian Command Squad (1000pt/500pt)

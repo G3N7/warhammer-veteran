@@ -1,0 +1,276 @@
+{
+  "faction": "space-wolves",
+  "last_updated": "2025-12-27T07:27:26.210605+00:00",
+  "schema": "compact-v1",
+  "unit_count": 19,
+  "units": {
+    "Arjac Rockfist": {
+      "name": "Arjac Rockfist",
+      "pts": 105,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "leads": [
+        "the following unit: Wolf Guard Terminators"
+      ],
+      "led_by": [
+        "Wolf Guard Terminators"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ]
+    },
+    "Logan Grimnar": {
+      "name": "Logan Grimnar",
+      "pts": 110,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "leads": [
+        "the following unit: Wolf Guard Terminators"
+      ],
+      "led_by": [
+        "Wolf Guard Terminators"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ]
+    },
+    "Bjorn the Fell-Handed": {
+      "name": "Bjorn the Fell-Handed",
+      "pts": 160,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "core": [
+        "Deadly Demise 1",
+        "Feel No Pain 5+"
+      ]
+    },
+    "Ragnar Blackmane": {
+      "name": "Ragnar Blackmane",
+      "pts": 100,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "leads": [
+        "the following units: Blood Claws Wolf Guard Headtakers"
+      ],
+      "led_by": [
+        "Blood Claws Wolf Guard Headtakers"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Njal Stormcaller": {
+      "name": "Njal Stormcaller",
+      "pts": 85,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "leads": [
+        "the following units: Blood Claws Grey Hunters Wolf Guard Headtakers"
+      ],
+      "led_by": [
+        "Blood Claws Grey Hunters Wolf Guard Headtakers"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Ulrik the Slayer": {
+      "name": "Ulrik the Slayer",
+      "pts": 70,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "leads": [
+        "the following units: Blood Claws Grey Hunters Wolf Guard Headtakers"
+      ],
+      "led_by": [
+        "Blood Claws Grey Hunters Wolf Guard Headtakers"
+      ],
+      "core": [
+        "Feel No Pain 6+",
+        "Leader"
+      ]
+    },
+    "Wolf Guard Terminators": {
+      "name": "Wolf Guard Terminators",
+      "pts": 170,
+      "sizes": [
+        5
+      ],
+      "epic_hero": false,
+      "models": 5,
+      "core": [
+        "Deep Strike"
+      ]
+    },
+    "Blood Claws": {
+      "name": "Blood Claws",
+      "pts": 135,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10
+    },
+    "Grey Hunters": {
+      "name": "Grey Hunters",
+      "pts": 165,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10
+    },
+    "Fenrisian Wolves": {
+      "name": "Fenrisian Wolves",
+      "pts": 40,
+      "sizes": [
+        5
+      ],
+      "epic_hero": false,
+      "models": 5
+    },
+    "Thunderwolf Cavalry": {
+      "name": "Thunderwolf Cavalry",
+      "pts": 115,
+      "sizes": [
+        3
+      ],
+      "epic_hero": false,
+      "models": 3
+    },
+    "Wulfen": {
+      "name": "Wulfen",
+      "pts": 85,
+      "sizes": [
+        5
+      ],
+      "epic_hero": false,
+      "models": 5
+    },
+    "Wolf Guard Battle Leader": {
+      "name": "Wolf Guard Battle Leader",
+      "pts": 65,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "the following units: Blood Claws Grey Hunters Wolf Guard Headtakers"
+      ],
+      "led_by": [
+        "Blood Claws Grey Hunters Wolf Guard Headtakers"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Wolf Priest": {
+      "name": "Wolf Priest",
+      "pts": 70,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "the following units: Blood Claws Grey Hunters Wolf Guard Headtakers"
+      ],
+      "led_by": [
+        "Blood Claws Grey Hunters Wolf Guard Headtakers"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Iron Priest": {
+      "name": "Iron Priest",
+      "pts": 55,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "the following units: Blood Claws Grey Hunters Wolf Guard Headtakers"
+      ],
+      "led_by": [
+        "Blood Claws Grey Hunters Wolf Guard Headtakers"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Venerable Dreadnought": {
+      "name": "Venerable Dreadnought",
+      "pts": 130,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Murderfang": {
+      "name": "Murderfang",
+      "pts": 150,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "core": [
+        "Deadly Demise 1",
+        "Feel No Pain 6+"
+      ]
+    },
+    "Wulfen Dreadnought": {
+      "name": "Wulfen Dreadnought",
+      "pts": 145,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise 1",
+        "Feel No Pain 6+"
+      ]
+    },
+    "Wolf Scouts": {
+      "name": "Wolf Scouts",
+      "pts": 80,
+      "sizes": [
+        5
+      ],
+      "epic_hero": false,
+      "models": 5,
+      "core": [
+        "Infiltrators",
+        "Scouts 6\""
+      ]
+    }
+  }
+}

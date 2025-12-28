@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 """
 Wahapedia Datasheet Scraper
-Extracts FULL unit datasheets from Wahapedia into per-faction JSON cache files.
-This is the SINGLE SOURCE OF TRUTH for all unit data (stats, weapons, abilities, points).
+Extracts unit datasheets from Wahapedia into per-faction JSON cache files.
+Generates TWO formats:
+  1. COMPACT (.compact.json) - List-building validation only (~50-100 lines per faction)
+  2. FULL (.json) - Complete datasheets for tactical deep-dives (~2000+ lines)
 
 Usage:
-    python scrape-wahapedia.py --faction space-wolves    # Refresh one faction
+    python scrape-wahapedia.py --faction space-wolves    # Refresh one faction (both formats)
     python scrape-wahapedia.py --refresh-all             # Refresh all user factions
     python scrape-wahapedia.py --check space-wolves      # Check if cache is stale
     python scrape-wahapedia.py --validate space-wolves   # Validate cache against live data
-    python scrape-wahapedia.py --unit space-wolves "Arjac Rockfist"  # Show one unit
+    python scrape-wahapedia.py --unit space-wolves "Arjac Rockfist"  # Show one unit (full)
+    python scrape-wahapedia.py --compact space-wolves    # Show compact format for faction
 """
 
 import sys
@@ -84,7 +87,110 @@ FACTION_URLS = {
             ('Terminator-Squad', 'Terminator Squad'),
         ]
     },
-    # Add more factions as needed
+    'tau-empire': {
+        'base_url': 'https://wahapedia.ru/wh40k10ed/factions/t-au-empire/',
+        'index_url': 'https://wahapedia.ru/wh40k10ed/factions/t-au-empire/',
+        'units': [
+            ('Commander-Shadowsun', 'Commander Shadowsun'),
+            ('Commander-Farsight', 'Commander Farsight'),
+            ('Longstrike', 'Longstrike'),
+            ('Cadre-Fireblade', 'Cadre Fireblade'),
+            ('Commander-in-Coldstar-Battlesuit', 'Commander in Coldstar Battlesuit'),
+            ('Commander-in-Enforcer-Battlesuit', 'Commander in Enforcer Battlesuit'),
+            ('Crisis-Battlesuits', 'Crisis Battlesuits'),
+            ('Riptide-Battlesuit', 'Riptide Battlesuit'),
+            ('Broadside-Battlesuits', 'Broadside Battlesuits'),
+            ('Ghostkeel-Battlesuit', 'Ghostkeel Battlesuit'),
+            ('Stealth-Battlesuits', 'Stealth Battlesuits'),
+            ('Strike-Team', 'Strike Team'),
+            ('Breacher-Team', 'Breacher Team'),
+            ('Pathfinder-Team', 'Pathfinder Team'),
+            ('Hammerhead-Gunship', 'Hammerhead Gunship'),
+            ('Sky-Ray-Gunship', 'Sky Ray Gunship'),
+            ('Devilfish', 'Devilfish'),
+            ('Piranhas', 'Piranhas'),
+            ('Kroot-Carnivores', 'Kroot Carnivores'),
+            ('Kroot-Farstalkers', 'Kroot Farstalkers'),
+        ]
+    },
+    'astra-militarum': {
+        'base_url': 'https://wahapedia.ru/wh40k10ed/factions/astra-militarum/',
+        'index_url': 'https://wahapedia.ru/wh40k10ed/factions/astra-militarum/',
+        'units': [
+            ('Lord-Solar-Leontus', 'Lord Solar Leontus'),
+            ('Castellan', 'Castellan'),
+            ('Cadian-Command-Squad', 'Cadian Command Squad'),
+            ('Tank-Commander', 'Tank Commander'),
+            ('Commissar', 'Commissar'),
+            ('Platoon-Command-Squad', 'Platoon Command Squad'),
+            ('Infantry-Squad', 'Infantry Squad'),
+            ('Cadian-Shock-Troops', 'Cadian Shock Troops'),
+            ('Kasrkin', 'Kasrkin'),
+            ('Tempestus-Scions', 'Tempestus Scions'),
+            ('Leman-Russ-Battle-Tank', 'Leman Russ Battle Tank'),
+            ('Rogal-Dorn-Battle-Tank', 'Rogal Dorn Battle Tank'),
+            ('Baneblade', 'Baneblade'),
+            ('Basilisk', 'Basilisk'),
+            ('Manticore', 'Manticore'),
+            ('Chimera', 'Chimera'),
+            ('Sentinel', 'Sentinel'),
+            ('Heavy-Weapons-Squad', 'Heavy Weapons Squad'),
+            ('Bullgryns', 'Bullgryns'),
+            ('Ogryn-Bodyguard', 'Ogryn Bodyguard'),
+        ]
+    },
+    'tyranids': {
+        'base_url': 'https://wahapedia.ru/wh40k10ed/factions/tyranids/',
+        'index_url': 'https://wahapedia.ru/wh40k10ed/factions/tyranids/',
+        'units': [
+            ('Hive-Tyrant', 'Hive Tyrant'),
+            ('Winged-Hive-Tyrant', 'Winged Hive Tyrant'),
+            ('Swarmlord', 'Swarmlord'),
+            ('Tervigon', 'Tervigon'),
+            ('Tyrannofex', 'Tyrannofex'),
+            ('Exocrine', 'Exocrine'),
+            ('Carnifexes', 'Carnifexes'),
+            ('Screamer-killer', 'Screamer-killer'),
+            ('Haruspex', 'Haruspex'),
+            ('Maleceptor', 'Maleceptor'),
+            ('Zoanthropes', 'Zoanthropes'),
+            ('Neurothrope', 'Neurothrope'),
+            ('Termagants', 'Termagants'),
+            ('Hormagaunts', 'Hormagaunts'),
+            ('Barbgaunts', 'Barbgaunts'),
+            ('Tyranid-Warriors', 'Tyranid Warriors'),
+            ('Genestealers', 'Genestealers'),
+            ('Biovores', 'Biovores'),
+            ('Pyrovores', 'Pyrovores'),
+            ('Hive-Guard', 'Hive Guard'),
+        ]
+    },
+    'orks': {
+        'base_url': 'https://wahapedia.ru/wh40k10ed/factions/orks/',
+        'index_url': 'https://wahapedia.ru/wh40k10ed/factions/orks/',
+        'units': [
+            ('Ghazghkull-Thraka', 'Ghazghkull Thraka'),
+            ('Warboss', 'Warboss'),
+            ('Warboss-in-Mega-Armour', 'Warboss in Mega Armour'),
+            ('Big-Mek-with-Shokk-Attack-Gun', 'Big Mek with Shokk Attack Gun'),
+            ('Big-Mek-in-Mega-Armour', 'Big Mek in Mega Armour'),
+            ('Painboy', 'Painboy'),
+            ('Weirdboy', 'Weirdboy'),
+            ('Boyz', 'Boyz'),
+            ('Gretchin', 'Gretchin'),
+            ('Nobz', 'Nobz'),
+            ('Meganobz', 'Meganobz'),
+            ('Lootas', 'Lootas'),
+            ('Burna-Boyz', 'Burna Boyz'),
+            ('Tankbustas', 'Tankbustas'),
+            ('Deff-Dread', 'Deff Dread'),
+            ('Killa-Kans', 'Killa Kans'),
+            ('Gorkanaut', 'Gorkanaut'),
+            ('Morkanaut', 'Morkanaut'),
+            ('Mek-Gunz', 'Mek Gunz'),
+            ('Battlewagon', 'Battlewagon'),
+        ]
+    },
 }
 
 
@@ -392,6 +498,92 @@ def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str
     return datasheet
 
 
+def generate_compact_datasheet(full_datasheet: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Generate COMPACT format from full datasheet.
+    Contains ONLY what's needed for list-building validation:
+    - Points (with model counts)
+    - Unit sizes
+    - Epic Hero status
+    - Key keywords (for Rule of Three, leader validation)
+    - Leader attachments
+    - Wargear that affects points (if any)
+    """
+    compact = {
+        'name': full_datasheet['name'],
+        'pts': None,  # Will be set below
+        'sizes': full_datasheet.get('unit_sizes', []),
+        'epic_hero': full_datasheet.get('is_epic_hero', False),
+    }
+
+    # Extract points - simplify to per-model or flat cost
+    points = full_datasheet.get('points', [])
+    if points:
+        if len(points) == 1:
+            # Single size unit - just show the cost
+            compact['pts'] = points[0]['points']
+            compact['models'] = points[0]['models']
+        else:
+            # Variable size - show per-model cost if consistent
+            pts_per_model = []
+            for p in points:
+                if p['models'] > 0:
+                    pts_per_model.append(p['points'] / p['models'])
+
+            if pts_per_model and len(set(pts_per_model)) == 1:
+                # Consistent per-model pricing
+                compact['pts_per_model'] = int(pts_per_model[0])
+            else:
+                # Variable pricing - keep full breakdown
+                compact['pts_table'] = {p['models']: p['points'] for p in points}
+
+    # Key keywords for validation (not all keywords - just rule-relevant ones)
+    key_keywords = []
+    keywords = full_datasheet.get('keywords', [])
+    for kw in keywords:
+        kw_upper = kw.upper()
+        # Keywords that affect list-building rules
+        if any(x in kw_upper for x in [
+            'BATTLELINE', 'CHARACTER', 'EPIC HERO', 'TRANSPORT',
+            'INFANTRY', 'MONSTER', 'VEHICLE', 'MOUNTED', 'FLY',
+            'TERMINATOR', 'PSYKER', 'SYNAPSE'
+        ]):
+            key_keywords.append(kw)
+
+    if key_keywords:
+        compact['keywords'] = key_keywords
+
+    # Leader info (who can this lead / who can lead this)
+    if full_datasheet.get('can_lead'):
+        compact['leads'] = full_datasheet['can_lead']
+    if full_datasheet.get('led_by'):
+        compact['led_by'] = full_datasheet['led_by']
+
+    # Core abilities that affect list-building (Deep Strike for reserves planning)
+    core = full_datasheet.get('abilities', {}).get('core', [])
+    if core:
+        compact['core'] = core
+
+    return compact
+
+
+def generate_compact_faction(full_faction_data: Dict[str, Any]) -> Dict[str, Any]:
+    """Generate compact faction file from full faction data."""
+    compact = {
+        'faction': full_faction_data['faction'],
+        'last_updated': full_faction_data['last_updated'],
+        'schema': 'compact-v1',
+        'unit_count': full_faction_data['unit_count'],
+        'units': {}
+    }
+
+    for name, full_unit in full_faction_data.get('units', {}).items():
+        if 'error' not in full_unit:
+            compact['units'][name] = generate_compact_datasheet(full_unit)
+
+    return compact
+
+
 def refresh_faction(faction: str, verbose: bool = True) -> Dict[str, Any]:
     """Refresh full datasheet cache for a faction."""
     if faction not in FACTION_URLS:
@@ -442,11 +634,23 @@ def refresh_faction(faction: str, verbose: bool = True) -> Dict[str, Any]:
                 'error': str(e)
             }
 
-    # Save faction cache
+    # Save FULL faction cache
     cache_file = os.path.join(DATA_DIR, f'{faction}.json')
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(cache_file, 'w') as f:
         json.dump(faction_data, f, indent=2)
+
+    # Generate and save COMPACT version
+    compact_data = generate_compact_faction(faction_data)
+    compact_file = os.path.join(DATA_DIR, f'{faction}.compact.json')
+    with open(compact_file, 'w') as f:
+        json.dump(compact_data, f, indent=2)
+
+    if verbose:
+        full_size = os.path.getsize(cache_file)
+        compact_size = os.path.getsize(compact_file)
+        reduction = (1 - compact_size / full_size) * 100
+        print(f"Generated compact format: {compact_size:,} bytes ({reduction:.0f}% smaller)")
 
     # Update metadata
     metadata = load_metadata()
@@ -627,6 +831,61 @@ def show_unit(faction: str, unit_name: str):
     print()
 
 
+def show_compact(faction: str):
+    """Display compact format for a faction."""
+    compact_file = os.path.join(DATA_DIR, f'{faction}.compact.json')
+
+    if not os.path.exists(compact_file):
+        # Try to generate from full cache
+        full_file = os.path.join(DATA_DIR, f'{faction}.json')
+        if os.path.exists(full_file):
+            print(f"Generating compact format from existing full cache...")
+            with open(full_file, 'r') as f:
+                full_data = json.load(f)
+            compact_data = generate_compact_faction(full_data)
+            with open(compact_file, 'w') as f:
+                json.dump(compact_data, f, indent=2)
+        else:
+            print(f"No cache for {faction}. Run --faction {faction} first.")
+            return
+
+    with open(compact_file, 'r') as f:
+        compact = json.load(f)
+
+    print(f"\n{'='*60}")
+    print(f"  {faction.upper()} - COMPACT FORMAT")
+    print(f"  Schema: {compact.get('schema', 'unknown')}")
+    print(f"  Units: {compact.get('unit_count', 0)}")
+    print(f"  Updated: {compact.get('last_updated', 'unknown')[:10]}")
+    print(f"{'='*60}\n")
+
+    for name, unit in compact.get('units', {}).items():
+        # Build points string
+        if unit.get('pts'):
+            pts_str = f"{unit['pts']}pts"
+            if unit.get('models', 1) > 1:
+                pts_str += f" ({unit['models']} models)"
+        elif unit.get('pts_per_model'):
+            pts_str = f"{unit['pts_per_model']}pts/model"
+        elif unit.get('pts_table'):
+            pts_str = str(unit['pts_table'])
+        else:
+            pts_str = "?pts"
+
+        # Flags
+        flags = []
+        if unit.get('epic_hero'):
+            flags.append('EPIC HERO')
+        if unit.get('core'):
+            flags.extend(unit['core'])
+
+        flags_str = f" [{', '.join(flags)}]" if flags else ""
+
+        print(f"  {name}: {pts_str}{flags_str}")
+
+    print()
+
+
 def main():
     if len(sys.argv) < 2:
         print(__doc__)
@@ -634,7 +893,11 @@ def main():
 
     cmd = sys.argv[1]
 
-    if cmd == '--faction' and len(sys.argv) >= 3:
+    if cmd == '--compact' and len(sys.argv) >= 3:
+        faction = sys.argv[2]
+        show_compact(faction)
+
+    elif cmd == '--faction' and len(sys.argv) >= 3:
         faction = sys.argv[2]
         refresh_faction(faction)
 
