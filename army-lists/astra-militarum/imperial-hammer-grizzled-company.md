@@ -879,50 +879,6 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ---
 
-### LEMAN RUSS PUNISHER
-**Points:** 150pts | **Battlefield Role:** Heavy Support
-
-**Profile:**
-- M: 10" | T: 11 | Sv: 2+ | W: 13 | Ld: 7+ | OC: 3
-
-**Weapons:**
-- **Punisher Gatling Cannon:** 24" Heavy 20 S5 AP0 D1
-- **Heavy Bolter (co-axial):** 36" Heavy 3 S5 AP-1 D2 (Twin-linked)
-- **Heavy Bolter (sponsons x2):** 36" Heavy 3 S5 AP-1 D2
-
-**Abilities:**
-- **Grinding Advance:** Shoot + Advance without penalty
-- **Smoke Launchers (1/game):** -1 to hit until next Command phase
-- **Armour of Contempt:** Reduce AP by 1
-
-**Keywords:** Vehicle, Imperium, Leman Russ Punisher
-
-**Wahapedia Link:** [Leman Russ Punisher](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Leman-Russ-Punisher)
-
----
-
-### ARMOURED SENTINELS
-**Points:** 65pts (2 models) | **Battlefield Role:** Heavy Support
-
-**Profile:**
-- M: 8" | T: 6 | Sv: 2+ | W: 7 (each) | Ld: 7+ | OC: 2
-
-**Unit Composition:**
-- 2x Armoured Sentinels with Lascannons
-
-**Weapons:**
-- **Lascannon:** 48" Heavy 1 S12 AP-3 D6+1
-
-**Abilities:**
-- **Scout Walkers:** Can perform Scout move (7" pre-game)
-- **Explodes (6+):** D3 mortal wounds to units within 3"
-
-**Keywords:** Vehicle, Walker, Imperium, Armoured Sentinels
-
-**Wahapedia Link:** [Armoured Sentinels](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Armoured-Sentinels)
-
----
-
 ## Army Validation Checklist
 
 ### Rule of Three Compliance (v1.3 - 2000pt)
@@ -964,40 +920,139 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ---
 
-## Purchase Guide Update
+## Model Assembly Guide (v1.3)
 
-### Ratlings Addition
+### 2000pt Assembly (97 models + 7 vehicles)
 
-**Ratlings Box:** ~$42 USD (Games Workshop)
-- Contains 5 Ratling models
-- Perfect for 500/1000/2000pt lists
+| Model | Qty | Loadout | Notes |
+|-------|-----|---------|-------|
+| **CHARACTERS** | | | |
+| Lord Solar Leontus | 1 | Conquest pistol, Balefire Pike, mounted | Unique sculpt - no options |
+| Company Commander | 1 | Laspistol, Chainsword | From Command Squad box |
+| **KASRKIN (Snipers)** | | | |
+| Kasrkin Sergeant | 1 | Hot-shot laspistol, Power weapon | Sergeant head/accessories |
+| Kasrkin w/ Marksman Rifle | 1 | **Hot-shot Marksman Rifle** | THE SNIPER - long barrel |
+| Kasrkin w/ Plasma gun | 1 | Plasma gun | Blue coils |
+| Kasrkin w/ Meltagun | 1 | Meltagun | Double barrel, short |
+| Kasrkin w/ Grenade launcher | 1 | Grenade launcher | Under-barrel launcher |
+| Kasrkin Troopers | 5 | Hot-shot lasguns | Standard loadout |
+| **RATLINGS (Snipers)** | | | |
+| Ratlings | 10 | Sniper Rifles | All identical - long rifles |
+| **GAUNT'S GHOSTS** | | | |
+| Ibram Gaunt | 1 | Bolt pistol, Power sword | Unique sculpt |
+| Hlaine Larkin | 1 | **Sniper Rifle** | THE SNIPER - scope |
+| Tanith Ghosts | 4 | Hot-shot lasguns | Camo cloaks |
+| **CADIAN SHOCK TROOPS** | | | |
+| Sergeants | 2 | Laspistol, Chainsword | Squad leaders |
+| Guardsmen | 38 | Lasguns | Standard |
+| **CADIAN COMMAND SQUAD** | | | |
+| Veterans | 4 | Lasguns | Accompany Commander |
+| **VEHICLES** | | | |
+| Rogal Dorn Battle Tank | 1 | **Twin battle cannon**, Castigator gatling | Magnetize turret! |
+| Leman Russ Battle Tank | 3 | Battle Cannon, Heavy bolters | Standard config |
+| Leman Russ Demolisher | 1 | Demolisher Cannon, Heavy flamer | 24" range gun |
+| Chimera | 2 | Multi-laser, Heavy bolter | Standard config |
+| Scout Sentinels | 2 | Lascannons | Open cockpit |
 
-**Alternative:** 3D print Ratling proxies (many STL files available)
+### 1000pt Assembly (57 models + 4 vehicles)
 
-**Updated Grand Total (2000pt):** ~$892-940 USD (includes Ratlings box)
+| Model | Qty | Loadout | Notes |
+|-------|-----|---------|-------|
+| Company Commanders | 2 | Laspistol, Chainsword | 2 Command Squads |
+| Veterans | 8 | Lasguns | 2 Command Squads |
+| Sergeants | 3 | Laspistol, Chainsword | 3 Shock Troops squads |
+| Guardsmen | 37 | Lasguns | 20 + 10 + 10 |
+| Ratlings | 5 | Sniper Rifles | 500pt squad size |
+| Leman Russ Battle Tank | 1 | Battle Cannon | - |
+| Leman Russ Demolisher | 1 | Demolisher Cannon | - |
+| Chimera | 2 | Multi-laser, Heavy bolter | - |
+
+### 500pt Assembly (37 models + 1 vehicle)
+
+| Model | Qty | Loadout | Notes |
+|-------|-----|---------|-------|
+| Company Commander | 1 | Laspistol, Chainsword | - |
+| Veterans | 4 | Lasguns | - |
+| Sergeants | 2 | Laspistol, Chainsword | - |
+| Guardsmen | 28 | Lasguns | 20 + 10 |
+| Ratlings | 5 | Sniper Rifles | - |
+| Leman Russ Battle Tank | 1 | Battle Cannon | - |
 
 ---
 
-## Competitive Analysis
+## Shopping List Summary (v1.3)
+
+### Boxes Needed for 2000pt
+
+| GW Product | Qty | Contents | Price (USD) |
+|------------|-----|----------|-------------|
+| Lord Solar Leontus | 1 | 1 mounted character | ~$55 |
+| **Kasrkin** | 1 | 10 Kasrkin | ~$60 |
+| **Ratlings** | 2 | 5 each = 10 total | ~$84 |
+| Gaunt's Ghosts | 1 | 6 unique models | ~$55 |
+| Cadian Shock Troops | 2 | 20 each = 40 total | ~$100 |
+| Cadian Command Squad | 1 | 5 models (Commander + 4 Veterans) | ~$42 |
+| **Rogal Dorn Battle Tank** | 1 | 1 heavy tank | ~$95 |
+| Leman Russ Battle Tank | 3 | 1 each | ~$165 |
+| Leman Russ Demolisher | 1 | Same kit as Battle Tank | (included above) |
+| Chimera | 2 | 1 each | ~$84 |
+| **Scout Sentinels** | 1 | 2 Sentinels per box | ~$50 |
+
+### Total Model Count
+
+| Points Level | Infantry | Vehicles | Total Models |
+|--------------|----------|----------|--------------|
+| 500pt | 36 | 1 | **37 models** |
+| 1000pt | 53 | 4 | **57 models** |
+| 2000pt | 90 | 7 | **97 models** |
+
+### Estimated Cost (2000pt)
+
+| Category | Cost |
+|----------|------|
+| Characters | ~$110 |
+| Infantry (Kasrkin, Ratlings, Ghosts, Cadians) | ~$341 |
+| Vehicles (Rogal Dorn, Leman Russ, Chimera, Sentinels) | ~$394 |
+| **TOTAL** | **~$845 USD** |
+
+### Magnetization Recommendations
+
+| Model | Magnetize? | Reason |
+|-------|------------|--------|
+| **Rogal Dorn turret** | ✅ YES | Swap between Twin battle cannon / Oppressor cannon |
+| **Rogal Dorn secondary** | ✅ YES | Swap Castigator gatling / Pulveriser cannon |
+| Leman Russ turrets | Optional | Could swap Battle Cannon / Demolisher / Punisher |
+| Kasrkin special weapons | Optional | 4 specialists can swap plasma/melta/flamer |
+| Scout Sentinel weapons | Optional | Lascannon / Autocannon / Multi-laser |
+
+**Priority Magnetization:** Rogal Dorn (most flexibility, highest value)
+
+---
+
+## Competitive Analysis (v1.3)
 
 ### Tournament Viability (December 2025 Meta)
 
 **S-Tier Status:** Astra Militarum won Rise of Empire GT (December 19, 2025) and placed consistently in top finishes throughout December 2025.
 
-**Why This List Works (with Ratlings):**
-1. **Durability:** Leman Russ T11 W13 Sv2+ = hard to kill
-2. **Firepower:** 5x Leman Russ variants = diverse threat profile
+**Why This List Works (v1.3 - "The Marksman's Hammer"):**
+1. **Durability:** Leman Russ T11 + Rogal Dorn T12 W18 = hard to kill
+2. **Firepower:** 4x Leman Russ + Rogal Dorn = diverse threat profile (5 tanks!)
 3. **CP Engine:** Lord Solar generates 1CP/turn = sustains Stratagems
 4. **Objective Control:** Cadian Shock Troops + Chimeras = board presence
-5. **Character Threat:** Ratlings + Gaunt's Ghosts = dual sniper threat
-6. **Grizzled Company:** Re-roll 1s on objectives = accuracy buff for castle army
+5. **TRIPLE SNIPER THREAT:** Ratlings (10) + Kasrkin (1) + Gaunt's Ghosts (1) = 12 Precision shots/turn
+6. **Elite Infantry:** Kasrkin with plasma/melta = anti-armor flexibility
+7. **Early Board Control:** Scout Sentinels (Scouts 9") + Kasrkin (Scouts 6")
+8. **Grizzled Company:** Re-roll 1s on objectives = accuracy buff for castle army
 
-**Strengths (Enhanced):**
+**Strengths (v1.3 Enhanced):**
 - Excellent into melee-focused armies (castle + screening)
-- Strong into vehicle-heavy lists (massed S10-S14 firepower)
+- Strong into vehicle-heavy lists (massed S10-S14 firepower + Rogal Dorn)
 - Good into elite armies (volume fire from Battle Cannons)
-- **NEW: Character assassination pressure** (Ratlings + Ghosts)
-- Resilient (T11 tanks, CP regen, Orders flexibility)
+- **TRIPLE SNIPER:** 12 Precision shots = character assassination pressure
+- **Early Control:** Scout Sentinels + Kasrkin push midboard before Turn 1
+- Resilient (T11-T12 tanks, CP regen, Orders flexibility)
+- **Drill Commander:** +1 to hit on Kasrkin = 2+ BS snipers
 
 **Weaknesses:**
 - Vulnerable to alpha strike armies (limited mobility Turn 1)
@@ -1005,6 +1060,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 - Low model count infantry = objective contest struggles vs. hordes
 - Reliant on Lord Solar surviving (loss = CP + Order crisis)
 - **Ratlings are fragile** (T2, Sv6+ = dies to anything)
+- Kasrkin can't take multiple Marksman Rifles (only 1 per squad)
 
 ---
 
