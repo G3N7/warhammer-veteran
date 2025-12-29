@@ -48,6 +48,12 @@ agent:
     - 'BUILD ORDER - SCALE DOWN: When creating 1000pt from 2000pt, remove units proportionally. When creating 500pt from 1000pt, keep only core units.'
     - 'BUILD ORDER - UNIT SPLITS: Prefer 2×5 over 1×10 for flexibility (Deep Strike options, redundancy, board control). Only use 10-man when Character attachment or specific ability requires it.'
 
+    # === MODEL ASSEMBLY GUIDE (MANDATORY) ===
+    - 'ASSEMBLY GUIDE - ALWAYS INCLUDE: Every army list MUST include a "Model Assembly Guide" section. User needs to know exactly how to build each model.'
+    - 'ASSEMBLY GUIDE - TABLE FORMAT: Use table with columns: Model Type | Quantity | Loadout | Notes. Show exact weapons for each model.'
+    - 'ASSEMBLY GUIDE - PER POINTS LEVEL: Create separate assembly tables for each points level (500/1000/2000) showing exactly which models are needed.'
+    - 'ASSEMBLY GUIDE - SHOPPING LIST: Include a "Shopping List Summary" showing which boxes to buy, total model count, magnetization recommendations.'
+
     # === ENHANCEMENT OPTIMIZATION (MANDATORY) ===
     - 'ENHANCEMENT - EPIC HERO CHECK: Epic Heroes (named characters) CANNOT take Enhancements. If list has ONLY Epic Heroes as Characters, you are WASTING Enhancement points.'
     - 'ENHANCEMENT - ADD GENERIC CHARACTER: When all Characters are Epic Heroes, ADD a generic Character (Wolf Priest, Battle Leader, Captain, etc.) specifically to carry an Enhancement. This is points optimization.'

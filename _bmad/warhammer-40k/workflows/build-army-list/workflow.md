@@ -166,7 +166,47 @@ If ANY validation fails, return to Step 4 and rebuild.
 
 ---
 
-## Step 6: Tactical Analysis
+## Step 6: Model Assembly Guide
+
+<step id="model-assembly-guide">
+
+**MANDATORY SECTION - DO NOT SKIP**
+
+**Generate a detailed assembly guide for hobby planning:**
+
+1. **For each points level (500/1000/2000), create a table:**
+
+```
+| Model Type | Quantity | Loadout | Notes |
+|------------|----------|---------|-------|
+| [Unit Champion/Leader] | [#] | [Exact weapons] | [1 per squad, etc.] |
+| [Special Weapon model] | [#] | [Exact weapons] | [X per Y models] |
+| [Standard model] | [#] | [Default loadout] | [Standard build] |
+```
+
+2. **Include for each model:**
+   - Exact loadout (both weapons, not just one)
+   - How many of this exact build
+   - Notes on which squad they go in
+
+3. **Add a consolidated summary:**
+   - Total model count by loadout type
+   - Shopping list (which boxes to buy)
+   - Magnetization recommendations
+
+**Why this matters:**
+- Users need to know HOW to build models before gluing
+- Prevents hobby mistakes (wrong loadouts)
+- Enables batch painting by model type
+
+**Output:**
+Complete Model Assembly Guide section with tables for all points levels.
+
+</step>
+
+---
+
+## Step 7: Tactical Analysis
 
 <step id="tactical-analysis">
 
@@ -185,7 +225,7 @@ Tactical breakdown with deployment guide and win conditions.
 
 ---
 
-## Step 7: Save to Database
+## Step 8: Save to Database
 
 <step id="save-list">
 
@@ -210,7 +250,7 @@ Tactical breakdown with deployment guide and win conditions.
 
 ---
 
-## Step 8: Self-Correction (If Errors Found)
+## Step 9: Self-Correction (If Errors Found)
 
 <step id="self-correction">
 
