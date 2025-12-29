@@ -413,7 +413,32 @@ With Bjorn generating +1CP per phase:
 
 ---
 
-## Model Assembly Guide (2000pt - 65 models)
+## Model Assembly Guide
+
+### 500pt (16 models)
+
+| Model | Qty | Loadout |
+|-------|-----|---------|
+| Arjac Rockfist | 1 | Foehammer |
+| Terminator Pack Leader | 2 | Twin lightning claws |
+| Terminator Heavy | 2 | Assault cannon + power fist |
+| Terminator Shield | 4 | Storm shield + power weapon |
+| Terminator Bolter | 2 | Storm bolter + power weapon |
+| Fenrisian Wolf | 5 | — |
+
+### 1000pt (32 models)
+
+| Model | Qty | Loadout |
+|-------|-----|---------|
+| Logan Grimnar | 1 | Axe Morkai + storm bolter |
+| Arjac Rockfist | 1 | Foehammer |
+| Terminator Pack Leader | 2 | Twin lightning claws |
+| Terminator Heavy | 4 | Assault cannon + power fist |
+| Terminator Shield | 10 | Storm shield + power weapon |
+| Terminator Bolter | 4 | Storm bolter + power weapon |
+| Fenrisian Wolf | 10 | — |
+
+### 2000pt (65 models)
 
 | Model | Qty | Loadout |
 |-------|-----|---------|

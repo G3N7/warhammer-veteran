@@ -172,22 +172,26 @@ If ANY validation fails, return to Step 4 and rebuild.
 
 **MANDATORY SECTION - DO NOT SKIP**
 
-**Generate a compact assembly guide for the 2000pt list:**
+**Generate a compact assembly guide for EACH points level (500/1000/2000):**
 
-For units with loadout choices (like Terminators), create a simple table:
+Create one table per points level showing every model:
 ```
-| Loadout | Qty | Per Squad |
-|---------|-----|-----------|
-| [Weapon combo] | [total] | [per unit] |
+## Model Assembly Guide (Xpt - Y models)
+
+| Model | Qty | Loadout |
+|-------|-----|---------|
+| [Character/Leader name] | 1 | [weapons] |
+| [Unit type + role] | X | [weapons] |
 ```
 
-For characters/vehicles: one line listing model + key loadout choice.
-For standard infantry: one line with unit name + default weapons.
-
-**Keep it brief** - just enough info to know how to build each model.
+**Requirements:**
+- One section per points level (500pt, 1000pt, 2000pt)
+- Every model in the army listed with exact loadout
+- Include squad leaders, heavy weapons, standard troops separately
+- Characters and vehicles each get their own row
 
 **Output:**
-Compact Model Assembly Guide section (under 15 lines).
+Model Assembly Guide with separate table for each points level.
 
 </step>
 
