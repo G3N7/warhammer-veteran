@@ -4,6 +4,9 @@
   "range": "Speedpaints 2.0",
   "version": "2024.1",
   "description": "Army Painter Speedpaints - contrast-style paints that base, shade, and highlight in one coat over zenithal primer",
+  "shape_key": {
+    "speedpaint": { "shape": "◐", "name": "Speedpaint", "description": "One-coat contrast-style paints" }
+  },
   "categories": {
     "speedpaint": "One-coat contrast paints for rapid army painting"
   },

@@ -4,6 +4,15 @@
   "range": "Warpaints",
   "version": "2024.1",
   "description": "The Army Painter Warpaints range - high-pigment acrylic paints designed for miniature painting",
+  "shape_key": {
+    "base": { "shape": "■", "name": "Base", "description": "Opaque base colors for solid coverage" },
+    "layer": { "shape": "▲", "name": "Layer", "description": "Semi-transparent colors for layering and blending" },
+    "metallic": { "shape": "◆", "name": "Metallic", "description": "Metallic paints with realistic sheen" },
+    "wash": { "shape": "●", "name": "Wash/Shade", "description": "Shading washes for recesses and definition" },
+    "effect": { "shape": "★", "name": "Effect", "description": "Special effect paints (blood, rust, etc.)" },
+    "primer": { "shape": "▼", "name": "Primer", "description": "Spray and brush-on primers" },
+    "speedpaint": { "shape": "◐", "name": "Speedpaint", "description": "One-coat contrast-style paints" }
+  },
   "categories": {
     "base": "Opaque base colors for solid coverage",
     "layer": "Semi-transparent colors for layering and blending",

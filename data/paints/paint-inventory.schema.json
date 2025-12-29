@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Paint Inventory Schema",
-  "description": "Schema for miniature paint brand inventories with hex color codes",
+  "description": "Schema for miniature paint brand inventories with hex color codes and shape indicators",
   "type": "object",
   "required": ["brand", "range", "version", "paints"],
   "properties": {
@@ -20,6 +20,28 @@
     "description": {
       "type": "string",
       "description": "Overview of this paint range"
+    },
+    "shape_key": {
+      "type": "object",
+      "description": "Shape indicators for each paint category - used for visual display",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "shape": {
+            "type": "string",
+            "description": "Unicode shape character: ■ Base, ▲ Layer, ◆ Metallic, ● Wash, ★ Effect, ▼ Primer, ◐ Speedpaint"
+          },
+          "name": {
+            "type": "string",
+            "description": "Human-readable category name"
+          },
+          "description": {
+            "type": "string",
+            "description": "What this paint type is used for"
+          }
+        },
+        "required": ["shape", "name", "description"]
+      }
     },
     "categories": {
       "type": "object",
