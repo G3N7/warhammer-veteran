@@ -157,8 +157,8 @@
 
 **CP Math:**
 - Start: 0CP (after detachment)
-- Bjorn: +1CP per Command phase (yours and opponent's)
-- 5 battle rounds × 2 phases = +10CP over the game
+- Bjorn: +1CP at the start of YOUR Command phase only
+- 5 battle rounds × 1 phase = +5CP over the game
 - Sustainable Stratagem usage throughout
 
 ---
@@ -223,8 +223,7 @@
 **Leads:** Blood Claws, Grey Hunters
 
 **Enhancement - Blade of the Slayer (25pts):**
-- Melee weapons gain [Precision]
-- vs CHARACTER/MONSTER/VEHICLE: +1 AP, +1 Damage
+- +1 Strength and +1 Damage for melee attacks
 
 ---
 
@@ -363,10 +362,10 @@
 
 | Enhancement | Cost | Effect |
 |-------------|------|--------|
-| Blade of the Slayer | 25pts | Melee gains [Precision]; vs CHARACTER/MONSTER/VEHICLE: +1 AP, +1 Damage |
-| Hunter's Instincts | 20pts | Reroll wound rolls vs CHARACTER/MONSTER/VEHICLE |
-| The Pelt of Balewolf | 15pts | [Stealth] (-1 to hit from ranged attacks) |
-| Black Death | 15pts | Melee gains [Devastating Wounds] |
+| Blade of the Slayer | 25pts | +1 Strength and Damage for melee attacks |
+| Hunter's Instincts | 20pts | +2" Move, can charge after Advancing |
+| The Pelt of Balewolf | 15pts | Enemy units -1 to hit bearer in melee |
+| Black Death | 15pts | Melee gains [Anti-INFANTRY 4+] and [Anti-MOUNTED 4+] |
 
 **Key Stratagems:**
 - **Armour of Contempt (1CP):** -1 AP when attacked
@@ -415,5 +414,6 @@ With Bjorn generating +1CP per phase:
 ---
 
 *Document Generated: December 27, 2025*
+*Document Updated: December 29, 2025*
 *Points Source: Munitorum Field Manual December 2025*
-*Rules Source: Wahapedia 10th Edition*
+*Rules Source: Space Wolves Codex Supplement (May 2025)*
