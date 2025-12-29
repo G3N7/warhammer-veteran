@@ -172,35 +172,22 @@ If ANY validation fails, return to Step 4 and rebuild.
 
 **MANDATORY SECTION - DO NOT SKIP**
 
-**Generate a detailed assembly guide for hobby planning:**
+**Generate a compact assembly guide for the 2000pt list:**
 
-1. **For each points level (500/1000/2000), create a table:**
-
+For units with loadout choices (like Terminators), create a simple table:
 ```
-| Model Type | Quantity | Loadout | Notes |
-|------------|----------|---------|-------|
-| [Unit Champion/Leader] | [#] | [Exact weapons] | [1 per squad, etc.] |
-| [Special Weapon model] | [#] | [Exact weapons] | [X per Y models] |
-| [Standard model] | [#] | [Default loadout] | [Standard build] |
+| Loadout | Qty | Per Squad |
+|---------|-----|-----------|
+| [Weapon combo] | [total] | [per unit] |
 ```
 
-2. **Include for each model:**
-   - Exact loadout (both weapons, not just one)
-   - How many of this exact build
-   - Notes on which squad they go in
+For characters/vehicles: one line listing model + key loadout choice.
+For standard infantry: one line with unit name + default weapons.
 
-3. **Add a consolidated summary:**
-   - Total model count by loadout type
-   - Shopping list (which boxes to buy)
-   - Magnetization recommendations
-
-**Why this matters:**
-- Users need to know HOW to build models before gluing
-- Prevents hobby mistakes (wrong loadouts)
-- Enables batch painting by model type
+**Keep it brief** - just enough info to know how to build each model.
 
 **Output:**
-Complete Model Assembly Guide section with tables for all points levels.
+Compact Model Assembly Guide section (under 15 lines).
 
 </step>
 

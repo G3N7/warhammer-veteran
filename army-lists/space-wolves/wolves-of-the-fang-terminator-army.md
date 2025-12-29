@@ -413,100 +413,19 @@ With Bjorn generating +1CP per phase:
 
 ---
 
-## Model Assembly Guide
+## Model Assembly Guide (2000pt)
 
-This section details exactly how to build each model for the army. Use this when assembling/magnetizing.
+**Wolf Guard Terminators (30 models):**
+| Loadout | Qty | Per Squad |
+|---------|-----|-----------|
+| Twin lightning claws (Pack Leader) | 3 | 1 |
+| Assault cannon + Power fist | 6 | 2 |
+| Storm shield + Power weapon | 15 | 5 |
+| Storm bolter + Power weapon | 6 | 2 |
 
-### 500pt - "Wolf Pack" (16 models total)
+**Characters & Dreadnoughts:** Logan Grimnar, Arjac Rockfist, Wolf Priest, Bjorn (assault cannon), Venerable Dread (greataxe + blizzard shield)
 
-| Model Type | Quantity | Loadout | Notes |
-|------------|----------|---------|-------|
-| **Arjac Rockfist** | 1 | Foehammer (unique model) | Named character - no options |
-| **Terminator Pack Leader** | 2 | Twin lightning claws | 1 per 5-man squad |
-| **Terminator w/ Assault Cannon** | 2 | Assault cannon + Power fist | 1 per 5-man squad |
-| **Terminator w/ Storm Shield** | 4 | Storm shield + Master-crafted power weapon | 2 per 5-man squad |
-| **Terminator w/ Storm Bolter** | 2 | Storm bolter + Master-crafted power weapon | 1 per 5-man squad |
-| **Fenrisian Wolf** | 5 | Teeth and claws (no options) | Single-pose models |
-
----
-
-### 1000pt - "Fang of Fenris" (32 models total)
-
-| Model Type | Quantity | Loadout | Notes |
-|------------|----------|---------|-------|
-| **Logan Grimnar** | 1 | Axe Morkai + Storm bolter + Tyrnak/Fenrir | Named character - no options |
-| **Arjac Rockfist** | 1 | Foehammer (unique model) | Named character - no options |
-| **Terminator Pack Leader** | 2 | Twin lightning claws | 1 per 10-man squad |
-| **Terminator w/ Assault Cannon** | 4 | Assault cannon + Power fist | 2 per 10-man squad |
-| **Terminator w/ Storm Shield** | 10 | Storm shield + Master-crafted power weapon | 5 per 10-man squad |
-| **Terminator w/ Storm Bolter** | 4 | Storm bolter + Master-crafted power weapon | 2 per 10-man squad |
-| **Fenrisian Wolf** | 10 | Teeth and claws (no options) | 2× 5-model packs |
-
----
-
-### 2000pt - "Wolves of the Fang" (65 models total)
-
-#### Characters (5 models)
-
-| Model Type | Quantity | Loadout | Notes |
-|------------|----------|---------|-------|
-| **Logan Grimnar** | 1 | Axe Morkai + Storm bolter + Tyrnak/Fenrir | Named character |
-| **Arjac Rockfist** | 1 | Foehammer | Named character |
-| **Wolf Priest** | 1 | Absolvor bolt pistol + Crozius arcanum | Takes Blade of the Slayer |
-| **Bjorn the Fell-Handed** | 1 | Assault cannon + Trueclaw | OR Heavy flamer + Trueclaw |
-| **Venerable Dreadnought** | 1 | Fenrisian greataxe + Blizzard Shield + Heavy flamer | Magnetize arm if possible |
-
-#### Wolf Guard Terminators (30 models - 3× 10-man squads)
-
-| Model Type | Quantity | Loadout | Notes |
-|------------|----------|---------|-------|
-| **Pack Leader** | 3 | Twin lightning claws | 1 per squad |
-| **Heavy Weapon** | 6 | Assault cannon + Power fist | 2 per squad |
-| **Storm Shield** | 15 | Storm shield + Master-crafted power weapon | 5 per squad |
-| **Storm Bolter** | 6 | Storm bolter + Master-crafted power weapon | 2 per squad |
-
-**Terminator Build Summary:**
-- 3× Twin Lightning Claws (Pack Leaders)
-- 6× Assault Cannon + Power Fist
-- 15× Storm Shield + Power Weapon
-- 6× Storm Bolter + Power Weapon
-
-#### Infantry (20 models)
-
-| Model Type | Quantity | Loadout | Notes |
-|------------|----------|---------|-------|
-| **Blood Claw Pack Leader** | 1 | Bolt pistol + Astartes chainsword | Unit champion |
-| **Blood Claw** | 9 | Bolt pistol + Astartes chainsword | Standard build |
-| **Grey Hunter Pack Leader** | 1 | Bolt carbine + Bolt pistol + Chainsword | Unit champion |
-| **Grey Hunter** | 9 | Bolt carbine + Bolt pistol + Chainsword | Standard build |
-
-#### Fast Attack (10 models)
-
-| Model Type | Quantity | Loadout | Notes |
-|------------|----------|---------|-------|
-| **Fenrisian Wolf** | 10 | Teeth and claws | 2× 5-model packs |
-
----
-
-### Shopping List Summary (2000pt)
-
-**Characters & Dreadnoughts:**
-- 1× Logan Grimnar
-- 1× Arjac Rockfist
-- 1× Wolf Priest
-- 1× Bjorn the Fell-Handed
-- 1× Venerable Dreadnought
-
-**Terminators (30 models):**
-- 3× Wolf Guard Terminator boxes (5-man) = 15 models
-- Need 15 more: 3× additional boxes OR 1× Terminator Assault Squad box + conversion
-
-**Infantry:**
-- 1× Blood Claws box (10 models)
-- 1× Grey Hunters box (10 models)
-
-**Wolves:**
-- 2× Fenrisian Wolves box (5-model) OR 1× Cyberwolves box (magnetize)
+**Infantry:** 10 Blood Claws (chainswords), 10 Grey Hunters (bolt carbines), 10 Fenrisian Wolves
 
 ---
 
