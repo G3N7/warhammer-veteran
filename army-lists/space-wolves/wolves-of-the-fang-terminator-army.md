@@ -413,19 +413,24 @@ With Bjorn generating +1CP per phase:
 
 ---
 
-## Model Assembly Guide (2000pt)
+## Model Assembly Guide (2000pt - 65 models)
 
-**Wolf Guard Terminators (30 models):**
-| Loadout | Qty | Per Squad |
-|---------|-----|-----------|
-| Twin lightning claws (Pack Leader) | 3 | 1 |
-| Assault cannon + Power fist | 6 | 2 |
-| Storm shield + Power weapon | 15 | 5 |
-| Storm bolter + Power weapon | 6 | 2 |
-
-**Characters & Dreadnoughts:** Logan Grimnar, Arjac Rockfist, Wolf Priest, Bjorn (assault cannon), Venerable Dread (greataxe + blizzard shield)
-
-**Infantry:** 10 Blood Claws (chainswords), 10 Grey Hunters (bolt carbines), 10 Fenrisian Wolves
+| Model | Qty | Loadout |
+|-------|-----|---------|
+| Logan Grimnar | 1 | Axe Morkai + storm bolter |
+| Arjac Rockfist | 1 | Foehammer |
+| Wolf Priest | 1 | Crozius + absolvor bolt pistol |
+| Bjorn the Fell-Handed | 1 | Assault cannon + Trueclaw |
+| Venerable Dreadnought | 1 | Greataxe + blizzard shield + heavy flamer |
+| Terminator Pack Leader | 3 | Twin lightning claws |
+| Terminator Heavy | 6 | Assault cannon + power fist |
+| Terminator Shield | 15 | Storm shield + power weapon |
+| Terminator Bolter | 6 | Storm bolter + power weapon |
+| Blood Claw Pack Leader | 1 | Bolt pistol + chainsword |
+| Blood Claw | 9 | Bolt pistol + chainsword |
+| Grey Hunter Pack Leader | 1 | Bolt carbine + chainsword |
+| Grey Hunter | 9 | Bolt carbine + chainsword |
+| Fenrisian Wolf | 10 | — |
 
 ---
 
