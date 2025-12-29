@@ -57,7 +57,7 @@
 | Logan Grimnar | 1 | Warlord (leads 10-man Terminators) | 110 |
 | Arjac Rockfist | 1 | Leads 10-man Terminators | 105 |
 | Wolf Priest | 1 | Leads Blood Claws | 70 |
-| *Blade of the Slayer* | — | Enhancement (on Wolf Priest) | 25 |
+| *Elder's Guidance* | — | Enhancement (on Wolf Priest) | 20 |
 | **ELITES** | | | |
 | Bjorn the Fell-Handed | 1 | CP Generator (+1CP/turn) | 160 |
 | Venerable Dreadnought | 1 | +1 Advance/Charge Aura | 130 |
@@ -70,7 +70,7 @@
 | **FAST ATTACK** | | | |
 | Fenrisian Wolves | 5 | Screening / Fast Grab | 40 |
 | Fenrisian Wolves | 5 | Screening / Fast Grab | 40 |
-| **TOTAL** | **65 models** | | **2,000pts** |
+| **TOTAL** | **65 models** | | **1,995pts** |
 
 **Army Composition:**
 - 2 Epic Heroes (Logan 8W + Arjac 6W = 14W)
@@ -138,7 +138,7 @@
 - Maximum legal Terminators (30 models under Rule of Three)
 - CP generation from Bjorn (+1CP per Command phase)
 - Venerable Dreadnought aura: +1 to Advance and Charge rolls
-- Wolf Priest with Blade of the Slayer: +1 to wound in melee, Precision
+- Wolf Priest with Elder's Guidance: +1 to wound in melee (native), +1 AP burst (once per battle)
 - Full board coverage with power armor troops and wolves
 
 **Weaknesses:**
@@ -222,8 +222,8 @@
 
 **Leads:** Blood Claws, Grey Hunters
 
-**Enhancement - Blade of the Slayer (25pts):**
-- +1 Strength and +1 Damage for melee attacks
+**Enhancement - Elder's Guidance (20pts):**
+- Once per battle, bearer and attached Blood Claws unit gain +1 AP on all attacks
 
 ---
 
@@ -362,10 +362,10 @@
 
 | Enhancement | Cost | Effect |
 |-------------|------|--------|
-| Blade of the Slayer | 25pts | +1 Strength and Damage for melee attacks |
-| Hunter's Instincts | 20pts | +2" Move, can charge after Advancing |
-| The Pelt of Balewolf | 15pts | Enemy units -1 to hit bearer in melee |
-| Black Death | 15pts | Melee gains [Anti-INFANTRY 4+] and [Anti-MOUNTED 4+] |
+| Elder's Guidance | 20pts | Once per battle, bearer (+Blood Claws unit) gains +1 AP |
+| Helm of the Beastslayer | 15pts | Reduces AP of incoming attacks by 1 |
+| Hunter's Guile | 20pts | Redeploy up to 3 Thunderwolf/Wulfen/Blood Claws units |
+| Wolf-Touched | 15pts | +2" Move, bearer can join Wulfen units |
 
 **Key Stratagems:**
 - **Armour of Contempt (1CP):** -1 AP when attacked

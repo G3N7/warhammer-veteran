@@ -274,6 +274,12 @@ mistake_patterns:
     frequency: "LOW"
     prevention: "After writing tactics/strengths, cross-reference model counts against table"
 
+  enhancement_hallucination:
+    description: "Inventing enhancements that don't exist (e.g., 'Blade of the Slayer' for Saga of the Beastslayer)"
+    frequency: "HIGH - happened with Space Wolves Dec 2025"
+    prevention: "ALWAYS verify enhancement names against validation-rules.yaml detachments section BEFORE assigning. Never trust memory for enhancement names."
+    affected_detachments: ["Saga of the Beastslayer"]
+
 # ============================================================
 # DETACHMENT ENHANCEMENTS - Quick reference
 # ============================================================
@@ -282,12 +288,12 @@ detachments:
   # === SPACE WOLVES ===
   saga_of_the_beastslayer:
     faction: "Space Wolves"
-    ability: "Lethal Hits vs CHARACTER, MONSTER, VEHICLE"
+    ability: "Lethal Hits vs CHARACTER, MONSTER, VEHICLE. Once you kill half (rounded up) of enemy CHARACTER/MONSTER/VEHICLE units, Lethal Hits applies to everything."
     enhancements:
-      - {name: "Blade of the Slayer", pts: 25, effect: "+1 Strength and Damage for melee"}
-      - {name: "Hunter's Instincts", pts: 20, effect: "+2\" Move, Advance/charge after Advance"}
-      - {name: "The Pelt of Balewolf", pts: 15, effect: "Enemy units -1 to hit in melee"}
-      - {name: "Black Death", pts: 15, effect: "Anti-INFANTRY 4+, Anti-MOUNTED 4+ melee"}
+      - {name: "Elder's Guidance", pts: 20, effect: "Once per battle, bearer (+Blood Claws unit if leading) gains +1 AP"}
+      - {name: "Helm of the Beastslayer", pts: 15, effect: "Reduces AP of incoming attacks by 1"}
+      - {name: "Hunter's Guile", pts: 20, effect: "Redeploy up to 3 Thunderwolf Cavalry/Wulfen/Blood Claws units pre-game"}
+      - {name: "Wolf-Touched", pts: 15, effect: "+2\" Move, bearer can join Wulfen units"}
 
   # === SPACE MARINES (Ultramarines) ===
   gladius_task_force:
