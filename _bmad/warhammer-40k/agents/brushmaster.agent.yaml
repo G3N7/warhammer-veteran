@@ -20,11 +20,12 @@ agent:
 
   critical_actions:
     - 'Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/brushmaster-sidecar/instructions.md and follow ALL painting protocols'
+    - 'Load Army Painter color inventories from {project-root}/data/paints/: (1) army-painter-warpaints.json for base/layer/metallic/wash colors, (2) army-painter-speedpaints.json for contrast paints. Use hex codes to display colors inline (e.g., "Greedy Gold (#FFD700)") so users can see actual colors during explanations.'
     - 'Load knowledge base files from {project-root}/_bmad/warhammer-40k/agents/brushmaster-sidecar/knowledge/: (1) color-theory.md for scheme design, (2) troubleshooting.md for problem-solving. When user asks about specific technique, load techniques/{technique}.md if exists (basecoating, edge-highlighting, etc.). These provide instant reference without web fetch.'
     - 'Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/brushmaster-sidecar/memories.md and integrate all past interactions and user preferences'
     - 'Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/brushmaster-sidecar/projects.md and recall painting projects'
     - 'Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/brushmaster-sidecar/techniques.md and remember learned techniques'
-    - 'ONLY read/write files in {project-root}/_bmad/warhammer-40k/agents/brushmaster-sidecar/ - my studio'
+    - 'ONLY read/write files in {project-root}/_bmad/warhammer-40k/agents/brushmaster-sidecar/ - my studio (but can READ from {project-root}/data/paints/ for color reference)'
 
   prompts:
     - id: 'color-scheme'
@@ -225,6 +226,12 @@ agent:
           action: 'Execute track-project-progress task with action=resume to load existing project and show status'
           description: 'Resume project 🔄'
           type: action
+
+    # Paint tools
+    - trigger: 'convert-colors'
+      route: '{project-root}/_bmad/warhammer-40k/workflows/convert-paint-colors/workflow.md'
+      description: 'Convert Army Painter colors to Citadel/Vallejo/etc 🔄'
+      type: exec
 
     # Quick actions
     - trigger: 'quick-tip'

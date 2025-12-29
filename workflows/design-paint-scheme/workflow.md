@@ -110,7 +110,7 @@ User selects techniques they're comfortable with or want to learn.
 
 ---
 
-### Step 1.5: Select Paint Set Preset (NEW - Optional Fast Track)
+### Step 1.5: Select Paint Set Preset (Optional Fast Track)
 
 **Offer common paint set presets:**
 ```
@@ -119,69 +119,58 @@ Do you have one of these common paint sets? I can design using only those paints
 
 **Paint Set Presets:**
 
-**[AP] Army Painter Mega Paint Set (54 colors)**
-- Includes: Full color range, metallics, washes
+**[AP] Army Painter Warpaints (RECOMMENDED - Default)**
+- Includes: Full color range with hex codes for visual reference
 - Perfect for: Any scheme, beginner-friendly
-- **Auto-loads:** All 54 colors from set
+- **Auto-loads:** `{project-root}/data/paints/army-painter-warpaints.json`
+- **Visual Benefit:** All colors display with hex codes inline
 
 **[APS] Army Painter Speedpaints Set**
 - Includes: 24 Speedpaints + primers
 - Perfect for: Fast batch painting, one-coat schemes
-- **Auto-loads:** Speedpaint range
+- **Auto-loads:** `{project-root}/data/paints/army-painter-speedpaints.json`
 
 **[CE] Citadel Essentials Set**
 - Includes: ~20 core paints + shades
 - Perfect for: Standard Games Workshop schemes
-- **Auto-loads:** Citadel starter colors
+- **Note:** Run `convert-colors` workflow for Army Painter equivalents
 
 **[VP] Vallejo Game Color Basic Set**
 - Includes: 16 basic colors
 - Perfect for: Traditional painting techniques
-- **Auto-loads:** Vallejo basics
+- **Note:** Run `convert-colors` workflow for Army Painter equivalents
 
 **[CI] Custom Inventory**
 - **Continue to Step 2:** Manual paint entry
 
-**If preset selected:**
-- Load complete paint inventory for that set
-- Skip Step 2 (inventory already known)
-- Jump to Step 3 (budget)
-- **Fast-track benefit:** Saves 5-10 minutes of workflow time
+**If Army Painter preset selected:**
+1. Load paint inventory JSON with full hex codes
+2. Skip Step 2 (inventory already known)
+3. Jump to Step 3 (budget)
+4. **Visual Benefit:** All recommendations show colors inline!
 
-**Preset Inventory Database:**
+**Hex Code Display Protocol:**
+When presenting paints from the inventory, ALWAYS include hex codes for visual reference:
+- "Base with **Matt Black (#1A1A1A)** for a deep black foundation"
+- "Layer up with **Greedy Gold (#FFD700)** on the trim"
+- "Shade with **Dark Tone (#3D2B1F)** to add depth"
 
-```yaml
-Army Painter Mega Set:
-  base_colors:
-    - Matt Black, Matt White, Pure Red, Electric Blue, etc. (54 total)
-  metallics:
-    - Plate Mail Metal, Greedy Gold, Weapon Bronze
-  washes:
-    - Dark Tone, Strong Tone, Soft Tone
-  primers:
-    - Compatible with all Army Painter sprays
+This allows users to SEE the actual colors while reading recommendations.
 
-Army Painter Speedpaints:
-  speedpaints:
-    - Holy White, Zealot Yellow, Grim Black, etc. (24 colors)
-  technique:
-    - One-coat painting over light primer
+**Color Conversion Available:**
+If user prefers Citadel/Vallejo, offer to run the `convert-paint-colors` workflow to translate Army Painter hex codes to equivalent paints.
 
-Citadel Essentials:
-  base:
-    - Abaddon Black, Corax White, Mephiston Red, etc.
-  shade:
-    - Agrax Earthshade, Nuln Oil, Reikland Fleshshade
-  layer:
-    - Evil Sunz Scarlet, Calgar Blue, etc.
-```
+**Inventory Data Sources:**
+- `{project-root}/data/paints/army-painter-warpaints.json` - Base/layer/metallic/wash/effect (60+ paints with hex)
+- `{project-root}/data/paints/army-painter-speedpaints.json` - Contrast-style paints (24 paints with hex)
+- Schema: `{project-root}/data/paints/paint-inventory.schema.json`
 
 **Benefits:**
-- Instant paint inventory
+- Instant paint inventory with visual hex codes
 - Guaranteed scheme compatibility
-- Eliminates manual entry errors
+- See actual colors during explanation
 - Optimizes for what user actually owns
-- Common beginner purchase = fast onboarding
+- Easy conversion to other brands via workflow
 
 **Output:** Paint inventory (if preset selected) OR continue to Step 2
 
@@ -442,46 +431,56 @@ This allows beginners to start fast and grow their skills progressively.
 ```markdown
 # Paint Scheme: Ultramarines (Lore-Flexible)
 
-## Color Palette (6 paints - 2 to buy)
+## Color Palette Swatches
+```
+VISUAL PALETTE:
+- Primary:    Ultramarine Blue (#1E40AF) ████
+- Shade:      Blue Tone (#1E3A5F) ████
+- Highlight:  Ice Storm (#B0C4DE) ████
+- Trim:       Greedy Gold (#FFD700) ████
+- Accent:     Pure Red (#C41E3A) ████
+- Base:       Matt Black (#1A1A1A) ████
+```
+
+## Color Palette (6 paints - using Army Painter)
 
 ### PRIMARY: Armor
-- **Base:** Macragge Blue (BUY - Citadel)
-- **Shade:** Nuln Oil (HAVE ✓)
-- **Highlight:** Calgar Blue (BUY - Citadel) OR use White mix
+- **Base:** Ultramarine Blue (#1E40AF) - deep classic blue
+- **Shade:** Blue Tone (#1E3A5F) - cool shadow wash
+- **Highlight:** Ice Storm (#B0C4DE) - pale edge highlight
 
 ### SECONDARY: Trim
-- **Base:** Retributor Armor (SUBSTITUTE: Use Leadbelcher + Brown wash)
-- **Shade:** Agrax Earthshade (HAVE ✓)
+- **Base:** Greedy Gold (#FFD700) - rich yellow gold
+- **Shade:** Strong Tone (#5C4033) - warm brown wash
 
 ### DETAILS: Cloth & Accents
-- **Red Details:** Use your Vallejo Red (HAVE ✓)
-- **White/Bone:** Use your Vallejo White (HAVE ✓)
+- **Red Details:** Pure Red (#C41E3A) - wax seals, lenses
+- **White/Bone:** Skeleton Bone (#E3DAC9) - parchment, skulls
 
-## Shopping List (2 paints = ~$8)
-1. Citadel Macragge Blue (Base) - $4.55
-2. Citadel Calgar Blue (Layer) - $4.55
-Total: ~$9.10
+## Shopping List
+All paints from Army Painter Warpaints range.
+[If user needs conversions, run convert-colors workflow]
 
 ## Application Guide
 
 ### Step 1: Prime
-- Black or Grey Sphex primer
+- Matt Black (#1A1A1A) or Uniform Grey (#808080)
 
 ### Step 2: Armor (Blue)
-1. Base coat: Macragge Blue (2 thin coats)
-2. Shade: Nuln Oil in recesses only
-3. Layer: Macragge Blue on raised areas
-4. Highlight: Calgar Blue on edges
+1. Base coat: **Ultramarine Blue (#1E40AF)** - 2 thin coats
+2. Shade: **Blue Tone (#1E3A5F)** in recesses only
+3. Layer: Ultramarine Blue on raised areas
+4. Highlight: **Ice Storm (#B0C4DE)** on edges
 
 ### Step 3: Trim (Gold)
-1. Base: Leadbelcher (your metallic)
-2. Wash: Agrax Earthshade (creates bronze/gold tone)
-3. Highlight: Leadbelcher on raised edges
+1. Base: **Greedy Gold (#FFD700)** on trim details
+2. Wash: **Strong Tone (#5C4033)** to create depth
+3. Highlight: Greedy Gold on raised edges
 
 ### Step 4: Details
-- Cloth/Parchment: White + Agrax = bone color
-- Wax seals: Vallejo Red
-- Lenses: Red + White dot
+- Cloth/Parchment: **Skeleton Bone (#E3DAC9)** + Strong Tone wash
+- Wax seals: **Pure Red (#C41E3A)**
+- Lenses: Pure Red + Matt White (#FFFFFF) dot
 
 ### Step 5: Base
 - (Recommendations based on preference)
@@ -495,13 +494,16 @@ Total: ~$9.10
 ~45-60 minutes per infantry model (tabletop quality)
 
 ## Lore Accuracy
-📜 Based on canonical Ultramarines scheme with budget-friendly substitutions.
-- Primary blue: ✓ Lore accurate
-- Trim: ~80% accurate (bronze tone vs pure gold)
+📜 Based on canonical Ultramarines scheme using Army Painter equivalents.
+- Primary blue: ✓ Lore accurate (Ultramarine Blue matches GW Macragge Blue)
+- Trim: ✓ Lore accurate (Greedy Gold matches Retributor Armour)
 - Details: ✓ Lore accurate
 
-Lorekeeper notes: "Close enough to 'read' as Ultramarines at tabletop
-distance. The bronze trim actually evokes younger companies."
+Lorekeeper notes: "This scheme reads as proper Ultramarines at tabletop
+distance. The Army Painter colors are excellent matches for the canonical scheme."
+
+## Need Different Brand?
+Run the `convert-colors` workflow to translate this scheme to Citadel, Vallejo, or other brands.
 ```
 
 **Include Painting Roadmap (if army list linked from Step 0):**

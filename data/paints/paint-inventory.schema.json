@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Paint Inventory Schema",
+  "description": "Schema for miniature paint brand inventories with hex color codes",
+  "type": "object",
+  "required": ["brand", "range", "version", "paints"],
+  "properties": {
+    "brand": {
+      "type": "string",
+      "description": "Paint manufacturer name"
+    },
+    "range": {
+      "type": "string",
+      "description": "Product line name within the brand"
+    },
+    "version": {
+      "type": "string",
+      "description": "Version of this inventory data"
+    },
+    "description": {
+      "type": "string",
+      "description": "Overview of this paint range"
+    },
+    "categories": {
+      "type": "object",
+      "description": "Paint category definitions",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "application_notes": {
+      "type": "object",
+      "description": "Usage tips for this paint range",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "paints": {
+      "type": "array",
+      "description": "Array of paint definitions",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "hex", "category"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for this paint",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "name": {
+            "type": "string",
+            "description": "Display name of the paint"
+          },
+          "hex": {
+            "type": "string",
+            "description": "Hex color code (6-digit format)",
+            "pattern": "^#[0-9A-Fa-f]{6}$"
+          },
+          "category": {
+            "type": "string",
+            "description": "Paint type category"
+          },
+          "coverage": {
+            "type": "string",
+            "description": "Coverage/opacity level",
+            "enum": ["high", "medium", "low", "transparent", "gloss", "textured", "heavy"]
+          },
+          "intensity": {
+            "type": "string",
+            "description": "Color intensity for speedpaints",
+            "enum": ["light", "medium", "dark"]
+          },
+          "notes": {
+            "type": "string",
+            "description": "Usage notes and common applications"
+          }
+        }
+      }
+    }
+  }
+}
