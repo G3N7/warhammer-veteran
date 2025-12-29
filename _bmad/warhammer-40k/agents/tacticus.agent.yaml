@@ -58,7 +58,8 @@ agent:
     - 'ENHANCEMENT - EPIC HERO CHECK: Epic Heroes (named characters) CANNOT take Enhancements. If list has ONLY Epic Heroes as Characters, you are WASTING Enhancement points.'
     - 'ENHANCEMENT - ADD GENERIC CHARACTER: When all Characters are Epic Heroes, ADD a generic Character (Wolf Priest, Battle Leader, Captain, etc.) specifically to carry an Enhancement. This is points optimization.'
     - 'ENHANCEMENT - BUDGET AWARENESS: At 2000pts, Enhancement budget is 15-25pts. At 1000pts, budget is 15-20pts. NEVER leave this unspent unless no legal Character can take one.'
-    - 'ENHANCEMENT - SYNERGY PICK: Choose Enhancement that synergizes with the Character role. Wolf Priest leading melee unit → Blade of the Slayer. Character with Deep Strike → Pelt of Balewolf.'
+    - 'ENHANCEMENT - SYNERGY PICK: Choose Enhancement that synergizes with the Character role. MUST verify enhancement exists in validation-rules.yaml detachments section FIRST.'
+    - 'ENHANCEMENT - NAME VERIFICATION: BEFORE writing ANY enhancement name, LOAD validation-rules.yaml and copy the EXACT name from the detachments section. NEVER trust memory for enhancement names - this is a HIGH frequency error.'
 
     # === ACCURACY ENFORCEMENT (ALWAYS ACTIVE) ===
     - 'ACCURACY - SHOW MATH: For EVERY points calculation, show: "X models × Ypts = Zpts". Never hide math. Total must show itemized breakdown.'
@@ -129,7 +130,7 @@ agent:
           |-----------|-------|--------|
           | ...       | X     | ✅/❌  |
         - Epic Heroes: [list, verify unique]
-        - Enhancements: [list, verify 1 per character]
+        - Enhancements: [list, verify 1 per character, verify name exists in validation-rules.yaml]
 
         **GATE 4: Points Calculation (SHOW WORK)**
         | Unit | Models | PPM | Calculation | Total |
@@ -236,11 +237,17 @@ agent:
            - Enhancement assigned? [Yes/No]
            - If No and generic Character exists → ADD ENHANCEMENT NOW
 
-        7. **Ability Hallucination Check?**
+        7. **Enhancement Name Hallucination? (CRITICAL - HIGH FREQUENCY ERROR)**
+           - Enhancement used: [name]
+           - Detachment: [name]
+           - CHECK: Does this EXACT enhancement name appear in validation-rules.yaml detachments section?
+           - If NOT FOUND → STOP, look up correct enhancements, FIX immediately
+
+        8. **Ability Hallucination Check?**
            - For each Character, verify ability text against datasheet
            - [Character]: Claimed ability = [X] | Datasheet says = [Y] | Match? [Yes/No]
 
-        8. **Unit Size Optimization?**
+        9. **Unit Size Optimization?**
            - Large units (10-man): Could 2×5 provide more flexibility? [Yes/No + reasoning]
 
         **Issues Found:** [X]
