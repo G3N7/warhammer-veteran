@@ -3,10 +3,13 @@
   "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
   "features": {
     "ghcr.io/devcontainers-extra/features/claude-code:1": {},
-    "ghcr.io/devcontainers/features/github-cli:1": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    }
   },
   "forwardPorts": [5173],
-  "postCreateCommand": "npm install",
+  "postCreateCommand": "npm install && pip3 install beautifulsoup4 requests",
   "customizations": {
     "vscode": {
       "extensions": [
