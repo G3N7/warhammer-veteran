@@ -13,7 +13,7 @@
       "epic_hero": true,
       "models": 1,
       "leads": [
-        "the following unit: Wolf Guard Terminators"
+        "Wolf Guard Terminators"
       ],
       "led_by": [
         "Wolf Guard Terminators"
@@ -32,7 +32,7 @@
       "epic_hero": true,
       "models": 1,
       "leads": [
-        "the following unit: Wolf Guard Terminators"
+        "Wolf Guard Terminators"
       ],
       "led_by": [
         "Wolf Guard Terminators"
@@ -64,10 +64,12 @@
       "epic_hero": true,
       "models": 1,
       "leads": [
-        "the following units: Blood Claws Wolf Guard Headtakers"
+        "Wolf Guard Headtakers",
+        "Blood Claws"
       ],
       "led_by": [
-        "Blood Claws Wolf Guard Headtakers"
+        "Wolf Guard Headtakers",
+        "Blood Claws"
       ],
       "core": [
         "Leader"
@@ -82,10 +84,14 @@
       "epic_hero": true,
       "models": 1,
       "leads": [
-        "the following units: Blood Claws Grey Hunters Wolf Guard Headtakers"
+        "Wolf Guard Headtakers",
+        "Grey Hunters",
+        "Blood Claws"
       ],
       "led_by": [
-        "Blood Claws Grey Hunters Wolf Guard Headtakers"
+        "Wolf Guard Headtakers",
+        "Grey Hunters",
+        "Blood Claws"
       ],
       "core": [
         "Leader"
@@ -100,10 +106,14 @@
       "epic_hero": true,
       "models": 1,
       "leads": [
-        "the following units: Blood Claws Grey Hunters Wolf Guard Headtakers"
+        "Wolf Guard Headtakers",
+        "Grey Hunters",
+        "Blood Claws"
       ],
       "led_by": [
-        "Blood Claws Grey Hunters Wolf Guard Headtakers"
+        "Wolf Guard Headtakers",
+        "Grey Hunters",
+        "Blood Claws"
       ],
       "core": [
         "Feel No Pain 6+",
@@ -176,10 +186,14 @@
       "epic_hero": false,
       "models": 1,
       "leads": [
-        "the following units: Blood Claws Grey Hunters Wolf Guard Headtakers"
+        "Wolf Guard Headtakers",
+        "Grey Hunters",
+        "Blood Claws"
       ],
       "led_by": [
-        "Blood Claws Grey Hunters Wolf Guard Headtakers"
+        "Wolf Guard Headtakers",
+        "Grey Hunters",
+        "Blood Claws"
       ],
       "core": [
         "Leader"
@@ -194,10 +208,14 @@
       "epic_hero": false,
       "models": 1,
       "leads": [
-        "the following units: Blood Claws Grey Hunters Wolf Guard Headtakers"
+        "Wolf Guard Headtakers",
+        "Grey Hunters",
+        "Blood Claws"
       ],
       "led_by": [
-        "Blood Claws Grey Hunters Wolf Guard Headtakers"
+        "Wolf Guard Headtakers",
+        "Grey Hunters",
+        "Blood Claws"
       ],
       "core": [
         "Leader"
@@ -212,10 +230,14 @@
       "epic_hero": false,
       "models": 1,
       "leads": [
-        "the following units: Blood Claws Grey Hunters Wolf Guard Headtakers"
+        "Wolf Guard Headtakers",
+        "Grey Hunters",
+        "Blood Claws"
       ],
       "led_by": [
-        "Blood Claws Grey Hunters Wolf Guard Headtakers"
+        "Wolf Guard Headtakers",
+        "Grey Hunters",
+        "Blood Claws"
       ],
       "core": [
         "Leader"

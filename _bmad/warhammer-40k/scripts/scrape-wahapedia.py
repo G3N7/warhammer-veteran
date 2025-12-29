@@ -95,8 +95,8 @@ FACTION_URLS = {
             ('Commander-Farsight', 'Commander Farsight'),
             ('Longstrike', 'Longstrike'),
             ('Cadre-Fireblade', 'Cadre Fireblade'),
-            ('Commander-in-Coldstar-Battlesuit', 'Commander in Coldstar Battlesuit'),
-            ('Commander-in-Enforcer-Battlesuit', 'Commander in Enforcer Battlesuit'),
+            ('Commander-In-Coldstar-Battlesuit', 'Commander in Coldstar Battlesuit'),
+            ('Commander-In-Enforcer-Battlesuit', 'Commander in Enforcer Battlesuit'),
             ('Crisis-Battlesuits', 'Crisis Battlesuits'),
             ('Riptide-Battlesuit', 'Riptide Battlesuit'),
             ('Broadside-Battlesuits', 'Broadside Battlesuits'),
@@ -118,12 +118,12 @@ FACTION_URLS = {
         'index_url': 'https://wahapedia.ru/wh40k10ed/factions/astra-militarum/',
         'units': [
             ('Lord-Solar-Leontus', 'Lord Solar Leontus'),
-            ('Castellan', 'Castellan'),
+            ('Cadian-Castellan', 'Cadian Castellan'),
             ('Cadian-Command-Squad', 'Cadian Command Squad'),
             ('Tank-Commander', 'Tank Commander'),
             ('Commissar', 'Commissar'),
             ('Platoon-Command-Squad', 'Platoon Command Squad'),
-            ('Infantry-Squad', 'Infantry Squad'),
+            ('Catachan-Jungle-Fighters', 'Catachan Jungle Fighters'),
             ('Cadian-Shock-Troops', 'Cadian Shock Troops'),
             ('Kasrkin', 'Kasrkin'),
             ('Tempestus-Scions', 'Tempestus Scions'),
@@ -133,8 +133,8 @@ FACTION_URLS = {
             ('Basilisk', 'Basilisk'),
             ('Manticore', 'Manticore'),
             ('Chimera', 'Chimera'),
-            ('Sentinel', 'Sentinel'),
-            ('Heavy-Weapons-Squad', 'Heavy Weapons Squad'),
+            ('Armoured-Sentinels', 'Armoured Sentinels'),
+            ('Scout-Sentinels', 'Scout Sentinels'),
             ('Bullgryns', 'Bullgryns'),
             ('Ogryn-Bodyguard', 'Ogryn Bodyguard'),
         ]
@@ -145,20 +145,20 @@ FACTION_URLS = {
         'units': [
             ('Hive-Tyrant', 'Hive Tyrant'),
             ('Winged-Hive-Tyrant', 'Winged Hive Tyrant'),
-            ('Swarmlord', 'Swarmlord'),
+            ('The-Swarmlord', 'The Swarmlord'),
             ('Tervigon', 'Tervigon'),
             ('Tyrannofex', 'Tyrannofex'),
             ('Exocrine', 'Exocrine'),
             ('Carnifexes', 'Carnifexes'),
-            ('Screamer-killer', 'Screamer-killer'),
+            ('Screamer-Killers', 'Screamer-Killers'),
             ('Haruspex', 'Haruspex'),
             ('Maleceptor', 'Maleceptor'),
             ('Zoanthropes', 'Zoanthropes'),
-            ('Neurothrope', 'Neurothrope'),
+            ('Neurotyrant', 'Neurotyrant'),
             ('Termagants', 'Termagants'),
             ('Hormagaunts', 'Hormagaunts'),
             ('Barbgaunts', 'Barbgaunts'),
-            ('Tyranid-Warriors', 'Tyranid Warriors'),
+            ('Tyranid-Warriors-with-Melee-Bio-weapons', 'Tyranid Warriors'),
             ('Genestealers', 'Genestealers'),
             ('Biovores', 'Biovores'),
             ('Pyrovores', 'Pyrovores'),
@@ -171,9 +171,9 @@ FACTION_URLS = {
         'units': [
             ('Ghazghkull-Thraka', 'Ghazghkull Thraka'),
             ('Warboss', 'Warboss'),
-            ('Warboss-in-Mega-Armour', 'Warboss in Mega Armour'),
-            ('Big-Mek-with-Shokk-Attack-Gun', 'Big Mek with Shokk Attack Gun'),
-            ('Big-Mek-in-Mega-Armour', 'Big Mek in Mega Armour'),
+            ('Warboss-In-Mega-Armour', 'Warboss in Mega Armour'),
+            ('Big-Mek-With-Shokk-Attack-Gun', 'Big Mek with Shokk Attack Gun'),
+            ('Big-Mek-In-Mega-Armour', 'Big Mek in Mega Armour'),
             ('Painboy', 'Painboy'),
             ('Weirdboy', 'Weirdboy'),
             ('Boyz', 'Boyz'),
@@ -389,15 +389,18 @@ def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str
                         'description': parts[1].strip()  # Full description
                     })
 
-    # 5. Extract points (model count + points)
-    for div in soup.find_all('div', class_='dsAbility'):
+    # 5. Extract points (model count + points) - search more broadly
+    # Points can appear in various formats: "5 models 170" or "5 MODEL 170 PTS" etc.
+    for div in soup.find_all(['div', 'td', 'span']):
         text = div.get_text(' ', strip=True)
-        match = re.match(r'(\d+)\s+model[s]?\s+(\d+)', text)
-        if match:
-            models = int(match.group(1))
-            pts = int(match.group(2))
-            datasheet['points'].append({'models': models, 'points': pts})
-            datasheet['unit_sizes'].append(models)
+        # Match patterns like "5 models 170" or "10 models 340"
+        matches = re.findall(r'(\d+)\s+model[s]?\s+(\d+)', text, re.IGNORECASE)
+        for match in matches:
+            models = int(match[0])
+            pts = int(match[1])
+            if pts > 0 and models > 0:  # Sanity check
+                datasheet['points'].append({'models': models, 'points': pts})
+                datasheet['unit_sizes'].append(models)
 
     # Deduplicate points
     seen = set()
@@ -428,15 +431,32 @@ def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str
             datasheet['is_epic_hero'] = True
             break
 
-    # 8. Extract keywords
-    for div in soup.find_all('div', class_='dsAbility'):
+    # 8. Extract keywords - search more broadly for keyword sections
+    for div in soup.find_all(['div', 'td', 'span', 'p']):
         text = div.get_text(' ', strip=True)
-        if text.startswith('KEYWORDS:'):
-            kw_text = text.replace('KEYWORDS:', '').strip()
-            datasheet['keywords'] = [k.strip() for k in kw_text.split(',') if k.strip()]
-        elif text.startswith('FACTION KEYWORDS:'):
-            fkw_text = text.replace('FACTION KEYWORDS:', '').strip()
-            datasheet['faction_keywords'] = [k.strip() for k in fkw_text.split(',') if k.strip()]
+        # Try multiple patterns for keywords
+        if 'KEYWORDS:' in text.upper() and 'FACTION' not in text.upper():
+            # Extract everything after KEYWORDS:
+            match = re.search(r'KEYWORDS:\s*(.+?)(?:FACTION|$)', text, re.IGNORECASE)
+            if match:
+                kw_text = match.group(1).strip()
+                keywords = [k.strip() for k in re.split(r'[,\n]', kw_text) if k.strip()]
+                if keywords and not datasheet['keywords']:
+                    datasheet['keywords'] = keywords
+        elif 'FACTION KEYWORDS:' in text.upper():
+            match = re.search(r'FACTION KEYWORDS:\s*(.+)', text, re.IGNORECASE)
+            if match:
+                fkw_text = match.group(1).strip()
+                fkeywords = [k.strip() for k in re.split(r'[,\n]', fkw_text) if k.strip()]
+                if fkeywords and not datasheet['faction_keywords']:
+                    datasheet['faction_keywords'] = fkeywords
+
+    # Also check for keywords in dedicated keyword divs/spans
+    for kw_div in soup.find_all(class_=re.compile(r'dsKw|keyword', re.IGNORECASE)):
+        text = kw_div.get_text(' ', strip=True)
+        if text and len(text) < 100:  # Reasonable keyword length
+            if text.upper() not in [k.upper() for k in datasheet['keywords']]:
+                datasheet['keywords'].append(text)
 
     # 9. Extract wargear options (full text, not truncated)
     for div in soup.find_all('div', class_='dsAbility'):
@@ -498,6 +518,69 @@ def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str
     return datasheet
 
 
+def clean_leader_list(leader_list: List[str]) -> List[str]:
+    """Clean up leader unit names - split multi-unit strings properly."""
+    # Known unit names to help with parsing concatenated unit lists
+    KNOWN_UNITS = [
+        # Space Wolves
+        'Wolf Guard Terminators', 'Wolf Guard Headtakers', 'Blood Claws',
+        'Grey Hunters', 'Fenrisian Wolves', 'Thunderwolf Cavalry', 'Wulfen',
+        # Space Marines
+        'Intercessor Squad', 'Assault Intercessor Squad', 'Hellblaster Squad',
+        'Infiltrator Squad', 'Terminator Squad', 'Tactical Squad', 'Sternguard Veteran Squad',
+        'Vanguard Veteran Squad', 'Bladeguard Veteran Squad', 'Eradicator Squad',
+        # T'au
+        'Strike Team', 'Breacher Team', 'Crisis Battlesuits', 'Stealth Battlesuits',
+        'Pathfinder Team', 'Kroot Carnivores',
+        # Orks
+        'Boyz', 'Nobz', 'Meganobz', 'Gretchin', 'Lootas', 'Burna Boyz', 'Tankbustas',
+        # Astra Militarum
+        'Cadian Shock Troops', 'Catachan Jungle Fighters', 'Infantry Squad',
+        'Kasrkin', 'Tempestus Scions', 'Bullgryns', 'Ogryn Bodyguard',
+        # Tyranids
+        'Termagants', 'Hormagaunts', 'Tyranid Warriors', 'Genestealers', 'Zoanthropes',
+    ]
+
+    cleaned = []
+    for item in leader_list:
+        clean = item
+        # Remove common prefixes
+        for prefix in ['the following unit:', 'the following units:', 'following unit:', 'following units:']:
+            if clean.lower().startswith(prefix):
+                clean = clean[len(prefix):].strip()
+
+        # Split on ' or ' first
+        if ' or ' in clean.lower():
+            parts = re.split(r'\s+or\s+', clean, flags=re.IGNORECASE)
+            for part in parts:
+                if part.strip():
+                    cleaned.append(part.strip())
+        else:
+            # Try to match known unit names
+            remaining = clean
+            found = []
+            for unit in sorted(KNOWN_UNITS, key=len, reverse=True):  # Longest first
+                if unit.lower() in remaining.lower():
+                    found.append(unit)
+                    remaining = re.sub(re.escape(unit), '', remaining, flags=re.IGNORECASE).strip()
+
+            if found:
+                cleaned.extend(found)
+            elif remaining.strip():
+                # If no known units matched, keep original
+                cleaned.append(clean)
+
+    # Deduplicate while preserving order
+    seen = set()
+    result = []
+    for item in cleaned:
+        if item.lower() not in seen:
+            seen.add(item.lower())
+            result.append(item)
+
+    return result
+
+
 def generate_compact_datasheet(full_datasheet: Dict[str, Any]) -> Dict[str, Any]:
     """
     Generate COMPACT format from full datasheet.
@@ -535,9 +618,9 @@ def generate_compact_datasheet(full_datasheet: Dict[str, Any]) -> Dict[str, Any]
                 compact['pts_per_model'] = int(pts_per_model[0])
             else:
                 # Variable pricing - keep full breakdown
-                compact['pts_table'] = {p['models']: p['points'] for p in points}
+                compact['pts_table'] = {str(p['models']): p['points'] for p in points}
 
-    # Key keywords for validation (not all keywords - just rule-relevant ones)
+    # Key keywords for validation - ALWAYS include if present
     key_keywords = []
     keywords = full_datasheet.get('keywords', [])
     for kw in keywords:
@@ -546,18 +629,23 @@ def generate_compact_datasheet(full_datasheet: Dict[str, Any]) -> Dict[str, Any]
         if any(x in kw_upper for x in [
             'BATTLELINE', 'CHARACTER', 'EPIC HERO', 'TRANSPORT',
             'INFANTRY', 'MONSTER', 'VEHICLE', 'MOUNTED', 'FLY',
-            'TERMINATOR', 'PSYKER', 'SYNAPSE'
+            'TERMINATOR', 'PSYKER', 'SYNAPSE', 'BEAST', 'SWARM',
+            'WALKER', 'GRENADES', 'SMOKE'
         ]):
             key_keywords.append(kw)
 
+    # Always include keywords if we have any (even if not in the filter list)
     if key_keywords:
         compact['keywords'] = key_keywords
+    elif keywords:
+        # If we have keywords but none matched our filter, include first few anyway
+        compact['keywords'] = keywords[:5]
 
-    # Leader info (who can this lead / who can lead this)
+    # Leader info (who can this lead / who can lead this) - CLEANED
     if full_datasheet.get('can_lead'):
-        compact['leads'] = full_datasheet['can_lead']
+        compact['leads'] = clean_leader_list(full_datasheet['can_lead'])
     if full_datasheet.get('led_by'):
-        compact['led_by'] = full_datasheet['led_by']
+        compact['led_by'] = clean_leader_list(full_datasheet['led_by'])
 
     # Core abilities that affect list-building (Deep Strike for reserves planning)
     core = full_datasheet.get('abilities', {}).get('core', [])

@@ -1,0 +1,2710 @@
+{
+  "faction": "tau-empire",
+  "last_updated": "2025-12-28T01:36:34.207165+00:00",
+  "source": "wahapedia",
+  "schema_version": "2.0",
+  "unit_count": 20,
+  "units": {
+    "Commander Shadowsun": {
+      "name": "Commander Shadowsun",
+      "url_slug": "Commander-Shadowsun",
+      "stats": {
+        "M": "10",
+        "T": "4",
+        "Sv": "3+",
+        "W": "6",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Flechette launcher",
+            "range": "18\"",
+            "A": "5",
+            "skill": "2+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "High-energy fusion blaster melta 2",
+            "range": "18\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "10",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2",
+              "blast"
+            ]
+          },
+          {
+            "name": "Light missile pod",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "7",
+            "AP": "0",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Pulse pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Battlesuit fists",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Infiltrators",
+          "Lone Operative",
+          "Stealth"
+        ],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "Agile Combatant",
+            "description": "This model is eligible to shoot in a turn in which it Fell Back . Hero of the Empire (Aura): While a friendly T\u2019AU EMPIRE unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+          },
+          {
+            "name": "Advanced Guardian Drone",
+            "description": "Each time a ranged attack targets the bearer, subtract 1 from the Wound roll ."
+          },
+          {
+            "name": "Command-link Drone (Aura)",
+            "description": "While a friendly T\u2019AU EMPIRE unit is within 6\" of the bearer, each time you select that unit as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 100
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Commander Shadowsun \u2013 EPIC HERO This model is equipped with: flechette launcher; 2 high-energy fusion blasters; light missile pod; pulse pistol; battlesuit fists; advanced guardian drone; command-link drone."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Commander Farsight": {
+      "name": "Commander Farsight",
+      "url_slug": "Commander-Farsight",
+      "stats": {
+        "M": "10",
+        "T": "5",
+        "Sv": "2+",
+        "W": "8",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "High-intensity plasma rifle",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "8",
+            "AP": "-3",
+            "D": "3",
+            "keywords": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Dawn Blade \u2013 strike",
+            "range": "Melee",
+            "A": "4",
+            "skill": "2+",
+            "S": "10",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Dawn Blade \u2013 sweep",
+            "range": "Melee",
+            "A": "8",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "Way of the Short Blade",
+            "description": "While this model is leading a unit, each time a model in that unit makes an attack that targets an enemy unit within 9\", add 1 to the Wound roll . Puretide's Teachings: Once per battle round , you can target this model\u2019s unit with a Stratagem . If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 85
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": "This model can be attached to the following units: Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits",
+      "led_by": [
+        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
+      ],
+      "can_lead": [
+        "the following units: Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Commander Farsight \u2013 EPIC HERO This model is equipped with: high-intensity plasma rifle; Dawn Blade."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Longstrike": {
+      "name": "Longstrike",
+      "url_slug": "Longstrike",
+      "stats": {
+        "M": "10",
+        "T": "10",
+        "Sv": "3+",
+        "W": "14",
+        "Ld": "7+",
+        "OC": "3"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Accelerator burst cannon",
+            "range": "18\"",
+            "A": "4",
+            "skill": "4+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Ion cannon \u2013 standard blast",
+            "range": "60\"",
+            "A": "D6+3",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Ion cannon \u2013 overcharge blast hazardous",
+            "range": "60\"",
+            "A": "D6+3",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "blast",
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Railgun",
+            "range": "72\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "20",
+            "AP": "-5",
+            "D": "D6+6",
+            "keywords": [
+              "heavy",
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Seeker missile one shot",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": [
+              "one shot"
+            ]
+          },
+          {
+            "name": "Twin pulse carbine assault twin-linked",
+            "range": "20\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "assault",
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Twin smart missile system indirect fire twin-linked",
+            "range": "30\"",
+            "A": "4",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "indirect fire",
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "range": "Melee",
+            "A": "3",
+            "skill": "5+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          },
+          {
+            "name": "Armour Hunter",
+            "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE , add 1 to the Hit roll . Targeting Array: Each time this model is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving its attacks. XV02 Pilot Battlesuit: In your Command phase , you can select one friendly HAMMERHEAD GUNSHIP unit within 12\". Until the start of your next Command phase, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 140
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Longstrike \u2013 EPIC HERO This model is equipped with: 2 twin pulse carbines; railgun; armoured hull."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Cadre Fireblade": {
+      "name": "Cadre Fireblade",
+      "url_slug": "Cadre-Fireblade",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "4+",
+        "W": "3",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Fireblade pulse rifle rapid fire 1",
+            "range": "30\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "2",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "Volley Fire",
+            "description": "While this model is leading a unit, add 1 to the Attacks characteristic of ranged weapons equipped by models in that unit. Crack Shot: Each time this model makes a ranged attack, on a Critical Wound , that attack has an Armour Penetration characteristic of -3."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 50
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": "This model can be attached to the following units: Breacher Team Strike Team",
+      "led_by": [
+        "Breacher Team Strike Team"
+      ],
+      "can_lead": [
+        "the following units: Breacher Team Strike Team"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Cadre Fireblade This model is equipped with: Fireblade pulse rifle; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Commander in Coldstar Battlesuit": {
+      "name": "Commander in Coldstar Battlesuit",
+      "url_slug": "Commander-In-Coldstar-Battlesuit",
+      "stats": {
+        "M": "12",
+        "T": "5",
+        "Sv": "3+",
+        "W": "6",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Airbursting fragmentation projector blast indirect fire",
+            "range": "24\"",
+            "A": "D6",
+            "skill": "3+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast",
+              "indirect fire"
+            ]
+          },
+          {
+            "name": "Burst cannon",
+            "range": "18\"",
+            "A": "4",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Cyclic ion blaster \u2013 standard",
+            "range": "18\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Cyclic ion blaster \u2013 overcharge hazardous",
+            "range": "18\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "blast",
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Fusion blaster melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2",
+              "blast"
+            ]
+          },
+          {
+            "name": "High-output burst cannon",
+            "range": "18\"",
+            "A": "8",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Missile pod",
+            "range": "30\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Plasma rifle",
+            "range": "18\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-3",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "T\u2019au flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Battlesuit fists",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "Coldstar Commander",
+            "description": "While this model is leading a unit, models in that unit have a Move characteristic of 12\" and ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+          },
+          {
+            "name": "Battlesuit Support System",
+            "description": "The bearer\u2019s unit is eligible to shoot in a turn in which it Fell Back , but when doing so only models equipped with this wargear can make ranged attacks ."
+          },
+          {
+            "name": "Shield Generator",
+            "description": "The bearer has a 4+ invulnerable save ."
+          },
+          {
+            "name": "Weapon Support System",
+            "description": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 95
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": "This model can be attached to the following units: Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits",
+      "led_by": [
+        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
+      ],
+      "can_lead": [
+        "the following units: Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Commander in Coldstar Battlesuit This model is equipped with: high-output burst cannon; battlesuit fists."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Commander in Enforcer Battlesuit": {
+      "name": "Commander in Enforcer Battlesuit",
+      "url_slug": "Commander-In-Enforcer-Battlesuit",
+      "stats": {
+        "M": "8",
+        "T": "5",
+        "Sv": "2+",
+        "W": "6",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Airbursting fragmentation projector blast indirect fire",
+            "range": "24\"",
+            "A": "D6",
+            "skill": "3+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast",
+              "indirect fire"
+            ]
+          },
+          {
+            "name": "Burst cannon",
+            "range": "18\"",
+            "A": "4",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Cyclic ion blaster \u2013 standard",
+            "range": "18\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Cyclic ion blaster \u2013 overcharge hazardous",
+            "range": "18\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "blast",
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Fusion blaster melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2",
+              "blast"
+            ]
+          },
+          {
+            "name": "Missile pod",
+            "range": "30\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Plasma rifle",
+            "range": "18\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-3",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "T\u2019au flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Battlesuit fists",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "Enforcer Commander",
+            "description": "While this model is leading a unit, each time a ranged attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1."
+          },
+          {
+            "name": "Battlesuit Support System",
+            "description": "The bearer\u2019s unit is eligible to shoot in a turn in which it Fell Back , but when doing so only models equipped with this wargear can make ranged attacks ."
+          },
+          {
+            "name": "Shield Generator",
+            "description": "The bearer has a 4+ invulnerable save ."
+          },
+          {
+            "name": "Weapon Support System",
+            "description": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 80
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": "This model can be attached to the following units: Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits",
+      "led_by": [
+        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
+      ],
+      "can_lead": [
+        "the following units: Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Commander in Enforcer Battlesuit This model is equipped with: burst cannon; battlesuit fists."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Crisis Battlesuits": {
+      "name": "Crisis Battlesuits",
+      "url_slug": "Crisis-Battlesuits",
+      "stats": {
+        "M": "10",
+        "T": "5",
+        "Sv": "3+",
+        "W": "4",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Airbursting fragmentation projector blast indirect fire",
+            "range": "24\"",
+            "A": "D6",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast",
+              "indirect fire"
+            ]
+          },
+          {
+            "name": "Burst cannon",
+            "range": "18\"",
+            "A": "4",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Cyclic ion blaster \u2013 standard",
+            "range": "18\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Cyclic ion blaster \u2013 overcharge hazardous",
+            "range": "18\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "blast",
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Fusion blaster melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2",
+              "blast"
+            ]
+          },
+          {
+            "name": "Missile pod",
+            "range": "30\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Plasma rifle",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-3",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "T\u2019au flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Battlesuit fists",
+            "range": "Melee",
+            "A": "3",
+            "skill": "5+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "Turbo-jets",
+            "description": "Each time this unit Advances , do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit."
+          },
+          {
+            "name": "Battlesuit Support System",
+            "description": "The bearer\u2019s unit is eligible to shoot in a turn in which it Fell Back , but when doing so only models equipped with this wargear can make ranged attacks ."
+          },
+          {
+            "name": "Shield Generator",
+            "description": "The bearer has a 4+ invulnerable save ."
+          },
+          {
+            "name": "Weapon Support System",
+            "description": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll ."
+          },
+          {
+            "name": "This unit can be led by the following unit",
+            "description": "Commander In Crisis Battlesuit"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 3,
+          "points": 200
+        }
+      ],
+      "unit_sizes": [
+        3
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Crisis Shas\u2019vre 2-5 Crisis Shas\u2019ui Every model is equipped with: burst cannon; battlesuit fists."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Riptide Battlesuit": {
+      "name": "Riptide Battlesuit",
+      "url_slug": "Riptide-Battlesuit",
+      "stats": {
+        "M": "10",
+        "T": "9",
+        "Sv": "2+",
+        "W": "14",
+        "Ld": "7+",
+        "OC": "4"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Heavy burst cannon",
+            "range": "36\"",
+            "A": "12",
+            "skill": "4+",
+            "S": "6",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "heavy"
+            ]
+          },
+          {
+            "name": "Ion accelerator \u2013 standard",
+            "range": "72\"",
+            "A": "6",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Ion accelerator \u2013 supercharge hazardous",
+            "range": "72\"",
+            "A": "6",
+            "skill": "4+",
+            "S": "10",
+            "AP": "-3",
+            "D": "4",
+            "keywords": [
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Twin fusion blaster melta 2 twin-linked",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2",
+              "blast",
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Twin plasma rifle twin-linked",
+            "range": "18\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-3",
+            "D": "3",
+            "keywords": [
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Twin smart missile system indirect fire twin-linked",
+            "range": "30\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "indirect fire",
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Riptide fists",
+            "range": "Melee",
+            "A": "6",
+            "skill": "5+",
+            "S": "6",
+            "AP": "0",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "Battlesuit Support System",
+            "description": "The bearer is eligible to shoot in a turn in which it Fell Back . Nova Charge: Once per battle, when this unit is selected to shoot in your Shooting phase , select one ranged weapon equipped by this model. Until the end of the phase, that weapon has the [DEVASTATING WOUNDS] ability. Weapon Support System: Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 200
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Riptide Battlesuit This model is equipped with: heavy burst cannon; twin plasma rifle; Riptide fists."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Broadside Battlesuits": {
+      "name": "Broadside Battlesuits",
+      "url_slug": "Broadside-Battlesuits",
+      "stats": {
+        "M": "5",
+        "T": "6",
+        "Sv": "2+",
+        "W": "8",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Heavy rail rifle heavy",
+            "range": "60\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "12",
+            "AP": "-4",
+            "D": "D6+1",
+            "keywords": [
+              "heavy",
+              "heavy",
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "High-yield missile pods twin-linked",
+            "range": "30\"",
+            "A": "6",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Seeker missile one shot",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": [
+              "one shot"
+            ]
+          },
+          {
+            "name": "Twin plasma rifle twin-linked",
+            "range": "18\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-3",
+            "D": "3",
+            "keywords": [
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Twin smart missile system indirect fire twin-linked",
+            "range": "30\"",
+            "A": "4",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "indirect fire",
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Crushing bulk",
+            "range": "Melee",
+            "A": "3",
+            "skill": "5+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          },
+          {
+            "name": "Advanced Armour",
+            "description": "Models in this unit have the Feel No Pain 4+ ability against mortal wounds ."
+          },
+          {
+            "name": "Weapon Support System",
+            "description": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 80
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Broadside Shas\u2019vre 0-2 Broadside Shas\u2019ui Every model is equipped with: heavy rail rifle; crushing bulk."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Ghostkeel Battlesuit": {
+      "name": "Ghostkeel Battlesuit",
+      "url_slug": "Ghostkeel-Battlesuit",
+      "stats": {
+        "M": "10",
+        "T": "8",
+        "Sv": "2+",
+        "W": "12",
+        "Ld": "7+",
+        "OC": "3"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Cyclic ion raker \u2013 standard",
+            "range": "36\"",
+            "A": "6",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Cyclic ion raker \u2013 overcharge hazardous",
+            "range": "36\"",
+            "A": "6",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Fusion collider melta 2",
+            "range": "18\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "12",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          },
+          {
+            "name": "Twin burst cannon twin-linked",
+            "range": "18\"",
+            "A": "4",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Twin fusion blaster melta 2 twin-linked",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2",
+              "blast",
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Twin T\u2019au flamer ignores cover torrent twin-linked",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "twin-linked",
+              "ignores cover"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Ghostkeel fists",
+            "range": "Melee",
+            "A": "3",
+            "skill": "5+",
+            "S": "6",
+            "AP": "0",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Infiltrators",
+          "Lone Operative",
+          "Stealth"
+        ],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "Stealth Drones",
+            "description": "Twice per battle, after an attack has been allocated to this model, you can change the Damage characteristic of that attack to 0. Designer\u2019s Note: Place two Stealth Drone tokens next to the unit, removing one each time this ability has been used."
+          },
+          {
+            "name": "Battlesuit Support System",
+            "description": "The bearer is eligible to shoot in a turn in which it Fell Back but it loses the SMOKE keyword."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 160
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Ghostkeel Battlesuit This model is equipped with: fusion collider; twin T\u2019au flamer; Ghostkeel fists."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Stealth Battlesuits": {
+      "name": "Stealth Battlesuits",
+      "url_slug": "Stealth-Battlesuits",
+      "stats": {
+        "M": "8",
+        "T": "4",
+        "Sv": "3+",
+        "W": "2",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Burst cannon",
+            "range": "18\"",
+            "A": "4",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Fusion blaster melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2",
+              "blast"
+            ]
+          },
+          {
+            "name": "Pulse pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Battlesuit fists",
+            "range": "Melee",
+            "A": "2",
+            "skill": "5+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Infiltrators",
+          "Stealth"
+        ],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "Forward Observers",
+            "description": "Each time this unit is an Observer unit , until the end of the phase, each time a ranged attack is made by a model in a Guided unit that targets their Spotted unit , re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+          },
+          {
+            "name": "Homing Beacon",
+            "description": "Once per battle, you can use the Rapid Ingress Stratagem for 0CP. The target must be set up within 3\" of the bearer\u2019s unit and more than 9\" away from all enemy units. Designer\u2019s Note: Place a Homing Beacon token next to this unit, removing it once this ability is used."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 5,
+          "points": 110
+        }
+      ],
+      "unit_sizes": [
+        5
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Stealth Shas\u2019vre 4 Stealth Shas\u2019ui Every model is equipped with: burst cannon; battlesuit fists."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Strike Team": {
+      "name": "Strike Team",
+      "url_slug": "Strike-Team",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "4+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Pulse carbine",
+            "range": "20\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Pulse pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Pulse rifle rapid fire 1",
+            "range": "30\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Support turret indirect fire twin-linked",
+            "range": "30\"",
+            "A": "2",
+            "skill": "5+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "indirect fire",
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "1",
+            "skill": "5+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "Suppression Volley",
+            "description": "In your Shooting phase , after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the start of your next turn, while this unit is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll . DS8 Support Turret: In your Movement phase , if this unit Remains Stationary , until the start of your next Movement phase, its Fire Warrior Shas\u2019ui model is equipped with the support turret missile system weapon. Designer\u2019s Note: Place a Support Turret token next to this unit to remind you."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Cadre Fireblade Ethereal Aun\u2019shi"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 10,
+          "points": 70
+        }
+      ],
+      "unit_sizes": [
+        10
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "Suppression Volley: In your Shooting phase , after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the start of your next turn, while this unit is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll . DS8 Support Turret: In your Movement phase , if this unit Remains Stationary , until the start of your next Movement phase, its Fire Warrior Shas\u2019ui model is equipped with the support turret missile system weapon. Designer\u2019s Note: Place a Support Turret token next to this unit to remind you.",
+        "1 Fire Warrior Shas\u2019ui 9 Fire Warriors Every model is equipped with: pulse pistol; pulse rifle; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Breacher Team": {
+      "name": "Breacher Team",
+      "url_slug": "Breacher-Team",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "4+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Pulse blaster assault",
+            "range": "10\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "assault",
+              "blast"
+            ]
+          },
+          {
+            "name": "Pulse pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Support turret indirect fire twin-linked",
+            "range": "30\"",
+            "A": "2",
+            "skill": "5+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "indirect fire",
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "1",
+            "skill": "5+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "Breach and Clear",
+            "description": "Each time a model in this unit makes a ranged attack that targets an enemy unit within range of an objective marker , you can re-roll the Wound roll . DS8 Support Turret: In your Movement phase , if this unit Remains Stationary , until the start of your next Movement phase, its Fire Warrior Shas\u2019ui model is equipped with the support turret missile system weapon. Designer\u2019s Note: Place a Support Turret token next to this unit to remind you."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Cadre Fireblade Ethereal Aun\u2019shi"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 10,
+          "points": 90
+        }
+      ],
+      "unit_sizes": [
+        10
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "Breach and Clear: Each time a model in this unit makes a ranged attack that targets an enemy unit within range of an objective marker , you can re-roll the Wound roll . DS8 Support Turret: In your Movement phase , if this unit Remains Stationary , until the start of your next Movement phase, its Fire Warrior Shas\u2019ui model is equipped with the support turret missile system weapon. Designer\u2019s Note: Place a Support Turret token next to this unit to remind you.",
+        "1 Breacher Fire Warrior Shas\u2019ui 9 Breacher Fire Warriors Every model is equipped with: pulse blaster; pulse pistol; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Pathfinder Team": {
+      "name": "Pathfinder Team",
+      "url_slug": "Pathfinder-Team",
+      "stats": {
+        "M": "7",
+        "T": "3",
+        "Sv": "4+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Drone burst cannon",
+            "range": "18\"",
+            "A": "4",
+            "skill": "5+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Ion rifle \u2013 standard heavy",
+            "range": "30\"",
+            "A": "3",
+            "skill": "5+",
+            "S": "7",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "heavy"
+            ]
+          },
+          {
+            "name": "Ion rifle \u2013 overcharge hazardous heavy",
+            "range": "30\"",
+            "A": "3",
+            "skill": "5+",
+            "S": "8",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "heavy",
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Pulse carbine",
+            "range": "20\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Pulse pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Rail rifle",
+            "range": "30\"",
+            "A": "1",
+            "skill": "5+",
+            "S": "10",
+            "AP": "-4",
+            "D": "3",
+            "keywords": [
+              "heavy",
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Semi-automatic grenade launcher \u2013 EMP",
+            "range": "18\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "anti-vehicle 4+",
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Semi-automatic grenade launcher \u2013 fusion",
+            "range": "18\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "6",
+            "AP": "-1",
+            "D": "3",
+            "keywords": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "1",
+            "skill": "5+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Scouts 7\""
+        ],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "Target Uploaded",
+            "description": "Each time a model in this unit makes an attack that targets their Spotted unit , improve the Ballistic Skill characteristic of that attack by 1 and that attack has the [IGNORES COVER] ability."
+          },
+          {
+            "name": "Grav-inhibitor Drone",
+            "description": "Subtract 2 from Charge rolls made for any enemy unit that declares a charge against the bearer\u2019s unit (this is not cumulative with any other reductions to that Charge roll)."
+          },
+          {
+            "name": "Pulse Accelerator Drone",
+            "description": "Add 6\" to the Range characteristic of pulse carbines equipped by models in the bearer\u2019s unit."
+          },
+          {
+            "name": "Recon Drone",
+            "description": "The bearer is equipped with 1 drone burst cannon and the bearer\u2019s unit has the Infiltrators ability."
+          },
+          {
+            "name": "This unit can be led by the following unit",
+            "description": "Darkstrider"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 10,
+          "points": 90
+        }
+      ],
+      "unit_sizes": [
+        10
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "Recon Drone: The bearer is equipped with 1 drone burst cannon and the bearer\u2019s unit has the Infiltrators ability.",
+        "1 Pathfinder Shas\u2019ui 9 Pathfinders Every model is equipped with: pulse carbine; pulse pistol; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Hammerhead Gunship": {
+      "name": "Hammerhead Gunship",
+      "url_slug": "Hammerhead-Gunship",
+      "stats": {
+        "M": "10",
+        "T": "10",
+        "Sv": "3+",
+        "W": "14",
+        "Ld": "7+",
+        "OC": "3"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Accelerator burst cannon",
+            "range": "18\"",
+            "A": "4",
+            "skill": "4+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Ion cannon \u2013 standard blast",
+            "range": "60\"",
+            "A": "D6+3",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Ion cannon \u2013 overcharge blast hazardous",
+            "range": "60\"",
+            "A": "D6+3",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "blast",
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Railgun heavy",
+            "range": "72\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "20",
+            "AP": "-5",
+            "D": "D6+6",
+            "keywords": [
+              "heavy",
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Seeker missile one shot",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": [
+              "one shot"
+            ]
+          },
+          {
+            "name": "Twin pulse carbine twin-linked",
+            "range": "20\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Smart missile system indirect fire",
+            "range": "30\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "indirect fire"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "range": "Melee",
+            "A": "3",
+            "skill": "5+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          },
+          {
+            "name": "Armour Hunter",
+            "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE , add 1 to the Hit roll . Targeting Array: Each time this model is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 145
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Hammerhead Gunship This model is equipped with: 1 railgun; 2 twin pulse carbines; armoured hull."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Sky Ray Gunship": {
+      "name": "Sky Ray Gunship",
+      "url_slug": "Sky-Ray-Gunship",
+      "stats": {
+        "M": "10",
+        "T": "10",
+        "Sv": "3+",
+        "W": "14",
+        "Ld": "7+",
+        "OC": "3"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Accelerator burst cannon",
+            "range": "18\"",
+            "A": "4",
+            "skill": "4+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Seeker missile rack twin-linked",
+            "range": "48\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": [
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Twin pulse carbine assault twin-linked",
+            "range": "20\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "assault",
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Smart missile system indirect fire",
+            "range": "30\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "indirect fire"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "range": "Melee",
+            "A": "3",
+            "skill": "5+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "Velocity Tracker",
+            "description": "Each time this model makes a ranged attack that targets a unit that can FLY , you can re-roll the Hit roll . Targeting Array: Each time this unit is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 150
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Sky Ray Gunship This model is equipped with: 1 seeker missile rack; 2 twin pulse carbines; armoured hull."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Devilfish": {
+      "name": "Devilfish",
+      "url_slug": "Devilfish",
+      "stats": {
+        "M": "12",
+        "T": "9",
+        "Sv": "3+",
+        "W": "13",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Accelerator burst cannon",
+            "range": "18\"",
+            "A": "4",
+            "skill": "4+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Seeker missile one shot",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": [
+              "one shot"
+            ]
+          },
+          {
+            "name": "Twin pulse carbine assault twin-linked",
+            "range": "20\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "assault",
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Smart missile system indirect fire",
+            "range": "30\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "indirect fire"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "range": "Melee",
+            "A": "3",
+            "skill": "5+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          },
+          {
+            "name": "Rapid Deployment",
+            "description": "Units can disembark from this TRANSPORT after it has Advanced . Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 85
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Devilfish This model is equipped with: accelerator burst cannon; 2 twin pulse carbines; armoured hull."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": "This model has a transport capacity of 12 T\u2019AU EMPIRE INFANTRY models. It cannot transport BATTLESUIT , KROOT or VESPID STINGWINGS models.",
+      "damaged_profile": null,
+      "role": null
+    },
+    "Piranhas": {
+      "name": "Piranhas",
+      "url_slug": "Piranhas",
+      "stats": {
+        "M": "14",
+        "T": "7",
+        "Sv": "4+",
+        "W": "7",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Piranha burst cannon",
+            "range": "18\"",
+            "A": "4",
+            "skill": "4+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Piranha fusion blaster melta 4",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 4",
+              "blast"
+            ]
+          },
+          {
+            "name": "Seeker missile one shot",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": [
+              "one shot"
+            ]
+          },
+          {
+            "name": "Twin pulse carbine twin-linked assault",
+            "range": "20\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "assault",
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "range": "Melee",
+            "A": "2",
+            "skill": "5+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise 1",
+          "Scouts 9\""
+        ],
+        "faction": [
+          "For the Greater Good"
+        ],
+        "unit": [
+          {
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          },
+          {
+            "name": "Drone Harassment Tactics",
+            "description": "At the end of your Movement phase , select one enemy unit within 12\" of this unit; that enemy unit must take a Battle-shock test ."
+          },
+          {
+            "name": "1-3 Piranhas Every model is equipped with",
+            "description": "Piranha burst cannon; 2 twin pulse carbines; armoured hull."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 60
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1-3 Piranhas Every model is equipped with: Piranha burst cannon; 2 twin pulse carbines; armoured hull."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Kroot Carnivores": {
+      "name": "Kroot Carnivores",
+      "url_slug": "Kroot-Carnivores",
+      "stats": {
+        "M": "7",
+        "T": "3",
+        "Sv": "6+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Tanglebomb launcher Blast",
+            "range": "24\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Kroot pistol Pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Kroot rifle rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Kroot carbine",
+            "range": "18\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "2",
+            "keywords": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "2",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Scouts 7\"",
+          "Stealth"
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "Fieldcraft",
+            "description": "At the end of your Command phase , if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Kroot Flesh Shaper Kroot Trail Shaper Kroot War Shaper Aun\u2019shi"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 10,
+          "points": 65
+        }
+      ],
+      "unit_sizes": [
+        10
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Long-quill 9-19 Kroot Carnivores The 1 Long-quill is equipped with: Kroot pistol; Kroot rifle; close combat weapon. Every Kroot Carnivore is equipped with: Kroot rifle; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Kroot Farstalkers": {
+      "name": "Kroot Farstalkers",
+      "url_slug": "Kroot-Farstalkers",
+      "stats": {
+        "M": "7",
+        "T": "3",
+        "Sv": "6+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Dvorgite skinner ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Farstalker firearm rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Kroot pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Londaxi tribalest",
+            "range": "18\"",
+            "A": "3",
+            "skill": "5+",
+            "S": "7",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "anti-vehicle 4+",
+              "heavy",
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "T\u2019au-tech rifle rapid fire 1",
+            "range": "30\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "2",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Ripping fangs",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Ritual blade",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Infiltrators",
+          "Stealth"
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "Bounty Hunters",
+            "description": "At the start of the battle, select one unit from your opponent\u2019s army. Each time a model in this unit makes an attack that targets that unit, that attack has the [LETHAL HITS] and [PRECISION] abilities."
+          },
+          {
+            "name": "Pech\u2019ra",
+            "description": "Ranged weapons equipped by the bearer\u2019s unit have the [IGNORES COVER] ability."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Kroot Flesh Shaper Kroot Trail Shaper Kroot War Shaper"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 12,
+          "points": 85
+        }
+      ],
+      "unit_sizes": [
+        12
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Kroot Kill-broker 9 Kroot Farstalkers 2 Kroot Hounds The Kroot Kill-broker is equipped with: Farstalker firearm; Kroot pistol; ritual blade. Every Kroot Farstalker is equipped with: Farstalker firearm; Kroot pistol; close combat weapon. Every Kroot Hound is equipped with: ripping fangs."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    }
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "faction": "orks",
+  "last_updated": "2025-12-28T01:37:19.224873+00:00",
+  "schema": "compact-v1",
+  "unit_count": 20,
+  "units": {
+    "Ghazghkull Thraka": {
+      "name": "Ghazghkull Thraka",
+      "pts": 235,
+      "sizes": [
+        2
+      ],
+      "epic_hero": true,
+      "models": 2,
+      "leads": [
+        "Meganobz",
+        "Boyz",
+        "Nobz",
+        "Ghazkghull Thraka",
+        "Makari become a single unit with their original Starting Strength"
+      ],
+      "led_by": [
+        "Meganobz",
+        "Boyz",
+        "Nobz",
+        "Ghazkghull Thraka and Makari become a single unit with their original Starting Strength ."
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Warboss": {
+      "name": "Warboss",
+      "pts": 75,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "Boyz",
+        "Nobz"
+      ],
+      "led_by": [
+        "Boyz",
+        "Nobz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Warboss in Mega Armour": {
+      "name": "Warboss in Mega Armour",
+      "pts": 80,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "Meganobz"
+      ],
+      "led_by": [
+        "Meganobz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Big Mek with Shokk Attack Gun": {
+      "name": "Big Mek with Shokk Attack Gun",
+      "pts": 80,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "Tankbustas",
+        "Lootas",
+        "Boyz",
+        "Nobz"
+      ],
+      "led_by": [
+        "Tankbustas",
+        "Lootas",
+        "Boyz",
+        "Nobz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Big Mek in Mega Armour": {
+      "name": "Big Mek in Mega Armour",
+      "pts": 90,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "Meganobz"
+      ],
+      "led_by": [
+        "Meganobz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Painboy": {
+      "name": "Painboy",
+      "pts": 80,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "Burna Boyz",
+        "Tankbustas",
+        "Lootas",
+        "Boyz",
+        "Nobz"
+      ],
+      "led_by": [
+        "Burna Boyz",
+        "Tankbustas",
+        "Lootas",
+        "Boyz",
+        "Nobz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Weirdboy": {
+      "name": "Weirdboy",
+      "pts": 65,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "Boyz"
+      ],
+      "led_by": [
+        "Boyz"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Leader"
+      ]
+    },
+    "Boyz": {
+      "name": "Boyz",
+      "pts": 80,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10
+    },
+    "Gretchin": {
+      "name": "Gretchin",
+      "pts": 40,
+      "sizes": [
+        11
+      ],
+      "epic_hero": false,
+      "models": 11
+    },
+    "Nobz": {
+      "name": "Nobz",
+      "pts": 105,
+      "sizes": [
+        5
+      ],
+      "epic_hero": false,
+      "models": 5
+    },
+    "Meganobz": {
+      "name": "Meganobz",
+      "pts": 65,
+      "sizes": [
+        2
+      ],
+      "epic_hero": false,
+      "models": 2
+    },
+    "Lootas": {
+      "name": "Lootas",
+      "pts": null,
+      "sizes": [],
+      "epic_hero": false
+    },
+    "Burna Boyz": {
+      "name": "Burna Boyz",
+      "pts": null,
+      "sizes": [],
+      "epic_hero": false
+    },
+    "Tankbustas": {
+      "name": "Tankbustas",
+      "pts": 140,
+      "sizes": [
+        6
+      ],
+      "epic_hero": false,
+      "models": 6
+    },
+    "Deff Dread": {
+      "name": "Deff Dread",
+      "pts": 120,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Killa Kans": {
+      "name": "Killa Kans",
+      "pts": 125,
+      "sizes": [
+        3
+      ],
+      "epic_hero": false,
+      "models": 3,
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Gorkanaut": {
+      "name": "Gorkanaut",
+      "pts": 265,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Morkanaut": {
+      "name": "Morkanaut",
+      "pts": 280,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Mek Gunz": {
+      "name": "Mek Gunz",
+      "pts": 50,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1
+    },
+    "Battlewagon": {
+      "name": "Battlewagon",
+      "pts": 160,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D6",
+        "Firing Deck 11"
+      ]
+    }
+  }
+}

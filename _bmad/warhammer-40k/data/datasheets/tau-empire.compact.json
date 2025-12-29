@@ -1,0 +1,277 @@
+{
+  "faction": "tau-empire",
+  "last_updated": "2025-12-28T01:36:34.207165+00:00",
+  "schema": "compact-v1",
+  "unit_count": 20,
+  "units": {
+    "Commander Shadowsun": {
+      "name": "Commander Shadowsun",
+      "pts": 100,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "core": [
+        "Infiltrators",
+        "Lone Operative",
+        "Stealth"
+      ]
+    },
+    "Commander Farsight": {
+      "name": "Commander Farsight",
+      "pts": 85,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "leads": [
+        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
+      ],
+      "led_by": [
+        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ]
+    },
+    "Longstrike": {
+      "name": "Longstrike",
+      "pts": 140,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Cadre Fireblade": {
+      "name": "Cadre Fireblade",
+      "pts": 50,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "Breacher Team",
+        "Strike Team"
+      ],
+      "led_by": [
+        "Breacher Team",
+        "Strike Team"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Commander in Coldstar Battlesuit": {
+      "name": "Commander in Coldstar Battlesuit",
+      "pts": 95,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
+      ],
+      "led_by": [
+        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ]
+    },
+    "Commander in Enforcer Battlesuit": {
+      "name": "Commander in Enforcer Battlesuit",
+      "pts": 80,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
+      ],
+      "led_by": [
+        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ]
+    },
+    "Crisis Battlesuits": {
+      "name": "Crisis Battlesuits",
+      "pts": 200,
+      "sizes": [
+        3
+      ],
+      "epic_hero": false,
+      "models": 3,
+      "core": [
+        "Deep Strike"
+      ]
+    },
+    "Riptide Battlesuit": {
+      "name": "Riptide Battlesuit",
+      "pts": 200,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Broadside Battlesuits": {
+      "name": "Broadside Battlesuits",
+      "pts": 80,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1
+    },
+    "Ghostkeel Battlesuit": {
+      "name": "Ghostkeel Battlesuit",
+      "pts": 160,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D3",
+        "Infiltrators",
+        "Lone Operative",
+        "Stealth"
+      ]
+    },
+    "Stealth Battlesuits": {
+      "name": "Stealth Battlesuits",
+      "pts": 110,
+      "sizes": [
+        5
+      ],
+      "epic_hero": false,
+      "models": 5,
+      "core": [
+        "Infiltrators",
+        "Stealth"
+      ]
+    },
+    "Strike Team": {
+      "name": "Strike Team",
+      "pts": 70,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10
+    },
+    "Breacher Team": {
+      "name": "Breacher Team",
+      "pts": 90,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10
+    },
+    "Pathfinder Team": {
+      "name": "Pathfinder Team",
+      "pts": 90,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10,
+      "core": [
+        "Scouts 7\""
+      ]
+    },
+    "Hammerhead Gunship": {
+      "name": "Hammerhead Gunship",
+      "pts": 145,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Sky Ray Gunship": {
+      "name": "Sky Ray Gunship",
+      "pts": 150,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Devilfish": {
+      "name": "Devilfish",
+      "pts": 85,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Piranhas": {
+      "name": "Piranhas",
+      "pts": 60,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise 1",
+        "Scouts 9\""
+      ]
+    },
+    "Kroot Carnivores": {
+      "name": "Kroot Carnivores",
+      "pts": 65,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10,
+      "core": [
+        "Scouts 7\"",
+        "Stealth"
+      ]
+    },
+    "Kroot Farstalkers": {
+      "name": "Kroot Farstalkers",
+      "pts": 85,
+      "sizes": [
+        12
+      ],
+      "epic_hero": false,
+      "models": 12,
+      "core": [
+        "Infiltrators",
+        "Stealth"
+      ]
+    }
+  }
+}

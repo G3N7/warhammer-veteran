@@ -1,0 +1,2882 @@
+{
+  "faction": "astra-militarum",
+  "last_updated": "2025-12-28T01:37:19.129655+00:00",
+  "source": "wahapedia",
+  "schema_version": "2.0",
+  "unit_count": 20,
+  "units": {
+    "Lord Solar Leontus": {
+      "name": "Lord Solar Leontus",
+      "url_slug": "Lord-Solar-Leontus",
+      "stats": {
+        "M": "12",
+        "T": "4",
+        "Sv": "3+",
+        "W": "8",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Sol\u2019s Righteous Gaze pistol",
+            "range": "12\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "8",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Conquest",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Konstantin\u2019s hooves extra attacks",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "extra attacks"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Voice of Command"
+        ],
+        "unit": [
+          {
+            "name": "The Lord Solar",
+            "description": "At the start of your Command phase , if this model is on the battlefield, you gain 1CP. The Collegiate Astrolex: After both players have deployed their armies, select up to three ASTRA MILITARUM units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+          },
+          {
+            "name": "This OFFICER can issue up to 3 Orders to",
+            "description": "REGIMENT units SQUADRON units TITANIC units"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 130
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": "This model can be attached to the following units: Attilan Rough Riders Cadian Shock Troops Catachan Jungle Fighters Death Riders Kasrkin Krieg Combat Engineers Death Korps Of Krieg",
+      "led_by": [
+        "Attilan Rough Riders Cadian Shock Troops Catachan Jungle Fighters Death Riders Kasrkin Krieg Combat Engineers Death Korps Of Krieg"
+      ],
+      "can_lead": [
+        "the following units: Attilan Rough Riders Cadian Shock Troops Catachan Jungle Fighters Death Riders Kasrkin Krieg Combat Engineers Death Korps Of Krieg"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Lord Solar Leontus \u2013 EPIC HERO This model is equipped with: Sol\u2019s Righteous Gaze; Conquest; Konstantin\u2019s hooves."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Cadian Castellan": {
+      "name": "Cadian Castellan",
+      "url_slug": "Cadian-Castellan",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "5+",
+        "W": "4",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Boltgun rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Bolt pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Laspistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Plasma pistol \u2013 standard pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Plasma pistol \u2013 supercharge hazardous pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "hazardous",
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chainsword",
+            "range": "Melee",
+            "A": "5",
+            "skill": "3+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Power fist",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Power weapon",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "4",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Voice of Command"
+        ],
+        "unit": [
+          {
+            "name": "Senior Officer",
+            "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability. Get Back in the Fight: While this model is leading a unit, that unit is eligible to shoot in a turn in which it Fell Back ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 55
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": "This model can be attached to the following units: Cadian Shock Troops Kasrkin",
+      "led_by": [
+        "Cadian Shock Troops Kasrkin"
+      ],
+      "can_lead": [
+        "the following units: Cadian Shock Troops Kasrkin"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Cadian Castellan This model is equipped with: laspistol; chainsword."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Cadian Command Squad": {
+      "name": "Cadian Command Squad",
+      "url_slug": "Cadian-Command-Squad",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "5+",
+        "W": "3",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Bolt pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Grenade launcher \u2013 frag blast",
+            "range": "24\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Grenade launcher \u2013 krak",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-2",
+            "D": "D3",
+            "keywords": []
+          },
+          {
+            "name": "Lasgun rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Laspistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Meltagun melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          },
+          {
+            "name": "Plasma gun \u2013 standard rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Plasma gun \u2013 supercharge hazardous rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "rapid fire 1",
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Plasma pistol \u2013 standard pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Plasma pistol \u2013 supercharge hazardous pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "hazardous",
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chainsword",
+            "range": "Melee",
+            "A": "4",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Power fist",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "6",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Power weapon",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "4",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Voice of Command"
+        ],
+        "unit": [
+          {
+            "name": "Cadia Stands!",
+            "description": "While this unit contains an OFFICER , each time a ranged attack targets this unit, if this unit is within range of an objective marker you control, models in this unit have the Benefit of Cover against that attack."
+          },
+          {
+            "name": "Master Vox",
+            "description": "Each time the OFFICER in the bearer\u2019s unit issues an Order , it can issue it to an eligible unit up to 24\" away."
+          },
+          {
+            "name": "Medi-pack",
+            "description": "At the start of your Command phase , if the bearer\u2019s unit is below its Starting Strength , you can return up to D3 destroyed PLATOON models (excluding CHARACTERS ) to this unit."
+          },
+          {
+            "name": "Regimental Standard",
+            "description": "Add 1 to the Objective Control characteristic of models in the bearer\u2019s unit."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 5,
+          "points": 65
+        }
+      ],
+      "unit_sizes": [
+        5
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": "This model can be attached to the following unit: Cadian Shock Troops",
+      "led_by": [
+        "Cadian Shock Troops"
+      ],
+      "can_lead": [
+        "the following unit: Cadian Shock Troops"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Cadian Commander 4 Cadian Veteran Guardsmen The Cadian Commander is equipped with: laspistol; chainsword. 1 Cadian Veteran Guardsman is equipped with: las pistol; chainsword. 1 other Cadian Veteran Guardsman is equipped with: lasgun; master vox; close combat weapon. 1 other Cadian Veteran Guardsman is equipped with: lasgun; medi-pack; close combat weapon. 1 other Cadian Veteran Guardsman is equipped with: lasgun; regimental standard; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Tank Commander": {
+      "name": "Tank Commander",
+      "url_slug": "Tank-Commander",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Commissar": {
+      "name": "Commissar",
+      "url_slug": "Commissar",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "5+",
+        "W": "3",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Bolt pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Plasma pistol \u2013 standard pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Plasma pistol \u2013 supercharge hazardous pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "hazardous",
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chainsword",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Power weapon",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "4",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Voice of Command"
+        ],
+        "unit": [
+          {
+            "name": "Summary Execution",
+            "description": "Once per battle round , at the start of any phase, you can select one friendly ASTRA MILITARUM INFANTRY unit that is Battle-shocked and within 12\" of this model. If you do, one model in that unit is destroyed, and that unit is then no longer Battle-shocked. Political Overwatch: While another OFFICER model is in the same unit as this model, you can re-roll Battle-shock test s taken for that unit."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 30
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": "This model can be attached to the following units: Cadian Shock Troops Catachan Jungle Fighters Kasrkin Krieg Combat Engineers Tempestus Scions Death Korps Of Krieg",
+      "led_by": [
+        "Cadian Shock Troops Catachan Jungle Fighters Kasrkin Krieg Combat Engineers Tempestus Scions Death Korps Of Krieg"
+      ],
+      "can_lead": [
+        "the following units: Cadian Shock Troops Catachan Jungle Fighters Kasrkin Krieg Combat Engineers Tempestus Scions Death Korps Of Krieg"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Commissar This model is equipped with: bolt pistol; chainsword."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Platoon Command Squad": {
+      "name": "Platoon Command Squad",
+      "url_slug": "Platoon-Command-Squad",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Catachan Jungle Fighters": {
+      "name": "Catachan Jungle Fighters",
+      "url_slug": "Catachan-Jungle-Fighters",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "5+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Lasgun rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Laspistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Scouts 6\""
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "Jungle Fighters",
+            "description": "Each time a model in this unit makes a melee attack, if this unit made a Charge move or was charged this turn, add 1 to the Wound roll ."
+          },
+          {
+            "name": "Vox-caster",
+            "description": "Each time you target the bearer\u2019s unit with a Stratagem , roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6\": on a 5+, you gain 1CP."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Catachan Command Squad Commissar Lord Solar Leontus Ministorum Priest Primaris Psyker Tech-Priest Enginseer Inquisitor Inquisitor Coteaz Inquisitor Draxus Inquisitor Greyfax \u2018Iron Hand\u2019 Straken Inquisitor Eisenhorn Inquisitor In Terminator Armour Inquisitor Ostromandeus Sergeant Harker"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 10,
+          "points": 65
+        }
+      ],
+      "unit_sizes": [
+        10
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Jungle Fighter Sergeant and 9 Jungle Fighters OR 2 Jungle Fighter Sergeants and 18 Jungle Fighters Every Jungle Fighter Sergeant is equipped with: laspistol; close combat weapon. Every Jungle Fighter is equipped with: lasgun; close combat weapon. This unit can have up to two Leader units attached to it, provided no more than one of those units is a COMMAND SQUAD unit. If it does, and this Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths ."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Cadian Shock Troops": {
+      "name": "Cadian Shock Troops",
+      "url_slug": "Cadian-Shock-Troops",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "5+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Bolt pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Grenade launcher \u2013 frag blast",
+            "range": "24\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Grenade launcher \u2013 krak",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-2",
+            "D": "D3",
+            "keywords": []
+          },
+          {
+            "name": "Lasgun rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Laspistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Meltagun melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          },
+          {
+            "name": "Plasma gun \u2013 standard rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Plasma gun \u2013 supercharge hazardous rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "rapid fire 1",
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Sergeant's autogun",
+            "range": "24\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chainsword",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "unit": [
+          {
+            "name": "Shock Troops",
+            "description": "At the end of your Command phase , if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+          },
+          {
+            "name": "Vox-caster",
+            "description": "Each time you target the bearer\u2019s unit with a Stratagem , roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6\": on a 5+, you gain 1CP."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Cadian Castellan Cadian Command Squad Commissar Lord Solar Leontus Ministorum Priest Primaris Psyker Tech-Priest Enginseer Ursula Creed Inquisitor Inquisitor Coteaz Inquisitor Draxus Inquisitor Greyfax Hell\u2019s Last Inquisitor Eisenhorn Inquisitor In Terminator Armour Inquisitor Ostromandeus"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 10,
+          "points": 65
+        }
+      ],
+      "unit_sizes": [
+        10
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Shock Trooper Sergeant and 9 Shock Troopers OR 2 Shock Trooper Sergeants and 18 Shock Troopers Every Shock Trooper Sergeant is equipped with: laspistol; chainsword. Every Shock Trooper is equipped with: lasgun; close combat weapon. This unit can have up to two Leader units attached to it, provided no more than one of those units is a COMMAND SQUAD unit. If it does, and this Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths ."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Kasrkin": {
+      "name": "Kasrkin",
+      "url_slug": "Kasrkin",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "4+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Bolt pistol PISTOL",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Grenade launcher \u2013 frag blast",
+            "range": "24\"",
+            "A": "D3",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Grenade launcher \u2013 krak",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-2",
+            "D": "D3",
+            "keywords": []
+          },
+          {
+            "name": "Hot-shot lasgun rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "3",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Hot-shot laspistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "3",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Hot-shot marksman rifle heavy",
+            "range": "36\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "4",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "heavy",
+              "precision"
+            ]
+          },
+          {
+            "name": "Hot-shot volley gun rapid fire 2",
+            "range": "30\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "rapid fire 2"
+            ]
+          },
+          {
+            "name": "Meltagun melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          },
+          {
+            "name": "Plasma gun \u2013 standard rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Plasma gun \u2013 supercharge hazardous rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "rapid fire 1",
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Plasma pistol \u2013 standard pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Plasma pistol \u2013 supercharge hazardous pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "hazardous",
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chainsword",
+            "range": "Melee",
+            "A": "4",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Power weapon",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "4",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Scouts 6\""
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "Warrior Elite",
+            "description": "Once per battle round , at the start of any phase, you can select one Order to affect this unit until the start of your next Command phase , in addition to any other Orders issued to this unit by an OFFICER model this battle round."
+          },
+          {
+            "name": "Vox-caster",
+            "description": "Each time you target the bearer\u2019s unit with a Stratagem , roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6\": on a 5+, you gain 1CP."
+          },
+          {
+            "name": "Melta Mine",
+            "description": "Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds , or 2D3 mortal wounds instead if it is a VEHICLE unit."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Cadian Castellan Commissar Lord Solar Leontus Ministorum Priest Primaris Psyker Tech-Priest Enginseer Ursula Creed"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 10,
+          "points": 110
+        }
+      ],
+      "unit_sizes": [
+        10
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Kasrkin Sergeant 9 Kasrkin Troopers The Kasrkin Sergeant is equipped with: hot-shot laspistol; chainsword. Every Kasrkin Trooper is equipped with: hot-shot lasgun; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Tempestus Scions": {
+      "name": "Tempestus Scions",
+      "url_slug": "Tempestus-Scions",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "4+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Bolt pistol PISTOL",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Grenade launcher \u2013 frag blast",
+            "range": "24\"",
+            "A": "D3",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Grenade launcher \u2013 krak",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-2",
+            "D": "D3",
+            "keywords": []
+          },
+          {
+            "name": "Hot-shot lasgun rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "3",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Hot-shot laspistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "3",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Hot-shot volley gun rapid fire 2",
+            "range": "30\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "rapid fire 2"
+            ]
+          },
+          {
+            "name": "Meltagun melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          },
+          {
+            "name": "Plasma gun \u2013 standard rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Plasma gun \u2013 supercharge hazardous rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "rapid fire 1",
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Plasma pistol \u2013 standard PISTOL",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Plasma pistol \u2013 supercharge HAZARDOUS PISTOL",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "hazardous",
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chainsword",
+            "range": "Melee",
+            "A": "4",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Power fist",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "6",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Power weapon",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "4",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "Storm Troopers",
+            "description": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target of that attack is an enemy unit within range of an objective marker , you can re-roll the Wound roll instead."
+          },
+          {
+            "name": "Vox-caster",
+            "description": "Each time you target the bearer\u2019s unit with a Stratagem , roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6\": on a 5+, you gain 1CP."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Commissar Militarum Tempestus Command Squad Ministorum Priest Primaris Psyker"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 5,
+          "points": 70
+        }
+      ],
+      "unit_sizes": [
+        5
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Tempestor 4-9 Tempestus Scions The Tempestor is equipped with: hot-shot laspistol; chainsword. Every Tempestus Scion is equipped with: hot-shot lasgun; close combat weapon. This unit can have up to two Leader units attached to it, provided no more than one of those units is a COMMAND SQUAD unit. If it does, and this Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths ."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Leman Russ Battle Tank": {
+      "name": "Leman Russ Battle Tank",
+      "url_slug": "Leman-Russ-Battle-Tank",
+      "stats": {
+        "M": "10",
+        "T": "11",
+        "Sv": "2+",
+        "W": "13",
+        "Ld": "7+",
+        "OC": "3"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Heavy bolter sustained hits 1",
+            "range": "36\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "heavy",
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Heavy flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Heavy stubber rapid fire 3",
+            "range": "36\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "rapid fire 3"
+            ]
+          },
+          {
+            "name": "Hunter-killer missile one shot",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6",
+            "keywords": [
+              "one shot"
+            ]
+          },
+          {
+            "name": "Lascannon",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": []
+          },
+          {
+            "name": "Leman Russ battle cannon blast",
+            "range": "48\"",
+            "A": "D6+3",
+            "skill": "4+",
+            "S": "10",
+            "AP": "-1",
+            "D": "3",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Multi-melta melta 2",
+            "range": "18\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          },
+          {
+            "name": "Plasma cannon \u2013 standard blast",
+            "range": "36\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Plasma cannon \u2013 supercharge blast hazardous",
+            "range": "36\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "blast",
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Storm bolter rapid fire 2",
+            "range": "24\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "A": "6",
+            "skill": "4+",
+            "S": "7",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          },
+          {
+            "name": "Armoured Spearhead",
+            "description": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 185
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Leman Russ Battle Tank This model is equipped with: lascannon; Leman Russ battle cannon; armoured tracks."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Rogal Dorn Battle Tank": {
+      "name": "Rogal Dorn Battle Tank",
+      "url_slug": "Rogal-Dorn-Battle-Tank",
+      "stats": {
+        "M": "10",
+        "T": "12",
+        "Sv": "2+",
+        "W": "18",
+        "Ld": "7+",
+        "OC": "5"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Castigator gatling cannon",
+            "range": "24\"",
+            "A": "12",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Coaxial autocannon",
+            "range": "48\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-1",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Heavy bolter sustained hits 1",
+            "range": "36\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "heavy",
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Heavy stubber rapid fire 3",
+            "range": "36\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "rapid fire 3"
+            ]
+          },
+          {
+            "name": "Meltagun melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          },
+          {
+            "name": "Multi-melta melta 2",
+            "range": "18\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          },
+          {
+            "name": "Oppressor cannon blast",
+            "range": "72\"",
+            "A": "D6+3",
+            "skill": "4+",
+            "S": "12",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Pulveriser cannon blast",
+            "range": "24\"",
+            "A": "D6",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-3",
+            "D": "3",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Twin battle cannon blast twin-linked",
+            "range": "48\"",
+            "A": "D6+3",
+            "skill": "4+",
+            "S": "10",
+            "AP": "-1",
+            "D": "3",
+            "keywords": [
+              "blast",
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "A": "6",
+            "skill": "4+",
+            "S": "7",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "Ablative Plating",
+            "description": "Once per battle, when an attack is allocated to this model, you change the Damage characteristic of that attack to 0."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 250
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Rogal Dorn Battle Tank This model is equipped with: castigator gatling cannon; heavy stubber; twin battle cannon; armoured tracks."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Baneblade": {
+      "name": "Baneblade",
+      "url_slug": "Baneblade",
+      "stats": {
+        "M": "12",
+        "T": "13",
+        "Sv": "2+",
+        "W": "24",
+        "Ld": "7+",
+        "OC": "8"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Baneblade cannon blast",
+            "range": "72\"",
+            "A": "3D6",
+            "skill": "4+",
+            "S": "12",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Coaxial autocannon",
+            "range": "48\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-1",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Demolisher cannon blast",
+            "range": "24\"",
+            "A": "D6+3",
+            "skill": "4+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Heavy stubber rapid fire 3",
+            "range": "36\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "rapid fire 3"
+            ]
+          },
+          {
+            "name": "Lascannon",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": []
+          },
+          {
+            "name": "Twin heavy bolter sustained hits 1 twin-linked",
+            "range": "36\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "heavy",
+              "sustained hits 1",
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Twin heavy flamer ignores cover torrent twin-linked",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "torrent",
+              "twin-linked",
+              "ignores cover"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "A": "6",
+            "skill": "4+",
+            "S": "8",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6+2"
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "Rolling Fortress",
+            "description": "Each time a ranged attack is allocated to an ASTRA MILITARUM model from your army, if that model is not fully visible to every model in the attacking unit because of this BANEBLADE model, that model has the Benefit of Cover against that attack."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 450
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Baneblade This model is equipped with: Baneblade cannon; coaxial autocannon; demolisher cannon; heavy stubber; 2 lascannons; twin heavy bolter; 2 twin heavy flamers; armoured tracks."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Basilisk": {
+      "name": "Basilisk",
+      "url_slug": "Basilisk",
+      "stats": {
+        "M": "10",
+        "T": "9",
+        "Sv": "3+",
+        "W": "11",
+        "Ld": "7+",
+        "OC": "3"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Earthshaker cannon blast indirect fire",
+            "range": "240\"",
+            "A": "D6+3",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "blast",
+              "indirect fire"
+            ]
+          },
+          {
+            "name": "Heavy bolter sustained hits 1",
+            "range": "36\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "heavy",
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Heavy flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Hunter-killer missile one shot",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6",
+            "keywords": [
+              "one shot"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          },
+          {
+            "name": "Earthshaker Rounds",
+            "description": "In your Shooting phase , after this model has shot, if one or more of those attacks made with its earthshaker cannon scored a hit against an enemy INFANTRY unit, until the start of your next Shooting phase, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 140
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Basilisk This model is equipped with: earthshaker cannon; heavy bolter; armoured tracks."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Manticore": {
+      "name": "Manticore",
+      "url_slug": "Manticore",
+      "stats": {
+        "M": "10",
+        "T": "10",
+        "Sv": "3+",
+        "W": "11",
+        "Ld": "7+",
+        "OC": "3"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Heavy bolter sustained hits 1",
+            "range": "36\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "heavy",
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Heavy flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Hunter-killer missile one shot",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6",
+            "keywords": [
+              "one shot"
+            ]
+          },
+          {
+            "name": "Storm eagle rockets",
+            "range": "120\"",
+            "A": "D6",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "anti-infantry 2+",
+              "blast",
+              "indirect fire"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          },
+          {
+            "name": "Furious Barrage",
+            "description": "In your Shooting phase , after this model has shot, select one enemy unit (excluding MONSTERS and VEHICLES ) that was hit by one or more of those attacks made with this model\u2019s storm eagle rockets. Until the start of your next Shooting phase, that enemy unit is staggered. While a unit is staggered, subtract 1 from the Objective Control characteristic of models in that unit (to a minimum of 1)."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 165
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Manticore This model is equipped with: heavy bolter; storm eagle rockets; armoured tracks."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Chimera": {
+      "name": "Chimera",
+      "url_slug": "Chimera",
+      "stats": {
+        "M": "10",
+        "T": "9",
+        "Sv": "3+",
+        "W": "11",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Heavy bolter sustained hits 1",
+            "range": "36\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "heavy",
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Heavy flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Heavy stubber rapid fire 3",
+            "range": "36\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "rapid fire 3"
+            ]
+          },
+          {
+            "name": "Hunter-killer missile one shot",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6",
+            "keywords": [
+              "one shot"
+            ]
+          },
+          {
+            "name": "Lasgun array rapid fire 6",
+            "range": "24\"",
+            "A": "6",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 6"
+            ]
+          },
+          {
+            "name": "Multi-laser",
+            "range": "36\"",
+            "A": "4",
+            "skill": "4+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Storm bolter rapid fire 2",
+            "range": "24\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Firing Deck 2"
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          },
+          {
+            "name": "Mobile Command Vehicle",
+            "description": "In your Command phase , one OFFICER model embarked within this TRANSPORT can issue Orders even though it is not on the battlefield. When doing so, measure distances to and from this TRANSPORT ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 85
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Chimera This model is equipped with: multi-laser; heavy bolter; lasgun array; armoured tracks."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": "This model has a transport capacity of 12 ASTRA MILITARUM INFANTRY models. Each OGRYN model takes up the space of 3 models. It cannot transport ARTILLERY models.",
+      "damaged_profile": null,
+      "role": null
+    },
+    "Armoured Sentinels": {
+      "name": "Armoured Sentinels",
+      "url_slug": "Armoured-Sentinels",
+      "stats": {
+        "M": "8",
+        "T": "8",
+        "Sv": "2+",
+        "W": "7",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Autocannon",
+            "range": "48\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-1",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Heavy flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Hunter-killer missile one shot",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6",
+            "keywords": [
+              "one shot"
+            ]
+          },
+          {
+            "name": "Lascannon",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": []
+          },
+          {
+            "name": "Multi-laser",
+            "range": "36\"",
+            "A": "4",
+            "skill": "4+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Missile launcher \u2013 frag blast heavy",
+            "range": "48\"",
+            "A": "D6",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "blast"
+            ]
+          },
+          {
+            "name": "Missile launcher \u2013 krak heavy",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-2",
+            "D": "D6",
+            "keywords": [
+              "heavy"
+            ]
+          },
+          {
+            "name": "Plasma cannon \u2013 standard blast",
+            "range": "36\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Plasma cannon \u2013 supercharge blast hazardous",
+            "range": "36\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "blast",
+              "hazardous"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Sentinel chainsaw",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise 1"
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          },
+          {
+            "name": "Mobile Hunter-killers",
+            "description": "Each time a model in this unit makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 65
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1-2 Armoured Sentinels Every model is equipped with: multi-laser; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Scout Sentinels": {
+      "name": "Scout Sentinels",
+      "url_slug": "Scout-Sentinels",
+      "stats": {
+        "M": "10",
+        "T": "7",
+        "Sv": "3+",
+        "W": "7",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Autocannon",
+            "range": "48\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-1",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Heavy flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Hunter-killer missile one shot",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6",
+            "keywords": [
+              "one shot"
+            ]
+          },
+          {
+            "name": "Lascannon",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": []
+          },
+          {
+            "name": "Multi-laser",
+            "range": "36\"",
+            "A": "4",
+            "skill": "4+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Missile launcher \u2013 frag blast heavy",
+            "range": "48\"",
+            "A": "D6",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "blast"
+            ]
+          },
+          {
+            "name": "Missile launcher \u2013 krak heavy",
+            "range": "48\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-2",
+            "D": "D6",
+            "keywords": [
+              "heavy"
+            ]
+          },
+          {
+            "name": "Plasma cannon \u2013 standard blast",
+            "range": "36\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Plasma cannon \u2013 supercharge blast hazardous",
+            "range": "36\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "blast",
+              "hazardous"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Sentinel chainsaw",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise 1",
+          "Scouts 9\""
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          },
+          {
+            "name": "Daring Recon",
+            "description": "At the start of your Shooting phase , select one enemy unit within 18\" of and visible to this unit. Until the end of the phase, each time a friendly ASTRA MILITARUM model makes an attack that targets that unit, re-roll a Hit roll of 1."
+          },
+          {
+            "name": "1-2 Scout Sentinels Every model is equipped with",
+            "description": "multi-laser; close combat weapon."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 55
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1-2 Scout Sentinels Every model is equipped with: multi-laser; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Bullgryns": {
+      "name": "Bullgryns",
+      "url_slug": "Bullgryns",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Ogryn Bodyguard": {
+      "name": "Ogryn Bodyguard",
+      "url_slug": "Ogryn-Bodyguard",
+      "stats": {
+        "M": "6",
+        "T": "6",
+        "Sv": "5+",
+        "W": "6",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Grenadier gauntlet blast",
+            "range": "18\"",
+            "A": "D6",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Ripper gun rapid fire 3",
+            "range": "18\"",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "rapid fire 3"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Bullgryn maul",
+            "range": "Melee",
+            "A": "5",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Huge knife",
+            "range": "Melee",
+            "A": "6",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Ripper gun",
+            "range": "Melee",
+            "A": "5",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Feel No Pain 6+"
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "Ogryn Bodyguard",
+            "description": "While one or more OFFICER models are in the same unit as this model, those OFFICER models have the Feel No Pain 4+ ability."
+          },
+          {
+            "name": "Brute Shield",
+            "description": "The bearer has a 4+ invulnerable save ."
+          },
+          {
+            "name": "Slabshield",
+            "description": "The bearer has a Wounds characteristic of 7."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 40
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Ogryn Bodyguard This model is equipped with: ripper gun; close combat weapon; huge knife."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    }
+  }
+}

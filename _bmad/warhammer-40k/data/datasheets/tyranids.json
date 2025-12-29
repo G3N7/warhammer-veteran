@@ -1,0 +1,1776 @@
+{
+  "faction": "tyranids",
+  "last_updated": "2025-12-28T01:37:19.163053+00:00",
+  "source": "wahapedia",
+  "schema_version": "2.0",
+  "unit_count": 20,
+  "units": {
+    "Hive Tyrant": {
+      "name": "Hive Tyrant",
+      "url_slug": "Hive-Tyrant",
+      "stats": {
+        "M": "8",
+        "T": "10",
+        "Sv": "2+",
+        "W": "10",
+        "Ld": "7+",
+        "OC": "3"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Heavy venom cannon blast",
+            "range": "36\"",
+            "A": "D3",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "heavy",
+              "blast"
+            ]
+          },
+          {
+            "name": "Stranglethorn cannon blast",
+            "range": "36\"",
+            "A": "D6+1",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "blast"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Monstrous bonesword and lash whip twin-linked",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Monstrous scything talons extra attacks",
+            "range": "Melee",
+            "A": "4",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "extra attacks"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Leader"
+        ],
+        "faction": [
+          "Shadow in the Warp , Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Will of the Hive Mind",
+            "description": "Once per battle round , one model from your army with this ability can use it when a friendly TYRANIDS unit within 12\" of that model is targeted with a Stratagem . If it does, reduce the CP cost of that usage of that Stratagem by 1CP. Onslaught (Aura, Psychic): While a friendly TYRANIDS unit is within 6\" of this model, ranged weapons equipped by models in that unit have the [ASSAULT] and [LETHAL HITS] abilities."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 195
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": "This model can be attached to the following unit: Tyrant Guard",
+      "led_by": [
+        "Tyrant Guard"
+      ],
+      "can_lead": [
+        "the following unit: Tyrant Guard"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Hive Tyrant This model is equipped with: monstrous bonesword and lash whip; monstrous scything talons."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Winged Hive Tyrant": {
+      "name": "Winged Hive Tyrant",
+      "url_slug": "Winged-Hive-Tyrant",
+      "stats": {
+        "M": "12",
+        "T": "9",
+        "Sv": "2+",
+        "W": "10",
+        "Ld": "7+",
+        "OC": "3"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Heavy venom cannon blast",
+            "range": "36\"",
+            "A": "D3",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "heavy",
+              "blast"
+            ]
+          },
+          {
+            "name": "Stranglethorn cannon blast",
+            "range": "36\"",
+            "A": "D6+1",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "blast"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Monstrous bonesword and lash whip twin-linked",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Monstrous scything talons extra attacks",
+            "range": "Melee",
+            "A": "4",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "extra attacks"
+            ]
+          },
+          {
+            "name": "Tyrant talons",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Deep Strike"
+        ],
+        "faction": [
+          "Shadow in the Warp , Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Will of the Hive Mind",
+            "description": "Once per battle round , one model from your army with this ability can use it when a friendly TYRANIDS unit within 12\" of that model is targeted with a Stratagem . If it does, reduce the CP cost of that usage of that Stratagem by 1CP. Paroxysm (Psychic): At the start of the Fight phase , you can select one enemy unit within 12\" of and visible to this model and roll one D6: on a 1, this PSYKER suffers D3 mortal wounds ; on a 2+, until the end of the phase, subtract 1 from the Attacks characteristic of weapons equipped by models in that unit."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 170
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Winged Hive Tyrant This model is equipped with: monstrous bonesword and lash whip; Tyrant talons."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "The Swarmlord": {
+      "name": "The Swarmlord",
+      "url_slug": "The-Swarmlord",
+      "stats": {
+        "M": "8",
+        "T": "10",
+        "Sv": "2+",
+        "W": "10",
+        "Ld": "7+",
+        "OC": "3"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Synaptic pulse psychic torrent",
+            "range": "18\"",
+            "A": "D6+3",
+            "skill": "N/A",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "torrent"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Bone sabres twin-linked",
+            "range": "Melee",
+            "A": "8",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "twin-linked"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Leader"
+        ],
+        "faction": [
+          "Shadow in the Warp , Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Hive Commander",
+            "description": "At the start of your Command phase , if this model is on the battlefield, you gain 1CP. Malign Presence (Aura): If this model is your WARLORD , each time your opponent targets a unit from their army with a Stratagem , if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP. Designer\u2019s Note: This ability takes precedence over the Lord of Deceit ability presented in the Balance Dataslate June 2024. Domination of the Hive Mind (Aura): While a friendly TYRANIDS unit is within 9\" of this model, that unit is within your army\u2019s Synapse Range ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 220
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": "This model can be attached to the following unit: Tyrant Guard",
+      "led_by": [
+        "Tyrant Guard"
+      ],
+      "can_lead": [
+        "the following unit: Tyrant Guard"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Swarmlord \u2013 EPIC HERO This model is equipped with: Synaptic pulse; bone sabres."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Tervigon": {
+      "name": "Tervigon",
+      "url_slug": "Tervigon",
+      "stats": {
+        "M": "8",
+        "T": "11",
+        "Sv": "2+",
+        "W": "16",
+        "Ld": "7+",
+        "OC": "5"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Stinger salvoes",
+            "range": "24\"",
+            "A": "8",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Massive crushing claws",
+            "range": "Melee",
+            "A": "4",
+            "skill": "4+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": []
+          },
+          {
+            "name": "Massive scything talons \u2013 strike",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-2",
+            "D": "D6",
+            "keywords": []
+          },
+          {
+            "name": "Massive scything talons \u2013 sweep",
+            "range": "Melee",
+            "A": "8",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "faction": [
+          "Shadow in the Warp , Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Spawn Termagants",
+            "description": "In your Command phase , you can select one friendly TERMAGANTS unit within 6\" of this model and return up to D3+3 destroyed models to that unit. A TERMAGANTS unit cannot be selected for this ability more than once per phase. Brood Progenitor (Aura, Psychic): While a friendly TERMAGANTS unit is within 6\" of this model, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 160
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Tervigon This model is equipped with: stinger salvoes; massive scything talons."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Tyrannofex": {
+      "name": "Tyrannofex",
+      "url_slug": "Tyrannofex",
+      "stats": {
+        "M": "9",
+        "T": "12",
+        "Sv": "2+",
+        "W": "16",
+        "Ld": "8+",
+        "OC": "5"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Acid spray torrent",
+            "range": "18\"",
+            "A": "D6+6",
+            "skill": "N/A",
+            "S": "6",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "torrent"
+            ]
+          },
+          {
+            "name": "Fleshborer hive heavy sustained hits 1 twin-linked",
+            "range": "24\"",
+            "A": "20",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "sustained hits 1",
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Rupture cannon heavy",
+            "range": "48\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "18",
+            "AP": "-4",
+            "D": "D6+6",
+            "keywords": [
+              "heavy"
+            ]
+          },
+          {
+            "name": "Stinger salvoes",
+            "range": "24\"",
+            "A": "8",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Powerful limbs",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "8",
+            "AP": "0",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "faction": [
+          "Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Resilient Organism",
+            "description": "Once per battle, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 200
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Tyrannofex This model is equipped with: fleshborer hive; stinger salvoes; powerful limbs."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Exocrine": {
+      "name": "Exocrine",
+      "url_slug": "Exocrine",
+      "stats": {
+        "M": "8",
+        "T": "10",
+        "Sv": "3+",
+        "W": "14",
+        "Ld": "8+",
+        "OC": "4"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Bio-plasmic cannon blast heavy",
+            "range": "36\"",
+            "A": "D6+3",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-3",
+            "D": "3",
+            "keywords": [
+              "heavy",
+              "blast"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Powerful limbs",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "7",
+            "AP": "0",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Symbiotic Targeting",
+            "description": "In your Shooting phase , after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targets that unit, re-roll a Hit roll of 1."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 140
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Exocrine This model is equipped with: bio-plasmic cannon; powerful limbs."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Carnifexes": {
+      "name": "Carnifexes",
+      "url_slug": "Carnifexes",
+      "stats": {
+        "M": "8",
+        "T": "9",
+        "Sv": "2+",
+        "W": "8",
+        "Ld": "8+",
+        "OC": "3"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Bio-plasma assault blast",
+            "range": "12\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "assault",
+              "blast"
+            ]
+          },
+          {
+            "name": "Deathspitters with slimer maggots",
+            "range": "24\"",
+            "A": "6",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Devourers with brainleech worms",
+            "range": "18\"",
+            "A": "12",
+            "skill": "4+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Heavy venom cannon blast",
+            "range": "36\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "heavy",
+              "blast"
+            ]
+          },
+          {
+            "name": "Spine banks assault",
+            "range": "6\"",
+            "A": "5",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "assault"
+            ]
+          },
+          {
+            "name": "Stranglethorn cannon blast",
+            "range": "36\"",
+            "A": "D6+1",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "blast"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Carnifex crushing claws",
+            "range": "Melee",
+            "A": "4",
+            "skill": "4+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": []
+          },
+          {
+            "name": "Carnifex extra scything talons extra attacks",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "extra attacks"
+            ]
+          },
+          {
+            "name": "Carnifex scything talons",
+            "range": "Melee",
+            "A": "6",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Chitinous claws and teeth",
+            "range": "Melee",
+            "A": "4",
+            "skill": "4+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise 1"
+        ],
+        "faction": [
+          "Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Blistering Assault",
+            "description": "Each time an enemy unit is selected to shoot, after that unit has shot, if any models from this unit lost one or more wounds as a result of those attacks, this unit can make a Blistering Assault move. If it does, roll one D6, adding 2 to the result: each model in this unit can be moved a distance in inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit. When doing so, those models can be moved within Engagement Range of that enemy unit. Each unit can only make one Blistering Assault move per phase."
+          },
+          {
+            "name": "1-2 Carnifexes Every model is equipped with",
+            "description": "Carnifex scything talons; Carnifex extra scything talons; chitinous claws and teeth."
+          },
+          {
+            "name": "This unit can be led by the following unit",
+            "description": "Old One Eye"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 90
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1-2 Carnifexes Every model is equipped with: Carnifex scything talons; Carnifex extra scything talons; chitinous claws and teeth."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Screamer-Killers": {
+      "name": "Screamer-Killers",
+      "url_slug": "Screamer-Killers",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Haruspex": {
+      "name": "Haruspex",
+      "url_slug": "Haruspex",
+      "stats": {
+        "M": "8",
+        "T": "11",
+        "Sv": "3+",
+        "W": "14",
+        "Ld": "8+",
+        "OC": "4"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Grasping tongue",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-2",
+            "D": "D6+1",
+            "keywords": [
+              "precision"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Ravenous maw",
+            "range": "Melee",
+            "A": "14",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Shovelling claws extra attacks",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "14",
+            "AP": "-2",
+            "D": "D6+1",
+            "keywords": [
+              "extra attacks"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Grisly Spectacle",
+            "description": "Each time this model is selected to fight, after resolving its attacks, if one or more enemy units were destroyed by those attacks, each enemy unit within 6\" of this model must take a Battle-shock test ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 125
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Haruspex This model is equipped with: grasping tongue; ravenous maw; shovelling claws."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Maleceptor": {
+      "name": "Maleceptor",
+      "url_slug": "Maleceptor",
+      "stats": {
+        "M": "8",
+        "T": "11",
+        "Sv": "3+",
+        "W": "14",
+        "Ld": "7+",
+        "OC": "4"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Psychic overload blast psychic",
+            "range": "18\"",
+            "A": "D6+3",
+            "skill": "3+",
+            "S": "10",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "blast"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Massive scything talons \u2013 strike",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-2",
+            "D": "D6+1",
+            "keywords": []
+          },
+          {
+            "name": "Massive scything talons \u2013 sweep",
+            "range": "Melee",
+            "A": "6",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "Shadow in the Warp , Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Encephalic Diffusion (Aura, Psychic)",
+            "description": "While an enemy unit is within 6\" of this model, each time a model in that unit makes an attack, subtract 1 from the Hit roll , and, if that enemy unit is Below Half-strength , subtract 1 from the Wound roll as well."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 170
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Maleceptor This model is equipped with: psychic overload; massive scything talons."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Zoanthropes": {
+      "name": "Zoanthropes",
+      "url_slug": "Zoanthropes",
+      "stats": {
+        "M": "5",
+        "T": "5",
+        "Sv": "5+",
+        "W": "3",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Warp Blast \u2013 witchfire blast psychic",
+            "range": "24\"",
+            "A": "D3",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-2",
+            "D": "D3",
+            "keywords": [
+              "blast",
+              "blast"
+            ]
+          },
+          {
+            "name": "Warp Blast \u2013 focused witchfire",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": [
+              "lethal hits",
+              "blast"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chitinous claws and teeth",
+            "range": "Melee",
+            "A": "2",
+            "skill": "5+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Shadow in the Warp , Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Spirit Leech (Aura, Psychic)",
+            "description": "While an enemy unit is within 6\" of this unit, if this unit contains a Neurothrope, each time that enemy unit fails a Battle-shock test , it suffers D3 mortal wounds and one model in this unit regains up to D3 lost wounds. Warp Field (Aura, Psychic): While a friendly TYRANIDS unit is within 6\" of this unit, models in that unit have a 6+ invulnerable save ."
+          },
+          {
+            "name": "This unit can be led by the following unit",
+            "description": "Neurotyrant"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 3,
+          "points": 100
+        }
+      ],
+      "unit_sizes": [
+        3
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Neurothrope 2-5 Zoanthropes Every model is equipped with: Warp Blast; chitinous claws and teeth."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Neurotyrant": {
+      "name": "Neurotyrant",
+      "url_slug": "Neurotyrant",
+      "stats": {
+        "M": "6",
+        "T": "8",
+        "Sv": "4+",
+        "W": "9",
+        "Ld": "7+",
+        "OC": "3"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Psychic scream ignores cover psychic torrent",
+            "range": "18\"",
+            "A": "2D6",
+            "skill": "N/A",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Neurotyrant claws and lashes",
+            "range": "Melee",
+            "A": "6",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Synapse , Shadow in the Warp"
+        ],
+        "unit": [
+          {
+            "name": "Node Lash (Psychic)",
+            "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll . If the target is Battle-shocked , add 1 to the Wound roll as well. Psychic Terror (Psychic): If one or more models from your army with this ability are on the battlefield when you unleash the Shadow in the Warp , subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a result. Neuroloids: In your Command phase , you can select up to two friendly TYRANIDS units within 18\" of this model\u2019s unit. Until the start of your next Command phase, the selected units are always considered to be within Synapse Range of your army. Designer\u2019s Note: Place a Neuroloid token next to each selected unit to remind you."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 105
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": "This model can be attached to the following units: Neurogaunts Tyrant Guard Zoanthropes",
+      "led_by": [
+        "Neurogaunts Tyrant Guard Zoanthropes"
+      ],
+      "can_lead": [
+        "the following units: Neurogaunts Tyrant Guard Zoanthropes"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Neurotyrant This model is equipped with: Psychic Scream; Neurotyrant claws and lashes."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Termagants": {
+      "name": "Termagants",
+      "url_slug": "Termagants",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "5+",
+        "W": "1",
+        "Ld": "8+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Fleshborer assault",
+            "range": "18\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "assault"
+            ]
+          },
+          {
+            "name": "Shardlauncher blast heavy",
+            "range": "18\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "blast"
+            ]
+          },
+          {
+            "name": "Spike rifle heavy",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "heavy"
+            ]
+          },
+          {
+            "name": "Strangleweb assault",
+            "range": "18\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "2",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "assault",
+              "devastating wounds",
+              "torrent"
+            ]
+          },
+          {
+            "name": "Termagant devourer",
+            "range": "18\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Termagant spinefists assault pistol twin-linked",
+            "range": "12\"",
+            "A": "2",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "assault",
+              "twin-linked",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chitinous claws and teeth",
+            "range": "Melee",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Skulking Horrors",
+            "description": "Once per turn, when an enemy unit ends a Normal , Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\"."
+          },
+          {
+            "name": "10-20 Termagants Every model is equipped with",
+            "description": "fleshborer; chitinous claws and teeth."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 10,
+          "points": 60
+        }
+      ],
+      "unit_sizes": [
+        10
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "10-20 Termagants Every model is equipped with: fleshborer; chitinous claws and teeth."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Hormagaunts": {
+      "name": "Hormagaunts",
+      "url_slug": "Hormagaunts",
+      "stats": {
+        "M": "10",
+        "T": "3",
+        "Sv": "5+",
+        "W": "1",
+        "Ld": "8+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Hormagaunt talons",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "3",
+            "AP": "-1",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Bounding Leap",
+            "description": "This unit is eligible to declare a charge in a turn in which it Advanced ."
+          },
+          {
+            "name": "10-20 Hormagaunts Every model is equipped with",
+            "description": "Hormagaunt talons."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 10,
+          "points": 65
+        }
+      ],
+      "unit_sizes": [
+        10
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "10-20 Hormagaunts Every model is equipped with: Hormagaunt talons."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Barbgaunts": {
+      "name": "Barbgaunts",
+      "url_slug": "Barbgaunts",
+      "stats": {
+        "M": "6",
+        "T": "4",
+        "Sv": "4+",
+        "W": "2",
+        "Ld": "8+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Barblauncher blast heavy",
+            "range": "24\"",
+            "A": "D6",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "blast"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chitinous claws and teeth",
+            "range": "Melee",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Disruption Bombardment",
+            "description": "In your Shooting phase , after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the end of your opponent\u2019s next turn, that enemy unit is disrupted. While a unit is disrupted, subtract 2 from its Move characteristic and subtract 2 from Advance and Charge rolls made for it."
+          },
+          {
+            "name": "5-10 Barbgaunts Every model is equipped with",
+            "description": "barblauncher; chitinous claws and teeth."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 5,
+          "points": 55
+        }
+      ],
+      "unit_sizes": [
+        5
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "5-10 Barbgaunts Every model is equipped with: barblauncher; chitinous claws and teeth."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Tyranid Warriors": {
+      "name": "Tyranid Warriors",
+      "url_slug": "Tyranid-Warriors-with-Melee-Bio-weapons",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Genestealers": {
+      "name": "Genestealers",
+      "url_slug": "Genestealers",
+      "stats": {
+        "M": "8",
+        "T": "4",
+        "Sv": "5+",
+        "W": "2",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Genestealer claws and talons",
+            "range": "Melee",
+            "A": "4",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Scouts 8\""
+        ],
+        "faction": [
+          "Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Vanguard Predator",
+            "description": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target is within range of one or more objective markers , re-roll a Wound roll of 1 as well."
+          },
+          {
+            "name": "5-10 Genestealers Every model is equipped with",
+            "description": "Genestealer claws and talons."
+          },
+          {
+            "name": "This unit can be led by the following unit",
+            "description": "Broodlord"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 5,
+          "points": 75
+        }
+      ],
+      "unit_sizes": [
+        5
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "5-10 Genestealers Every model is equipped with: Genestealer claws and talons."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Biovores": {
+      "name": "Biovores",
+      "url_slug": "Biovores",
+      "stats": {
+        "M": "5",
+        "T": "6",
+        "Sv": "3+",
+        "W": "5",
+        "Ld": "8+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Spore Mine launcher blast",
+            "range": "48\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "6",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "heavy",
+              "devastating wounds",
+              "blast",
+              "indirect fire"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chitin-barbed limbs",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise 1"
+        ],
+        "faction": [
+          "Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Seed Spore Mines",
+            "description": "Once per turn, in your Shooting phase , when selected to shoot, one unit with this ability can use it instead of making any attacks with its ranged weapons. If it does, you can add one new SPORE MINES unit to your army and set it up anywhere on the battlefield that is wholly within 48\" of this unit and more than 9\" horizontally away from all enemy units. That SPORE MINES unit contains 1 model for each model in this unit."
+          },
+          {
+            "name": "1-3 Biovores Every model is equipped with",
+            "description": "Spore Mine launcher; chitin-barbed limbs."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 50
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1-3 Biovores Every model is equipped with: Spore Mine launcher; chitin-barbed limbs."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Pyrovores": {
+      "name": "Pyrovores",
+      "url_slug": "Pyrovores",
+      "stats": {
+        "M": "5",
+        "T": "6",
+        "Sv": "3+",
+        "W": "5",
+        "Ld": "8+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Flamespurt ignores cover torrent twin-linked",
+            "range": "12\"",
+            "A": "D6+1",
+            "skill": "N/A",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "twin-linked",
+              "ignores cover"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chitin-barbed limbs",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise 1"
+        ],
+        "faction": [
+          "Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Burning Spray",
+            "description": "In your Shooting phase , after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover ."
+          },
+          {
+            "name": "1-3 Pyrovores Every model is equipped with",
+            "description": "flamespurt; chitin-barbed limbs."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 40
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1-3 Pyrovores Every model is equipped with: flamespurt; chitin-barbed limbs."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Hive Guard": {
+      "name": "Hive Guard",
+      "url_slug": "Hive-Guard",
+      "stats": {
+        "M": "6",
+        "T": "7",
+        "Sv": "3+",
+        "W": "4",
+        "Ld": "8+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Impaler cannon heavy indirect fire",
+            "range": "36\"",
+            "A": "4",
+            "skill": "4+",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "indirect fire"
+            ]
+          },
+          {
+            "name": "Shockcannon",
+            "range": "24\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "3",
+            "keywords": [
+              "anti-vehicle 2+"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chitinous claws and teeth",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Synapse"
+        ],
+        "unit": [
+          {
+            "name": "Defensive Stance",
+            "description": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if this unit is within range of an objective marker ."
+          },
+          {
+            "name": "3-6 Hive Guard Every model is equipped with",
+            "description": "shockcannon; chitinous claws and teeth."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 3,
+          "points": 90
+        }
+      ],
+      "unit_sizes": [
+        3
+      ],
+      "keywords": [],
+      "faction_keywords": [],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "3-6 Hive Guard Every model is equipped with: shockcannon; chitinous claws and teeth."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    }
+  }
+}

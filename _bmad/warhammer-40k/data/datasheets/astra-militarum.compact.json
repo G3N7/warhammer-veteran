@@ -1,0 +1,247 @@
+{
+  "faction": "astra-militarum",
+  "last_updated": "2025-12-28T01:37:19.129655+00:00",
+  "schema": "compact-v1",
+  "unit_count": 20,
+  "units": {
+    "Lord Solar Leontus": {
+      "name": "Lord Solar Leontus",
+      "pts": 130,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "leads": [
+        "Catachan Jungle Fighters",
+        "Cadian Shock Troops",
+        "Kasrkin"
+      ],
+      "led_by": [
+        "Catachan Jungle Fighters",
+        "Cadian Shock Troops",
+        "Kasrkin"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Cadian Castellan": {
+      "name": "Cadian Castellan",
+      "pts": 55,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "Cadian Shock Troops",
+        "Kasrkin"
+      ],
+      "led_by": [
+        "Cadian Shock Troops",
+        "Kasrkin"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Cadian Command Squad": {
+      "name": "Cadian Command Squad",
+      "pts": 65,
+      "sizes": [
+        5
+      ],
+      "epic_hero": false,
+      "models": 5,
+      "leads": [
+        "Cadian Shock Troops"
+      ],
+      "led_by": [
+        "Cadian Shock Troops"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Commissar": {
+      "name": "Commissar",
+      "pts": 30,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "Catachan Jungle Fighters",
+        "Cadian Shock Troops",
+        "Tempestus Scions",
+        "Kasrkin"
+      ],
+      "led_by": [
+        "Catachan Jungle Fighters",
+        "Cadian Shock Troops",
+        "Tempestus Scions",
+        "Kasrkin"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Catachan Jungle Fighters": {
+      "name": "Catachan Jungle Fighters",
+      "pts": 65,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10,
+      "core": [
+        "Scouts 6\""
+      ]
+    },
+    "Cadian Shock Troops": {
+      "name": "Cadian Shock Troops",
+      "pts": 65,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10
+    },
+    "Kasrkin": {
+      "name": "Kasrkin",
+      "pts": 110,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10,
+      "core": [
+        "Scouts 6\""
+      ]
+    },
+    "Tempestus Scions": {
+      "name": "Tempestus Scions",
+      "pts": 70,
+      "sizes": [
+        5
+      ],
+      "epic_hero": false,
+      "models": 5,
+      "core": [
+        "Deep Strike"
+      ]
+    },
+    "Leman Russ Battle Tank": {
+      "name": "Leman Russ Battle Tank",
+      "pts": 185,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Rogal Dorn Battle Tank": {
+      "name": "Rogal Dorn Battle Tank",
+      "pts": 250,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Baneblade": {
+      "name": "Baneblade",
+      "pts": 450,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D6+2"
+      ]
+    },
+    "Basilisk": {
+      "name": "Basilisk",
+      "pts": 140,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Manticore": {
+      "name": "Manticore",
+      "pts": 165,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Chimera": {
+      "name": "Chimera",
+      "pts": 85,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D3",
+        "Firing Deck 2"
+      ]
+    },
+    "Armoured Sentinels": {
+      "name": "Armoured Sentinels",
+      "pts": 65,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Scout Sentinels": {
+      "name": "Scout Sentinels",
+      "pts": 55,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise 1",
+        "Scouts 9\""
+      ]
+    },
+    "Ogryn Bodyguard": {
+      "name": "Ogryn Bodyguard",
+      "pts": 40,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Feel No Pain 6+"
+      ]
+    }
+  }
+}

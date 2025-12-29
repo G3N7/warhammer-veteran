@@ -77,33 +77,94 @@ corrections:
   # Space Wolves corrections verified 2025-12-27
   arjac_rockfist:
     pts: 105
+    epic_hero: true
     source: "New Recruit app"
     date: "2025-12-27"
 
   bjorn_the_fell_handed:
     pts: 160
+    epic_hero: true
     source: "Wahapedia"
     date: "2025-12-27"
 
+  logan_grimnar:
+    pts: 110
+    epic_hero: true
+    source: "Wahapedia scrape"
+    date: "2025-12-28"
+
+  ragnar_blackmane:
+    pts: 100
+    epic_hero: true
+    source: "Wahapedia scrape"
+    date: "2025-12-28"
+
+  murderfang:
+    pts: 150
+    epic_hero: true
+    source: "Wahapedia scrape"
+    date: "2025-12-28"
+
   # T'au corrections verified 2025-12-28
   commander_shadowsun:
+    pts: 100
     epic_hero: true
-    cannot_take_enhancements: true
-    source: "10th Ed datasheet"
+    source: "Wahapedia scrape"
+    date: "2025-12-28"
+
+  commander_farsight:
+    pts: 85
+    epic_hero: true
+    source: "Wahapedia scrape"
     date: "2025-12-28"
 
   longstrike:
+    pts: 140
     epic_hero: true
-    cannot_take_enhancements: true
-    source: "10th Ed datasheet"
+    source: "Wahapedia scrape"
     date: "2025-12-28"
 
   # Astra Militarum corrections
   lord_solar_leontus:
     epic_hero: true
-    cannot_take_enhancements: true
     source: "10th Ed datasheet"
     date: "2025-12-28"
+
+  # Tyranids - SYNAPSE clarification
+  # These units do NOT have SYNAPSE keyword (common mistake)
+  exocrine:
+    has_synapse: false
+    note: "Must stay in Synapse aura, does NOT provide it"
+    source: "User correction"
+    date: "2025-12-26"
+
+  tyrannofex:
+    has_synapse: false
+    note: "Must stay in Synapse aura, does NOT provide it"
+    source: "User correction"
+    date: "2025-12-26"
+
+  carnifexes:
+    has_synapse: false
+    note: "Must stay in Synapse aura, does NOT provide it"
+    source: "User correction"
+    date: "2025-12-26"
+
+  # These DO have SYNAPSE
+  hive_tyrant:
+    has_synapse: true
+    source: "Wahapedia"
+    date: "2025-12-26"
+
+  winged_hive_tyrant:
+    has_synapse: true
+    source: "Wahapedia"
+    date: "2025-12-26"
+
+  neurothrope:
+    has_synapse: true
+    source: "Wahapedia"
+    date: "2025-12-26"
 
 # ============================================================
 # MISTAKE PATTERNS - Common errors to actively check for
@@ -142,29 +203,101 @@ mistake_patterns:
 # ============================================================
 detachments:
 
-  saga_of_the_beastslayer:  # Space Wolves
+  # === SPACE WOLVES ===
+  saga_of_the_beastslayer:
+    faction: "Space Wolves"
     ability: "Lethal Hits vs CHARACTER, MONSTER, VEHICLE"
     enhancements:
-      - {name: "Blade of the Slayer", pts: 25}
-      - {name: "Hunter's Instincts", pts: 20}
-      - {name: "The Pelt of Balewolf", pts: 15}
-      - {name: "Black Death", pts: 15}
+      - {name: "Blade of the Slayer", pts: 25, effect: "+1 Strength and Damage for melee"}
+      - {name: "Hunter's Instincts", pts: 20, effect: "+2\" Move, Advance/charge after Advance"}
+      - {name: "The Pelt of Balewolf", pts: 15, effect: "Enemy units -1 to hit in melee"}
+      - {name: "Black Death", pts: 15, effect: "Anti-INFANTRY 4+, Anti-MOUNTED 4+ melee"}
 
-  kauyon:  # T'au Empire
+  # === SPACE MARINES (Ultramarines) ===
+  gladius_task_force:
+    faction: "Space Marines"
+    ability: "Combat Doctrines: Devastating Wounds (turn 1), Sustained Hits 1 (turn 2), Lethal Hits (turn 3+)"
+    enhancements:
+      - {name: "Adept of the Codex", pts: 20, effect: "Once per battle, change Combat Doctrine for your army"}
+      - {name: "Artificer Armour", pts: 10, effect: "2+ Save, 5+ Feel No Pain vs mortal wounds"}
+      - {name: "Fire Discipline", pts: 30, effect: "Ranged attacks score critical hits on 5+"}
+      - {name: "The Honour Vehement", pts: 15, effect: "Melee attacks get Lethal Hits + Devastating Wounds turn 3+"}
+
+  # === T'AU EMPIRE ===
+  kauyon:
+    faction: "T'au Empire"
     ability: "Full re-rolls to hit if unit remained stationary"
     enhancements:
-      - {name: "Puretide Engram Neurochip", pts: 25}
-      - {name: "Precision of the Patient Hunter", pts: 20}
-      - {name: "Through Unity, Devastation", pts: 40}
-      - {name: "The Be'gel Hunter's Plate", pts: 15}
+      - {name: "Puretide Engram Neurochip", pts: 25, effect: "Once per battle, re-roll all hits and wounds"}
+      - {name: "Precision of the Patient Hunter", pts: 20, effect: "Ranged weapons gain [IGNORES COVER]"}
+      - {name: "Through Unity, Devastation", pts: 40, effect: "Aura: Core units re-roll 1s to wound"}
+      - {name: "The Be'gel Hunter's Plate", pts: 15, effect: "4+ invulnerable save"}
 
-  grizzled_company:  # Astra Militarum
+  mont_ka:
+    faction: "T'au Empire"
+    ability: "Re-roll Advance/Charge. +1 to hit if target is closest eligible."
+    enhancements:
+      - {name: "Exemplar of the Mont'ka", pts: 25, effect: "Unit falls back and still shoots/charges"}
+      - {name: "Precision of the Killing Blow", pts: 20, effect: "[PRECISION] on all ranged weapons"}
+      - {name: "Starflare Ignition System", pts: 20, effect: "Once per battle, 12\" move after shooting"}
+      - {name: "The Thermoneutronic Projector", pts: 30, effect: "Flamer weapons get +1 Strength and Damage"}
+
+  # === ASTRA MILITARUM ===
+  grizzled_company:
+    faction: "Astra Militarum"
     ability: "Ignore modifiers to hit and wound, ignore cover"
     enhancements:
-      - {name: "Grand Strategist", pts: 15}
-      - {name: "Drill Commander", pts: 20}
-      - {name: "Death Mask of Ollanius", pts: 10}
-      - {name: "Gatekeeper", pts: 20}
+      - {name: "Grand Strategist", pts: 15, effect: "CP on 5+ when opponent uses Stratagem"}
+      - {name: "Drill Commander", pts: 20, effect: "Ordered unit +1 to hit"}
+      - {name: "Death Mask of Ollanius", pts: 10, effect: "6\" aura: models flee on 2+ instead of auto"}
+      - {name: "Gatekeeper", pts: 20, effect: "Lasgun weapons get +6\" range and [LETHAL HITS]"}
+
+  combined_regiment:
+    faction: "Astra Militarum"
+    ability: "Infantry units count as being in range of an Officer for Orders"
+    enhancements:
+      - {name: "Cadia Stands!", pts: 15, effect: "Once per battle, unit fights on death"}
+      - {name: "Death World Veteran", pts: 20, effect: "+1 Attacks, +1 Toughness"}
+      - {name: "Regimental Standard", pts: 15, effect: "12\" aura: re-roll Battle-shock tests"}
+      - {name: "Vox-caster", pts: 5, effect: "Orders affect units 24\" away"}
+
+  # === ORKS ===
+  dread_mob:
+    faction: "Orks"
+    ability: "WALKERS get 5+ Feel No Pain. Big Meks repair D3+1 wounds."
+    enhancements:
+      - {name: "Choppa Hauler", pts: 25, effect: "VEHICLE gains [DEADLY DEMISE D3]"}
+      - {name: "Kustom Shokka", pts: 15, effect: "Shokk Attack Gun gains [DEVASTATING WOUNDS]"}
+      - {name: "Orky Know-Wots", pts: 20, effect: "Big Mek: healed model fights immediately"}
+      - {name: "Smoky Gubbinz", pts: 15, effect: "Benefit of Cover always, -1 to be hit"}
+
+  waaagh_tribe:
+    faction: "Orks"
+    ability: "Call a Waaagh!: +1 Strength, +1 Attack, charge after Advance"
+    enhancements:
+      - {name: "'Eadwoppa's Killchoppa", pts: 25, effect: "One melee weapon: [DEVASTATING WOUNDS]"}
+      - {name: "Brutal but Kunnin'", pts: 15, effect: "Once per battle: melee attacks auto-wound"}
+      - {name: "Follow Me Ladz!", pts: 25, effect: "+3\" to charges for led unit"}
+      - {name: "Supa-Cybork Body", pts: 15, effect: "4+ Feel No Pain"}
+
+  # === TYRANIDS ===
+  crusher_stampede:
+    faction: "Tyranids"
+    ability: "MONSTER units reduce AP by 1. Get +1 OC when below Starting Strength."
+    enhancements:
+      - {name: "Adaptive Biology", pts: 25, effect: "4+ Feel No Pain after first wound taken"}
+      - {name: "Enraged Reserves", pts: 15, effect: "+1 Attack and Strength when below half wounds"}
+      - {name: "Synaptic Linchpin", pts: 20, effect: "Synapse range extended to 9\""}
+      - {name: "Rampaging Beast", pts: 15, effect: "Re-roll charge rolls, +1 Attack on charge"}
+
+  invasion_fleet:
+    faction: "Tyranids"
+    ability: "Synapse Imperative: choose buff each Command phase for Synapse units"
+    enhancements:
+      - {name: "Alien Cunning", pts: 30, effect: "Redeploy up to 3 units pre-game"}
+      - {name: "Perfectly Adapted", pts: 15, effect: "Re-roll one hit, wound, damage, or save per turn"}
+      - {name: "Synaptic Control", pts: 20, effect: "12\" aura: re-roll Battle-shock"}
+      - {name: "The Dirgeheart of Kharis", pts: 20, effect: "Once per battle, enemy unit -1 to hit you"}
 
 # ============================================================
 # META SNAPSHOT - December 2025

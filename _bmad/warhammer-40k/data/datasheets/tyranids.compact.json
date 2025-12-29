@@ -1,0 +1,230 @@
+{
+  "faction": "tyranids",
+  "last_updated": "2025-12-28T01:37:19.163053+00:00",
+  "schema": "compact-v1",
+  "unit_count": 20,
+  "units": {
+    "Hive Tyrant": {
+      "name": "Hive Tyrant",
+      "pts": 195,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "Tyrant Guard"
+      ],
+      "led_by": [
+        "Tyrant Guard"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Leader"
+      ]
+    },
+    "Winged Hive Tyrant": {
+      "name": "Winged Hive Tyrant",
+      "pts": 170,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D3",
+        "Deep Strike"
+      ]
+    },
+    "The Swarmlord": {
+      "name": "The Swarmlord",
+      "pts": 220,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "leads": [
+        "Tyrant Guard"
+      ],
+      "led_by": [
+        "Tyrant Guard"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Leader"
+      ]
+    },
+    "Tervigon": {
+      "name": "Tervigon",
+      "pts": 160,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Tyrannofex": {
+      "name": "Tyrannofex",
+      "pts": 200,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Exocrine": {
+      "name": "Exocrine",
+      "pts": 140,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Carnifexes": {
+      "name": "Carnifexes",
+      "pts": 90,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Haruspex": {
+      "name": "Haruspex",
+      "pts": 125,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Maleceptor": {
+      "name": "Maleceptor",
+      "pts": 170,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Zoanthropes": {
+      "name": "Zoanthropes",
+      "pts": 100,
+      "sizes": [
+        3
+      ],
+      "epic_hero": false,
+      "models": 3
+    },
+    "Neurotyrant": {
+      "name": "Neurotyrant",
+      "pts": 105,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "leads": [
+        "Zoanthropes"
+      ],
+      "led_by": [
+        "Zoanthropes"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Termagants": {
+      "name": "Termagants",
+      "pts": 60,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10
+    },
+    "Hormagaunts": {
+      "name": "Hormagaunts",
+      "pts": 65,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10
+    },
+    "Barbgaunts": {
+      "name": "Barbgaunts",
+      "pts": 55,
+      "sizes": [
+        5
+      ],
+      "epic_hero": false,
+      "models": 5
+    },
+    "Genestealers": {
+      "name": "Genestealers",
+      "pts": 75,
+      "sizes": [
+        5
+      ],
+      "epic_hero": false,
+      "models": 5,
+      "core": [
+        "Scouts 8\""
+      ]
+    },
+    "Biovores": {
+      "name": "Biovores",
+      "pts": 50,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Pyrovores": {
+      "name": "Pyrovores",
+      "pts": 40,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Hive Guard": {
+      "name": "Hive Guard",
+      "pts": 90,
+      "sizes": [
+        3
+      ],
+      "epic_hero": false,
+      "models": 3
+    }
+  }
+}
