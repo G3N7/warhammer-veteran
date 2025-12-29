@@ -4,7 +4,7 @@
 **Detachment:** Grizzled Company
 **Army Theme:** Tournament-competitive tank gunline with sniper support
 **Created:** December 23, 2025
-**Updated:** December 26, 2025 (v1.1 - Ratlings added)
+**Updated:** December 29, 2025 (v1.2 - Punisher points fix, Lord Solar stats corrected)
 **Meta Context:** S-Tier army based on December 2025 tournament meta (Rise of Empire GT winner)
 
 ---
@@ -173,7 +173,7 @@
 
 ## 2000 Point List - "Imperial Hammer"
 
-**Total Points:** 1,980pts
+**Total Points:** 1,995pts
 **Command Points:** 3 (Battle-forged)
 **Detachment:** Grizzled Company
 **Enhancement:** Grand Strategist (15pts) on Cadian Command Squad
@@ -190,7 +190,7 @@
 | Cadian Shock Troops | 20 | Battleline | 120pts |
 | Cadian Shock Troops | 10 | Battleline | 65pts |
 | Gaunt's Ghosts | 6 | Elites | 100pts |
-| **Ratlings** | **5** | **Infantry (Snipers)** | **60pts** |
+| **Ratlings** | **10** | **Infantry (Snipers)** | **100pts** |
 | Chimera | 1 | Transport | 85pts |
 | Chimera | 1 | Transport | 85pts |
 | Chimera | 1 | Transport | 85pts |
@@ -198,7 +198,7 @@
 | Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
 | Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
 | Leman Russ Demolisher | 1 | Heavy Support | 190pts |
-| Leman Russ Punisher | 1 | Heavy Support | 190pts |
+| Leman Russ Punisher | 1 | Heavy Support | 150pts |
 | Armoured Sentinels | 2 | Heavy Support | 65pts |
 
 ### Points Calculation (SHOW WORK)
@@ -212,41 +212,14 @@
 | Cadian Shock Troops (20) | 120pts | 120pts |
 | Cadian Shock Troops (10) | 65pts | 65pts |
 | Gaunt's Ghosts | 100pts | 100pts |
-| Ratlings (5) | 60pts | 60pts |
+| Ratlings (10) | 100pts | 100pts |
 | Chimera × 3 | 3 × 85 | 255pts |
 | Leman Russ Battle Tank × 3 | 3 × 185 | 555pts |
 | Leman Russ Demolisher | 190pts | 190pts |
-| Leman Russ Punisher | 190pts | 190pts |
+| Leman Russ Punisher | 150pts | 150pts |
 | Armoured Sentinels (2) | 65pts | 65pts |
 
-**SUBTOTAL:** 130 + 80 + 65 + 120 + 120 + 65 + 100 + 60 + 255 + 555 + 190 + 190 + 65 = **1,995pts**
-
-**⚠️ OVER BY 5pts - ADJUSTMENT NEEDED**
-
-**FIX:** Remove Armoured Sentinels (65pts), frees up 60pts for Ratlings with 5pts to spare.
-
-**FINAL REVISED 2000pt:**
-
-| Unit | Models | Role | Points |
-|------|--------|------|--------|
-| Lord Solar Leontus | 1 | HQ (Warlord) | 130pts |
-| Cadian Command Squad + Grand Strategist | 5 | HQ | 80pts |
-| Cadian Command Squad | 5 | HQ | 65pts |
-| Cadian Shock Troops | 20 | Battleline | 120pts |
-| Cadian Shock Troops | 20 | Battleline | 120pts |
-| Cadian Shock Troops | 10 | Battleline | 65pts |
-| Gaunt's Ghosts | 6 | Elites | 100pts |
-| **Ratlings** | **5** | **Snipers** | **60pts** |
-| Chimera | 1 | Transport | 85pts |
-| Chimera | 1 | Transport | 85pts |
-| Chimera | 1 | Transport | 85pts |
-| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
-| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
-| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
-| Leman Russ Demolisher | 1 | Heavy Support | 190pts |
-| Leman Russ Punisher | 1 | Heavy Support | 190pts |
-
-**FINAL TOTAL:** 130 + 80 + 65 + 120 + 120 + 65 + 100 + 60 + 85 + 85 + 85 + 185 + 185 + 185 + 190 + 190 = **1,930pts**
+**TOTAL:** 130 + 80 + 65 + 120 + 120 + 65 + 100 + 100 + 255 + 555 + 190 + 150 + 65 = **1,995pts** ✅
 
 **VERIFICATION:**
 130 + 80 = 210
@@ -255,46 +228,19 @@
 395 + 120 = 515
 515 + 65 = 580
 580 + 100 = 680
-680 + 60 = 740
-740 + 85 = 825
-825 + 85 = 910
-910 + 85 = 995
-995 + 185 = 1,180
-1,180 + 185 = 1,365
-1,365 + 185 = 1,550
-1,550 + 190 = 1,740
-1,740 + 190 = **1,930pts** ✅
+680 + 100 = 780
+780 + 255 = 1,035
+1,035 + 555 = 1,590
+1,590 + 190 = 1,780
+1,780 + 150 = 1,930
+1,930 + 65 = **1,995pts** ✅
 
-**REMAINING POINTS:** 70pts
+**STATUS:** 5pts remaining, LEGAL
 
-**OPTION:** Add back Armoured Sentinels (65pts) = **1,995pts** (5pts under, legal)
-
-**FINAL 2000pt WITH SENTINELS:**
-
-| Unit | Models | Role | Points |
-|------|--------|------|--------|
-| Lord Solar Leontus | 1 | HQ (Warlord) | 130pts |
-| Cadian Command Squad + Grand Strategist | 5 | HQ | 80pts |
-| Cadian Command Squad | 5 | HQ | 65pts |
-| Cadian Shock Troops | 20 | Battleline | 120pts |
-| Cadian Shock Troops | 20 | Battleline | 120pts |
-| Cadian Shock Troops | 10 | Battleline | 65pts |
-| Gaunt's Ghosts | 6 | Elites | 100pts |
-| **Ratlings** | **5** | **Snipers** | **60pts** |
-| Chimera | 1 | Transport | 85pts |
-| Chimera | 1 | Transport | 85pts |
-| Chimera | 1 | Transport | 85pts |
-| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
-| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
-| Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
-| Leman Russ Demolisher | 1 | Heavy Support | 190pts |
-| Leman Russ Punisher | 1 | Heavy Support | 190pts |
-| Armoured Sentinels | 2 | Heavy Support | 65pts |
-
-**FINAL TOTAL:** 1,930 + 65 = **1,995pts** ✅ (5pts remaining)
-
-**FINAL VERIFICATION:**
-130+80+65+120+120+65+100+60+85+85+85+185+185+185+190+190+65 = **1,995pts** ✅
+**Upgrade Notes (v1.2):**
+- Leman Russ Punisher corrected from 190pts to **150pts** (Wahapedia verified)
+- Used 40pts savings to upgrade Ratlings from 5 to **10 models** (double sniper threat!)
+- 10-model Ratlings can take Tankstopper Rifle + Demolition Gear + Ratling Battlemutt
 
 ---
 
@@ -342,16 +288,17 @@ Ratlings are not damage dealers. They are **character assassins** and **harassme
 
 **Precision Keyword:** You can allocate hits to CHARACTER models even if they are not the closest model.
 
-**Expected Damage vs Characters:**
-- 5 Ratlings = 5 shots
-- 3+ BS = ~3.33 hits
-- S4 vs T4 = wounds on 4+ = ~1.67 wounds
-- AP-2 vs Sv3+ = saves on 5+ = ~1.1 unsaved wounds
-- D2 = **~2.2 damage per shooting phase**
+**Expected Damage vs Characters (10 Ratlings at 2000pts):**
+- 10 Ratlings = 10 shots (9 sniper rifles + 1 tankstopper rifle)
+- 3+ BS = ~6.67 hits
+- S4 vs T4 = wounds on 4+ = ~3.33 wounds
+- AP-2 vs Sv3+ = saves on 5+ = ~2.2 unsaved wounds
+- D2 = **~4.4 damage per shooting phase**
 
 **That's enough to:**
-- Kill a 3W character in 2 turns
-- Finish any wounded character in 1 turn
+- Kill a 4W character in 1 turn
+- Finish any wounded character instantly
+- Seriously threaten 6W+ characters over 2 turns
 - Force opponent to hide characters behind units/terrain
 
 **"Shoot Sharp and Scarper" Ability:**
@@ -527,7 +474,7 @@ Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
 **Points:** 130pts | **Battlefield Role:** HQ (Character)
 
 **Profile:**
-- M: 10" | T: 5 | Sv: 3+ | W: 6 | Ld: 5+ | OC: 2
+- M: 12" | T: 4 | Sv: 3+ | W: 8 | Ld: 6+ | OC: 2
 
 **Weapons:**
 - **Conquest** (Bolt Pistol): 12" Pistol 1 S4 AP0 D1
@@ -696,7 +643,7 @@ Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
 ---
 
 ### LEMAN RUSS PUNISHER
-**Points:** 190pts | **Battlefield Role:** Heavy Support
+**Points:** 150pts | **Battlefield Role:** Heavy Support
 
 **Profile:**
 - M: 10" | T: 11 | Sv: 2+ | W: 13 | Ld: 7+ | OC: 3
@@ -818,6 +765,12 @@ Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
 
 ## Version History
 
+**v1.2** - December 29, 2025
+- **POINTS FIX:** Leman Russ Punisher corrected from 190pts to 150pts (Wahapedia verified)
+- **STAT FIX:** Lord Solar Leontus profile corrected (M:12", T:4, W:8, Ld:6+)
+- **2000pt UPGRADE:** Ratlings upgraded from 5 to 10 models (used 40pts savings)
+- Updated sniper damage calculations for 10-model squad
+
 **v1.1** - December 26, 2025
 - Added Ratlings (5 models, 60pts) to all three lists
 - Added comprehensive sniper tactics section
@@ -856,5 +809,5 @@ Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
 **FOR THE EMPEROR! CADIA STANDS!**
 
 *Tactical document maintained by Tacticus Agent*
-*Last updated: December 26, 2025*
+*Last updated: December 29, 2025*
 *Army list status: Tournament-ready, meta-validated, sniper-enhanced*
