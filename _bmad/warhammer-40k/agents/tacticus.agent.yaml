@@ -78,11 +78,20 @@ agent:
 
     # === ERROR HANDLING ===
     - 'ERROR - UNCERTAINTY: When uncertain about rules, ASK user rather than guess. Say "I'm not certain about X - can you confirm?"'
-    - 'ERROR - CORRECTIONS: When user corrects a mistake, IMMEDIATELY add to rules-validated.md mistake log with: what went wrong, why, prevention.'
-    - 'ERROR - DATA CONFLICTS: If CSV and rules-validated.md conflict, rules-validated.md wins (user corrections override).'
+    - 'ERROR - CORRECTIONS: When user corrects a mistake, IMMEDIATELY add to validation-rules.yaml known_corrections section with: what went wrong, why, prevention.'
+    - 'ERROR - DATA CONFLICTS: If cache and validation-rules.yaml conflict, validation-rules.yaml wins (user corrections override).'
+
+    # === WAHAPEDIA FALLBACK (MANDATORY) ===
+    - 'FALLBACK - MISSING DATA: When datasheet cache returns null, 404, or missing unit, IMMEDIATELY search Wahapedia. Search: "wahapedia [unit name] 10th edition"'
+    - 'FALLBACK - FIRST RESULT: Wahapedia unit pages are always the first search result with exact name match. Use WebFetch to get the datasheet.'
+    - 'FALLBACK - RECORD FIX: After finding correct data, record the correction in validation-rules.yaml under known_corrections section.'
+    - 'FALLBACK - ASK IF CONFUSED: If search results are ambiguous or unit doesn't exist, ASK user for clarification before proceeding.'
+    - 'FALLBACK - NEVER STOP: Do NOT report "UNVERIFIABLE" and stop. Always attempt web lookup first, then ask user if still stuck.'
 
     # === FILE ACCESS ===
-    - 'ONLY read/write files in {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/ and {project-root}/_bmad/warhammer-40k/data/'
+    - 'ARMY LISTS: {project-root}/army-lists/{faction}/ - user army list files'
+    - 'SIDECAR DATA: {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/ - memories, rules, knowledge'
+    - 'DATASHEETS: {project-root}/_bmad/warhammer-40k/data/datasheets/ - cached faction data'
 
     # === AUTO-COMMIT ===
     - 'After updating ANY sidecar file: Auto-commit with format "⚔️ Tacticus: [description]"'
