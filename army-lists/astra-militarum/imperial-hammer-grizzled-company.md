@@ -2,9 +2,7 @@
 
 **Faction:** Astra Militarum (Imperial Guard)
 **Detachment:** Grizzled Company
-**Army Theme:** Tournament-competitive tank gunline with **TRIPLE SNIPER support**
-**Created:** December 23, 2025
-**Updated:** December 29, 2025 (v1.3 - Kasrkin + Rogal Dorn + Triple Sniper Doctrine)
+**Army Theme:** Tournament-competitive tank gunline with triple sniper support
 **Meta Context:** S-Tier army based on December 2025 tournament meta (Rise of Empire GT winner)
 
 ---
@@ -40,28 +38,19 @@
 | Cadian Command Squad | 5 | HQ (Warlord) | 65pts |
 | Cadian Shock Troops | 20 | Battleline | 120pts |
 | Cadian Shock Troops | 10 | Battleline | 65pts |
-| **Ratlings** | **5** | **Infantry (Snipers)** | **60pts** |
+| Ratlings | 5 | Infantry (Snipers) | 60pts |
 | Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
 
-### Points Calculation (SHOW WORK)
+### Points Breakdown
 
-| Unit | Calculation | Total |
-|------|-------------|-------|
-| Cadian Command Squad | 65pts flat | 65pts |
-| Cadian Shock Troops (20) | 120pts | 120pts |
-| Cadian Shock Troops (10) | 65pts | 65pts |
-| Ratlings (5) | 60pts (5 models) | 60pts |
-| Leman Russ Battle Tank | 185pts flat | 185pts |
-
-**TOTAL:** 65 + 120 + 65 + 60 + 185 = **495pts** ✅
-
-**VERIFICATION:**
-65 + 120 = 185
-185 + 65 = 250
-250 + 60 = 310
-310 + 185 = **495pts** ✅
-
-**STATUS:** 5pts remaining, LEGAL
+| Unit | Points |
+|------|--------|
+| Cadian Command Squad | 65pts |
+| Cadian Shock Troops (20) | 120pts |
+| Cadian Shock Troops (10) | 65pts |
+| Ratlings (5) | 60pts |
+| Leman Russ Battle Tank | 185pts |
+| **Total** | **495pts** |
 
 ---
 
@@ -92,13 +81,12 @@
 
 ---
 
-## 1000 Point List - "Battle Group Cadia" (v1.3)
+## 1000 Point List - "Battle Group Cadia"
 
-**Total Points:** 1,000pts
+**Total Points:** 955pts
 **Command Points:** 3 (Battle-forged)
 **Detachment:** Grizzled Company
 **Enhancement:** Drill Commander (20pts) on Cadian Command Squad
-**Sniper Theme:** Dual sniper units (Ratlings + Kasrkin Marksman)
 
 ### Army Roster
 
@@ -107,51 +95,31 @@
 | Cadian Command Squad + Drill Commander | 5 | HQ (Warlord) | 85pts |
 | Cadian Shock Troops | 20 | Battleline | 120pts |
 | Cadian Shock Troops | 10 | Battleline | 65pts |
-| **Kasrkin** | **10** | **Infantry (Elite Snipers)** | **110pts** |
-| **Ratlings** | **5** | **Infantry (Snipers)** | **60pts** |
+| Kasrkin | 10 | Infantry (Elite Snipers) | 110pts |
+| Ratlings | 5 | Infantry (Snipers) | 60pts |
 | Chimera | 1 | Transport | 85pts |
 | Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
 | Leman Russ Demolisher | 1 | Heavy Support | 190pts |
-| **Scout Sentinels** | **2** | **Heavy Support** | **55pts** |
+| Scout Sentinels | 2 | Heavy Support | 55pts |
 
-### Points Calculation (SHOW WORK)
+### Points Breakdown
 
-| Unit | Calculation | Total |
-|------|-------------|-------|
-| Cadian Command Squad + Drill Commander | 65 + 20 | 85pts |
-| Cadian Shock Troops (20) | 120pts | 120pts |
-| Cadian Shock Troops (10) | 65pts | 65pts |
-| Kasrkin (10) | 110pts | 110pts |
-| Ratlings (5) | 60pts | 60pts |
-| Chimera | 85pts | 85pts |
-| Leman Russ Battle Tank | 185pts | 185pts |
-| Leman Russ Demolisher | 190pts | 190pts |
-| Scout Sentinels (2) | 55pts | 55pts |
-
-**TOTAL:** 85 + 120 + 65 + 110 + 60 + 85 + 185 + 190 + 55 = **955pts**
-
-**VERIFICATION:**
-85 + 120 = 205
-205 + 65 = 270
-270 + 110 = 380
-380 + 60 = 440
-440 + 85 = 525
-525 + 185 = 710
-710 + 190 = 900
-900 + 55 = **955pts** ✅
-
-**STATUS:** 45pts remaining, LEGAL
-
-**Upgrade Notes (v1.3):**
-- **NEW: Kasrkin (10)** - Elite snipers with Hot-shot Marksman Rifle
-- **NEW: Scout Sentinels (2)** - Early board control with Scouts 9"
-- **UPGRADE: Drill Commander** - +1 to hit (Kasrkin shoot at 2+ BS!)
-- Removed 1× Cadian Command Squad, 1× Chimera to fund upgrades
-- **DUAL SNIPER THREAT:** 6 Precision shots/turn (Ratlings 5 + Kasrkin 1)
+| Unit | Points |
+|------|--------|
+| Cadian Command Squad + Drill Commander | 85pts |
+| Cadian Shock Troops (20) | 120pts |
+| Cadian Shock Troops (10) | 65pts |
+| Kasrkin (10) | 110pts |
+| Ratlings (5) | 60pts |
+| Chimera | 85pts |
+| Leman Russ Battle Tank | 185pts |
+| Leman Russ Demolisher | 190pts |
+| Scout Sentinels (2) | 55pts |
+| **Total** | **955pts** |
 
 ---
 
-### 1000pt Tactical Guide (v1.3)
+### 1000pt Tactical Guide
 
 **Deployment:**
 1. Deploy 2× Leman Russ in castle formation (overlapping fire lanes)
@@ -205,58 +173,33 @@
 | Cadian Shock Troops | 20 | Battleline | 120pts |
 | Cadian Shock Troops | 20 | Battleline | 120pts |
 | Gaunt's Ghosts | 6 | Elites (Sniper) | 100pts |
-| **Kasrkin** | **10** | **Infantry (Elite Snipers)** | **110pts** |
-| **Ratlings** | **10** | **Infantry (Snipers)** | **100pts** |
+| Kasrkin | 10 | Infantry (Elite Snipers) | 110pts |
+| Ratlings | 10 | Infantry (Snipers) | 100pts |
 | Chimera | 1 | Transport | 85pts |
 | Chimera | 1 | Transport | 85pts |
 | Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
 | Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
 | Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
 | Leman Russ Demolisher | 1 | Heavy Support | 190pts |
-| **Rogal Dorn Battle Tank** | **1** | **Heavy Support** | **250pts** |
+| Rogal Dorn Battle Tank | 1 | Heavy Support | 250pts |
 | Scout Sentinels | 2 | Heavy Support | 55pts |
 
-### Points Calculation (SHOW WORK)
+### Points Breakdown
 
-| Unit | Calculation | Total |
-|------|-------------|-------|
-| Lord Solar Leontus | 130pts | 130pts |
-| Cadian Command Squad + Drill Commander | 65 + 20 | 85pts |
-| Cadian Shock Troops (20) | 120pts | 120pts |
-| Cadian Shock Troops (20) | 120pts | 120pts |
-| Gaunt's Ghosts | 100pts | 100pts |
-| Kasrkin (10) | 110pts | 110pts |
-| Ratlings (10) | 100pts | 100pts |
-| Chimera × 2 | 2 × 85 | 170pts |
-| Leman Russ Battle Tank × 3 | 3 × 185 | 555pts |
-| Leman Russ Demolisher | 190pts | 190pts |
-| Rogal Dorn Battle Tank | 250pts | 250pts |
-| Scout Sentinels (2) | 55pts | 55pts |
-
-**TOTAL:** 130 + 85 + 120 + 120 + 100 + 110 + 100 + 170 + 555 + 190 + 250 + 55 = **1,985pts** ✅
-
-**VERIFICATION:**
-130 + 85 = 215
-215 + 120 = 335
-335 + 120 = 455
-455 + 100 = 555
-555 + 110 = 665
-665 + 100 = 765
-765 + 170 = 935
-935 + 555 = 1,490
-1,490 + 190 = 1,680
-1,680 + 250 = 1,930
-1,930 + 55 = **1,985pts** ✅
-
-**STATUS:** 15pts remaining, LEGAL
-
-**Upgrade Notes (v1.3 - "The Marksman's Hammer"):**
-- **NEW: Kasrkin (10)** added for elite sniper capability (Hot-shot Marksman Rifle + Precision)
-- **NEW: Rogal Dorn Battle Tank** replaces Leman Russ Punisher (T12, multi-profile turret, tournament staple)
-- **NEW: Scout Sentinels** replace Armoured Sentinels (Scouts 9" for board control)
-- **UPGRADED: Drill Commander** replaces Grand Strategist (+1 to hit on Ordered units)
-- Removed 1× Cadian Command Squad, 1× Chimera, 10-model Shock Troops to fund upgrades
-- **TRIPLE SNIPER THREAT:** 12 Precision shots/turn (Ratlings + Kasrkin + Gaunt's Ghosts)
+| Unit | Points |
+|------|--------|
+| Lord Solar Leontus | 130pts |
+| Cadian Command Squad + Drill Commander | 85pts |
+| Cadian Shock Troops (20) × 2 | 240pts |
+| Gaunt's Ghosts | 100pts |
+| Kasrkin (10) | 110pts |
+| Ratlings (10) | 100pts |
+| Chimera × 2 | 170pts |
+| Leman Russ Battle Tank × 3 | 555pts |
+| Leman Russ Demolisher | 190pts |
+| Rogal Dorn Battle Tank | 250pts |
+| Scout Sentinels (2) | 55pts |
+| **Total** | **1,985pts** |
 
 ---
 
@@ -374,7 +317,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ---
 
-#### KASRKIN (10 models) - NEW
+#### KASRKIN (10 models)
 
 **Role:** Elite infantry with precision sniper + anti-armor punch
 
@@ -473,7 +416,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ### Target Priority Matrix
 
-**Rogal Dorn Battle Tank (NEW - Primary Damage Dealer):**
+**Rogal Dorn Battle Tank (Primary Damage Dealer):**
 - PRIMARY: Enemy vehicles/monsters (Twin battle cannon OR Oppressor cannon)
 - SECONDARY: Elite infantry with Co-axial autocannon + Heavy bolters
 - **Why Rogal Dorn?** Multi-profile turret, T12 Sv2+ W18, dominates competitive meta
@@ -488,7 +431,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 - SECONDARY: Monster/vehicle finishing blows
 - 24" range = mid-field positioning required
 
-**Kasrkin (Elite Snipers + Anti-Armor) - NEW:**
+**Kasrkin (Elite Snipers + Anti-Armor):**
 - PRIMARY: Characters via Hot-shot Marksman Rifle (Precision)
 - SECONDARY: Vehicles/monsters via Meltagun (S9 AP-4)
 - TERTIARY: Elite infantry via Plasma gun (S8 AP-3)
@@ -500,7 +443,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 - TERTIARY: Buff characters (Lieutenants, Captains)
 - Precision = ignore Look Out, Sir
 
-**Scout Sentinels (Lascannons) - UPGRADED:**
+**Scout Sentinels (Lascannons):**
 - PRIMARY: Early board control via Scouts 9"
 - SECONDARY: Backfield enemy vehicles (48" range)
 - Cheap, forward-deploying anti-tank
@@ -562,14 +505,13 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ### Enhancements (Grizzled Company)
 
-**DRILL COMMANDER (20pts)** - Selected for Cadian Command Squad (v1.3)
+**DRILL COMMANDER (20pts)** - Selected for Cadian Command Squad
 - **Effect:** When this Officer issues an Order, the ordered unit gets **+1 to hit** (shooting)
 - **Use Case:** Order Kasrkin → they shoot at **2+ BS** (including Marksman Rifle!)
-- **Why Better Than Grand Strategist:** +1 to hit every turn > 1CP once per game
 - **Note:** Lord Solar Leontus is an Epic Hero and cannot take enhancements
 
 **Other Available Enhancements:**
-- **Grand Strategist (15pts):** Once per battle, gain 1CP (was previous pick)
+- **Grand Strategist (15pts):** Once per battle, gain 1CP
 - **Death Mask of Ollanius (10pts):** 6" aura: models flee on 2+ instead of auto
 - **Gatekeeper (20pts):** Lasgun weapons get +6" range and Lethal Hits
 
@@ -577,8 +519,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ## Unit Datasheets
 
-### KASRKIN (NEW - v1.3)
-**Edition:** 10TH EDITION - VERIFIED DEC 2025 ✅
+### KASRKIN
 **Points:** 110pts (10 models) | **Battlefield Role:** Infantry
 **Source:** [Wahapedia - Kasrkin](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Kasrkin)
 
@@ -623,8 +564,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ---
 
-### ROGAL DORN BATTLE TANK (NEW - v1.3)
-**Edition:** 10TH EDITION - VERIFIED DEC 2025 ✅
+### ROGAL DORN BATTLE TANK
 **Points:** 250pts | **Battlefield Role:** Heavy Support
 **Source:** [Wahapedia - Rogal Dorn Battle Tank](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Rogal-Dorn-Battle-Tank)
 
@@ -668,8 +608,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ---
 
-### SCOUT SENTINELS (UPGRADED from Armoured - v1.3)
-**Edition:** 10TH EDITION - VERIFIED DEC 2025 ✅
+### SCOUT SENTINELS
 **Points:** 55pts (2 models) | **Battlefield Role:** Heavy Support
 **Source:** [Wahapedia - Scout Sentinels](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Scout-Sentinels)
 
@@ -694,7 +633,6 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 ---
 
 ### RATLINGS
-**Edition:** 10TH EDITION - VERIFIED DEC 2025 ✅
 **Points:** 60pts (5 models) / 100pts (10 models) | **Battlefield Role:** Infantry
 **Source:** [Wahapedia - Ratlings](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Ratlings)
 
@@ -895,49 +833,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ---
 
-## Army Validation Checklist
-
-### Rule of Three Compliance (v1.3 - 2000pt)
-- ✅ Lord Solar Leontus: 1 (Epic Hero = unique)
-- ✅ Cadian Command Squad: 1 (under limit)
-- ✅ Cadian Shock Troops: 2 (Battleline = exempt anyway)
-- ✅ Gaunt's Ghosts: 1 (Epic Hero unit)
-- ✅ **Kasrkin: 1 (under limit)** - NEW
-- ✅ **Ratlings: 1 (under limit)**
-- ✅ Chimera: 2 (Dedicated Transport = exempt)
-- ✅ Leman Russ Battle Tank: 3 (at limit)
-- ✅ Leman Russ Demolisher: 1 (separate datasheet)
-- ✅ **Rogal Dorn Battle Tank: 1 (under limit)** - NEW
-- ✅ **Scout Sentinels: 1 (under limit)** - CHANGED from Armoured
-
-### Points Totals (v1.3)
-- ✅ 500pt list: 495pts (legal, 5pts remaining)
-- ✅ **1000pt list: 955pts (legal, 45pts remaining)** - UPDATED v1.3
-- ✅ **2000pt list: 1,985pts (legal, 15pts remaining)** - UPDATED v1.3
-
-### Detachment Rules (v1.3)
-- ✅ Grizzled Company detachment selected
-- ✅ **Enhancement: Drill Commander (20pts) on Cadian Command Squad (2000pt list)** - CHANGED v1.3
-- ✅ **Enhancement: Drill Commander (20pts) on Cadian Command Squad (1000pt list)** - CHANGED v1.3
-- ✅ No Enhancements in 500pt list (missions don't allow)
-- ✅ Lord Solar Leontus (Epic Hero) correctly has no enhancement (2000pt only)
-- ✅ Gaunt's Ghosts (contains Epic Hero Ibram Gaunt) correctly has no enhancement (2000pt only)
-
-### Army Composition (v1.3)
-- ✅ Warlord declared: Lord Solar Leontus (2000pt), Cadian Command Squad (1000pt/500pt)
-- ✅ Battleline requirement: 2× Cadian Shock Troops (2000pt), 2× (1000pt), 2× (500pt)
-- ✅ No Legendary Units (none in Astra Militarum 10th edition)
-
-### Sniper Verification (v1.3 - All Lists)
-| List | Ratlings | Kasrkin Marksman | Gaunt's Ghosts | Total Precision |
-|------|----------|------------------|----------------|-----------------|
-| 500pt | 5 | - | - | **5 shots** |
-| 1000pt | 5 | 1 | - | **6 shots** |
-| 2000pt | 10 | 1 | 1 | **12 shots** |
-
----
-
-## Model Assembly Guide (v1.3)
+## Model Assembly Guide
 
 ### 2000pt Assembly (97 models + 7 vehicles)
 
@@ -971,7 +867,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 | Chimera | 2 | Multi-laser, Heavy bolter | Standard config |
 | Scout Sentinels | 2 | Lascannons | Open cockpit |
 
-### 1000pt Assembly (47 models + 5 vehicles) - v1.3
+### 1000pt Assembly (47 models + 5 vehicles)
 
 | Model | Qty | Loadout | Notes |
 |-------|-----|---------|-------|
@@ -1010,25 +906,25 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ---
 
-## Shopping List Summary (v1.3)
+## Shopping List Summary
 
 ### Boxes Needed for 2000pt
 
 | GW Product | Qty | Contents | Price (USD) |
 |------------|-----|----------|-------------|
 | Lord Solar Leontus | 1 | 1 mounted character | ~$55 |
-| **Kasrkin** | 1 | 10 Kasrkin | ~$60 |
-| **Ratlings** | 2 | 5 each = 10 total | ~$84 |
+| Kasrkin | 1 | 10 Kasrkin | ~$60 |
+| Ratlings | 2 | 5 each = 10 total | ~$84 |
 | Gaunt's Ghosts | 1 | 6 unique models | ~$55 |
 | Cadian Shock Troops | 2 | 20 each = 40 total | ~$100 |
 | Cadian Command Squad | 1 | 5 models (Commander + 4 Veterans) | ~$42 |
-| **Rogal Dorn Battle Tank** | 1 | 1 heavy tank | ~$95 |
+| Rogal Dorn Battle Tank | 1 | 1 heavy tank | ~$95 |
 | Leman Russ Battle Tank | 3 | 1 each | ~$165 |
 | Leman Russ Demolisher | 1 | Same kit as Battle Tank | (included above) |
 | Chimera | 2 | 1 each | ~$84 |
-| **Scout Sentinels** | 1 | 2 Sentinels per box | ~$50 |
+| Scout Sentinels | 1 | 2 Sentinels per box | ~$50 |
 
-### Total Model Count (v1.3)
+### Total Model Count
 
 | Points Level | Infantry | Vehicles | Total Models | Precision Shots |
 |--------------|----------|----------|--------------|-----------------|
@@ -1059,13 +955,13 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ---
 
-## Competitive Analysis (v1.3)
+## Competitive Analysis
 
 ### Tournament Viability (December 2025 Meta)
 
 **S-Tier Status:** Astra Militarum won Rise of Empire GT (December 19, 2025) and placed consistently in top finishes throughout December 2025.
 
-**Why This List Works (v1.3 - "The Marksman's Hammer"):**
+**Why This List Works:**
 1. **Durability:** Leman Russ T11 + Rogal Dorn T12 W18 = hard to kill
 2. **Firepower:** 4x Leman Russ + Rogal Dorn = diverse threat profile (5 tanks!)
 3. **CP Engine:** Lord Solar generates 1CP/turn = sustains Stratagems
@@ -1075,14 +971,14 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 7. **Early Board Control:** Scout Sentinels (Scouts 9") + Kasrkin (Scouts 6")
 8. **Grizzled Company:** Re-roll 1s on objectives = accuracy buff for castle army
 
-**Strengths (v1.3 Enhanced):**
+**Strengths:**
 - Excellent into melee-focused armies (castle + screening)
 - Strong into vehicle-heavy lists (massed S10-S14 firepower + Rogal Dorn)
 - Good into elite armies (volume fire from Battle Cannons)
-- **TRIPLE SNIPER:** 12 Precision shots = character assassination pressure
-- **Early Control:** Scout Sentinels + Kasrkin push midboard before Turn 1
+- Triple sniper network: 12 Precision shots for character assassination
+- Early board control via Scout Sentinels + Kasrkin Scouts
 - Resilient (T11-T12 tanks, CP regen, Orders flexibility)
-- **Drill Commander:** +1 to hit on Kasrkin = 2+ BS snipers
+- Drill Commander gives Kasrkin 2+ BS
 
 **Weaknesses:**
 - Vulnerable to alpha strike armies (limited mobility Turn 1)
@@ -1094,65 +990,24 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ---
 
-## Version History
-
-**v1.3 - "The Marksman's Hammer"** - December 29, 2025
-- **NEW UNIT: Kasrkin (10)** - Elite snipers with Hot-shot Marksman Rifle (Precision)
-- **NEW UNIT: Rogal Dorn Battle Tank** - Replaces Leman Russ Punisher (T12, W18, tournament meta)
-- **UPGRADE: Scout Sentinels** - Replaces Armoured Sentinels (Scouts 9" for board control)
-- **UPGRADE: Drill Commander** - Replaces Grand Strategist (+1 to hit on Ordered units)
-- **SNIPER PROGRESSION:** 500pt (5 shots) → 1000pt (6 shots) → 2000pt (12 shots)
-- **1000pt list redesigned:** Added Kasrkin + Scout Sentinels, Drill Commander enhancement
-- **2000pt list updated:** Triple Sniper Doctrine with triangulated deployment
-- Added comprehensive Kasrkin, Rogal Dorn, and Scout Sentinel datasheets
-- Updated Model Assembly Guides for all points levels
-- Updated Validation Checklist with sniper verification table
-
-**v1.2** - December 29, 2025
-- **POINTS FIX:** Leman Russ Punisher corrected from 190pts to 150pts (Wahapedia verified)
-- **STAT FIX:** Lord Solar Leontus profile corrected (M:12", T:4, W:8, Ld:6+)
-- **2000pt UPGRADE:** Ratlings upgraded from 5 to 10 models (used 40pts savings)
-- Updated sniper damage calculations for 10-model squad
-
-**v1.1** - December 26, 2025
-- Added Ratlings (5 models, 60pts) to all three lists
-- Added comprehensive sniper tactics section
-- Added Ratlings datasheet
-- Rebalanced 500pt list (removed Sentinels)
-- Updated purchase guide
-
-**v1.0** - December 23, 2025
-- Initial list creation based on December 2025 tournament meta
-- Rise of Empire GT (Dec 19) winner archetype
-- Grizzled Company detachment
-- Lord Solar Leontus centerpiece
-- 500pt / 1000pt / 2000pt scalable lists
-
----
-
-## Wahapedia Quick Links
+## Quick Reference Links
 
 **Faction Rules:**
 - [Astra Militarum Faction Page](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/)
 - [Grizzled Company Detachment](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/#Grizzled-Company)
 
-**Key Units (v1.3):**
+**Unit Datasheets:**
 - [Lord Solar Leontus](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Lord-Solar-Leontus)
 - [Cadian Shock Troops](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Cadian-Shock-Troops)
-- **[Kasrkin](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Kasrkin)** - NEW (Elite Snipers)
-- **[Ratlings](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Ratlings)** - Volume Snipers
-- [Gaunt's Ghosts](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Gaunts-Ghosts) - Infiltration Sniper
+- [Kasrkin](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Kasrkin)
+- [Ratlings](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Ratlings)
+- [Gaunt's Ghosts](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Gaunts-Ghosts)
 - [Leman Russ Battle Tank](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Leman-Russ-Battle-Tank)
 - [Leman Russ Demolisher](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Leman-Russ-Demolisher)
-- **[Rogal Dorn Battle Tank](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Rogal-Dorn-Battle-Tank)** - NEW (Tournament Meta)
+- [Rogal Dorn Battle Tank](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Rogal-Dorn-Battle-Tank)
 - [Chimera](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Chimera)
-- **[Scout Sentinels](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Scout-Sentinels)** - NEW (Scouts 9")
+- [Scout Sentinels](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Scout-Sentinels)
 
 ---
 
 **FOR THE EMPEROR! CADIA STANDS!**
-
-*Tactical document maintained by Tacticus Agent*
-*Last updated: December 29, 2025*
-*Army list status: Tournament-ready, meta-validated, TRIPLE SNIPER DOCTRINE*
-*Precision shots per turn: 12*
