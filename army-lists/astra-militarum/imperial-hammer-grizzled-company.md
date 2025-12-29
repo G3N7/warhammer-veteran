@@ -1,27 +1,28 @@
-# Imperial Hammer - Astra Militarum Grizzled Company
+# The Marksman's Hammer - Astra Militarum Grizzled Company
 
 **Faction:** Astra Militarum (Imperial Guard)
 **Detachment:** Grizzled Company
-**Army Theme:** Tournament-competitive tank gunline with sniper support
+**Army Theme:** Tournament-competitive tank gunline with **TRIPLE SNIPER support**
 **Created:** December 23, 2025
-**Updated:** December 29, 2025 (v1.2 - Punisher points fix, Lord Solar stats corrected)
+**Updated:** December 29, 2025 (v1.3 - Kasrkin + Rogal Dorn + Triple Sniper Doctrine)
 **Meta Context:** S-Tier army based on December 2025 tournament meta (Rise of Empire GT winner)
 
 ---
 
 ## Army Philosophy
 
-**"The Emperor's Hammer"** - This list reflects the winning Astra Militarum archetype from December 2025 tournament play: massive firepower from resilient Leman Russ tanks supported by objective-holding infantry, efficient command structure, and now **Ratling snipers for character assassination**.
+**"The Marksman's Hammer"** - This list reflects the winning Astra Militarum archetype from December 2025 tournament play, enhanced with a **TRIPLE SNIPER doctrine**: 12 Precision shots per turn from three different angles. No enemy character is safe.
 
 **Core Strategy:**
-- **Armored Superiority:** Leman Russ tanks (T11, W13, Sv2+) form an unstoppable gunline
-- **Sniper Support:** Ratlings with Precision pick off wounded characters and chip damage
+- **Armored Superiority:** Leman Russ tanks + Rogal Dorn (T11-T12, W13-18, Sv2+) form an unstoppable gunline
+- **TRIPLE SNIPER Network:** Ratlings (10 shots) + Kasrkin Marksman (1 shot) + Gaunt's Ghosts (1 shot) = 12 Precision attacks
+- **Elite Infantry:** Kasrkin provide sniper capability + plasma/melta anti-armor flexibility
 - **Infantry Control:** Cadian Shock Troops hold objectives and provide screening
 - **CP Generation:** Lord Solar Leontus generates 1CP per turn, sustaining army-wide buffs
-- **Voice of Command:** Officers issue Orders to maximize unit effectiveness
+- **Voice of Command:** Drill Commander gives +1 to hit, making Kasrkin shoot at 2+ BS
 - **Grizzled Company Detachment:** Re-roll 1s to hit for units within 6" of objective markers
 
-**Playstyle:** Castle deployment with tank firebase, infantry on objectives, Ratlings Infiltrating to threaten characters. Use Lord Solar's redeploy ability to counter-deploy against opponent.
+**Playstyle:** Castle deployment with tank firebase, infantry on objectives, **triangulated sniper crossfire** from Ratlings (Infiltrators), Kasrkin (Scouts 6"), and Gaunt's Ghosts (Infiltrators + Scouts 6"). Use Lord Solar's redeploy ability to counter-deploy against opponent.
 
 ---
 
@@ -171,12 +172,12 @@
 
 ---
 
-## 2000 Point List - "Imperial Hammer"
+## 2000 Point List - "The Marksman's Hammer"
 
-**Total Points:** 1,995pts
+**Total Points:** 1,985pts
 **Command Points:** 3 (Battle-forged)
 **Detachment:** Grizzled Company
-**Enhancement:** Grand Strategist (15pts) on Cadian Command Squad
+**Enhancement:** Drill Commander (20pts) on Cadian Command Squad
 **Note:** Lord Solar Leontus is an Epic Hero and cannot take enhancements.
 
 ### Army Roster
@@ -184,63 +185,62 @@
 | Unit | Models | Role | Points |
 |------|--------|------|--------|
 | Lord Solar Leontus | 1 | HQ (Warlord) | 130pts |
-| Cadian Command Squad + Grand Strategist | 5 | HQ | 80pts |
-| Cadian Command Squad | 5 | HQ | 65pts |
+| Cadian Command Squad + Drill Commander | 5 | HQ | 85pts |
 | Cadian Shock Troops | 20 | Battleline | 120pts |
 | Cadian Shock Troops | 20 | Battleline | 120pts |
-| Cadian Shock Troops | 10 | Battleline | 65pts |
-| Gaunt's Ghosts | 6 | Elites | 100pts |
+| Gaunt's Ghosts | 6 | Elites (Sniper) | 100pts |
+| **Kasrkin** | **10** | **Infantry (Elite Snipers)** | **110pts** |
 | **Ratlings** | **10** | **Infantry (Snipers)** | **100pts** |
-| Chimera | 1 | Transport | 85pts |
 | Chimera | 1 | Transport | 85pts |
 | Chimera | 1 | Transport | 85pts |
 | Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
 | Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
 | Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
 | Leman Russ Demolisher | 1 | Heavy Support | 190pts |
-| Leman Russ Punisher | 1 | Heavy Support | 150pts |
-| Armoured Sentinels | 2 | Heavy Support | 65pts |
+| **Rogal Dorn Battle Tank** | **1** | **Heavy Support** | **250pts** |
+| Scout Sentinels | 2 | Heavy Support | 55pts |
 
 ### Points Calculation (SHOW WORK)
 
 | Unit | Calculation | Total |
 |------|-------------|-------|
 | Lord Solar Leontus | 130pts | 130pts |
-| Cadian Command Squad + Grand Strategist | 65 + 15 | 80pts |
-| Cadian Command Squad | 65pts | 65pts |
+| Cadian Command Squad + Drill Commander | 65 + 20 | 85pts |
 | Cadian Shock Troops (20) | 120pts | 120pts |
 | Cadian Shock Troops (20) | 120pts | 120pts |
-| Cadian Shock Troops (10) | 65pts | 65pts |
 | Gaunt's Ghosts | 100pts | 100pts |
+| Kasrkin (10) | 110pts | 110pts |
 | Ratlings (10) | 100pts | 100pts |
-| Chimera × 3 | 3 × 85 | 255pts |
+| Chimera × 2 | 2 × 85 | 170pts |
 | Leman Russ Battle Tank × 3 | 3 × 185 | 555pts |
 | Leman Russ Demolisher | 190pts | 190pts |
-| Leman Russ Punisher | 150pts | 150pts |
-| Armoured Sentinels (2) | 65pts | 65pts |
+| Rogal Dorn Battle Tank | 250pts | 250pts |
+| Scout Sentinels (2) | 55pts | 55pts |
 
-**TOTAL:** 130 + 80 + 65 + 120 + 120 + 65 + 100 + 100 + 255 + 555 + 190 + 150 + 65 = **1,995pts** ✅
+**TOTAL:** 130 + 85 + 120 + 120 + 100 + 110 + 100 + 170 + 555 + 190 + 250 + 55 = **1,985pts** ✅
 
 **VERIFICATION:**
-130 + 80 = 210
-210 + 65 = 275
-275 + 120 = 395
-395 + 120 = 515
-515 + 65 = 580
-580 + 100 = 680
-680 + 100 = 780
-780 + 255 = 1,035
-1,035 + 555 = 1,590
-1,590 + 190 = 1,780
-1,780 + 150 = 1,930
-1,930 + 65 = **1,995pts** ✅
+130 + 85 = 215
+215 + 120 = 335
+335 + 120 = 455
+455 + 100 = 555
+555 + 110 = 665
+665 + 100 = 765
+765 + 170 = 935
+935 + 555 = 1,490
+1,490 + 190 = 1,680
+1,680 + 250 = 1,930
+1,930 + 55 = **1,985pts** ✅
 
-**STATUS:** 5pts remaining, LEGAL
+**STATUS:** 15pts remaining, LEGAL
 
-**Upgrade Notes (v1.2):**
-- Leman Russ Punisher corrected from 190pts to **150pts** (Wahapedia verified)
-- Used 40pts savings to upgrade Ratlings from 5 to **10 models** (double sniper threat!)
-- 10-model Ratlings can take Tankstopper Rifle + Demolition Gear + Ratling Battlemutt
+**Upgrade Notes (v1.3 - "The Marksman's Hammer"):**
+- **NEW: Kasrkin (10)** added for elite sniper capability (Hot-shot Marksman Rifle + Precision)
+- **NEW: Rogal Dorn Battle Tank** replaces Leman Russ Punisher (T12, multi-profile turret, tournament staple)
+- **NEW: Scout Sentinels** replace Armoured Sentinels (Scouts 9" for board control)
+- **UPGRADED: Drill Commander** replaces Grand Strategist (+1 to hit on Ordered units)
+- Removed 1× Cadian Command Squad, 1× Chimera, 10-model Shock Troops to fund upgrades
+- **TRIPLE SNIPER THREAT:** 12 Precision shots/turn (Ratlings + Kasrkin + Gaunt's Ghosts)
 
 ---
 
@@ -252,98 +252,217 @@
 Before battle begins, identify opponent's deployment and redeploy up to 3 units to counter. Priority redeployment targets:
 1. Leman Russ tanks (reposition to maximize firing lanes)
 2. Gaunt's Ghosts (Infiltrators - place aggressively or defensively)
-3. Chimeras (shift to threatened flanks)
+3. Kasrkin (Scouts 6" - adjust for optimal sniper lanes)
 
-**Ratlings Deployment:**
-- **Infiltrators:** Deploy anywhere >9" from enemy deployment zone and enemy models
-- **Ideal Position:** Behind obscuring terrain with sightlines to enemy HQ cluster
-- **Backup Position:** Backfield objective with clear lanes to midfield
+**Triple Sniper Deployment - THE TRIANGULATED KILLZONE:**
+
+```
+YOUR DEPLOYMENT ZONE
+═══════════════════════════════════════════════════
+
+   [Shock Troops 20]   [TANK CASTLE]   [Shock Troops 20]
+        ⬛               🔶🔶🔶🔶              ⬛
+                      (3×LR + Dorn)
+
+═══════════════════════════════════════════════════
+              ↑ MIDFIELD ↑
+═══════════════════════════════════════════════════
+
+  🎯 RATLINGS (10)      OBJECTIVES     🎯 KASRKIN (10)
+  (Infiltrate)             ⭕            (Scouts 6")
+  10× Precision                        1× Marksman Rifle
+                                       + plasma/melta
+
+                    🎯 GAUNT'S GHOSTS (6)
+                      (Infiltrate + Scouts 6")
+                      1× Sniper Rifle (D3 damage!)
+
+═══════════════════════════════════════════════════
+              ENEMY DEPLOYMENT ZONE
+```
+
+**Sniper Positions:**
+- **Ratlings (LEFT):** Infiltrate behind cover with sightlines to enemy HQ cluster
+- **Kasrkin (RIGHT):** Scout 6" onto midfield objective, Hot-shot Marksman Rifle covering center
+- **Gaunt's Ghosts (CENTER):** Infiltrate + Scout 6" = deepest forward position, harass backfield
 
 **Deployment Philosophy:**
-- **Tank Castle:** 5x Leman Russ in overlapping fire lanes (center or strong flank)
-- **Infantry Screen:** 3x Cadian Shock Troops hold primary/secondary objectives
-- **Mobile Reserve:** 3x Chimeras for objective play and counter-deployment
-- **Sniper Overwatch:** Ratlings on flank with character assassination angles
-- **Sentinels:** Flanks for backfield anti-tank fire
-- **Gaunt's Ghosts:** Infiltrate onto enemy objective or deny Scout moves
+- **Tank Castle:** 4x tanks (3× LR Battle Tank + Rogal Dorn + Demolisher) in overlapping fire lanes
+- **Infantry Screen:** 2× Cadian Shock Troops (20 each) hold primary/secondary objectives
+- **Mobile Reserve:** 2× Chimeras for objective play
+- **Triple Sniper Overwatch:** Ratlings + Kasrkin + Ghosts create triangulated fire
+- **Scout Sentinels:** Scouts 9" for early board control + lascannon anti-tank
 
 ---
 
-### Sniper Tactics - Ratlings
+### Triple Sniper Doctrine
 
-**THE RATLING DOCTRINE:**
+**THE MARKSMAN'S HAMMER - CHARACTER ASSASSINATION NETWORK**
 
-Ratlings are not damage dealers. They are **character assassins** and **harassment specialists**.
+This list fields **THREE** sniper units creating overlapping Precision fire from multiple angles. No character is safe.
 
-**Target Priority (in order):**
-1. **Wounded Characters:** Any character with 1-3 wounds remaining - finish the kill
-2. **Support Characters:** Apothecaries (deny resurrection), Techmarines (deny vehicle healing), Psykers (deny powers)
-3. **Buff Characters:** Lieutenants (deny wound rerolls), Captains (deny hit rerolls)
-4. **Warlords:** If exposed and reachable - go for the throat
+---
 
-**Weapon Profile - Sniper Rifle:**
-| Range | Type | A | BS | S | AP | D | Abilities |
-|-------|------|---|----|----|----|----|-----------|
-| 36" | Heavy | 1 | 3+ | 4 | -2 | 2 | **Precision** |
+#### SNIPER UNIT COMPARISON
 
-**Precision Keyword:** You can allocate hits to CHARACTER models even if they are not the closest model.
+| Unit | Precision Shots | Range | S | AP | D | Survivability | Special |
+|------|-----------------|-------|---|----|----|---------------|---------|
+| **Ratlings (10)** | 10 | 36" | 4 | -2 | 2 | T2 Sv6+ (fragile) | Infiltrators, Stealth (-1 to hit), Shoot Sharp and Scarper |
+| **Kasrkin Marksman (1)** | 1 | 36" | 3 | -1 | 1 | T3 Sv4+ (tough) | Scouts 6", unit has plasma/melta backup |
+| **Gaunt's Ghosts (1)** | 1 | 36" | 5 | -2 | 3 | T3 Sv4+ in cover | Infiltrators, Scouts 6", Stealth |
 
-**Expected Damage vs Characters (10 Ratlings at 2000pts):**
-- 10 Ratlings = 10 shots (9 sniper rifles + 1 tankstopper rifle)
-- 3+ BS = ~6.67 hits
-- S4 vs T4 = wounds on 4+ = ~3.33 wounds
-- AP-2 vs Sv3+ = saves on 5+ = ~2.2 unsaved wounds
-- D2 = **~4.4 damage per shooting phase**
+**TOTAL PRECISION SHOTS/TURN: 12**
+
+---
+
+#### COMBINED SNIPER OUTPUT VS CHARACTERS
+
+**Target: T4 Sv3+ Character (e.g., Space Marine Captain, 5W)**
+
+| Unit | Shots | Hits | Wounds | Unsaved | Damage |
+|------|-------|------|--------|---------|--------|
+| Ratlings (10) | 10 | 6.67 | 3.33 | 2.22 | **4.44** |
+| Kasrkin Marksman | 1 | 0.67 | 0.22 | 0.11 | **0.11** |
+| Gaunt's Ghosts | 1 | 0.67 | 0.44 | 0.30 | **0.89** |
+| **TOTAL** | **12** | - | - | - | **~5.4 damage/turn** |
 
 **That's enough to:**
-- Kill a 4W character in 1 turn
-- Finish any wounded character instantly
-- Seriously threaten 6W+ characters over 2 turns
-- Force opponent to hide characters behind units/terrain
+- **Kill a 5W character in 1 turn** (Marines Captain, most Psykers)
+- **Finish ANY wounded character instantly**
+- **Kill a 6W character in 2 turns** guaranteed
+- **Force opponent to hide ALL characters** behind terrain/units
 
-**"Shoot Sharp and Scarper" Ability:**
-After shooting, if not in Engagement Range, this unit can make a **Normal Move** (6") but cannot charge.
+---
 
-**Tactical Applications:**
-1. **Shoot** from cover → **Move** to new sightline
-2. **Shoot** → **Retreat** behind infantry screen before enemy turn
-3. **Shoot** → **Advance** to new objective (no charge anyway)
+#### RATLINGS (10 models)
 
-**What NOT To Do:**
-- ❌ Leave Ratlings exposed (T2, Sv6+ = dies to literally anything)
-- ❌ Charge Ratlings into melee (WS5+, S2 = useless)
-- ❌ Expect Ratlings to kill healthy characters quickly (chip damage only)
-- ❌ Deploy without infantry screen nearby
+**Role:** Volume sniper fire - the primary character killers
 
-**Synergy with Gaunt's Ghosts:**
-Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
-- Gaunt's Ghosts on left flank (1 sniper rifle in unit)
-- Ratlings on right flank (5 sniper rifles)
-- Enemy characters caught in triangulated fire
+**Weapon Profile:**
+| Weapon | Range | A | BS | S | AP | D | Abilities |
+|--------|-------|---|----|----|----|----|-----------|
+| Sniper Rifle | 36" | 1 | 3+ | 4 | -2 | 2 | **Precision** |
+
+**Key Abilities:**
+- **Infiltrators:** Deploy anywhere >9" from enemy deployment/models
+- **Stealth:** Enemies -1 to hit (helps survive 1 turn)
+- **Shoot Sharp and Scarper:** After shooting, make a Normal Move 6" (reposition!)
+
+**Tactics:**
+1. Infiltrate behind cover with sightlines to enemy HQ cluster
+2. Turn 1: Fire 10 Precision shots at priority character
+3. "Shoot Sharp and Scarper" → retreat 6" behind Shock Troops screen
+4. Repeat until all characters dead or Ratlings die
+
+**Weakness:** T2 Sv6+ = dies to a stiff breeze. ALWAYS screen with infantry.
+
+---
+
+#### KASRKIN (10 models) - NEW
+
+**Role:** Elite infantry with precision sniper + anti-armor punch
+
+**Recommended Loadout:**
+| Model | Weapon | Purpose |
+|-------|--------|---------|
+| Sergeant | Hot-shot laspistol + Power weapon | Melee threat |
+| 1× Specialist | **Hot-shot Marksman Rifle** | **Precision sniper** |
+| 1× Specialist | Plasma gun | Anti-elite (S8 AP-3 D2) |
+| 1× Specialist | Meltagun | Anti-vehicle (S9 AP-4 Dd6) |
+| 1× Specialist | Grenade launcher | Flexibility |
+| 5× Troopers | Hot-shot lasguns | Volume fire (S3 AP-1) |
+
+**Key Abilities:**
+- **Scouts 6":** Pre-game move onto midfield objective
+- **Hot-shot Marksman Rifle:** 36" Heavy 1, S3 AP-1 D1, **Precision**
+
+**Tactics:**
+1. Scout 6" onto midfield objective (or toward sniper lane)
+2. Order with Drill Commander: +1 to hit = **2+ BS**
+3. Marksman Rifle snipes characters while plasma/melta handle armor
+4. Hot-shot lasguns clear chaff (S3 AP-1 = good vs light infantry)
+
+**Advantage over Ratlings:** T3 Sv4+ survives return fire. Multi-role (sniper + anti-armor).
+
+---
+
+#### GAUNT'S GHOSTS (6 models)
+
+**Role:** Deep infiltration sniper + objective harassment
+
+**Sniper Profile (1 model - Hlaine Larkin):**
+| Weapon | Range | A | BS | S | AP | D | Abilities |
+|--------|-------|---|----|----|----|----|-----------|
+| Sniper Rifle | 36" | 1 | 3+ | 5 | -2 | 3 | **Precision** |
+
+**Key Abilities:**
+- **Infiltrators + Scouts 6":** Deepest forward deployment in the army
+- **Stealth:** -1 to hit
+- **Camo Cloaks:** +1 to saves in cover (effective 4+ save)
+
+**Tactics:**
+1. Infiltrate aggressively toward enemy backfield objective
+2. Scout 6" to get within 36" of enemy characters
+3. Larkin's sniper rifle = S5 D3 = **kills wounded characters outright**
+4. Rest of unit harasses backfield with hot-shot lasguns
+5. Force opponent to deal with Ghosts OR let them score/snipe
+
+---
+
+#### COORDINATED SNIPER FIRE - TURN BY TURN
+
+**Turn 1:**
+- All 3 sniper units target **same character** (focus fire)
+- 12 Precision shots = high chance of kill on 4-5W character
+- Ratlings "Shoot Sharp and Scarper" to safety
+
+**Turn 2:**
+- Switch to next priority character
+- Kasrkin can Order for +1 to hit (2+ BS on Marksman)
+- Gaunt's Ghosts may need to reposition for sightlines
+
+**Turn 3+:**
+- By now, 2-3 enemy characters should be dead
+- Shift sniper fire to wounded monsters/vehicles if no characters visible
+- Ratlings can score objectives (1 OC each = 10 OC total!)
+
+---
+
+#### SNIPER TARGET PRIORITY
+
+1. **Wounded Characters (1-3W remaining)** - Instant kill
+2. **Support Characters** - Apothecaries, Techmarines, Psykers (deny buffs)
+3. **Buff Characters** - Lieutenants (wound rerolls), Captains (hit rerolls)
+4. **Warlords** - If exposed, go for the throat
+5. **No characters visible?** - Snipe wounded elite infantry or hold objectives
 
 ---
 
 ### Command Phase Priority
 
 **Lord Solar Leontus Orders (3 per turn):**
-1. **"Take Aim!"** on Leman Russ (re-roll 1s to hit)
-2. **"Take Aim!"** on second Leman Russ
-3. **"Move! Move! Move!"** on Chimera (advance + shoot without penalty)
+1. **"Take Aim!"** on Rogal Dorn Battle Tank (re-roll 1s to hit on your biggest gun)
+2. **"Take Aim!"** on Leman Russ Demolisher (maximize S14 hits)
+3. **"Take Aim!"** on Kasrkin (makes Marksman Rifle even deadlier)
 
-**Cadian Command Squad Orders (1 each):**
-- **"Take Aim!"** on infantry holding objectives
-- **"Fire and Maneuver"** on units needing fallback + shoot
+**Cadian Command Squad + Drill Commander Orders (1 per turn):**
+- **Priority: Kasrkin** → Drill Commander gives **+1 to hit** (Kasrkin shoot at 2+ BS!)
+- **Alternative: "Take Aim!"** on Shock Troops holding objectives
 
 **CP Generation:**
 - Lord Solar: +1CP per Command phase (passive)
-- Grand Strategist: +1CP once per battle (when critically needed)
-- Expected CP total: ~9-10 CP across 5-turn game
+- Expected CP total: ~8 CP across 5-turn game (no Grand Strategist in this build)
 
 ---
 
 ### Target Priority Matrix
 
-**Leman Russ Battle Tank (Battle Cannon):**
+**Rogal Dorn Battle Tank (NEW - Primary Damage Dealer):**
+- PRIMARY: Enemy vehicles/monsters (Twin battle cannon OR Oppressor cannon)
+- SECONDARY: Elite infantry with Co-axial autocannon + Heavy bolters
+- **Why Rogal Dorn?** Multi-profile turret, T12 Sv2+ W18, dominates competitive meta
+
+**Leman Russ Battle Tank (Battle Cannon) ×3:**
 - PRIMARY: Enemy vehicles/monsters (S10 AP-1 D3)
 - SECONDARY: Elite infantry (MEQ - Marines, Terminators)
 - Heavy D6+3 shots = reliable damage output
@@ -353,10 +472,11 @@ Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
 - SECONDARY: Monster/vehicle finishing blows
 - 24" range = mid-field positioning required
 
-**Leman Russ Punisher:**
-- PRIMARY: Light infantry (GEQ - Guard equivalents, Orks, Tyranid gaunts)
-- SECONDARY: Multi-wound infantry (W2-3 models)
-- 20 shots = statistical overkill on blobs
+**Kasrkin (Elite Snipers + Anti-Armor) - NEW:**
+- PRIMARY: Characters via Hot-shot Marksman Rifle (Precision)
+- SECONDARY: Vehicles/monsters via Meltagun (S9 AP-4)
+- TERTIARY: Elite infantry via Plasma gun (S8 AP-3)
+- Multi-role unit = flexible threat
 
 **Ratlings (Sniper Rifles):**
 - PRIMARY: Wounded characters (1-3W remaining)
@@ -364,10 +484,10 @@ Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
 - TERTIARY: Buff characters (Lieutenants, Captains)
 - Precision = ignore Look Out, Sir
 
-**Armoured Sentinels (Lascannons):**
-- PRIMARY: Backfield enemy vehicles (48" range)
-- SECONDARY: Monsters
-- Cheap disposable anti-tank
+**Scout Sentinels (Lascannons) - UPGRADED:**
+- PRIMARY: Early board control via Scouts 9"
+- SECONDARY: Backfield enemy vehicles (48" range)
+- Cheap, forward-deploying anti-tank
 
 **Chimeras:**
 - PRIMARY: Objective control (move infantry to midfield)
@@ -376,8 +496,8 @@ Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
 
 **Gaunt's Ghosts:**
 - PRIMARY: Backfield objective harassment
-- SECONDARY: Character assassination (close range sniper)
-- Stealth + Infiltrators = denial unit
+- SECONDARY: Character assassination (Larkin's sniper = S5 D3!)
+- Stealth + Infiltrators + Scouts 6" = deepest forward unit
 
 ---
 
@@ -426,21 +546,138 @@ Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
 
 ### Enhancements (Grizzled Company)
 
-**GRAND STRATEGIST (15pts)** - Selected for Cadian Command Squad
-- **Effect:** Once per battle, gain 1CP
-- **Use Case:** Critical Stratagem turn (usually Turn 2-3 alpha strike)
+**DRILL COMMANDER (20pts)** - Selected for Cadian Command Squad (v1.3)
+- **Effect:** When this Officer issues an Order, the ordered unit gets **+1 to hit** (shooting)
+- **Use Case:** Order Kasrkin → they shoot at **2+ BS** (including Marksman Rifle!)
+- **Why Better Than Grand Strategist:** +1 to hit every turn > 1CP once per game
 - **Note:** Lord Solar Leontus is an Epic Hero and cannot take enhancements
 
 **Other Available Enhancements:**
-- **Master of Ordnance (20pts):** Re-roll 1 hit/wound/damage per turn for Indirect Fire
-- **Tactical Genius (15pts):** Once per battle, roll 2D6 for Advance/Charge and pick result
-- **Old Grudges (10pts):** Re-roll wounds vs. one enemy unit (chosen at start of battle)
+- **Grand Strategist (15pts):** Once per battle, gain 1CP (was previous pick)
+- **Death Mask of Ollanius (10pts):** 6" aura: models flee on 2+ instead of auto
+- **Gatekeeper (20pts):** Lasgun weapons get +6" range and Lethal Hits
 
 ---
 
 ## Unit Datasheets
 
-### RATLINGS (NEW)
+### KASRKIN (NEW - v1.3)
+**Edition:** 10TH EDITION - VERIFIED DEC 2025 ✅
+**Points:** 110pts (10 models) | **Battlefield Role:** Infantry
+**Source:** [Wahapedia - Kasrkin](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Kasrkin)
+
+**Profile:**
+- M: 6" | T: 3 | Sv: 4+ | W: 1 | Ld: 7+ | OC: 1
+
+**Unit Composition:**
+- 1× Kasrkin Sergeant
+- 9× Kasrkin Troopers
+
+**Weapons:**
+
+| Weapon | Range | Type | A | BS/WS | S | AP | D | Abilities |
+|--------|-------|------|---|-------|---|----|---|-----------|
+| Hot-shot lasgun | 24" | Rapid Fire 1 | 1 | 3+ | 3 | -1 | 1 | - |
+| Hot-shot laspistol | 12" | Pistol 1 | 1 | 3+ | 3 | -1 | 1 | - |
+| **Hot-shot Marksman Rifle** | **36"** | **Heavy 1** | **1** | **3+** | **3** | **-1** | **1** | **Precision** |
+| Plasma gun (standard) | 24" | Rapid Fire 1 | 1 | 3+ | 7 | -2 | 1 | - |
+| Plasma gun (supercharge) | 24" | Rapid Fire 1 | 1 | 3+ | 8 | -3 | 2 | Hazardous |
+| Meltagun | 12" | Assault 1 | 1 | 3+ | 9 | -4 | D6 | Melta 2 |
+| Grenade launcher (frag) | 24" | Assault D6 | D6 | 3+ | 4 | 0 | 1 | Blast |
+| Grenade launcher (krak) | 24" | Assault 1 | 1 | 3+ | 9 | -2 | D3 | - |
+| Power weapon | Melee | Melee | 3 | 3+ | 4 | -2 | 1 | - |
+
+**Wargear Options:**
+- Up to 4 Kasrkin Troopers can replace hot-shot lasgun with: Flamer, Grenade launcher, Hot-shot volley gun, Meltagun, or Plasma gun
+- 1 Kasrkin Trooper can replace hot-shot lasgun with **Hot-shot Marksman Rifle** (Precision sniper!)
+- Sergeant can take Power weapon
+
+**Abilities:**
+- **Scouts 6":** After deployment, can make a Normal Move of up to 6"
+
+**Recommended Loadout (Sniper Build):**
+- Sergeant: Hot-shot laspistol + Power weapon
+- 1× Hot-shot Marksman Rifle (the sniper)
+- 1× Plasma gun
+- 1× Meltagun
+- 1× Grenade launcher
+- 5× Hot-shot lasguns
+
+**Keywords:** Infantry, Imperium, Grenades, Kasrkin
+
+---
+
+### ROGAL DORN BATTLE TANK (NEW - v1.3)
+**Edition:** 10TH EDITION - VERIFIED DEC 2025 ✅
+**Points:** 250pts | **Battlefield Role:** Heavy Support
+**Source:** [Wahapedia - Rogal Dorn Battle Tank](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Rogal-Dorn-Battle-Tank)
+
+**Profile:**
+- M: 10" | T: 12 | Sv: 2+ | W: 18 | Ld: 7+ | OC: 5
+
+**Weapons:**
+
+| Weapon | Range | Type | A | BS | S | AP | D | Abilities |
+|--------|-------|------|---|----|---|----|---|-----------|
+| Twin battle cannon | 72" | Heavy 2D6 | 2D6 | 4+ | 10 | -1 | 3 | Blast, Twin-linked |
+| Oppressor cannon | 72" | Heavy 6 | 6 | 4+ | 12 | -2 | 3 | - |
+| Co-axial autocannon | 48" | Heavy 2 | 2 | 4+ | 9 | -1 | 3 | - |
+| Castigator gatling cannon | 24" | Heavy 12 | 12 | 4+ | 5 | 0 | 1 | - |
+| Pulveriser cannon | 24" | Heavy D6 | D6 | 4+ | 14 | -3 | D6 | Blast |
+| Heavy bolter | 36" | Heavy 3 | 3 | 4+ | 5 | -1 | 2 | - |
+| Heavy stubber | 36" | Heavy 3 | 3 | 4+ | 4 | 0 | 1 | - |
+| Multi-melta | 18" | Heavy 2 | 2 | 4+ | 9 | -4 | D6 | Melta 2 |
+| Meltagun | 12" | Assault 1 | 1 | 4+ | 9 | -4 | D6 | Melta 2 |
+
+**Turret Options (choose one):**
+- **Twin battle cannon** (anti-horde + vehicles) - RECOMMENDED
+- **Oppressor cannon** (pure anti-vehicle)
+
+**Secondary Weapons (choose one):**
+- **Castigator gatling cannon** (anti-infantry)
+- **Pulveriser cannon** (anti-armor)
+
+**Abilities:**
+- **Deadly Demise D6:** When destroyed, roll D6: on 6, each unit within 6" takes D6 mortal wounds
+- **Armoured Hull:** This model is eligible to shoot and charge in a turn in which it Fell Back
+
+**Why Rogal Dorn over Leman Russ Punisher?**
+- T12 vs T11 (tankier)
+- W18 vs W13 (much more wounds)
+- OC 5 vs OC 3 (better objective control)
+- Multi-profile = flexible threat
+- Tournament staple in December 2025 meta
+
+**Keywords:** Vehicle, Imperium, Smoke, Rogal Dorn Battle Tank
+
+---
+
+### SCOUT SENTINELS (UPGRADED from Armoured - v1.3)
+**Edition:** 10TH EDITION - VERIFIED DEC 2025 ✅
+**Points:** 55pts (2 models) | **Battlefield Role:** Heavy Support
+**Source:** [Wahapedia - Scout Sentinels](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Scout-Sentinels)
+
+**Profile:**
+- M: 9" | T: 6 | Sv: 3+ | W: 7 (each) | Ld: 7+ | OC: 2
+
+**Weapons:**
+- **Lascannon:** 48" Heavy 1 S12 AP-3 D6+1
+
+**Abilities:**
+- **Scouts 9":** After deployment, can make a Normal Move of up to 9" (pushes midboard!)
+- **Deadly Demise 1:** When destroyed, each unit within 3" suffers 1 mortal wound on 6+
+
+**Why Scout Sentinels over Armoured?**
+- **Scouts 9"** = early board control, denies enemy scout moves
+- Same lascannon threat
+- 10pts cheaper (55pts vs 65pts)
+- Only sacrifice is Sv3+ vs Sv2+ (negligible for a throwaway unit)
+
+**Keywords:** Vehicle, Walker, Imperium, Scout Sentinels
+
+---
+
+### RATLINGS
 **Edition:** 10TH EDITION - VERIFIED DEC 2025 ✅
 **Points:** 60pts (5 models) / 100pts (10 models) | **Battlefield Role:** Infantry
 **Source:** [Wahapedia - Ratlings](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Ratlings)
@@ -688,34 +925,42 @@ Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
 
 ## Army Validation Checklist
 
-### Rule of Three Compliance
-- ✅ Lord Solar Leontus: 1 (Unique Character)
-- ✅ Cadian Command Squad: 2 (under limit)
-- ✅ Cadian Shock Troops: 3 (Battleline = exempt)
-- ✅ Gaunt's Ghosts: 1 (Unique Unit)
+### Rule of Three Compliance (v1.3 - 2000pt)
+- ✅ Lord Solar Leontus: 1 (Epic Hero = unique)
+- ✅ Cadian Command Squad: 1 (under limit)
+- ✅ Cadian Shock Troops: 2 (Battleline = exempt anyway)
+- ✅ Gaunt's Ghosts: 1 (Epic Hero unit)
+- ✅ **Kasrkin: 1 (under limit)** - NEW
 - ✅ **Ratlings: 1 (under limit)**
-- ✅ Chimera: 3 (Dedicated Transport = exempt)
-- ✅ Leman Russ Battle Tank: 3 (each variant separate datasheet)
+- ✅ Chimera: 2 (Dedicated Transport = exempt)
+- ✅ Leman Russ Battle Tank: 3 (at limit)
 - ✅ Leman Russ Demolisher: 1 (separate datasheet)
-- ✅ Leman Russ Punisher: 1 (separate datasheet)
-- ✅ Armoured Sentinels: 1 (under limit)
+- ✅ **Rogal Dorn Battle Tank: 1 (under limit)** - NEW
+- ✅ **Scout Sentinels: 1 (under limit)** - CHANGED from Armoured
 
 ### Points Totals
 - ✅ 500pt list: 495pts (legal, 5pts remaining)
 - ✅ 1000pt list: 1,000pts (legal, exact)
-- ✅ 2000pt list: 1,995pts (legal, 5pts remaining)
+- ✅ **2000pt list: 1,985pts (legal, 15pts remaining)** - UPDATED v1.3
 
 ### Detachment Rules
 - ✅ Grizzled Company detachment selected
-- ✅ Enhancement: Grand Strategist (15pts) on Cadian Command Squad (2000pt list)
+- ✅ **Enhancement: Drill Commander (20pts) on Cadian Command Squad (2000pt list)** - CHANGED v1.3
 - ✅ Enhancement: Grand Strategist (15pts) on Cadian Command Squad (1000pt list)
 - ✅ No Enhancements in 500pt list (missions don't allow)
 - ✅ Lord Solar Leontus (Epic Hero) correctly has no enhancement
+- ✅ Gaunt's Ghosts (contains Epic Hero Ibram Gaunt) correctly has no enhancement
 
 ### Army Composition
 - ✅ Warlord declared: Lord Solar Leontus (2000pt), Cadian Command Squad (1000pt/500pt)
-- ✅ Battleline requirement: 3x Cadian Shock Troops (all lists) OR 2x minimum
+- ✅ Battleline requirement: 2× Cadian Shock Troops (2000pt), 3× (1000pt), 2× (500pt)
 - ✅ No Legendary Units (none in Astra Militarum 10th edition)
+
+### Sniper Verification (v1.3)
+- ✅ **Ratlings (10):** 10× Precision shots
+- ✅ **Kasrkin Marksman (1):** 1× Precision shot
+- ✅ **Gaunt's Ghosts Larkin (1):** 1× Precision shot (S5 D3!)
+- ✅ **TOTAL: 12 Precision shots/turn**
 
 ---
 
@@ -765,6 +1010,16 @@ Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
 
 ## Version History
 
+**v1.3 - "The Marksman's Hammer"** - December 29, 2025
+- **NEW UNIT: Kasrkin (10)** - Elite snipers with Hot-shot Marksman Rifle (Precision)
+- **NEW UNIT: Rogal Dorn Battle Tank** - Replaces Leman Russ Punisher (T12, W18, tournament meta)
+- **UPGRADE: Scout Sentinels** - Replaces Armoured Sentinels (Scouts 9" for board control)
+- **UPGRADE: Drill Commander** - Replaces Grand Strategist (+1 to hit on Ordered units)
+- **TRIPLE SNIPER DOCTRINE:** 12 Precision shots/turn (Ratlings + Kasrkin + Ghosts)
+- Reduced to 1× Cadian Command Squad, 2× Chimeras, 2× Shock Troops squads
+- Added comprehensive Kasrkin, Rogal Dorn, and Scout Sentinel datasheets
+- Updated tactical guide with triangulated sniper deployment
+
 **v1.2** - December 29, 2025
 - **POINTS FIX:** Leman Russ Punisher corrected from 190pts to 150pts (Wahapedia verified)
 - **STAT FIX:** Lord Solar Leontus profile corrected (M:12", T:4, W:8, Ld:6+)
@@ -793,16 +1048,17 @@ Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
 - [Astra Militarum Faction Page](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/)
 - [Grizzled Company Detachment](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/#Grizzled-Company)
 
-**Key Units:**
+**Key Units (v1.3):**
 - [Lord Solar Leontus](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Lord-Solar-Leontus)
 - [Cadian Shock Troops](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Cadian-Shock-Troops)
+- **[Kasrkin](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Kasrkin)** - NEW (Elite Snipers)
+- **[Ratlings](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Ratlings)** - Volume Snipers
+- [Gaunt's Ghosts](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Gaunts-Ghosts) - Infiltration Sniper
 - [Leman Russ Battle Tank](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Leman-Russ-Battle-Tank)
 - [Leman Russ Demolisher](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Leman-Russ-Demolisher)
-- [Leman Russ Punisher](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Leman-Russ-Punisher)
+- **[Rogal Dorn Battle Tank](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Rogal-Dorn-Battle-Tank)** - NEW (Tournament Meta)
 - [Chimera](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Chimera)
-- [Gaunt's Ghosts](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Gaunts-Ghosts)
-- [Armoured Sentinels](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Armoured-Sentinels)
-- **[Ratlings](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Ratlings)** (NEW)
+- **[Scout Sentinels](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Scout-Sentinels)** - NEW (Scouts 9")
 
 ---
 
@@ -810,4 +1066,5 @@ Both units have Infiltrators. Deploy them to create a **sniper crossfire**:
 
 *Tactical document maintained by Tacticus Agent*
 *Last updated: December 29, 2025*
-*Army list status: Tournament-ready, meta-validated, sniper-enhanced*
+*Army list status: Tournament-ready, meta-validated, TRIPLE SNIPER DOCTRINE*
+*Precision shots per turn: 12*
