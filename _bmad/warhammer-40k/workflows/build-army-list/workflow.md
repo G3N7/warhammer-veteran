@@ -172,26 +172,78 @@ If ANY validation fails, return to Step 4 and rebuild.
 
 **MANDATORY SECTION - DO NOT SKIP**
 
-**Generate a compact assembly guide for EACH points level (500/1000/2000):**
+The Model Assembly Guide tells the user EXACTLY how to build each model. This is critical for new hobbyists who need to know which weapons to glue on.
+
+### Part A: Assembly Tables (One per points level)
 
 Create one table per points level showing every model:
-```
-## Model Assembly Guide (Xpt - Y models)
 
-| Model | Qty | Loadout |
-|-------|-----|---------|
-| [Character/Leader name] | 1 | [weapons] |
-| [Unit type + role] | X | [weapons] |
+```markdown
+## Model Assembly Guide
+
+### 500pt (X models)
+
+| Model | Qty | Loadout | Notes |
+|-------|-----|---------|-------|
+| [Character name] | 1 | [exact weapons] | [magnetize?] |
+| [Squad Leader type] | X | [leader weapons] | — |
+| [Heavy Weapon model] | X | [heavy weapon + secondary] | [magnetize?] |
+| [Standard model] | X | [default weapons] | — |
+
+### 1000pt (X models)
+
+| Model | Qty | Loadout | Notes |
+|-------|-----|---------|-------|
+| ... | ... | ... | ... |
+
+### 2000pt (X models)
+
+| Model | Qty | Loadout | Notes |
+|-------|-----|---------|-------|
+| ... | ... | ... | ... |
 ```
 
-**Requirements:**
-- One section per points level (500pt, 1000pt, 2000pt)
-- Every model in the army listed with exact loadout
-- Include squad leaders, heavy weapons, standard troops separately
-- Characters and vehicles each get their own row
+**Table Requirements:**
+- Separate row for each distinct model configuration
+- Squad leaders listed separately from regular models
+- Heavy weapon carriers listed separately
+- Exact weapon names from datasheet (not abbreviations)
+- Notes column for magnetization recommendations
+
+### Part B: Shopping List Summary
+
+After the assembly tables, include a shopping list:
+
+```markdown
+## Shopping List Summary
+
+### Boxes Needed
+| Product | Qty | Models Provided | Used For |
+|---------|-----|-----------------|----------|
+| [Box name] | X | Y models | [which units] |
+
+### Total Model Count
+- **500pt:** X models (from Y boxes)
+- **1000pt:** X models (from Y boxes)
+- **2000pt:** X models (from Y boxes)
+
+### Magnetization Recommendations
+- **Highly Recommended:** [units with expensive weapon options]
+- **Optional:** [units with minor swaps]
+- **Not Needed:** [single-build units]
+```
+
+**Shopping List Requirements:**
+- List actual GW product names
+- Show how many boxes needed for each points level
+- Identify which units come from which box
+- Recommend magnetization for expensive/variable loadouts
 
 **Output:**
-Model Assembly Guide with separate table for each points level.
+Complete Model Assembly Guide with:
+1. Assembly table for each points level
+2. Shopping list with box names and counts
+3. Magnetization recommendations
 
 </step>
 
@@ -302,6 +354,9 @@ Tactical breakdown with deployment guide and win conditions.
 
 ---
 
-*Version: 1.0*
-*Last Updated: 2025-12-21*
+*Version: 1.1*
+*Last Updated: 2025-12-29*
 *Maintained by: Tacticus Agent*
+
+**Changelog:**
+- v1.1: Enhanced Step 6 with detailed Shopping List requirements, magnetization recommendations, and concrete template format

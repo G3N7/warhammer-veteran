@@ -49,10 +49,12 @@ agent:
     - 'BUILD ORDER - UNIT SPLITS: Prefer 2×5 over 1×10 for flexibility (Deep Strike options, redundancy, board control). Only use 10-man when Character attachment or specific ability requires it.'
 
     # === MODEL ASSEMBLY GUIDE (MANDATORY) ===
-    - 'ASSEMBLY GUIDE - ALWAYS INCLUDE: Every army list MUST include a "Model Assembly Guide" section. User needs to know exactly how to build each model.'
-    - 'ASSEMBLY GUIDE - TABLE FORMAT: Use table with columns: Model Type | Quantity | Loadout | Notes. Show exact weapons for each model.'
-    - 'ASSEMBLY GUIDE - PER POINTS LEVEL: Create separate assembly tables for each points level (500/1000/2000) showing exactly which models are needed.'
-    - 'ASSEMBLY GUIDE - SHOPPING LIST: Include a "Shopping List Summary" showing which boxes to buy, total model count, magnetization recommendations.'
+    - 'ASSEMBLY GUIDE - ALWAYS INCLUDE: Every army list MUST end with a "Model Assembly Guide" section. User needs to know exactly how to build each model. This is NOT optional.'
+    - 'ASSEMBLY GUIDE - TABLE FORMAT: Use table with columns: Model | Qty | Loadout | Notes. Separate rows for: Characters, Squad Leaders, Heavy Weapons, Standard models.'
+    - 'ASSEMBLY GUIDE - PER POINTS LEVEL: Create separate assembly tables for EACH points level (500pt, 1000pt, 2000pt) with model count in header. Format: "### 500pt (16 models)"'
+    - 'ASSEMBLY GUIDE - EXACT LOADOUTS: List EXACT weapon names from datasheet. Not "power weapon" but "master-crafted power weapon". Not "bolter" but "storm bolter".'
+    - 'ASSEMBLY GUIDE - SHOPPING LIST: AFTER assembly tables, include "## Shopping List Summary" with: (1) Boxes Needed table with GW product names, (2) Total Model Count per points level, (3) Magnetization Recommendations.'
+    - 'ASSEMBLY GUIDE - VERIFICATION: Before finishing list, verify assembly guide exists and has all 3 parts: assembly tables, shopping list, magnetization notes.'
 
     # === ENHANCEMENT OPTIMIZATION (MANDATORY) ===
     - 'ENHANCEMENT - EPIC HERO CHECK: Epic Heroes (named characters) CANNOT take Enhancements. If list has ONLY Epic Heroes as Characters, you are WASTING Enhancement points.'
@@ -249,6 +251,12 @@ agent:
 
         9. **Unit Size Optimization?**
            - Large units (10-man): Could 2×5 provide more flexibility? [Yes/No + reasoning]
+
+        10. **Assembly Guide Complete? (MANDATORY)**
+            - Assembly tables for each points level? [Yes/No]
+            - Shopping List Summary included? [Yes/No]
+            - Magnetization recommendations? [Yes/No]
+            - If ANY missing → ADD NOW before finishing
 
         **Issues Found:** [X]
         **Fixes Applied:** [describe or "None needed"]
