@@ -6,6 +6,7 @@
 - Preferred paint brands: Army Painter (default)
 - Color preferences: Deathskulls blue for Orks
 - Painting goals: Complete Dread Mob army
+- **Wife's army:** Adepta Sororitas - Order of the Rose Eternal (hot pink theme)
 
 ## Protocols
 
@@ -20,9 +21,21 @@ When user requests a paint scheme summary:
 
 ## Session History
 
-### 2025-12-30 - Deathskulls Dread Mob
-- Created Deathskulls paint scheme for Orks Dread Mob list
-- Added palette to `army-lists/orks/mek-gunz-apocalypse-dread-mob.md`
+### 2025-12-30 - Batch Army Paint Schemes
+Added paint schemes to ALL army lists following the integration protocol:
+
+| Army | Scheme | File |
+|------|--------|------|
+| Orks | Deathskulls (blue) | `army-lists/orks/mek-gunz-apocalypse-dread-mob.md` |
+| Space Wolves | Wolf Grey | `army-lists/space-wolves/wolves-of-the-fang-terminator-army.md` |
+| Ultramarines | Classic blue/gold | `army-lists/ultramarines/sons-of-guilliman-gladius-army.md` |
+| Astra Militarum | Cadian 8th (green/grey) | `army-lists/astra-militarum/imperial-hammer-grizzled-company.md` |
+| Tyranids | Hive Fleet Leviathan (purple/bone) | `army-lists/tyranids/bio-fortress-crusher-stampede.md` |
+| T'au Empire | T'au Sept (ochre/black) | `army-lists/tau-empire/patient-hunter-kauyon-gunline.md` |
+| Adepta Sororitas | **Order of the Rose Eternal (hot pink)** | `army-lists/adepta-sororitas/terminator-slayer-army-of-faith.md` |
+
+**Special Note:** Sisters scheme is a custom "hot pink" theme for user's wife - Pixie Pink armour with white robes.
+
 - Established protocol for appending schemes to army lists
 
 ## Technique Progress
