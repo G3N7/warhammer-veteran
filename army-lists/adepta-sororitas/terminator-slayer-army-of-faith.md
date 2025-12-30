@@ -99,8 +99,9 @@
 | **Paragon Warsuits** (3x multi-melta) | 3 | Monster hunters with durability | **210** |
 | **Exorcist** | 1 | Indirect fire missile platform | **210** |
 | **Immolator** (twin multi-melta) | 1 | Transport for Canoness + Dominions | **115** |
+| **Mortifiers** (heavy bolters + buzz-blades) | 1 | Durable melee walker with FNP 5+ | **70** |
 
-**TOTAL: 1,930pts** (70pts remaining)
+**TOTAL: 2,000pts** ✅
 
 **Points Calculation (VERIFIED):**
 ```
@@ -114,11 +115,10 @@ Retributor × 3:     120×3=360pts
 Paragon Warsuits:       210pts
 Exorcist:               210pts
 Immolator:              115pts
+Mortifiers (1):          70pts
 ────────────────────────────
-TOTAL: 150+75+80+360+210+160+360+210+210+115 = 1,930pts ✅
+TOTAL: 150+75+80+360+210+160+360+210+210+115+70 = 2,000pts ✅
 ```
-
-**Note:** Removed 1 Immolator (was 2,045pts before - 100pt math error discovered in audit)
 
 **Enhancements:**
 - Canoness #1: Blade of Saint Ellynor (15pts) - Precision melee weapon
@@ -130,9 +130,10 @@ TOTAL: 150+75+80+360+210+160+360+210+210+115 = 1,930pts ✅
 
 ### 2000PT LIST STRENGTHS
 
-**MELTA SATURATION (33 weapons total):**
-- 18 meltaguns (12 Dominions + 4 Battle Sisters + 4 inferno pistols)
-- 15 multi-meltas (12 Retributors + 3 Paragon Warsuits + 2 twin multi-meltas)
+**MELTA SATURATION (35 melta-type weapons):**
+- 16 meltaguns (12 Dominions + 4 Battle Sisters)
+- 8 inferno pistol shots (4 Seraphim with dual pistols)
+- 17 multi-melta shots (12 Retributors + 3 Paragons + 2 from Immolator twin)
 - AP-4 = bypasses 2+ armor, forces 4++ invulns only
 - D6 damage with Melta rule = kill multiple Terminators per hit
 
@@ -151,6 +152,7 @@ TOTAL: 150+75+80+360+210+160+360+210+210+115 = 1,930pts ✅
 **DURABILITY & RESURRECTION:**
 - T10 tanks (Exorcist, Immolator) with 11W each
 - Paragon Warsuits T7, 4W, 2+/4++ saves
+- Mortifier T6, 5W, FNP 5+, fights on death
 - Celestine resurrection (2+ to return after death)
 - 4+ invulns on all infantry (Acts of Faith)
 
@@ -167,7 +169,7 @@ TOTAL: 150+75+80+360+210+160+360+210+210+115 = 1,930pts ✅
 - Need to use cover and Acts of Faith for saves
 
 **Elite Army (Low Model Count):**
-- ~90 models total vs horde armies with 120-150
+- 86 models total vs horde armies with 120-150
 - Every unit loss is significant
 - Can't afford to throw away units
 

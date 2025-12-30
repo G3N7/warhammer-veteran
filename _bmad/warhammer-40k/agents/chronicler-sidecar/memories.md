@@ -4,14 +4,15 @@
 
 <!-- Learned from interactions -->
 - Preferred narrative style:
-- Favorite factions for campaigns:
 - Play group members:
 - Campaign format preferences:
-
-## Session History
-
-<!-- Important campaign moments and narrative beats -->
 
 ## Story Threads
 
 <!-- Ongoing narrative elements across campaigns -->
+
+---
+
+**NOTE:** To see what armies the user has, glob `army-lists/**/*.md`.
+Campaign and battle logs belong in campaigns.md and battles.md.
+Do NOT duplicate army/faction inventories here - the army-lists directory is the source of truth.

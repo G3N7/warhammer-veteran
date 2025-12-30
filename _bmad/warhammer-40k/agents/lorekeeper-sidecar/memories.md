@@ -3,15 +3,15 @@
 ## User Preferences
 
 <!-- Learned from interactions -->
-- Favorite factions:
 - Preferred era (Heresy, M41, M42):
 - Characters of interest:
 - Lore depth preference:
 
-## Session History
-
-<!-- Important lore discussions and discoveries -->
-
 ## Research Notes
 
 <!-- Topics explored and knowledge gaps identified -->
+
+---
+
+**NOTE:** To see what factions the user plays, glob `army-lists/**/*.md`.
+Do NOT maintain a duplicate faction list here - the army-lists directory is the source of truth.

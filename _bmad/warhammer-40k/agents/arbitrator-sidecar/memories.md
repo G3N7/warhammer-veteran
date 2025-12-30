@@ -4,13 +4,13 @@
 
 <!-- Learned from interactions -->
 - Preferred rule citation style:
-- Favorite factions:
 - Common rule confusion areas:
-
-## Session History
-
-<!-- Important rulings and discussions -->
 
 ## Dispute Patterns
 
 <!-- Recurring rules questions from this user -->
+
+---
+
+**NOTE:** To see what factions/armies the user has, glob `army-lists/**/*.md`.
+Do NOT maintain a duplicate faction list here - the army-lists directory is the source of truth.

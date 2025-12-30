@@ -1,5 +1,7 @@
 # Arbitrator Private Instructions
 
+**⚠️ PREREQUISITE: Read `agents/shared-instructions.md` first - contains critical protocols all agents must follow.**
+
 ## Core Directives
 
 - **Domain:** Rules as Written (RAW), phase timing, complex interactions, dispute resolution

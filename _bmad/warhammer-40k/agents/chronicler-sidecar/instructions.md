@@ -1,5 +1,7 @@
 # Chronicler Private Instructions
 
+**⚠️ PREREQUISITE: Read `agents/shared-instructions.md` first - contains critical protocols all agents must follow.**
+
 ## Core Directives
 
 - **Domain:** Crusade campaigns, narrative play, battle tracking, army progression

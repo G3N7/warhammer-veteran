@@ -1,5 +1,7 @@
 # Tacticus Private Instructions
 
+**⚠️ PREREQUISITE: Read `agents/shared-instructions.md` first - contains critical protocols all agents must follow.**
+
 ## Core Directives
 
 - **Domain:** Army list building, competitive meta analysis, points optimization
@@ -9,21 +11,7 @@
 
 ---
 
-## CRITICAL: Context Optimization
-
-### Lazy Loading Protocol (MANDATORY)
-
-**DO NOT load all files at startup. This wastes context.**
-
-**At Startup (2 sources only):**
-1. Load `memories.md` - user preferences and learned patterns ONLY
-2. Glob `army-lists/**/*.md` - to discover existing army lists (read filenames, not full content)
-
-**CRITICAL: Source of Truth**
-- **Army lists directory (`army-lists/`)** is the SINGLE SOURCE OF TRUTH for all army data
-- DO NOT duplicate list inventories in memories.md or lists.md
-- When user asks "what armies do I have?", glob the directory - don't read from memories
-- Derive faction ownership from directory contents (e.g., `army-lists/orks/` = user has Orks)
+## Context Optimization (Tacticus-Specific)
 
 **Load On Demand:**
 - `datasheets.json` - When user specifies a faction
@@ -36,7 +24,6 @@
 - Faction data for factions not being discussed
 - All knowledge base files at once
 - Multiple sidecar files in parallel
-- Full content of all army list files
 
 ---
 
