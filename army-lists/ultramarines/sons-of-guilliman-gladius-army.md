@@ -1034,9 +1034,56 @@ The Ultramarines are the poster boys of Warhammer 40,000 - the XIII Legion, code
 
 ---
 
+<!-- BRUSHMASTER SECTION - Tacticus ignore -->
+## Paint Scheme: Ultramarines
+
+**Chapter:** Ultramarines (XIII Legion)
+
+### Palette
+
+| Type | Role | Paint | Hex | Swatch |
+|:----:|------|-------|-----|--------|
+| ■ | Primary (Armour) | Ultramarine Blue | #1E40AF | <span style="background:#1E40AF;padding:2px 12px;">&nbsp;</span> |
+| ● | Shade | Blue Tone | #1E3A5F | <span style="background:#1E3A5F;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Highlight | Crystal Blue | #5B9BD5 | <span style="background:#5B9BD5;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Edge Highlight | Ice Storm | #B0C4DE | <span style="background:#B0C4DE;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Gold Trim | Greedy Gold | #FFD700 | <span style="background:#FFD700;padding:2px 12px;">&nbsp;</span> |
+| ● | Gold Shade | Strong Tone | #5C4033 | <span style="background:#5C4033;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Silver Metal | Plate Mail Metal | #C0C0C0 | <span style="background:#C0C0C0;padding:2px 12px;">&nbsp;</span> |
+| ● | Metal Wash | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ■ | Sergeant Helm | Pure Red | #C41E3A | <span style="background:#C41E3A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Eyes/Lenses | Pure Red | #C41E3A | <span style="background:#C41E3A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Purity Seals | Matt White | #FFFFFF | <span style="background:#FFFFFF;padding:2px 12px;">&nbsp;</span> |
+| ■ | Aquila/Skull | Skeleton Bone | #E8DCC4 | <span style="background:#E8DCC4;padding:2px 12px;">&nbsp;</span> |
+
+**Shape Key:** ■ Base | ▲ Layer | ◆ Metallic | ● Wash | ★ Effect
+
+### Quick Recipes
+
+**Power Armour:** ■ Ultramarine Blue → ● Blue Tone → ▲ Crystal Blue layer → ▲ Ice Storm edge
+**Gold Trim:** ◆ Greedy Gold → ● Strong Tone → ◆ Greedy Gold recess avoid
+**Dreadnought Armour:** Same as Power Armour, extra panel lining with ● Blue Tone
+**Sergeant Helmets:** ■ Pure Red → ● Red Tone → ▲ Mars Red highlight
+**Purity Seals:** ■ Matt White parchment, ■ Pure Red wax, ● Soft Tone wash
+
+### Ultramarines Signature Elements
+- Red sergeant helmets (veterans/leaders)
+- Gold Aquila on chest
+- White chapter symbol (inverted omega)
+- Red eye lenses
+- Clean, parade-ready finish (minimal weathering)
+- Purity seals on veterans/heroes
+
+*View color swatches: Open file in VSCode → Ctrl+Shift+V*
+<!-- END BRUSHMASTER SECTION -->
+
+---
+
 _Document created: December 2025_
+_Document updated: December 30, 2025_
 _Army optimized for tournament matched play_
 _All lists verified Rule of Three compliant_
 _Rules source: wahapedia.ru_
 _Points source: Munitorum Field Manual December 2025 + Tournament References_
 _Tournament data: Adepticon 2025 + Dallas Open 2025 winning lists_
+_Brushmaster Agent - Paint Scheme_

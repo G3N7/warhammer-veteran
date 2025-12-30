@@ -1011,4 +1011,57 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ---
 
+<!-- BRUSHMASTER SECTION - Tacticus ignore -->
+## Paint Scheme: Cadian 8th Regiment
+
+**Regiment:** Cadian Shock Troops (8th "The Lord Castellan's Own")
+
+### Palette
+
+| Type | Role | Paint | Hex | Swatch |
+|:----:|------|-------|-----|--------|
+| ■ | Armour/Fatigues | Military Green | #4A5D23 | <span style="background:#4A5D23;padding:2px 12px;">&nbsp;</span> |
+| ● | Cloth Shade | Military Shader | #2F3D15 | <span style="background:#2F3D15;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Armour Highlight | Mouldy Clothes | #7A8A4A | <span style="background:#7A8A4A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Fatigues Base | Oak Brown | #5C4033 | <span style="background:#5C4033;padding:2px 12px;">&nbsp;</span> |
+| ■ | Tank Base | Uniform Grey | #6B6B6B | <span style="background:#6B6B6B;padding:2px 12px;">&nbsp;</span> |
+| ● | Tank Shade | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Tank Highlight | Ash Grey | #B2BEB5 | <span style="background:#B2BEB5;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Metal | Gun Metal | #6A6A6A | <span style="background:#6A6A6A;padding:2px 12px;">&nbsp;</span> |
+| ● | Metal Wash | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Gold Trim | Greedy Gold | #FFD700 | <span style="background:#FFD700;padding:2px 12px;">&nbsp;</span> |
+| ■ | Skin | Tanned Flesh | #D4A574 | <span style="background:#D4A574;padding:2px 12px;">&nbsp;</span> |
+| ● | Skin Shade | Flesh Wash | #C4956A | <span style="background:#C4956A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Eyes/Lenses | Pure Red | #C41E3A | <span style="background:#C41E3A;padding:2px 12px;">&nbsp;</span> |
+
+**Shape Key:** ■ Base | ▲ Layer | ◆ Metallic | ● Wash | ★ Effect
+
+### Quick Recipes
+
+**Cadian Armour:** ■ Military Green → ● Military Shader → ▲ Mouldy Clothes edge
+**Cadian Fatigues:** ■ Oak Brown → ● Dark Tone → ▲ Monster Brown drybrush
+**Leman Russ Hull:** ■ Uniform Grey → ● Dark Tone → ▲ Ash Grey edge highlight
+**Tank Tracks:** ◆ Gun Metal → ● Dark Tone → ★ Dry Rust weathering
+**Lenses:** ■ Matt Black base → ■ Pure Red → ▲ Mars Red → ⚪ white dot
+**Skin:** ■ Tanned Flesh → ● Flesh Wash → ▲ Fair Skin highlight
+
+### Cadian Signature Elements
+- Purple/violet accent on shoulder pads and trim
+- White Cadian Gate symbol transfers
+- Weathered, mud-splattered tanks
+- Red lenses on vehicles and goggles
+- Kill markings on tank turrets
+- Aquila on chest/shoulder
+
+*View color swatches: Open file in VSCode → Ctrl+Shift+V*
+<!-- END BRUSHMASTER SECTION -->
+
+---
+
 **FOR THE EMPEROR! CADIA STANDS!**
+
+---
+
+*Last Updated: December 30, 2025*
+*Tacticus Agent - Warhammer 40k 10th Edition*
+*Brushmaster Agent - Paint Scheme*

@@ -459,7 +459,52 @@ With Bjorn generating +1CP per phase:
 
 ---
 
+<!-- BRUSHMASTER SECTION - Tacticus ignore -->
+## Paint Scheme: Space Wolves
+
+**Chapter:** Space Wolves (VI Legion)
+
+### Palette
+
+| Type | Role | Paint | Hex | Swatch |
+|:----:|------|-------|-----|--------|
+| ■ | Primary (Armour) | Wolf Grey | #6D8BA3 | <span style="background:#6D8BA3;padding:2px 12px;">&nbsp;</span> |
+| ● | Shade | Blue Tone | #1E3A5F | <span style="background:#1E3A5F;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Highlight | Ice Storm | #B0C4DE | <span style="background:#B0C4DE;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Edge Highlight | Matt White | #FFFFFF | <span style="background:#FFFFFF;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Gold Trim | Greedy Gold | #FFD700 | <span style="background:#FFD700;padding:2px 12px;">&nbsp;</span> |
+| ● | Gold Shade | Strong Tone | #5C4033 | <span style="background:#5C4033;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Silver Metal | Plate Mail Metal | #C0C0C0 | <span style="background:#C0C0C0;padding:2px 12px;">&nbsp;</span> |
+| ● | Metal Wash | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ■ | Leather/Pelts | Leather Brown | #8B4513 | <span style="background:#8B4513;padding:2px 12px;">&nbsp;</span> |
+| ■ | Bone/Fangs | Skeleton Bone | #E8DCC4 | <span style="background:#E8DCC4;padding:2px 12px;">&nbsp;</span> |
+| ■ | Eyes/Lenses | Pure Red | #C41E3A | <span style="background:#C41E3A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Wolf Fur (Grey) | Ash Grey | #B2BEB5 | <span style="background:#B2BEB5;padding:2px 12px;">&nbsp;</span> |
+
+**Shape Key:** ■ Base | ▲ Layer | ◆ Metallic | ● Wash | ★ Effect
+
+### Quick Recipes
+
+**Terminator Armour:** ■ Wolf Grey → ● Blue Tone → ▲ Ice Storm layer → ▲ Matt White edge
+**Gold Trim:** ◆ Greedy Gold → ● Strong Tone → ◆ Greedy Gold recess avoid
+**Pelts/Leather:** ■ Leather Brown → ● Dark Tone → ▲ Monster Brown drybrush
+**Wolf Skulls/Fangs:** ■ Skeleton Bone → ● Soft Tone → ▲ Matt White tips
+**Fenrisian Wolves:** ■ Ash Grey → ● Blue Tone → ▲ Matt White drybrush
+
+### Space Wolves Signature Elements
+- Wolf pelts and trophies on every model
+- Runes and Fenrisian glyphs (freehand or transfers)
+- Red eye lenses
+- Bone/fang decorations
+- Weathered, battle-worn look
+
+*View color swatches: Open file in VSCode → Ctrl+Shift+V*
+<!-- END BRUSHMASTER SECTION -->
+
+---
+
 *Document Generated: December 27, 2025*
-*Document Updated: December 29, 2025*
+*Document Updated: December 30, 2025*
 *Points Source: Munitorum Field Manual December 2025*
 *Rules Source: Space Wolves Codex Supplement (May 2025)*
+*Brushmaster Agent - Paint Scheme*

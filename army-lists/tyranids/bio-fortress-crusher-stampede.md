@@ -583,6 +583,54 @@ MONSTER units gain escalating bonuses as they take casualties:
 
 ---
 
-*Last Updated: December 23, 2025*
+<!-- BRUSHMASTER SECTION - Tacticus ignore -->
+## Paint Scheme: Hive Fleet Leviathan
+
+**Hive Fleet:** Leviathan (bone/purple scheme - classic)
+
+### Palette
+
+| Type | Role | Paint | Hex | Swatch |
+|:----:|------|-------|-----|--------|
+| ■ | Carapace Base | Alien Purple | #6B2C91 | <span style="background:#6B2C91;padding:2px 12px;">&nbsp;</span> |
+| ● | Carapace Shade | Purple Tone | #4A1D6B | <span style="background:#4A1D6B;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Carapace Highlight | Demonic Purple | #8A4DB8 | <span style="background:#8A4DB8;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Carapace Edge | Fairy Pink | #E8B8D0 | <span style="background:#E8B8D0;padding:2px 12px;">&nbsp;</span> |
+| ■ | Skin Base | Skeleton Bone | #E8DCC4 | <span style="background:#E8DCC4;padding:2px 12px;">&nbsp;</span> |
+| ● | Skin Shade | Soft Tone | #D4C4A8 | <span style="background:#D4C4A8;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Skin Highlight | Matt White | #FFFFFF | <span style="background:#FFFFFF;padding:2px 12px;">&nbsp;</span> |
+| ■ | Claws/Talons | Matt Black | #1A1A1A | <span style="background:#1A1A1A;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Claw Edge | Ash Grey | #B2BEB5 | <span style="background:#B2BEB5;padding:2px 12px;">&nbsp;</span> |
+| ■ | Tongue/Flesh | Warlock Purple | #9932CC | <span style="background:#9932CC;padding:2px 12px;">&nbsp;</span> |
+| ★ | Bio-weapons | Toxic Mist | #39FF14 | <span style="background:#39FF14;padding:2px 12px;">&nbsp;</span> |
+| ● | Weapon Glow Shade | Green Tone | #2F4F2F | <span style="background:#2F4F2F;padding:2px 12px;">&nbsp;</span> |
+
+**Shape Key:** ■ Base | ▲ Layer | ◆ Metallic | ● Wash | ★ Effect
+
+### Quick Recipes
+
+**Carapace (Purple):** ■ Alien Purple → ● Purple Tone → ▲ Demonic Purple → ▲ Fairy Pink edge
+**Skin (Bone):** ■ Skeleton Bone → ● Soft Tone → ▲ Matt White drybrush
+**Claws/Talons:** ■ Matt Black → ▲ Ash Grey edge highlight
+**Bio-weapon Glow:** ★ Toxic Mist base → ● Green Tone recess → ▲ Matt White center
+**Tongues/Mouths:** ■ Warlock Purple → ● Purple Tone → wet blend pink edge
+
+### Leviathan Signature Elements
+- Purple carapace plates on bone skin
+- Glowing green bio-weapons (venom cannons, bio-plasmic cannons)
+- Black claws fading to grey tips
+- Red/pink flesh in mouths and joints
+- Glossy varnish on carapace, matte on skin
+
+### Speed Paint Alternative (Barbgaunts/Infantry)
+Use ◐ Hardened Leather for bone skin (one coat over white primer) - saves hours on gaunts!
+
+*View color swatches: Open file in VSCode → Ctrl+Shift+V*
+<!-- END BRUSHMASTER SECTION -->
+
+---
+
+*Last Updated: December 30, 2025*
 *Tacticus Agent - Tyranid Specialist*
+*Brushmaster Agent - Paint Scheme*
 *Meta: December 2025 Balance Dataslate*

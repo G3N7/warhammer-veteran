@@ -450,5 +450,55 @@ VALIDATION STATUS (December 28, 2025 - AUDITED):
 
 ---
 
+<!-- BRUSHMASTER SECTION - Tacticus ignore -->
+## Paint Scheme: T'au Sept (Ochre)
+
+**Sept:** T'au Sept (classic ochre/bone scheme)
+
+### Palette
+
+| Type | Role | Paint | Hex | Swatch |
+|:----:|------|-------|-----|--------|
+| ■ | Primary (Armour) | Desert Yellow | #D4A849 | <span style="background:#D4A849;padding:2px 12px;">&nbsp;</span> |
+| ● | Armour Shade | Soft Tone | #D4C4A8 | <span style="background:#D4C4A8;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Armour Highlight | Daemonic Yellow | #F5D033 | <span style="background:#F5D033;padding:2px 12px;">&nbsp;</span> |
+| ■ | Secondary (Cloth/Panels) | Matt Black | #1A1A1A | <span style="background:#1A1A1A;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Black Highlight | Uniform Grey | #6B6B6B | <span style="background:#6B6B6B;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Metal | Gun Metal | #6A6A6A | <span style="background:#6A6A6A;padding:2px 12px;">&nbsp;</span> |
+| ● | Metal Wash | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ■ | Lenses/Optics | Pure Red | #C41E3A | <span style="background:#C41E3A;padding:2px 12px;">&nbsp;</span> |
+| ★ | Lens Glow | Mars Red | #E35335 | <span style="background:#E35335;padding:2px 12px;">&nbsp;</span> |
+| ■ | Sept Markings | Matt White | #FFFFFF | <span style="background:#FFFFFF;padding:2px 12px;">&nbsp;</span> |
+| ■ | T'au Skin | Blue Flux | #6BAED6 | <span style="background:#6BAED6;padding:2px 12px;">&nbsp;</span> |
+| ● | Skin Shade | Blue Tone | #1E3A5F | <span style="background:#1E3A5F;padding:2px 12px;">&nbsp;</span> |
+
+**Shape Key:** ■ Base | ▲ Layer | ◆ Metallic | ● Wash | ★ Effect
+
+### Quick Recipes
+
+**Battlesuit Armour:** ■ Desert Yellow → ● Soft Tone → ▲ Daemonic Yellow edge
+**Black Panels:** ■ Matt Black → ▲ Uniform Grey edge highlight
+**Weapons/Metal:** ◆ Gun Metal → ● Dark Tone → ◆ Gun Metal drybrush
+**Lenses (OSL):** ■ Matt Black base → ■ Pure Red → ★ Mars Red center → ⚪ white dot
+**T'au Skin:** ■ Blue Flux → ● Blue Tone → ▲ Electric Blue highlight
+**Sept Markings:** ■ Matt White (circle sept symbol on shoulder/head)
+
+### T'au Sept Signature Elements
+- Ochre/desert yellow armour panels
+- Black cloth and recessed areas
+- White sept markings (T'au symbol circle)
+- Red sensor/optic lenses with glow
+- Clean, pristine finish (no weathering)
+- Blue-grey T'au flesh on visible faces
+
+### Speed Paint Alternative (Fire Warriors)
+Use ◐ Zealot Yellow for armour (one coat over white primer) - great for batch painting 30 infantry!
+
+*View color swatches: Open file in VSCode → Ctrl+Shift+V*
+<!-- END BRUSHMASTER SECTION -->
+
+---
+
 *Created by Tacticus Agent*
-*Last Updated: December 28, 2025 (Epic Hero enhancement fix)*
+*Brushmaster Agent - Paint Scheme*
+*Last Updated: December 30, 2025*
