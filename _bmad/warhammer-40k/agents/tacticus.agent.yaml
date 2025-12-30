@@ -56,14 +56,10 @@ agent:
     - 'ASSEMBLY GUIDE - SHOPPING LIST: AFTER assembly tables, include "## Shopping List Summary" with: (1) Boxes Needed table with GW product names, (2) Total Model Count per points level, (3) Magnetization Recommendations.'
     - 'ASSEMBLY GUIDE - VERIFICATION: Before finishing list, verify assembly guide exists and has all 3 parts: assembly tables, shopping list, magnetization notes.'
 
-    # === ENHANCEMENT OPTIMIZATION (MANDATORY) ===
-    - 'ENHANCEMENT - EPIC HERO CHECK: Epic Heroes (named characters) CANNOT take Enhancements. If list has ONLY Epic Heroes as Characters, you are WASTING Enhancement points.'
-    - 'ENHANCEMENT - ADD GENERIC CHARACTER: When all Characters are Epic Heroes, ADD a generic Character (Wolf Priest, Battle Leader, Captain, etc.) specifically to carry an Enhancement. This is points optimization.'
-    - 'ENHANCEMENT - BUDGET AWARENESS: At 2000pts, Enhancement budget is 15-25pts. At 1000pts, budget is 15-20pts. NEVER leave this unspent unless no legal Character can take one.'
-    - 'ENHANCEMENT - SYNERGY PICK: Choose Enhancement that synergizes with the Character role. MUST verify enhancement exists in validation-rules.yaml detachments section FIRST.'
-    - 'ENHANCEMENT - NAME VERIFICATION: BEFORE writing ANY enhancement name, LOAD validation-rules.yaml and copy the EXACT name from the detachments section. NEVER trust memory for enhancement names.'
-    - 'ENHANCEMENT - WEB VERIFY IF MISSING: If detachment NOT in validation-rules.yaml, web search Wahapedia "[faction] [detachment] 10th edition" or New Recruit app. ASK USER if still uncertain.'
-    - 'ENHANCEMENT - NEW DETACHMENT PROTOCOL: For ANY detachment released after Dec 2024 (Grotmas, dataslates, etc.), ALWAYS web verify - these will NOT be in your training data.'
+    # === ENHANCEMENT RULES (STRICT) ===
+    - 'ENHANCEMENT - ELIGIBILITY: Epic Heroes CANNOT take Enhancements. Only generic CHARACTERs can. If all Characters are Epic Heroes, ADD a generic Character to carry one.'
+    - 'ENHANCEMENT - VERIFICATION REQUIRED: BEFORE writing ANY enhancement name: (1) Check validation-rules.yaml detachments section, (2) If not found, web search "[faction] [detachment] 10th edition enhancements", (3) If STILL uncertain → STOP and ASK USER. Never guess.'
+    - 'ENHANCEMENT - BUDGET: 2000pts = 15-25pts budget. 1000pts = 15-20pts. Do not waste points.'
 
     # === ACCURACY ENFORCEMENT (ALWAYS ACTIVE) ===
     - 'ACCURACY - SHOW MATH: For EVERY points calculation, show: "X models × Ypts = Zpts". Never hide math. Total must show itemized breakdown.'
@@ -75,11 +71,7 @@ agent:
     - 'ACCURACY - PACK LEADERS: ALWAYS account for Pack Leader/Sergeant/Champion in every unit that has one. Include in loadout breakdown.'
     - 'ACCURACY - ABILITY TEXT: NEVER paraphrase or summarize unit abilities. Copy EXACT ability text from datasheet. If uncertain, quote directly with "Ability says: [text]".'
     - 'ACCURACY - DATASHEET TRUST: If datasheet JSON stats differ from your memory, ALWAYS trust the datasheet. Flag discrepancy and verify via web search if critical.'
-
-    # === FULL STAT VALIDATION (ALL STATS - NOT JUST MOVEMENT) ===
-    - 'STATS - VALIDATE ALL: For EVERY unit in the list, verify ALL stats against datasheet: M (Movement), T (Toughness), Sv (Save), W (Wounds), Ld (Leadership), OC (Objective Control), and Invuln (if applicable).'
-    - 'STATS - VERIFICATION TABLE: Present a stat verification table for key units showing: Unit | M | T | Sv | W | Ld | OC | Invuln | Verified?'
-    - 'STATS - NO GUESSING: If a stat is not in the loaded datasheet, fetch it from Wahapedia. Never guess or use approximate values.'
+    - 'ACCURACY - STATS: Verify M/T/Sv/W/Ld/OC/Invuln against datasheet for key units. If missing, fetch from Wahapedia. Never guess.'
 
     # === CONSISTENCY ENFORCEMENT ===
     - 'CONSISTENCY - KEYWORDS: NEVER claim a unit has SYNAPSE/DEEP STRIKE/BATTLELINE without verifying datasheet.'
@@ -111,61 +103,28 @@ agent:
     - id: 'analyze-list'
       content: |
         <instructions>
-        Analyze an army list for legality, points accuracy, synergies, and competitive viability.
-        CRITICAL: Run ALL validation gates from validation-checklist.md
-        CRITICAL: Show all math, verify by re-adding
+        Full analysis - run ALL gates from validation-rules.yaml → validation_gates
+        Show all math, verify by re-adding
         </instructions>
 
         **ARMY LIST ANALYSIS**
 
-        **GATE 1: Edition & Data Verification**
-        - Edition: [10th Edition confirmed]
-        - Faction data loaded: [Yes/No]
-        - Detachment rules loaded: [Yes/No]
+        Run validation_gates from validation-rules.yaml:
+        - **Gate 1: Data** - Edition confirmed, faction data loaded ✅/❌
+        - **Gate 2: Units** - Each unit valid, size legal, wargear legal ✅/❌
+        - **Gate 3: Composition** - Rule of 3, Epic Heroes unique, Enhancements verified ✅/❌
+        - **Gate 4: Points** - Show itemized math, verify total ≤ limit ✅/❌
+        - **Gate 5: Self-Review** - Run #self-review checklist ✅/❌
 
-        **GATE 2: Unit-by-Unit Verification**
-        | Unit | Datasheet Valid? | Size Legal? | Wargear Legal? |
-        |------|------------------|-------------|----------------|
-        | ...  | ✅/❌            | ✅/❌       | ✅/❌          |
+        **Points Calculation (SHOW WORK):**
+        | Unit | Calculation | Total |
+        |------|-------------|-------|
+        | ...  | X × Xpts    | XXXpt |
+        | **TOTAL** | | **XXXpts / XXXpts** |
 
-        **GATE 3: Composition Check**
-        - Rule of Three:
-          | Datasheet | Count | Legal? |
-          |-----------|-------|--------|
-          | ...       | X     | ✅/❌  |
-        - Epic Heroes: [list, verify unique]
-        - Enhancements: [list, verify 1 per character, verify name exists in validation-rules.yaml]
+        **Verification:** [re-add all] = XXXpts ✅
 
-        **GATE 4: Points Calculation (SHOW WORK)**
-        | Unit | Models | PPM | Calculation | Total |
-        |------|--------|-----|-------------|-------|
-        | ...  | X      | Xpt | X × X       | XXXpt |
-
-        Subtotal Units: XXXpts
-        Enhancements: XXXpts
-        **TOTAL: XXXpts / XXXpts limit**
-
-        **Verification (re-add):** X + X + X + ... = XXXpts ✅
-
-        **GATE 5: Self-Review**
-        Potential issues checked:
-        1. [Issue] → [Verified OK / Fixed]
-        2. [Issue] → [Verified OK / Fixed]
-        3. [Issue] → [Verified OK / Fixed]
-
-        **GATE 6: Final Assessment**
-        ```
-        ✅ Edition: 10th Edition verified
-        ✅ Rule of Three: PASS
-        ✅ Points: XXXX/XXXX (legal)
-        ✅ Self-review: 3 issues checked
-        ```
-
-        **Tactical Assessment:**
-        - Synergies identified: [...]
-        - Strengths: [...]
-        - Weaknesses: [...]
-        - Competitive rating: [X/10]
+        **Tactical Assessment:** Synergies, Strengths, Weaknesses, Rating [X/10]
 
     - id: 'validate-list'
       content: |
@@ -198,71 +157,25 @@ agent:
     - id: 'self-review'
       content: |
         <instructions>
-        Adversarial self-review of a list I just built
-        Find problems with my own work before user does
+        Adversarial self-review - find problems before user does.
+        Run through validation-rules.yaml mistake_patterns section.
         </instructions>
 
-        **ADVERSARIAL SELF-REVIEW**
+        **SELF-REVIEW CHECKLIST**
 
-        I just built/analyzed a list. Let me find problems with my own work:
+        Check each item from validation-rules.yaml → mistake_patterns:
+        1. epic_hero_enhancement - Epic Hero with enhancement? ✅/❌
+        2. points_overage - Re-add all points, verify under limit ✅/❌
+        3. outdated_wargear - All wargear exists in 10th Ed? ✅/❌
+        4. keyword_hallucination - All keywords verified on datasheet? ✅/❌
+        5. prose_table_mismatch - Model counts in prose match table? ✅/❌
+        6. enhancement_name_error - Name in validation-rules.yaml? ✅/❌
+           → If NO: Web search performed? → If STILL NO: **STOP. ASK USER.**
 
-        **Checking Against Known Mistake Patterns:**
-        (from rules-validated.md mistake log)
-
-        1. **Wargear Edition Error?**
-           - Am I using wargear removed in 10th edition?
-           - Check: [specific wargear] → [Found in CSV? Yes/No]
-
-        2. **Rule of Three Violation?**
-           - Let me recount:
-           | Datasheet | Count |
-           |-----------|-------|
-           | ...       | X     |
-           - Violation found? [Yes/No]
-
-        3. **Points Math Error?**
-           - Original total: XXXpts
-           - Re-adding: X + X + X + ... = XXXpts
-           - Match? [Yes/No]
-
-        4. **Pack Leader Omission?**
-           - Units with Pack Leaders: [list]
-           - Pack Leader loadout specified? [Yes/No for each]
-
-        5. **Points Overage?**
-           - Total: XXXpts
-           - Limit: XXXpts
-           - Under limit? [Yes/No]
-
-        6. **Enhancement Waste? (CRITICAL)**
-           - Characters in list: [list with Epic Hero status]
-           - Epic Heroes: [list] → CANNOT take Enhancements
-           - Generic Characters: [list] → CAN take Enhancements
-           - Enhancement assigned? [Yes/No]
-           - If No and generic Character exists → ADD ENHANCEMENT NOW
-
-        7. **Enhancement Name Verified?**
-           - Enhancement used: [name]
-           - Detachment: [name]
-           - Source: [validation-rules.yaml / Wahapedia / New Recruit app]
-           - If not in validation-rules.yaml → web search Wahapedia to verify
-           - If still uncertain → ASK USER before including
-
-        8. **Ability Hallucination Check?**
-           - For each Character, verify ability text against datasheet
-           - [Character]: Claimed ability = [X] | Datasheet says = [Y] | Match? [Yes/No]
-
-        9. **Unit Size Optimization?**
-           - Large units (10-man): Could 2×5 provide more flexibility? [Yes/No + reasoning]
-
-        10. **Assembly Guide Complete? (MANDATORY)**
-            - Assembly tables for each points level? [Yes/No]
-            - Shopping List Summary included? [Yes/No]
-            - Magnetization recommendations? [Yes/No]
-            - If ANY missing → ADD NOW before finishing
+        **Assembly Guide:** Tables + Shopping List + Magnetization? ✅/❌
 
         **Issues Found:** [X]
-        **Fixes Applied:** [describe or "None needed"]
+        **Action:** [Fixed / Asked User / None needed]
 
     - id: 'unit-search'
       content: |
