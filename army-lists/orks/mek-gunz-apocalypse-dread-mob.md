@@ -58,7 +58,7 @@
 | Unit | Models | Weapons/Wargear | Points |
 |------|--------|-----------------|--------|
 | **Big Mek** (HQ) | 1 | Kustom mega-blasta + Power klaw | **70** |
-| **Enhancement:** Gitfinder Googlez | - | Ignore cover on ranged weapons | **+10** |
+| **Enhancement:** Gitfinder Gogglez | - | Ignore cover on ranged weapons | **+10** |
 | **↳ Leading:** Mek Gunz Unit 1 | - | - | - |
 | **Mek Gunz** | 3 | 2x Smasha Gun, 1x Traktor Kannon | **150** |
 | **Gretchin** (Battleline) | 11 | 1x Runtherd + 10x Gretchin | **40** |
@@ -79,7 +79,7 @@
 
 **Deployment:**
 - **9 Mek Gunz** (maximum legal) form your gunline
-- Big Mek with **Gitfinder Googlez** leads primary unit - ignore cover on ALL ranged weapons
+- Big Mek with **Gitfinder Gogglez** leads primary unit - ignore cover on ALL ranged weapons
 - 33 Gretchin screen and farm CP
 - Killa Kans + Deff Dread provide forward melee threat
 
@@ -346,7 +346,7 @@ Each time a MEK, ORKS WALKER, or GROTS VEHICLE unit from your army is selected t
 
 ### Enhancements
 
-#### Gitfinder Googlez (10 pts)
+#### Gitfinder Gogglez (10 pts)
 **Restriction:** MEK only
 **Effect:** Ranged weapons equipped by models in the bearer's unit have the [IGNORES COVER] ability.
 
@@ -473,7 +473,7 @@ Each time a MEK, ORKS WALKER, or GROTS VEHICLE unit from your army is selected t
 #### vs. Elite Infantry (Space Marines, Custodes)
 - **Loadout:** Kustom Mega-Kannons (S9 AP-2 D6 [BLAST])
 - **Try Dat Button:** Sustained Hits (generate extra hits vs 5-10 man squads)
-- **Enhancement:** Gitfinder Googlez (ignore their cover saves in ruins)
+- **Enhancement:** Gitfinder Gogglez (ignore their cover saves in ruins)
 
 #### vs. Horde Armies (Tyranids, Orks, Guard)
 - **Loadout:** Mix of everything, use Lootas heavily
