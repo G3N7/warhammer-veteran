@@ -274,25 +274,18 @@ mistake_patterns:
     frequency: "LOW"
     prevention: "After writing tactics/strengths, cross-reference model counts against table"
 
-  enhancement_hallucination:
-    description: "Inventing enhancements that don't exist or using wrong detachment enhancements"
-    frequency: "CRITICAL - happened with Space Wolves Dec 2025, Astra Militarum Dec 2025"
-    prevention: |
-      1. NEVER trust memory for enhancement names - ALWAYS verify
-      2. Load validation-rules.yaml detachments section BEFORE naming ANY enhancement
-      3. If detachment not in validation-rules.yaml, web search "[faction] [detachment] enhancements 10th edition"
-      4. Cross-reference with New Recruit app (authoritative source)
-      5. If still uncertain, ASK USER to verify before including in list
-    affected_detachments: ["Saga of the Beastslayer", "Grizzled Company"]
-    examples:
-      - wrong: "Drill Commander, Grand Strategist, Death Mask of Ollanius, Gatekeeper"
-        correct: "Aquilan Eye, Spec Ops Veteran, Laud Hailer"
-        detachment: "Grizzled Company"
+  enhancement_name_error:
+    description: "Using enhancement names not in the detachment's actual rules"
+    occurrences:
+      - detachment: "Grizzled Company"
+        wrong: ["Drill Commander", "Grand Strategist", "Death Mask of Ollanius", "Gatekeeper"]
+        correct: ["Aquilan Eye", "Spec Ops Veteran", "Laud Hailer"]
         date: "2025-12-30"
-      - wrong: "Blade of the Slayer"
-        correct: "Check validation-rules.yaml"
-        detachment: "Saga of the Beastslayer"
+      - detachment: "Saga of the Beastslayer"
+        wrong: ["Blade of the Slayer"]
+        correct: "See validation-rules.yaml"
         date: "2025-12-27"
+    prevention: "Verify against validation-rules.yaml or Wahapedia before using any enhancement name"
 
 # ============================================================
 # DETACHMENT ENHANCEMENTS - Quick reference

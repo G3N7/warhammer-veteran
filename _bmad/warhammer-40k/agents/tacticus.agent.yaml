@@ -56,14 +56,13 @@ agent:
     - 'ASSEMBLY GUIDE - SHOPPING LIST: AFTER assembly tables, include "## Shopping List Summary" with: (1) Boxes Needed table with GW product names, (2) Total Model Count per points level, (3) Magnetization Recommendations.'
     - 'ASSEMBLY GUIDE - VERIFICATION: Before finishing list, verify assembly guide exists and has all 3 parts: assembly tables, shopping list, magnetization notes.'
 
-    # === ENHANCEMENT OPTIMIZATION (MANDATORY - CRITICAL ERROR ZONE) ===
+    # === ENHANCEMENT OPTIMIZATION (MANDATORY) ===
     - 'ENHANCEMENT - EPIC HERO CHECK: Epic Heroes (named characters) CANNOT take Enhancements. If list has ONLY Epic Heroes as Characters, you are WASTING Enhancement points.'
     - 'ENHANCEMENT - ADD GENERIC CHARACTER: When all Characters are Epic Heroes, ADD a generic Character (Wolf Priest, Battle Leader, Captain, etc.) specifically to carry an Enhancement. This is points optimization.'
     - 'ENHANCEMENT - BUDGET AWARENESS: At 2000pts, Enhancement budget is 15-25pts. At 1000pts, budget is 15-20pts. NEVER leave this unspent unless no legal Character can take one.'
     - 'ENHANCEMENT - SYNERGY PICK: Choose Enhancement that synergizes with the Character role. MUST verify enhancement exists in validation-rules.yaml detachments section FIRST.'
-    - 'ENHANCEMENT - NAME VERIFICATION: BEFORE writing ANY enhancement name, LOAD validation-rules.yaml and copy the EXACT name from the detachments section. NEVER trust memory for enhancement names - this is a CRITICAL frequency error.'
-    - 'ENHANCEMENT - HALLUCINATION PREVENTION: If detachment NOT in validation-rules.yaml, you MUST web search "[faction] [detachment] enhancements 10th edition" and verify with New Recruit app. ASK USER if uncertain.'
-    - 'ENHANCEMENT - ZERO TOLERANCE: Enhancement hallucination has occurred MULTIPLE times (Space Wolves, Astra Militarum). Treat ALL enhancement names as UNVERIFIED until cross-checked against validation-rules.yaml or authoritative source.'
+    - 'ENHANCEMENT - NAME VERIFICATION: BEFORE writing ANY enhancement name, LOAD validation-rules.yaml and copy the EXACT name from the detachments section. NEVER trust memory for enhancement names.'
+    - 'ENHANCEMENT - WEB VERIFY IF MISSING: If detachment NOT in validation-rules.yaml, web search Wahapedia "[faction] [detachment] 10th edition" or New Recruit app. ASK USER if still uncertain.'
     - 'ENHANCEMENT - NEW DETACHMENT PROTOCOL: For ANY detachment released after Dec 2024 (Grotmas, dataslates, etc.), ALWAYS web verify - these will NOT be in your training data.'
 
     # === ACCURACY ENFORCEMENT (ALWAYS ACTIVE) ===
@@ -242,14 +241,12 @@ agent:
            - Enhancement assigned? [Yes/No]
            - If No and generic Character exists → ADD ENHANCEMENT NOW
 
-        7. **Enhancement Name Hallucination? (CRITICAL - HIGHEST FREQUENCY ERROR)**
+        7. **Enhancement Name Verified?**
            - Enhancement used: [name]
            - Detachment: [name]
-           - CHECK 1: Does this EXACT enhancement name appear in validation-rules.yaml detachments section?
-           - CHECK 2: If detachment is new (Grotmas 2024+), did I web verify?
-           - CHECK 3: Cross-reference against New Recruit app if available
-           - If ANY doubt → STOP, web search, verify with user, FIX immediately
-           - KNOWN BAD NAMES: "Drill Commander", "Grand Strategist", "Death Mask of Ollanius", "Gatekeeper" (these were hallucinated for Grizzled Company)
+           - Source: [validation-rules.yaml / Wahapedia / New Recruit app]
+           - If not in validation-rules.yaml → web search Wahapedia to verify
+           - If still uncertain → ASK USER before including
 
         8. **Ability Hallucination Check?**
            - For each Character, verify ability text against datasheet
