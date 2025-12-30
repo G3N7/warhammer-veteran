@@ -579,5 +579,47 @@ Each time a MEK, ORKS WALKER, or GROTS VEHICLE unit from your army is selected t
 
 ---
 
-*Last Updated: December 23, 2025*
+<!-- BRUSHMASTER SECTION - Tacticus ignore -->
+## Paint Scheme: Deathskulls
+
+**Clan:** Deathskulls (Blue armour, heavy weathering, looted gear)
+
+### Palette
+
+| Type | Role | Paint | Hex | Swatch |
+|:----:|------|-------|-----|--------|
+| ■ | Primary (Armour) | Ultramarine Blue | #1E40AF | <span style="background:#1E40AF;padding:2px 12px;">&nbsp;</span> |
+| ● | Shade | Blue Tone | #1E3A5F | <span style="background:#1E3A5F;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Highlight | Ice Storm | #B0C4DE | <span style="background:#B0C4DE;padding:2px 12px;">&nbsp;</span> |
+| ■ | Ork Skin | Greenskin | #6B8E23 | <span style="background:#6B8E23;padding:2px 12px;">&nbsp;</span> |
+| ● | Skin Shade | Green Tone | #2F4F2F | <span style="background:#2F4F2F;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Metal Base | Gun Metal | #6A6A6A | <span style="background:#6A6A6A;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Metal Highlight | Plate Mail Metal | #C0C0C0 | <span style="background:#C0C0C0;padding:2px 12px;">&nbsp;</span> |
+| ● | Metal Wash | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ★ | Rust Effect | Dry Rust | #8B4513 | <span style="background:#8B4513;padding:2px 12px;">&nbsp;</span> |
+| ■ | Checks/Detail | Matt Black | #1A1A1A | <span style="background:#1A1A1A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Checks/Detail | Matt White | #FFFFFF | <span style="background:#FFFFFF;padding:2px 12px;">&nbsp;</span> |
+
+**Shape Key:** ■ Base | ▲ Layer | ◆ Metallic | ● Wash | ★ Effect
+
+### Quick Recipes
+
+**Armour Plates:** ■ Ultramarine Blue → ● Blue Tone → ▲ Ice Storm edge highlight
+**Ork/Grot Skin:** ■ Greenskin → ● Green Tone → ▲ Goblin Green highlight
+**Metal:** ◆ Gun Metal → ● Dark Tone → ◆ Plate Mail drybrush → ★ Dry Rust stipple
+**Checkerboards:** ■ Matt White base → ■ Matt Black squares (shoulder pads, walker plates)
+
+### Deathskulls Signature Elements
+- Blue warpaint on Ork faces
+- Black/white checkerboard patterns
+- Heavy rust and battle damage
+- Looted trophies painted in original faction colors
+
+*View color swatches: Open file in VSCode → Ctrl+Shift+V*
+<!-- END BRUSHMASTER SECTION -->
+
+---
+
+*Last Updated: December 30, 2025*
 *Tacticus Agent - Warhammer 40k 10th Edition*
+*Brushmaster Agent - Paint Scheme*
