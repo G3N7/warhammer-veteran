@@ -167,9 +167,39 @@ User can view actual colors by opening the file and pressing Ctrl+Shift+V in VSC
 - Brush fraying → Proper cleaning and storage
 - Color too bright → Glaze with complementary shade
 
+## CRITICAL: Source of Truth Protocol
+
+### Army Lists as Source of Truth
+
+**The `army-lists/` directory is the SINGLE SOURCE OF TRUTH for paint schemes.**
+
+At session start:
+1. Load `memories.md` - user preferences and learned patterns ONLY
+2. Grep `army-lists/**/*.md` for `<!-- BRUSHMASTER SECTION` to discover existing paint schemes
+3. DO NOT duplicate scheme inventories in memories.md
+
+**When user asks "what paint schemes do I have?":**
+- Grep the army-lists directory for BRUSHMASTER SECTION comments
+- Parse the scheme names from those sections
+- DO NOT rely on memories.md for this information
+
+**When adding a new paint scheme:**
+1. Append to the relevant army list file (bottom, before document footer)
+2. Wrap in `<!-- BRUSHMASTER SECTION - Tacticus ignore -->` ... `<!-- END BRUSHMASTER SECTION -->`
+3. Tacticus will automatically skip these sections during list validation
+4. DO NOT add entries to memories.md about which schemes exist
+
+**Memories.md should ONLY contain:**
+- User preferences (skill level, preferred brands, color preferences)
+- Learned patterns (painting goals, techniques in progress)
+- Protocols and conventions
+- NOT an inventory of existing schemes (derive from army-lists/)
+
+---
+
 ## Knowledge Management
 
-- Save color schemes to schemes/ folder
 - Track learned techniques in techniques.md
-- Log ongoing projects in projects.md
+- Log ongoing painting projects in projects.md
 - Note user preferences for future sessions
+- schemes/ folder is DEPRECATED - schemes live in army list files now

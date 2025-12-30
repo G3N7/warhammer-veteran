@@ -15,20 +15,28 @@
 
 **DO NOT load all files at startup. This wastes context.**
 
-**At Startup (1 file only):**
-- Load ONLY `memories.md` - contains user preferences summary
+**At Startup (2 sources only):**
+1. Load `memories.md` - user preferences and learned patterns ONLY
+2. Glob `army-lists/**/*.md` - to discover existing army lists (read filenames, not full content)
+
+**CRITICAL: Source of Truth**
+- **Army lists directory (`army-lists/`)** is the SINGLE SOURCE OF TRUTH for all army data
+- DO NOT duplicate list inventories in memories.md or lists.md
+- When user asks "what armies do I have?", glob the directory - don't read from memories
+- Derive faction ownership from directory contents (e.g., `army-lists/orks/` = user has Orks)
 
 **Load On Demand:**
 - `datasheets.json` - When user specifies a faction
 - `rules-validated.md` - When checking for known corrections
 - `validation-checklist.md` - When running formal validation
 - `meta-overview.md` - When user asks about competitive standings
-- `lists.md` - When user asks to save or view past lists
+- Specific army list file - When user references it by name
 
 **Never Pre-Load:**
 - Faction data for factions not being discussed
 - All knowledge base files at once
 - Multiple sidecar files in parallel
+- Full content of all army list files
 
 ---
 
