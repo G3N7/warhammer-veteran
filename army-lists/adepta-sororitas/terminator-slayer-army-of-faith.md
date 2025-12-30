@@ -969,12 +969,70 @@ This list trades melta spam for durability, melee threat, and all-around flexibi
 
 ---
 
+<!-- BRUSHMASTER SECTION - Tacticus ignore -->
+## Paint Scheme: Order of the Rose Eternal (Hot Pink)
+
+**Order:** Custom Order - "Order of the Rose Eternal" (hot pink themed for your wife!)
+
+### Palette
+
+| Type | Role | Paint | Hex | Swatch |
+|:----:|------|-------|-----|--------|
+| ■ | Primary (Armour) | Pixie Pink | #FF69B4 | <span style="background:#FF69B4;padding:2px 12px;">&nbsp;</span> |
+| ● | Armour Shade | Purple Tone | #4A1D6B | <span style="background:#4A1D6B;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Armour Highlight | Fairy Pink | #FFB6C1 | <span style="background:#FFB6C1;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Edge Highlight | Matt White | #FFFFFF | <span style="background:#FFFFFF;padding:2px 12px;">&nbsp;</span> |
+| ■ | Robes/Cloth | Matt White | #FFFFFF | <span style="background:#FFFFFF;padding:2px 12px;">&nbsp;</span> |
+| ● | Robe Shade | Soft Tone | #D4C4A8 | <span style="background:#D4C4A8;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Gold Trim | Greedy Gold | #FFD700 | <span style="background:#FFD700;padding:2px 12px;">&nbsp;</span> |
+| ● | Gold Shade | Strong Tone | #5C4033 | <span style="background:#5C4033;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Silver Metal | Plate Mail Metal | #C0C0C0 | <span style="background:#C0C0C0;padding:2px 12px;">&nbsp;</span> |
+| ● | Metal Wash | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ■ | Hair (Blonde) | Daemonic Yellow | #F5D033 | <span style="background:#F5D033;padding:2px 12px;">&nbsp;</span> |
+| ■ | Hair Alt (Black) | Matt Black | #1A1A1A | <span style="background:#1A1A1A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Skin | Tanned Flesh | #D4A574 | <span style="background:#D4A574;padding:2px 12px;">&nbsp;</span> |
+| ● | Skin Shade | Flesh Wash | #C4956A | <span style="background:#C4956A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Eyes/Purity Seals | Pure Red | #C41E3A | <span style="background:#C41E3A;padding:2px 12px;">&nbsp;</span> |
+| ★ | Flame OSL | Lava Orange | #FF4500 | <span style="background:#FF4500;padding:2px 12px;">&nbsp;</span> |
+
+**Shape Key:** ■ Base | ▲ Layer | ◆ Metallic | ● Wash | ★ Effect
+
+### Quick Recipes
+
+**Hot Pink Armour:** ■ Pixie Pink → ● Purple Tone recess → ▲ Fairy Pink layer → ▲ Matt White edge
+**White Robes:** ■ Matt White → ● Soft Tone recess only → clean up with Matt White
+**Gold Trim:** ◆ Greedy Gold → ● Strong Tone → ◆ Greedy Gold drybrush
+**Silver Weapons:** ◆ Plate Mail Metal → ● Dark Tone → ◆ Shining Silver edge
+**Skin:** ■ Tanned Flesh → ● Flesh Wash → ▲ Fair Skin highlight
+**Blonde Hair:** ■ Daemonic Yellow → ● Soft Tone → ▲ Matt White tips
+**Flame/Melta Glow:** ★ Lava Orange → ▲ Daemonic Yellow center → ■ Matt White hotspot
+
+### Order of the Rose Eternal Signature Elements
+- Vibrant hot pink armour plates (unmistakable on the table!)
+- Crisp white robes for high contrast
+- Gold trim and Aquilas
+- Rose motifs on shoulder pads (freehand or decals)
+- Optional: Pink hair on some models for extra flair
+- Warm gold glow from flamers/meltas
+
+### Speed Paint Alternative
+Use ◐ Succubus Pink over white primer for quick hot pink armour - perfect for batch painting 90+ models!
+
+### Lore: Order of the Rose Eternal
+*"Born from the ashes of the Order of the Bloody Rose, the Order of the Rose Eternal embraced a new path - their armour reforged in the vivid pink of the Emperor's dawn light. They believe each battle is a petal offered to the Emperor, and when enough petals fall, the Eternal Rose blooms eternal."*
+
+*View color swatches: Open file in VSCode → Ctrl+Shift+V*
+<!-- END BRUSHMASTER SECTION -->
+
+---
+
 *End of Document*
 
 **Created by:** Tacticus Agent
 **Date:** December 23, 2025
-**Updated:** December 28, 2025 (Audit fix: Points calculation error - removed 1 Immolator)
-**Version:** 1.1
+**Updated:** December 30, 2025
+**Version:** 1.2
 **Army Designer:** For crushing Terminator armies with faith and fire
+**Paint Scheme:** Order of the Rose Eternal (Hot Pink) - Brushmaster Agent
 
-**FOR THE EMPEROR! 🔥⚔️**
+**FOR THE EMPEROR!**
