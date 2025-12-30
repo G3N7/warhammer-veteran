@@ -275,10 +275,24 @@ mistake_patterns:
     prevention: "After writing tactics/strengths, cross-reference model counts against table"
 
   enhancement_hallucination:
-    description: "Inventing enhancements that don't exist (e.g., 'Blade of the Slayer' for Saga of the Beastslayer)"
-    frequency: "HIGH - happened with Space Wolves Dec 2025"
-    prevention: "ALWAYS verify enhancement names against validation-rules.yaml detachments section BEFORE assigning. Never trust memory for enhancement names."
-    affected_detachments: ["Saga of the Beastslayer"]
+    description: "Inventing enhancements that don't exist or using wrong detachment enhancements"
+    frequency: "CRITICAL - happened with Space Wolves Dec 2025, Astra Militarum Dec 2025"
+    prevention: |
+      1. NEVER trust memory for enhancement names - ALWAYS verify
+      2. Load validation-rules.yaml detachments section BEFORE naming ANY enhancement
+      3. If detachment not in validation-rules.yaml, web search "[faction] [detachment] enhancements 10th edition"
+      4. Cross-reference with New Recruit app (authoritative source)
+      5. If still uncertain, ASK USER to verify before including in list
+    affected_detachments: ["Saga of the Beastslayer", "Grizzled Company"]
+    examples:
+      - wrong: "Drill Commander, Grand Strategist, Death Mask of Ollanius, Gatekeeper"
+        correct: "Aquilan Eye, Spec Ops Veteran, Laud Hailer"
+        detachment: "Grizzled Company"
+        date: "2025-12-30"
+      - wrong: "Blade of the Slayer"
+        correct: "Check validation-rules.yaml"
+        detachment: "Saga of the Beastslayer"
+        date: "2025-12-27"
 
 # ============================================================
 # DETACHMENT ENHANCEMENTS - Quick reference
@@ -325,14 +339,14 @@ detachments:
       - {name: "The Thermoneutronic Projector", pts: 30, effect: "Flamer weapons get +1 Strength and Damage"}
 
   # === ASTRA MILITARUM ===
+  # VERIFIED from New Recruit app 2025-12-30
   grizzled_company:
     faction: "Astra Militarum"
-    ability: "Ignore modifiers to hit and wound, ignore cover"
+    ability: "Ruthless Discipline: +1 Order per Officer. Ordered units re-roll 1s to hit; also re-roll 1s to wound if target is on objective."
     enhancements:
-      - {name: "Grand Strategist", pts: 15, effect: "CP on 5+ when opponent uses Stratagem"}
-      - {name: "Drill Commander", pts: 20, effect: "Ordered unit +1 to hit"}
-      - {name: "Death Mask of Ollanius", pts: 10, effect: "6\" aura: models flee on 2+ instead of auto"}
-      - {name: "Gatekeeper", pts: 20, effect: "Lasgun weapons get +6\" range and [LETHAL HITS]"}
+      - {name: "Aquilan Eye", pts: 20, effect: "New Order: Target Weak Spot - ranged attacks vs enemies within 12\" get +1 AP"}
+      - {name: "Spec Ops Veteran", pts: 15, effect: "New Order: Move to the Shadows - unit gains Stealth vs ranged attacks", restriction: "INFANTRY OFFICER only"}
+      - {name: "Laud Hailer", pts: 10, effect: "Order range increased to 12\" instead of 6\""}
 
   combined_regiment:
     faction: "Astra Militarum"

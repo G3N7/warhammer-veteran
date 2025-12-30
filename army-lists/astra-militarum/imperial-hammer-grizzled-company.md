@@ -17,8 +17,8 @@
 - **Elite Infantry:** Kasrkin provide sniper capability + plasma/melta anti-armor flexibility
 - **Infantry Control:** Cadian Shock Troops hold objectives and provide screening
 - **CP Generation:** Lord Solar Leontus generates 1CP per turn, sustaining army-wide buffs
-- **Voice of Command:** Drill Commander gives +1 to hit, making Kasrkin shoot at 2+ BS
-- **Grizzled Company Detachment:** Re-roll 1s to hit for units within 6" of objective markers
+- **Voice of Command:** Aquilan Eye grants "Target Weak Spot" Order (+1 AP vs enemies within 12")
+- **Grizzled Company Detachment:** +1 Order per Officer; ordered units re-roll 1s to hit (also re-roll 1s to wound if target is on objective)
 
 **Playstyle:** Castle deployment with tank firebase, infantry on objectives, **triangulated sniper crossfire** from Ratlings (Infiltrators), Kasrkin (Scouts 6"), and Gaunt's Ghosts (Infiltrators + Scouts 6"). Use Lord Solar's redeploy ability to counter-deploy against opponent.
 
@@ -86,13 +86,13 @@
 **Total Points:** 955pts
 **Command Points:** 3 (Battle-forged)
 **Detachment:** Grizzled Company
-**Enhancement:** Drill Commander (20pts) on Cadian Command Squad
+**Enhancement:** Aquilan Eye (20pts) on Cadian Command Squad
 
 ### Army Roster
 
 | Unit | Models | Role | Points |
 |------|--------|------|--------|
-| Cadian Command Squad + Drill Commander | 5 | HQ (Warlord) | 85pts |
+| Cadian Command Squad + Aquilan Eye | 5 | HQ (Warlord) | 85pts |
 | Cadian Shock Troops | 20 | Battleline | 120pts |
 | Cadian Shock Troops | 10 | Battleline | 65pts |
 | Kasrkin | 10 | Infantry (Elite Snipers) | 110pts |
@@ -106,7 +106,7 @@
 
 | Unit | Points |
 |------|--------|
-| Cadian Command Squad + Drill Commander | 85pts |
+| Cadian Command Squad + Aquilan Eye | 85pts |
 | Cadian Shock Troops (20) | 120pts |
 | Cadian Shock Troops (10) | 65pts |
 | Kasrkin (10) | 110pts |
@@ -134,7 +134,7 @@
 - **Ratlings (5):** 5× Precision shots - target wounded characters
 - **Kasrkin Marksman (1):** 1× Precision shot - finish off targets
 - **Combined Output:** 6 Precision shots/turn
-- **Drill Commander:** Order Kasrkin for +1 to hit (2+ BS on Marksman!)
+- **Aquilan Eye:** Order Kasrkin with "Target Weak Spot" for +1 AP within 12"
 
 **Sniper Tactics:**
 - **Pre-game:** Identify enemy characters (HQs, support heroes)
@@ -142,8 +142,8 @@
 - **Ratlings "Shoot Sharp and Scarper":** After shooting, move 6" to safety
 - **Kasrkin flexibility:** If no characters visible, use plasma/melta on vehicles
 
-**Orders Priority (Drill Commander):**
-1. **Priority: Kasrkin** → +1 to hit = 2+ BS on Marksman Rifle!
+**Orders Priority (Aquilan Eye):**
+1. **Priority: Kasrkin** → "Target Weak Spot" = +1 AP on Marksman Rifle within 12"
 2. **"Take Aim!"** on Leman Russ (re-roll 1s)
 3. **"Take Aim!"** on Demolisher (maximize S14 hits)
 
@@ -161,7 +161,7 @@
 **Total Points:** 1,985pts
 **Command Points:** 3 (Battle-forged)
 **Detachment:** Grizzled Company
-**Enhancement:** Drill Commander (20pts) on Cadian Command Squad
+**Enhancement:** Aquilan Eye (20pts) on Cadian Command Squad
 **Note:** Lord Solar Leontus is an Epic Hero and cannot take enhancements.
 
 ### Army Roster
@@ -169,7 +169,7 @@
 | Unit | Models | Role | Points |
 |------|--------|------|--------|
 | Lord Solar Leontus | 1 | HQ (Warlord) | 130pts |
-| Cadian Command Squad + Drill Commander | 5 | HQ | 85pts |
+| Cadian Command Squad + Aquilan Eye | 5 | HQ | 85pts |
 | Cadian Shock Troops | 20 | Battleline | 120pts |
 | Cadian Shock Troops | 20 | Battleline | 120pts |
 | Gaunt's Ghosts | 6 | Elites (Sniper) | 100pts |
@@ -189,7 +189,7 @@
 | Unit | Points |
 |------|--------|
 | Lord Solar Leontus | 130pts |
-| Cadian Command Squad + Drill Commander | 85pts |
+| Cadian Command Squad + Aquilan Eye | 85pts |
 | Cadian Shock Troops (20) × 2 | 240pts |
 | Gaunt's Ghosts | 100pts |
 | Kasrkin (10) | 110pts |
@@ -337,7 +337,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 **Tactics:**
 1. Scout 6" onto midfield objective (or toward sniper lane)
-2. Order with Drill Commander: +1 to hit = **2+ BS**
+2. Order with Aquilan Eye "Target Weak Spot": +1 AP within 12"
 3. Marksman Rifle snipes characters while plasma/melta handle armor
 4. Hot-shot lasguns clear chaff (S3 AP-1 = good vs light infantry)
 
@@ -377,7 +377,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 **Turn 2:**
 - Switch to next priority character
-- Kasrkin can Order for +1 to hit (2+ BS on Marksman)
+- Kasrkin can receive "Target Weak Spot" Order for +1 AP
 - Gaunt's Ghosts may need to reposition for sightlines
 
 **Turn 3+:**
@@ -404,8 +404,8 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 2. **"Take Aim!"** on Leman Russ Demolisher (maximize S14 hits)
 3. **"Take Aim!"** on Kasrkin (makes Marksman Rifle even deadlier)
 
-**Cadian Command Squad + Drill Commander Orders (1 per turn):**
-- **Priority: Kasrkin** → Drill Commander gives **+1 to hit** (Kasrkin shoot at 2+ BS!)
+**Cadian Command Squad + Aquilan Eye Orders (2 per turn with Ruthless Discipline):**
+- **Priority: Kasrkin** → "Target Weak Spot" gives **+1 AP** within 12" (Marksman Rifle becomes AP-2!)
 - **Alternative: "Take Aim!"** on Shock Troops holding objectives
 
 **CP Generation:**
@@ -462,15 +462,17 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ### Grizzled Company Detachment - Rule Synergy
 
-**Detachment Rule: "Grizzled Veterans"**
-- Units within 6" of objective markers: **Re-roll 1s to hit (shooting + melee)**
-- **Synergy:** Combine with "Take Aim!" Order for re-roll 1s + re-roll 1s = maximum accuracy
+**Detachment Rule: "Ruthless Discipline"**
+- **+1 Order per Officer:** Lord Solar issues 4 Orders, Command Squad issues 2 Orders
+- **Ordered units re-roll 1s to hit** (shooting and melee)
+- **If target is on objective:** Also re-roll 1s to wound!
+- **Synergy:** Stack with "Take Aim!" for re-roll 1s + re-roll 1s = maximum accuracy
 
 **Optimal Positioning:**
-1. Place Cadian Shock Troops ON objectives (auto-trigger Grizzled Company)
-2. Position Leman Russ tanks within 6" of friendly-held objectives
-3. Use Chimeras to contest objectives and gain re-rolls
-4. Ratlings can benefit if within 6" of objectives - but usually positioned for sightlines instead
+1. Place Cadian Shock Troops ON objectives (trigger re-roll wounds)
+2. Target enemies holding objectives for re-roll 1s to wound bonus
+3. Use extra Orders from Ruthless Discipline to buff more units
+4. Aquilan Eye's "Target Weak Spot" stacks with detachment re-rolls
 
 ---
 
@@ -505,15 +507,14 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ### Enhancements (Grizzled Company)
 
-**DRILL COMMANDER (20pts)** - Selected for Cadian Command Squad
-- **Effect:** When this Officer issues an Order, the ordered unit gets **+1 to hit** (shooting)
-- **Use Case:** Order Kasrkin → they shoot at **2+ BS** (including Marksman Rifle!)
+**AQUILAN EYE (20pts)** - Selected for Cadian Command Squad
+- **Effect:** Grants new Order "Target Weak Spot" - ranged attacks vs enemies within 12" get **+1 AP**
+- **Use Case:** Order Kasrkin → Marksman Rifle becomes AP-2, plasma becomes AP-4!
 - **Note:** Lord Solar Leontus is an Epic Hero and cannot take enhancements
 
 **Other Available Enhancements:**
-- **Grand Strategist (15pts):** Once per battle, gain 1CP
-- **Death Mask of Ollanius (10pts):** 6" aura: models flee on 2+ instead of auto
-- **Gatekeeper (20pts):** Lasgun weapons get +6" range and Lethal Hits
+- **Spec Ops Veteran (15pts):** New Order "Move to the Shadows" - unit gains Stealth (INFANTRY OFFICER only)
+- **Laud Hailer (10pts):** Order range increased to 12" instead of 6"
 
 ---
 
@@ -978,7 +979,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 - Triple sniper network: 12 Precision shots for character assassination
 - Early board control via Scout Sentinels + Kasrkin Scouts
 - Resilient (T11-T12 tanks, CP regen, Orders flexibility)
-- Drill Commander gives Kasrkin 2+ BS
+- Aquilan Eye gives Kasrkin +1 AP within 12" (Marksman Rifle → AP-2)
 
 **Weaknesses:**
 - Vulnerable to alpha strike armies (limited mobility Turn 1)
