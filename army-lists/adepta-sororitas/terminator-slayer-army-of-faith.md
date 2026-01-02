@@ -720,6 +720,83 @@ TOTAL: 150+75+80+360+210+160+360+210+210+115+70 = 2,000pts ✅
 
 ---
 
+## Model Assembly Guide
+
+### 500pt Assembly (31 models)
+
+| Model | Qty | Loadout | Notes |
+|-------|-----|---------|-------|
+| **Canoness** | 1 | Bolt pistol, blessed blade | Leader for Battle Sisters |
+| **Dominion Superior** | 1 | Bolt pistol, boltgun | Squad leader |
+| **Dominions (meltagun)** | 4 | Meltagun | Special weapons |
+| **Dominions (boltgun)** | 5 | Boltgun, simulacrum (1) | Standard loadout |
+| **Sister Superior** | 1 | Bolt pistol, boltgun, chainsword | Squad leader |
+| **Battle Sisters (meltagun)** | 2 | Meltagun | Special weapons |
+| **Battle Sisters (boltgun)** | 7 | Boltgun, simulacrum (1) | Standard loadout |
+| **Retributor Superior** | 1 | Bolt pistol, boltgun | Squad leader |
+| **Retributors (multi-melta)** | 4 | Multi-melta | Heavy weapons |
+| **Seraphim Superior** | 1 | 2× bolt pistol, chainsword | Squad leader |
+| **Seraphim** | 4 | 2× bolt pistol | Standard loadout |
+
+### 1000pt Assembly (67 models)
+
+| Model | Qty | Loadout | Notes |
+|-------|-----|---------|-------|
+| **Canoness** | 1 | Bolt pistol, blessed blade | Leader |
+| **Dominion Squads** | 2× | 4× meltagun, 5× boltgun, 1× Superior | 20 models total |
+| **Battle Sisters Squads** | 2× | 2× meltagun, 7× boltgun, 1× Superior | 20 models total |
+| **Seraphim Squad** | 1× | 4× inferno pistols, 5× bolt pistols, 1× Superior | 10 models |
+| **Retributor Squads** | 2× | 4× multi-melta, 1× Superior | 10 models total |
+| **Mortifiers** | 1 | Heavy bolters, penitent buzz-blades | Walker |
+
+### 2000pt Assembly (86 models)
+
+| Model | Qty | Loadout | Notes |
+|-------|-----|---------|-------|
+| **CHARACTERS** | | | |
+| Saint Celestine | 1 | The Ardent Blade, bolt pistol | Epic Hero |
+| Geminae Superia | 2 | Bolt pistols, power weapons | Bodyguards |
+| Canoness #1 | 1 | Bolt pistol, Blade of Saint Ellynor | Enhancement: Precision |
+| Canoness #2 | 1 | Bolt pistol, blessed blade | Enhancement: Triptych |
+| **DOMINION SQUADS (×3)** | | | |
+| Dominion Superior | 3 | Bolt pistol, boltgun | Squad leaders |
+| Dominions (meltagun) | 12 | Meltagun | 4 per squad |
+| Dominions (boltgun) | 15 | Boltgun, simulacrum (1 per squad) | 5 per squad |
+| **BATTLE SISTERS (×2)** | | | |
+| Sister Superior | 2 | Bolt pistol, boltgun, chainsword | Squad leaders |
+| Battle Sisters (meltagun) | 4 | Meltagun | 2 per squad |
+| Battle Sisters (boltgun) | 14 | Boltgun, simulacrum (1 per squad) | 7 per squad |
+| **SERAPHIM SQUAD** | | | |
+| Seraphim Superior | 1 | 2× bolt pistol, chainsword | Squad leader |
+| Seraphim (inferno) | 4 | 2× inferno pistol | Special weapons |
+| Seraphim (bolt) | 5 | 2× bolt pistol | Standard |
+| **RETRIBUTOR SQUADS (×3)** | | | |
+| Retributor Superior | 3 | Bolt pistol, boltgun | Squad leaders |
+| Retributors (multi-melta) | 12 | Multi-melta | 4 per squad |
+| **ELITES & VEHICLES** | | | |
+| Paragon Superior | 1 | Multi-melta, storm bolters, war blade | Warsuit leader |
+| Paragons | 2 | Multi-melta, storm bolters, war blade | Warsuits |
+| Mortifiers | 1 | Heavy bolters, penitent buzz-blades | Walker |
+| Exorcist | 1 | Exorcist missile launcher, heavy bolters | Tank |
+| Immolator | 1 | Twin multi-melta, heavy bolter | Transport |
+
+### Magnetization Recommendations
+
+**HIGH PRIORITY (saves money):**
+- **Retributor heavy weapons:** Magnetize arms to swap multi-meltas ↔ heavy flamers ↔ heavy bolters
+- **Dominion special weapons:** Magnetize to swap meltaguns ↔ flamers ↔ storm bolters
+- **Immolator turret:** Magnetize to swap twin multi-melta ↔ immolation flamers ↔ twin heavy bolter
+
+**MEDIUM PRIORITY:**
+- **Paragon ranged weapons:** Multi-melta ↔ heavy bolter ↔ heavy flamer
+- **Character weapons:** Canoness melee options
+
+**LOW PRIORITY:**
+- **Battle Sisters special weapons:** Usually run meltaguns, but magnetize if you play different missions
+- **Seraphim pistols:** Inferno pistols vs hand flamers (niche swap)
+
+---
+
 ## Painting & Purchase Reference
 
 ### Where to Buy (Official Games Workshop)
@@ -770,8 +847,9 @@ TOTAL: 150+75+80+360+210+160+360+210+210+115+70 = 2,000pts ✅
 | Paragon Warsuits | 1 | $70 | $70 |
 | Exorcist | 1 | $80 | $80 |
 | Immolator | 1 | $66 | $66 |
+| Mortifiers | 1 | $51 | $51 |
 
-**TOTAL COST: ~$906 USD** (for 2000pt army)
+**TOTAL COST: ~$957 USD** (for 2000pt army)
 
 **Budget-Friendly Build Path:**
 1. Buy Combat Patrol ($160) = Canoness, 10 Battle Sisters, 5 Seraphim, 3 Paragon Warsuits
@@ -780,11 +858,12 @@ TOTAL: 150+75+80+360+210+160+360+210+210+115+70 = 2,000pts ✅
 4. Add Saint Celestine ($65)
 5. Add 1x Exorcist ($80)
 6. Add 1x Immolator ($66)
-7. Add 1x more Canoness ($35)
-8. Add 1x more Battle Sisters Squad ($60)
-9. Add 1x more Seraphim Squad ($51)
+7. Add 1x Mortifiers box ($51) - builds 1-2 Mortifiers
+8. Add 1x more Canoness ($35)
+9. Add 1x more Battle Sisters Squad ($60)
+10. Add 1x more Seraphim Squad ($51)
 
-**Total: ~$850 USD** (saves ~$56 with Combat Patrol bundle)
+**Total: ~$901 USD** (saves ~$56 with Combat Patrol bundle)
 
 ---
 
@@ -848,9 +927,9 @@ TOTAL: 150+75+80+360+210+160+360+210+210+115+70 = 2,000pts ✅
 - Seraphim: 2.5-3.5 hours (wings add time)
 
 **Full Army (2000pts):**
-- Total models: ~90 (53 infantry + 3 Warsuits + 4 tanks + characters)
-- Estimated time: **180-220 hours** at tabletop standard
-- At display quality: **300-400 hours**
+- Total models: 86 (75 infantry + 3 Warsuits + 1 Walker + 2 vehicles + 5 characters)
+- Estimated time: **170-210 hours** at tabletop standard
+- At display quality: **280-380 hours**
 
 **Pro Tips:**
 1. **Sub-assemblies:** Paint robes/bodies before gluing arms/backpacks
@@ -956,11 +1035,12 @@ This list trades melta spam for durability, melee threat, and all-around flexibi
 
 | Factor | Terminator Slayer (Army of Faith) | Angels of Faith (Hallowed Martyrdom) |
 |--------|-----------------------------------|--------------------------------------|
-| **Points** | 1,930 | 1,990 |
-| **Melta Weapons** | 31 (1 Immolator removed in audit) | 10 |
+| **Points** | 2,000 | 1,990 |
+| **Melta Weapons** | 35 (16 meltaguns + 8 inferno + 17 multi-melta shots) | 10 |
+| **Models** | 86 | ~95 |
 | **Win Rate vs Terminators** | 70-80% | 55-60% |
-| **Melee Capability** | Low (Celestine only) | High (Sacresants + Mortifiers) |
-| **Durability** | Moderate | High (Sacresants 4++, Mortifiers T6) |
+| **Melee Capability** | Low (Celestine + Mortifier) | High (Sacresants + 2 Mortifiers) |
+| **Durability** | Moderate (T10 tanks, 1 Mortifier) | High (Sacresants 4++, 2 Mortifiers T6) |
 | **Objective Holders** | 20 Battle Sisters | 30 Battle Sisters + 10 Sacresants |
 | **Playstyle** | Alpha strike, kiting | Balanced shooting/melee |
 | **Game Experience** | One-sided stomp | Competitive tactical game |
@@ -1018,7 +1098,7 @@ This list trades melta spam for durability, melee threat, and all-around flexibi
 - Warm gold glow from flamers/meltas
 
 ### Speed Paint Alternative
-Use ◐ Succubus Pink over white primer for quick hot pink armour - perfect for batch painting 90+ models!
+Use ◐ Succubus Pink over white primer for quick hot pink armour - perfect for batch painting 86 models!
 
 ### Lore: Order of the Rose Eternal
 *"Born from the ashes of the Order of the Bloody Rose, the Order of the Rose Eternal embraced a new path - their armour reforged in the vivid pink of the Emperor's dawn light. They believe each battle is a petal offered to the Emperor, and when enough petals fall, the Eternal Rose blooms eternal."*
@@ -1033,8 +1113,9 @@ Use ◐ Succubus Pink over white primer for quick hot pink armour - perfect for 
 **Created by:** Tacticus Agent
 **Date:** December 23, 2025
 **Updated:** December 30, 2025
-**Version:** 1.2
+**Version:** 1.3
 **Army Designer:** For crushing Terminator armies with faith and fire
 **Paint Scheme:** Order of the Rose Eternal (Hot Pink) - Brushmaster Agent
+**Validated:** All points verified against Wahapedia 10th Edition
 
 **FOR THE EMPEROR!**

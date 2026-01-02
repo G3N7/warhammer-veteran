@@ -459,6 +459,56 @@ With Bjorn generating +1CP per phase:
 
 ---
 
+## Shopping List & Cost Summary
+
+### 2000pt Shopping List
+
+| Item | Quantity | Cost Each | Total |
+|------|----------|-----------|-------|
+| Logan Grimnar | 1 | $42 | $42 |
+| Arjac Rockfist | 1 | $35 | $35 |
+| Wolf Priest (Primaris Chaplain) | 1 | $38 | $38 |
+| Bjorn the Fell-Handed | 1 | $55 | $55 |
+| Venerable Dreadnought | 1 | $55 | $55 |
+| Wolf Guard Terminators | 6 boxes | $60 | $360 |
+| Blood Claws | 1 | $60 | $60 |
+| Grey Hunters | 1 | $60 | $60 |
+| Fenrisian Wolves | 2 | $35 | $70 |
+
+**TOTAL COST: ~$775 USD** (for 2000pt army)
+
+### Model Count Summary
+
+| Points Level | Terminators | Infantry | Wolves | Characters | Dreadnoughts | Total |
+|--------------|-------------|----------|--------|------------|--------------|-------|
+| 500pt | 10 | 0 | 5 | 1 | 0 | **16** |
+| 1000pt | 20 | 0 | 10 | 2 | 0 | **32** |
+| 2000pt | 30 | 20 | 10 | 3 | 2 | **65** |
+
+### Budget-Friendly Build Path
+
+1. Buy Combat Patrol: Space Marines ($160) - contains Terminators + characters (proxy)
+2. Add Logan Grimnar ($42) + Arjac Rockfist ($35)
+3. Add Bjorn the Fell-Handed ($55)
+4. Add 4x Wolf Guard Terminators boxes ($240) - need 30 total
+5. Add Blood Claws + Grey Hunters ($120)
+6. Add Fenrisian Wolves x2 ($70)
+7. Add Venerable Dreadnought ($55) + Wolf Priest ($38)
+
+**Approximate Total: ~$775 USD**
+
+### Magnetization Recommendations
+
+**HIGH PRIORITY:**
+- **Terminator arms:** Magnetize to swap storm bolter ↔ storm shield ↔ assault cannon
+- **Pack Leader weapons:** Twin lightning claws ↔ thunder hammer + storm shield
+
+**MEDIUM PRIORITY:**
+- **Venerable Dreadnought:** Greataxe ↔ other melee options
+- **Bjorn:** Assault cannon ↔ heavy flamer ↔ multi-melta
+
+---
+
 <!-- BRUSHMASTER SECTION - Tacticus ignore -->
 ## Paint Scheme: Space Wolves
 
