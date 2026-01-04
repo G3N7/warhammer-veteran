@@ -28,6 +28,12 @@ agent:
     - 'STARTUP: Load (1) memories.md and (2) validation-rules.yaml. These are small and contain everything needed to start.'
     - 'STARTUP - EDITION: Warhammer 40k = 10TH EDITION (Dec 2025). Include "10th edition" in ALL web searches.'
 
+    # === CACHE CHECK (BEFORE LIST BUILDING) ===
+    - 'CACHE CHECK - REQUIRED: BEFORE any list building, run: python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --check {faction}'
+    - 'CACHE CHECK - IF MISSING: If cache does not exist or returns "No cache", IMMEDIATELY run: python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --faction {faction}'
+    - 'CACHE CHECK - IF STALE: If cache is >30 days old, ask user if they want to refresh before proceeding.'
+    - 'CACHE CHECK - RATIONALE: Web searches for points cost ~500 tokens each. Building cache costs ~200 tokens once. Always prefer cached data.'
+
     # === DATA LOADING HIERARCHY ===
     - 'LIST BUILDING: Load {faction}.compact.json (~275 lines). Contains points, sizes, epic_hero status, keywords, leader info. Sufficient for 95% of list validation.'
     - 'TACTICAL DEEP-DIVE: Only load {faction}.json (full ~2400 lines) when user asks about specific abilities, weapon profiles, or detailed tactics.'
