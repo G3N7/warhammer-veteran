@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "last_global_refresh": "2025-12-28T01:37:58.827040+00:00",
+  "last_global_refresh": "2026-01-04T07:01:38.695433+00:00",
   "cache_invalid": false,
   "stale_after_days": 30,
   "factions_cached": [
@@ -8,7 +8,8 @@
     "tau-empire",
     "astra-militarum",
     "orks",
-    "tyranids"
+    "tyranids",
+    "space-marines"
   ],
   "invalidation_reason": null
 }

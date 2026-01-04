@@ -1,0 +1,206 @@
+{
+  "faction": "space-marines",
+  "last_updated": "2026-01-04T07:00:42.178223+00:00",
+  "schema": "compact-v1",
+  "unit_count": 13,
+  "units": {
+    "Roboute Guilliman": {
+      "name": "Roboute Guilliman",
+      "pts": 340,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "CHARACTER",
+        "EPIC HERO"
+      ]
+    },
+    "Marneus Calgar": {
+      "name": "Marneus Calgar",
+      "pts": 200,
+      "sizes": [
+        3
+      ],
+      "epic_hero": true,
+      "models": 3,
+      "leads": [
+        "Assault Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Bladeguard Veteran Squad",
+        "Vanguard Veteran Squad",
+        "Intercessor Squad",
+        "Eradicator Squad",
+        "Tactical Squad"
+      ],
+      "led_by": [
+        "Assault Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Bladeguard Veteran Squad",
+        "Vanguard Veteran Squad",
+        "Intercessor Squad",
+        "Eradicator Squad",
+        "Tactical Squad"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Lieutenant": {
+      "name": "Lieutenant",
+      "pts": 55,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER",
+        "GRENADES"
+      ],
+      "leads": [
+        "Assault Intercessor Squad Bladeguard Veteran Squad Company Heroes Hellblaster Squad Infernus Squad Intercessor Squad Sternguard Veteran Squad Tactical Squad Crusader Squad Sternguard Veteran Squad Sword Brethren Squad Inner Circle Companions Deathwatch Veterans Decimus Kill Team Fortis Kill Team Assault Squad Command Squad Crusader Squad (Legendary) Vanguard Veteran Squad Wolf Guard You can attach this model to a unit it can lead even if one CAPTAIN",
+        "CHAPTER MASTER model has already been attached to it"
+      ],
+      "led_by": [
+        "Assault Intercessor Squad Bladeguard Veteran Squad Company Heroes Hellblaster Squad Infernus Squad Intercessor Squad Sternguard Veteran Squad Tactical Squad Crusader Squad Sternguard Veteran Squad Sword Brethren Squad Inner Circle Companions Deathwatch Veterans Decimus Kill Team Fortis Kill Team Assault Squad Command Squad Crusader Squad (Legendary) Vanguard Veteran Squad Wolf Guard You can attach this model to a unit it can lead even if one CAPTAIN",
+        "CHAPTER MASTER model has already been attached to it. If you do",
+        "and that Bodyguard unit is destroyed",
+        "the Leader units attached to it become separate units",
+        "with their original Starting Strengths ."
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Ballistus Dreadnought": {
+      "name": "Ballistus Dreadnought",
+      "pts": 150,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "VEHICLE",
+        "WALKER"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Redemptor Dreadnought": {
+      "name": "Redemptor Dreadnought",
+      "pts": 195,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "VEHICLE",
+        "WALKER"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Intercessor Squad": {
+      "name": "Intercessor Squad",
+      "pts": null,
+      "sizes": [
+        5,
+        10
+      ],
+      "epic_hero": false,
+      "pts_per_model": 16,
+      "keywords": [
+        "INFANTRY",
+        "BATTLELINE",
+        "GRENADES"
+      ]
+    },
+    "Assault Intercessor Squad": {
+      "name": "Assault Intercessor Squad",
+      "pts": null,
+      "sizes": [
+        5,
+        10
+      ],
+      "epic_hero": false,
+      "pts_per_model": 15,
+      "keywords": [
+        "INFANTRY",
+        "BATTLELINE",
+        "GRENADES"
+      ]
+    },
+    "Infernus Squad": {
+      "name": "Infernus Squad",
+      "pts": null,
+      "sizes": [
+        5,
+        10
+      ],
+      "epic_hero": false,
+      "pts_per_model": 18,
+      "keywords": [
+        "INFANTRY",
+        "GRENADES"
+      ]
+    },
+    "Vindicator": {
+      "name": "Vindicator",
+      "pts": 185,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "VEHICLE",
+        "SMOKE"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Gladiator Lancer": {
+      "name": "Gladiator Lancer",
+      "pts": 160,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "VEHICLE",
+        "SMOKE"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Terminator Squad": {
+      "name": "Terminator Squad",
+      "pts": null,
+      "sizes": [
+        5,
+        10
+      ],
+      "epic_hero": false,
+      "pts_per_model": 34,
+      "keywords": [
+        "INFANTRY",
+        "TERMINATOR",
+        "TERMINATOR SQUAD"
+      ],
+      "core": [
+        "Deep Strike"
+      ]
+    }
+  }
+}
