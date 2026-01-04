@@ -836,7 +836,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ## Model Assembly Guide
 
-### 2000pt Assembly (97 models + 7 vehicles)
+### 2000pt Assembly (72 infantry + 9 vehicles = 81 models)
 
 | Model | Qty | Loadout | Notes |
 |-------|-----|---------|-------|
@@ -868,7 +868,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 | Chimera | 2 | Multi-laser, Heavy bolter | Standard config |
 | Scout Sentinels | 2 | Lascannons | Open cockpit |
 
-### 1000pt Assembly (47 models + 5 vehicles)
+### 1000pt Assembly (50 infantry + 5 vehicles = 55 models)
 
 | Model | Qty | Loadout | Notes |
 |-------|-----|---------|-------|
@@ -894,7 +894,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 | Chimera | 1 | Multi-laser, Heavy bolter | - |
 | Scout Sentinels | 2 | Lascannons | Open cockpit |
 
-### 500pt Assembly (37 models + 1 vehicle)
+### 500pt Assembly (40 infantry + 1 vehicle = 41 models)
 
 | Model | Qty | Loadout | Notes |
 |-------|-----|---------|-------|
@@ -929,9 +929,9 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 | Points Level | Infantry | Vehicles | Total Models | Precision Shots |
 |--------------|----------|----------|--------------|-----------------|
-| 500pt | 36 | 1 | **37 models** | 5 (Ratlings) |
-| 1000pt | 42 | 5 | **47 models** | 6 (Ratlings + Kasrkin) |
-| 2000pt | 90 | 7 | **97 models** | 12 (Ratlings + Kasrkin + Ghosts) |
+| 500pt | 40 | 1 | **41 models** | 5 (Ratlings) |
+| 1000pt | 50 | 5 | **55 models** | 6 (Ratlings + Kasrkin) |
+| 2000pt | 72 | 9 | **81 models** | 12 (Ratlings + Kasrkin + Ghosts) |
 
 ### Estimated Cost (2000pt)
 
