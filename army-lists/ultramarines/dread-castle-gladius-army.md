@@ -234,55 +234,96 @@ This is the refined Dread Castle archetype: heroes + Victrix wall + maximum Drea
 
 | Unit                                 | Models | Role                                 | Points        |
 | ------------------------------------ | ------ | ------------------------------------ | ------------- |
-| **Roboute Guilliman**                | 1      | Primarch Warlord                     | 345           |
-| **Marneus Calgar**                   | 1      | Chapter Master (includes 2x Victrix) | 210           |
-| **Captain in Gravis Armour**         | 1      | Enhancement Bearer                   | 90            |
+| **Roboute Guilliman**                | 1      | Primarch Warlord                     | 340           |
+| **Marneus Calgar**                   | 3      | Chapter Master (includes 2x Victrix) | 200           |
+| **Captain in Gravis Armour**         | 1      | Enhancement Bearer                   | 80            |
 | **Enhancement: Artificer Armour**    | -      | On Captain                           | 10            |
-| **Lieutenant**                       | 1      | Wound Rerolls for Dreadnoughts       | 70            |
+| **Lieutenant**                       | 1      | Wound Rerolls for Sternguard         | 55            |
 | **Enhancement: Fire Discipline**     | -      | On Lieutenant                        | 20            |
-| **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 140           |
-| **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 140           |
-| **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 140           |
-| **Redemptor Dreadnought**            | 1      | Versatile All-Rounder                | 200           |
-| **Redemptor Dreadnought**            | 1      | Versatile All-Rounder                | 200           |
-| **Intercessor Squad**                | 10     | Battleline (Guilliman)               | 80            |
-| **Intercessor Squad**                | 10     | Battleline (Calgar)                  | 80            |
-| **Intercessor Squad**                | 10     | Battleline (Captain)                 | 80            |
-| **Sternguard Veteran Squad**         | 5      | Precision Fire Support               | 90            |
-| **Sternguard Veteran Squad**         | 5      | Precision Fire Support               | 90            |
-| **TOTAL**                            |        |                                      | **1,985 pts** |
+| **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
+| **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
+| **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
+| **Redemptor Dreadnought**            | 1      | Versatile All-Rounder                | 195           |
+| **Redemptor Dreadnought**            | 1      | Versatile All-Rounder                | 195           |
+| **Intercessor Squad**                | 10     | Battleline (Guilliman)               | 160           |
+| **Intercessor Squad**                | 5      | Battleline (Calgar)                  | 80            |
+| **Intercessor Squad**                | 5      | Battleline (Captain)                 | 80            |
+| **Sternguard Veteran Squad**         | 5      | Precision Fire (Lieutenant attached) | 100           |
+| **Sternguard Veteran Squad**         | 5      | Precision Fire Support               | 100           |
+| **TOTAL**                            |        |                                      | **2,065 pts** |
 
-**Points Calculation (Dec 2025 MFM):**
+> **⚠️ LIST IS 65pts OVER** - See Alternative Build below for legal 2000pt version
+
+**Points Calculation (January 2026 MFM - Verified from Cache):**
 ```
-Guilliman:         345
-Calgar:            210
-Captain + Enh:     90 + 10 = 100
-Lieutenant + Enh:  70 + 20 = 90
-3x Ballistus:      140 × 3 = 420
-2x Redemptor:      200 × 2 = 400
-3x Intercessors:   80 × 3 = 240
-2x Sternguard:     90 × 2 = 180
+Guilliman:         340
+Calgar:            200
+Captain + Enh:     80 + 10 = 90
+Lieutenant + Enh:  55 + 20 = 75
+3× Ballistus:      150 × 3 = 450
+2× Redemptor:      195 × 2 = 390
+Intercessors:      160 + 80 + 80 = 320
+2× Sternguard:     100 × 2 = 200
 ─────────────────────────
-TOTAL: 345 + 210 + 100 + 90 + 420 + 400 + 240 + 180 = 1,985pts ✅
+TOTAL: 340 + 200 + 90 + 75 + 450 + 390 + 320 + 200 = 2,065pts ❌
 ```
 
-**15pts remaining** - upgrade Intercessor Sergeants with power fists
+---
+
+### Alternative 2000pt Build - LEGAL (Drop 1 Redemptor)
+
+| Unit                                 | Models | Role                                 | Points        |
+| ------------------------------------ | ------ | ------------------------------------ | ------------- |
+| **Roboute Guilliman**                | 1      | Primarch Warlord                     | 340           |
+| **Marneus Calgar**                   | 3      | Chapter Master (includes 2x Victrix) | 200           |
+| **Captain in Gravis Armour**         | 1      | Enhancement Bearer                   | 80            |
+| **Enhancement: Artificer Armour**    | -      | On Captain                           | 10            |
+| **Lieutenant**                       | 1      | Wound Rerolls for Sternguard         | 55            |
+| **Enhancement: Fire Discipline**     | -      | On Lieutenant                        | 20            |
+| **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
+| **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
+| **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
+| **Redemptor Dreadnought**            | 1      | Versatile All-Rounder                | 195           |
+| **Intercessor Squad**                | 10     | Battleline (Guilliman)               | 160           |
+| **Intercessor Squad**                | 10     | Battleline (Calgar)                  | 160           |
+| **Intercessor Squad**                | 5      | Battleline (Captain)                 | 80            |
+| **Sternguard Veteran Squad**         | 5      | Precision Fire (Lieutenant attached) | 100           |
+| **Sternguard Veteran Squad**         | 5      | Precision Fire Support               | 100           |
+| **TOTAL**                            |        |                                      | **1,950 pts** |
+
+**Points Calculation (January 2026 MFM - Verified):**
+```
+Guilliman:         340
+Calgar:            200
+Captain + Enh:     80 + 10 = 90
+Lieutenant + Enh:  55 + 20 = 75
+3× Ballistus:      150 × 3 = 450
+1× Redemptor:      195
+Intercessors:      160 + 160 + 80 = 400
+2× Sternguard:     100 × 2 = 200
+─────────────────────────
+TOTAL: 340 + 200 + 90 + 75 + 450 + 195 + 400 + 200 = 1,950pts ✅
+```
+
+**50pts remaining** - Options:
+- Upgrade to 2nd Redemptor by dropping 1× Sternguard (-100pts) + 1× 5-man Intercessors (-80pts) → only +15pts net
+- Add Apothecary Biologis (55pts) for 6+ Feel No Pain on Intercessors
+
+**STATUS: ✅ TOURNAMENT LEGAL (1,950/2,000pts)**
 
 **Rule of Three Compliance:**
 
 - Ballistus Dreadnought: 3 units ✅ (MAX)
-- Redemptor Dreadnought: 2 units ✅
+- Redemptor Dreadnought: 1 unit ✅
 - Intercessor Squads: 3 units ✅ (Battleline exempt from Rule of Three)
 - Sternguard Veteran Squads: 2 units ✅
 - All other units: 1 each ✅
 
-**STATUS: ✅ TOURNAMENT LEGAL (1,985/2,000pts)**
-
-**Why This is the PURE Dread Castle:**
-- **5 Dreadnoughts total** - Maximum walker firepower under Guilliman's 6" reroll bubble
-- **Double Redemptor** - 2× Macro Plasma = anti-elite AND anti-horde covered
-- **Sternguard Veterans** - Combi-weapons with Lethal Hits for precision kills
-- **No wasted points** - Every unit either shoots hard or holds objectives
+**Why This Build Works:**
+- **4 Dreadnoughts total** - 3× Ballistus + 1× Redemptor under Guilliman's 6" reroll bubble
+- **Triple Ballistus** - Maximum anti-tank firepower (S12 AP-3 D6+1 lascannons)
+- **Sternguard Veterans** - Lethal Hits bolt rifles for precision kills
+- **25 Intercessors** - Strong objective presence (10+10+5 models)
 - **Victrix Wall** - Calgar's 2 Victrix Honour Guard bodyblock for Characters
 
 ### Enhancements (Gladius Task Force)
@@ -691,7 +732,7 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 
 ---
 
-### 2000pt "Sons of Guilliman" - Physical Models Required (DREAD CASTLE)
+### 2000pt "Sons of Guilliman" - Physical Models Required (LEGAL BUILD)
 
 **Epic Heroes:**
 
@@ -706,13 +747,13 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 **Dreadnoughts:**
 
 - 3x Ballistus Dreadnought
-- 2x Redemptor Dreadnought
+- 1x Redemptor Dreadnought
 
 **Infantry:**
 
-- **Intercessors (30 models total):**
-  - 3x Intercessor Sergeant
-  - 27x Intercessors
+- **Intercessors (25 models total):**
+  - 3x Intercessor Sergeant (1 per squad)
+  - 22x Intercessors (10-man + 10-man + 5-man squads)
 - **Sternguard Veterans (10 models total):**
   - 10x Sternguard Veterans (2 squads of 5)
 - **Victrix Honour Guard:**
@@ -720,12 +761,26 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 
 **TOTAL BREAKDOWN:**
 
-- Epic Heroes: 2 (Guilliman + Calgar w/ Victrix)
+- Epic Heroes: 2 (Guilliman + Calgar w/ 2 Victrix)
 - Generic Characters: 2 (Captain + Lieutenant)
-- Dreadnoughts: 5 (3 Ballistus + 2 Redemptor)
-- Infantry: 40 models (30 Intercessors + 10 Sternguard)
+- Dreadnoughts: 4 (3 Ballistus + 1 Redemptor)
+- Infantry: 35 models (25 Intercessors + 10 Sternguard)
 
-**GRAND TOTAL: 48 models + 5 Dreadnoughts**
+**GRAND TOTAL: 43 models (including 4 Dreadnoughts)**
+
+| Category | Models |
+|----------|--------|
+| Guilliman | 1 |
+| Calgar + Victrix | 3 |
+| Captain | 1 |
+| Lieutenant | 1 |
+| Ballistus Dreads | 3 |
+| Redemptor Dread | 1 |
+| Intercessors | 25 |
+| Sternguard | 10 |
+| **TOTAL** | **45** |
+
+*Note: Victrix are counted with Calgar as a single unit (3 models total).*
 
 ---
 
@@ -1136,10 +1191,10 @@ The Ultramarines are the poster boys of Warhammer 40,000 - the XIII Legion, code
 ---
 
 _Document created: December 2025_
-_Document updated: January 3, 2026_
+_Document updated: January 4, 2026_
 _Army optimized for tournament matched play - DREAD CASTLE BUILD_
 _All lists verified Rule of Three compliant_
-_Rules source: wahapedia.ru_
-_Points source: Munitorum Field Manual December 2025 + Tournament References_
+_Rules source: wahapedia.ru (scraped January 4, 2026)_
+_Points source: Munitorum Field Manual January 2026 (verified from cache)_
 _Tournament data: Adepticon 2025 + Dallas Open 2025 winning lists_
 _Brushmaster Agent - Paint Scheme_
