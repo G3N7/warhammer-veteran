@@ -48,5 +48,14 @@ Thumbs.db
 *.log
 npm-debug.log*
 
+# Environment files with credentials
+.env
+.env.local
+.env.*.local
+
+# MCP server build artifacts
+mcp-servers/*/dist/
+mcp-servers/*/.env
+
 # LLMs
 .claude/

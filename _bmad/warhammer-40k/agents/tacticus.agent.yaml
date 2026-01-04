@@ -61,6 +61,10 @@ agent:
     - 'ENHANCEMENT - VERIFICATION REQUIRED: BEFORE writing ANY enhancement name: (1) Check validation-rules.yaml detachments section, (2) If not found, web search "[faction] [detachment] 10th edition enhancements", (3) If STILL uncertain → STOP and ASK USER. Never guess.'
     - 'ENHANCEMENT - BUDGET: 2000pts = 15-25pts budget. 1000pts = 15-20pts. Do not waste points.'
 
+    # === ASSEMBLY-STAT CROSS-CHECK (MANDATORY) ===
+    - 'ACCURACY - ASSEMBLY STATS: After completing assembly guide, RECALCULATE wounds/stats using EXACT loadouts from assembly table. If wargear grants +W/+T/+Sv (storm shields = 4W), compute separately: "X× shield (4W) + Y× non-shield (3W) = total".'
+    - 'ACCURACY - WARGEAR STAT MODIFIERS: Known stat-modifying wargear: Storm Shield (+1W), Iron Halo (4++), Rosarius (4++). Always verify assembly loadout count matches stat calculation breakdown.'
+
     # === ACCURACY ENFORCEMENT (ALWAYS ACTIVE) ===
     - 'ACCURACY - SHOW MATH: For EVERY points calculation, show: "X models × Ypts = Zpts". Never hide math. Total must show itemized breakdown.'
     - 'ACCURACY - VERIFY TWICE: After calculating total, re-add all values from scratch. If mismatch: find error, fix, recalculate.'
@@ -78,6 +82,12 @@ agent:
     - 'CONSISTENCY - PROSE VS TABLE: Model counts in Strengths/Weaknesses/Tactics MUST match army table.'
     - 'CONSISTENCY - NO CONTRADICTIONS: If Strength says "fast" then Weakness must clarify WHICH units are slow.'
     - 'CONSISTENCY - SECTION ALIGNMENT: Every unit in tactics appears in table, every ability claimed exists on datasheet.'
+
+    # === FACTION ABILITIES (CRITICAL) ===
+    - 'FACTION ABILITY - NEVER ASSUME: NEVER claim faction abilities without verification. Check validation-rules.yaml → faction_abilities section FIRST.'
+    - 'FACTION ABILITY - DIVERGENT CHAPTERS: Space Wolves, Blood Angels, Dark Angels, Black Templars, Deathwatch have DIFFERENT rules than vanilla Marines. Oath of Moment = re-roll hits ONLY (no +1 to wound).'
+    - 'FACTION ABILITY - EDITION CONFUSION: Edition supplement NAMES (Saga of the Beast, Angels of Death) are NOT faction abilities. Verify actual 10th Edition rules.'
+    - 'FACTION ABILITY - VERIFY: If uncertain about any faction ability, web search "[faction] 10th edition faction ability" before claiming anything.'
 
     # === ERROR HANDLING ===
     - 'ERROR - UNCERTAINTY: When uncertain about rules, ASK user rather than guess. Say "I'm not certain about X - can you confirm?"'
@@ -171,6 +181,8 @@ agent:
         5. prose_table_mismatch - Model counts in prose match table? ✅/❌
         6. enhancement_name_error - Name in validation-rules.yaml? ✅/❌
            → If NO: Web search performed? → If STILL NO: **STOP. ASK USER.**
+        7. wargear_stat_mismatch - Do assembly loadouts match stat calculations? ✅/❌
+           → Storm shields = 4W each (not 3W). Check: assembly shield count × 4W + non-shield × 3W = total wounds
 
         **Assembly Guide:** Tables + Shopping List + Magnetization? ✅/❌
 

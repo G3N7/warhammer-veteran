@@ -360,6 +360,123 @@ At the start of your Shooting phase:
 
 ---
 
+## Matchup Analysis
+
+### Strong Against
+
+**Vehicle-Heavy Armies (Imperial Knights, Astra Militarum Tanks)**
+- Longstrike + 2x Hammerhead = 3 Railguns (S20 AP-5 D6+6 Devastating Wounds)
+- Each railgun averages 1 dead Knight per turn
+- Kauyon Sustained Hits (Turn 3+) = even more critical hits
+- Strategy: Focus fire one big target per turn until dead
+
+**Elite Infantry (Space Marines, Custodes, Terminators)**
+- Riptide heavy burst cannons (36 shots total from 3x Riptides) shred 2+ saves
+- Broadsides heavy rail rifles (S10 AP-4) force invuln saves
+- Sustained Hits stacking makes volume fire devastating
+- Strategy: Mark with Observer, delete with focused fire
+
+**Slow Armies (Death Guard, Necrons, Imperial Knights)**
+- They can't reach your gunline before Turn 3 Kauyon activates
+- 48-72" range on railguns = shooting before they're in range
+- Barbgaunts... wait, Strike Teams slow nothing - just shoot them!
+- Strategy: Castle, mark targets, delete at range
+
+### Weak Against
+
+**Fast Melee Armies (World Eaters, Tyranid Kraken, Slaanesh Daemons)**
+- If they reach you, you die (no melee capability)
+- 6" move infantry can't kite 12" move berzerkers
+- Deep Strike Turn 2 bypasses your gunline entirely
+- Counter: Deploy defensively, use Photon Grenades stratagem (1CP, -2 to Charge)
+
+**Deep Strike Alpha Armies (Grey Knights, Blood Angels, Chaos Daemons)**
+- 9" from your Broadsides = dead Broadsides next turn
+- Shadowsun's Wall of Mirrors (return to reserves) helps but limited
+- Counter: Screen with Strike Teams 9" forward, use Combat Embarkation if transports available
+
+**Horde Swarms (Orks, Tyranid Gaunts, Guard Infantry)**
+- 100+ model armies overwhelm your ~40 models
+- Kill 10, they have 90 more
+- Counter: Riptide heavy burst cannons + Sustained Hits, but it's still an uphill battle
+
+### Neutral Matchups
+
+**Space Marines (Gladius Strike Force)**
+- They have durability (T4 2+ saves), you have firepower
+- Railguns delete vehicles, but Marines in cover are tough
+- Kauyon Turn 3+ helps, but games often decided by Turn 2
+- 50/50 matchup - positioning and target priority matter
+
+**Necrons**
+- Reanimation Protocols waste your overkill damage
+- Focus fire to ensure units are wiped (no reanimation if unit destroyed)
+- Their shooting is comparable to yours
+- Slightly unfavorable (55-45 Necrons favor)
+
+---
+
+## Model Assembly Guide
+
+### 2000pt List Assembly Requirements
+
+| Model | Qty | Key Assembly Notes |
+|-------|-----|-------------------|
+| **CHARACTERS** | | |
+| Longstrike | 1 | Hammerhead chassis + Longstrike gunner upgrade sprue |
+| Commander Shadowsun | 1 | Unique model with 2x fusion blasters + drones |
+| Cadre Fireblade | 1 | Single infantry model with markerlight rifle |
+| **BATTLESUITS** | | |
+| Riptide Battlesuit | 3 | **Heavy burst cannon** (default) + twin smart missile system recommended |
+| Broadside Battlesuit | 6 | **Heavy rail rifle** loadout (magnetize for missile pod swap) |
+| **VEHICLES** | | |
+| Hammerhead Gunship | 2 | Railgun turret (not ion cannon) + seeker missiles optional |
+| **INFANTRY** | | |
+| Strike Team (10-man) | 3 units | Pulse rifles (not carbines), 1x Shas'ui per unit with markerlight |
+
+### Magnetization Priority
+
+**HIGH PRIORITY (saves money and provides flexibility):**
+- **Riptide main weapons:** Heavy burst cannon ↔ Ion accelerator (different game roles)
+- **Broadside main weapons:** Heavy rail rifle ↔ High-yield missile pods
+- **Hammerhead turret:** Railgun ↔ Ion cannon
+
+**MEDIUM PRIORITY:**
+- **Riptide secondary weapons:** Twin plasma rifle ↔ Twin fusion blaster ↔ Twin SMS
+- **Broadside support systems:** Seeker missiles, plasma rifles
+
+**LOW PRIORITY:**
+- Strike Team weapons (pulse rifles are standard, rarely swap)
+- Shadowsun (fixed loadout Epic Hero)
+
+### Assembly Tips
+
+**Riptides:**
+1. Dry-fit legs first - pose determines stability
+2. Magnetize at shoulder joint for weapon swaps (3mm x 1mm magnets)
+3. Leave head/sensor unglued for painting access
+4. Pin the heavy burst cannon barrel (resin can droop)
+
+**Broadsides:**
+1. Glue legs to base first (heavy model needs stable foundation)
+2. Rails rifles are LONG - transport carefully or magnetize at shoulder
+3. Consider sub-assembly: body, arms, head, backpack separate for painting
+
+**Hammerheads:**
+1. Hull and turret separate until painted
+2. Railgun barrel is fragile - reinforce with brass rod if desired
+3. Seeker missiles are optional cosmetic (rarely used in-game)
+
+### Model Count Summary
+
+| Points Level | Total Models | Characters | Battlesuits | Vehicles | Infantry |
+|--------------|-------------|------------|-------------|----------|----------|
+| 500pt | 22 | 1 | 1 | 1 | 20 |
+| 1000pt | 26 | 2 | 4 | 1 | 20 |
+| 2000pt | 42 | 3 | 9 | 2 | 30 |
+
+---
+
 ## Wahapedia Rules Links
 
 - [T'au Empire Faction Rules](https://wahapedia.ru/wh40k10ed/factions/t-au-empire/)

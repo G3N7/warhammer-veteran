@@ -20,10 +20,10 @@
 | **TOTAL** | **16 models** | | **485pts** |
 
 **Army Composition:**
-- 1 Epic Hero (Arjac)
-- 10 Terminators (3W each = 30 wounds)
-- 5 Wolves (1W each = 5 wounds)
-- **Total: 16 models, 40 wounds**
+- 1 Epic Hero (Arjac 6W)
+- 10 Terminators: 4× shield (4W each = 16W) + 6× non-shield (3W each = 18W) = 34W
+- 5 Wolves (1W each = 5W)
+- **Total: 16 models, 45 wounds**
 
 ---
 
@@ -41,9 +41,9 @@
 
 **Army Composition:**
 - 2 Epic Heroes (Logan 8W + Arjac 6W = 14W)
-- 20 Terminators (3W each = 60W)
+- 20 Terminators: 10× shield (4W each = 40W) + 10× non-shield (3W each = 30W) = 70W
 - 10 Fenrisian Wolves (1W each = 10W)
-- **Total: 32 models, 84 wounds**
+- **Total: 32 models, 94 wounds**
 
 **Rule of Three:** 2× Wolf Guard Terminators (legal)
 
@@ -76,11 +76,11 @@
 - 2 Epic Heroes (Logan 8W + Arjac 6W = 14W)
 - 1 Character (Wolf Priest 4W)
 - 2 Dreadnoughts (Bjorn 8W + Venerable 8W = 16W)
-- 30 Terminators (3W each = 90W)
+- 30 Terminators: 15× shield (4W each = 60W) + 15× non-shield (3W each = 45W) = 105W
 - 10 Blood Claws (2W each = 20W)
 - 10 Grey Hunters (2W each = 20W)
 - 10 Fenrisian Wolves (1W each = 10W)
-- **Total: 65 models, 174 wounds**
+- **Total: 65 models, 189 wounds**
 
 **Rule of Three:** 3× Wolf Guard Terminators (maximum legal)
 
@@ -105,7 +105,7 @@
 1. Deploy Arjac's 5-man on primary objective
 2. Either deploy second 5-man or put in Deep Strike reserves
 3. Wolves screen 9" forward or grab flanks
-4. Use Oath of Moment each turn on priority target
+4. Use **Oath of Moment** each turn on priority target (re-roll hits only - Space Wolves don't get +1 to wound)
 5. Grind opponents with superior durability
 
 ---
@@ -127,7 +127,7 @@
 1. Logan's 10-man holds center objective
 2. Arjac's 10-man holds secondary or flanks
 3. Both wolf packs screen and grab objectives
-4. Focus fire with Oath of Moment + Lethal Hits detachment ability
+4. Focus fire with Oath of Moment (re-roll hits) + Lethal Hits detachment ability
 5. Use Logan's Guile of the Wolf to tax enemy Stratagems
 
 ---
@@ -397,12 +397,14 @@
 5. Wolves screen forward
 6. Bjorn with fire lanes, Venerable Dread near Terminators
 
-### Target Priority (Oath of Moment)
+### Target Priority (Oath of Moment - Re-roll Hits Only)
 
 1. Enemy Characters (trigger Lethal Hits + Arjac bonuses)
 2. Monsters/Vehicles (trigger Lethal Hits)
 3. Biggest threat to your Terminators
 4. Objective holders you need to remove
+
+**Note:** Space Wolves do NOT get the +1 to wound from Oath of Moment - only vanilla Codex chapters get that bonus.
 
 ### Stratagem Priority
 
@@ -410,6 +412,80 @@ With Bjorn generating +1CP per phase:
 1. **Armour of Contempt** - use liberally on Terminators
 2. **Only the Strongest** - for critical charges
 3. **Counter-offensive** - protect key units
+
+---
+
+## Matchup Analysis
+
+### Strong Against
+
+**Horde Armies (Orks, Tyranid Gaunts, Guard Infantry)**
+- 30 Terminators with storm bolters = 60 shots per shooting phase
+- T5 3W 2+/4++ means hordes bounce off you
+- Each Terminator in melee kills 2-3 guardsmen/boyz
+- Strategy: Castle on objectives, let them come to you, grind them down
+
+**Shooting-Heavy Armies (Tau, Astra Militarum Tanks)**
+- 4++ invulnerable saves on all Terminators = railguns cry
+- Armour of Contempt (1CP) reduces AP by 1 when needed
+- Deep Strike 30 Terminators Turn 2 into their gunline = game over
+- Strategy: Reserves, Deep Strike behind their castle, charge
+
+**Psyker-Heavy Armies (Thousand Sons, Grey Knights)**
+- Wolf Priests provide Feel No Pain 6+ vs mortal wounds
+- Space Wolves stratagems provide battle-shock resistance
+- Logan Grimnar's Guile of the Wolf = enemy stratagems cost +1CP
+- Strategy: Push aggressively, deny psychic phase value with melee pressure
+
+### Weak Against
+
+**Melta Spam (Adepta Sororitas, Retributor-heavy lists)**
+- AP-4 D6 damage bypasses 2+ armor, forces 4++ saves
+- Multi-melta = D6+2 damage at half range = dead Terminators
+- 33+ melta weapons in a Sisters list deletes 8-12 Terminators per turn
+- Counter: Use cover, Deep Strike to close distance, charge Turn 2
+
+**Fast Melee Armies (World Eaters, Slaanesh Daemons)**
+- Khorne Berzerkers hit harder than Terminators (Fight First, S6 D2)
+- Daemon speed (12" move) overwhelms 6" Terminators
+- Counter: Counter-offensive stratagem, Logan's unit holds center
+
+**Monster-Heavy (Tyranid Crusher Stampede, Imperial Knights)**
+- S18 AP-5 weapons delete Terminators regardless of saves
+- Rupture cannons wound on 2+, no armor save allowed
+- Counter: Deep Strike to tie up shooting units, Arjac hunts characters
+
+### Neutral Matchups
+
+**Space Marines (Gladius, other Terminators)**
+- Mirror match - whoever positions better wins
+- Your Lethal Hits vs Characters/Monsters/Vehicles is strong
+- 50/50 matchup based on terrain and objectives
+
+**Necrons**
+- They have durability, you have durability
+- Reanimation Protocols extend games
+- Focus fire to wipe units completely
+- Slight advantage Wolves (melee pressure)
+
+---
+
+## Wahapedia Rules Links
+
+**Faction Rules:**
+- [Space Wolves Faction Page](https://wahapedia.ru/wh40k10ed/factions/space-marines/Space-Wolves)
+- [Saga of the Beastslayer Detachment](https://wahapedia.ru/wh40k10ed/factions/space-marines/#Detachment-Saga-Of-The-Beastslayer)
+
+**Unit Datasheets:**
+- [Logan Grimnar](https://wahapedia.ru/wh40k10ed/factions/space-marines/Logan-Grimnar)
+- [Arjac Rockfist](https://wahapedia.ru/wh40k10ed/factions/space-marines/Arjac-Rockfist)
+- [Wolf Priest](https://wahapedia.ru/wh40k10ed/factions/space-marines/Wolf-Priest)
+- [Bjorn the Fell-Handed](https://wahapedia.ru/wh40k10ed/factions/space-marines/Bjorn-The-Fell-Handed)
+- [Venerable Dreadnought](https://wahapedia.ru/wh40k10ed/factions/space-marines/Venerable-Dreadnought)
+- [Wolf Guard Terminators](https://wahapedia.ru/wh40k10ed/factions/space-marines/Wolf-Guard-Terminators)
+- [Blood Claws](https://wahapedia.ru/wh40k10ed/factions/space-marines/Blood-Claws)
+- [Grey Hunters](https://wahapedia.ru/wh40k10ed/factions/space-marines/Grey-Hunters)
+- [Fenrisian Wolves](https://wahapedia.ru/wh40k10ed/factions/space-marines/Fenrisian-Wolves)
 
 ---
 

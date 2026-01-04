@@ -538,6 +538,102 @@ Each time a MEK, ORKS WALKER, or GROTS VEHICLE unit from your army is selected t
 
 ---
 
+## Model Assembly Guide
+
+### 2000pt List Assembly Requirements
+
+| Model | Qty | Kit Name | Key Assembly Notes |
+|-------|-----|----------|-------------------|
+| **CHARACTERS** | | | |
+| Big Mek | 2 | Big Mek kit OR Kitbash | Power klaw + kustom mega-blasta OR traktor blasta + drilla |
+| **ARTILLERY** | | | |
+| Mek Gunz | 9 | Mek Gun kit (1 per box) | Build mix: 4x Smasha Gun, 2x Kustom Mega-Kannon, 2x Traktor Kannon, 1x Bubblechukka |
+| **INFANTRY** | | | |
+| Gretchin (10+Runtherd) | 8 units | Gretchin box (11 per box) | 86 Gretchin total - batch paint these! |
+| Lootas | 25 | Lootas/Burna Boyz (5 per box) | Build as Lootas with Deffguns |
+| **WALKERS** | | | |
+| Killa Kans | 12 | Killa Kans (3 per box) | Mix weapons: 6x Rokkit, 4x Skorcha, 2x Grotzooka |
+| Deff Dread | 3 | Deff Dread (1 per box) | Magnetize arms for weapon variety |
+
+### Magnetization Priority
+
+**HIGH PRIORITY:**
+- **Deff Dread arms:** Magnetize at shoulder (3mm x 2mm magnets) for weapon swaps
+  - Options: Big shoota, Rokkit launcha, Kustom mega-blasta, Skorcha, Dread klaw
+  - Each Dread can mix 2x ranged + 2x melee
+- **Mek Gunz weapons:** These are EASY to magnetize - barrel swaps
+  - Smasha Gun ↔ Kustom Mega-Kannon ↔ Traktor Kannon ↔ Bubblechukka
+
+**MEDIUM PRIORITY:**
+- **Killa Kan ranged weapons:** Same shoulder socket fits all options
+  - Rokkit launcha, Skorcha, Grotzooka, Kan shoota
+
+**LOW PRIORITY:**
+- **Big Mek weapons:** Usually run fixed loadout, but magnetize if you want flexibility
+- **Lootas:** Fixed Deffgun loadout - don't bother
+
+### Assembly Tips
+
+**Mek Gunz:**
+1. Barrel is interchangeable - magnetize with 3mm magnets for easy swaps
+2. Crew are fiddly - glue to gun or base, not both
+3. Wheels can be posed differently for variety
+4. Leave crew unattached for easier painting
+
+**Gretchin (86 models!):**
+1. **Batch assembly:** Clip all 86 from sprues at once
+2. Attach to 25mm bases in groups of 10
+3. Runtherds on separate 25mm bases
+4. Don't spend hours on these - they die fast
+5. Consider 3D printing to save money
+
+**Killa Kans:**
+1. Legs are poseable - spread them differently per model
+2. Magnetize at elbow joint if desired
+3. Heavy model - pin at waist join
+4. Exhaust pipes are fragile - attach last
+
+**Deff Dreads:**
+1. Most valuable magnetization target in the army
+2. Arms pop on/off easily with magnets
+3. Torso rotates - leave loose for posing
+4. Face plates removable for transport
+
+### Model Count Summary
+
+| Points Level | Characters | Artillery | Infantry | Walkers | Total Models |
+|--------------|------------|-----------|----------|---------|--------------|
+| 500pt | 1 | 6 | 27 | 0 | 34 |
+| 1000pt | 1 | 9 | 54 | 4 | 68 |
+| 2000pt | 2 | 9 | 111 | 15 | **137** |
+
+### Budget Assembly Path
+
+**Phase 1 - Core (500pt):** ~$240
+- 6x Mek Gunz boxes: $198
+- 3x Gretchin boxes: $87
+- Total: ~$285
+
+**Phase 2 - Expansion (1000pt):** +$350
+- 3x more Mek Gunz boxes: $99
+- 2x more Gretchin boxes: $58
+- 2x Lootas boxes: $80
+- 1x Killa Kans box: $58
+- 1x Deff Dread box: $50
+- Total: ~$345
+
+**Phase 3 - Full Army (2000pt):** +$500
+- 2x more Gretchin boxes: $58
+- 3x more Lootas boxes: $120
+- 3x more Killa Kans boxes: $174
+- 2x more Deff Dread boxes: $100
+- 2x Big Mek (or kitbash): $60-80
+- Total: ~$512
+
+**Grand Total: ~$1,100-1,200 USD**
+
+---
+
 ## Rules Reference Links
 
 ### Wahapedia Links

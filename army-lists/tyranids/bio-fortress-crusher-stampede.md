@@ -479,6 +479,93 @@ MONSTER units gain escalating bonuses as they take casualties:
 
 ---
 
+## Model Assembly Guide
+
+### 2000pt List Assembly Requirements
+
+| Model | Qty | Kit Name | Key Assembly Notes |
+|-------|-----|----------|-------------------|
+| **CHARACTERS** | | | |
+| Hive Tyrant | 1 | Hive Tyrant Kit | Heavy venom cannon + scything talons |
+| Winged Hive Tyrant | 1 | Same Kit (wings option) | Heavy venom cannon + tyrant talons |
+| **MONSTERS** | | | |
+| Exocrine | 3 | Exocrine/Haruspex Kit | Build as Exocrine (fixed bio-plasmic cannon) |
+| Tyrannofex | 3 | Tyrannofex/Tervigon Kit | 2x Rupture cannon, 1x Acid spray |
+| Carnifex | 4 | Carnifex Kit (1 per box) | 2x Heavy venom cannon, 2x Stranglethorn cannon |
+| **INFANTRY** | | | |
+| Barbgaunts | 15 | Barbgaunts Kit (5 per box) | Fixed loadout - barblaunchers |
+
+### Magnetization Priority
+
+**HIGH PRIORITY:**
+- **Tyrannofex main weapon:** Magnetize at torso mount (5mm x 2mm magnets)
+  - Rupture cannon ↔ Acid spray ↔ Fleshborer hive
+  - This is the most valuable magnetization in the army
+- **Hive Tyrant arms:** Magnetize at shoulder socket
+  - Heavy venom cannon ↔ Stranglethorn cannon
+  - Bonesword/lash whip ↔ Scything talons
+
+**MEDIUM PRIORITY:**
+- **Carnifex arms:** Magnetize weapon arms
+  - Heavy venom cannon ↔ Stranglethorn cannon ↔ Devourers
+  - Scything talons ↔ Crushing claws
+- **Exocrine/Haruspex:** These are dual kits - magnetize head/body to swap
+
+**LOW PRIORITY:**
+- **Barbgaunts:** Fixed loadout - don't bother
+- **Hive Tyrant wings:** Glue on or off (rarely swap mid-game)
+
+### Assembly Tips
+
+**Hive Tyrants:**
+1. Wings are optional build - decide before assembly
+2. Pin at waist joint (heavy torso)
+3. Magnetize arms at shoulder ball joint
+4. Leave head separate for painting mouth interior
+
+**Tyrannofex:**
+1. LARGEST model - sub-assembly essential (legs, body, weapon, head)
+2. Main weapon mount is ideal for magnetization
+3. Pin legs to body (very heavy model)
+4. Stinger salvoes are fixed - attach to carapace
+
+**Exocrine:**
+1. Bio-plasmic cannon is one piece - no options
+2. Body shared with Haruspex kit - magnetize torso if you want both
+3. Shorter legs than Tyrannofex - more stable
+
+**Carnifexes:**
+1. Each kit builds 1 model with MANY weapon options
+2. Arms have ball joints - perfect for magnetization
+3. Build variety: 2x ranged loadout, 2x anti-horde loadout
+4. Talons come in pairs - keep them together
+
+**Barbgaunts:**
+1. Fixed loadout (barblaunchers)
+2. 40mm bases - larger than Termagants
+3. Batch paint in groups of 5
+4. Simple assembly - body + gun + base
+
+### Model Count Summary
+
+| Points Level | Characters | Monsters | Infantry | Total Models |
+|--------------|------------|----------|----------|--------------|
+| 500pt | 1 | 2 | 5 | **8** |
+| 1000pt | 1 | 6 | 10 | **16** |
+| 2000pt | 2 | 11 | 15 | **37** |
+
+### Base Sizes Reference
+
+| Unit | Base Size | Notes |
+|------|-----------|-------|
+| Hive Tyrant | 60mm round | Both ground and winged |
+| Exocrine | 120 x 92mm oval | Large oval base |
+| Tyrannofex | 120 x 92mm oval | Large oval base |
+| Carnifex | 105 x 70mm oval | Medium oval base |
+| Barbgaunts | 40mm round | Larger than standard gaunts |
+
+---
+
 ## 3D Printing Guide (Optional)
 
 **STL File Sources:**

@@ -1,7 +1,33 @@
 # Tacticus Validation Rules - Machine-Readable Format
 # CRITICAL: Load this BEFORE building any list. Check EVERY rule.
-# Last Updated: 2025-12-28
-# Version: 1.0
+# Last Updated: 2025-01-03
+# Version: 1.1
+
+# ============================================================
+# FACTION ABILITIES - Chapter-specific rules (10th Edition)
+# CRITICAL: Divergent chapters have DIFFERENT rules than vanilla
+# ============================================================
+faction_abilities:
+
+  oath_of_moment:
+    description: "Space Marines faction ability - select one enemy unit per Command phase"
+    vanilla_chapters:
+      benefit: "Re-roll hit rolls AND +1 to wound rolls vs Oath target"
+      applies_to: "Codex-compliant chapters without divergent keywords"
+    divergent_chapters:
+      benefit: "Re-roll hit rolls ONLY - do NOT get +1 to wound"
+      applies_to: ["Space Wolves", "Blood Angels", "Dark Angels", "Black Templars", "Deathwatch"]
+      note: "These chapters are explicitly excluded from the +1 to wound bonus"
+    source: "Codex Space Marines 10th Edition"
+    verified: "2025-01-03"
+
+  # Space Wolves additional abilities
+  curse_of_the_wulfen:
+    faction: "Space Wolves"
+    description: "+1 OC to INFANTRY within 12\" of CHARACTER/Wolf Priest, +3 OC to VEHICLES"
+    exclusions: ["Wulfen", "Battle-shocked units"]
+    source: "Space Wolves Codex Supplement"
+    verified: "2025-01-03"
 
 # ============================================================
 # HARD RULES - Violations make list ILLEGAL
@@ -65,6 +91,13 @@ validation_gates:
   gate_5_self_review:
     - "Check 3 potential issues with own work"
     - "Cross-reference prose vs table (model counts match)"
+
+  gate_6_wargear_stat_effects:
+    - "For each unit, check if any wargear modifies stats (W, T, Sv, Invuln)"
+    - "Storm shields: +1W per model equipped (4W total instead of 3W)"
+    - "Other stat-modifying wargear: verify calculations reflect ACTUAL equipped options"
+    - "Cross-reference assembly guide loadouts against wound/stat calculations"
+    - "If assembly shows X models with shield, wound calc MUST show X × 4W separately"
 
 # ============================================================
 # KNOWN CORRECTIONS - Overrides for datasheet errors
@@ -274,6 +307,13 @@ mistake_patterns:
     frequency: "LOW"
     prevention: "After writing tactics/strengths, cross-reference model counts against table"
 
+  storm_shield_wounds:
+    description: "Forgetting that storm shields give +1W (total 4W instead of 3W)"
+    frequency: "HIGH - Space Wolves Wolf Guard Terminators"
+    prevention: "When calculating total wounds, check assembly guide for shield count. Shield bearers = 4W each, non-shield = 3W each."
+    affected_units: ["Wolf Guard Terminators", "Relic Terminators", "Assault Terminators"]
+    date: "2025-01-03"
+
   enhancement_name_error:
     description: "Using enhancement names not in the detachment's actual rules"
     occurrences:
@@ -286,6 +326,23 @@ mistake_patterns:
         correct: "See validation-rules.yaml"
         date: "2025-12-27"
     prevention: "Verify against validation-rules.yaml or Wahapedia before using any enhancement name"
+
+  faction_ability_hallucination:
+    description: "Claiming faction abilities from previous editions or assuming all chapters are identical"
+    frequency: "HIGH - happened with Space Wolves Oath of Moment"
+    occurrences:
+      - error: "Claimed Space Wolves have 'Saga of the Beast' faction ability"
+        reality: "'Saga of the Beast' is a 9th Edition supplement BOOK NAME, not a 10th Ed rule"
+        date: "2025-01-03"
+      - error: "Claimed Space Wolves get full Oath of Moment (re-roll hits + wound)"
+        reality: "Divergent chapters (SW/BA/DA/BT/DW) only get re-roll hits, NOT +1 to wound"
+        date: "2025-01-03"
+    prevention: |
+      1. NEVER assume faction abilities without checking validation-rules.yaml → faction_abilities section
+      2. Divergent chapters have DIFFERENT rules than vanilla Marines
+      3. If uncertain, web search "[faction] 10th edition faction ability" before claiming
+      4. Edition names (Saga of the Beast, Codex Supplement titles) are NOT rules
+    affected_factions: ["Space Wolves", "Blood Angels", "Dark Angels", "Black Templars", "Deathwatch"]
 
 # ============================================================
 # DETACHMENT ENHANCEMENTS - Quick reference

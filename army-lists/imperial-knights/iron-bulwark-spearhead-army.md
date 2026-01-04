@@ -526,6 +526,59 @@ Charge Phase:
 
 ---
 
+## Matchup Analysis
+
+### Strong Against
+
+**Infantry-Heavy Armies (Guard, Orks, Tyranid Gaunts)**
+- Avenger gatling cannons (36 shots per Questoris Knight) delete infantry squads
+- Armigers with autocannons shred elite infantry
+- Low-strength weapons (S4-S5) struggle to wound T9-T12 Knights
+- Strategy: Stand in middle of board, shoot everything, crush on objectives with OC 6+ Armigers
+
+**Elite Armies (Custodes, Deathwing Terminators)**
+- High-damage weapons (volcano lance D8, thermal cannon D6) kill multi-wound models efficiently
+- T12 Castellan tanks return fire from power swords and thunder hammers
+- OC advantage - Knights have OC 6-10 each vs Terminators with OC 1
+- Strategy: Focus fire one unit at a time, don't let them spread
+
+**Tau Gunlines (Kauyon, Mont'ka)**
+- T12 2+ saves ignore most Tau weapons (pulse rifles, burst cannons)
+- Railguns still hurt, but you only have 5-8 targets vs their many weapons
+- Deep Strike protection - Knights fill board, deny 9" safe zones
+- Strategy: Advance aggressively Turn 1-2, force them to shoot degraded Knights
+
+### Weak Against
+
+**Melta Spam (Adepta Sororitas, Eradicators)**
+- Multi-meltas (AP-4 D6+2 at half range) bypass 2+ saves, no invuln on Armigers
+- Sisters lists can field 30+ melta weapons
+- Counter: Castellan Ion Aegis gives Armigers cover (-1 to be hit), use terrain heavily
+
+**Super-Heavy Hunters (Wraithknights, Tyranid Hierophants)**
+- Distortion weapons/Bio-Titan weapons deal massive damage
+- Mirror match territory - first strike advantage
+- Counter: Volcano lance first, kill their big guns before they kill yours
+
+**Mortal Wound Spam (Thousand Sons, Grey Knights)**
+- Psychic mortal wounds bypass T12 and 2+ saves
+- Smites stack up quickly against low model count
+- Counter: Advance aggressively, charge psykers, tie them in melee
+
+### Neutral Matchups
+
+**Other Knights (Imperial or Chaos)**
+- Mirror match - positioning and turn order matter most
+- Volcano lance vs volcano lance = whoever shoots first wins
+- 50/50 based on terrain and deployment
+
+**Space Marines (Gladius Task Force)**
+- Marines struggle with T12, but melta Devastators/Eradicators can hurt
+- You delete their vehicles easily
+- Slight advantage Knights (60-40)
+
+---
+
 ## Target Priority Guide
 
 ### Volcano Lance Targets (S24 AP-5 D8)
@@ -631,6 +684,76 @@ Imperial Knights are ancient war machines piloted by nobles from Knight Worlds -
 - **TOTAL: ~$570**
 
 **Pro Tip:** Magnetize Questoris Knights so you can swap between Crusader/Warden/Paladin/Gallant loadouts!
+
+---
+
+## Model Assembly Guide
+
+### 2000pt List Assembly Requirements
+
+| Model | Qty | Kit Name | Key Assembly Notes |
+|-------|-----|----------|-------------------|
+| **DOMINUS CLASS** | | | |
+| Knight Castellan | 1 | Dominus Kit | Fixed loadout - volcano lance + plasma decimator |
+| **QUESTORIS CLASS** | | | |
+| Knight Crusader | 1 | Questoris Kit | Avenger gatling + thermal cannon |
+| Knight Warden | 1 | Questoris Kit | Avenger gatling + reaper chainsword |
+| **ARMIGERS** | | | |
+| Armiger Warglaive | 3 | Warglaive Kit | Thermal spear + reaper chain-cleaver |
+| Armiger Helverin | 2 | Helverin Kit | 2x Armiger autocannons |
+
+### Magnetization Priority (HIGHLY RECOMMENDED)
+
+**HIGH PRIORITY - Questoris Knights:**
+- **Weapon arms:** Magnetize at shoulder joint (5mm x 2mm magnets)
+  - Crusader: Thermal cannon arm ↔ Rapid-fire battle cannon
+  - Warden: Reaper chainsword arm ↔ Thunderstrike gauntlet
+  - Gatling arm: Stays consistent across variants
+- **Carapace weapons:** Magnetize meltagun/stubber mounts
+- **Why:** Same $140 kit builds Crusader/Warden/Paladin/Errant/Gallant - magnetize once, play all variants
+
+**MEDIUM PRIORITY - Dominus Knights:**
+- **Arm weapons:** Castellan vs Valiant share kit - magnetize volcano lance ↔ thundercoil harpoon
+- **Carapace:** Plasma decimator ↔ conflagration cannon
+
+**LOW PRIORITY - Armigers:**
+- **Main weapons:** Warglaive vs Helverin kits are different - harder to magnetize cross-kit
+- **Carapace stubbers:** Rarely worth magnetizing
+
+### Assembly Tips
+
+**Knight Castellan:**
+1. Sub-assembly recommended: legs, torso, arms, carapace separate
+2. Pin the ankles (heavy model, weak join)
+3. Leave volcano lance barrel separate until painted
+4. Ion shield generator is fragile - handle carefully
+
+**Questoris Knights:**
+1. Torso rotation: Glue waist peg loosely for pose options
+2. Arm magnetization: Drill into shoulder socket, not arm
+3. Face plate: Keep removable for painting cockpit interior
+4. Reaper chainsword: Reinforce blade with brass rod (prone to snapping)
+
+**Armigers:**
+1. Small but heavy - pin at ankles for stability
+2. Autocannon barrels: Drill out for realistic look
+3. Pose variety: Spread legs differently to distinguish models
+4. Thermal spear: Very thin barrel - be gentle
+
+### Base Recommendations
+
+| Knight Class | Base Size | Notes |
+|--------------|-----------|-------|
+| Knight Castellan | 170mm round | Supplied in kit |
+| Knight Crusader | 150mm round | Supplied in kit |
+| Knight Warden | 150mm round | Supplied in kit |
+| Armiger Warglaive | 100mm round | Supplied in kit |
+| Armiger Helverin | 100mm round | Supplied in kit |
+
+**Basing Tips:**
+- Knights benefit from scenic bases (ruins, dead enemies, debris)
+- Cork + texture paint for industrial wasteland look
+- Keep bases consistent across army for cohesion
 
 ---
 
