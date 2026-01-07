@@ -32,12 +32,13 @@
 **Faction:** Ultramarines (Adeptus Astartes)
 **Faction Ability:** Oath of Moment (re-roll hit rolls AND +1 to wound vs 1 selected enemy unit each Command phase)
 **Detachment:** Gladius Task Force
-**Detachment Ability:** Combat Doctrines - Choose one per turn (each once per game):
+**Detachment Ability:** Combat Doctrines - Automatic cycling each battle round:
 
-- **Devastator Doctrine:** Units can shoot after Advancing
-- **Tactical Doctrine:** Units can shoot AND charge after Falling Back
-- **Assault Doctrine:** Units can charge after Advancing
-  **Theme:** Dreadnought-heavy gunline led by Roboute Guilliman
+- **Turn 1 (Devastator Doctrine):** Ranged weapons have **Devastating Wounds**
+- **Turn 2 (Tactical Doctrine):** Ranged weapons have **Sustained Hits 1**
+- **Turn 3+ (Assault Doctrine):** Ranged weapons have **Lethal Hits**
+
+**Theme:** Dreadnought-heavy gunline led by Roboute Guilliman
 
 **Tournament Pedigree:** This list is based on Conan Jennings' Ultramarines Gladius build that won **Adepticon 2025** and **Dallas Open 2025** - the most dominant Space Marines list in current 10th edition meta.
 
@@ -239,7 +240,7 @@ This is the refined Dread Castle archetype: heroes + Victrix wall + maximum Drea
 | **Captain in Gravis Armour**         | 1      | Enhancement Bearer                   | 80            |
 | **Enhancement: Artificer Armour**    | -      | On Captain                           | 10            |
 | **Lieutenant**                       | 1      | Wound Rerolls for Sternguard         | 55            |
-| **Enhancement: Fire Discipline**     | -      | On Lieutenant                        | 20            |
+| **Enhancement: Fire Discipline**     | -      | On Lieutenant                        | 30            |
 | **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
 | **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
 | **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
@@ -250,22 +251,22 @@ This is the refined Dread Castle archetype: heroes + Victrix wall + maximum Drea
 | **Intercessor Squad**                | 5      | Battleline (Captain)                 | 80            |
 | **Sternguard Veteran Squad**         | 5      | Precision Fire (Lieutenant attached) | 100           |
 | **Sternguard Veteran Squad**         | 5      | Precision Fire Support               | 100           |
-| **TOTAL**                            |        |                                      | **2,065 pts** |
+| **TOTAL**                            |        |                                      | **2,075 pts** |
 
-> **⚠️ LIST IS 65pts OVER** - See Alternative Build below for legal 2000pt version
+> **⚠️ LIST IS 75pts OVER** - See Alternative Build below for legal 2000pt version
 
-**Points Calculation (January 2026 MFM - Verified from Cache):**
+**Points Calculation (January 2026 MFM - Verified):**
 ```
 Guilliman:         340
 Calgar:            200
 Captain + Enh:     80 + 10 = 90
-Lieutenant + Enh:  55 + 20 = 75
+Lieutenant + Enh:  55 + 30 = 85
 3× Ballistus:      150 × 3 = 450
 2× Redemptor:      195 × 2 = 390
 Intercessors:      160 + 80 + 80 = 320
 2× Sternguard:     100 × 2 = 200
 ─────────────────────────
-TOTAL: 340 + 200 + 90 + 75 + 450 + 390 + 320 + 200 = 2,065pts ❌
+TOTAL: 340 + 200 + 90 + 85 + 450 + 390 + 320 + 200 = 2,075pts ❌
 ```
 
 ---
@@ -279,7 +280,7 @@ TOTAL: 340 + 200 + 90 + 75 + 450 + 390 + 320 + 200 = 2,065pts ❌
 | **Captain in Gravis Armour**         | 1      | Enhancement Bearer                   | 80            |
 | **Enhancement: Artificer Armour**    | -      | On Captain                           | 10            |
 | **Lieutenant**                       | 1      | Wound Rerolls for Sternguard         | 55            |
-| **Enhancement: Fire Discipline**     | -      | On Lieutenant                        | 20            |
+| **Enhancement: Fire Discipline**     | -      | On Lieutenant                        | 30            |
 | **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
 | **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
 | **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
@@ -289,27 +290,27 @@ TOTAL: 340 + 200 + 90 + 75 + 450 + 390 + 320 + 200 = 2,065pts ❌
 | **Intercessor Squad**                | 5      | Battleline (Captain)                 | 80            |
 | **Sternguard Veteran Squad**         | 5      | Precision Fire (Lieutenant attached) | 100           |
 | **Sternguard Veteran Squad**         | 5      | Precision Fire Support               | 100           |
-| **TOTAL**                            |        |                                      | **1,950 pts** |
+| **TOTAL**                            |        |                                      | **1,960 pts** |
 
 **Points Calculation (January 2026 MFM - Verified):**
 ```
 Guilliman:         340
 Calgar:            200
 Captain + Enh:     80 + 10 = 90
-Lieutenant + Enh:  55 + 20 = 75
+Lieutenant + Enh:  55 + 30 = 85
 3× Ballistus:      150 × 3 = 450
 1× Redemptor:      195
 Intercessors:      160 + 160 + 80 = 400
 2× Sternguard:     100 × 2 = 200
 ─────────────────────────
-TOTAL: 340 + 200 + 90 + 75 + 450 + 195 + 400 + 200 = 1,950pts ✅
+TOTAL: 340 + 200 + 90 + 85 + 450 + 195 + 400 + 200 = 1,960pts ✅
 ```
 
-**50pts remaining** - Options:
-- Upgrade to 2nd Redemptor by dropping 1× Sternguard (-100pts) + 1× 5-man Intercessors (-80pts) → only +15pts net
-- Add Apothecary Biologis (55pts) for 6+ Feel No Pain on Intercessors
+**40pts remaining** - Options:
+- Upgrade 5-man Intercessors to 7-man (+32pts) = 1,992pts
+- Add 2 more Intercessors to any squad (+32pts)
 
-**STATUS: ✅ TOURNAMENT LEGAL (1,950/2,000pts)**
+**STATUS: ✅ TOURNAMENT LEGAL (1,960/2,000pts)**
 
 **Rule of Three Compliance:**
 
@@ -330,10 +331,10 @@ TOTAL: 340 + 200 + 90 + 75 + 450 + 195 + 400 + 200 = 1,950pts ✅
 
 **Source:** [Goonhammer Detachment Focus](https://www.goonhammer.com/detachment-focus-gladius-task-force/)
 
-- **Artificer Armour** (10pts) - Captain in Gravis: 2+ save + Feel No Pain 5+
-- **Fire Discipline** (20pts) - Lieutenant: Grants Sustained Hits 1 to unit (stacks with Dreadnought rerolls)
+- **Artificer Armour** (10pts) - Captain in Gravis: 2+ save + Feel No Pain 5+ vs mortal wounds
+- **Fire Discipline** (30pts) - Lieutenant: Ranged attacks score critical hits on 5+
 
-**Enhancement Limits:** Max 2 per army ✅ | Max 1 per character ✅
+**Enhancement Limits:** Max 3 per army at 2000pts ✅ | Max 1 per character ✅
 
 ### Tactical Overview (2000pt)
 
@@ -342,35 +343,35 @@ TOTAL: 340 + 200 + 90 + 75 + 450 + 195 + 400 + 200 = 1,950pts ✅
 **Key Advantages:**
 
 - **CP Engine:** Guilliman (Supreme Strategist) + Calgar (Honour Guard of Macragge) = 4CP per turn
-- **5 DREADNOUGHTS:** 3× Ballistus (anti-tank) + 2× Redemptor (flex) = delete 3-4 units per turn
+- **4 DREADNOUGHTS:** 3× Ballistus (anti-tank) + 1× Redemptor (flex) = delete 2-3 units per turn
 - **Victrix Wall:** Calgar's 2 Victrix Honour Guard bodyblock wounds for Characters
-- **Sternguard Precision:** Lethal Hits combi-weapons fish for critical 6s
-- **Fire Discipline Enhancement:** Lieutenant grants Sustained Hits 1 to attached unit
+- **Sternguard Precision:** Lethal Hits bolt rifles fish for critical 6s
+- **Fire Discipline Enhancement:** Lieutenant grants crits on 5+ to attached Sternguard
 
 **Why Dread Castle Wins:**
 **Source:** [Bell of Lost Souls Tournament Report](https://www.belloflostsouls.net/2025/03/warhammer-40k-the-unbeatable-list-adepticon-2025-ultramarines-gladius-wins-it-all.html)
 
-1. **Guilliman's 6" Bubble:** ALL 5 Dreadnoughts reroll hits AND wounds = guaranteed kills
+1. **Guilliman's 6" Bubble:** ALL 4 Dreadnoughts reroll hits AND wounds = guaranteed kills
 2. **Triple Ballistus:** S12 AP-3 D6+1 lascannons wound T12 Knights on 4+
-3. **Double Redemptor:** Macro plasma (S8 AP-3 D2 Blast) shreds Terminators/Crisis Suits
+3. **Redemptor Flex:** Macro plasma (S8 AP-3 D2 Blast) shreds Terminators/Crisis Suits
 4. **Unkillable Characters:** Guilliman (T6 9W 2+/4++), Calgar (FNP 4+ via Victrix), Captain (FNP 5+)
 5. **Slow Rolling Fortress:** March into midfield, castle up, refuse to move
 
 **Strengths:**
 
-- **Maximum Firepower:** 5 Dreadnoughts under Guilliman = 10+ high-damage shots per turn
+- **Maximum Firepower:** 4 Dreadnoughts under Guilliman = 8+ high-damage shots per turn
 - **Elite durability:** Guilliman + Calgar nearly unkillable
-- **Objective presence:** 30 Intercessors + Characters hold 3-4 objectives
+- **Objective presence:** 25 Intercessors + 10 Sternguard + Characters hold 3-4 objectives
 - **Anti-tank overkill:** 3× Ballistus delete any vehicle/monster
-- **Anti-elite:** 2× Redemptor plasma delete Terminators, Crisis Suits, Custodes
-- **Precision kills:** Sternguard Lethal Hits snipe Characters
+- **Anti-elite:** Redemptor plasma deletes Terminators, Crisis Suits, Custodes
+- **Precision kills:** Sternguard Lethal Hits + Fire Discipline crits on 5+
 
 **How to Play the Dread Castle:**
 
-1. **Deployment:** ALL 5 Dreadnoughts within 6" of Guilliman's starting position. Intercessor screens in front. Sternguard flanks for angles.
-2. **Turn 1 - Devastator Doctrine:** Advance the entire castle forward as one block. Maintain the 6" bubble. Delete 2-3 enemy vehicles with massed Dreadnought fire.
-3. **Turn 2 - Hold Center:** Plant the castle on center objective. Guilliman + Calgar + all 5 Dreadnoughts within 6" bubble. Let the opponent come to you.
-4. **Turn 3+ - Grind:** Use Tactical Doctrine only if tied up. Otherwise just shoot. The castle doesn't move - the enemy dies trying to shift it.
+1. **Deployment:** ALL 4 Dreadnoughts within 6" of Guilliman's starting position. Intercessor screens in front. Sternguard flanks for angles.
+2. **Turn 1 - Devastating Wounds:** Advance the entire castle forward as one block. Maintain the 6" bubble. Fish for mortal wounds on high-value targets.
+3. **Turn 2 - Sustained Hits:** Plant the castle on center objective. Guilliman + Calgar + all 4 Dreadnoughts within 6" bubble. Volume fire with extra hits.
+4. **Turn 3+ - Lethal Hits:** Grind phase. Auto-wounds bypass high Toughness. The castle doesn't move - the enemy dies trying to shift it.
 5. **Oath of Moment:** Always target the biggest threat to your Dreadnoughts first.
 
 **Castle Positioning (CRITICAL):**
@@ -378,7 +379,7 @@ TOTAL: 340 + 200 + 90 + 75 + 450 + 195 + 400 + 200 = 1,950pts ✅
 [CENTER OBJECTIVE - THE KILLING GROUND]
                     Guilliman (center)
         Ballistus #1    Ballistus #2    Ballistus #3
-              Redemptor #1    Redemptor #2
+                    Redemptor
 
         <────── 6" reroll bubble ──────>
 
@@ -505,22 +506,22 @@ Calgar + Intercessors     Captain + Intercessors
 - Artificer Armour enhancement (2+ save + FNP 5+)
 - Leads: Third Intercessor Squad (backfield objective)
 
-**Lieutenant (70pts + Fire Discipline 20pts):**
+**Lieutenant (55pts + Fire Discipline 30pts = 85pts):**
 
 - Neo-volkite pistol + power sword
-- Fire Discipline Enhancement: Grants Sustained Hits 1 to attached unit
-- **Tactical Use:** Attach to Sternguard for Lethal Hits + Sustained Hits combo
+- Fire Discipline Enhancement: Ranged attacks score critical hits on 5+
+- **Tactical Use:** Attach to Sternguard - crits on 5+ with Lethal Hits = auto-wound fishing
 
-**Ballistus Dreadnought x3 (140pts each):**
+**Ballistus Dreadnought x3 (150pts each):**
 
 - Ballistus lascannon: 48" Heavy 2, S12 AP-3 D6+1
 - Ballistus missile launcher: 48" Heavy D6+1 Blast OR Heavy 1 S10 AP-3 D6
 - Twin storm bolter + Armoured feet
 - **Position:** ALL THREE within 6" of Guilliman for reroll hits AND wounds
 
-**Redemptor Dreadnought x2 (200pts each):**
+**Redemptor Dreadnought (195pts):**
 
-- **Both equipped with:** Macro plasma incinerator (36" Heavy D6+1, S8 AP-3 D2 Blast)
+- Macro plasma incinerator (36" Heavy D6+1, S8 AP-3 D2 Blast)
 - Redemptor fist with heavy flamer
 - Twin fragstorm grenade launcher
 - Icarus rocket pod (anti-air)
@@ -564,11 +565,11 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 ### Army Composition Rules
 
 - ✅ **Detachment:** Gladius Task Force (legal Space Marines detachment)
-- ✅ **Enhancements:** Max 2 per army (Artificer Armour + Fire Discipline at 2000pts)
+- ✅ **Enhancements:** 2 of 3 max used (Artificer Armour 10pts + Fire Discipline 30pts = 40pts)
 - ✅ **Enhancements:** Max 1 per Character (Captain gets Artificer, Lieutenant gets Fire Discipline)
 - ✅ **Epic Heroes:** Each can only be taken once (Guilliman, Calgar both unique)
 - ✅ **Battleline:** Intercessors count as Battleline (exempt from Rule of Three)
-- ✅ **Points Limits:** 500pt (510pts), 1000pt (995pts), 2000pt (1,985pts)
+- ✅ **Points Limits:** 500pt (510pts), 1000pt (995pts), 2000pt (1,960pts)
 - ✅ **RULE OF THREE COMPLIANCE:**
   - 500pt: Ballistus (1) ✅, Redemptor (1) ✅
   - 1000pt: Ballistus (2) ✅, Redemptor (1) ✅
@@ -595,10 +596,10 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 
 **Source:** [Goonhammer Gladius Detachment Focus](https://www.goonhammer.com/detachment-focus-gladius-task-force/)
 
-- ✅ **Devastator Doctrine:** Units shoot after Advancing
-- ✅ **Tactical Doctrine:** Units shoot + charge after Falling Back
-- ✅ **Assault Doctrine:** Units charge after Advancing
-- ✅ **Limitation:** Each doctrine can only be used once per game ✅
+- ✅ **Turn 1 - Devastator Doctrine:** Ranged weapons have Devastating Wounds
+- ✅ **Turn 2 - Tactical Doctrine:** Ranged weapons have Sustained Hits 1
+- ✅ **Turn 3+ - Assault Doctrine:** Ranged weapons have Lethal Hits
+- ✅ **Cycling:** Doctrines cycle automatically each battle round (no player choice)
 
 ---
 
@@ -732,7 +733,7 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 
 ---
 
-### 2000pt "Sons of Guilliman" - Physical Models Required (LEGAL BUILD)
+### 2000pt "Sons of Guilliman" - Physical Models Required (LEGAL BUILD @ 1,960pts)
 
 **Epic Heroes:**
 
@@ -741,13 +742,13 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 
 **Characters:**
 
-- 1x Captain in Gravis Armour
-- 1x Lieutenant
+- 1x Captain in Gravis Armour (+10pts Artificer Armour)
+- 1x Lieutenant (+30pts Fire Discipline)
 
 **Dreadnoughts:**
 
-- 3x Ballistus Dreadnought
-- 1x Redemptor Dreadnought
+- 3x Ballistus Dreadnought (150pts each)
+- 1x Redemptor Dreadnought (195pts)
 
 **Infantry:**
 
@@ -766,7 +767,7 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 - Dreadnoughts: 4 (3 Ballistus + 1 Redemptor)
 - Infantry: 35 models (25 Intercessors + 10 Sternguard)
 
-**GRAND TOTAL: 43 models (including 4 Dreadnoughts)**
+**GRAND TOTAL: 45 models (including 4 Dreadnoughts)**
 
 | Category | Models |
 |----------|--------|
@@ -792,48 +793,45 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 
 **Source:** [Goonhammer Gladius Detachment Focus](https://www.goonhammer.com/detachment-focus-gladius-task-force/)
 
-Combat Doctrines are the cornerstone of Gladius Task Force. Each turn during your Command phase, you pick ONE doctrine. Each can only be used ONCE per game.
+Combat Doctrines automatically cycle each battle round - you do NOT choose. This is the key mechanic of Gladius Task Force.
 
-**Devastator Doctrine:**
+**Turn 1 - Devastator Doctrine:**
 
-- **Effect:** Units can shoot after Advancing
-- **When to Use:** Turn 1-2, when you need to close distance while maintaining firepower
-- **Synergy:** Auto bolt rifle Intercessors (Assault weapons), entire Dread Castle advancing
-- **Example:** Advance Guilliman's Intercessor brick 6+D6" toward midfield while Dreadnoughts maintain 6" bubble
+- **Effect:** Ranged weapons have **Devastating Wounds** (mortal wounds on critical hits)
+- **Synergy:** Triple Ballistus lascannons fishing for 6s = mortal wound spike damage
+- **Tactic:** Focus fire on high-value targets - mortal wounds bypass invulnerable saves
 
-**Tactical Doctrine:**
+**Turn 2 - Tactical Doctrine:**
 
-- **Effect:** Units can shoot AND charge after Falling Back
-- **When to Use:** Mid-game when units are tied up in melee
-- **Synergy:** Intercessors tagged by screening units, need to Fall Back and shoot priority targets
-- **Example:** Calgar's Intercessor squad tagged by Ork Boyz, Falls Back, shoots with full Dreadnought support
+- **Effect:** Ranged weapons have **Sustained Hits 1** (critical hits score extra hit)
+- **Synergy:** Volume fire from Intercessors and Sternguard benefits most
+- **Tactic:** Combine with Oath of Moment rerolls for maximum hit generation
 
-**Assault Doctrine:**
+**Turn 3+ - Assault Doctrine:**
 
-- **Effect:** Units can charge after Advancing
-- **When to Use:** Turn 2-3 when you need aggressive melee pressure
-- **Synergy:** Guilliman (melee beast), Calgar with Victrix bodyguard
-- **Example:** Guilliman Advances and charges enemy Character/Monster for deletion
+- **Effect:** Ranged weapons have **Lethal Hits** (critical hits auto-wound)
+- **Synergy:** Stacks with Sternguard's native Lethal Hits for fishing crits
+- **Tactic:** This is your grinding phase - auto-wounds bypass high Toughness
 
-### Doctrine Sequencing Recommendations
+### Tactical Priorities by Doctrine Phase
 
-**500pt List (Single Ballistus):**
+**Turn 1 - Devastating Wounds Active:**
 
-1. **Turn 1:** Devastator - Advance Intercessors forward while shooting
-2. **Turn 2:** Assault - Charge with Intercessors if needed
-3. **Turn 3+:** Tactical - Fall Back + shoot if tied up
+- **Priority:** Focus all Dreadnought fire on enemy vehicles/monsters
+- **Why:** Mortal wounds from Devastating Wounds bypass invulnerable saves
+- **Target Selection:** Pick Oath of Moment on enemy's best invuln save unit (Knights, Custodes)
 
-**1000pt List (Guilliman + Dual Ballistus):**
+**Turn 2 - Sustained Hits Active:**
 
-1. **Turn 1:** Devastator - Advance entire army toward midfield, maximize Guilliman's 6" reroll aura range
-2. **Turn 2:** Assault - Guilliman charges priority targets after Advancing
-3. **Turn 3+:** Tactical - Fall Back with Intercessors, shoot enemy Characters with Oath of Moment
+- **Priority:** Volume fire from Intercessors and Sternguard
+- **Why:** Sustained Hits generates extra hits - benefits high shot count weapons
+- **Target Selection:** Oath of Moment on elite infantry (Terminators, Crisis Suits)
 
-**2000pt DREAD CASTLE (Guilliman + Calgar + 5 Dreadnoughts):**
+**Turn 3+ - Lethal Hits Active:**
 
-1. **Turn 1:** Devastator - Advance castle as one block, maintain 6" bubble, delete 2-3 enemy vehicles
-2. **Turn 2:** Hold center - Don't use Assault Doctrine unless Guilliman has a priority melee target
-3. **Turn 3+:** Tactical - Fall Back from tarpit units, shoot priority targets
+- **Priority:** This is your grinding phase - auto-wounds bypass high Toughness
+- **Why:** Lethal Hits + Sternguard's native Lethal Hits = critical hit fishing
+- **Target Selection:** Oath of Moment on remaining high-value targets
 
 ### Deployment Strategy by Points Level
 
@@ -1191,10 +1189,11 @@ The Ultramarines are the poster boys of Warhammer 40,000 - the XIII Legion, code
 ---
 
 _Document created: December 2025_
-_Document updated: January 4, 2026_
+_Document updated: January 7, 2026_
 _Army optimized for tournament matched play - DREAD CASTLE BUILD_
 _All lists verified Rule of Three compliant_
-_Rules source: wahapedia.ru (scraped January 4, 2026)_
-_Points source: Munitorum Field Manual January 2026 (verified from cache)_
+_Rules source: wahapedia.ru + newrecruit.eu (verified January 7, 2026)_
+_Points source: Munitorum Field Manual January 2026_
+_Combat Doctrines: Updated to current 10th Ed (Devastating Wounds → Sustained Hits → Lethal Hits)_
 _Tournament data: Adepticon 2025 + Dallas Open 2025 winning lists_
 _Brushmaster Agent - Paint Scheme_

@@ -100,7 +100,7 @@
 | Chimera | 1 | Transport | 85pts |
 | Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
 | Leman Russ Demolisher | 1 | Heavy Support | 190pts |
-| Scout Sentinels | 2 | Heavy Support | 55pts |
+| Scout Sentinel | 1 | Heavy Support | 55pts |
 
 ### Points Breakdown
 
@@ -114,7 +114,7 @@
 | Chimera | 85pts |
 | Leman Russ Battle Tank | 185pts |
 | Leman Russ Demolisher | 190pts |
-| Scout Sentinels (2) | 55pts |
+| Scout Sentinel (1) | 55pts |
 | **Total** | **955pts** |
 
 ---
@@ -182,7 +182,7 @@
 | Leman Russ Battle Tank | 1 | Heavy Support | 185pts |
 | Leman Russ Demolisher | 1 | Heavy Support | 190pts |
 | Rogal Dorn Battle Tank | 1 | Heavy Support | 250pts |
-| Scout Sentinels | 2 | Heavy Support | 55pts |
+| Scout Sentinel | 1 | Heavy Support | 55pts |
 
 ### Points Breakdown
 
@@ -198,7 +198,7 @@
 | Leman Russ Battle Tank × 3 | 555pts |
 | Leman Russ Demolisher | 190pts |
 | Rogal Dorn Battle Tank | 250pts |
-| Scout Sentinels (2) | 55pts |
+| Scout Sentinel (1) | 55pts |
 | **Total** | **1,985pts** |
 
 ---
@@ -610,7 +610,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 ---
 
 ### SCOUT SENTINELS
-**Points:** 55pts (2 models) | **Battlefield Role:** Heavy Support
+**Points:** 55pts (1 model) / 110pts (2 models) | **Battlefield Role:** Heavy Support
 **Source:** [Wahapedia - Scout Sentinels](https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Scout-Sentinels)
 
 **Profile:**
@@ -836,7 +836,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ## Model Assembly Guide
 
-### 2000pt Assembly (72 infantry + 9 vehicles = 81 models)
+### 2000pt Assembly (72 infantry + 8 vehicles = 80 models)
 
 | Model | Qty | Loadout | Notes |
 |-------|-----|---------|-------|
@@ -866,9 +866,9 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 | Leman Russ Battle Tank | 3 | Battle Cannon, Heavy bolters | Standard config |
 | Leman Russ Demolisher | 1 | Demolisher Cannon, Heavy flamer | 24" range gun |
 | Chimera | 2 | Multi-laser, Heavy bolter | Standard config |
-| Scout Sentinels | 2 | Lascannons | Open cockpit |
+| Scout Sentinel | 1 | Lascannon | Open cockpit |
 
-### 1000pt Assembly (50 infantry + 5 vehicles = 55 models)
+### 1000pt Assembly (50 infantry + 4 vehicles = 54 models)
 
 | Model | Qty | Loadout | Notes |
 |-------|-----|---------|-------|
@@ -892,7 +892,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 | Leman Russ Battle Tank | 1 | Battle Cannon, Heavy bolters | - |
 | Leman Russ Demolisher | 1 | Demolisher Cannon, Heavy flamer | - |
 | Chimera | 1 | Multi-laser, Heavy bolter | - |
-| Scout Sentinels | 2 | Lascannons | Open cockpit |
+| Scout Sentinel | 1 | Lascannon | Open cockpit |
 
 ### 500pt Assembly (40 infantry + 1 vehicle = 41 models)
 
@@ -923,15 +923,15 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 | Leman Russ Battle Tank | 3 | 1 each | ~$165 |
 | Leman Russ Demolisher | 1 | Same kit as Battle Tank | (included above) |
 | Chimera | 2 | 1 each | ~$84 |
-| Scout Sentinels | 1 | 2 Sentinels per box | ~$50 |
+| Scout Sentinels | 1 | 2 Sentinels per box (1 used) | ~$50 |
 
 ### Total Model Count
 
 | Points Level | Infantry | Vehicles | Total Models | Precision Shots |
 |--------------|----------|----------|--------------|-----------------|
 | 500pt | 40 | 1 | **41 models** | 5 (Ratlings) |
-| 1000pt | 50 | 5 | **55 models** | 6 (Ratlings + Kasrkin) |
-| 2000pt | 72 | 9 | **81 models** | 12 (Ratlings + Kasrkin + Ghosts) |
+| 1000pt | 50 | 4 | **54 models** | 6 (Ratlings + Kasrkin) |
+| 2000pt | 72 | 8 | **80 models** | 12 (Ratlings + Kasrkin + Ghosts) |
 
 ### Estimated Cost (2000pt)
 
@@ -1062,6 +1062,6 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 
 ---
 
-*Last Updated: December 30, 2025*
+*Last Updated: January 7, 2026*
 *Tacticus Agent - Warhammer 40k 10th Edition*
 *Brushmaster Agent - Paint Scheme*
