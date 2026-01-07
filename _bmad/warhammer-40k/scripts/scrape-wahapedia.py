@@ -13,6 +13,8 @@ Usage:
     python scrape-wahapedia.py --validate space-wolves   # Validate cache against live data
     python scrape-wahapedia.py --unit space-wolves "Arjac Rockfist"  # Show one unit (full)
     python scrape-wahapedia.py --compact space-wolves    # Show compact format for faction
+    python scrape-wahapedia.py --discover space-wolves   # Discover ALL units from faction index
+    python scrape-wahapedia.py --add-unit space-wolves "Unit Name" "url-slug"  # Add single unit to cache
 """
 
 import sys
@@ -120,9 +122,9 @@ FACTION_URLS = {
             ('Lord-Solar-Leontus', 'Lord Solar Leontus'),
             ('Cadian-Castellan', 'Cadian Castellan'),
             ('Cadian-Command-Squad', 'Cadian Command Squad'),
-            ('Tank-Commander', 'Tank Commander'),
+            ('Leman-Russ-Commander', 'Leman Russ Commander'),  # Was Tank-Commander
             ('Commissar', 'Commissar'),
-            ('Platoon-Command-Squad', 'Platoon Command Squad'),
+            ('Catachan-Command-Squad', 'Catachan Command Squad'),  # Was Platoon-Command-Squad
             ('Catachan-Jungle-Fighters', 'Catachan Jungle Fighters'),
             ('Cadian-Shock-Troops', 'Cadian Shock Troops'),
             ('Kasrkin', 'Kasrkin'),
@@ -135,8 +137,11 @@ FACTION_URLS = {
             ('Chimera', 'Chimera'),
             ('Armoured-Sentinels', 'Armoured Sentinels'),
             ('Scout-Sentinels', 'Scout Sentinels'),
-            ('Bullgryns', 'Bullgryns'),
+            ('Bullgryn-Squad', 'Bullgryn Squad'),  # Was Bullgryns
             ('Ogryn-Bodyguard', 'Ogryn Bodyguard'),
+            # Missing units added
+            ('Ratlings', 'Ratlings'),
+            ('Gaunt-s-Ghosts', "Gaunt's Ghosts"),
         ]
     },
     'tyranids': {
@@ -192,6 +197,263 @@ FACTION_URLS = {
         ]
     },
 }
+
+# Base URLs for faction discovery (when units are not hardcoded)
+FACTION_BASE_URLS = {
+    'space-wolves': 'https://wahapedia.ru/wh40k10ed/factions/space-marines/',
+    'space-marines': 'https://wahapedia.ru/wh40k10ed/factions/space-marines/',
+    'tau-empire': 'https://wahapedia.ru/wh40k10ed/factions/t-au-empire/',
+    'astra-militarum': 'https://wahapedia.ru/wh40k10ed/factions/astra-militarum/',
+    'tyranids': 'https://wahapedia.ru/wh40k10ed/factions/tyranids/',
+    'orks': 'https://wahapedia.ru/wh40k10ed/factions/orks/',
+}
+
+
+def discover_faction_units(faction: str, verbose: bool = True) -> List[Tuple[str, str]]:
+    """
+    Auto-discover ALL units for a faction by scraping the faction index page.
+    Returns list of (url_slug, display_name) tuples.
+    """
+    if faction not in FACTION_BASE_URLS:
+        print(f"ERROR: Unknown faction '{faction}'")
+        return []
+
+    base_url = FACTION_BASE_URLS[faction]
+
+    if verbose:
+        print(f"Discovering units for {faction} from {base_url}...")
+
+    try:
+        html = fetch_page(base_url)
+        soup = BeautifulSoup(html, 'html.parser')
+
+        units = []
+        seen_slugs = set()
+
+        # Find all links that look like unit datasheets
+        # Wahapedia format: /wh40k10ed/factions/faction-name/Unit-Name
+        for link in soup.find_all('a', href=True):
+            href = link['href']
+
+            # Match unit datasheet links
+            # Examples: /wh40k10ed/factions/astra-militarum/Cadian-Shock-Troops
+            pattern = rf'/wh40k10ed/factions/[^/]+/([A-Z][a-zA-Z0-9\-\']+)$'
+            match = re.search(pattern, href)
+
+            if match:
+                slug = match.group(1)
+
+                # Skip non-unit pages
+                skip_patterns = [
+                    'Legends', 'Index', 'Detachment', 'Enhancement', 'Stratagem',
+                    'Army-Rule', 'Faction-Rule', 'Crusade', 'Matched-Play',
+                    'Combat-Patrol', 'Wargear', 'Datasheet'
+                ]
+                if any(skip in slug for skip in skip_patterns):
+                    continue
+
+                # Skip if we've already seen this slug
+                if slug.lower() in seen_slugs:
+                    continue
+                seen_slugs.add(slug.lower())
+
+                # Get display name from link text or convert from slug
+                display_name = link.get_text(strip=True)
+                if not display_name or len(display_name) < 3:
+                    # Convert slug to display name: "Cadian-Shock-Troops" -> "Cadian Shock Troops"
+                    display_name = slug.replace('-', ' ').replace('1', '').replace('2', '').strip()
+
+                units.append((slug, display_name))
+
+        if verbose:
+            print(f"Found {len(units)} units for {faction}")
+
+        return units
+
+    except Exception as e:
+        print(f"ERROR discovering units: {e}")
+        return []
+
+
+def add_unit_to_cache(faction: str, unit_name: str, url_slug: str = None, verbose: bool = True) -> bool:
+    """
+    Add a single unit to an existing faction cache.
+    Use this when Tacticus finds a missing unit via web search.
+
+    Args:
+        faction: The faction name (e.g., 'astra-militarum')
+        unit_name: Display name of the unit (e.g., 'Ursula Creed')
+        url_slug: Optional URL slug (e.g., 'Ursula-Creed'). If not provided, will be derived from unit_name.
+
+    Returns:
+        True if unit was added successfully, False otherwise.
+    """
+    if faction not in FACTION_BASE_URLS:
+        print(f"ERROR: Unknown faction '{faction}'")
+        return False
+
+    base_url = FACTION_BASE_URLS[faction]
+
+    # Derive URL slug from unit name if not provided
+    if not url_slug:
+        url_slug = unit_name.replace(' ', '-').replace("'", '-')
+
+    # Load existing cache
+    cache_file = os.path.join(DATA_DIR, f'{faction}.json')
+    compact_file = os.path.join(DATA_DIR, f'{faction}.compact.json')
+
+    if not os.path.exists(cache_file):
+        if verbose:
+            print(f"No cache for {faction}. Run --faction {faction} first.")
+        return False
+
+    with open(cache_file, 'r') as f:
+        faction_data = json.load(f)
+
+    # Check if unit already exists
+    if unit_name in faction_data.get('units', {}):
+        if verbose:
+            print(f"Unit '{unit_name}' already in cache")
+        return True
+
+    # Fetch the unit
+    url = base_url + url_slug
+    if verbose:
+        print(f"Fetching {unit_name} from {url}...")
+
+    try:
+        html = fetch_page(url)
+        data = extract_full_datasheet(html, unit_name, url_slug)
+
+        # Add to faction data
+        faction_data['units'][unit_name] = data
+        faction_data['unit_count'] = len(faction_data['units'])
+        faction_data['last_updated'] = datetime.now(timezone.utc).isoformat()
+
+        # Save updated full cache
+        with open(cache_file, 'w') as f:
+            json.dump(faction_data, f, indent=2)
+
+        # Regenerate and save compact cache
+        compact_data = generate_compact_faction(faction_data)
+        with open(compact_file, 'w') as f:
+            json.dump(compact_data, f, indent=2)
+
+        if verbose:
+            pts_str = '/'.join([str(p['points']) for p in data.get('points', [])]) + 'pts' if data.get('points') else '?pts'
+            print(f"Added {unit_name} ({pts_str}) to {faction} cache")
+
+        return True
+
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            if verbose:
+                print(f"Unit not found at {url}")
+                print(f"Try checking Wahapedia for the correct URL slug")
+        else:
+            if verbose:
+                print(f"HTTP error {e.code}: {e.reason}")
+        return False
+
+    except Exception as e:
+        if verbose:
+            print(f"ERROR adding unit: {e}")
+        return False
+
+
+def refresh_faction_autodiscover(faction: str, verbose: bool = True) -> Dict[str, Any]:
+    """
+    Refresh faction cache by auto-discovering ALL units from the faction index.
+    This replaces the hardcoded unit lists.
+    """
+    units = discover_faction_units(faction, verbose)
+
+    if not units:
+        print(f"No units discovered for {faction}")
+        return None
+
+    base_url = FACTION_BASE_URLS.get(faction)
+    if not base_url:
+        print(f"ERROR: No base URL for faction '{faction}'")
+        return None
+
+    faction_data = {
+        'faction': faction,
+        'last_updated': datetime.now(timezone.utc).isoformat(),
+        'source': 'wahapedia-autodiscover',
+        'schema_version': '2.0',
+        'unit_count': len(units),
+        'units': {}
+    }
+
+    if verbose:
+        print(f"Refreshing {faction} ({len(units)} auto-discovered units)...")
+
+    success_count = 0
+    error_count = 0
+
+    for slug, name in units:
+        url = base_url + slug
+        if verbose:
+            print(f"  {name}...", end=' ', flush=True)
+
+        try:
+            html = fetch_page(url)
+            data = extract_full_datasheet(html, name, slug)
+            faction_data['units'][name] = data
+
+            if verbose:
+                pts_str = '/'.join([str(p['points']) for p in data.get('points', [])]) + 'pts' if data.get('points') else '?pts'
+                stats = data.get('stats', {})
+                stat_str = f"M{stats.get('M', '?')} T{stats.get('T', '?')} W{stats.get('W', '?')}"
+                print(f"OK ({pts_str}, {stat_str})")
+
+            success_count += 1
+            time.sleep(0.3)  # Be nice to server
+
+        except Exception as e:
+            if verbose:
+                print(f"ERROR: {e}")
+            faction_data['units'][name] = {
+                'name': name,
+                'url_slug': slug,
+                'error': str(e)
+            }
+            error_count += 1
+
+    # Save FULL faction cache
+    cache_file = os.path.join(DATA_DIR, f'{faction}.json')
+    os.makedirs(DATA_DIR, exist_ok=True)
+    with open(cache_file, 'w') as f:
+        json.dump(faction_data, f, indent=2)
+
+    # Generate and save COMPACT version
+    compact_data = generate_compact_faction(faction_data)
+    compact_file = os.path.join(DATA_DIR, f'{faction}.compact.json')
+    with open(compact_file, 'w') as f:
+        json.dump(compact_data, f, indent=2)
+
+    if verbose:
+        full_size = os.path.getsize(cache_file)
+        compact_size = os.path.getsize(compact_file)
+        reduction = (1 - compact_size / full_size) * 100
+        print(f"\nCompleted: {success_count} success, {error_count} errors")
+        print(f"Generated compact format: {compact_size:,} bytes ({reduction:.0f}% smaller)")
+
+    # Update metadata
+    metadata = load_metadata()
+    if faction not in metadata.get('factions_cached', []):
+        metadata.setdefault('factions_cached', []).append(faction)
+    metadata['cache_invalid'] = False
+    metadata['invalidation_reason'] = None
+    metadata['last_global_refresh'] = datetime.now(timezone.utc).isoformat()
+    metadata['schema_version'] = '2.0'
+    save_metadata(metadata)
+
+    if verbose:
+        print(f"Saved to {cache_file}")
+
+    return faction_data
 
 
 def load_metadata() -> Dict:
@@ -988,6 +1250,28 @@ def main():
     elif cmd == '--faction' and len(sys.argv) >= 3:
         faction = sys.argv[2]
         refresh_faction(faction)
+
+    elif cmd == '--discover' and len(sys.argv) >= 3:
+        # Auto-discover ALL units from faction index
+        faction = sys.argv[2]
+        refresh_faction_autodiscover(faction)
+
+    elif cmd == '--add-unit' and len(sys.argv) >= 4:
+        # Add a single unit to cache: --add-unit faction "Unit Name" [url-slug]
+        faction = sys.argv[2]
+        unit_name = sys.argv[3]
+        url_slug = sys.argv[4] if len(sys.argv) >= 5 else None
+        success = add_unit_to_cache(faction, unit_name, url_slug)
+        sys.exit(0 if success else 1)
+
+    elif cmd == '--list-discovered' and len(sys.argv) >= 3:
+        # Just list discovered units without fetching
+        faction = sys.argv[2]
+        units = discover_faction_units(faction, verbose=False)
+        print(f"\n{faction.upper()} - {len(units)} units discovered:\n")
+        for slug, name in sorted(units, key=lambda x: x[1]):
+            print(f"  {name} ({slug})")
+        print()
 
     elif cmd == '--refresh-all':
         refresh_all_factions()

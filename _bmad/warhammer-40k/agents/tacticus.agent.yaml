@@ -100,12 +100,15 @@ agent:
     - 'ERROR - CORRECTIONS: When user corrects a mistake, IMMEDIATELY add to validation-rules.yaml known_corrections section with: what went wrong, why, prevention.'
     - 'ERROR - DATA CONFLICTS: If cache and validation-rules.yaml conflict, validation-rules.yaml wins (user corrections override).'
 
-    # === WAHAPEDIA FALLBACK (MANDATORY) ===
-    - 'FALLBACK - MISSING DATA: When datasheet cache returns null, 404, or missing unit, IMMEDIATELY search Wahapedia. Search: "wahapedia [unit name] 10th edition"'
-    - 'FALLBACK - FIRST RESULT: Wahapedia unit pages are always the first search result with exact name match. Use WebFetch to get the datasheet.'
-    - 'FALLBACK - RECORD FIX: After finding correct data, record the correction in validation-rules.yaml under known_corrections section.'
+    # === WAHAPEDIA FALLBACK + CACHE FIX (MANDATORY) ===
+    - 'FALLBACK - MISSING DATA: When datasheet cache returns null, 404, or missing unit, you MUST fix the cache. Do NOT just search and continue.'
+    - 'FALLBACK - ADD TO CACHE: Run: python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --add-unit {faction} "Unit Name"'
+    - 'FALLBACK - URL SLUG: If add-unit fails with 404, find the correct URL slug from Wahapedia and retry: --add-unit {faction} "Unit Name" "url-slug"'
+    - 'FALLBACK - VERIFY ADDED: After --add-unit succeeds, reload the compact cache and use the newly cached data.'
+    - 'FALLBACK - RECORD FIX: After adding unit, auto-commit with: ⚔️ Tacticus: Add {unit name} to {faction} cache'
     - 'FALLBACK - ASK IF CONFUSED: If search results are ambiguous or unit doesn't exist, ASK user for clarification before proceeding.'
-    - 'FALLBACK - NEVER STOP: Do NOT report "UNVERIFIABLE" and stop. Always attempt web lookup first, then ask user if still stuck.'
+    - 'FALLBACK - NEVER STOP: Do NOT report "UNVERIFIABLE" and stop. Always fix the cache, then proceed with the cached data.'
+    - 'FALLBACK - FULL REFRESH: If many units are missing, suggest running: --discover {faction} to rebuild entire cache from faction index'
 
     # === FILE ACCESS ===
     - 'ARMY LISTS: {project-root}/army-lists/{faction}/ - user army list files'
@@ -374,18 +377,31 @@ agent:
       type: action
 
     # Datasheet cache management
-    - multi: '[RC] Refresh Datasheets [VC] Validate Cache [IC] Invalidate Cache [SU] Show Unit'
+    - multi: '[RC] Refresh Datasheets [DC] Discover ALL Units [AU] Add Unit [VC] Validate Cache'
       triggers:
         - refresh-cache:
             input: RC or fuzzy match refresh cache or update data or refresh datasheets
             action: 'Refresh full datasheet cache for faction. Run: python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --faction {faction}'
             description: 'Refresh faction datasheets 🔄'
             type: action
+        - discover-all:
+            input: DC or fuzzy match discover all units or full refresh
+            action: 'Auto-discover and cache ALL units from faction index. Run: python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --discover {faction}'
+            description: 'Discover ALL units from Wahapedia 🔍'
+            type: action
+        - add-unit:
+            input: AU or fuzzy match add unit or add missing
+            action: 'Add single unit to cache. Run: python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --add-unit {faction} "Unit Name"'
+            description: 'Add missing unit to cache ➕'
+            type: action
         - validate-cache:
             input: VC or fuzzy match validate cache or check data
             action: 'Validate cache against live Wahapedia. Run: python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --validate {faction}'
             description: 'Validate datasheet cache ✓'
             type: action
+
+    - multi: '[IC] Invalidate Cache [SU] Show Unit [LU] List Discovered Units'
+      triggers:
         - invalidate-cache:
             input: IC or fuzzy match invalidate cache or data wrong
             action: 'Mark cache as invalid and refresh. Run: python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --invalidate "User reported error" && python3 scrape-wahapedia.py --faction {faction}'
@@ -395,4 +411,9 @@ agent:
             input: SU or fuzzy match show unit or unit datasheet
             action: 'Display full unit datasheet. Run: python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --unit {faction} "Unit Name"'
             description: 'Show unit datasheet 📋'
+            type: action
+        - list-discovered:
+            input: LU or fuzzy match list discovered or show all units
+            action: 'List all units that can be discovered from faction index. Run: python3 {project-root}/_bmad/warhammer-40k/scripts/scrape-wahapedia.py --list-discovered {faction}'
+            description: 'List discoverable units 📋'
             type: action
