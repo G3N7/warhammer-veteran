@@ -64,6 +64,36 @@ hard_rules:
     check: "unit.models must be in unit.sizes range"
 
 # ============================================================
+# COLOSSEUM FORMAT - King of the Colosseum (500pt)
+# Source: Play On Tabletop (playontabletop.com)
+# ============================================================
+colosseum_format:
+  points_limit: 500
+  restrictions:
+    characters:
+      rule: "Must have at least 1 CHARACTER"
+      check: "Count CHARACTER keyword units >= 1"
+    epic_heroes:
+      rule: "No Epic Heroes allowed"
+      check: "No unit may have EPIC HERO keyword"
+    max_toughness:
+      rule: "Maximum Toughness of any unit is T9"
+      check: "Every unit.T <= 9"
+    infantry_minimum:
+      rule: "Must have 2+ INFANTRY units (excluding characters)"
+      check: "Count non-CHARACTER units with INFANTRY keyword >= 2"
+  mission_format:
+    rounds: "Best of 3 games"
+    time: "1 hour 10 minutes per round"
+    missions: ["Terraform", "Take and Hold", "Linchpin"]
+    secondaries: "Tactical only"
+  scoring:
+    objective_points: "5 VP per objective held (max 15 per round, 50 per game)"
+    starts_scoring: "Turn 2"
+  source: "https://playontabletop.com/king-of-the-colosseum/"
+  verified: "2026-01-18"
+
+# ============================================================
 # VALIDATION GATES - Run in order before presenting any list
 # ============================================================
 validation_gates:
