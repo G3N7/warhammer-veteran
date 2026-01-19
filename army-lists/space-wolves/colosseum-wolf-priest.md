@@ -290,6 +290,16 @@
 
 ---
 
+## Wahapedia Datasheet Links
+
+- [Wolf Priest](https://wahapedia.ru/wh40k10ed/factions/space-marines/Wolf-Priest)
+- [Grey Hunters](https://wahapedia.ru/wh40k10ed/factions/space-marines/Grey-Hunters)
+- [Wolf Guard Terminators](https://wahapedia.ru/wh40k10ed/factions/space-marines/Wolf-Guard-Terminators)
+- [Assault Intercessor Squad](https://wahapedia.ru/wh40k10ed/factions/space-marines/Assault-Intercessor-Squad)
+- [Saga of the Beastslayer Detachment](https://wahapedia.ru/wh40k10ed/factions/space-marines/#Detachment-Saga-Of-The-Beastslayer)
+
+---
+
 *Document Generated: January 18, 2026*
 *Document Updated: January 18, 2026 (revised - wolves removed for Assault Intercessors)*
 *Points Source: Munitorum Field Manual January 2026*
