@@ -751,17 +751,38 @@ def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str
             datasheet['damaged_profile'] = text
 
     # 14. Extract what this unit can lead (for leader units)
+    # This is CRITICAL for list-building validation - determines legal character attachments
+    # Wahapedia formats: "This model can be attached to the following units: UNIT1 ■ UNIT2"
+    # or "This model can be attached to the following unit: UNIT1"
     for div in soup.find_all('div', class_='dsAbility'):
         text = div.get_text(' ', strip=True)
         if 'this model can be attached to' in text.lower():
             datasheet['leader_info'] = text
-            # Extract unit names that can be led
-            match = re.search(r'attached to.*?(?:the following units?)?\s*[:\.]?\s*(.+?)(?:\.|$)', text, re.IGNORECASE)
+            # Extract unit names - look for the colon then capture everything after
+            # Handle both "following unit:" and "following units:"
+            match = re.search(r'attached to the following units?[:\s]+(.+?)(?:This model|LEADER|$)', text, re.IGNORECASE | re.DOTALL)
             if match:
-                units_text = match.group(1)
-                # Split by common delimiters
-                units = re.split(r'[,\.]|\band\b', units_text)
-                datasheet['can_lead'] = [u.strip() for u in units if u.strip() and len(u.strip()) > 2]
+                units_text = match.group(1).strip()
+                # Wahapedia uses ■ as delimiter between units, also handle commas and 'or'
+                # First split by ■ (black square delimiter)
+                if '■' in units_text:
+                    units = [u.strip() for u in units_text.split('■')]
+                else:
+                    # Fallback to comma/and/or splitting
+                    units = re.split(r'[,]|\band\b|\bor\b', units_text)
+
+                # Clean up unit names - remove trailing periods, extra whitespace
+                cleaned_units = []
+                for u in units:
+                    u = u.strip().rstrip('.').strip()
+                    # Filter out empty strings and non-unit text
+                    if u and len(u) > 2 and not u.lower().startswith('this '):
+                        # Remove any parenthetical notes like "(see above)"
+                        u = re.sub(r'\s*\([^)]*\)\s*', '', u).strip()
+                        if u:
+                            cleaned_units.append(u)
+
+                datasheet['can_lead'] = cleaned_units
 
     # 15. Extract role (battlefield role)
     for div in soup.find_all('div', class_='dsRole'):
@@ -783,24 +804,31 @@ def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str
 def clean_leader_list(leader_list: List[str]) -> List[str]:
     """Clean up leader unit names - split multi-unit strings properly."""
     # Known unit names to help with parsing concatenated unit lists
+    # IMPORTANT: Longer names first to avoid partial matches (e.g., "Blood Claws" before "Claws")
     KNOWN_UNITS = [
-        # Space Wolves
-        'Wolf Guard Terminators', 'Wolf Guard Headtakers', 'Blood Claws',
-        'Grey Hunters', 'Fenrisian Wolves', 'Thunderwolf Cavalry', 'Wulfen',
-        # Space Marines
-        'Intercessor Squad', 'Assault Intercessor Squad', 'Hellblaster Squad',
-        'Infiltrator Squad', 'Terminator Squad', 'Tactical Squad', 'Sternguard Veteran Squad',
-        'Vanguard Veteran Squad', 'Bladeguard Veteran Squad', 'Eradicator Squad',
+        # Space Wolves - specific units first
+        'Wolf Guard Terminators', 'Wolf Guard Headtakers', 'Wolf Guard Battle Leader',
+        'Thunderwolf Cavalry', 'Fenrisian Wolves', 'Blood Claws', 'Grey Hunters', 'Wulfen',
+        'Long Fangs', 'Skyclaws', 'Hounds of Morkai', 'Wolf Scouts',
+        # Space Marines - longer names first
+        'Assault Intercessor Squad', 'Heavy Intercessor Squad', 'Intercessor Squad',
+        'Terminator Assault Squad', 'Terminator Squad', 'Tactical Squad',
+        'Sternguard Veteran Squad', 'Vanguard Veteran Squad', 'Bladeguard Veteran Squad',
+        'Hellblaster Squad', 'Infiltrator Squad', 'Incursor Squad', 'Eradicator Squad',
+        'Aggressor Squad', 'Inceptor Squad', 'Eliminator Squad', 'Suppressor Squad',
+        'Desolation Squad', 'Infernus Squad', 'Scout Squad', 'Company Heroes',
         # T'au
-        'Strike Team', 'Breacher Team', 'Crisis Battlesuits', 'Stealth Battlesuits',
-        'Pathfinder Team', 'Kroot Carnivores',
+        'Crisis Battlesuits', 'Stealth Battlesuits', 'Broadside Battlesuits',
+        'Strike Team', 'Breacher Team', 'Pathfinder Team', 'Kroot Carnivores',
         # Orks
-        'Boyz', 'Nobz', 'Meganobz', 'Gretchin', 'Lootas', 'Burna Boyz', 'Tankbustas',
+        'Burna Boyz', 'Flash Gitz', 'Tankbustas', 'Meganobz', 'Nobz', 'Boyz',
+        'Gretchin', 'Lootas', 'Kommandos', 'Stormboyz', 'Beast Snagga Boyz',
         # Astra Militarum
         'Cadian Shock Troops', 'Catachan Jungle Fighters', 'Infantry Squad',
-        'Kasrkin', 'Tempestus Scions', 'Bullgryns', 'Ogryn Bodyguard',
+        'Kasrkin', 'Tempestus Scions', 'Bullgryns', 'Ogryn Bodyguard', 'Ratlings',
         # Tyranids
-        'Termagants', 'Hormagaunts', 'Tyranid Warriors', 'Genestealers', 'Zoanthropes',
+        'Tyranid Warriors', 'Termagants', 'Hormagaunts', 'Genestealers', 'Zoanthropes',
+        'Neurogaunts', 'Barbgaunts', 'Gargoyles', 'Ripper Swarms',
     ]
 
     cleaned = []
@@ -811,34 +839,54 @@ def clean_leader_list(leader_list: List[str]) -> List[str]:
             if clean.lower().startswith(prefix):
                 clean = clean[len(prefix):].strip()
 
-        # Split on ' or ' first
+        # First, try splitting on ■ delimiter (Wahapedia standard)
+        if '■' in clean:
+            for part in clean.split('■'):
+                part = part.strip()
+                if part and len(part) > 2:
+                    cleaned.append(part)
+            continue
+
+        # Try splitting on comma
+        if ',' in clean:
+            for part in clean.split(','):
+                part = part.strip()
+                if part and len(part) > 2:
+                    cleaned.append(part)
+            continue
+
+        # Split on ' or '
         if ' or ' in clean.lower():
             parts = re.split(r'\s+or\s+', clean, flags=re.IGNORECASE)
             for part in parts:
                 if part.strip():
                     cleaned.append(part.strip())
-        else:
-            # Try to match known unit names
-            remaining = clean
-            found = []
-            for unit in sorted(KNOWN_UNITS, key=len, reverse=True):  # Longest first
-                if unit.lower() in remaining.lower():
-                    found.append(unit)
-                    remaining = re.sub(re.escape(unit), '', remaining, flags=re.IGNORECASE).strip()
+            continue
 
-            if found:
-                cleaned.extend(found)
-            elif remaining.strip():
-                # If no known units matched, keep original
-                cleaned.append(clean)
+        # No delimiters found - try to match known unit names from concatenated string
+        # This handles cases like "Blood Claws Wolf Guard Headtakers" (no delimiter)
+        remaining = clean
+        found = []
+        for unit in sorted(KNOWN_UNITS, key=len, reverse=True):  # Longest first
+            if unit.lower() in remaining.lower():
+                found.append(unit)
+                # Remove the matched unit from remaining (case insensitive)
+                remaining = re.sub(re.escape(unit), '', remaining, flags=re.IGNORECASE).strip()
+
+        if found:
+            cleaned.extend(found)
+        elif remaining.strip() and len(remaining.strip()) > 2:
+            # If no known units matched but we have content, keep original
+            cleaned.append(clean)
 
     # Deduplicate while preserving order
     seen = set()
     result = []
     for item in cleaned:
-        if item.lower() not in seen:
-            seen.add(item.lower())
-            result.append(item)
+        item_clean = item.strip()
+        if item_clean and item_clean.lower() not in seen:
+            seen.add(item_clean.lower())
+            result.append(item_clean)
 
     return result
 
@@ -903,11 +951,17 @@ def generate_compact_datasheet(full_datasheet: Dict[str, Any]) -> Dict[str, Any]
         # If we have keywords but none matched our filter, include first few anyway
         compact['keywords'] = keywords[:5]
 
-    # Leader info (who can this lead / who can lead this) - CLEANED
+    # Leader info (who can this lead / who can lead this) - CRITICAL for list validation
+    # This data is essential for blocking gate 7 (leader attachment validation)
     if full_datasheet.get('can_lead'):
-        compact['leads'] = clean_leader_list(full_datasheet['can_lead'])
+        leads = clean_leader_list(full_datasheet['can_lead'])
+        if leads:
+            compact['leads'] = leads
+            compact['is_leader'] = True  # Flag for quick identification
     if full_datasheet.get('led_by'):
-        compact['led_by'] = clean_leader_list(full_datasheet['led_by'])
+        led_by = clean_leader_list(full_datasheet['led_by'])
+        if led_by:
+            compact['led_by'] = led_by
 
     # Core abilities that affect list-building (Deep Strike for reserves planning)
     core = full_datasheet.get('abilities', {}).get('core', [])

@@ -1,8 +1,8 @@
 {
   "faction": "space-wolves",
-  "last_updated": "2026-01-07T07:32:29.920089+00:00",
+  "last_updated": "2026-01-19T07:54:36.096020+00:00",
   "schema": "compact-v1",
-  "unit_count": 362,
+  "unit_count": 353,
   "units": {
     "Adrax Agatone": {
       "name": "Adrax Agatone",
@@ -23,15 +23,20 @@
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
       "core": [
         "Leader"
@@ -76,17 +81,24 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
+        "Desolation Squad",
         "Tactical Squad",
+        "Infernus Squad",
+        "Long Fangs",
         "CHAPTER MASTER",
         "LIEUTENANT model has already been attached to it"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
+        "Desolation Squad",
         "Tactical Squad",
+        "Infernus Squad",
+        "Long Fangs",
         "CHAPTER MASTER",
         "LIEUTENANT model has already been attached to it. If you do",
         "and that Bodyguard unit is destroyed",
@@ -111,11 +123,14 @@
         "TERMINATOR"
       ],
       "leads": [
+        "Terminator Assault Squad",
         "Terminator Squad",
         "CHAPTER MASTER",
         "LIEUTENANT model has already been attached to it"
       ],
+      "is_leader": true,
       "led_by": [
+        "Terminator Assault Squad",
         "Terminator Squad",
         "CHAPTER MASTER",
         "LIEUTENANT model has already been attached to it. If you do",
@@ -147,17 +162,24 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
+        "Desolation Squad",
         "Tactical Squad",
+        "Infernus Squad",
+        "Long Fangs",
         "CHAPTER MASTER",
         "LIEUTENANT model has already been attached to it"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
+        "Desolation Squad",
         "Tactical Squad",
+        "Infernus Squad",
+        "Long Fangs",
         "CHAPTER MASTER",
         "LIEUTENANT model has already been attached to it. If you do",
         "and that Bodyguard unit is destroyed",
@@ -184,6 +206,7 @@
         "Aggressor Squad Eradicator Squad Heavy Intercessor Squad Indomitor Kill Team You can attach this model to one of the above units even if one CAPTAIN",
         "CHAPTER MASTER model has already been attached to it"
       ],
+      "is_leader": true,
       "led_by": [
         "Aggressor Squad Eradicator Squad Heavy Intercessor Squad Indomitor Kill Team You can attach this model to one of the above units even if one CAPTAIN",
         "CHAPTER MASTER model has already been attached to it. If you do",
@@ -213,6 +236,7 @@
         "CHAPTER MASTER",
         "LIEUTENANT model has already been attached to it"
       ],
+      "is_leader": true,
       "led_by": [
         "Bladeguard Veteran Squad",
         "CHAPTER MASTER",
@@ -240,9 +264,12 @@
         "TERMINATOR"
       ],
       "leads": [
+        "Terminator Assault Squad",
         "Terminator Squad"
       ],
+      "is_leader": true,
       "led_by": [
+        "Terminator Assault Squad",
         "Terminator Squad"
       ],
       "core": [
@@ -271,8 +298,11 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
@@ -280,7 +310,9 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
       "core": [
         "Leader"
@@ -300,12 +332,15 @@
         "GRENADES"
       ],
       "leads": [
-        "Intercessor Squad",
-        "Eradicator Squad"
+        "Heavy Intercessor Squad",
+        "Eradicator Squad",
+        "Aggressor Squad"
       ],
+      "is_leader": true,
       "led_by": [
-        "Intercessor Squad",
-        "Eradicator Squad"
+        "Heavy Intercessor Squad",
+        "Eradicator Squad",
+        "Aggressor Squad"
       ],
       "core": [
         "Leader"
@@ -325,10 +360,21 @@
         "GRENADES"
       ],
       "leads": [
-        "Infiltrator Squad"
+        "Infiltrator Squad",
+        "Hounds of Morkai",
+        "Eliminator Squad",
+        "Incursor Squad",
+        "Wolf Scouts",
+        "Scout Squad"
       ],
+      "is_leader": true,
       "led_by": [
-        "Infiltrator Squad"
+        "Infiltrator Squad",
+        "Hounds of Morkai",
+        "Eliminator Squad",
+        "Incursor Squad",
+        "Wolf Scouts",
+        "Scout Squad"
       ],
       "core": [
         "Infiltrators",
@@ -350,9 +396,12 @@
         "TERMINATOR"
       ],
       "leads": [
+        "Terminator Assault Squad",
         "Terminator Squad"
       ],
+      "is_leader": true,
       "led_by": [
+        "Terminator Assault Squad",
         "Terminator Squad"
       ],
       "core": [
@@ -378,14 +427,17 @@
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Company Heroes"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Company Heroes"
       ],
       "core": [
         "Leader"
@@ -406,10 +458,13 @@
         "GRENADES"
       ],
       "leads": [
-        "Vanguard Veteran Squad"
+        "Vanguard Veteran Squad",
+        "Skyclaws"
       ],
+      "is_leader": true,
       "led_by": [
-        "Vanguard Veteran Squad"
+        "Vanguard Veteran Squad",
+        "Skyclaws"
       ],
       "core": [
         "Deep Strike",
@@ -432,6 +487,7 @@
       "leads": [
         "Victrix Honour Guard You can attach this model to the above unit even if a MARNEUS CALGAR unit has already been attached to it"
       ],
+      "is_leader": true,
       "led_by": [
         "Victrix Honour Guard You can attach this model to the above unit even if a MARNEUS CALGAR unit has already been attached to it. If you do",
         "and that Bodyguard unit is destroyed",
@@ -462,8 +518,10 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
@@ -471,7 +529,8 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
       "core": [
         "Leader"
@@ -491,9 +550,12 @@
         "TERMINATOR"
       ],
       "leads": [
+        "Terminator Assault Squad",
         "Terminator Squad"
       ],
+      "is_leader": true,
       "led_by": [
+        "Terminator Assault Squad",
         "Terminator Squad"
       ],
       "core": [
@@ -517,6 +579,7 @@
       "leads": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
+      "is_leader": true,
       "led_by": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
@@ -539,10 +602,12 @@
       ],
       "leads": [
         "Vanguard Veteran Squad",
-        "Jump Packs Skyclaws Wolf Guard"
+        "Skyclaws"
       ],
+      "is_leader": true,
       "led_by": [
-        "Vanguard Veteran Squad"
+        "Vanguard Veteran Squad",
+        "Skyclaws"
       ],
       "core": [
         "Deep Strike",
@@ -569,15 +634,20 @@
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Desolation Squad",
+        "Tactical Squad",
+        "Long Fangs"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Desolation Squad",
+        "Tactical Squad",
+        "Long Fangs"
       ],
       "core": [
         "Leader"
@@ -598,9 +668,12 @@
         "TERMINATOR"
       ],
       "leads": [
+        "Terminator Assault Squad",
         "Terminator Squad"
       ],
+      "is_leader": true,
       "led_by": [
+        "Terminator Assault Squad",
         "Terminator Squad"
       ],
       "core": [
@@ -622,12 +695,15 @@
         "EPIC HERO"
       ],
       "leads": [
-        "Intercessor Squad",
-        "Eradicator Squad"
+        "Heavy Intercessor Squad",
+        "Eradicator Squad",
+        "Aggressor Squad"
       ],
+      "is_leader": true,
       "led_by": [
-        "Intercessor Squad",
-        "Eradicator Squad"
+        "Heavy Intercessor Squad",
+        "Eradicator Squad",
+        "Aggressor Squad"
       ],
       "core": [
         "Leader"
@@ -651,15 +727,18 @@
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
       "core": [
         "Leader"
@@ -680,10 +759,13 @@
         "FLY"
       ],
       "leads": [
-        "Vanguard Veteran Squad"
+        "Vanguard Veteran Squad",
+        "Skyclaws"
       ],
+      "is_leader": true,
       "led_by": [
-        "Vanguard Veteran Squad"
+        "Vanguard Veteran Squad",
+        "Skyclaws"
       ],
       "core": [
         "Deep Strike",
@@ -711,15 +793,18 @@
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Company Heroes"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Company Heroes"
       ],
       "core": [
         "Leader"
@@ -745,15 +830,22 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Desolation Squad",
+        "Tactical Squad",
+        "Infernus Squad",
+        "Long Fangs"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Desolation Squad",
+        "Tactical Squad",
+        "Infernus Squad",
+        "Long Fangs"
       ],
       "core": [
         "Leader"
@@ -774,10 +866,17 @@
         "PSYKER"
       ],
       "leads": [
-        "Infiltrator Squad"
+        "Infiltrator Squad",
+        "Hounds of Morkai",
+        "Eliminator Squad",
+        "Incursor Squad"
       ],
+      "is_leader": true,
       "led_by": [
-        "Infiltrator Squad"
+        "Infiltrator Squad",
+        "Hounds of Morkai",
+        "Eliminator Squad",
+        "Incursor Squad"
       ],
       "core": [
         "Infiltrators",
@@ -799,9 +898,12 @@
         "TERMINATOR"
       ],
       "leads": [
+        "Terminator Assault Squad",
         "Terminator Squad"
       ],
+      "is_leader": true,
       "led_by": [
+        "Terminator Assault Squad",
         "Terminator Squad"
       ],
       "core": [
@@ -826,6 +928,7 @@
         "Assault Intercessor Squad Bladeguard Veteran Squad Company Heroes Hellblaster Squad Infernus Squad Intercessor Squad Sternguard Veteran Squad Tactical Squad Crusader Squad Sternguard Veteran Squad Sword Brethren Squad Inner Circle Companions Deathwatch Veterans Decimus Kill Team Fortis Kill Team Assault Squad Command Squad Crusader Squad (Legendary) Vanguard Veteran Squad Wolf Guard You can attach this model to a unit it can lead even if one CAPTAIN",
         "CHAPTER MASTER model has already been attached to it"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad Bladeguard Veteran Squad Company Heroes Hellblaster Squad Infernus Squad Intercessor Squad Sternguard Veteran Squad Tactical Squad Crusader Squad Sternguard Veteran Squad Sword Brethren Squad Inner Circle Companions Deathwatch Veterans Decimus Kill Team Fortis Kill Team Assault Squad Command Squad Crusader Squad (Legendary) Vanguard Veteran Squad Wolf Guard You can attach this model to a unit it can lead even if one CAPTAIN",
         "CHAPTER MASTER model has already been attached to it. If you do",
@@ -854,6 +957,7 @@
         "Incursor Squad Infiltrator Squad Reiver Squad Spectrus Kill Team Hounds Of Morkai You can attach this model to a unit it can lead even if one CAPTAIN",
         "CHAPTER MASTER model has already been attached to it"
       ],
+      "is_leader": true,
       "led_by": [
         "Incursor Squad Infiltrator Squad Reiver Squad Spectrus Kill Team Hounds Of Morkai You can attach this model to a unit it can lead even if one CAPTAIN",
         "CHAPTER MASTER model has already been attached to it. If you do",
@@ -886,6 +990,7 @@
         "Reiver Squad Hounds Of Morkai You can attach this model to a unit it can lead even if one CAPTAIN",
         "CHAPTER MASTER model has already been attached to it"
       ],
+      "is_leader": true,
       "led_by": [
         "Reiver Squad Hounds Of Morkai You can attach this model to a unit it can lead even if one CAPTAIN",
         "CHAPTER MASTER model has already been attached to it. If you do",
@@ -918,15 +1023,18 @@
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Hellblaster Squad"
+        "Hellblaster Squad",
+        "Infernus Squad"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Hellblaster Squad"
+        "Hellblaster Squad",
+        "Infernus Squad"
       ],
       "core": [
         "Feel No Pain 5+",
@@ -965,19 +1073,28 @@
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
+        "Heavy Intercessor Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Eradicator Squad",
-        "Tactical Squad"
+        "Aggressor Squad",
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
+        "Heavy Intercessor Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Eradicator Squad",
-        "Tactical Squad"
+        "Aggressor Squad",
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
       "core": [
         "Leader"
@@ -999,23 +1116,34 @@
       ],
       "leads": [
         "Assault Intercessor Squad",
+        "Terminator Assault Squad",
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
+        "Heavy Intercessor Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Terminator Squad",
         "Eradicator Squad",
-        "Tactical Squad"
+        "Aggressor Squad",
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
+        "Terminator Assault Squad",
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
+        "Heavy Intercessor Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Terminator Squad",
         "Eradicator Squad",
-        "Tactical Squad"
+        "Aggressor Squad",
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
       "core": [
         "Deep Strike",
@@ -1039,12 +1167,15 @@
       "leads": [
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Company Heroes"
       ],
+      "is_leader": true,
       "led_by": [
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Company Heroes"
       ],
       "core": [
         "Feel No Pain 6+",
@@ -1082,6 +1213,7 @@
       "leads": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
+      "is_leader": true,
       "led_by": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
@@ -1106,13 +1238,18 @@
         "Assault Intercessor Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Desolation Squad",
+        "Tactical Squad",
+        "Long Fangs"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Desolation Squad",
+        "Tactical Squad",
+        "Long Fangs"
       ],
       "core": [
         "Leader"
@@ -1132,12 +1269,15 @@
         "EPIC HERO"
       ],
       "leads": [
-        "Intercessor Squad",
-        "Eradicator Squad"
+        "Heavy Intercessor Squad",
+        "Eradicator Squad",
+        "Aggressor Squad"
       ],
+      "is_leader": true,
       "led_by": [
-        "Intercessor Squad",
-        "Eradicator Squad"
+        "Heavy Intercessor Squad",
+        "Eradicator Squad",
+        "Aggressor Squad"
       ],
       "core": [
         "Leader"
@@ -1162,15 +1302,18 @@
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Company Heroes"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Company Heroes"
       ],
       "core": [
         "Leader"
@@ -1193,12 +1336,17 @@
       "leads": [
         "Assault Intercessor Squad",
         "Vanguard Veteran Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Vanguard Veteran Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
       "core": [
         "Feel No Pain 6+",
@@ -1222,6 +1370,7 @@
         "Assault Intercessor Squad Infernus Squad Intercessor Squad Sternguard Veteran Squad Crusader Squad Sternguard Veteran Squad Sword Brethren Squad Inner Circle Companions Deathwatch Veterans Decimus Kill Team Fortis Kill Team Assault Squad Crusader Squad (Legendary) Vanguard Veteran Squad Wolf Guard You can attach this model to one of the units on the left even if one CAPTAIN",
         "CHAPTER MASTER model has already been attached to it"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad Infernus Squad Intercessor Squad Sternguard Veteran Squad Crusader Squad Sternguard Veteran Squad Sword Brethren Squad Inner Circle Companions Deathwatch Veterans Decimus Kill Team Fortis Kill Team Assault Squad Crusader Squad (Legendary) Vanguard Veteran Squad Wolf Guard You can attach this model to one of the units on the left even if one CAPTAIN",
         "CHAPTER MASTER model has already been attached to it. If you do",
@@ -1244,12 +1393,15 @@
       "leads": [
         "Assault Intercessor Squad",
         "Vanguard Veteran Squad",
-        "Intercessor Squad"
+        "Intercessor Squad",
+        "Infernus Squad"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Vanguard Veteran Squad",
-        "Intercessor Squad"
+        "Intercessor Squad",
+        "Infernus Squad"
       ],
       "core": [
         "Feel No Pain 5+",
@@ -1275,6 +1427,7 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
@@ -1302,6 +1455,7 @@
       "leads": [
         "Crusader Squad Sword Brethren Squad Crusader Squad (Legendary)"
       ],
+      "is_leader": true,
       "led_by": [
         "Crusader Squad Sword Brethren Squad Crusader Squad (Legendary)"
       ],
@@ -1328,6 +1482,7 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Vanguard Veteran Squad",
@@ -1354,13 +1509,16 @@
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Vanguard Veteran Squad",
-        "Intercessor Squad"
+        "Intercessor Squad",
+        "Infernus Squad"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Vanguard Veteran Squad",
-        "Intercessor Squad"
+        "Intercessor Squad",
+        "Infernus Squad"
       ],
       "core": [
         "Leader"
@@ -1384,6 +1542,7 @@
         "Death Company Marines With Jump Packs Death Company Marines with Boltguns",
         "Jump Packs"
       ],
+      "is_leader": true,
       "led_by": [
         "Death Company Marines With Jump Packs Death Company Marines with Boltguns and Jump Packs"
       ],
@@ -1410,14 +1569,19 @@
         "Sternguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
       "core": [
         "Leader"
@@ -1444,8 +1608,10 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
@@ -1453,7 +1619,8 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
       "core": [
         "Leader",
@@ -1497,10 +1664,13 @@
         "GRENADES"
       ],
       "leads": [
-        "Vanguard Veteran Squad"
+        "Vanguard Veteran Squad",
+        "Skyclaws"
       ],
+      "is_leader": true,
       "led_by": [
-        "Vanguard Veteran Squad"
+        "Vanguard Veteran Squad",
+        "Skyclaws"
       ],
       "core": [
         "Deep Strike",
@@ -1523,6 +1693,7 @@
       "leads": [
         "Death Company Marines Death Company Marines with Bolt Rifles"
       ],
+      "is_leader": true,
       "led_by": [
         "Death Company Marines Death Company Marines with Bolt Rifles"
       ],
@@ -1548,6 +1719,7 @@
       "leads": [
         "Death Company Marines With Jump Packs"
       ],
+      "is_leader": true,
       "led_by": [
         "Death Company Marines With Jump Packs"
       ],
@@ -1576,15 +1748,18 @@
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
       "core": [
         "Leader"
@@ -1609,6 +1784,7 @@
         "Death Company Marines With Jump Packs Death Company Marines with Boltguns",
         "Jump Packs"
       ],
+      "is_leader": true,
       "led_by": [
         "Death Company Marines With Jump Packs Death Company Marines with Boltguns and Jump Packs"
       ],
@@ -1637,18 +1813,25 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
+        "Desolation Squad",
         "Tactical Squad",
+        "Infernus Squad",
+        "Long Fangs",
         "even if one CAPTAIN",
         "CHAPTER MASTER",
         "LIEUTENANT model has already been attached to it"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
+        "Desolation Squad",
         "Tactical Squad",
+        "Infernus Squad",
+        "Long Fangs",
         "even if one CAPTAIN",
         "CHAPTER MASTER",
         "LIEUTENANT model has already been attached to it. If you do",
@@ -1701,8 +1884,10 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
@@ -1710,7 +1895,8 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
       "core": [
         "Leader"
@@ -1737,8 +1923,10 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
@@ -1746,7 +1934,8 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
       "core": [
         "Leader"
@@ -1767,9 +1956,12 @@
         "TERMINATOR"
       ],
       "leads": [
+        "Terminator Assault Squad",
         "Terminator Squad"
       ],
+      "is_leader": true,
       "led_by": [
+        "Terminator Assault Squad",
         "Terminator Squad"
       ],
       "core": [
@@ -1799,8 +1991,10 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
@@ -1808,7 +2002,8 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
       "core": [
         "Leader"
@@ -1834,15 +2029,18 @@
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad"
       ],
       "core": [
         "Leader"
@@ -1877,6 +2075,7 @@
       "leads": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
+      "is_leader": true,
       "led_by": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
@@ -1902,6 +2101,7 @@
       "leads": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
+      "is_leader": true,
       "led_by": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
@@ -1926,6 +2126,7 @@
       "leads": [
         "Deathwatch Veterans Fortis Kill Team"
       ],
+      "is_leader": true,
       "led_by": [
         "Deathwatch Veterans Fortis Kill Team"
       ],
@@ -1950,35 +2151,11 @@
       "leads": [
         "Deathwatch Veterans Fortis Kill Team"
       ],
+      "is_leader": true,
       "led_by": [
         "Deathwatch Veterans Fortis Kill Team"
       ],
       "core": [
-        "Leader"
-      ]
-    },
-    "Arjac Rockfist": {
-      "name": "Arjac Rockfist",
-      "pts": 105,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "EPIC HERO",
-        "TERMINATOR"
-      ],
-      "leads": [
-        "Wolf Guard Terminators"
-      ],
-      "led_by": [
-        "Wolf Guard Terminators"
-      ],
-      "core": [
-        "Deep Strike",
         "Leader"
       ]
     },
@@ -2019,37 +2196,13 @@
         "Grey Hunters",
         "Blood Claws"
       ],
+      "is_leader": true,
       "led_by": [
         "Wolf Guard Headtakers",
         "Grey Hunters",
         "Blood Claws"
       ],
       "core": [
-        "Leader"
-      ]
-    },
-    "Logan Grimnar": {
-      "name": "Logan Grimnar",
-      "pts": 110,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "EPIC HERO",
-        "TERMINATOR"
-      ],
-      "leads": [
-        "Wolf Guard Terminators"
-      ],
-      "led_by": [
-        "Wolf Guard Terminators"
-      ],
-      "core": [
-        "Deep Strike",
         "Leader"
       ]
     },
@@ -2091,35 +2244,10 @@
         "Grey Hunters",
         "Blood Claws"
       ],
+      "is_leader": true,
       "led_by": [
         "Wolf Guard Headtakers",
         "Grey Hunters",
-        "Blood Claws"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Ragnar Blackmane": {
-      "name": "Ragnar Blackmane",
-      "pts": 100,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "EPIC HERO",
-        "GRENADES"
-      ],
-      "leads": [
-        "Wolf Guard Headtakers",
-        "Blood Claws"
-      ],
-      "led_by": [
-        "Wolf Guard Headtakers",
         "Blood Claws"
       ],
       "core": [
@@ -2145,6 +2273,7 @@
         "Grey Hunters",
         "Blood Claws"
       ],
+      "is_leader": true,
       "led_by": [
         "Wolf Guard Headtakers",
         "Grey Hunters",
@@ -2172,32 +2301,7 @@
         "Grey Hunters",
         "Blood Claws"
       ],
-      "led_by": [
-        "Wolf Guard Headtakers",
-        "Grey Hunters",
-        "Blood Claws"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Wolf Priest": {
-      "name": "Wolf Priest",
-      "pts": 70,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER"
-      ],
-      "leads": [
-        "Wolf Guard Headtakers",
-        "Grey Hunters",
-        "Blood Claws"
-      ],
+      "is_leader": true,
       "led_by": [
         "Wolf Guard Headtakers",
         "Grey Hunters",
@@ -2223,6 +2327,7 @@
       "leads": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
+      "is_leader": true,
       "led_by": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
@@ -2246,6 +2351,7 @@
       "leads": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
+      "is_leader": true,
       "led_by": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
@@ -2273,15 +2379,22 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Desolation Squad",
+        "Tactical Squad",
+        "Infernus Squad",
+        "Long Fangs"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Desolation Squad",
+        "Tactical Squad",
+        "Infernus Squad",
+        "Long Fangs"
       ],
       "core": [
         "Leader"
@@ -2304,6 +2417,7 @@
         "Thunderwolf Cavalry",
         "Fenrisian Wolves"
       ],
+      "is_leader": true,
       "led_by": [
         "Thunderwolf Cavalry",
         "Fenrisian Wolves"
@@ -2328,6 +2442,7 @@
       "leads": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
+      "is_leader": true,
       "led_by": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
@@ -2356,8 +2471,11 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
@@ -2365,7 +2483,9 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
       "core": [
         "Leader"
@@ -2408,6 +2528,7 @@
         "Vanguard Veteran Squad",
         "Tactical Squad"
       ],
+      "is_leader": true,
       "led_by": [
         "Sternguard Veteran Squad",
         "Vanguard Veteran Squad",
@@ -2434,6 +2555,7 @@
       "leads": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
+      "is_leader": true,
       "led_by": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
@@ -2457,6 +2579,7 @@
         "Fenrisian Wolves",
         "even if CANIS WOLFBORN has been attached to it"
       ],
+      "is_leader": true,
       "led_by": [
         "Fenrisian Wolves",
         "even if CANIS WOLFBORN has been attached to it. If you do",
@@ -2483,9 +2606,12 @@
         "TERMINATOR"
       ],
       "leads": [
+        "Terminator Assault Squad",
         "Terminator Squad"
       ],
+      "is_leader": true,
       "led_by": [
+        "Terminator Assault Squad",
         "Terminator Squad",
         "and that Bodyguard unit is destroyed",
         "the Leader units attached to it become separate units",
@@ -2517,8 +2643,11 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
@@ -2526,7 +2655,9 @@
         "Vanguard Veteran Squad",
         "Intercessor Squad",
         "Hellblaster Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Infernus Squad",
+        "Company Heroes"
       ],
       "core": [
         "Leader"
@@ -2549,6 +2680,7 @@
       "leads": [
         "Thunderwolf Cavalry"
       ],
+      "is_leader": true,
       "led_by": [
         "Thunderwolf Cavalry"
       ],
@@ -2571,11 +2703,14 @@
       ],
       "leads": [
         "Vanguard Veteran Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Long Fangs"
       ],
+      "is_leader": true,
       "led_by": [
         "Vanguard Veteran Squad",
         "Tactical Squad",
+        "Long Fangs",
         "and that Bodyguard unit is destroyed",
         "the LEADER units attached to it become separate units",
         "with their original Starting Strengths ."
@@ -2600,6 +2735,7 @@
       "leads": [
         "Thunderwolf Cavalry"
       ],
+      "is_leader": true,
       "led_by": [
         "Thunderwolf Cavalry"
       ],
@@ -2634,12 +2770,15 @@
         "GRENADES"
       ],
       "leads": [
+        "Wolf Guard Battle Leader",
         "Wolf Guard Terminators",
         "Wolf Guard Headtakers",
         "Grey Hunters",
         "Blood Claws"
       ],
+      "is_leader": true,
       "led_by": [
+        "Wolf Guard Battle Leader",
         "Wolf Guard Terminators",
         "Wolf Guard Headtakers",
         "Grey Hunters",
@@ -2666,6 +2805,7 @@
       "leads": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
+      "is_leader": true,
       "led_by": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
@@ -2689,10 +2829,13 @@
         "GRENADES"
       ],
       "leads": [
-        "Vanguard Veteran Squad"
+        "Vanguard Veteran Squad",
+        "Skyclaws"
       ],
+      "is_leader": true,
       "led_by": [
-        "Vanguard Veteran Squad"
+        "Vanguard Veteran Squad",
+        "Skyclaws"
       ],
       "core": [
         "Deep Strike",
@@ -2716,6 +2859,7 @@
       "leads": [
         "Blood Claws"
       ],
+      "is_leader": true,
       "led_by": [
         "Blood Claws"
       ],
@@ -2741,14 +2885,17 @@
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
-        "Intercessor Squad"
+        "Intercessor Squad",
+        "Infernus Squad"
       ],
+      "is_leader": true,
       "led_by": [
         "Assault Intercessor Squad",
         "Sternguard Veteran Squad",
         "Bladeguard Veteran Squad",
         "Vanguard Veteran Squad",
-        "Intercessor Squad"
+        "Intercessor Squad",
+        "Infernus Squad"
       ],
       "core": [
         "Leader"
@@ -2787,6 +2934,7 @@
       "leads": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
+      "is_leader": true,
       "led_by": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
@@ -2810,12 +2958,15 @@
       ],
       "leads": [
         "Vanguard Veteran Squad",
+        "Skyclaws",
         "even if one CAPTAIN",
         "CHAPTER MASTER",
         "LIEUTENANT model has already been attached to it"
       ],
+      "is_leader": true,
       "led_by": [
         "Vanguard Veteran Squad",
+        "Skyclaws",
         "even if one CAPTAIN",
         "CHAPTER MASTER",
         "LIEUTENANT model has already been attached to it. If you do",
@@ -2856,10 +3007,13 @@
         "EPIC HERO"
       ],
       "leads": [
-        "Scout Squad Scout Sniper Squad Wolf Scouts"
+        "Wolf Scouts",
+        "Scout Squad"
       ],
+      "is_leader": true,
       "led_by": [
-        "Scout Squad Scout Sniper Squad Wolf Scouts"
+        "Wolf Scouts",
+        "Scout Squad"
       ],
       "core": [
         "Infiltrators",
@@ -2884,6 +3038,7 @@
       "leads": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
+      "is_leader": true,
       "led_by": [
         "Outrider Squad Ravenwing Black Knights Bike Squad Company Veterans On Bikes"
       ],
@@ -2908,6 +3063,7 @@
       "leads": [
         "Death Company Marines Death Company Marines with Bolt Rifles Death Company Marines with Boltguns"
       ],
+      "is_leader": true,
       "led_by": [
         "Death Company Marines Death Company Marines with Bolt Rifles Death Company Marines with Boltguns"
       ],
@@ -2934,6 +3090,7 @@
         "Terminator Assault Squad Terminator Squad Terminator Squad Deathwing Knights Deathwing Terminator Squad Deathwatch Terminator Squad Wolf Guard Terminators Deathwing Command Squad Relic Terminator Squad You can attach this model to one of the above units even if one CAPTAIN",
         "CHAPTER MASTER model has already been attached to it"
       ],
+      "is_leader": true,
       "led_by": [
         "Terminator Assault Squad Terminator Squad Terminator Squad Deathwing Knights Deathwing Terminator Squad Deathwatch Terminator Squad Wolf Guard Terminators Deathwing Command Squad Relic Terminator Squad You can attach this model to one of the above units even if one CAPTAIN",
         "CHAPTER MASTER model has already been attached to it. If you do",
@@ -2963,6 +3120,7 @@
         "Thunderwolf Cavalry You can attach this model to the above unit even if one CAPTAIN",
         "CHAPTER MASTER model has already been attached to it"
       ],
+      "is_leader": true,
       "led_by": [
         "Thunderwolf Cavalry You can attach this model to the above unit even if one CAPTAIN",
         "CHAPTER MASTER model has already been attached to it. If you do",
@@ -2990,13 +3148,16 @@
       "leads": [
         "Grey Hunters",
         "Blood Claws",
+        "Long Fangs",
         "can do so even if one",
         "more CHARACTER units have already been attached to that unit",
         "but a unit can never include more than one PACK LEADER model"
       ],
+      "is_leader": true,
       "led_by": [
         "Grey Hunters",
         "Blood Claws",
+        "Long Fangs",
         "and can do so even if one",
         "more CHARACTER units have already been attached to that unit",
         "but a unit can never include more than one PACK LEADER model. If you do",
@@ -3027,13 +3188,16 @@
       "leads": [
         "Grey Hunters",
         "Blood Claws",
+        "Long Fangs",
         "can do so even if one",
         "more CHARACTER units have already been attached to that unit",
         "but a unit can never include more than one PACK LEADER model"
       ],
+      "is_leader": true,
       "led_by": [
         "Grey Hunters",
         "Blood Claws",
+        "Long Fangs",
         "and can do so even if one",
         "more CHARACTER units have already been attached to that unit",
         "but a unit can never include more than one PACK LEADER model. If you do",
@@ -3062,13 +3226,14 @@
         "GRENADES"
       ],
       "leads": [
-        "Skyclaws You must attach this model to the above unit",
+        "Skyclaws",
         "can do so even if one",
         "more CHARACTER units have already been attached to that unit",
         "but a unit can never include more than one PACK LEADER model"
       ],
+      "is_leader": true,
       "led_by": [
-        "Skyclaws You must attach this model to the above unit",
+        "Skyclaws",
         "and can do so even if one",
         "more CHARACTER units have already been attached to that unit",
         "but a unit can never include more than one PACK LEADER model. If you do",
@@ -3098,34 +3263,11 @@
       "leads": [
         "Thunderwolf Cavalry"
       ],
+      "is_leader": true,
       "led_by": [
         "Thunderwolf Cavalry"
       ],
       "core": [
-        "Leader"
-      ]
-    },
-    "Logan Grimnar On Stormrider": {
-      "name": "Logan Grimnar On Stormrider",
-      "pts": 180,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "MOUNTED",
-        "CHARACTER",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Thunderwolf Cavalry"
-      ],
-      "led_by": [
-        "Thunderwolf Cavalry"
-      ],
-      "core": [
-        "Deadly Demise D3",
         "Leader"
       ]
     },
@@ -5883,6 +6025,137 @@
       ],
       "core": [
         "Deadly Demise D3"
+      ]
+    },
+    "Logan Grimnar On Stormrider": {
+      "name": "Logan Grimnar On Stormrider",
+      "pts": 180,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "MOUNTED",
+        "CHARACTER",
+        "EPIC HERO"
+      ],
+      "leads": [
+        "Thunderwolf Cavalry"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Thunderwolf Cavalry"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Leader"
+      ]
+    },
+    "Logan Grimnar": {
+      "name": "Logan Grimnar",
+      "pts": 110,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER",
+        "EPIC HERO",
+        "TERMINATOR"
+      ],
+      "leads": [
+        "Wolf Guard Terminators"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Wolf Guard Terminators"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ]
+    },
+    "Ragnar Blackmane": {
+      "name": "Ragnar Blackmane",
+      "pts": 100,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER",
+        "EPIC HERO",
+        "GRENADES"
+      ],
+      "leads": [
+        "Wolf Guard Headtakers",
+        "Blood Claws"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Wolf Guard Headtakers",
+        "Blood Claws"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Arjac Rockfist": {
+      "name": "Arjac Rockfist",
+      "pts": 105,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER",
+        "EPIC HERO",
+        "TERMINATOR"
+      ],
+      "leads": [
+        "Wolf Guard Terminators"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Wolf Guard Terminators"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ]
+    },
+    "Wolf Priest": {
+      "name": "Wolf Priest",
+      "pts": 70,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER"
+      ],
+      "leads": [
+        "Wolf Guard Headtakers",
+        "Grey Hunters",
+        "Blood Claws"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Wolf Guard Headtakers",
+        "Grey Hunters",
+        "Blood Claws"
+      ],
+      "core": [
+        "Leader"
       ]
     }
   }

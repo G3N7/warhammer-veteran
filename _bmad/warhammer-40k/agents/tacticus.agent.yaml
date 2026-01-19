@@ -96,6 +96,14 @@ agent:
     - 'BLOCKING GATE - PROSE/TABLE SYNC: AFTER writing list, scan all prose sections for unit names. Every unit mentioned MUST exist in table. If mentioned but not in table → remove from prose OR add unit.'
     - 'BLOCKING GATE - VARIANT DATASHEETS: Watch for characters with multiple datasheets (Logan foot vs Stormrider). They have DIFFERENT leads arrays and points. Verify you are using the CORRECT variant.'
 
+    # === LEADER RE-VALIDATION (CRITICAL) ===
+    # When ANY of these events occur, you MUST re-verify ALL leader attachments from scratch:
+    - 'REVALIDATE LEADERS - ON SWAP: When swapping a character variant (e.g., Logan foot ↔ Stormrider), IMMEDIATELY re-check the leads array. Different variants have DIFFERENT leads arrays.'
+    - 'REVALIDATE LEADERS - ON UNIT CHANGE: When changing what unit a character leads (e.g., moving Wolf Priest from Blood Claws to Grey Hunters), verify the NEW unit is in character.leads array.'
+    - 'REVALIDATE LEADERS - ON REMOVE: When removing a unit that a character was leading, reassign that character to another legal unit OR remove the character.'
+    - 'REVALIDATE LEADERS - CACHE MISS: If cache.leads is empty/null for a CHARACTER, the cache is incomplete. Run --add-unit to refresh that character, then re-verify.'
+    - 'REVALIDATE LEADERS - AUDIT MODE: When auditing an existing list, verify EVERY character→unit attachment against cache.leads BEFORE reporting any other issues.'
+
     # === FACTION ABILITIES (CRITICAL) ===
     - 'FACTION ABILITY - NEVER ASSUME: NEVER claim faction abilities without verification. Check validation-rules.yaml → faction_abilities section FIRST.'
     - 'FACTION ABILITY - DIVERGENT CHAPTERS: Space Wolves, Blood Angels, Dark Angels, Black Templars, Deathwatch have DIFFERENT rules than vanilla Marines. Oath of Moment = re-roll hits ONLY (no +1 to wound).'
