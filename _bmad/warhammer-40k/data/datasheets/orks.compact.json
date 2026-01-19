@@ -1,190 +1,9 @@
 {
   "faction": "orks",
-  "last_updated": "2026-01-07T08:02:28.586429+00:00",
+  "last_updated": "2026-01-19T08:19:27.806034+00:00",
   "schema": "compact-v1",
-  "unit_count": 86,
+  "unit_count": 20,
   "units": {
-    "Beastboss": {
-      "name": "Beastboss",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "BEAST SNAGGA",
-        "BEASTBOSS"
-      ],
-      "leads": [
-        "Boyz"
-      ],
-      "led_by": [
-        "Boyz"
-      ],
-      "core": [
-        "Feel No Pain 6+",
-        "Leader"
-      ]
-    },
-    "Beastboss On Squigosaur": {
-      "name": "Beastboss On Squigosaur",
-      "pts": 110,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MOUNTED",
-        "CHARACTER",
-        "BEAST SNAGGA",
-        "BEASTBOSS ON SQUIGOSAUR"
-      ],
-      "leads": [
-        "Boyz"
-      ],
-      "led_by": [
-        "Boyz"
-      ],
-      "core": [
-        "Feel No Pain 5+",
-        "Leader"
-      ]
-    },
-    "Big Mek": {
-      "name": "Big Mek",
-      "pts": 70,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "GRENADES"
-      ],
-      "leads": [
-        "Tankbustas",
-        "Lootas",
-        "Boyz",
-        "Nobz"
-      ],
-      "led_by": [
-        "Tankbustas",
-        "Lootas",
-        "Boyz",
-        "Nobz"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Big Mek In Mega Armour": {
-      "name": "Big Mek In Mega Armour",
-      "pts": 90,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER"
-      ],
-      "leads": [
-        "Meganobz"
-      ],
-      "led_by": [
-        "Meganobz"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Big Mek With Shokk Attack Gun": {
-      "name": "Big Mek With Shokk Attack Gun",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "GRENADES"
-      ],
-      "leads": [
-        "Tankbustas",
-        "Lootas",
-        "Boyz",
-        "Nobz"
-      ],
-      "led_by": [
-        "Tankbustas",
-        "Lootas",
-        "Boyz",
-        "Nobz"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Boss Snikrot": {
-      "name": "Boss Snikrot",
-      "pts": 75,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "GRENADES",
-        "SMOKE",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Kommandos"
-      ],
-      "led_by": [
-        "Kommandos"
-      ],
-      "core": [
-        "Infiltrators",
-        "Leader",
-        "Lone Operative",
-        "Stealth"
-      ]
-    },
-    "Deffkilla Wartrike": {
-      "name": "Deffkilla Wartrike",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MOUNTED",
-        "CHARACTER"
-      ],
-      "leads": [
-        "Warbikers"
-      ],
-      "led_by": [
-        "Warbikers"
-      ],
-      "core": [
-        "Deadly Demise 1",
-        "Leader"
-      ]
-    },
     "Ghazghkull Thraka": {
       "name": "Ghazghkull Thraka",
       "pts": 235,
@@ -195,123 +14,17 @@
       "models": 2,
       "leads": [
         "Meganobz",
-        "Boyz",
         "Nobz",
+        "Boyz",
         "Ghazkghull Thraka",
         "Makari become a single unit with their original Starting Strength"
       ],
+      "is_leader": true,
       "led_by": [
         "Meganobz",
-        "Boyz",
         "Nobz",
+        "Boyz",
         "Ghazkghull Thraka and Makari become a single unit with their original Starting Strength ."
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Mek": {
-      "name": "Mek",
-      "pts": 45,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER"
-      ],
-      "leads": [
-        "Tankbustas",
-        "Lootas",
-        "Boyz",
-        "Nobz"
-      ],
-      "led_by": [
-        "Tankbustas",
-        "Lootas",
-        "Boyz",
-        "Nobz"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Mozrog Skragbad": {
-      "name": "Mozrog Skragbad",
-      "pts": 145,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "MOUNTED",
-        "CHARACTER",
-        "BEAST SNAGGA",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Boyz"
-      ],
-      "led_by": [
-        "Boyz"
-      ],
-      "core": [
-        "Feel No Pain 5+",
-        "Leader"
-      ]
-    },
-    "Painboss": {
-      "name": "Painboss",
-      "pts": 70,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "BEAST SNAGGA"
-      ],
-      "leads": [
-        "Boyz"
-      ],
-      "led_by": [
-        "Boyz"
-      ],
-      "core": [
-        "Feel No Pain 5+",
-        "Leader"
-      ]
-    },
-    "Painboy": {
-      "name": "Painboy",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER"
-      ],
-      "leads": [
-        "Burna Boyz",
-        "Tankbustas",
-        "Lootas",
-        "Boyz",
-        "Nobz"
-      ],
-      "led_by": [
-        "Burna Boyz",
-        "Tankbustas",
-        "Lootas",
-        "Boyz",
-        "Nobz"
       ],
       "core": [
         "Leader"
@@ -331,19 +44,20 @@
         "GRENADES"
       ],
       "leads": [
-        "Boyz",
-        "Nobz"
+        "Nobz",
+        "Boyz"
       ],
+      "is_leader": true,
       "led_by": [
-        "Boyz",
-        "Nobz"
+        "Nobz",
+        "Boyz"
       ],
       "core": [
         "Leader"
       ]
     },
-    "Warboss In Mega Armour": {
-      "name": "Warboss In Mega Armour",
+    "Warboss in Mega Armour": {
+      "name": "Warboss in Mega Armour",
       "pts": 80,
       "sizes": [
         1
@@ -357,8 +71,93 @@
       "leads": [
         "Meganobz"
       ],
+      "is_leader": true,
       "led_by": [
         "Meganobz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Big Mek with Shokk Attack Gun": {
+      "name": "Big Mek with Shokk Attack Gun",
+      "pts": 80,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER",
+        "GRENADES"
+      ],
+      "leads": [
+        "Tankbustas",
+        "Lootas",
+        "Nobz",
+        "Boyz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Tankbustas",
+        "Lootas",
+        "Nobz",
+        "Boyz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Big Mek in Mega Armour": {
+      "name": "Big Mek in Mega Armour",
+      "pts": 90,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER"
+      ],
+      "leads": [
+        "Meganobz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Meganobz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Painboy": {
+      "name": "Painboy",
+      "pts": 80,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER"
+      ],
+      "leads": [
+        "Burna Boyz",
+        "Tankbustas",
+        "Lootas",
+        "Nobz",
+        "Boyz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Burna Boyz",
+        "Tankbustas",
+        "Lootas",
+        "Nobz",
+        "Boyz"
       ],
       "core": [
         "Leader"
@@ -380,355 +179,13 @@
       "leads": [
         "Boyz"
       ],
+      "is_leader": true,
       "led_by": [
         "Boyz"
       ],
       "core": [
         "Deadly Demise D3",
         "Leader"
-      ]
-    },
-    "Wurrboy": {
-      "name": "Wurrboy",
-      "pts": 60,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "PSYKER",
-        "BEAST SNAGGA"
-      ],
-      "leads": [
-        "Boyz"
-      ],
-      "led_by": [
-        "Boyz"
-      ],
-      "core": [
-        "Deadly Demise D3",
-        "Feel No Pain 6+",
-        "Leader"
-      ]
-    },
-    "Zodgrod Wortsnagga": {
-      "name": "Zodgrod Wortsnagga",
-      "pts": 90,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Gretchin"
-      ],
-      "led_by": [
-        "Gretchin"
-      ],
-      "core": [
-        "Feel No Pain 6+",
-        "Leader"
-      ]
-    },
-    "Da Red Gobbo\u2019s Tinboy": {
-      "name": "Da Red Gobbo\u2019s Tinboy",
-      "pts": 45,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "CHARACTER",
-        "EPIC HERO"
-      ],
-      "core": [
-        "Lone Operative",
-        "Scouts 6\"",
-        "Deadly Demise 1"
-      ]
-    },
-    "Big Mek On Warbike": {
-      "name": "Big Mek On Warbike",
-      "pts": 105,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MOUNTED",
-        "CHARACTER",
-        "GRENADES"
-      ],
-      "leads": [
-        "Warbikers"
-      ],
-      "led_by": [
-        "Warbikers"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Big Mek With Kustom Force Field": {
-      "name": "Big Mek With Kustom Force Field",
-      "pts": 55,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "GRENADES"
-      ],
-      "leads": [
-        "Burna Boyz",
-        "Tankbustas",
-        "Lootas",
-        "Boyz",
-        "Nobz"
-      ],
-      "led_by": [
-        "Burna Boyz",
-        "Tankbustas",
-        "Lootas",
-        "Boyz",
-        "Nobz"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Boss Zagstruk": {
-      "name": "Boss Zagstruk",
-      "pts": 90,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "FLY",
-        "CHARACTER",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Boyz"
-      ],
-      "led_by": [
-        "Boyz"
-      ],
-      "core": [
-        "Deep Strike",
-        "Feel No Pain 6+",
-        "Leader"
-      ]
-    },
-    "Da Red Gobbo": {
-      "name": "Da Red Gobbo",
-      "pts": 40,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "GRENADES",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Gretchin"
-      ],
-      "led_by": [
-        "Gretchin"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Kaptin Badrukk": {
-      "name": "Kaptin Badrukk",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Flash Gitz"
-      ],
-      "led_by": [
-        "Flash Gitz"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Mad Dok Grotsnik": {
-      "name": "Mad Dok Grotsnik",
-      "pts": 65,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Burna Boyz",
-        "Tankbustas",
-        "Lootas",
-        "Boyz",
-        "Nobz"
-      ],
-      "led_by": [
-        "Burna Boyz",
-        "Tankbustas",
-        "Lootas",
-        "Boyz",
-        "Nobz"
-      ],
-      "core": [
-        "Feel No Pain 5+",
-        "Leader"
-      ]
-    },
-    "Nob With Waaagh! Banner": {
-      "name": "Nob With Waaagh! Banner",
-      "pts": 70,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER"
-      ],
-      "leads": [
-        "Boyz",
-        "Nobz"
-      ],
-      "led_by": [
-        "Boyz",
-        "Nobz"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Painboy On Warbike": {
-      "name": "Painboy On Warbike",
-      "pts": 85,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MOUNTED",
-        "CHARACTER"
-      ],
-      "leads": [
-        "Warbikers"
-      ],
-      "led_by": [
-        "Warbikers"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Ufthak Blackhawk": {
-      "name": "Ufthak Blackhawk",
-      "pts": 70,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "GRENADES",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Boyz",
-        "Nobz"
-      ],
-      "led_by": [
-        "Boyz",
-        "Nobz"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Warboss On Warbike": {
-      "name": "Warboss On Warbike",
-      "pts": 75,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MOUNTED",
-        "CHARACTER",
-        "GRENADES"
-      ],
-      "leads": [
-        "Nobz"
-      ],
-      "led_by": [
-        "Nobz"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Beast Snagga Boyz": {
-      "name": "Beast Snagga Boyz",
-      "pts": null,
-      "sizes": [
-        10,
-        20
-      ],
-      "epic_hero": false,
-      "pts_per_model": 9,
-      "keywords": [
-        "INFANTRY",
-        "BATTLELINE",
-        "BEAST SNAGGA",
-        "BEAST SNAGGA BOYZ"
-      ],
-      "core": [
-        "Feel No Pain 6+"
       ]
     },
     "Boyz": {
@@ -749,224 +206,6 @@
         "GRENADES"
       ]
     },
-    "Trukk": {
-      "name": "Trukk",
-      "pts": 70,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT",
-        "DEDICATED TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D3",
-        "Firing Deck 12"
-      ]
-    },
-    "Big\u2019ed Bossbunka": {
-      "name": "Big\u2019ed Bossbunka",
-      "pts": 135,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D3",
-        "Firing Deck 11"
-      ]
-    },
-    "Mekboy Workshop": {
-      "name": "Mekboy Workshop",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Battlewagon": {
-      "name": "Battlewagon",
-      "pts": 160,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D6",
-        "Firing Deck 11"
-      ]
-    },
-    "Blitza-bommer": {
-      "name": "Blitza-bommer",
-      "pts": 115,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Boomdakka Snazzwagon": {
-      "name": "Boomdakka Snazzwagon",
-      "pts": 70,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "GRENADES"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Breaka Boyz": {
-      "name": "Breaka Boyz",
-      "pts": 140,
-      "sizes": [
-        6
-      ],
-      "epic_hero": false,
-      "models": 6,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ]
-    },
-    "Burna Boyz": {
-      "name": "Burna Boyz",
-      "pts": null,
-      "sizes": [],
-      "epic_hero": false,
-      "keywords": [
-        "INFANTRY"
-      ]
-    },
-    "Burna-bommer": {
-      "name": "Burna-bommer",
-      "pts": 125,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Dakkajet": {
-      "name": "Dakkajet",
-      "pts": 135,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Deff Dread": {
-      "name": "Deff Dread",
-      "pts": 120,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Deffkoptas": {
-      "name": "Deffkoptas",
-      "pts": null,
-      "sizes": [
-        3,
-        6
-      ],
-      "epic_hero": false,
-      "pts_per_model": 26,
-      "keywords": [
-        "VEHICLE",
-        "FLY",
-        "GRENADES"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Flash Gitz": {
-      "name": "Flash Gitz",
-      "pts": null,
-      "sizes": [
-        5,
-        10
-      ],
-      "epic_hero": false,
-      "pts_per_model": 16,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ]
-    },
-    "Gorkanaut": {
-      "name": "Gorkanaut",
-      "pts": 265,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
     "Gretchin": {
       "name": "Gretchin",
       "pts": null,
@@ -980,102 +219,18 @@
         "INFANTRY"
       ]
     },
-    "Hunta Rig": {
-      "name": "Hunta Rig",
-      "pts": 135,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "TRANSPORT",
-        "BEAST SNAGGA"
-      ],
-      "core": [
-        "Deadly Demise D6",
-        "Feel No Pain 6+",
-        "Firing Deck 11"
-      ]
-    },
-    "Kill Rig": {
-      "name": "Kill Rig",
-      "pts": 155,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "TRANSPORT",
-        "PSYKER",
-        "BEAST SNAGGA"
-      ],
-      "core": [
-        "Deadly Demise D6",
-        "Feel No Pain 6+"
-      ]
-    },
-    "Killa Kans": {
-      "name": "Killa Kans",
+    "Nobz": {
+      "name": "Nobz",
       "pts": null,
       "sizes": [
-        3,
-        6
-      ],
-      "epic_hero": false,
-      "pts_per_model": 41,
-      "keywords": [
-        "VEHICLE",
-        "WALKER"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Kommandos": {
-      "name": "Kommandos",
-      "pts": 120,
-      "sizes": [
+        5,
         10
       ],
       "epic_hero": false,
-      "models": 10,
+      "pts_per_model": 21,
       "keywords": [
         "INFANTRY",
-        "GRENADES",
-        "SMOKE"
-      ],
-      "core": [
-        "Infiltrators",
-        "Stealth"
-      ]
-    },
-    "Kustom Boosta-blasta": {
-      "name": "Kustom Boosta-blasta",
-      "pts": 70,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
         "GRENADES"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Lootas": {
-      "name": "Lootas",
-      "pts": null,
-      "sizes": [],
-      "epic_hero": false,
-      "keywords": [
-        "INFANTRY"
       ]
     },
     "Meganobz": {
@@ -1099,33 +254,85 @@
         "GRENADES"
       ]
     },
-    "Megatrakk Scrapjet": {
-      "name": "Megatrakk Scrapjet",
-      "pts": 75,
+    "Lootas": {
+      "name": "Lootas",
+      "pts": null,
+      "sizes": [],
+      "epic_hero": false,
+      "keywords": [
+        "INFANTRY"
+      ]
+    },
+    "Burna Boyz": {
+      "name": "Burna Boyz",
+      "pts": null,
+      "sizes": [],
+      "epic_hero": false,
+      "keywords": [
+        "INFANTRY"
+      ]
+    },
+    "Tankbustas": {
+      "name": "Tankbustas",
+      "pts": 140,
+      "sizes": [
+        6
+      ],
+      "epic_hero": false,
+      "models": 6,
+      "keywords": [
+        "INFANTRY",
+        "GRENADES"
+      ]
+    },
+    "Deff Dread": {
+      "name": "Deff Dread",
+      "pts": 120,
       "sizes": [
         1
       ],
       "epic_hero": false,
       "models": 1,
       "keywords": [
-        "VEHICLE"
+        "VEHICLE",
+        "WALKER"
       ],
       "core": [
         "Deadly Demise 1"
       ]
     },
-    "Mek Gunz": {
-      "name": "Mek Gunz",
+    "Killa Kans": {
+      "name": "Killa Kans",
       "pts": null,
       "sizes": [
-        1,
-        2,
-        3
+        3,
+        6
       ],
       "epic_hero": false,
-      "pts_per_model": 50,
+      "pts_per_model": 41,
       "keywords": [
-        "VEHICLE"
+        "VEHICLE",
+        "WALKER"
+      ],
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Gorkanaut": {
+      "name": "Gorkanaut",
+      "pts": 265,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "VEHICLE",
+        "WALKER",
+        "TRANSPORT"
+      ],
+      "core": [
+        "Deadly Demise D6"
       ]
     },
     "Morkanaut": {
@@ -1145,486 +352,35 @@
         "Deadly Demise D6"
       ]
     },
-    "Nobz": {
-      "name": "Nobz",
-      "pts": null,
-      "sizes": [
-        5,
-        10
-      ],
-      "epic_hero": false,
-      "pts_per_model": 21,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ]
-    },
-    "Rukkatrukk Squigbuggy": {
-      "name": "Rukkatrukk Squigbuggy",
-      "pts": 95,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Shokkjump Dragsta": {
-      "name": "Shokkjump Dragsta",
-      "pts": 70,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Squighog Boyz": {
-      "name": "Squighog Boyz",
-      "pts": null,
-      "sizes": [
-        4,
-        8
-      ],
-      "epic_hero": false,
-      "pts_per_model": 37,
-      "keywords": [
-        "MOUNTED",
-        "BEAST SNAGGA",
-        "GRENADES"
-      ],
-      "core": [
-        "Feel No Pain 5+"
-      ]
-    },
-    "Stompa": {
-      "name": "Stompa",
-      "pts": 800,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT",
-        "WALKER"
-      ],
-      "core": [
-        "Deadly Demise 2D6"
-      ]
-    },
-    "Stormboyz": {
-      "name": "Stormboyz",
-      "pts": null,
-      "sizes": [
-        5,
-        10
-      ],
-      "epic_hero": false,
-      "pts_per_model": 13,
-      "keywords": [
-        "INFANTRY",
-        "FLY",
-        "GRENADES"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Tankbustas": {
-      "name": "Tankbustas",
-      "pts": 140,
-      "sizes": [
-        6
-      ],
-      "epic_hero": false,
-      "models": 6,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ]
-    },
-    "Warbikers": {
-      "name": "Warbikers",
-      "pts": null,
-      "sizes": [
-        3,
-        6
-      ],
-      "epic_hero": false,
-      "pts_per_model": 21,
-      "keywords": [
-        "MOUNTED",
-        "GRENADES"
-      ]
-    },
-    "Wazbom Blastajet": {
-      "name": "Wazbom Blastajet",
-      "pts": 175,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY",
-        "GRENADES"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Gargantuan Squiggoth": {
-      "name": "Gargantuan Squiggoth",
-      "pts": 440,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise 2D6",
-        "Firing Deck 20"
-      ]
-    },
-    "Attack Fighta": {
-      "name": "Attack Fighta",
-      "pts": 100,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Big Gunz": {
-      "name": "Big Gunz",
+    "Mek Gunz": {
+      "name": "Mek Gunz",
       "pts": null,
       "sizes": [
         1,
-        2
-      ],
-      "epic_hero": false,
-      "pts_per_model": 20,
-      "keywords": [
-        "VEHICLE"
-      ]
-    },
-    "Big Trakk": {
-      "name": "Big Trakk",
-      "pts": 90,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D3",
-        "Firing Deck 12"
-      ]
-    },
-    "Chinork Warkopta": {
-      "name": "Chinork Warkopta",
-      "pts": 105,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D3",
-        "Deep Strike",
-        "Firing Deck 12"
-      ]
-    },
-    "Deff Rolla Battle Fortress": {
-      "name": "Deff Rolla Battle Fortress",
-      "pts": 250,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D6+2",
-        "Firing Deck 22"
-      ]
-    },
-    "Deffkoptas With Big Shootas": {
-      "name": "Deffkoptas With Big Shootas",
-      "pts": 130,
-      "sizes": [
+        2,
         3
-      ],
-      "epic_hero": false,
-      "models": 3,
-      "keywords": [
-        "VEHICLE",
-        "FLY",
-        "GRENADES"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Fighta-bommer": {
-      "name": "Fighta-bommer",
-      "pts": 100,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Grot Bomm Launcha": {
-      "name": "Grot Bomm Launcha",
-      "pts": 50,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MOUNTED"
-      ]
-    },
-    "Grot Mega-tank": {
-      "name": "Grot Mega-tank",
-      "pts": 110,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Grot Tanks": {
-      "name": "Grot Tanks",
-      "pts": null,
-      "sizes": [
-        4,
-        8
-      ],
-      "epic_hero": false,
-      "pts_per_model": 38,
-      "keywords": [
-        "VEHICLE"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Kannonwagon": {
-      "name": "Kannonwagon",
-      "pts": 115,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D6",
-        "Firing Deck 6"
-      ]
-    },
-    "Kill Krusha": {
-      "name": "Kill Krusha",
-      "pts": 230,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D6+2",
-        "Firing Deck 12"
-      ]
-    },
-    "Kill Tank": {
-      "name": "Kill Tank",
-      "pts": 295,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Lifta Wagon": {
-      "name": "Lifta Wagon",
-      "pts": 135,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Mega Dread": {
-      "name": "Mega Dread",
-      "pts": 225,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Meka-dread": {
-      "name": "Meka-dread",
-      "pts": 210,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Nobz On Warbikes": {
-      "name": "Nobz On Warbikes",
-      "pts": 125,
-      "sizes": [
-        3
-      ],
-      "epic_hero": false,
-      "models": 3,
-      "keywords": [
-        "MOUNTED",
-        "GRENADES"
-      ]
-    },
-    "Skorchas": {
-      "name": "Skorchas",
-      "pts": null,
-      "sizes": [
-        1,
-        2
-      ],
-      "epic_hero": false,
-      "pts_per_model": 45,
-      "keywords": [
-        "MOUNTED"
-      ]
-    },
-    "Squiggoth": {
-      "name": "Squiggoth",
-      "pts": 150,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D6",
-        "Firing Deck 10"
-      ]
-    },
-    "Warbuggies": {
-      "name": "Warbuggies",
-      "pts": null,
-      "sizes": [
-        1,
-        2
-      ],
-      "epic_hero": false,
-      "pts_per_model": 40,
-      "keywords": [
-        "MOUNTED"
-      ]
-    },
-    "Wartrakks": {
-      "name": "Wartrakks",
-      "pts": null,
-      "sizes": [
-        1,
-        2
       ],
       "epic_hero": false,
       "pts_per_model": 50,
       "keywords": [
-        "MOUNTED"
+        "VEHICLE"
+      ]
+    },
+    "Battlewagon": {
+      "name": "Battlewagon",
+      "pts": 160,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "VEHICLE",
+        "TRANSPORT"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Firing Deck 11"
       ]
     }
   }

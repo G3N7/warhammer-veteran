@@ -522,6 +522,88 @@ def fetch_page(url: str) -> str:
         return response.read().decode('utf-8')
 
 
+def search_unit_on_wahapedia(faction: str, unit_name: str, verbose: bool = True) -> Optional[str]:
+    """
+    Search for a unit's correct URL slug on Wahapedia by scraping the faction index page.
+    Returns the correct URL slug if found, None otherwise.
+    """
+    base_url = FACTION_BASE_URLS.get(faction)
+    if not base_url:
+        return None
+
+    try:
+        html = fetch_page(base_url)
+        soup = BeautifulSoup(html, 'html.parser')
+
+        # Normalize the search term for comparison - strip everything to lowercase alphanumeric
+        def normalize(s: str) -> str:
+            return re.sub(r'[^a-z0-9]', '', s.lower())
+
+        search_normalized = normalize(unit_name)
+
+        best_match = None
+        best_score = 0
+
+        # Find all links that look like unit datasheets
+        for link in soup.find_all('a', href=True):
+            href = link['href']
+
+            # Match unit datasheet links
+            pattern = rf'/wh40k10ed/factions/[^/]+/([A-Za-z0-9\-\']+)$'
+            match = re.search(pattern, href)
+
+            if match:
+                slug = match.group(1)
+                link_text = link.get_text(strip=True)
+
+                # Normalize link text and slug for comparison
+                link_normalized = normalize(link_text)
+                slug_normalized = normalize(slug)
+
+                # Check for exact match (case-insensitive, ignoring punctuation)
+                if search_normalized == link_normalized or search_normalized == slug_normalized:
+                    if verbose:
+                        print(f"    Found exact match: {slug}")
+                    return slug
+
+                # Check if search term starts with slug (e.g., "tyranidwarriors" in "tyranidwarriorswithmeleebiowpns")
+                if slug_normalized.startswith(search_normalized) or link_normalized.startswith(search_normalized):
+                    score = len(search_normalized) / max(len(link_normalized), len(slug_normalized))
+                    # Boost score if it's a prefix match
+                    score = min(score + 0.3, 1.0)
+                    if score > best_score:
+                        best_score = score
+                        best_match = slug
+
+                # Check for partial match (unit name contained in link text)
+                # Score based on how much of the search term matches
+                if search_normalized in link_normalized or search_normalized in slug_normalized:
+                    score = len(search_normalized) / max(len(link_normalized), len(slug_normalized))
+                    if score > best_score:
+                        best_score = score
+                        best_match = slug
+
+                # Also check if link text is contained in search term (handles cases like
+                # "Screamer-Killers" searching for "Screamer-killer")
+                if link_normalized in search_normalized and len(link_normalized) > 5:
+                    score = len(link_normalized) / len(search_normalized)
+                    if score > best_score:
+                        best_score = score
+                        best_match = slug
+
+        if best_match and best_score > 0.5:  # Lowered threshold for better fuzzy matching
+            if verbose:
+                print(f"    Found fuzzy match: {best_match} (score: {best_score:.2f})")
+            return best_match
+
+        return None
+
+    except Exception as e:
+        if verbose:
+            print(f"    Search error: {e}")
+        return None
+
+
 def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str, Any]:
     """Extract COMPLETE datasheet from a Wahapedia unit page."""
     soup = BeautifulSoup(html, 'html.parser')
@@ -1028,6 +1110,50 @@ def refresh_faction(faction: str, verbose: bool = True) -> Dict[str, Any]:
                 print(f"OK ({pts_str}, {stat_str})")
 
             time.sleep(0.3)  # Be nice to server
+
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                # URL not found - search for correct slug on Wahapedia
+                if verbose:
+                    print(f"404 - searching...", end=' ', flush=True)
+
+                correct_slug = search_unit_on_wahapedia(faction, name, verbose=False)
+                if correct_slug and correct_slug != slug:
+                    # Found a different slug - try fetching with it
+                    new_url = base_url + correct_slug
+                    try:
+                        html = fetch_page(new_url)
+                        data = extract_full_datasheet(html, name, correct_slug)
+                        faction_data['units'][name] = data
+
+                        if verbose:
+                            pts_str = '/'.join([str(p['points']) for p in data['points']]) + 'pts'
+                            stats = data.get('stats', {})
+                            stat_str = f"M{stats.get('M', '?')} T{stats.get('T', '?')} W{stats.get('W', '?')}"
+                            print(f"FIXED -> {correct_slug} ({pts_str}, {stat_str})")
+
+                        time.sleep(0.3)
+                        continue
+                    except Exception as retry_e:
+                        if verbose:
+                            print(f"RETRY FAILED: {retry_e}")
+
+                # Search failed or retry failed
+                if verbose:
+                    print(f"ERROR: HTTP Error 404: Not Found")
+                faction_data['units'][name] = {
+                    'name': name,
+                    'url_slug': slug,
+                    'error': str(e)
+                }
+            else:
+                if verbose:
+                    print(f"ERROR: {e}")
+                faction_data['units'][name] = {
+                    'name': name,
+                    'url_slug': slug,
+                    'error': str(e)
+                }
 
         except Exception as e:
             if verbose:

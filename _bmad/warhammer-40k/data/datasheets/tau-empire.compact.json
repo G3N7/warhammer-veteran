@@ -1,110 +1,9 @@
 {
   "faction": "tau-empire",
-  "last_updated": "2026-01-07T08:07:21.404966+00:00",
+  "last_updated": "2026-01-19T08:21:40.645966+00:00",
   "schema": "compact-v1",
-  "unit_count": 97,
+  "unit_count": 20,
   "units": {
-    "Cadre Fireblade": {
-      "name": "Cadre Fireblade",
-      "pts": 50,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "GRENADES"
-      ],
-      "leads": [
-        "Breacher Team",
-        "Strike Team"
-      ],
-      "led_by": [
-        "Breacher Team",
-        "Strike Team"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Commander Farsight": {
-      "name": "Commander Farsight",
-      "pts": 85,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "FLY",
-        "CHARACTER",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
-      ],
-      "led_by": [
-        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
-      ],
-      "core": [
-        "Deep Strike",
-        "Leader"
-      ]
-    },
-    "Commander In Coldstar Battlesuit": {
-      "name": "Commander In Coldstar Battlesuit",
-      "pts": 95,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "FLY",
-        "CHARACTER"
-      ],
-      "leads": [
-        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
-      ],
-      "led_by": [
-        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
-      ],
-      "core": [
-        "Deep Strike",
-        "Leader"
-      ]
-    },
-    "Commander In Enforcer Battlesuit": {
-      "name": "Commander In Enforcer Battlesuit",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "FLY",
-        "CHARACTER"
-      ],
-      "leads": [
-        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
-      ],
-      "led_by": [
-        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
-      ],
-      "core": [
-        "Deep Strike",
-        "Leader"
-      ]
-    },
     "Commander Shadowsun": {
       "name": "Commander Shadowsun",
       "pts": 100,
@@ -125,224 +24,27 @@
         "Stealth"
       ]
     },
-    "Darkstrider": {
-      "name": "Darkstrider",
-      "pts": 60,
+    "Commander Farsight": {
+      "name": "Commander Farsight",
+      "pts": 85,
       "sizes": [
         1
       ],
       "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Pathfinder Team"
-      ],
-      "led_by": [
-        "Pathfinder Team"
-      ],
-      "core": [
-        "Infiltrators",
-        "Leader",
-        "Scouts 7\""
-      ]
-    },
-    "Ethereal": {
-      "name": "Ethereal",
-      "pts": 50,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER"
-      ],
-      "leads": [
-        "Breacher Team",
-        "Strike Team"
-      ],
-      "led_by": [
-        "Breacher Team",
-        "Strike Team"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Firesight Team": {
-      "name": "Firesight Team",
-      "pts": 60,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER"
-      ],
-      "core": [
-        "Infiltrators",
-        "Lone Operative",
-        "Stealth"
-      ]
-    },
-    "Kroot Flesh Shaper": {
-      "name": "Kroot Flesh Shaper",
-      "pts": 45,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER"
-      ],
-      "leads": [
-        "Kroot Carnivores"
-      ],
-      "led_by": [
-        "Kroot Carnivores"
-      ],
-      "core": [
-        "Infiltrators",
-        "Leader",
-        "Scouts 7\"",
-        "Stealth"
-      ]
-    },
-    "Kroot Lone-Spear": {
-      "name": "Kroot Lone-Spear",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MOUNTED",
-        "CHARACTER"
-      ],
-      "core": [
-        "Lone Operative",
-        "Scouts 7\"",
-        "Stealth"
-      ]
-    },
-    "Kroot Trail Shaper": {
-      "name": "Kroot Trail Shaper",
-      "pts": 55,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER"
-      ],
-      "leads": [
-        "Kroot Carnivores"
-      ],
-      "led_by": [
-        "Kroot Carnivores"
-      ],
-      "core": [
-        "Infiltrators",
-        "Leader",
-        "Scouts 7\"",
-        "Stealth"
-      ]
-    },
-    "Kroot War Shaper": {
-      "name": "Kroot War Shaper",
-      "pts": 50,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER"
-      ],
-      "leads": [
-        "Kroot Carnivores"
-      ],
-      "led_by": [
-        "Kroot Carnivores"
-      ],
-      "core": [
-        "Infiltrators",
-        "Leader",
-        "Scouts 7\"",
-        "Stealth"
-      ]
-    },
-    "Aun\u2019shi": {
-      "name": "Aun\u2019shi",
-      "pts": 50,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Kroot Carnivores",
-        "Breacher Team",
-        "Strike Team"
-      ],
-      "led_by": [
-        "Kroot Carnivores",
-        "Breacher Team",
-        "Strike Team"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Aun\u2019va": {
-      "name": "Aun\u2019va",
-      "pts": 65,
-      "sizes": [
-        3
-      ],
-      "epic_hero": true,
-      "models": 3,
-      "core": [
-        "Lone Operative"
-      ]
-    },
-    "Commander In Crisis Battlesuit": {
-      "name": "Commander In Crisis Battlesuit",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
       "models": 1,
       "keywords": [
         "VEHICLE",
         "WALKER",
         "FLY",
-        "CHARACTER"
+        "CHARACTER",
+        "EPIC HERO"
       ],
       "leads": [
-        "Crisis Battlesuits"
+        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
       ],
+      "is_leader": true,
       "led_by": [
-        "Crisis Battlesuits"
+        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
       ],
       "core": [
         "Deep Strike",
@@ -367,63 +69,61 @@
         "Deadly Demise D3"
       ]
     },
-    "Shas\u2019o R\u2019alai": {
-      "name": "Shas\u2019o R\u2019alai",
-      "pts": 80,
+    "Cadre Fireblade": {
+      "name": "Cadre Fireblade",
+      "pts": 50,
       "sizes": [
         1
       ],
-      "epic_hero": true,
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER",
+        "GRENADES"
+      ],
+      "leads": [
+        "Breacher Team",
+        "Strike Team"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Breacher Team",
+        "Strike Team"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Commander in Coldstar Battlesuit": {
+      "name": "Commander in Coldstar Battlesuit",
+      "pts": 95,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
       "models": 1,
       "keywords": [
         "VEHICLE",
         "WALKER",
         "FLY",
-        "CHARACTER",
-        "EPIC HERO"
+        "CHARACTER"
       ],
       "leads": [
-        "Xv9 Hazard Battlesuits"
+        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
       ],
+      "is_leader": true,
       "led_by": [
-        "Xv9 Hazard Battlesuits"
+        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
       ],
       "core": [
         "Deep Strike",
         "Leader"
       ]
     },
-    "Breacher Team": {
-      "name": "Breacher Team",
-      "pts": 90,
-      "sizes": [
-        10
-      ],
-      "epic_hero": false,
-      "models": 10,
-      "keywords": [
-        "INFANTRY",
-        "BATTLELINE",
-        "GRENADES"
-      ]
-    },
-    "Strike Team": {
-      "name": "Strike Team",
-      "pts": 70,
-      "sizes": [
-        10
-      ],
-      "epic_hero": false,
-      "models": 10,
-      "keywords": [
-        "INFANTRY",
-        "BATTLELINE",
-        "GRENADES"
-      ]
-    },
-    "Devilfish": {
-      "name": "Devilfish",
-      "pts": 85,
+    "Commander in Enforcer Battlesuit": {
+      "name": "Commander in Enforcer Battlesuit",
+      "pts": 80,
       "sizes": [
         1
       ],
@@ -431,17 +131,43 @@
       "models": 1,
       "keywords": [
         "VEHICLE",
+        "WALKER",
         "FLY",
-        "TRANSPORT",
-        "DEDICATED TRANSPORT"
+        "CHARACTER"
+      ],
+      "leads": [
+        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Crisis Fireknife Battlesuits Crisis Starscythe Battlesuits Crisis Sunforge Battlesuits"
       ],
       "core": [
-        "Deadly Demise D3"
+        "Deep Strike",
+        "Leader"
       ]
     },
-    "Tidewall Droneport": {
-      "name": "Tidewall Droneport",
-      "pts": 85,
+    "Crisis Battlesuits": {
+      "name": "Crisis Battlesuits",
+      "pts": null,
+      "sizes": [
+        3,
+        6
+      ],
+      "epic_hero": false,
+      "pts_per_model": 66,
+      "keywords": [
+        "VEHICLE",
+        "WALKER",
+        "FLY"
+      ],
+      "core": [
+        "Deep Strike"
+      ]
+    },
+    "Riptide Battlesuit": {
+      "name": "Riptide Battlesuit",
+      "pts": 200,
       "sizes": [
         1
       ],
@@ -449,73 +175,11 @@
       "models": 1,
       "keywords": [
         "VEHICLE",
-        "TRANSPORT",
+        "WALKER",
         "FLY"
       ],
       "core": [
-        "Deadly Demise D3",
-        "Firing Deck 11"
-      ]
-    },
-    "Tidewall Gunrig": {
-      "name": "Tidewall Gunrig",
-      "pts": 90,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D3",
-        "Firing Deck 11"
-      ]
-    },
-    "Tidewall Shieldline": {
-      "name": "Tidewall Shieldline",
-      "pts": 85,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D3",
-        "Firing Deck 20"
-      ]
-    },
-    "Drone Sentry Turret": {
-      "name": "Drone Sentry Turret",
-      "pts": 50,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE"
-      ]
-    },
-    "Remote Sensor Tower": {
-      "name": "Remote Sensor Tower",
-      "pts": 50,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "FORTIFICATION",
-        "REMOTE SENSOR TOWER"
+        "Deadly Demise D6"
       ]
     },
     "Broadside Battlesuits": {
@@ -535,57 +199,6 @@
       "keywords": [
         "VEHICLE",
         "WALKER"
-      ]
-    },
-    "Crisis Fireknife Battlesuits": {
-      "name": "Crisis Fireknife Battlesuits",
-      "pts": 120,
-      "sizes": [
-        3
-      ],
-      "epic_hero": false,
-      "models": 3,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "FLY"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Crisis Starscythe Battlesuits": {
-      "name": "Crisis Starscythe Battlesuits",
-      "pts": 110,
-      "sizes": [
-        3
-      ],
-      "epic_hero": false,
-      "models": 3,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "FLY"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Crisis Sunforge Battlesuits": {
-      "name": "Crisis Sunforge Battlesuits",
-      "pts": 140,
-      "sizes": [
-        3
-      ],
-      "epic_hero": false,
-      "models": 3,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "FLY"
-      ],
-      "core": [
-        "Deep Strike"
       ]
     },
     "Ghostkeel Battlesuit": {
@@ -609,6 +222,68 @@
         "Stealth"
       ]
     },
+    "Stealth Battlesuits": {
+      "name": "Stealth Battlesuits",
+      "pts": 110,
+      "sizes": [
+        5
+      ],
+      "epic_hero": false,
+      "models": 5,
+      "keywords": [
+        "INFANTRY",
+        "FLY",
+        "GRENADES"
+      ],
+      "core": [
+        "Infiltrators",
+        "Stealth"
+      ]
+    },
+    "Strike Team": {
+      "name": "Strike Team",
+      "pts": 70,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10,
+      "keywords": [
+        "INFANTRY",
+        "BATTLELINE",
+        "GRENADES"
+      ]
+    },
+    "Breacher Team": {
+      "name": "Breacher Team",
+      "pts": 90,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10,
+      "keywords": [
+        "INFANTRY",
+        "BATTLELINE",
+        "GRENADES"
+      ]
+    },
+    "Pathfinder Team": {
+      "name": "Pathfinder Team",
+      "pts": 90,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10,
+      "keywords": [
+        "INFANTRY",
+        "GRENADES"
+      ],
+      "core": [
+        "Scouts 7\""
+      ]
+    },
     "Hammerhead Gunship": {
       "name": "Hammerhead Gunship",
       "pts": 145,
@@ -623,6 +298,59 @@
       ],
       "core": [
         "Deadly Demise D3"
+      ]
+    },
+    "Sky Ray Gunship": {
+      "name": "Sky Ray Gunship",
+      "pts": 150,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "VEHICLE",
+        "FLY"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Devilfish": {
+      "name": "Devilfish",
+      "pts": 85,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "VEHICLE",
+        "FLY",
+        "TRANSPORT",
+        "DEDICATED TRANSPORT"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Piranhas": {
+      "name": "Piranhas",
+      "pts": null,
+      "sizes": [
+        1,
+        2,
+        3
+      ],
+      "epic_hero": false,
+      "pts_per_model": 60,
+      "keywords": [
+        "VEHICLE",
+        "FLY"
+      ],
+      "core": [
+        "Deadly Demise 1",
+        "Scouts 9\""
       ]
     },
     "Kroot Carnivores": {
@@ -661,496 +389,6 @@
       "core": [
         "Infiltrators",
         "Stealth"
-      ]
-    },
-    "Kroot Hounds": {
-      "name": "Kroot Hounds",
-      "pts": null,
-      "sizes": [
-        5,
-        10
-      ],
-      "epic_hero": false,
-      "pts_per_model": 8,
-      "keywords": [
-        "BEASTS"
-      ],
-      "core": [
-        "Scouts 7\"",
-        "Stealth"
-      ]
-    },
-    "Krootox Rampagers": {
-      "name": "Krootox Rampagers",
-      "pts": null,
-      "sizes": [
-        3,
-        6
-      ],
-      "epic_hero": false,
-      "pts_per_model": 28,
-      "keywords": [
-        "MOUNTED",
-        "GRENADES"
-      ],
-      "core": [
-        "Scouts 7\""
-      ]
-    },
-    "Krootox Riders": {
-      "name": "Krootox Riders",
-      "pts": null,
-      "sizes": [
-        1,
-        2,
-        3
-      ],
-      "epic_hero": false,
-      "pts_table": {
-        "1": 40,
-        "2": 60,
-        "3": 90
-      },
-      "keywords": [
-        "MOUNTED",
-        "GRENADES"
-      ],
-      "core": [
-        "Scouts 7\""
-      ]
-    },
-    "Pathfinder Team": {
-      "name": "Pathfinder Team",
-      "pts": 90,
-      "sizes": [
-        10
-      ],
-      "epic_hero": false,
-      "models": 10,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ],
-      "core": [
-        "Scouts 7\""
-      ]
-    },
-    "Piranhas": {
-      "name": "Piranhas",
-      "pts": null,
-      "sizes": [
-        1,
-        2,
-        3
-      ],
-      "epic_hero": false,
-      "pts_per_model": 60,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise 1",
-        "Scouts 9\""
-      ]
-    },
-    "Razorshark Strike Fighter": {
-      "name": "Razorshark Strike Fighter",
-      "pts": 170,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Riptide Battlesuit": {
-      "name": "Riptide Battlesuit",
-      "pts": 200,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Sky Ray Gunship": {
-      "name": "Sky Ray Gunship",
-      "pts": 150,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Stealth Battlesuits": {
-      "name": "Stealth Battlesuits",
-      "pts": 110,
-      "sizes": [
-        5
-      ],
-      "epic_hero": false,
-      "models": 5,
-      "keywords": [
-        "INFANTRY",
-        "FLY",
-        "GRENADES"
-      ],
-      "core": [
-        "Infiltrators",
-        "Stealth"
-      ]
-    },
-    "Stormsurge": {
-      "name": "Stormsurge",
-      "pts": 360,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Sun Shark Bomber": {
-      "name": "Sun Shark Bomber",
-      "pts": 160,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Vespid Stingwings": {
-      "name": "Vespid Stingwings",
-      "pts": null,
-      "sizes": [
-        5,
-        10
-      ],
-      "epic_hero": false,
-      "pts_per_model": 13,
-      "keywords": [
-        "INFANTRY",
-        "FLY"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "AX-1-0 Tiger Shark": {
-      "name": "AX-1-0 Tiger Shark",
-      "pts": 315,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Manta": {
-      "name": "Manta",
-      "pts": 2100,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise 3D6",
-        "Hover"
-      ]
-    },
-    "Ta\u2019unar Supremacy Armour": {
-      "name": "Ta\u2019unar Supremacy Armour",
-      "pts": 790,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER"
-      ],
-      "core": [
-        "Deadly Demise D6+3"
-      ]
-    },
-    "Tiger Shark": {
-      "name": "Tiger Shark",
-      "pts": 325,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Barracuda": {
-      "name": "Barracuda",
-      "pts": 220,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Crisis Battlesuits": {
-      "name": "Crisis Battlesuits",
-      "pts": null,
-      "sizes": [
-        3,
-        6
-      ],
-      "epic_hero": false,
-      "pts_per_model": 66,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "FLY"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Great Knarloc": {
-      "name": "Great Knarloc",
-      "pts": 100,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER"
-      ],
-      "core": [
-        "Scouts 7\""
-      ]
-    },
-    "Heavy Gun Drones": {
-      "name": "Heavy Gun Drones",
-      "pts": 45,
-      "sizes": [
-        2
-      ],
-      "epic_hero": false,
-      "models": 2,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ]
-    },
-    "Knarloc Riders": {
-      "name": "Knarloc Riders",
-      "pts": 110,
-      "sizes": [
-        3
-      ],
-      "epic_hero": false,
-      "models": 3,
-      "keywords": [
-        "MOUNTED"
-      ],
-      "core": [
-        "Scouts 7\"",
-        "Stealth"
-      ]
-    },
-    "Orca Dropship": {
-      "name": "Orca Dropship",
-      "pts": 275,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D6+2",
-        "Hover"
-      ]
-    },
-    "R\u2019varna Battlesuit": {
-      "name": "R\u2019varna Battlesuit",
-      "pts": 200,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Remora Stealth Drones": {
-      "name": "Remora Stealth Drones",
-      "pts": 160,
-      "sizes": [
-        2
-      ],
-      "epic_hero": false,
-      "models": 2,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Infiltrators",
-        "Stealth"
-      ]
-    },
-    "Tactical Drones": {
-      "name": "Tactical Drones",
-      "pts": null,
-      "sizes": [
-        4,
-        8,
-        12
-      ],
-      "epic_hero": false,
-      "pts_per_model": 17,
-      "keywords": [
-        "FLY"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Tetras": {
-      "name": "Tetras",
-      "pts": null,
-      "sizes": [
-        2,
-        4
-      ],
-      "epic_hero": false,
-      "pts_per_model": 40,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise 1",
-        "Infiltrators"
-      ]
-    },
-    "Tx42 Piranha": {
-      "name": "Tx42 Piranha",
-      "pts": 60,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise 1",
-        "Scouts 9\""
-      ]
-    },
-    "Xv9 Hazard Battlesuits": {
-      "name": "Xv9 Hazard Battlesuits",
-      "pts": null,
-      "sizes": [
-        1,
-        2
-      ],
-      "epic_hero": false,
-      "pts_per_model": 55,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "FLY"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Y\u2019vahra Battlesuit": {
-      "name": "Y\u2019vahra Battlesuit",
-      "pts": 210,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D6"
       ]
     }
   }

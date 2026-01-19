@@ -1,54 +1,9 @@
 {
   "faction": "tyranids",
-  "last_updated": "2026-01-07T08:05:21.731939+00:00",
+  "last_updated": "2026-01-19T08:20:54.290831+00:00",
   "schema": "compact-v1",
-  "unit_count": 64,
+  "unit_count": 20,
   "units": {
-    "Broodlord": {
-      "name": "Broodlord",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "PSYKER",
-        "SYNAPSE"
-      ],
-      "leads": [
-        "Genestealers"
-      ],
-      "led_by": [
-        "Genestealers"
-      ],
-      "core": [
-        "Leader",
-        "Scouts 8\""
-      ]
-    },
-    "Deathleaper": {
-      "name": "Deathleaper",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "EPIC HERO"
-      ],
-      "core": [
-        "Fights First",
-        "Infiltrators",
-        "Lone Operative",
-        "Stealth"
-      ]
-    },
     "Hive Tyrant": {
       "name": "Hive Tyrant",
       "pts": 195,
@@ -66,139 +21,7 @@
       "leads": [
         "Tyrant Guard"
       ],
-      "led_by": [
-        "Tyrant Guard"
-      ],
-      "core": [
-        "Deadly Demise D3",
-        "Leader"
-      ]
-    },
-    "Hyperadapted Raveners": {
-      "name": "Hyperadapted Raveners",
-      "pts": 165,
-      "sizes": [
-        5
-      ],
-      "epic_hero": false,
-      "models": 5,
-      "leads": [
-        "Raveners"
-      ],
-      "led_by": [
-        "Raveners"
-      ],
-      "core": [
-        "Deep Strike",
-        "Leader"
-      ]
-    },
-    "Neurotyrant": {
-      "name": "Neurotyrant",
-      "pts": 105,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "CHARACTER",
-        "FLY",
-        "PSYKER",
-        "SYNAPSE"
-      ],
-      "leads": [
-        "Zoanthropes"
-      ],
-      "led_by": [
-        "Zoanthropes"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Old One Eye": {
-      "name": "Old One Eye",
-      "pts": 150,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "CHARACTER",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Carnifexes"
-      ],
-      "led_by": [
-        "Carnifexes"
-      ],
-      "core": [
-        "Feel No Pain 5+",
-        "Leader"
-      ]
-    },
-    "Parasite Of Mortrex": {
-      "name": "Parasite Of Mortrex",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "FLY",
-        "SYNAPSE"
-      ],
-      "core": [
-        "Deep Strike",
-        "Lone Operative",
-        "Stealth"
-      ]
-    },
-    "Tervigon": {
-      "name": "Tervigon",
-      "pts": 160,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "CHARACTER",
-        "PSYKER",
-        "SYNAPSE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "The Swarmlord": {
-      "name": "The Swarmlord",
-      "pts": 220,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "CHARACTER",
-        "EPIC HERO",
-        "PSYKER",
-        "SYNAPSE",
-        "THE SWARMLORD"
-      ],
-      "leads": [
-        "Tyrant Guard"
-      ],
+      "is_leader": true,
       "led_by": [
         "Tyrant Guard"
       ],
@@ -227,105 +50,37 @@
         "Deep Strike"
       ]
     },
-    "Winged Tyranid Prime": {
-      "name": "Winged Tyranid Prime",
-      "pts": 65,
+    "The Swarmlord": {
+      "name": "The Swarmlord",
+      "pts": 220,
       "sizes": [
         1
       ],
-      "epic_hero": false,
+      "epic_hero": true,
       "models": 1,
       "keywords": [
-        "INFANTRY",
+        "MONSTER",
         "CHARACTER",
-        "FLY",
-        "SYNAPSE"
+        "EPIC HERO",
+        "PSYKER",
+        "SYNAPSE",
+        "THE SWARMLORD"
       ],
       "leads": [
-        "Tyranid Warriors"
+        "Tyrant Guard"
       ],
+      "is_leader": true,
       "led_by": [
-        "Tyranid Warriors"
+        "Tyrant Guard"
       ],
       "core": [
-        "Deep Strike",
+        "Deadly Demise D3",
         "Leader"
       ]
     },
-    "Malanthrope": {
-      "name": "Malanthrope",
-      "pts": 75,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "FLY",
-        "SYNAPSE"
-      ],
-      "leads": [
-        "Venomthropes"
-      ],
-      "led_by": [
-        "Venomthropes"
-      ],
-      "core": [
-        "Leader",
-        "Stealth"
-      ]
-    },
-    "Gargoyles": {
-      "name": "Gargoyles",
-      "pts": null,
-      "sizes": [
-        10,
-        20
-      ],
-      "epic_hero": false,
-      "pts_per_model": 8,
-      "keywords": [
-        "INFANTRY",
-        "BATTLELINE",
-        "FLY"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Hormagaunts": {
-      "name": "Hormagaunts",
-      "pts": null,
-      "sizes": [
-        10,
-        20
-      ],
-      "epic_hero": false,
-      "pts_per_model": 6,
-      "keywords": [
-        "INFANTRY",
-        "BATTLELINE"
-      ]
-    },
-    "Termagants": {
-      "name": "Termagants",
-      "pts": null,
-      "sizes": [
-        10,
-        20
-      ],
-      "epic_hero": false,
-      "pts_per_model": 6,
-      "keywords": [
-        "INFANTRY",
-        "BATTLELINE"
-      ]
-    },
-    "Tyrannocyte": {
-      "name": "Tyrannocyte",
-      "pts": 105,
+    "Tervigon": {
+      "name": "Tervigon",
+      "pts": 160,
       "sizes": [
         1
       ],
@@ -333,43 +88,42 @@
       "models": 1,
       "keywords": [
         "MONSTER",
-        "FLY",
-        "TRANSPORT",
-        "DEDICATED TRANSPORT"
+        "CHARACTER",
+        "PSYKER",
+        "SYNAPSE"
       ],
       "core": [
-        "Deadly Demise D3",
-        "Deep Strike"
+        "Deadly Demise D6"
       ]
     },
-    "Barbgaunts": {
-      "name": "Barbgaunts",
-      "pts": null,
+    "Tyrannofex": {
+      "name": "Tyrannofex",
+      "pts": 200,
       "sizes": [
-        5,
-        10
+        1
       ],
       "epic_hero": false,
-      "pts_per_model": 11,
+      "models": 1,
       "keywords": [
-        "INFANTRY"
-      ]
-    },
-    "Biovores": {
-      "name": "Biovores",
-      "pts": null,
-      "sizes": [
-        1,
-        2,
-        3
-      ],
-      "epic_hero": false,
-      "pts_per_model": 50,
-      "keywords": [
-        "INFANTRY"
+        "MONSTER"
       ],
       "core": [
-        "Deadly Demise 1"
+        "Deadly Demise D6"
+      ]
+    },
+    "Exocrine": {
+      "name": "Exocrine",
+      "pts": 140,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER"
+      ],
+      "core": [
+        "Deadly Demise D3"
       ]
     },
     "Carnifexes": {
@@ -388,9 +142,24 @@
         "Deadly Demise 1"
       ]
     },
-    "Exocrine": {
-      "name": "Exocrine",
-      "pts": 140,
+    "Screamer-Killers": {
+      "name": "Screamer-Killers",
+      "pts": 125,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER"
+      ],
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Haruspex": {
+      "name": "Haruspex",
+      "pts": 125,
       "sizes": [
         1
       ],
@@ -401,6 +170,122 @@
       ],
       "core": [
         "Deadly Demise D3"
+      ]
+    },
+    "Maleceptor": {
+      "name": "Maleceptor",
+      "pts": 170,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "PSYKER",
+        "SYNAPSE"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Zoanthropes": {
+      "name": "Zoanthropes",
+      "pts": null,
+      "sizes": [
+        3,
+        6
+      ],
+      "epic_hero": false,
+      "pts_per_model": 33,
+      "keywords": [
+        "INFANTRY",
+        "PSYKER",
+        "FLY",
+        "SYNAPSE"
+      ]
+    },
+    "Neurotyrant": {
+      "name": "Neurotyrant",
+      "pts": 105,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "CHARACTER",
+        "FLY",
+        "PSYKER",
+        "SYNAPSE"
+      ],
+      "leads": [
+        "Zoanthropes",
+        "Neurogaunts"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Zoanthropes",
+        "Neurogaunts"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Termagants": {
+      "name": "Termagants",
+      "pts": null,
+      "sizes": [
+        10,
+        20
+      ],
+      "epic_hero": false,
+      "pts_per_model": 6,
+      "keywords": [
+        "INFANTRY",
+        "BATTLELINE"
+      ]
+    },
+    "Hormagaunts": {
+      "name": "Hormagaunts",
+      "pts": null,
+      "sizes": [
+        10,
+        20
+      ],
+      "epic_hero": false,
+      "pts_per_model": 6,
+      "keywords": [
+        "INFANTRY",
+        "BATTLELINE"
+      ]
+    },
+    "Barbgaunts": {
+      "name": "Barbgaunts",
+      "pts": null,
+      "sizes": [
+        5,
+        10
+      ],
+      "epic_hero": false,
+      "pts_per_model": 11,
+      "keywords": [
+        "INFANTRY"
+      ]
+    },
+    "Tyranid Warriors": {
+      "name": "Tyranid Warriors",
+      "pts": null,
+      "sizes": [
+        3,
+        6
+      ],
+      "epic_hero": false,
+      "pts_per_model": 25,
+      "keywords": [
+        "INFANTRY",
+        "SYNAPSE"
       ]
     },
     "Genestealers": {
@@ -422,214 +307,21 @@
         "Scouts 8\""
       ]
     },
-    "Harpy": {
-      "name": "Harpy",
-      "pts": 215,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D3",
-        "Hover"
-      ]
-    },
-    "Haruspex": {
-      "name": "Haruspex",
-      "pts": 125,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Hive Crone": {
-      "name": "Hive Crone",
-      "pts": 200,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D3",
-        "Hover"
-      ]
-    },
-    "Hive Guard": {
-      "name": "Hive Guard",
-      "pts": null,
-      "sizes": [
-        3,
-        6
-      ],
-      "epic_hero": false,
-      "pts_per_model": 30,
-      "keywords": [
-        "INFANTRY"
-      ]
-    },
-    "Lictor": {
-      "name": "Lictor",
-      "pts": 60,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY"
-      ],
-      "core": [
-        "Fights First",
-        "Infiltrators",
-        "Lone Operative",
-        "Stealth"
-      ]
-    },
-    "Maleceptor": {
-      "name": "Maleceptor",
-      "pts": 170,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "PSYKER",
-        "SYNAPSE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Mawloc": {
-      "name": "Mawloc",
-      "pts": 135,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Mucolid Spores": {
-      "name": "Mucolid Spores",
+    "Biovores": {
+      "name": "Biovores",
       "pts": null,
       "sizes": [
         1,
-        2
+        2,
+        3
       ],
       "epic_hero": false,
-      "pts_per_model": 30,
-      "keywords": [
-        "BEAST",
-        "FLY"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Neurogaunts": {
-      "name": "Neurogaunts",
-      "pts": null,
-      "sizes": [
-        11,
-        22
-      ],
-      "epic_hero": false,
-      "pts_per_model": 4,
+      "pts_per_model": 50,
       "keywords": [
         "INFANTRY"
-      ]
-    },
-    "Neurolictor": {
-      "name": "Neurolictor",
-      "pts": 70,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "SYNAPSE"
       ],
       "core": [
-        "Infiltrators",
-        "Lone Operative",
-        "Stealth"
-      ]
-    },
-    "Norn Assimilator": {
-      "name": "Norn Assimilator",
-      "pts": 275,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "SYNAPSE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Norn Emissary": {
-      "name": "Norn Emissary",
-      "pts": 260,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "PSYKER",
-        "SYNAPSE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Psychophage": {
-      "name": "Psychophage",
-      "pts": 110,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise 1",
-        "Feel No Pain 5+"
+        "Deadly Demise 1"
       ]
     },
     "Pyrovores": {
@@ -653,321 +345,17 @@
         "Deadly Demise 1"
       ]
     },
-    "Raveners": {
-      "name": "Raveners",
-      "pts": 125,
+    "Hive Guard": {
+      "name": "Hive Guard",
+      "pts": null,
       "sizes": [
-        5
+        3,
+        6
       ],
       "epic_hero": false,
-      "models": 5,
+      "pts_per_model": 30,
       "keywords": [
         "INFANTRY"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Ripper Swarms": {
-      "name": "Ripper Swarms",
-      "pts": null,
-      "sizes": [
-        1,
-        2,
-        3
-      ],
-      "epic_hero": false,
-      "pts_table": {
-        "1": 25,
-        "2": 40,
-        "3": 50
-      },
-      "keywords": [
-        "SWARM",
-        "RIPPER SWARMS"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Screamer-killer": {
-      "name": "Screamer-killer",
-      "pts": 125,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Spore Mines": {
-      "name": "Spore Mines",
-      "pts": null,
-      "sizes": [
-        3,
-        6
-      ],
-      "epic_hero": false,
-      "pts_per_model": 18,
-      "keywords": [
-        "BEAST",
-        "FLY"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Sporocyst": {
-      "name": "Sporocyst",
-      "pts": 145,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Toxicrene": {
-      "name": "Toxicrene",
-      "pts": 150,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Trygon": {
-      "name": "Trygon",
-      "pts": 140,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Tyranid Warriors With Melee Bio-weapons": {
-      "name": "Tyranid Warriors With Melee Bio-weapons",
-      "pts": null,
-      "sizes": [
-        3,
-        6
-      ],
-      "epic_hero": false,
-      "pts_per_model": 25,
-      "keywords": [
-        "INFANTRY",
-        "SYNAPSE"
-      ]
-    },
-    "Tyranid Warriors With Ranged Bio-weapons": {
-      "name": "Tyranid Warriors With Ranged Bio-weapons",
-      "pts": null,
-      "sizes": [
-        3,
-        6
-      ],
-      "epic_hero": false,
-      "pts_per_model": 21,
-      "keywords": [
-        "INFANTRY",
-        "SYNAPSE"
-      ]
-    },
-    "Tyrannofex": {
-      "name": "Tyrannofex",
-      "pts": 200,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Tyrant Guard": {
-      "name": "Tyrant Guard",
-      "pts": null,
-      "sizes": [
-        3,
-        6
-      ],
-      "epic_hero": false,
-      "pts_per_model": 26,
-      "keywords": [
-        "INFANTRY"
-      ]
-    },
-    "Venomthropes": {
-      "name": "Venomthropes",
-      "pts": null,
-      "sizes": [
-        3,
-        6
-      ],
-      "epic_hero": false,
-      "pts_per_model": 23,
-      "keywords": [
-        "INFANTRY",
-        "FLY"
-      ],
-      "core": [
-        "Stealth"
-      ]
-    },
-    "Von Ryan\u2019s Leapers": {
-      "name": "Von Ryan\u2019s Leapers",
-      "pts": null,
-      "sizes": [
-        3,
-        6
-      ],
-      "epic_hero": false,
-      "pts_per_model": 23,
-      "keywords": [
-        "INFANTRY"
-      ],
-      "core": [
-        "Fights First",
-        "Infiltrators",
-        "Stealth"
-      ]
-    },
-    "Zoanthropes": {
-      "name": "Zoanthropes",
-      "pts": null,
-      "sizes": [
-        3,
-        6
-      ],
-      "epic_hero": false,
-      "pts_per_model": 33,
-      "keywords": [
-        "INFANTRY",
-        "PSYKER",
-        "FLY",
-        "SYNAPSE"
-      ]
-    },
-    "Harridan": {
-      "name": "Harridan",
-      "pts": 610,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "FLY",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise 2D6",
-        "Hover"
-      ]
-    },
-    "Hierophant": {
-      "name": "Hierophant",
-      "pts": 810,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise 2D6"
-      ]
-    },
-    "Barbed Hierodule": {
-      "name": "Barbed Hierodule",
-      "pts": 340,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Dimachaeron": {
-      "name": "Dimachaeron",
-      "pts": 200,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Scythed Hierodule": {
-      "name": "Scythed Hierodule",
-      "pts": 330,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MONSTER"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Sky-slasher Swarms": {
-      "name": "Sky-slasher Swarms",
-      "pts": 60,
-      "sizes": [
-        3
-      ],
-      "epic_hero": false,
-      "models": 3,
-      "keywords": [
-        "SWARM",
-        "FLY",
-        "SKY-SLASHER SWARMS"
-      ],
-      "core": [
-        "Deep Strike"
       ]
     }
   }

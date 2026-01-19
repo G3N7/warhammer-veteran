@@ -1,9 +1,37 @@
 {
   "faction": "astra-militarum",
-  "last_updated": "2026-01-07T06:58:39.598995+00:00",
+  "last_updated": "2026-01-19T08:20:07.222874+00:00",
   "schema": "compact-v1",
-  "unit_count": 128,
+  "unit_count": 22,
   "units": {
+    "Lord Solar Leontus": {
+      "name": "Lord Solar Leontus",
+      "pts": 130,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "MOUNTED",
+        "CHARACTER",
+        "EPIC HERO"
+      ],
+      "leads": [
+        "Catachan Jungle Fighters",
+        "Cadian Shock Troops",
+        "Kasrkin"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Catachan Jungle Fighters",
+        "Cadian Shock Troops",
+        "Kasrkin"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
     "Cadian Castellan": {
       "name": "Cadian Castellan",
       "pts": 55,
@@ -21,6 +49,7 @@
         "Cadian Shock Troops",
         "Kasrkin"
       ],
+      "is_leader": true,
       "led_by": [
         "Cadian Shock Troops",
         "Kasrkin"
@@ -40,88 +69,9 @@
       "leads": [
         "Cadian Shock Troops"
       ],
+      "is_leader": true,
       "led_by": [
         "Cadian Shock Troops"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Catachan Command Squad": {
-      "name": "Catachan Command Squad",
-      "pts": 65,
-      "sizes": [
-        5
-      ],
-      "epic_hero": false,
-      "models": 5,
-      "leads": [
-        "Catachan Jungle Fighters"
-      ],
-      "led_by": [
-        "Catachan Jungle Fighters"
-      ],
-      "core": [
-        "Leader",
-        "Scouts 6\""
-      ]
-    },
-    "Commissar": {
-      "name": "Commissar",
-      "pts": 30,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER"
-      ],
-      "leads": [
-        "Catachan Jungle Fighters",
-        "Cadian Shock Troops",
-        "Tempestus Scions",
-        "Kasrkin"
-      ],
-      "led_by": [
-        "Catachan Jungle Fighters",
-        "Cadian Shock Troops",
-        "Tempestus Scions",
-        "Kasrkin"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Gaunt\u2019s Ghosts": {
-      "name": "Gaunt\u2019s Ghosts",
-      "pts": 100,
-      "sizes": [
-        6
-      ],
-      "epic_hero": false,
-      "models": 6,
-      "core": [
-        "Fights First",
-        "Infiltrators",
-        "Lone Operative",
-        "Stealth"
-      ]
-    },
-    "Krieg Command Squad": {
-      "name": "Krieg Command Squad",
-      "pts": 65,
-      "sizes": [
-        6
-      ],
-      "epic_hero": false,
-      "models": 6,
-      "leads": [
-        "Krieg Combat Engineers Death Korps Of Krieg"
-      ],
-      "led_by": [
-        "Krieg Combat Engineers Death Korps Of Krieg"
       ],
       "core": [
         "Leader"
@@ -144,211 +94,9 @@
         "Deadly Demise D3"
       ]
     },
-    "Lord Marshal Dreir": {
-      "name": "Lord Marshal Dreir",
-      "pts": 100,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "MOUNTED",
-        "CHARACTER",
-        "EPIC HERO",
-        "GRENADES"
-      ],
-      "leads": [
-        "Death Riders"
-      ],
-      "led_by": [
-        "Death Riders"
-      ],
-      "core": [
-        "Leader",
-        "Feel No Pain 6+"
-      ]
-    },
-    "Lord Solar Leontus": {
-      "name": "Lord Solar Leontus",
-      "pts": 130,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "MOUNTED",
-        "CHARACTER",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Catachan Jungle Fighters",
-        "Cadian Shock Troops",
-        "Kasrkin"
-      ],
-      "led_by": [
-        "Catachan Jungle Fighters",
-        "Cadian Shock Troops",
-        "Kasrkin"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Militarum Tempestus Command Squad": {
-      "name": "Militarum Tempestus Command Squad",
-      "pts": 85,
-      "sizes": [
-        5
-      ],
-      "epic_hero": false,
-      "models": 5,
-      "leads": [
-        "Tempestus Scions"
-      ],
-      "led_by": [
-        "Tempestus Scions"
-      ],
-      "core": [
-        "Deep Strike",
-        "Leader"
-      ]
-    },
-    "Ministorum Priest": {
-      "name": "Ministorum Priest",
-      "pts": 35,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "GRENADES"
-      ],
-      "leads": [
-        "Catachan Jungle Fighters",
-        "Cadian Shock Troops",
-        "Tempestus Scions",
-        "Kasrkin"
-      ],
-      "led_by": [
-        "Catachan Jungle Fighters",
-        "Cadian Shock Troops",
-        "Tempestus Scions",
-        "Kasrkin"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Nork Deddog": {
-      "name": "Nork Deddog",
-      "pts": 60,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "EPIC HERO",
-        "GRENADES"
-      ],
-      "core": [
-        "Feel No Pain 5+"
-      ]
-    },
-    "Ogryn Bodyguard": {
-      "name": "Ogryn Bodyguard",
-      "pts": 40,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "GRENADES"
-      ],
-      "core": [
-        "Feel No Pain 6+"
-      ]
-    },
-    "Primaris Psyker": {
-      "name": "Primaris Psyker",
-      "pts": 60,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "PSYKER",
-        "PRIMARIS PSYKER"
-      ],
-      "leads": [
-        "Catachan Jungle Fighters",
-        "Cadian Shock Troops",
-        "Tempestus Scions",
-        "Kasrkin"
-      ],
-      "led_by": [
-        "Catachan Jungle Fighters",
-        "Cadian Shock Troops",
-        "Tempestus Scions",
-        "Kasrkin"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Rogal Dorn Commander": {
-      "name": "Rogal Dorn Commander",
-      "pts": 275,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "CHARACTER",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Sly Marbo": {
-      "name": "Sly Marbo",
-      "pts": 55,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "EPIC HERO",
-        "GRENADES"
-      ],
-      "core": [
-        "Infiltrators",
-        "Lone Operative",
-        "Stealth"
-      ]
-    },
-    "Tech-Priest Enginseer": {
-      "name": "Tech-Priest Enginseer",
-      "pts": 45,
+    "Commissar": {
+      "name": "Commissar",
+      "pts": 30,
       "sizes": [
         1
       ],
@@ -361,220 +109,38 @@
       "leads": [
         "Catachan Jungle Fighters",
         "Cadian Shock Troops",
+        "Tempestus Scions",
         "Kasrkin"
       ],
+      "is_leader": true,
       "led_by": [
         "Catachan Jungle Fighters",
         "Cadian Shock Troops",
+        "Tempestus Scions",
         "Kasrkin"
       ],
       "core": [
         "Leader"
       ]
     },
-    "Ursula Creed": {
-      "name": "Ursula Creed",
-      "pts": 85,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Cadian Shock Troops",
-        "Kasrkin"
-      ],
-      "led_by": [
-        "Cadian Shock Troops",
-        "Kasrkin"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "\u2018Iron Hand\u2019 Straken": {
-      "name": "\u2018Iron Hand\u2019 Straken",
-      "pts": 55,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "EPIC HERO",
-        "GRENADES"
-      ],
-      "leads": [
-        "Catachan Jungle Fighters"
-      ],
-      "led_by": [
-        "Catachan Jungle Fighters"
-      ],
-      "core": [
-        "Leader",
-        "Scouts 6\""
-      ]
-    },
-    "Death Rider Commissar": {
-      "name": "Death Rider Commissar",
-      "pts": 35,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MOUNTED",
-        "CHARACTER",
-        "GRENADES"
-      ],
-      "leads": [
-        "Death Riders You can attach this model to the above unit even if one DEATH RIDER SQUADRON COMMANDER",
-        "LORD MARSHAL DREIR",
-        "LORD SOLAR LEONTUS model has already been attached to it"
-      ],
-      "led_by": [
-        "Death Riders You can attach this model to the above unit even if one DEATH RIDER SQUADRON COMMANDER",
-        "LORD MARSHAL DREIR",
-        "LORD SOLAR LEONTUS model has already been attached to it. If you do",
-        "and that Bodyguard unit is destroyed",
-        "the Leader units attached to it become separate units",
-        "with their original Starting Strengths ."
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Hell\u2019s Last": {
-      "name": "Hell\u2019s Last",
-      "pts": 80,
-      "sizes": [
-        5
-      ],
-      "epic_hero": true,
-      "models": 5,
-      "leads": [
-        "Cadian Shock Troops"
-      ],
-      "led_by": [
-        "Cadian Shock Troops"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Provisionally Prepared": {
-      "name": "Provisionally Prepared",
-      "pts": 40,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "GRENADES",
-        "EPIC HERO"
-      ],
-      "leads": [
-        "Ratlings"
-      ],
-      "led_by": [
-        "Ratlings"
-      ],
-      "core": [
-        "Infiltrators",
-        "Leader",
-        "Stealth"
-      ]
-    },
-    "Quartermaster Cadre Squad": {
-      "name": "Quartermaster Cadre Squad",
-      "pts": 45,
+    "Catachan Command Squad": {
+      "name": "Catachan Command Squad",
+      "pts": 65,
       "sizes": [
         5
       ],
       "epic_hero": false,
       "models": 5,
       "leads": [
-        "Death Korps Of Krieg Death Korps Grenadier Squad"
-      ],
-      "led_by": [
-        "Death Korps Of Krieg Death Korps Grenadier Squad"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Rein And Raus": {
-      "name": "Rein And Raus",
-      "pts": 50,
-      "sizes": [
-        2
-      ],
-      "epic_hero": true,
-      "models": 2,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "EPIC HERO"
-      ],
-      "core": [
-        "Infiltrators",
-        "Lone Operative",
-        "Stealth"
-      ]
-    },
-    "Sergeant Harker": {
-      "name": "Sergeant Harker",
-      "pts": 40,
-      "sizes": [
-        1
-      ],
-      "epic_hero": true,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "EPIC HERO",
-        "GRENADES"
-      ],
-      "leads": [
         "Catachan Jungle Fighters"
       ],
+      "is_leader": true,
       "led_by": [
         "Catachan Jungle Fighters"
       ],
       "core": [
-        "Feel No Pain 6+",
         "Leader",
         "Scouts 6\""
-      ]
-    },
-    "Cadian Shock Troops": {
-      "name": "Cadian Shock Troops",
-      "pts": null,
-      "sizes": [
-        10,
-        20
-      ],
-      "epic_hero": false,
-      "pts_table": {
-        "10": 65,
-        "20": 120
-      },
-      "keywords": [
-        "INFANTRY",
-        "BATTLELINE",
-        "GRENADES"
       ]
     },
     "Catachan Jungle Fighters": {
@@ -598,8 +164,8 @@
         "Scouts 6\""
       ]
     },
-    "Death Korps Of Krieg": {
-      "name": "Death Korps Of Krieg",
+    "Cadian Shock Troops": {
+      "name": "Cadian Shock Troops",
       "pts": null,
       "sizes": [
         10,
@@ -608,7 +174,7 @@
       "epic_hero": false,
       "pts_table": {
         "10": 65,
-        "20": 145
+        "20": 120
       },
       "keywords": [
         "INFANTRY",
@@ -616,210 +182,42 @@
         "GRENADES"
       ]
     },
-    "Chimera": {
-      "name": "Chimera",
-      "pts": 85,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE",
-        "TRANSPORT",
-        "DEDICATED TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D3",
-        "Firing Deck 2"
-      ]
-    },
-    "Taurox": {
-      "name": "Taurox",
-      "pts": 75,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT",
-        "DEDICATED TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Taurox Prime": {
-      "name": "Taurox Prime",
-      "pts": 90,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT",
-        "DEDICATED TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Storm Chimera": {
-      "name": "Storm Chimera",
-      "pts": 90,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT",
-        "DEDICATED TRANSPORT",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D3",
-        "Firing Deck 2"
-      ]
-    },
-    "Aegis Defence Line": {
-      "name": "Aegis Defence Line",
-      "pts": 145,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "FORTIFICATION",
-        "IMPERIUM",
-        "AEGIS DEFENCE LINE"
-      ]
-    },
-    "Earthshaker Platform": {
-      "name": "Earthshaker Platform",
+    "Kasrkin": {
+      "name": "Kasrkin",
       "pts": 110,
       "sizes": [
-        1
+        10
       ],
       "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "FORTIFICATION",
-        "IMPERIUM",
-        "ARTILLERY",
-        "EARTHSHAKER PLATFORM"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Hydra Platform": {
-      "name": "Hydra Platform",
-      "pts": 95,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "FORTIFICATION",
-        "IMPERIUM",
-        "ARTILLERY",
-        "HYDRA PLATFORM"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Manticore Platform": {
-      "name": "Manticore Platform",
-      "pts": 95,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "FORTIFICATION",
-        "IMPERIUM",
-        "ARTILLERY",
-        "MANTICORE PLATFORM"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Sabre Weapons Battery": {
-      "name": "Sabre Weapons Battery",
-      "pts": null,
-      "sizes": [
-        1,
-        2
-      ],
-      "epic_hero": false,
-      "pts_per_model": 45,
-      "keywords": [
-        "FORTIFICATION",
-        "IMPERIUM",
-        "ARTILLERY",
-        "SABRE WEAPONS BATTERY"
-      ]
-    },
-    "Armoured Sentinels": {
-      "name": "Armoured Sentinels",
-      "pts": null,
-      "sizes": [
-        1,
-        2
-      ],
-      "epic_hero": false,
-      "pts_per_model": 65,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Artillery Team": {
-      "name": "Artillery Team",
-      "pts": 95,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
+      "models": 10,
       "keywords": [
         "INFANTRY",
         "GRENADES"
+      ],
+      "core": [
+        "Scouts 6\""
       ]
     },
-    "Attilan Rough Riders": {
-      "name": "Attilan Rough Riders",
+    "Tempestus Scions": {
+      "name": "Tempestus Scions",
       "pts": null,
       "sizes": [
         5,
         10
       ],
       "epic_hero": false,
-      "pts_per_model": 12,
+      "pts_per_model": 14,
       "keywords": [
-        "MOUNTED",
+        "INFANTRY",
         "GRENADES"
+      ],
+      "core": [
+        "Deep Strike"
       ]
     },
-    "Baneblade": {
-      "name": "Baneblade",
-      "pts": 450,
+    "Leman Russ Battle Tank": {
+      "name": "Leman Russ Battle Tank",
+      "pts": 185,
       "sizes": [
         1
       ],
@@ -830,12 +228,12 @@
         "SMOKE"
       ],
       "core": [
-        "Deadly Demise D6+2"
+        "Deadly Demise D3"
       ]
     },
-    "Banehammer": {
-      "name": "Banehammer",
-      "pts": 420,
+    "Rogal Dorn Battle Tank": {
+      "name": "Rogal Dorn Battle Tank",
+      "pts": 250,
       "sizes": [
         1
       ],
@@ -843,16 +241,14 @@
       "models": 1,
       "keywords": [
         "VEHICLE",
-        "SMOKE",
-        "TRANSPORT"
+        "SMOKE"
       ],
       "core": [
-        "Deadly Demise D6+2",
-        "Firing Deck 6"
+        "Deadly Demise D6"
       ]
     },
-    "Banesword": {
-      "name": "Banesword",
+    "Baneblade": {
+      "name": "Baneblade",
       "pts": 450,
       "sizes": [
         1
@@ -883,6 +279,78 @@
         "Deadly Demise D3"
       ]
     },
+    "Manticore": {
+      "name": "Manticore",
+      "pts": 165,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "VEHICLE",
+        "SMOKE"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Chimera": {
+      "name": "Chimera",
+      "pts": 85,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "VEHICLE",
+        "SMOKE",
+        "TRANSPORT",
+        "DEDICATED TRANSPORT"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Firing Deck 2"
+      ]
+    },
+    "Armoured Sentinels": {
+      "name": "Armoured Sentinels",
+      "pts": null,
+      "sizes": [
+        1,
+        2
+      ],
+      "epic_hero": false,
+      "pts_per_model": 65,
+      "keywords": [
+        "VEHICLE",
+        "WALKER",
+        "SMOKE"
+      ],
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Scout Sentinels": {
+      "name": "Scout Sentinels",
+      "pts": null,
+      "sizes": [
+        1,
+        2
+      ],
+      "epic_hero": false,
+      "pts_per_model": 55,
+      "keywords": [
+        "VEHICLE",
+        "WALKER",
+        "SMOKE"
+      ],
+      "core": [
+        "Deadly Demise 1",
+        "Scouts 9\""
+      ]
+    },
     "Bullgryn Squad": {
       "name": "Bullgryn Squad",
       "pts": null,
@@ -900,337 +368,17 @@
         "Feel No Pain 6+"
       ]
     },
-    "Cadian Heavy Weapons Squad": {
-      "name": "Cadian Heavy Weapons Squad",
-      "pts": 65,
+    "Ogryn Bodyguard": {
+      "name": "Ogryn Bodyguard",
+      "pts": 40,
       "sizes": [
-        3
+        1
       ],
       "epic_hero": false,
-      "models": 3,
+      "models": 1,
       "keywords": [
         "INFANTRY",
-        "GRENADES"
-      ]
-    },
-    "Catachan Heavy Weapons Squad": {
-      "name": "Catachan Heavy Weapons Squad",
-      "pts": 65,
-      "sizes": [
-        3
-      ],
-      "epic_hero": false,
-      "models": 3,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ],
-      "core": [
-        "Scouts 6\""
-      ]
-    },
-    "Death Riders": {
-      "name": "Death Riders",
-      "pts": null,
-      "sizes": [
-        5,
-        10
-      ],
-      "epic_hero": false,
-      "pts_per_model": 12,
-      "keywords": [
-        "MOUNTED",
-        "GRENADES"
-      ]
-    },
-    "Deathstrike": {
-      "name": "Deathstrike",
-      "pts": 145,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Doomhammer": {
-      "name": "Doomhammer",
-      "pts": 415,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D6+2",
-        "Firing Deck 6"
-      ]
-    },
-    "Field Ordnance Battery": {
-      "name": "Field Ordnance Battery",
-      "pts": 110,
-      "sizes": [
-        2
-      ],
-      "epic_hero": false,
-      "models": 2,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ]
-    },
-    "Hellhammer": {
-      "name": "Hellhammer",
-      "pts": 420,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Hellhound": {
-      "name": "Hellhound",
-      "pts": 125,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Hydra": {
-      "name": "Hydra",
-      "pts": 95,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Kasrkin": {
-      "name": "Kasrkin",
-      "pts": 110,
-      "sizes": [
-        10
-      ],
-      "epic_hero": false,
-      "models": 10,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ],
-      "core": [
-        "Scouts 6\""
-      ]
-    },
-    "Krieg Combat Engineers": {
-      "name": "Krieg Combat Engineers",
-      "pts": null,
-      "sizes": [
-        5,
-        10
-      ],
-      "epic_hero": false,
-      "pts_table": {
-        "5": 60,
-        "10": 95
-      },
-      "keywords": [
-        "INFANTRY",
-        "SMOKE",
-        "GRENADES"
-      ],
-      "core": [
-        "Scouts 6\""
-      ]
-    },
-    "Krieg Heavy Weapons Squad": {
-      "name": "Krieg Heavy Weapons Squad",
-      "pts": 75,
-      "sizes": [
-        4
-      ],
-      "epic_hero": false,
-      "models": 4,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ]
-    },
-    "Leman Russ Battle Tank": {
-      "name": "Leman Russ Battle Tank",
-      "pts": 185,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Leman Russ Demolisher": {
-      "name": "Leman Russ Demolisher",
-      "pts": 190,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Leman Russ Eradicator": {
-      "name": "Leman Russ Eradicator",
-      "pts": 170,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Leman Russ Executioner": {
-      "name": "Leman Russ Executioner",
-      "pts": 170,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Leman Russ Exterminator": {
-      "name": "Leman Russ Exterminator",
-      "pts": 180,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE",
-        "LEMAN RUSS EXTERMINATOR"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Leman Russ Punisher": {
-      "name": "Leman Russ Punisher",
-      "pts": 150,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Leman Russ Vanquisher": {
-      "name": "Leman Russ Vanquisher",
-      "pts": 145,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Manticore": {
-      "name": "Manticore",
-      "pts": 165,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Ogryn Squad": {
-      "name": "Ogryn Squad",
-      "pts": null,
-      "sizes": [
-        3,
-        6
-      ],
-      "epic_hero": false,
-      "pts_table": {
-        "3": 60,
-        "6": 130
-      },
-      "keywords": [
-        "INFANTRY",
+        "CHARACTER",
         "GRENADES"
       ],
       "core": [
@@ -1257,984 +405,19 @@
         "Stealth"
       ]
     },
-    "Rogal Dorn Battle Tank": {
-      "name": "Rogal Dorn Battle Tank",
-      "pts": 250,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Scout Sentinels": {
-      "name": "Scout Sentinels",
-      "pts": null,
-      "sizes": [
-        1,
-        2
-      ],
-      "epic_hero": false,
-      "pts_per_model": 55,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise 1",
-        "Scouts 9\""
-      ]
-    },
-    "Shadowsword": {
-      "name": "Shadowsword",
-      "pts": 410,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Stormlord": {
-      "name": "Stormlord",
-      "pts": 430,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D6+2",
-        "Firing Deck 12"
-      ]
-    },
-    "Stormsword": {
-      "name": "Stormsword",
-      "pts": 465,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Tempestus Aquilons": {
-      "name": "Tempestus Aquilons",
+    "Gaunt's Ghosts": {
+      "name": "Gaunt's Ghosts",
       "pts": 100,
       "sizes": [
-        10
+        6
       ],
       "epic_hero": false,
-      "models": 10,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES",
-        "SMOKE"
-      ],
+      "models": 6,
       "core": [
-        "Deep Strike"
-      ]
-    },
-    "Tempestus Scions": {
-      "name": "Tempestus Scions",
-      "pts": null,
-      "sizes": [
-        5,
-        10
-      ],
-      "epic_hero": false,
-      "pts_per_model": 14,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Valkyrie": {
-      "name": "Valkyrie",
-      "pts": 190,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D6",
-        "Hover"
-      ]
-    },
-    "Wyvern": {
-      "name": "Wyvern",
-      "pts": 110,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Avenger Strike Fighter": {
-      "name": "Avenger Strike Fighter",
-      "pts": 130,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Cyclops Demolition Vehicle": {
-      "name": "Cyclops Demolition Vehicle",
-      "pts": 25,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "CYCLOPS DEMOLITION VEHICLE"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Aquila Lander": {
-      "name": "Aquila Lander",
-      "pts": 120,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D3",
-        "Hover"
-      ]
-    },
-    "Arkurian Stormhammer": {
-      "name": "Arkurian Stormhammer",
-      "pts": 480,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Armageddon-pattern Medusa": {
-      "name": "Armageddon-pattern Medusa",
-      "pts": 105,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Arvus Lighter": {
-      "name": "Arvus Lighter",
-      "pts": 95,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise 1",
-        "Hover"
-      ]
-    },
-    "Atlas Recovery Vehicle": {
-      "name": "Atlas Recovery Vehicle",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE",
-        "ATLAS RECOVERY VEHICLE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Carnodon": {
-      "name": "Carnodon",
-      "pts": 160,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Centaur Light Carrier": {
-      "name": "Centaur Light Carrier",
-      "pts": 40,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Colossus": {
-      "name": "Colossus",
-      "pts": 160,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Crassus": {
-      "name": "Crassus",
-      "pts": 180,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Death Korps Grenadier Squad": {
-      "name": "Death Korps Grenadier Squad",
-      "pts": 110,
-      "sizes": [
-        10
-      ],
-      "epic_hero": false,
-      "models": 10,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ]
-    },
-    "Dominus Armoured Siege Bombard": {
-      "name": "Dominus Armoured Siege Bombard",
-      "pts": 325,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Earthshaker Carriage Battery": {
-      "name": "Earthshaker Carriage Battery",
-      "pts": 120,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ]
-    },
-    "Elysian Drop Sentinel": {
-      "name": "Elysian Drop Sentinel",
-      "pts": 85,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise 1",
-        "Deep Strike"
-      ]
-    },
-    "Elysian Sniper Squad": {
-      "name": "Elysian Sniper Squad",
-      "pts": 65,
-      "sizes": [
-        3
-      ],
-      "epic_hero": false,
-      "models": 3,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Gorgon Heavy Transport": {
-      "name": "Gorgon Heavy Transport",
-      "pts": 275,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE",
-        "TRANSPORT",
-        "GORGON HEAVY TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Griffon Mortar Carrier": {
-      "name": "Griffon Mortar Carrier",
-      "pts": 115,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Hades Breaching Drill": {
-      "name": "Hades Breaching Drill",
-      "pts": 110,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE"
-      ],
-      "core": [
-        "Deep Strike"
-      ]
-    },
-    "Heavy Mortar Team": {
-      "name": "Heavy Mortar Team",
-      "pts": 50,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ]
-    },
-    "Heavy Quad Launcher Team": {
-      "name": "Heavy Quad Launcher Team",
-      "pts": 50,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ]
-    },
-    "Macharius": {
-      "name": "Macharius",
-      "pts": 310,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Macharius Omega": {
-      "name": "Macharius Omega",
-      "pts": 310,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Macharius Vanquisher": {
-      "name": "Macharius Vanquisher",
-      "pts": 285,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Macharius Vulcan": {
-      "name": "Macharius Vulcan",
-      "pts": 310,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Malcador": {
-      "name": "Malcador",
-      "pts": 250,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Malcador Annihilator": {
-      "name": "Malcador Annihilator",
-      "pts": 270,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Malcador Defender": {
-      "name": "Malcador Defender",
-      "pts": 310,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Malcador Infernus": {
-      "name": "Malcador Infernus",
-      "pts": 235,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Marauder Bomber": {
-      "name": "Marauder Bomber",
-      "pts": 345,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Marauder Destroyer": {
-      "name": "Marauder Destroyer",
-      "pts": 375,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Medusa Carriage Battery": {
-      "name": "Medusa Carriage Battery",
-      "pts": 125,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ]
-    },
-    "Minotaur": {
-      "name": "Minotaur",
-      "pts": 225,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "TRANSPORT",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Mukaali Riders": {
-      "name": "Mukaali Riders",
-      "pts": 110,
-      "sizes": [
-        3
-      ],
-      "epic_hero": false,
-      "models": 3,
-      "keywords": [
-        "MOUNTED",
-        "GRENADES"
-      ],
-      "core": [
-        "Scouts 6\""
-      ]
-    },
-    "Munitorum Servitors": {
-      "name": "Munitorum Servitors",
-      "pts": 35,
-      "sizes": [
-        4
-      ],
-      "epic_hero": false,
-      "models": 4,
-      "keywords": [
-        "INFANTRY"
-      ]
-    },
-    "Praetor": {
-      "name": "Praetor",
-      "pts": 275,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Rapier Laser Destroyer Battery": {
-      "name": "Rapier Laser Destroyer Battery",
-      "pts": null,
-      "sizes": [
-        1,
-        2,
-        3
-      ],
-      "epic_hero": false,
-      "pts_per_model": 35,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ]
-    },
-    "Regimental Attach\u00e9s": {
-      "name": "Regimental Attach\u00e9s",
-      "pts": 40,
-      "sizes": [
-        3
-      ],
-      "epic_hero": false,
-      "models": 3
-    },
-    "Salamander Command Vehicle": {
-      "name": "Salamander Command Vehicle",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE",
-        "SALAMANDER COMMAND VEHICLE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Salamander Scout Vehicle": {
-      "name": "Salamander Scout Vehicle",
-      "pts": 95,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE",
-        "SALAMANDER SCOUT VEHICLE"
-      ],
-      "core": [
-        "Deadly Demise D3",
-        "Scouts 9\""
-      ]
-    },
-    "Sentinel Powerlifter": {
-      "name": "Sentinel Powerlifter",
-      "pts": 55,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Stormblade": {
-      "name": "Stormblade",
-      "pts": 415,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Stygies Destroyer Tank Hunter": {
-      "name": "Stygies Destroyer Tank Hunter",
-      "pts": 180,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Tarantula Battery": {
-      "name": "Tarantula Battery",
-      "pts": null,
-      "sizes": [
-        1,
-        2,
-        3
-      ],
-      "epic_hero": false,
-      "pts_per_model": 40,
-      "keywords": [
-        "VEHICLE"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Tauros Assault Vehicle": {
-      "name": "Tauros Assault Vehicle",
-      "pts": 50,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MOUNTED",
-        "TAUROS ASSAULT VEHICLE"
-      ],
-      "core": [
-        "Deadly Demise 1",
-        "Scouts 9\""
-      ]
-    },
-    "Tauros Venator": {
-      "name": "Tauros Venator",
-      "pts": 50,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "MOUNTED"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Trojan Support Vehicle": {
-      "name": "Trojan Support Vehicle",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE",
-        "TROJAN SUPPORT VEHICLE"
-      ],
-      "core": [
-        "Deadly Demise D3"
-      ]
-    },
-    "Valdor": {
-      "name": "Valdor",
-      "pts": 285,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "SMOKE"
-      ],
-      "core": [
-        "Deadly Demise D6+2"
-      ]
-    },
-    "Valkyrie Sky Talon": {
-      "name": "Valkyrie Sky Talon",
-      "pts": 185,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D6",
-        "Hover"
-      ]
-    },
-    "Vendetta Gunship": {
-      "name": "Vendetta Gunship",
-      "pts": 255,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D3",
-        "Hover"
-      ]
-    },
-    "Voss-pattern Lightning": {
-      "name": "Voss-pattern Lightning",
-      "pts": 130,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Vulture Gunship": {
-      "name": "Vulture Gunship",
-      "pts": 225,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "FLY"
-      ],
-      "core": [
-        "Deadly Demise D6",
-        "Hover"
+        "Fights First",
+        "Infiltrators",
+        "Lone Operative",
+        "Stealth"
       ]
     }
   }
