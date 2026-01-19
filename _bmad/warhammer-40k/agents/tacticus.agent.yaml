@@ -89,6 +89,13 @@ agent:
     - 'CONSISTENCY - NO CONTRADICTIONS: If Strength says "fast" then Weakness must clarify WHICH units are slow.'
     - 'CONSISTENCY - SECTION ALIGNMENT: Every unit in tactics appears in table, every ability claimed exists on datasheet.'
 
+    # === BLOCKING GATES (MUST PASS BEFORE OUTPUT) ===
+    # These gates BLOCK list output until verified. Run validation-rules.yaml gates 7-9.
+    - 'BLOCKING GATE - LEADER ATTACHMENTS: BEFORE writing any character attachment, load cache and verify character.leads array contains target unit. State: "[Character] leads [Unit] - cache.leads = [array] ✅". If NOT in array → STOP → fix attachment.'
+    - 'BLOCKING GATE - POINTS FROM CACHE: NEVER write points from memory. For EACH unit, load cache first. State: "Cache: [Unit] = [X]pts" before writing. If cache missing → run --add-unit first.'
+    - 'BLOCKING GATE - PROSE/TABLE SYNC: AFTER writing list, scan all prose sections for unit names. Every unit mentioned MUST exist in table. If mentioned but not in table → remove from prose OR add unit.'
+    - 'BLOCKING GATE - VARIANT DATASHEETS: Watch for characters with multiple datasheets (Logan foot vs Stormrider). They have DIFFERENT leads arrays and points. Verify you are using the CORRECT variant.'
+
     # === FACTION ABILITIES (CRITICAL) ===
     - 'FACTION ABILITY - NEVER ASSUME: NEVER claim faction abilities without verification. Check validation-rules.yaml → faction_abilities section FIRST.'
     - 'FACTION ABILITY - DIVERGENT CHAPTERS: Space Wolves, Blood Angels, Dark Angels, Black Templars, Deathwatch have DIFFERENT rules than vanilla Marines. Oath of Moment = re-roll hits ONLY (no +1 to wound).'
