@@ -775,32 +775,89 @@ def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str
             datasheet['is_epic_hero'] = True
             break
 
-    # 8. Extract keywords - search more broadly for keyword sections
+    # 8. Extract keywords - look for specific keyword containers first
+    # Wahapedia uses specific CSS classes for keywords (dsKw, Keyword, etc.)
+
+    # First, try to find keyword spans/divs with dedicated classes
+    # These are more reliable than text parsing
+    for kw_element in soup.find_all(class_=re.compile(r'^dsKw|^Keyword', re.IGNORECASE)):
+        text = kw_element.get_text(' ', strip=True)
+        # Filter out labels and noise
+        if text and 2 < len(text) < 60 and text.upper() not in ['KEYWORDS:', 'KEYWORDS', 'FACTION KEYWORDS:', 'FACTION KEYWORDS']:
+            # Skip if it looks like rules text (contains common rules words)
+            if not any(x in text.lower() for x in ['attack', 'phase', 'roll', 'wound', 'damage', 'target', 'enemy', 'model', 'unit ']):
+                if text.upper() not in [k.upper() for k in datasheet['keywords']]:
+                    datasheet['keywords'].append(text)
+
+    # Also look for keywords in tooltip-enabled spans (Wahapedia pattern)
+    for tooltip_span in soup.find_all('span', class_=re.compile(r'tooltip\d+')):
+        text = tooltip_span.get_text(' ', strip=True)
+        # Check if this looks like a keyword (UPPERCASE, short, no spaces or few spaces)
+        if text and text.isupper() and 2 < len(text) < 40 and text.count(' ') <= 3:
+            # Filter out common non-keywords
+            skip_words = ['WHEN:', 'TARGET:', 'EFFECT:', 'RESTRICTIONS:', 'STRATAGEM', 'WARGEAR', 'ABILITY', 'DETACHMENT']
+            if text not in skip_words and not any(x in text for x in skip_words):
+                if text not in [k.upper() for k in datasheet['keywords']]:
+                    datasheet['keywords'].append(text)
+
+    # Fallback: Parse text-based KEYWORDS: sections if we didn't find any keywords yet
+    if not datasheet['keywords']:
+        for div in soup.find_all(['div', 'td', 'span', 'p']):
+            text = div.get_text(' ', strip=True)
+            # Look for KEYWORDS: but NOT FACTION KEYWORDS:
+            if 'KEYWORDS:' in text.upper() and 'FACTION KEYWORDS:' not in text.upper():
+                # Extract keywords after KEYWORDS: up to FACTION or end of reasonable text
+                # Use a more conservative pattern that stops at common boundaries
+                match = re.search(r'KEYWORDS:\s*([A-Z][A-Z\s,\-\'\d]+?)(?=\s*(?:FACTION|LED BY|WARGEAR|UNIT COMPOSITION|ABILITIES|This unit|This model|$))', text, re.IGNORECASE)
+                if match:
+                    kw_text = match.group(1).strip()
+                    # Split by comma and/or newline, filter reasonable keywords
+                    keywords = []
+                    for k in re.split(r'[,\n■]', kw_text):
+                        k = k.strip()
+                        # Valid keywords are short and don't contain sentence-like text
+                        if k and 2 < len(k) < 50 and ' the ' not in k.lower() and ' is ' not in k.lower():
+                            keywords.append(k)
+                    if keywords:
+                        datasheet['keywords'] = keywords
+                        break
+
+    # 8b. Extract FACTION KEYWORDS separately - these should be very short lists
+    # Common faction keywords: ADEPTUS ASTARTES, SPACE WOLVES, IMPERIUM, etc.
     for div in soup.find_all(['div', 'td', 'span', 'p']):
         text = div.get_text(' ', strip=True)
-        # Try multiple patterns for keywords
-        if 'KEYWORDS:' in text.upper() and 'FACTION' not in text.upper():
-            # Extract everything after KEYWORDS:
-            match = re.search(r'KEYWORDS:\s*(.+?)(?:FACTION|$)', text, re.IGNORECASE)
-            if match:
-                kw_text = match.group(1).strip()
-                keywords = [k.strip() for k in re.split(r'[,\n]', kw_text) if k.strip()]
-                if keywords and not datasheet['keywords']:
-                    datasheet['keywords'] = keywords
-        elif 'FACTION KEYWORDS:' in text.upper():
-            match = re.search(r'FACTION KEYWORDS:\s*(.+)', text, re.IGNORECASE)
+        if 'FACTION KEYWORDS:' in text.upper():
+            # Faction keywords are typically short - stop at next section or after ~100 chars
+            # Look for pattern: FACTION KEYWORDS: KEYWORD1, KEYWORD2
+            match = re.search(r'FACTION KEYWORDS:\s*([A-Z][A-Z\s,\-\']+?)(?=\s*(?:STRATAGEMS|DETACHMENT|ENHANCEMENTS|LED BY|WARGEAR|This unit|This model|Oath of Moment|In battle|$))', text, re.IGNORECASE)
             if match:
                 fkw_text = match.group(1).strip()
-                fkeywords = [k.strip() for k in re.split(r'[,\n]', fkw_text) if k.strip()]
+                # Split and validate - faction keywords are usually 1-3 words each
+                fkeywords = []
+                for fk in re.split(r'[,\n■]', fkw_text):
+                    fk = fk.strip()
+                    # Faction keywords are short names, not sentences
+                    if fk and 2 < len(fk) < 40 and fk.count(' ') <= 3:
+                        fkeywords.append(fk)
                 if fkeywords and not datasheet['faction_keywords']:
                     datasheet['faction_keywords'] = fkeywords
-
-    # Also check for keywords in dedicated keyword divs/spans
-    for kw_div in soup.find_all(class_=re.compile(r'dsKw|keyword', re.IGNORECASE)):
-        text = kw_div.get_text(' ', strip=True)
-        if text and len(text) < 100:  # Reasonable keyword length
-            if text.upper() not in [k.upper() for k in datasheet['keywords']]:
-                datasheet['keywords'].append(text)
+                    break
+            else:
+                # If regex fails, try a simpler approach: take first few comma-separated items
+                simple_match = re.search(r'FACTION KEYWORDS:\s*([^\.]+)', text, re.IGNORECASE)
+                if simple_match:
+                    raw = simple_match.group(1).strip()
+                    # Take only reasonable-looking keywords (stop at first long item)
+                    fkeywords = []
+                    for item in raw.split(',')[:5]:  # Max 5 faction keywords
+                        item = item.strip()
+                        if item and 2 < len(item) < 40:
+                            fkeywords.append(item)
+                        else:
+                            break  # Stop if we hit garbage
+                    if fkeywords and not datasheet['faction_keywords']:
+                        datasheet['faction_keywords'] = fkeywords
+                        break
 
     # 9. Extract wargear options (full text, not truncated)
     for div in soup.find_all('div', class_='dsAbility'):
@@ -880,7 +937,126 @@ def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str
                 datasheet['role'] = text
                 break
 
+    # 16. Post-process and sanitize keywords
+    # Remove duplicates, clean up garbage, validate format
+    datasheet['keywords'] = _sanitize_keywords(datasheet['keywords'])
+    datasheet['faction_keywords'] = _sanitize_faction_keywords(datasheet['faction_keywords'])
+
     return datasheet
+
+
+def _sanitize_keywords(keywords: List[str]) -> List[str]:
+    """Clean and validate unit keywords."""
+    # Known valid keywords for validation
+    VALID_KEYWORD_PATTERNS = [
+        # Unit types
+        'INFANTRY', 'VEHICLE', 'MONSTER', 'CAVALRY', 'MOUNTED', 'BEAST', 'BEASTS',
+        'WALKER', 'FLY', 'SWARM', 'BIKER', 'ARTILLERY',
+        # Armor types
+        'TERMINATOR', 'GRAVIS', 'PHOBOS', 'TACTICUS', 'JUMP PACK', 'PRIMARIS',
+        # Role keywords
+        'CHARACTER', 'EPIC HERO', 'BATTLELINE', 'TRANSPORT', 'DEDICATED TRANSPORT',
+        'FORTIFICATION', 'TITANIC', 'TOWERING',
+        # Stratagem-enabling keywords
+        'GRENADES', 'SMOKE', 'PSYKER', 'STEALTH',
+        # Faction identifiers (partial)
+        'IMPERIUM', 'CHAOS', 'ADEPTUS', 'SPACE WOLVES', 'BLOOD ANGELS',
+    ]
+
+    seen = set()
+    cleaned = []
+
+    for kw in keywords:
+        if not kw or not isinstance(kw, str):
+            continue
+
+        kw = kw.strip()
+
+        # Skip if too short or too long (garbage)
+        if len(kw) < 2 or len(kw) > 50:
+            continue
+
+        # Skip if it looks like rules text or garbage
+        garbage_indicators = [
+            ' is ', ' are ', ' the ', ' when ', ' each time ', ' if ', ' can ',
+            ' you ', ' your ', ' this ', 'phase', 'roll', 'attack', 'wound',
+            'damage', 'target', 'enemy', 'model ', 'unit ', 'ability',
+            'stratagem', 'weapon', 'profile', 'effect', 'restriction',
+            '1cp', '2cp', 'cp ', 'battle tactic', 'strategic ploy',
+        ]
+        kw_lower = kw.lower()
+        if any(x in kw_lower for x in garbage_indicators):
+            continue
+
+        # Skip if already seen (case-insensitive)
+        kw_upper = kw.upper()
+        if kw_upper in seen:
+            continue
+        seen.add(kw_upper)
+
+        # Normalize to uppercase for consistency
+        cleaned.append(kw_upper if kw.isupper() else kw)
+
+    return cleaned
+
+
+def _sanitize_faction_keywords(faction_keywords: List[str]) -> List[str]:
+    """Clean and validate faction keywords - should be very short list."""
+    # Known valid faction keywords
+    VALID_FACTION_KEYWORDS = {
+        # Imperium factions
+        'ADEPTUS ASTARTES', 'SPACE WOLVES', 'BLOOD ANGELS', 'DARK ANGELS',
+        'BLACK TEMPLARS', 'DEATHWATCH', 'ULTRAMARINES', 'IMPERIAL FISTS',
+        'IRON HANDS', 'RAVEN GUARD', 'SALAMANDERS', 'WHITE SCARS',
+        'ASTRA MILITARUM', 'ADEPTUS MECHANICUS', 'ADEPTUS CUSTODES',
+        'ADEPTA SORORITAS', 'GREY KNIGHTS', 'IMPERIAL KNIGHTS',
+        'IMPERIAL AGENTS', 'INQUISITION', 'OFFICIO ASSASSINORUM',
+        'IMPERIUM',
+        # Chaos factions
+        'CHAOS', 'CHAOS SPACE MARINES', 'DEATH GUARD', 'THOUSAND SONS',
+        'WORLD EATERS', 'CHAOS DAEMONS', 'CHAOS KNIGHTS', 'HERETIC ASTARTES',
+        # Xenos factions
+        'AELDARI', 'DRUKHARI', 'HARLEQUINS', 'YNNARI',
+        'ORKS', 'TYRANIDS', 'GENESTEALER CULTS', 'NECRONS', 'T\'AU EMPIRE',
+        'LEAGUES OF VOTANN', 'KROOT',
+    }
+
+    seen = set()
+    cleaned = []
+
+    for fkw in faction_keywords:
+        if not fkw or not isinstance(fkw, str):
+            continue
+
+        fkw = fkw.strip().upper()
+
+        # Skip if too short or too long
+        if len(fkw) < 3 or len(fkw) > 30:
+            continue
+
+        # Skip if it looks like garbage
+        garbage_indicators = [
+            'STRATAGEM', '1CP', '2CP', 'BATTLE TACTIC', 'STRATEGIC PLOY',
+            'WARGEAR', 'ENHANCEMENT', 'DETACHMENT', 'ABILITY', 'RULE',
+            'THIS ', 'WHEN ', 'THE ', 'PHASE', 'DESTROYED',
+        ]
+        if any(x in fkw for x in garbage_indicators):
+            continue
+
+        # Skip if already seen
+        if fkw in seen:
+            continue
+        seen.add(fkw)
+
+        # Only include if it looks like a valid faction keyword
+        # Check if it matches known faction or looks reasonable
+        if fkw in VALID_FACTION_KEYWORDS:
+            cleaned.append(fkw)
+        elif fkw.count(' ') <= 2 and len(fkw) <= 25:
+            # Allow unknown faction keywords if they're short and clean
+            cleaned.append(fkw)
+
+    return cleaned
 
 
 def clean_leader_list(leader_list: List[str]) -> List[str]:
@@ -1013,25 +1189,47 @@ def generate_compact_datasheet(full_datasheet: Dict[str, Any]) -> Dict[str, Any]
                 compact['pts_table'] = {str(p['models']): p['points'] for p in points}
 
     # Key keywords for validation - ALWAYS include if present
+    # These keywords affect gameplay mechanics, stratagems, and list-building rules
     key_keywords = []
     keywords = full_datasheet.get('keywords', [])
     for kw in keywords:
         kw_upper = kw.upper()
-        # Keywords that affect list-building rules
+        # Keywords that affect list-building rules and stratagem eligibility
+        # IMPORTANT: Many stratagems key off these keywords (e.g., GRENADES for Grenade stratagem)
         if any(x in kw_upper for x in [
-            'BATTLELINE', 'CHARACTER', 'EPIC HERO', 'TRANSPORT',
-            'INFANTRY', 'MONSTER', 'VEHICLE', 'MOUNTED', 'FLY',
-            'TERMINATOR', 'PSYKER', 'SYNAPSE', 'BEAST', 'SWARM',
-            'WALKER', 'GRENADES', 'SMOKE'
+            # List-building keywords
+            'BATTLELINE', 'CHARACTER', 'EPIC HERO', 'TRANSPORT', 'DEDICATED TRANSPORT',
+            # Unit type keywords (affects many rules)
+            'INFANTRY', 'MONSTER', 'VEHICLE', 'MOUNTED', 'FLY', 'CAVALRY',
+            'TERMINATOR', 'PSYKER', 'SYNAPSE', 'BEAST', 'BEASTS', 'SWARM',
+            'WALKER', 'BIKER', 'JUMP PACK', 'GRAVIS', 'PHOBOS', 'PRIMARIS',
+            # Stratagem-enabling keywords (CRITICAL for gameplay)
+            'GRENADES', 'SMOKE', 'STEALTH',
+            # Faction-specific keywords that unlock abilities
+            'IMPERIUM', 'CHAOS', 'AELDARI', 'TYRANIDS', 'ORKS', 'NECRONS',
+            'ADEPTUS ASTARTES', 'SPACE WOLVES', 'BLOOD ANGELS', 'DARK ANGELS',
         ]):
             key_keywords.append(kw)
 
-    # Always include keywords if we have any (even if not in the filter list)
-    if key_keywords:
-        compact['keywords'] = key_keywords
-    elif keywords:
-        # If we have keywords but none matched our filter, include first few anyway
-        compact['keywords'] = keywords[:5]
+    # Always include ALL keywords for comprehensive gameplay reference
+    # The full keyword list is important for stratagem/ability interactions
+    if keywords:
+        # Deduplicate while preserving order
+        seen = set()
+        all_keywords = []
+        # Add filtered keywords first (most important)
+        for kw in key_keywords:
+            kw_upper = kw.upper()
+            if kw_upper not in seen:
+                seen.add(kw_upper)
+                all_keywords.append(kw)
+        # Then add remaining keywords
+        for kw in keywords:
+            kw_upper = kw.upper()
+            if kw_upper not in seen:
+                seen.add(kw_upper)
+                all_keywords.append(kw)
+        compact['keywords'] = all_keywords
 
     # Leader info (who can this lead / who can lead this) - CRITICAL for list validation
     # This data is essential for blocking gate 7 (leader attachment validation)

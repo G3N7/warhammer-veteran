@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "name": "SameLance",
+    "faction": "Space Wolves",
+    "detachment": "Stormlance Task Force",
+    "points": 1990,
+    "battleSize": "Strike Force (2000pts)"
+  },
+  "units": [
+    {
+      "name": "Arjac Rockfist",
+      "pts": 105,
+      "models": "1",
+      "role": "Epic Hero",
+      "stats": { "M": "6\"", "T": 5, "SV": "2+", "W": 6, "LD": "6+", "OC": 1, "INV": "4++" },
+      "weapons": [
+        { "name": "Foehammer (R)", "profile": "6\" | A1 | 2+ | S8 | -2 | D3", "tags": ["Anti-MV 3+", "Assault"] },
+        { "name": "Foehammer (M)", "profile": "A5 | 2+ | S8 | -2 | D3", "tags": ["Anti-MV 3+", "Precision"] }
+      ],
+      "abilities": [
+        "4+ FoD (melee) - led unit fights on death",
+        "Full RR Hit+Wound vs CHAR"
+      ],
+      "core": ["Deep Strike", "Leader"],
+      "leads": ["Wolf Guard Terminators"]
+    },
+    {
+      "name": "Logan Grimnar",
+      "pts": 110,
+      "models": "1",
+      "role": "Epic Hero / Warlord",
+      "stats": { "M": "6\"", "T": 5, "SV": "2+", "W": 8, "LD": "6+", "OC": 1, "INV": "4++" },
+      "weapons": [
+        { "name": "Storm Bolter", "profile": "24\" | A2 | 2+ | S4 | 0 | D1", "tags": ["Rapid Fire 2"] },
+        { "name": "Axe Morkai (sweep)", "profile": "A10 | 2+ | S6 | -2 | D1", "tags": [] },
+        { "name": "Axe Morkai (strike)", "profile": "A6 | 2+ | S8 | -2 | D3", "tags": [] },
+        { "name": "Tyrnak & Fenrir", "profile": "A6 | 2+ | S5 | -1 | D1", "tags": ["Extra Attacks"] }
+      ],
+      "abilities": [
+        "1/rnd: Reserve unit arrives 1 turn early",
+        "+1CP strat cost for enemies w/in 12\" (Aura)"
+      ],
+      "core": ["Deep Strike", "Leader"],
+      "leads": ["Wolf Guard Terminators"],
+      "notes": "Takes 4 transport slots"
+    },
+    {
+      "name": "Wolf Priest",
+      "pts": 85,
+      "models": "1",
+      "role": "Character",
+      "stats": { "M": "7\"", "T": 4, "SV": "3+", "W": 4, "LD": "6+", "OC": 1, "INV": "4++" },
+      "weapons": [
+        { "name": "Absolvor Bolt Pistol", "profile": "18\" | A1 | 3+ | S5 | -1 | D2", "tags": ["Pistol"] },
+        { "name": "Crozius Arcanum", "profile": "A5 | 2+ | S6 | -1 | D2", "tags": [] }
+      ],
+      "abilities": [
+        "Rez 1 model/Cmd phase (not CHAR)",
+        "+1 to Wound (melee) for led unit",
+        "RR Advance rolls (Portents)"
+      ],
+      "core": ["Leader"],
+      "leads": ["Blood Claws", "Grey Hunters", "WG Headtakers"]
+    },
+    {
+      "name": "Bjorn the Fell-Handed",
+      "pts": 160,
+      "models": "1",
+      "role": "Epic Hero",
+      "stats": { "M": "9\"", "T": 9, "SV": "2+", "W": 8, "LD": "6+", "OC": 3, "INV": "5++", "FNP": "5+" },
+      "weapons": [
+        { "name": "Heavy Flamer", "profile": "12\" | D6 | N/A | S5 | -1 | D1", "tags": ["Torrent", "Ign Cover"] },
+        { "name": "Assault Cannon", "profile": "24\" | A6 | 2+ | S6 | 0 | D1", "tags": ["Dev Wounds"] },
+        { "name": "Trueclaw", "profile": "A6 | 2+ | S12 | -2 | D3", "tags": ["Lethal Hits"] }
+      ],
+      "abilities": [
+        "+1CP each Cmd phase",
+        "-1 to Wound when S > T"
+      ],
+      "core": ["Deadly Demise 1"]
+    },
+    {
+      "name": "Blood Claws",
+      "pts": 135,
+      "models": "10 (9 + Pack Leader)",
+      "role": "Battleline",
+      "stats": { "M": "7\"", "T": 4, "SV": "3+", "W": 2, "LD": "6+", "OC": 2 },
+      "weapons": [
+        { "name": "Bolt Pistol (x9)", "profile": "12\" | A1 | 3+ | S4 | 0 | D1", "tags": ["Pistol"] },
+        { "name": "Plasma Pistol (ldr)", "profile": "12\" | A1 | 3+ | S7/8 | -2/-3 | D1/2", "tags": ["Hazardous", "Pistol"] },
+        { "name": "Chainsword (x9)", "profile": "A4 | 3+ | S4 | -1 | D1", "tags": [] },
+        { "name": "Power Weapon (ldr)", "profile": "A4 | 3+ | S5 | -2 | D1", "tags": [] }
+      ],
+      "abilities": [
+        "Can charge after Advancing"
+      ],
+      "core": ["Grenades"]
+    },
+    {
+      "name": "Grey Hunters",
+      "pts": 165,
+      "models": "10 (9 + Pack Leader)",
+      "role": "Battleline",
+      "stats": { "M": "7\"", "T": 4, "SV": "3+", "W": 2, "LD": "6+", "OC": 3 },
+      "weapons": [
+        { "name": "Bolt Carbine (x9)", "profile": "24\" | A2 | 3+ | S4 | 0 | D1", "tags": ["Rapid Fire 1"] },
+        { "name": "Bolt Pistol", "profile": "12\" | A1 | 3+ | S4 | 0 | D1", "tags": ["Pistol"] },
+        { "name": "Plasma Pistol (ldr)", "profile": "12\" | A1 | 3+ | S7/8 | -2/-3 | D1/2", "tags": ["Hazardous", "Pistol"] },
+        { "name": "Chainsword (x9)", "profile": "A4 | 3+ | S4 | -1 | D1", "tags": [] },
+        { "name": "Power Weapon (ldr)", "profile": "A4 | 3+ | S5 | -2 | D1", "tags": [] }
+      ],
+      "abilities": [
+        "RR Wound 1s (full RR on objectives)"
+      ],
+      "core": ["Grenades"]
+    },
+    {
+      "name": "Wolf Guard Terminators",
+      "pts": 340,
+      "qty": 3,
+      "models": "10 (1 Ldr + 5 Shield + 2 Bolter + 2 Cannon)",
+      "role": "Infantry",
+      "stats": { "M": "6\"", "T": 5, "SV": "2+", "W": 3, "LD": "6+", "OC": 1, "INV": "4++" },
+      "weapons": [
+        { "name": "Storm Bolter (x2)", "profile": "24\" | A2 | 2+ | S4 | 0 | D1", "tags": ["Rapid Fire 2"] },
+        { "name": "Assault Cannon (x2)", "profile": "24\" | A6 | 2+ | S6 | 0 | D1", "tags": ["Dev Wounds"] },
+        { "name": "Twin Lightning Claws (ldr)", "profile": "A6 | 3+ | S5 | -2 | D1", "tags": ["Twin-linked"] },
+        { "name": "MC Power Weapon (x7)", "profile": "A4 | 3+ | S5 | -2 | D2", "tags": [] },
+        { "name": "Power Fist (x2)", "profile": "A3 | 3+ | S8 | -2 | D2", "tags": [] }
+      ],
+      "abilities": [
+        "-1 to Wound when S > T",
+        "Storm Shield: W4 instead of W3"
+      ],
+      "core": ["Deep Strike", "Grenades"],
+      "notes": "x3 units in list"
+    },
+    {
+      "name": "Fenrisian Wolves",
+      "pts": 40,
+      "qty": 2,
+      "models": "5",
+      "role": "Beast",
+      "stats": { "M": "10\"", "T": 4, "SV": "6+", "W": 1, "LD": "8+", "OC": 0 },
+      "weapons": [
+        { "name": "Teeth and Claws", "profile": "A3 | 4+ | S4 | 0 | D1", "tags": [] }
+      ],
+      "abilities": [
+        "React move D6\" when enemy ends move w/in 9\"",
+        "OC1 when w/in 6\" of SW CHAR (not Wulfen)"
+      ],
+      "core": [],
+      "notes": "x2 units in list"
+    },
+    {
+      "name": "Venerable Dreadnought",
+      "pts": 130,
+      "models": "1",
+      "role": "Vehicle",
+      "stats": { "M": "8\"", "T": 9, "SV": "2+", "W": 8, "LD": "6+", "OC": 3, "INV": "4++" },
+      "weapons": [
+        { "name": "Heavy Flamer", "profile": "12\" | D6 | N/A | S5 | -1 | D1", "tags": ["Torrent", "Ign Cover"] },
+        { "name": "Great Axe (strike)", "profile": "A6 | 3+ | S10 | -2 | D6+1", "tags": [] },
+        { "name": "Great Axe (sweep)", "profile": "A12 | 3+ | S6 | -2 | D1", "tags": [] }
+      ],
+      "abilities": [
+        "+1 Adv/Chg for SW w/in 6\" (Aura)",
+        "Blizzard Shield: 4++"
+      ],
+      "core": ["Deadly Demise 1"]
+    }
+  ],
+  "keywords": {
+    "Deep Strike": "Set up in Reserves, arrive 9\"+ from enemies",
+    "Deadly Demise X": "On death, 6+ = X mortal wounds to units w/in 6\"",
+    "Leader": "Attaches to bodyguard unit, wounds go to bodyguards first",
+    "Rapid Fire X": "+X attacks at half range",
+    "Twin-linked": "RR Wound roll",
+    "Lethal Hits": "Crit Hit auto-wounds",
+    "Dev Wounds": "Crit Wound = mortals equal to damage, no saves",
+    "Torrent": "Auto-hit",
+    "Precision": "Can allocate wounds to visible CHAR",
+    "Hazardous": "After attacks, roll D6 per hazardous wpn used; 1 = 3MW",
+    "Anti-X Y+": "Unmod wound Y+ vs keyword X = Crit Wound",
+    "Extra Attacks": "Bonus attacks, doesn't replace other melee",
+    "Assault": "Can shoot after Advancing (only Assault weapons)",
+    "Pistol": "Can shoot in engagement range (only at engaged unit)",
+    "Ign Cover": "Target can't benefit from cover"
+  },
+  "detachmentRule": {
+    "name": "Lightning Assault",
+    "effect": "All ADEPTUS ASTARTES can charge after Advancing or Falling Back"
+  },
+  "factionRule": {
+    "name": "Oath of Moment",
+    "effect": "Start of Cmd phase: pick 1 enemy unit. RR Hit rolls vs that unit."
+  },
+  "coreStratagems": [
+    { "name": "Command Re-roll", "cp": 1, "phase": "Any", "effect": "RR one Hit, Wound, Damage, Save, Advance, or Charge roll" },
+    { "name": "Counter-offensive", "cp": 2, "phase": "Fight", "effect": "After enemy unit fights, one of your units fights next" },
+    { "name": "Epic Challenge", "cp": 1, "phase": "Fight", "effect": "CHAR gets [PRECISION] for melee attacks this phase" },
+    { "name": "Fire Overwatch", "cp": 1, "phase": "Enemy Move/Charge", "effect": "Shoot at enemy ending move w/in 24\"; hit on 6s only" },
+    { "name": "Go to Ground", "cp": 1, "phase": "Enemy Shooting", "effect": "Unit gets +1 Save & Benefit of Cover until next turn; Battle-shocked" },
+    { "name": "Grenade", "cp": 1, "phase": "Shooting", "effect": "GRENADES unit: 1 model throws D6 S4 AP0 D1 Blast at 6\"" },
+    { "name": "Heroic Intervention", "cp": 2, "phase": "Enemy Charge", "effect": "After enemy charges, your unit w/in 6\" makes D6\" move toward them" },
+    { "name": "Insane Bravery", "cp": 1, "phase": "Any", "effect": "Auto-pass Battle-shock test" },
+    { "name": "Rapid Ingress", "cp": 1, "phase": "Enemy Move", "effect": "Set up one Reserves unit at end of enemy Move phase" },
+    { "name": "Smokescreen", "cp": 1, "phase": "Enemy Shooting", "effect": "SMOKE unit: -1 to Hit vs this unit until your next turn" },
+    { "name": "Tank Shock", "cp": 1, "phase": "Charge", "effect": "VEHICLE/MOUNTED: after charge, pick enemy w/in Engagement; roll D6 per model, 5+ = MW" }
+  ],
+  "detachmentStratagems": [
+    { "name": "Armour of Contempt", "cp": 1, "phase": "Any (save)", "type": "Battle Tactic", "effect": "Worsen AP of attacks vs ADEPTUS ASTARTES unit by 1" },
+    { "name": "Blitzing Fusillade", "cp": 1, "phase": "Shooting", "type": "Battle Tactic", "effect": "Unit that Advanced: ranged attacks get [ASSAULT] & +1 to Hit" },
+    { "name": "Lightning Assault", "cp": 1, "phase": "Charge", "type": "Strategic Ploy", "effect": "Unit that Fell Back: +2 to Charge roll this phase" },
+    { "name": "Storm of Violence", "cp": 1, "phase": "Fight", "type": "Battle Tactic", "effect": "Unit that charged: melee Crit Hits cause 1 extra hit" },
+    { "name": "Ride Hard, Ride Fast", "cp": 1, "phase": "Move", "type": "Strategic Ploy", "effect": "MOUNTED/VEHICLE unit: +2\" to Move and Advance rolls" },
+    { "name": "Pack Hunters", "cp": 1, "phase": "Fight", "type": "Battle Tactic", "effect": "SW unit: +1 to Wound in melee vs enemy engaged by another SW unit" }
+  ],
+  "pointsSummary": [
+    { "unit": "Arjac Rockfist", "pts": 105, "qty": 1 },
+    { "unit": "Logan Grimnar", "pts": 110, "qty": 1 },
+    { "unit": "Wolf Priest", "pts": 85, "qty": 1 },
+    { "unit": "Bjorn the Fell-Handed", "pts": 160, "qty": 1 },
+    { "unit": "Blood Claws (10)", "pts": 135, "qty": 1 },
+    { "unit": "Grey Hunters (10)", "pts": 165, "qty": 1 },
+    { "unit": "Wolf Guard Terminators (10)", "pts": 340, "qty": 3 },
+    { "unit": "Fenrisian Wolves (5)", "pts": 40, "qty": 2 },
+    { "unit": "Venerable Dreadnought", "pts": 130, "qty": 1 }
+  ]
+}

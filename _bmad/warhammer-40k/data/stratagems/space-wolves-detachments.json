@@ -1,0 +1,357 @@
+{
+  "faction": "Space Wolves",
+  "codex": "Codex: Space Marines (with Space Wolves Index)",
+  "edition": "10th Edition",
+  "detachments": {
+    "Stormlance Task Force": {
+      "rule": {
+        "name": "Lightning Assault",
+        "effect": "All ADEPTUS ASTARTES units can charge after Advancing or Falling Back"
+      },
+      "stratagems": [
+        {
+          "name": "Armour of Contempt",
+          "cp": 1,
+          "phase": "Any (save)",
+          "type": "Battle Tactic",
+          "effect": "Worsen AP of attacks vs ADEPTUS ASTARTES unit by 1"
+        },
+        {
+          "name": "Blitzing Fusillade",
+          "cp": 1,
+          "phase": "Shooting",
+          "type": "Battle Tactic",
+          "effect": "Unit that Advanced: ranged attacks get [ASSAULT] & +1 to Hit"
+        },
+        {
+          "name": "Lightning Assault",
+          "cp": 1,
+          "phase": "Charge",
+          "type": "Strategic Ploy",
+          "effect": "Unit that Fell Back: +2 to Charge roll this phase"
+        },
+        {
+          "name": "Storm of Violence",
+          "cp": 1,
+          "phase": "Fight",
+          "type": "Battle Tactic",
+          "effect": "Unit that charged: melee Crit Hits cause 1 extra hit"
+        },
+        {
+          "name": "Ride Hard, Ride Fast",
+          "cp": 1,
+          "phase": "Move",
+          "type": "Strategic Ploy",
+          "effect": "MOUNTED/VEHICLE unit: +2\" Move and Advance rolls"
+        },
+        {
+          "name": "Pack Hunters",
+          "cp": 1,
+          "phase": "Fight",
+          "type": "Battle Tactic",
+          "effect": "SW unit: +1 to Wound in melee vs enemy engaged by another SW unit"
+        }
+      ]
+    },
+    "Champions of Russ": {
+      "rule": {
+        "name": "Deeds Worthy of Saga",
+        "effect": "Each time a SPACE WOLVES unit destroys an enemy unit, it gains a Saga point. Units with Saga points get +1 to Hit rolls (melee). Units with 2+ Saga points also get +1 to Wound rolls (melee)."
+      },
+      "stratagems": [
+        {
+          "name": "Armour of Contempt",
+          "cp": 1,
+          "phase": "Any (save)",
+          "type": "Battle Tactic",
+          "effect": "Worsen AP of attacks vs ADEPTUS ASTARTES unit by 1"
+        },
+        {
+          "name": "Warrior Pride",
+          "cp": 1,
+          "phase": "Fight",
+          "type": "Battle Tactic",
+          "effect": "SW unit: melee attacks get [SUSTAINED HITS 1]"
+        },
+        {
+          "name": "Bestial Nature",
+          "cp": 1,
+          "phase": "Fight",
+          "type": "Battle Tactic",
+          "effect": "SW unit: melee attacks get [LANCE]. If unit has Saga point, also +1 Strength"
+        },
+        {
+          "name": "Cunning of the Wolf",
+          "cp": 1,
+          "phase": "Move",
+          "type": "Strategic Ploy",
+          "effect": "SW INFANTRY: can move through enemy models (not end on them)"
+        },
+        {
+          "name": "Go for the Throat",
+          "cp": 1,
+          "phase": "Charge",
+          "type": "Strategic Ploy",
+          "effect": "SW unit: RR Charge roll; if charging MONSTER/VEHICLE, can RR Wound too"
+        },
+        {
+          "name": "Seeking a Saga",
+          "cp": 1,
+          "phase": "Command",
+          "type": "Strategic Ploy",
+          "effect": "SW CHAR: gains 1 Saga point"
+        }
+      ]
+    },
+    "Gladius Task Force": {
+      "rule": {
+        "name": "Combat Doctrines",
+        "effect": "Start in Devastator Doctrine (RR Wound 1s, ranged, vs nearest enemy). Turn 3+: Assault Doctrine (RR Wound 1s, melee, vs nearest enemy). Can spend 1CP once per battle at start of Fight phase to switch early."
+      },
+      "stratagems": [
+        {
+          "name": "Armour of Contempt",
+          "cp": 1,
+          "phase": "Any (save)",
+          "type": "Battle Tactic",
+          "effect": "Worsen AP of attacks vs ADEPTUS ASTARTES unit by 1"
+        },
+        {
+          "name": "Only in Death Does Duty End",
+          "cp": 2,
+          "phase": "Fight",
+          "type": "Epic Deed",
+          "effect": "ADEPTUS ASTARTES CHAR destroyed: fight on death before removal"
+        },
+        {
+          "name": "Honour the Chapter",
+          "cp": 1,
+          "phase": "Fight",
+          "type": "Battle Tactic",
+          "effect": "ADEPTUS ASTARTES unit: fight again at end of phase (if still in Engagement Range)"
+        },
+        {
+          "name": "Adaptive Strategy",
+          "cp": 1,
+          "phase": "Your Turn",
+          "type": "Strategic Ploy",
+          "effect": "Switch to Assault Doctrine early (once per battle)"
+        },
+        {
+          "name": "Storm of Fire",
+          "cp": 1,
+          "phase": "Shooting",
+          "type": "Battle Tactic",
+          "effect": "ADEPTUS ASTARTES unit: Improve AP of ranged attacks by 1"
+        },
+        {
+          "name": "Squad Tactics",
+          "cp": 1,
+          "phase": "Enemy Shooting/Fight",
+          "type": "Strategic Ploy",
+          "effect": "ADEPTUS ASTARTES BATTLELINE: Fall Back after being targeted (before attacks resolved)"
+        }
+      ]
+    },
+    "Firestorm Assault Force": {
+      "rule": {
+        "name": "Close-Range Eradication",
+        "effect": "ADEPTUS ASTARTES units get +1 Strength on ranged attacks at half range or less"
+      },
+      "stratagems": [
+        {
+          "name": "Armour of Contempt",
+          "cp": 1,
+          "phase": "Any (save)",
+          "type": "Battle Tactic",
+          "effect": "Worsen AP of attacks vs ADEPTUS ASTARTES unit by 1"
+        },
+        {
+          "name": "Aggressor Doctrine",
+          "cp": 1,
+          "phase": "Shooting",
+          "type": "Battle Tactic",
+          "effect": "Unit within 12\" of enemy: ranged attacks get [LETHAL HITS]"
+        },
+        {
+          "name": "Breaching Fire",
+          "cp": 1,
+          "phase": "Shooting",
+          "type": "Battle Tactic",
+          "effect": "Unit: ranged attacks get [IGNORES COVER]"
+        },
+        {
+          "name": "Immolation Protocols",
+          "cp": 1,
+          "phase": "Shooting",
+          "type": "Battle Tactic",
+          "effect": "Unit with TORRENT weapon: +1 to Wound for TORRENT attacks"
+        },
+        {
+          "name": "Rapid Embarkation",
+          "cp": 1,
+          "phase": "Move",
+          "type": "Strategic Ploy",
+          "effect": "INFANTRY: embark after shooting (TRANSPORT must have moved)"
+        },
+        {
+          "name": "Point-Blank Overwatch",
+          "cp": 1,
+          "phase": "Enemy Charge",
+          "type": "Strategic Ploy",
+          "effect": "Unit: Fire Overwatch hits on 5+ instead of 6"
+        }
+      ]
+    },
+    "Ironstorm Spearhead": {
+      "rule": {
+        "name": "Armoured Wrath",
+        "effect": "ADEPTUS ASTARTES VEHICLE units: ranged attacks get [LETHAL HITS] vs targets on/within objectives"
+      },
+      "stratagems": [
+        {
+          "name": "Armour of Contempt",
+          "cp": 1,
+          "phase": "Any (save)",
+          "type": "Battle Tactic",
+          "effect": "Worsen AP of attacks vs ADEPTUS ASTARTES unit by 1"
+        },
+        {
+          "name": "Power of the Machine Spirit",
+          "cp": 1,
+          "phase": "Shooting",
+          "type": "Battle Tactic",
+          "effect": "VEHICLE: ignore all modifiers to Hit rolls"
+        },
+        {
+          "name": "Armoured Fury",
+          "cp": 1,
+          "phase": "Charge",
+          "type": "Battle Tactic",
+          "effect": "VEHICLE that Advanced: can still charge; +1 to Charge roll"
+        },
+        {
+          "name": "Mercy is Weakness",
+          "cp": 1,
+          "phase": "Shooting",
+          "type": "Battle Tactic",
+          "effect": "VEHICLE: ranged attacks get [DEVASTATING WOUNDS] vs INFANTRY"
+        },
+        {
+          "name": "Repair Crew",
+          "cp": 1,
+          "phase": "Command",
+          "type": "Strategic Ploy",
+          "effect": "VEHICLE: regain D3 lost wounds"
+        },
+        {
+          "name": "Rolling Fortress",
+          "cp": 1,
+          "phase": "Any",
+          "type": "Strategic Ploy",
+          "effect": "VEHICLE: friendly units within 3\" get Benefit of Cover vs ranged attacks"
+        }
+      ]
+    },
+    "Vanguard Spearhead": {
+      "rule": {
+        "name": "Shadow Masters",
+        "effect": "ADEPTUS ASTARTES units: enemies get -1 to Hit when targeting this unit from 12\"+ away"
+      },
+      "stratagems": [
+        {
+          "name": "Armour of Contempt",
+          "cp": 1,
+          "phase": "Any (save)",
+          "type": "Battle Tactic",
+          "effect": "Worsen AP of attacks vs ADEPTUS ASTARTES unit by 1"
+        },
+        {
+          "name": "Guerrilla Tactics",
+          "cp": 1,
+          "phase": "End of Fight",
+          "type": "Strategic Ploy",
+          "effect": "INFANTRY: if not in Engagement Range, remove from battlefield; set up in Reserves"
+        },
+        {
+          "name": "A Deadly Prize",
+          "cp": 1,
+          "phase": "Any",
+          "type": "Strategic Ploy",
+          "effect": "Remove unit from objective: enemy unit on that objective takes D3 mortal wounds"
+        },
+        {
+          "name": "Surgical Strikes",
+          "cp": 1,
+          "phase": "Fight",
+          "type": "Battle Tactic",
+          "effect": "Unit: melee attacks get [PRECISION]"
+        },
+        {
+          "name": "The Trap is Sprung",
+          "cp": 1,
+          "phase": "Fight",
+          "type": "Battle Tactic",
+          "effect": "Unit that charged from Reserves: RR Wound rolls in melee this phase"
+        },
+        {
+          "name": "Decapitating Blow",
+          "cp": 1,
+          "phase": "End of Turn",
+          "type": "Strategic Ploy",
+          "effect": "If enemy CHARACTER destroyed this turn: gain 1CP"
+        }
+      ]
+    },
+    "Anvil Siege Force": {
+      "rule": {
+        "name": "Shield of the Imperium",
+        "effect": "ADEPTUS ASTARTES units: add 1 to OC characteristic while within your deployment zone or on an objective in No Man's Land"
+      },
+      "stratagems": [
+        {
+          "name": "Armour of Contempt",
+          "cp": 1,
+          "phase": "Any (save)",
+          "type": "Battle Tactic",
+          "effect": "Worsen AP of attacks vs ADEPTUS ASTARTES unit by 1"
+        },
+        {
+          "name": "Unyielding Resistance",
+          "cp": 1,
+          "phase": "Fight",
+          "type": "Battle Tactic",
+          "effect": "Unit on objective: -1 Damage (min 1) for attacks against it"
+        },
+        {
+          "name": "Unassailable Fortress",
+          "cp": 1,
+          "phase": "Enemy Charge",
+          "type": "Strategic Ploy",
+          "effect": "INFANTRY: enemy charge rolls of 1-2 always fail"
+        },
+        {
+          "name": "No Step Backwards",
+          "cp": 1,
+          "phase": "Movement",
+          "type": "Strategic Ploy",
+          "effect": "INFANTRY that Remained Stationary: cannot be moved by enemy abilities"
+        },
+        {
+          "name": "Stand Your Ground",
+          "cp": 1,
+          "phase": "Shooting",
+          "type": "Battle Tactic",
+          "effect": "INFANTRY that Remained Stationary: ranged attacks get [HEAVY]"
+        },
+        {
+          "name": "Reinforced Position",
+          "cp": 1,
+          "phase": "Any",
+          "type": "Wargear",
+          "effect": "INFANTRY on objective in your deployment: improve Save by 1 (to max 2+)"
+        }
+      ]
+    }
+  }
+}

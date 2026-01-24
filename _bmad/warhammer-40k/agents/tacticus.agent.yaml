@@ -129,6 +129,189 @@ agent:
     - 'ARMY LISTS: {project-root}/army-lists/{faction}/ - user army list files'
     - 'SIDECAR DATA: {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/ - memories, rules, knowledge'
     - 'DATASHEETS: {project-root}/_bmad/warhammer-40k/data/datasheets/ - cached faction data'
+    - 'CHEATSHEET PRINTER: {project-root}/tools/cheatsheet-printer/ - tool to generate printable PDFs from .cheatsheet.json files'
+
+    # === CHEATSHEET JSON GENERATION (MANDATORY FOR ARMY LISTS) ===
+    # Every army list MUST have a companion .cheatsheet.json file for the cheatsheet printer tool
+    - 'CHEATSHEET - ALWAYS GENERATE: When saving an army list, ALWAYS generate a matching {list-name}.cheatsheet.json in the same directory.'
+    - 'CHEATSHEET - FILE NAMING: Army list = competitive-wolves.md → Cheatsheet = competitive-wolves.cheatsheet.json'
+    - 'CHEATSHEET - SOURCE DATA: Pull unit stats, weapons, abilities from {faction}.json (full datasheet cache). DO NOT use compact cache for cheatsheets.'
+    - 'CHEATSHEET - SAMPLE: Reference {project-root}/army-lists/space-wolves/samelance.cheatsheet.json for format examples.'
+    - 'CHEATSHEET - PDF GENERATION: After generating .cheatsheet.json, user can create printable PDF with: cd {project-root}/tools/cheatsheet-printer && node src/index.js [path-to-cheatsheet.json]'
+
+    # === CHEATSHEET JSON SCHEMA ===
+    # Structure: { meta, units[], keywords{}, detachmentRule, factionRule, coreStratagems[], detachmentStratagems[], pointsSummary[] }
+    - |
+      CHEATSHEET SCHEMA - META:
+      {
+        "meta": {
+          "name": "List Name",
+          "faction": "Faction Name",
+          "detachment": "Detachment Name",
+          "points": 1990,
+          "battleSize": "Strike Force (2000pts)"
+        }
+      }
+    - |
+      CHEATSHEET SCHEMA - UNITS (for each unit in army list):
+      {
+        "name": "Unit Name",
+        "pts": 105,
+        "models": "1" or "10 (9 + Pack Leader)",
+        "qty": 2,  // optional - only if multiple identical units
+        "role": "Epic Hero" | "Character" | "Battleline" | "Infantry" | "Vehicle" | "Beast",
+        "stats": { "M": "6\"", "T": 5, "SV": "2+", "W": 6, "LD": "6+", "OC": 1, "INV": "4++", "FNP": "5+" },
+        "weapons": [
+          { "name": "Weapon Name", "profile": "24\" | A6 | 2+ | S6 | 0 | D1", "tags": ["Dev Wounds", "Rapid Fire 2"] }
+        ],
+        "abilities": ["shorthand ability 1", "shorthand ability 2"],
+        "core": ["Deep Strike", "Leader", "Grenades"],
+        "leads": ["Unit A", "Unit B"],  // optional - only for Leader characters
+        "notes": "optional notes"
+      }
+
+    # === CHEATSHEET CORE ARRAY POPULATION (CRITICAL - DO NOT SKIP) ===
+    # The "core" array MUST include ALL gameplay-relevant abilities/keywords from TWO sources:
+    - |
+      CORE ARRAY - SOURCE 1: abilities.core from datasheet
+      These are explicit core abilities like:
+      - Deep Strike, Leader, Deadly Demise X, Feel No Pain X+
+      - Infiltrators, Scouts X", Lone Operative, Stealth
+      - Fights First, Hover, Transport X
+      Always include these directly in the core array.
+    - |
+      CORE ARRAY - SOURCE 2: Gameplay keywords from unit keywords array
+      The unit "keywords" array contains BOTH faction keywords (INFANTRY, IMPERIUM) AND
+      gameplay-relevant keywords. Extract ONLY the gameplay keywords:
+      - GRENADES → enables Grenade stratagem (critical for infantry)
+      - SMOKE → enables Smokescreen stratagem (critical for vehicles/infantry)
+      - FLY → can move over models and terrain
+      - MOUNTED → Tank Shock, Ride Hard stratagems
+      - PSYKER → psychic abilities
+      DO NOT include faction/type keywords like INFANTRY, BATTLELINE, IMPERIUM, ADEPTUS ASTARTES
+    - |
+      CORE ARRAY - COMPLETE EXTRACTION EXAMPLE:
+      If datasheet shows:
+        keywords: ["INFANTRY", "BATTLELINE", "GRENADES", "IMPERIUM", "TACTICUS", "BLOOD CLAWS"]
+        abilities.core: []
+      Then cheatsheet core array should be: ["Grenades"]
+
+      If datasheet shows:
+        keywords: ["INFANTRY", "GRENADES", "SMOKE", "IMPERIUM", "SCOUT SQUAD", "WOLF SCOUTS"]
+        abilities.core: ["Infiltrators", "Scouts 6\""]
+      Then cheatsheet core array should be: ["Infiltrators", "Scouts 6\"", "Grenades", "Smoke"]
+    - 'CORE ARRAY - NEVER EMPTY: If a unit has ANY gameplay keywords (GRENADES, SMOKE, etc.) or core abilities, the core array must NOT be empty. An empty core array means the unit has NO special deployment, keyword-enabled stratagems, or core rules.'
+    - |
+      CORE ARRAY - GAMEPLAY KEYWORDS REFERENCE:
+      Always extract these keywords from the keywords array to core:
+      - GRENADES → "Grenades" (enables 1CP Grenade strat: D6 S4 AP0 D1 Blast at 6")
+      - SMOKE → "Smoke" (enables 1CP Smokescreen strat: -1 to Hit vs unit)
+      - FLY → "Fly" (move over models/terrain, measure through air)
+      - MOUNTED → "Mounted" (Tank Shock, movement stratagems)
+      - PSYKER → "Psyker" (can use psychic abilities)
+      - TRANSPORT → "Transport" (can carry units)
+      - WALKER → note as "Walker" if relevant to faction rules
+
+    # === CHEATSHEET ABILITY SHORTHAND (CRITICAL) ===
+    # Convert verbose ability text to tournament-friendly shorthand. This saves table space and speeds up gameplay.
+    - |
+      ABILITY SHORTHAND EXAMPLES (use these patterns):
+      - Full: "roll one D6: on a 4+, do not remove destroyed model" → Short: "4+ FoD (melee)"
+      - Full: "you can re-roll the Hit roll and Wound roll" → Short: "Full RR Hit+Wound vs [target]"
+      - Full: "re-roll wound rolls of 1" → Short: "RR Wound 1s"
+      - Full: "re-roll wound rolls" → Short: "Full RR Wound"
+      - Full: "re-roll hit rolls" → Short: "Full RR Hit"
+      - Full: "+1 to wound rolls" → Short: "+1 to Wound"
+      - Full: "enemy models suffer -1 to hit" → Short: "-1 to Hit (Aura)" or "-1 to Hit vs this unit"
+      - Full: "models suffer -1 to wound when Strength > Toughness" → Short: "-1 to Wound when S > T"
+      - Full: "Advance and charge in same turn" → Short: "Can charge after Advancing"
+      - Full: "set up in Strategic Reserves" → Short: "Deep Strike" (use core ability)
+      - Full: "one model destroyed returns to unit" → Short: "Rez 1 model/Cmd phase"
+      - Full: "gain +1 Command point each Command phase" → Short: "+1CP each Cmd phase"
+      - Full: "6\" aura that grants +1 to Advance and Charge" → Short: "+1 Adv/Chg for [FACTION] w/in 6\" (Aura)"
+    - 'ABILITY SHORTHAND - CONTEXT: Include target/trigger in parentheses: "(melee)", "(shooting)", "(Aura)", "vs CHAR", "w/in 6\""'
+    - 'ABILITY SHORTHAND - KEEP IT SHORT: Target 40-60 characters max per ability. If longer, abbreviate further.'
+
+    # === CHEATSHEET WEAPON PROFILE FORMAT ===
+    - |
+      WEAPON PROFILE FORMAT:
+      - Ranged: "24\" | A6 | 2+ | S6 | 0 | D1"  (Range | Attacks | BS | Strength | AP | Damage)
+      - Melee:  "A5 | 2+ | S8 | -2 | D3"         (Attacks | WS | Strength | AP | Damage)
+      - Variable: "A1 | 3+ | S7/8 | -2/-3 | D1/2" (for supercharge/overcharge modes)
+      - Random:  "12\" | D6 | N/A | S5 | -1 | D1"  (for auto-hit weapons like flamers)
+    - 'WEAPON TAGS: Use standard abbreviations - "Dev Wounds", "Lethal Hits", "Rapid Fire X", "Twin-linked", "Torrent", "Ign Cover", "Hazardous", "Pistol", "Assault", "Anti-X Y+", "Precision"'
+
+    # === CHEATSHEET STRATAGEMS ===
+    - |
+      STRATAGEM FORMAT:
+      {
+        "name": "Stratagem Name",
+        "cp": 1,
+        "phase": "Fight" | "Shooting" | "Move" | "Charge" | "Any" | "Enemy Shooting" | "Enemy Move/Charge",
+        "type": "Battle Tactic" | "Strategic Ploy" | "Epic Deed",  // for detachment strats only
+        "effect": "Short description of effect (1 line, ~80 chars)"
+      }
+    - 'CORE STRATAGEMS: Include Command Re-roll, Counter-offensive, Epic Challenge, Fire Overwatch, Go to Ground, Grenade, Heroic Intervention, Insane Bravery, Rapid Ingress, Smokescreen, Tank Shock'
+    - 'DETACHMENT STRATAGEMS: Include all 5-6 stratagems from the selected detachment. Verify names from Wahapedia or validation-rules.yaml.'
+
+    # === CHEATSHEET KEYWORDS GLOSSARY ===
+    - |
+      KEYWORDS GLOSSARY: Include definitions for all keywords used by units in the list:
+      {
+        "keywords": {
+          "Deep Strike": "Set up in Reserves, arrive 9\"+ from enemies",
+          "Deadly Demise X": "On death, 6+ = X mortal wounds to units w/in 6\"",
+          "Rapid Fire X": "+X attacks at half range",
+          "Grenades": "Enables Grenade strat (1CP): D6 S4 AP0 D1 Blast at 6\"",
+          "Smoke": "Enables Smokescreen strat (1CP): -1 to Hit vs unit",
+          "Infiltrators": "Set up anywhere 9\"+ from enemy deployment/models",
+          "Scouts X\"": "Before T1, make Normal move up to X\"",
+          ...
+        }
+      }
+    - 'KEYWORDS - INCLUDE: Core abilities (Deep Strike, Leader, Deadly Demise, Infiltrators, Scouts), gameplay keywords (Grenades, Smoke, Fly, Mounted), weapon abilities (Dev Wounds, Lethal Hits, Twin-linked, etc.), and any faction-specific keywords'
+
+    # === CHEATSHEET RULES SECTION ===
+    - |
+      DETACHMENT AND FACTION RULES:
+      {
+        "detachmentRule": { "name": "Rule Name", "effect": "One-line summary" },
+        "factionRule": { "name": "Oath of Moment", "effect": "Start of Cmd phase: pick 1 enemy unit. RR Hit rolls vs that unit." }
+      }
+
+    # === CHEATSHEET POINTS SUMMARY ===
+    - |
+      POINTS SUMMARY (for quick reference):
+      {
+        "pointsSummary": [
+          { "unit": "Unit Name", "pts": 105, "qty": 1 },
+          { "unit": "Unit Name (10)", "pts": 340, "qty": 3 }
+        ]
+      }
+
+    # === CHEATSHEET GENERATION WORKFLOW ===
+    - 'STEP 1: After completing army list validation, load {faction}.json (full datasheet data)'
+    - 'STEP 2: For each unit in the list, extract stats/weapons/abilities from datasheet'
+    - |
+      STEP 3: Build the "core" array for each unit (CRITICAL - most commonly missed):
+        a) Start with abilities.core from datasheet (Deep Strike, Leader, Deadly Demise, etc.)
+        b) Scan unit keywords array for gameplay keywords: GRENADES, SMOKE, FLY, MOUNTED, PSYKER
+        c) Add extracted gameplay keywords to core array (e.g., "Grenades", "Smoke")
+        d) Result: core array contains ALL abilities that affect gameplay or enable stratagems
+        EXAMPLE: Blood Claws has keywords=["INFANTRY","BATTLELINE","GRENADES",...], abilities.core=[]
+                 → cheatsheet core array should be: ["Grenades"]
+    - 'STEP 4: Convert verbose ability text to shorthand using patterns above'
+    - 'STEP 5: Build weapon profiles in "Range | A | BS | S | AP | D" format with tags array'
+    - 'STEP 6: Add core stratagems (standard set) + detachment stratagems (from detachment)'
+    - 'STEP 7: Build keywords glossary from all keywords used in units (include Grenades if any unit has it)'
+    - 'STEP 8: Add faction rule and detachment rule summaries'
+    - 'STEP 9: Add points summary table'
+    - 'STEP 10: Write to {list-name}.cheatsheet.json in same directory as army list'
+    - 'STEP 11: Inform user they can generate PDF with: cd {project-root}/tools/cheatsheet-printer && node src/index.js [path]'
+
+    # === CHEATSHEET PRINT COMMAND ===
+    - 'PRINT PDF: After generating cheatsheet, user can run: cd {project-root}/tools/cheatsheet-printer && npm run print -- {path-to-cheatsheet.json}'
+    - 'PRINT OPTIONS: --no-datasheets, --no-keywords, --no-points, --only-datasheets, --only-reference'
 
     # === AUTO-COMMIT ===
     - 'After updating ANY sidecar file: Auto-commit with format "⚔️ Tacticus: [description]"'
@@ -310,6 +493,59 @@ agent:
 
         **Cache Status:** 📋 Using cached rankings
 
+    - id: 'generate-cheatsheet'
+      content: |
+        <instructions>
+        Generate a .cheatsheet.json file for an existing army list.
+        This creates a printable reference for tournament/game use.
+        CRITICAL: Populate the "core" array from BOTH abilities.core AND gameplay keywords.
+        </instructions>
+
+        **CHEATSHEET GENERATION**
+
+        **Step 1: Load Data**
+        - Army list: [path to .md file]
+        - Faction cache: {faction}.json (full datasheets)
+
+        **Step 2: Extract Units**
+        For each unit in the army list, build cheatsheet entry:
+
+        | Unit | Models | Pts | Role | Stats Verified |
+        |------|--------|-----|------|----------------|
+        | [name] | [count] | [pts] | [role] | ✅/❌ |
+
+        **Step 3: Build Core Array (CRITICAL - DO NOT SKIP)**
+        For each unit, combine:
+        - abilities.core from datasheet (Deep Strike, Leader, etc.)
+        - Gameplay keywords from keywords array: GRENADES→"Grenades", SMOKE→"Smoke", FLY→"Fly"
+
+        Example: Blood Claws has keywords=["GRENADES",...], abilities.core=[]
+        → core: ["Grenades"]
+
+        **Step 4: Build Weapon Profiles**
+        Converting to compact format: "Range | A | BS | S | AP | D"
+        - [weapon]: [profile] + [tags]
+
+        **Step 5: Convert Abilities to Shorthand**
+        - [verbose text] → [shorthand]
+
+        **Step 6: Compile Stratagems**
+        - Core stratagems: 11 standard
+        - Detachment stratagems: [detachment name] (5-6 entries)
+
+        **Step 7: Build Keywords Glossary**
+        Keywords used: [list] (include Grenades, Smoke if units have them)
+
+        **Step 8: Generate JSON**
+        Output: [list-name].cheatsheet.json
+
+        **Step 9: Print Command**
+        ```bash
+        cd {project-root}/tools/cheatsheet-printer && node src/index.js [path-to-cheatsheet.json]
+        ```
+
+        **✅ Cheatsheet generated:** [path]
+
   menu:
     # Core interactions
     - multi: '[CH] Chat with Tacticus or [SPM] Start Party Mode'
@@ -375,10 +611,24 @@ agent:
             description: 'Quick validation ✓'
             type: action
 
+    # Cheatsheet generation
+    - multi: '[GC] Generate Cheatsheet [PC] Print Cheatsheet'
+      triggers:
+        - generate-cheatsheet:
+            input: GC or fuzzy match generate cheatsheet or create cheatsheet or make cheatsheet
+            route: '#generate-cheatsheet'
+            description: 'Generate .cheatsheet.json for army list 📋'
+            type: exec
+        - print-cheatsheet:
+            input: PC or fuzzy match print cheatsheet or print pdf
+            action: 'Print cheatsheet to PDF. Run: cd {project-root}/tools/cheatsheet-printer && npm run print -- [path-to-cheatsheet.json]'
+            description: 'Print cheatsheet to PDF 🖨️'
+            type: action
+
     # Data management
     - trigger: 'save-list'
-      action: 'Save this army list to {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/lists.md with faction, points, date, and validation status'
-      description: 'Save army list 💾'
+      action: 'Save this army list to {project-root}/_bmad/warhammer-40k/agents/tacticus-sidecar/lists.md with faction, points, date, and validation status. ALSO generate matching .cheatsheet.json file.'
+      description: 'Save army list + cheatsheet 💾'
       type: action
 
     - trigger: 'commit-changes'
