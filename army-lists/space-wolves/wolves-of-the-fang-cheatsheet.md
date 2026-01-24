@@ -9,7 +9,7 @@
 | Done | Action | Details |
 |:----:|--------|---------|
 | ☐ | **OATH OF MOMENT** | Pick 1 enemy unit → re-roll hits vs them (ALL GAME until dead) |
-| ☐ | **Bjorn +1CP** | Just take it. Every turn. |
+| ☐ | **Bjorn +1CP (4+)** | Roll D6: on 4+ gain 1CP |
 | ☐ | **Wolf Priest Heal** | Return 1 destroyed model to his unit (not CHARACTER) |
 
 ---

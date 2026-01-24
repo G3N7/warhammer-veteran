@@ -1,8 +1,8 @@
 {
   "faction": "space-wolves",
-  "last_updated": "2026-01-19T21:32:06.049067+00:00",
+  "last_updated": "2026-01-21T04:57:25.956698+00:00",
   "schema": "compact-v1",
-  "unit_count": 19,
+  "unit_count": 20,
   "units": {
     "Arjac Rockfist": {
       "name": "Arjac Rockfist",
@@ -233,7 +233,10 @@
         6
       ],
       "epic_hero": false,
-      "pts_per_model": 38,
+      "pts_table": {
+        "3": 115,
+        "6": 230
+      },
       "keywords": [
         "MOUNTED",
         "GRENADES"
@@ -404,6 +407,12 @@
         "Infiltrators",
         "Scouts 6\""
       ]
+    },
+    "Wolf Guard Headtakers": {
+      "name": "Wolf Guard Headtakers",
+      "pts": null,
+      "sizes": [],
+      "epic_hero": false
     }
   }
 }

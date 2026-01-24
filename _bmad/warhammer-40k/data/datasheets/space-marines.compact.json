@@ -1,8 +1,8 @@
 {
   "faction": "space-marines",
-  "last_updated": "2026-01-19T21:35:23.638701+00:00",
+  "last_updated": "2026-01-21T04:57:18.115140+00:00",
   "schema": "compact-v1",
-  "unit_count": 13,
+  "unit_count": 14,
   "units": {
     "Roboute Guilliman": {
       "name": "Roboute Guilliman",
@@ -261,6 +261,22 @@
       ],
       "core": [
         "Deep Strike"
+      ]
+    },
+    "Gladiator Reaper": {
+      "name": "Gladiator Reaper",
+      "pts": 160,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "VEHICLE",
+        "SMOKE"
+      ],
+      "core": [
+        "Deadly Demise D3"
       ]
     }
   }
