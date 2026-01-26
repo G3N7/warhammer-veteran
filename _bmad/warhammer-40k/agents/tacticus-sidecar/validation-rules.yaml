@@ -34,6 +34,12 @@ faction_abilities:
 # ============================================================
 hard_rules:
 
+  leader_count:
+    rule: "Maximum 1 Leader per unit unless datasheet explicitly says 'can attach alongside another Leader'"
+    check: "Before claiming two characters can join same unit, verify BOTH have 'alongside' text in their Leader ability"
+    common_error: "Assuming Logan + Arjac can join same Wolf Guard Terminator unit - they cannot"
+    date: "2026-01-26"
+
   rule_of_three:
     applies_to: "matched play"
     rule: "Max 3 units per datasheet (except BATTLELINE and DEDICATED TRANSPORT)"
@@ -164,6 +170,41 @@ validation_gates:
       - "If cache returns null/missing → run --add-unit before proceeding"
       - "NEVER write points from memory - always cite cache"
     verification: "State data source for each unit: '[Unit]: cache says [X]pts'"
+
+  gate_10_wargear_verification:
+    blocking: true
+    description: "Before recommending ANY wargear, verify it exists on current 10th edition datasheet"
+    steps:
+      - "Load {faction}.json (full datasheet) or run --unit command"
+      - "Extract unit.weapons.ranged and unit.weapons.melee arrays"
+      - "Only recommend weapons that exist in current data"
+      - "If uncertain, run: python3 scrape-wahapedia.py --unit {faction} 'Unit Name'"
+    prevention: "Never recommend wargear from memory - 10th Edition changed many options (Thunder Hammers removed from WG Terminators, etc.)"
+    date: "2026-01-26"
+
+  gate_11_ability_exact_text:
+    blocking: true
+    description: "Before explaining ANY ability, quote exact text from datasheet first"
+    steps:
+      - "Load unit datasheet (cache or --unit command)"
+      - "Find ability by name in abilities.unit array"
+      - "Quote exact text in response: 'Ability says: [exact text]'"
+      - "THEN explain what it means in plain language"
+    prevention: "Paraphrasing leads to wrong interpretations (e.g., 'any unit' vs 'this unit', 'once per battle' vs 'once per turn')"
+    example_error: "Logan's ability says 'one unit from your army' but was paraphrased as 'his unit'"
+    date: "2026-01-26"
+
+  gate_12_leader_count:
+    blocking: true
+    description: "Verify each unit has at most ONE attached Leader"
+    steps:
+      - "For each unit in army list, count attached Leaders"
+      - "If count > 1, check BOTH leaders for 'can attach alongside' text"
+      - "If neither has 'alongside' text → ILLEGAL → remove one leader"
+    common_errors:
+      - "Logan + Arjac in same Terminator unit (neither can attach alongside)"
+      - "Wolf Priest + Njal in same Blood Claws (neither can attach alongside)"
+    date: "2026-01-26"
 
 # ============================================================
 # KNOWN CORRECTIONS - Overrides for datasheet errors
@@ -468,6 +509,43 @@ mistake_patterns:
       3. If uncertain, web search "[faction] 10th edition faction ability" before claiming
       4. Edition names (Saga of the Beast, Codex Supplement titles) are NOT rules
     affected_factions: ["Space Wolves", "Blood Angels", "Dark Angels", "Black Templars", "Deathwatch"]
+
+  leader_count_error:
+    description: "Assuming multiple leaders can attach to same unit without verification"
+    frequency: "MEDIUM"
+    prevention: "Only ONE leader per unit. Check for explicit 'can attach alongside another Leader' text before claiming otherwise."
+    occurrences:
+      - error: "Logan + Arjac in same Wolf Guard Terminators unit"
+        reality: "One leader per unit is the core rule. Neither has 'alongside' text. They must lead separate units."
+        date: "2026-01-26"
+    affected_characters: ["Logan Grimnar", "Arjac Rockfist", "Wolf Priest", "Njal Stormcaller"]
+
+  ability_paraphrase_error:
+    description: "Misinterpreting ability by not reading exact text from datasheet"
+    frequency: "HIGH"
+    prevention: "ALWAYS load datasheet and quote exact ability text before interpreting what it does"
+    occurrences:
+      - unit: "Logan Grimnar"
+        ability: "The Great Wolf"
+        error: "Claimed ability only affects 'the unit he's attached to'"
+        reality: "Text says 'one unit from your army can be set up on the battlefield' - ANY reserve unit, not just his"
+        date: "2026-01-26"
+    affected_abilities: ["Logan's reserve ability", "Any 'once per battle' vs 'once per turn' ability"]
+
+  wargear_memory_error:
+    description: "Recommending wargear options from memory instead of verifying against current datasheet"
+    frequency: "HIGH - 10th edition removed many options"
+    prevention: "Load datasheet.weapons array before recommending ANY wargear. Run --unit command if uncertain."
+    occurrences:
+      - unit: "Wolf Guard Terminators"
+        error: "Recommended Thunder Hammers as wargear option"
+        reality: "Thunder Hammers NOT on 10th Edition WG Terminator datasheet. Actual options: MC Power Weapon, Power Fist, Twin Lightning Claws, Chainfist"
+        date: "2026-01-26"
+    affected_units: ["Wolf Guard Terminators", "Any unit that had options removed in 10th Edition"]
+    removed_options_examples:
+      - unit: "Wolf Guard Terminators"
+        removed: ["Thunder Hammer", "Frost Weapon", "Wolf Claw"]
+        current: ["MC Power Weapon", "Power Fist", "Twin Lightning Claws", "Chainfist", "Storm Shield"]
 
 # ============================================================
 # DETACHMENT ENHANCEMENTS - Quick reference

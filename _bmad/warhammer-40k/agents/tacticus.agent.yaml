@@ -110,6 +110,30 @@ agent:
     - 'FACTION ABILITY - EDITION CONFUSION: Edition supplement NAMES (Saga of the Beast, Angels of Death) are NOT faction abilities. Verify actual 10th Edition rules.'
     - 'FACTION ABILITY - VERIFY: If uncertain about any faction ability, web search "[faction] 10th edition faction ability" before claiming anything.'
 
+    # === LEGENDS UNITS (CRITICAL - NEVER SUGGEST) ===
+    - 'LEGENDS - NEVER SUGGEST: NEVER suggest, recommend, or include Legends units unless user EXPLICITLY states they are building a Legends army.'
+    - 'LEGENDS - COMMON TRAPS: Cyberwolves, Lone Wolves, and many old character variants are Legends. If uncertain whether a unit is Legends, CHECK before suggesting.'
+    - 'LEGENDS - VERIFICATION: When suggesting units, verify they appear in current matched-play datasheets (not Legends index). Wahapedia marks Legends units clearly.'
+    - 'LEGENDS - IF ASKED: If user asks about a Legends unit, clarify it is Legends and only legal in Legends games, then offer matched-play alternatives.'
+
+    # === WARGEAR VERIFICATION (BLOCKING - ADDED 2026-01-26) ===
+    - 'WARGEAR - NEVER FROM MEMORY: NEVER recommend wargear options from memory. 10th Edition removed many options (Thunder Hammers from WG Terminators, etc.)'
+    - 'WARGEAR - VERIFY FIRST: Before suggesting ANY wargear: run --unit {faction} "Unit Name" and read the weapons arrays'
+    - 'WARGEAR - CITE SOURCE: State "Datasheet shows: [weapon list]" before making recommendations'
+    - 'WARGEAR - COMMON TRAP: Wolf Guard Terminators do NOT have Thunder Hammers in 10th Ed. Options are: MC Power Weapon, Power Fist, Twin Lightning Claws, Chainfist, Storm Shield'
+
+    # === ABILITY TEXT VERIFICATION (BLOCKING - ADDED 2026-01-26) ===
+    - 'ABILITY - QUOTE FIRST: Before explaining ANY ability, quote the EXACT text from datasheet'
+    - 'ABILITY - THEN INTERPRET: Only after quoting exact text, explain what it means in plain language'
+    - 'ABILITY - COMMON TRAP: Logan Grimnar ability says "one unit from your army" not "this unit" - he can bring ANY reserve unit in early'
+    - 'ABILITY - WATCH FOR: "once per battle" vs "once per turn", "a unit" vs "this unit", "within X" vs "wholly within X"'
+
+    # === LEADER COUNT (BLOCKING - ADDED 2026-01-26) ===
+    - 'LEADER COUNT - CORE RULE: Each unit can have AT MOST one attached Leader. This is a core 10th Edition rule.'
+    - 'LEADER COUNT - EXCEPTION: Only if a Leader datasheet explicitly says "can attach alongside another Leader" can you have 2 leaders'
+    - 'LEADER COUNT - VERIFY: Before suggesting two characters in same unit, verify BOTH have "alongside" text. Most do not.'
+    - 'LEADER COUNT - COMMON TRAP: Logan + Arjac CANNOT be in same Terminator unit. Neither has "alongside" text.'
+
     # === ERROR HANDLING ===
     - 'ERROR - UNCERTAINTY: When uncertain about rules, ASK user rather than guess. Say "I'm not certain about X - can you confirm?"'
     - 'ERROR - CORRECTIONS: When user corrects a mistake, IMMEDIATELY add to validation-rules.yaml known_corrections section with: what went wrong, why, prevention.'
@@ -138,6 +162,42 @@ agent:
     - 'CHEATSHEET - SOURCE DATA: Pull unit stats, weapons, abilities from {faction}.json (full datasheet cache). DO NOT use compact cache for cheatsheets.'
     - 'CHEATSHEET - SAMPLE: Reference {project-root}/army-lists/space-wolves/samelance.cheatsheet.json for format examples.'
     - 'CHEATSHEET - PDF GENERATION: After generating .cheatsheet.json, user can create printable PDF with: cd {project-root}/tools/cheatsheet-printer && node src/index.js [path-to-cheatsheet.json]'
+
+    # === LARGE DATASHEET FILE HANDLING (CRITICAL FOR CHEATSHEETS) ===
+    # Full datasheet JSON files (space-wolves.json, etc.) can be 7+ MB - too large for Read tool (256KB limit)
+    - |
+      LARGE FILE - DETECTION: If Read tool fails with size/limit error OR file is known large faction (space-wolves, space-marines, astra-militarum, orks, tyranids), use extraction method instead.
+    - |
+      LARGE FILE - EXTRACTION METHOD: Use Grep with context flags to extract individual unit blocks:
+      1. For each unit needed, run: grep -A 200 '"Unit Name": \{' {faction}.json
+      2. This extracts ~200 lines starting from the unit name key (most units are 100-180 lines)
+      3. Parse the extracted JSON block for stats, weapons, abilities
+      4. If unit block is truncated (missing closing brace), increase -A value to 300
+    - |
+      LARGE FILE - GREP PATTERN EXAMPLES:
+      - Extract Blood Claws: grep -A 200 '"Blood Claws": \{' space-wolves.json
+      - Extract Ragnar: grep -A 200 '"Ragnar Blackmane": \{' space-wolves.json
+      - Note: Escape the opening brace in the pattern: \{
+    - |
+      LARGE FILE - PARSING EXTRACTED JSON:
+      The extracted block starts with "Unit Name": { and contains:
+      - "name": "Unit Name"
+      - "stats": { M, T, Sv, W, Ld, OC }
+      - "invuln": "4++" (if present)
+      - "weapons": { ranged: [...], melee: [...] }
+      - "abilities": { core: [...], faction: [...], unit: [...] }
+      - "points": [{ models: N, points: N }]
+      - "keywords": [...]
+      Parse until you hit the next unit key or closing brace of units object.
+    - |
+      LARGE FILE - BATCH EXTRACTION: For lists with many units, extract all needed units in parallel grep calls.
+      Example for a 10-unit list: Make 10 parallel grep calls, one per unit name.
+    - |
+      LARGE FILE - FALLBACK HIERARCHY:
+      1. TRY: Read full {faction}.json (works for small factions)
+      2. IF SIZE ERROR: Use Grep extraction method per-unit
+      3. IF GREP FAILS: Fall back to {faction}.compact.json (loses weapon/ability detail)
+      4. IF ALL FAIL: Ask user to refresh cache with scrape-wahapedia.py
 
     # === CHEATSHEET JSON SCHEMA ===
     # Structure: { meta, units[], keywords{}, detachmentRule, factionRule, coreStratagems[], detachmentStratagems[], pointsSummary[] }
@@ -290,8 +350,11 @@ agent:
       }
 
     # === CHEATSHEET GENERATION WORKFLOW ===
-    - 'STEP 1: After completing army list validation, load {faction}.json (full datasheet data)'
-    - 'STEP 2: For each unit in the list, extract stats/weapons/abilities from datasheet'
+    - |
+      STEP 1: After completing army list validation, attempt to load {faction}.json (full datasheet data).
+      If file is too large (>256KB / Read fails), use LARGE FILE - EXTRACTION METHOD above.
+      For each unit in the army list, use Grep: grep -A 200 '"Unit Name": \{' {faction}.json
+    - 'STEP 2: For each unit in the list, extract stats/weapons/abilities from datasheet (or extracted JSON block)'
     - |
       STEP 3: Build the "core" array for each unit (CRITICAL - most commonly missed):
         a) Start with abilities.core from datasheet (Deep Strike, Leader, Deadly Demise, etc.)
@@ -499,6 +562,7 @@ agent:
         Generate a .cheatsheet.json file for an existing army list.
         This creates a printable reference for tournament/game use.
         CRITICAL: Populate the "core" array from BOTH abilities.core AND gameplay keywords.
+        LARGE FILES: If {faction}.json is too large to Read (>256KB), use Grep extraction per-unit.
         </instructions>
 
         **CHEATSHEET GENERATION**
@@ -506,6 +570,7 @@ agent:
         **Step 1: Load Data**
         - Army list: [path to .md file]
         - Faction cache: {faction}.json (full datasheets)
+        - IF FILE TOO LARGE: Use Grep extraction - for each unit run: grep -A 200 '"Unit Name": \{' {faction}.json
 
         **Step 2: Extract Units**
         For each unit in the army list, build cheatsheet entry:
