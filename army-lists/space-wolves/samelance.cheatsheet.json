@@ -3,7 +3,7 @@
     "name": "SameLance",
     "faction": "Space Wolves",
     "detachment": "Stormlance Task Force",
-    "points": 1990,
+    "points": 1980,
     "battleSize": "Strike Force (2000pts)"
   },
   "units": [
@@ -19,7 +19,7 @@
       ],
       "abilities": [
         "4+ FoD (melee) - led unit fights on death",
-        "Full RR Hit+Wound vs CHAR"
+        "Full RR Hit+Wound vs CHAR/MONSTER"
       ],
       "core": ["Deep Strike", "Leader"],
       "leads": ["Wolf Guard Terminators"]
@@ -45,22 +45,41 @@
       "notes": "Takes 4 transport slots"
     },
     {
-      "name": "Wolf Priest",
+      "name": "Njal Stormcaller",
       "pts": 85,
       "models": "1",
-      "role": "Character",
+      "role": "Epic Hero / Psyker",
       "stats": { "M": "7\"", "T": 4, "SV": "3+", "W": 4, "LD": "6+", "OC": 1, "INV": "4++" },
+      "weapons": [
+        { "name": "Bolt Pistol", "profile": "12\" | A1 | 3+ | S4 | 0 | D1", "tags": ["Pistol"] },
+        { "name": "Living Lightning (witchfire)", "profile": "24\" | D6 | 3+ | S7 | -1 | D1", "tags": ["Psychic", "Sustained 2"] },
+        { "name": "Living Lightning (focused)", "profile": "24\" | 2D6 | 3+ | S7 | -1 | D1", "tags": ["Psychic", "Sustained 2", "Hazardous"] },
+        { "name": "Staff of the Stormcaller", "profile": "A4 | 3+ | S7 | -1 | D3", "tags": ["Psychic", "Sustained 2"] }
+      ],
+      "abilities": [
+        "Led unit: ranged weapons get [ASSAULT]",
+        "Start of Shooting: pick 1 enemy w/in 12\" visible - on 2+ take D3 MW"
+      ],
+      "core": ["Leader"],
+      "leads": ["Blood Claws", "Grey Hunters", "WG Headtakers"]
+    },
+    {
+      "name": "Wolf Priest",
+      "pts": 70,
+      "models": "1",
+      "role": "Character",
+      "stats": { "M": "6\"", "T": 4, "SV": "3+", "W": 4, "LD": "6+", "OC": 1, "INV": "4++" },
       "weapons": [
         { "name": "Absolvor Bolt Pistol", "profile": "18\" | A1 | 3+ | S5 | -1 | D2", "tags": ["Pistol"] },
         { "name": "Crozius Arcanum", "profile": "A5 | 2+ | S6 | -1 | D2", "tags": [] }
       ],
       "abilities": [
         "Rez 1 model/Cmd phase (not CHAR)",
-        "+1 to Wound (melee) for led unit",
-        "RR Advance rolls (Portents)"
+        "+1 to Wound (melee) for led unit"
       ],
       "core": ["Leader"],
-      "leads": ["Blood Claws", "Grey Hunters", "WG Headtakers"]
+      "leads": ["Blood Claws", "Grey Hunters", "WG Headtakers"],
+      "notes": "Tacticus armor (not Terminator)"
     },
     {
       "name": "Bjorn the Fell-Handed",
@@ -70,21 +89,22 @@
       "stats": { "M": "9\"", "T": 9, "SV": "2+", "W": 8, "LD": "6+", "OC": 3, "INV": "5++", "FNP": "5+" },
       "weapons": [
         { "name": "Heavy Flamer", "profile": "12\" | D6 | N/A | S5 | -1 | D1", "tags": ["Torrent", "Ign Cover"] },
-        { "name": "Assault Cannon", "profile": "24\" | A6 | 2+ | S6 | 0 | D1", "tags": ["Dev Wounds"] },
+        { "name": "Helfrost Cannon", "profile": "24\" | A3 | 3+ | S8 | -3 | D3", "tags": [] },
         { "name": "Trueclaw", "profile": "A6 | 2+ | S12 | -2 | D3", "tags": ["Lethal Hits"] }
       ],
       "abilities": [
         "+1CP each Cmd phase",
         "-1 to Wound when S > T"
       ],
-      "core": ["Deadly Demise 1"]
+      "core": ["Deadly Demise D3", "Smoke"]
     },
     {
       "name": "Blood Claws",
       "pts": 135,
+      "qty": 2,
       "models": "10 (9 + Pack Leader)",
       "role": "Battleline",
-      "stats": { "M": "7\"", "T": 4, "SV": "3+", "W": 2, "LD": "6+", "OC": 2 },
+      "stats": { "M": "6\"", "T": 4, "SV": "3+", "W": 2, "LD": "6+", "OC": 2 },
       "weapons": [
         { "name": "Bolt Pistol (x9)", "profile": "12\" | A1 | 3+ | S4 | 0 | D1", "tags": ["Pistol"] },
         { "name": "Plasma Pistol (ldr)", "profile": "12\" | A1 | 3+ | S7/8 | -2/-3 | D1/2", "tags": ["Hazardous", "Pistol"] },
@@ -94,63 +114,45 @@
       "abilities": [
         "Can charge after Advancing"
       ],
-      "core": ["Grenades"]
-    },
-    {
-      "name": "Grey Hunters",
-      "pts": 165,
-      "models": "10 (9 + Pack Leader)",
-      "role": "Battleline",
-      "stats": { "M": "7\"", "T": 4, "SV": "3+", "W": 2, "LD": "6+", "OC": 3 },
-      "weapons": [
-        { "name": "Bolt Carbine (x9)", "profile": "24\" | A2 | 3+ | S4 | 0 | D1", "tags": ["Rapid Fire 1"] },
-        { "name": "Bolt Pistol", "profile": "12\" | A1 | 3+ | S4 | 0 | D1", "tags": ["Pistol"] },
-        { "name": "Plasma Pistol (ldr)", "profile": "12\" | A1 | 3+ | S7/8 | -2/-3 | D1/2", "tags": ["Hazardous", "Pistol"] },
-        { "name": "Chainsword (x9)", "profile": "A4 | 3+ | S4 | -1 | D1", "tags": [] },
-        { "name": "Power Weapon (ldr)", "profile": "A4 | 3+ | S5 | -2 | D1", "tags": [] }
-      ],
-      "abilities": [
-        "RR Wound 1s (full RR on objectives)"
-      ],
-      "core": ["Grenades"]
-    },
-    {
-      "name": "Wolf Guard Terminators",
-      "pts": 340,
-      "qty": 3,
-      "models": "10 (1 Ldr + 5 Shield + 2 Bolter + 2 Cannon)",
-      "role": "Infantry",
-      "stats": { "M": "6\"", "T": 5, "SV": "2+", "W": 3, "LD": "6+", "OC": 1, "INV": "4++" },
-      "weapons": [
-        { "name": "Storm Bolter (x2)", "profile": "24\" | A2 | 2+ | S4 | 0 | D1", "tags": ["Rapid Fire 2"] },
-        { "name": "Assault Cannon (x2)", "profile": "24\" | A6 | 2+ | S6 | 0 | D1", "tags": ["Dev Wounds"] },
-        { "name": "Twin Lightning Claws (ldr)", "profile": "A6 | 3+ | S5 | -2 | D1", "tags": ["Twin-linked"] },
-        { "name": "MC Power Weapon (x7)", "profile": "A4 | 3+ | S5 | -2 | D2", "tags": [] },
-        { "name": "Power Fist (x2)", "profile": "A3 | 3+ | S8 | -2 | D2", "tags": [] }
-      ],
-      "abilities": [
-        "-1 to Wound when S > T",
-        "Storm Shield: W4 instead of W3"
-      ],
-      "core": ["Deep Strike", "Grenades"],
-      "notes": "x3 units in list"
-    },
-    {
-      "name": "Fenrisian Wolves",
-      "pts": 40,
-      "qty": 2,
-      "models": "5",
-      "role": "Beast",
-      "stats": { "M": "10\"", "T": 4, "SV": "6+", "W": 1, "LD": "8+", "OC": 0 },
-      "weapons": [
-        { "name": "Teeth and Claws", "profile": "A3 | 4+ | S4 | 0 | D1", "tags": [] }
-      ],
-      "abilities": [
-        "React move D6\" when enemy ends move w/in 9\"",
-        "OC1 when w/in 6\" of SW CHAR (not Wulfen)"
-      ],
-      "core": [],
+      "core": ["Grenades"],
       "notes": "x2 units in list"
+    },
+    {
+      "name": "Gladiator Lancer",
+      "pts": 160,
+      "qty": 2,
+      "models": "1",
+      "role": "Vehicle",
+      "stats": { "M": "10\"", "T": 10, "SV": "3+", "W": 12, "LD": "6+", "OC": 3 },
+      "weapons": [
+        { "name": "Lancer Laser Destroyer", "profile": "72\" | A2 | 3+ | S14 | -4 | D6+3", "tags": ["Heavy", "Lance"] },
+        { "name": "Icarus Rocket Pod", "profile": "24\" | D3 | 3+ | S8 | -1 | D2", "tags": ["Anti-Fly 2+"] },
+        { "name": "Ironhail Heavy Stubber", "profile": "36\" | A3 | 3+ | S4 | 0 | D1", "tags": ["Rapid Fire 3"] },
+        { "name": "Fragstorm Grenade Launcher (x2)", "profile": "18\" | D6 | 3+ | S4 | 0 | D1", "tags": ["Blast"] },
+        { "name": "Armoured Hull", "profile": "A3 | 4+ | S6 | 0 | D1", "tags": [] }
+      ],
+      "abilities": [
+        "Aquilon Optics: RR 1 Hit, 1 Wound, 1 Dmg each shooting"
+      ],
+      "core": ["Deadly Demise D3"],
+      "notes": "x2 units in list"
+    },
+    {
+      "name": "Thunderwolf Cavalry",
+      "pts": 115,
+      "models": "3",
+      "role": "Mounted",
+      "stats": { "M": "12\"", "T": 6, "SV": "3+", "W": 4, "LD": "6+", "OC": 2 },
+      "weapons": [
+        { "name": "Bolt Pistol", "profile": "12\" | A1 | 3+ | S4 | 0 | D1", "tags": ["Pistol"] },
+        { "name": "Wolf Guard Weapon", "profile": "A4 | 3+ | S5 | -2 | D2", "tags": [] },
+        { "name": "Teeth and Claws", "profile": "A3 | 4+ | S5 | -1 | D1", "tags": ["Extra Attacks"] }
+      ],
+      "abilities": [
+        "Thunderous Charge: +1S & +1AP on charge",
+        "Storm Shield available (4++)"
+      ],
+      "core": ["Grenades"]
     },
     {
       "name": "Venerable Dreadnought",
@@ -159,15 +161,70 @@
       "role": "Vehicle",
       "stats": { "M": "8\"", "T": 9, "SV": "2+", "W": 8, "LD": "6+", "OC": 3, "INV": "4++" },
       "weapons": [
-        { "name": "Heavy Flamer", "profile": "12\" | D6 | N/A | S5 | -1 | D1", "tags": ["Torrent", "Ign Cover"] },
-        { "name": "Great Axe (strike)", "profile": "A6 | 3+ | S10 | -2 | D6+1", "tags": [] },
-        { "name": "Great Axe (sweep)", "profile": "A12 | 3+ | S6 | -2 | D1", "tags": [] }
+        { "name": "Assault Cannon", "profile": "24\" | A6 | 3+ | S6 | 0 | D1", "tags": ["Dev Wounds"] },
+        { "name": "Storm Bolter", "profile": "24\" | A2 | 3+ | S4 | 0 | D1", "tags": ["Rapid Fire 2"] },
+        { "name": "Dreadnought Combat Weapon", "profile": "A5 | 3+ | S12 | -2 | D3", "tags": [] }
       ],
       "abilities": [
         "+1 Adv/Chg for SW w/in 6\" (Aura)",
         "Blizzard Shield: 4++"
       ],
-      "core": ["Deadly Demise 1"]
+      "core": ["Deadly Demise 1", "Smoke"]
+    },
+    {
+      "name": "Wolf Guard Terminators (10)",
+      "pts": 340,
+      "models": "10 (1 Ldr + 9 Shield)",
+      "role": "Infantry",
+      "stats": { "M": "6\"", "T": 5, "SV": "2+", "W": 3, "LD": "6+", "OC": 1, "INV": "4++" },
+      "weapons": [
+        { "name": "Twin Lightning Claws (ldr)", "profile": "A6 | 3+ | S5 | -2 | D1", "tags": ["Twin-linked"] },
+        { "name": "MC Power Weapon (x9)", "profile": "A4 | 3+ | S5 | -2 | D2", "tags": [] }
+      ],
+      "abilities": [
+        "-1 to Wound when S > T",
+        "Storm Shield: W4 instead of W3"
+      ],
+      "core": ["Deep Strike"],
+      "notes": "Logan + Arjac attached"
+    },
+    {
+      "name": "Wolf Guard Terminators (5)",
+      "pts": 170,
+      "models": "5 (1 Ldr + 4 Shield)",
+      "role": "Infantry",
+      "stats": { "M": "6\"", "T": 5, "SV": "2+", "W": 3, "LD": "6+", "OC": 1, "INV": "4++" },
+      "weapons": [
+        { "name": "Twin Lightning Claws (ldr)", "profile": "A6 | 3+ | S5 | -2 | D1", "tags": ["Twin-linked"] },
+        { "name": "MC Power Weapon (x4)", "profile": "A4 | 3+ | S5 | -2 | D2", "tags": [] }
+      ],
+      "abilities": [
+        "-1 to Wound when S > T",
+        "Storm Shield: W4 instead of W3"
+      ],
+      "core": ["Deep Strike"],
+      "notes": "Unled, objective holder or secondary threat"
+    },
+    {
+      "name": "Wolf Scouts",
+      "pts": 105,
+      "models": "6 (4 Scout + Pack Leader + Hunting Wolf)",
+      "role": "Infantry",
+      "stats": { "M": "6\"", "T": 4, "SV": "4+", "W": 2, "LD": "6+", "OC": 1 },
+      "weapons": [
+        { "name": "Plasma Pistol (x4+ldr)", "profile": "12\" | A1 | 3+ | S7/8 | -2/-3 | D1/2", "tags": ["Hazardous", "Pistol"] },
+        { "name": "Combat Blade (x4)", "profile": "A3 | 3+ | S5 | -1 | D1", "tags": [] },
+        { "name": "Power Weapon (ldr)", "profile": "A3 | 3+ | S5 | -2 | D1", "tags": [] },
+        { "name": "Teeth and Claws (wolf)", "profile": "A3 | 4+ | S4 | -1 | D1", "tags": [] }
+      ],
+      "abilities": [
+        "Infiltrators: Deploy 9\"+ from enemy deployment/models",
+        "Scouts 6\": Free 6\" pre-game move",
+        "Guerrilla Tactics: End of opp turn, if 6\"+ from enemies, go back to Strategic Reserves",
+        "Haywire Mine: Once/battle, enemy ends Charge move w/in 12\" - on 2+ D3 MW (or D3+3 vs VEH)"
+      ],
+      "core": ["Infiltrators", "Scouts 6\"", "Grenades", "Smoke"],
+      "notes": "1x Haywire Mine equipped"
     }
   ],
   "keywords": {
@@ -185,7 +242,14 @@
     "Extra Attacks": "Bonus attacks, doesn't replace other melee",
     "Assault": "Can shoot after Advancing (only Assault weapons)",
     "Pistol": "Can shoot in engagement range (only at engaged unit)",
-    "Ign Cover": "Target can't benefit from cover"
+    "Ign Cover": "Target can't benefit from cover",
+    "Grenades": "Unit can use Grenade stratagem (D6 S4 AP0 D1 Blast at 6\")",
+    "Smoke": "Unit can use Smokescreen stratagem (-1 to Hit vs this unit)",
+    "Lance": "+1 to Wound if unit made a Charge move this turn",
+    "Heavy": "-1 to Hit if unit moved (unless VEHICLE/MONSTER)",
+    "Infiltrators": "Deploy 9\"+ from enemy deployment zone and enemy models",
+    "Scouts X": "Free X\" move after deployment, before first turn",
+    "Sustained X": "Crit Hit = X extra hits"
   },
   "detachmentRule": {
     "name": "Lightning Assault",
@@ -219,12 +283,55 @@
   "pointsSummary": [
     { "unit": "Arjac Rockfist", "pts": 105, "qty": 1 },
     { "unit": "Logan Grimnar", "pts": 110, "qty": 1 },
-    { "unit": "Wolf Priest", "pts": 85, "qty": 1 },
+    { "unit": "Njal Stormcaller", "pts": 85, "qty": 1 },
+    { "unit": "Wolf Priest", "pts": 70, "qty": 1 },
     { "unit": "Bjorn the Fell-Handed", "pts": 160, "qty": 1 },
-    { "unit": "Blood Claws (10)", "pts": 135, "qty": 1 },
-    { "unit": "Grey Hunters (10)", "pts": 165, "qty": 1 },
-    { "unit": "Wolf Guard Terminators (10)", "pts": 340, "qty": 3 },
-    { "unit": "Fenrisian Wolves (5)", "pts": 40, "qty": 2 },
-    { "unit": "Venerable Dreadnought", "pts": 130, "qty": 1 }
-  ]
+    { "unit": "Blood Claws (10)", "pts": 135, "qty": 2 },
+    { "unit": "Gladiator Lancer", "pts": 160, "qty": 2 },
+    { "unit": "Thunderwolf Cavalry (3)", "pts": 115, "qty": 1 },
+    { "unit": "Venerable Dreadnought", "pts": 130, "qty": 1 },
+    { "unit": "Wolf Guard Terminators (10)", "pts": 340, "qty": 1 },
+    { "unit": "Wolf Guard Terminators (5)", "pts": 170, "qty": 1 },
+    { "unit": "Wolf Scouts (6)", "pts": 105, "qty": 1 }
+  ],
+  "phaseReminders": {
+    "command": [
+      { "text": "BJORN +1 CP: Automatic, no action needed - just remember you have it", "priority": 1 },
+      { "text": "OATH OF MOMENT: Pick the scariest enemy unit you need to kill this turn. ALL your units re-roll ALL hit rolls against it (shooting AND melee)", "priority": 1 },
+      { "text": "WOLF PRIEST RESURRECT: Bring back 1 dead Blood Claw (not characters). Pick the model, place it in coherency. Great for keeping squad size up", "priority": 2 },
+      { "text": "LOGAN EARLY RESERVES: Once per game, you can bring Terminators from Deep Strike on Turn 1 instead of Turn 2. Declare now if using", "priority": 2 }
+    ],
+    "movement": [
+      { "text": "STORMLANCE RULE: Every unit can Advance and still charge. Also can charge after Falling Back. USE THIS - it's your whole army's thing", "priority": 1 },
+      { "text": "VEN DREAD POSITIONING: He gives +1 to Charge rolls to all Space Wolves within 6\". Move him up the middle so your chargers benefit", "priority": 1 },
+      { "text": "DEEP STRIKE OPTIONS: 15 Terminators can arrive 9\"+ from enemies. With Logan's T1 ability, you can alpha strike early. Plan your landing zones", "priority": 2 },
+      { "text": "WOLF SCOUTS: Already deployed via Infiltrate. Can Scouts 6\" pre-game. Use them to grab objectives or threaten backfield", "priority": 2 },
+      { "text": "RIDE HARD RIDE FAST (1CP): Give TWC +2\" Move and +2\" Advance. Helps them get into charge range faster", "priority": 3 }
+    ],
+    "shooting": [
+      { "text": "OATH TARGET: Re-roll ALL hits against your chosen target. Prioritize shooting at that unit first", "priority": 1 },
+      { "text": "NJAL'S TEMPEST (start of phase): Pick 1 visible enemy within 12\" of Njal. On 2+ they take D3 mortal wounds. Do this BEFORE shooting", "priority": 1 },
+      { "text": "GLADIATOR LANCERS: Each one can re-roll 1 Hit, 1 Wound, AND 1 Damage roll. Use on the big gun (S14 AP-4 D6+3) to maximize damage", "priority": 2 },
+      { "text": "LANCER TARGETS: S14 wounds T7 on 2+, T10-13 on 3+. Prioritize enemy vehicles and monsters. 72\" range means you can hit anything", "priority": 2 },
+      { "text": "BLITZING FUSILLADE (1CP): If a unit Advanced, their guns get Assault AND +1 to Hit. Good for Blood Claws who want to advance and shoot pistols", "priority": 3 }
+    ],
+    "charge": [
+      { "text": "STORM OF VIOLENCE (1CP): Declare on a charging unit. Their melee crit hits (6s) generate 1 extra hit each. Huge on Terminators with 40+ attacks", "priority": 1 },
+      { "text": "VEN DREAD +1 CHARGE: Units within 6\" of him get +1 to charge. 8\" charge becomes 7\" needed. Stack with re-rolls for reliable charges", "priority": 1 },
+      { "text": "TWC THUNDEROUS CHARGE: On the turn they charge, their Wolf Guard Weapons become S6 AP-3 instead of S5 AP-2. Hit harder on the charge", "priority": 2 },
+      { "text": "HAYWIRE MINE (once/game): If enemy charges within 12\" of Scouts, on 2+ deal D3 MW (or D3+3 vs Vehicles). Can stop a charge dead", "priority": 2 },
+      { "text": "LIGHTNING ASSAULT (1CP): Unit that Fell Back gets +2 to Charge. Combined with Stormlance, you can Fall Back and charge same turn at +2", "priority": 3 }
+    ],
+    "fight": [
+      { "text": "OATH TARGET MELEE: Still re-rolling all hits in melee vs Oath target. Make sure your best units are fighting it", "priority": 1 },
+      { "text": "PACK HUNTERS (1CP): If another Space Wolf unit is also engaged with the same enemy, get +1 to Wound. Gang up on targets", "priority": 1 },
+      { "text": "WOLF PRIEST +1 WOUND: His Blood Claws get +1 to Wound in melee. STACKS with Pack Hunters for +2 to Wound total. Chainswords wound Marines on 3+", "priority": 1 },
+      { "text": "TERMINATOR DURABILITY: When enemies wound them with S6+ weapons, they get -1 to Wound. Makes them much tankier vs heavy weapons", "priority": 2 },
+      { "text": "ARJAC VS CHARACTERS: Full re-roll hits AND wounds against Characters and Monsters. Point him at enemy warlords and watch them die", "priority": 2 }
+    ],
+    "endOfTurn": [
+      { "text": "SCORE OBJECTIVES: Check Primary (usually holding objectives) and Secondary missions. Don't forget end-of-turn scoring", "priority": 1 },
+      { "text": "GUERRILLA TACTICS: If Wolf Scouts are 6\"+ from all enemies at end of OPPONENT'S turn, they can go back to Strategic Reserves. Redeploy next turn", "priority": 2 }
+    ]
+  }
 }

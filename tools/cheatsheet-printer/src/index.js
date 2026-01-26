@@ -18,6 +18,8 @@ program
   .option('--no-detachment-strats', 'Omit detachment stratagems page')
   .option('--only-datasheets', 'Only print datasheets (no reference pages)')
   .option('--only-reference', 'Only print reference pages (no datasheets)')
+  .option('--no-phase-reminders', 'Omit phase reminders page')
+  .option('--bw', 'Optimize for black & white printing')
   .action(async (cheatsheetPath, options) => {
     try {
       const fullPath = resolve(cheatsheetPath);
@@ -31,12 +33,14 @@ program
       let includePoints = options.points !== false;
       let includeCoreStrats = options.coreStrats !== false;
       let includeDetachmentStrats = options.detachmentStrats !== false;
+      let includePhaseReminders = options.phaseReminders !== false;
 
       if (options.onlyDatasheets) {
         includeKeywords = false;
         includePoints = false;
         includeCoreStrats = false;
         includeDetachmentStrats = false;
+        includePhaseReminders = false;
       }
 
       if (options.onlyReference) {
@@ -48,9 +52,13 @@ program
       console.log(`  Detachment: ${data.meta.detachment}`);
       console.log(`  Points: ${data.meta.points}/${data.meta.battleSize}`);
       console.log(`  Units: ${data.units.length}`);
+      if (options.bw) {
+        console.log(`  Mode: Black & White (print optimized)`);
+      }
       console.log('');
       console.log('Sections:');
       console.log(`  [${includeDatasheets ? 'x' : ' '}] Datasheets`);
+      console.log(`  [${includePhaseReminders ? 'x' : ' '}] Phase Reminders`);
       console.log(`  [${includeCoreStrats ? 'x' : ' '}] Core Stratagems`);
       console.log(`  [${includeDetachmentStrats ? 'x' : ' '}] Detachment Stratagems`);
       console.log(`  [${includeKeywords ? 'x' : ' '}] Keywords`);
@@ -62,7 +70,9 @@ program
         includeKeywords,
         includePoints,
         includeCoreStrats,
-        includeDetachmentStrats
+        includeDetachmentStrats,
+        includePhaseReminders,
+        bwMode: options.bw
       });
 
       console.log(`PDF generated: ${outputPath}`);

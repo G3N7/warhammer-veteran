@@ -33,6 +33,24 @@ const COLORS = {
   stratagemEven: '#f7fafc'  // Very light blue-gray
 };
 
+// Black & White optimized colors for printing
+const BW_COLORS = {
+  headerBg: '#000000',      // Pure black
+  headerText: '#ffffff',    // White
+  statsBg: '#e0e0e0',       // Light gray, good contrast
+  statsLabelBg: '#cccccc',  // Slightly darker
+  sectionHeader: '#000000', // Black
+  text: '#000000',          // Black
+  lightText: '#333333',     // Dark gray
+  border: '#000000',        // Black borders for clarity
+  accent: '#000000',        // Black
+  cpBg: '#000000',          // Black
+  cpText: '#ffffff',        // White
+  // Stratagem alternating backgrounds
+  stratagemOdd: '#ffffff',
+  stratagemEven: '#f0f0f0'
+};
+
 // Fonts
 const FONT = {
   regular: 'Helvetica',
@@ -49,6 +67,10 @@ export async function generatePDF(data, outputPath, options = {}) {
     const stream = createWriteStream(outputPath);
     doc.pipe(stream);
 
+    // Select color scheme based on B&W mode
+    const colors = options.bwMode ? BW_COLORS : COLORS;
+    const strokeWidth = options.bwMode ? 1.5 : 1; // Thicker borders in B&W mode
+
     // Page 1+: Datasheet cards (10 per page, unique units only) - NO title page
     if (options.includeDatasheets !== false) {
       const units = data.units;
@@ -60,21 +82,27 @@ export async function generatePDF(data, outputPath, options = {}) {
           const row = Math.floor(idx / 2);
           const x = PAGE.margin + col * (CARD.width + PAGE.gutter);
           const y = PAGE.margin + row * (CARD.height + PAGE.gutter);
-          renderUnitCard(doc, unit, x, y);
+          renderUnitCard(doc, unit, x, y, colors, strokeWidth);
         });
       }
+    }
+
+    // Phase Reminders page (quick turn reference - right after datasheets)
+    if (options.includePhaseReminders && data.phaseReminders) {
+      doc.addPage();
+      renderPhaseRemindersPage(doc, data, colors, strokeWidth);
     }
 
     // Stratagems page (stacked vertically, bigger text)
     if ((options.includeCoreStrats && data.coreStratagems) || (options.includeDetachmentStrats && data.detachmentStratagems)) {
       doc.addPage();
-      renderStratagemsPage(doc, data, options);
+      renderStratagemsPage(doc, data, options, colors, strokeWidth);
     }
 
     // Reference page: Keywords, Points, then Faction/Detachment rules
     if ((options.includeKeywords && data.keywords) || (options.includePoints && data.pointsSummary)) {
       doc.addPage();
-      renderReferencePage(doc, data, options);
+      renderReferencePage(doc, data, options, colors);
     }
 
     doc.end();
@@ -88,17 +116,17 @@ export async function generatePDF(data, outputPath, options = {}) {
 
 // No title page - jump straight to content
 
-function renderUnitCard(doc, unit, x, y) {
+function renderUnitCard(doc, unit, x, y, colors = COLORS, strokeWidth = 1) {
   const padding = 2;
   const innerWidth = CARD.width - padding * 2;
   const qty = unit.qty || 1;
 
   // Card border
-  doc.rect(x, y, CARD.width, CARD.height).stroke(COLORS.border);
+  doc.lineWidth(strokeWidth).rect(x, y, CARD.width, CARD.height).stroke(colors.border);
 
   // Header bar with unit name and points
-  doc.rect(x, y, CARD.width, 14).fill(COLORS.headerBg);
-  doc.font(FONT.bold).fontSize(10).fillColor(COLORS.headerText);
+  doc.rect(x, y, CARD.width, 14).fill(colors.headerBg);
+  doc.font(FONT.bold).fontSize(10).fillColor(colors.headerText);
   const nameText = qty > 1 ? `${unit.name.toUpperCase()} x${qty}` : unit.name.toUpperCase();
   doc.text(nameText, x + padding + 1, y + 2, { width: innerWidth - 35, lineBreak: false });
   doc.text(`${unit.pts}`, x + CARD.width - 32, y + 2, { width: 30, align: 'right', lineBreak: false });
@@ -110,7 +138,7 @@ function renderUnitCard(doc, unit, x, y) {
   const statWidth = innerWidth / 8;
   const statsHeight = 22;
 
-  doc.rect(x + padding, currentY, innerWidth, statsHeight).fill(COLORS.statsBg);
+  doc.rect(x + padding, currentY, innerWidth, statsHeight).fill(colors.statsBg);
 
   const statLabels = ['M', 'T', 'SV', 'W', 'LD', 'OC', 'INV', 'FNP'];
   const statValues = [
@@ -120,9 +148,9 @@ function renderUnitCard(doc, unit, x, y) {
 
   statLabels.forEach((label, i) => {
     const sx = x + padding + i * statWidth;
-    doc.font(FONT.bold).fontSize(7).fillColor(COLORS.lightText);
+    doc.font(FONT.bold).fontSize(7).fillColor(colors.lightText);
     doc.text(label, sx, currentY + 1, { width: statWidth, align: 'center', lineBreak: false });
-    doc.font(FONT.bold).fontSize(12).fillColor(COLORS.text);
+    doc.font(FONT.bold).fontSize(12).fillColor(colors.text);
     doc.text(String(statValues[i]), sx, currentY + 9, { width: statWidth, align: 'center', lineBreak: false });
   });
 
@@ -152,10 +180,15 @@ function renderUnitCard(doc, unit, x, y) {
   // ALL Weapons - full names, no clipping
   for (const wpn of unit.weapons) {
     if (currentY + lineHeight > contentEnd) break;
-    doc.font(FONT.bold).fontSize(fontSize).fillColor(COLORS.text);
+    doc.font(FONT.bold).fontSize(fontSize).fillColor(colors.text);
     doc.text(`${wpn.name}: `, x + padding, currentY, { continued: true, lineBreak: false });
-    doc.font(FONT.regular).fontSize(fontSize).fillColor(COLORS.text);
-    const profileText = wpn.tags.length > 0 ? `${wpn.profile} [${wpn.tags.join(',')}]` : wpn.profile;
+    doc.font(FONT.regular).fontSize(fontSize).fillColor(colors.text);
+    // Filter out redundant tags (e.g., "Pistol" when weapon name contains "Pistol")
+    const filteredTags = wpn.tags.filter(tag => {
+      if (tag.toLowerCase() === 'pistol' && wpn.name.toLowerCase().includes('pistol')) return false;
+      return true;
+    });
+    const profileText = filteredTags.length > 0 ? `${wpn.profile} [${filteredTags.join(',')}]` : wpn.profile;
     doc.text(profileText, { lineBreak: false });
     currentY += lineHeight;
   }
@@ -163,7 +196,7 @@ function renderUnitCard(doc, unit, x, y) {
   // Abilities
   for (const ability of unit.abilities) {
     if (currentY + lineHeight > contentEnd) break;
-    doc.font(FONT.regular).fontSize(fontSize).fillColor(COLORS.text);
+    doc.font(FONT.regular).fontSize(fontSize).fillColor(colors.text);
     doc.text(`• ${ability}`, x + padding, currentY, { width: innerWidth, lineBreak: false, ellipsis: true });
     currentY += lineHeight;
   }
@@ -186,38 +219,38 @@ function renderUnitCard(doc, unit, x, y) {
   if (unit.notes) footerParts.push(unit.notes);
 
   if (footerParts.length > 0) {
-    doc.font(FONT.bold).fontSize(7).fillColor(COLORS.accent);
+    doc.font(FONT.bold).fontSize(7).fillColor(colors.accent);
     doc.text(footerParts.join(' | '), x + padding, bottomY, { width: innerWidth, lineBreak: false, ellipsis: true });
   }
 }
 
-function renderStratagemCard(doc, strat, x, y, width, height, index = 0) {
+function renderStratagemCard(doc, strat, x, y, width, height, index = 0, colors = COLORS, strokeWidth = 1) {
   const padding = 5;
   const innerWidth = width - padding * 2;
 
   // Card background (alternating)
-  const bgColor = index % 2 === 0 ? COLORS.stratagemOdd : COLORS.stratagemEven;
-  doc.rect(x, y, width, height).fill(bgColor).stroke(COLORS.border);
+  const bgColor = index % 2 === 0 ? colors.stratagemOdd : colors.stratagemEven;
+  doc.lineWidth(strokeWidth).rect(x, y, width, height).fill(bgColor).stroke(colors.border);
 
   // CP badge on left
-  doc.font(FONT.bold).fontSize(10).fillColor(COLORS.cpBg);
+  doc.font(FONT.bold).fontSize(10).fillColor(colors.cpBg);
   doc.text(`${strat.cp}CP`, x + padding, y + 4, { width: 28 });
 
   // Stratagem name
-  doc.font(FONT.bold).fontSize(10).fillColor(COLORS.headerBg);
+  doc.font(FONT.bold).fontSize(10).fillColor(colors.headerBg);
   doc.text(strat.name.toUpperCase(), x + 38, y + 4, { width: innerWidth - 38 });
 
   // Phase on same line, right-aligned
   const phaseText = strat.type ? `${strat.phase} | ${strat.type}` : strat.phase;
-  doc.font(FONT.regular).fontSize(7).fillColor(COLORS.accent);
+  doc.font(FONT.regular).fontSize(7).fillColor(colors.accent);
   doc.text(phaseText, x + width - 100, y + 6, { width: 95, align: 'right' });
 
   // Effect - bigger font
-  doc.font(FONT.regular).fontSize(9).fillColor(COLORS.text);
+  doc.font(FONT.regular).fontSize(9).fillColor(colors.text);
   doc.text(strat.effect, x + padding, y + 18, { width: innerWidth, height: height - 22 });
 }
 
-function renderStratagemsPage(doc, data, options) {
+function renderStratagemsPage(doc, data, options, colors = COLORS, strokeWidth = 1) {
   const contentWidth = PAGE.width - PAGE.margin * 2;
   let y = PAGE.margin;
 
@@ -238,25 +271,99 @@ function renderStratagemsPage(doc, data, options) {
   const cardHeight = Math.min(42, Math.floor(availableHeight / totalStrats) - 3);
 
   for (const group of allStrats) {
-    doc.font(FONT.bold).fontSize(14).fillColor(COLORS.headerBg);
+    doc.font(FONT.bold).fontSize(14).fillColor(colors.headerBg);
     doc.text(group.header, PAGE.margin, y);
     y += 18;
 
     group.strats.forEach((strat, idx) => {
-      renderStratagemCard(doc, strat, PAGE.margin, y, contentWidth, cardHeight, idx);
+      renderStratagemCard(doc, strat, PAGE.margin, y, contentWidth, cardHeight, idx, colors, strokeWidth);
       y += cardHeight + 2;
     });
     y += 6;
   }
 }
 
-function renderReferencePage(doc, data, options) {
+// Phase-specific colors for visual distinction
+const PHASE_COLORS = {
+  command:   { bg: '#1a365d', text: '#ffffff' },  // Navy blue
+  movement:  { bg: '#276749', text: '#ffffff' },  // Forest green
+  shooting:  { bg: '#9b2c2c', text: '#ffffff' },  // Crimson
+  charge:    { bg: '#c05621', text: '#ffffff' },  // Orange
+  fight:     { bg: '#553c9a', text: '#ffffff' },  // Purple
+  endOfTurn: { bg: '#4a5568', text: '#ffffff' }   // Slate gray
+};
+
+const PHASE_COLORS_BW = {
+  command:   { bg: '#000000', text: '#ffffff' },
+  movement:  { bg: '#333333', text: '#ffffff' },
+  shooting:  { bg: '#000000', text: '#ffffff' },
+  charge:    { bg: '#333333', text: '#ffffff' },
+  fight:     { bg: '#000000', text: '#ffffff' },
+  endOfTurn: { bg: '#333333', text: '#ffffff' }
+};
+
+function renderPhaseRemindersPage(doc, data, colors = COLORS, strokeWidth = 1) {
+  const contentWidth = PAGE.width - PAGE.margin * 2;
+  const isBW = colors === BW_COLORS;
+  const phaseColors = isBW ? PHASE_COLORS_BW : PHASE_COLORS;
+
+  const headerHeight = 22;
+  const headerFontSize = 14;
+  const textFontSize = 12;
+  const lineHeight = 21;
+  const phaseGap = 10;
+  let y = PAGE.margin;
+
+  const phases = [
+    { key: 'command', label: 'COMMAND' },
+    { key: 'movement', label: 'MOVEMENT' },
+    { key: 'shooting', label: 'SHOOTING' },
+    { key: 'charge', label: 'CHARGE' },
+    { key: 'fight', label: 'FIGHT' },
+    { key: 'endOfTurn', label: 'END OF TURN' }
+  ];
+
+  // Render phases vertically
+  for (const phase of phases) {
+    const reminders = data.phaseReminders[phase.key];
+    if (!reminders || !reminders.length) continue;
+
+    const pColor = phaseColors[phase.key] || phaseColors.command;
+
+    // Phase header bar
+    doc.rect(PAGE.margin, y, contentWidth, headerHeight).fill(pColor.bg);
+    doc.font(FONT.bold).fontSize(headerFontSize).fillColor(pColor.text);
+    doc.text(phase.label, PAGE.margin + 6, y + 4);
+    y += headerHeight + 4;
+
+    // Reminder items
+    for (const reminder of reminders) {
+      const text = typeof reminder === 'string' ? reminder : reminder.text;
+      const priority = typeof reminder === 'object' ? reminder.priority : 2;
+
+      if (priority === 1) {
+        doc.font(FONT.bold).fontSize(textFontSize).fillColor(colors.text);
+      } else if (priority === 3) {
+        doc.font(FONT.regular).fontSize(textFontSize).fillColor(colors.lightText);
+      } else {
+        doc.font(FONT.regular).fontSize(textFontSize).fillColor(colors.text);
+      }
+
+      doc.text(`• ${text}`, PAGE.margin + 8, y, { width: contentWidth - 16 });
+      y += lineHeight;
+    }
+
+    y += phaseGap; // Gap between phases
+  }
+}
+
+function renderReferencePage(doc, data, options, colors = COLORS) {
   const contentWidth = PAGE.width - PAGE.margin * 2;
   let y = PAGE.margin;
 
   // Keywords section (full width, stacked)
   if (options.includeKeywords && data.keywords) {
-    doc.font(FONT.bold).fontSize(14).fillColor(COLORS.headerBg);
+    doc.font(FONT.bold).fontSize(14).fillColor(colors.headerBg);
     doc.text('KEYWORD REFERENCE', PAGE.margin, y);
     y += 20;
 
@@ -275,9 +382,9 @@ function renderReferencePage(doc, data, options) {
       const currentX = isLeft ? PAGE.margin : PAGE.margin + colWidth + 20;
       const currentY = isLeft ? leftY : rightY;
 
-      doc.font(FONT.bold).fontSize(9).fillColor(COLORS.sectionHeader);
+      doc.font(FONT.bold).fontSize(9).fillColor(colors.sectionHeader);
       doc.text(key, currentX, currentY);
-      doc.font(FONT.regular).fontSize(8).fillColor(COLORS.text);
+      doc.font(FONT.regular).fontSize(8).fillColor(colors.text);
       doc.text(desc, currentX, currentY + 11, { width: colWidth });
       const h = doc.heightOfString(desc, { width: colWidth }) + 16;
 
@@ -289,13 +396,13 @@ function renderReferencePage(doc, data, options) {
 
   // Points Summary (full width)
   if (options.includePoints && data.pointsSummary) {
-    doc.font(FONT.bold).fontSize(14).fillColor(COLORS.headerBg);
+    doc.font(FONT.bold).fontSize(14).fillColor(colors.headerBg);
     doc.text('POINTS SUMMARY', PAGE.margin, y);
     y += 20;
 
     // Table header
-    doc.rect(PAGE.margin, y, contentWidth, 18).fill(COLORS.statsBg);
-    doc.font(FONT.bold).fontSize(9).fillColor(COLORS.sectionHeader);
+    doc.rect(PAGE.margin, y, contentWidth, 18).fill(colors.statsBg);
+    doc.font(FONT.bold).fontSize(9).fillColor(colors.sectionHeader);
     doc.text('Unit', PAGE.margin + 8, y + 4);
     doc.text('Qty', PAGE.width - 140, y + 4, { width: 35, align: 'center' });
     doc.text('Each', PAGE.width - 100, y + 4, { width: 35, align: 'center' });
@@ -303,7 +410,7 @@ function renderReferencePage(doc, data, options) {
     y += 20;
 
     let totalPts = 0;
-    doc.font(FONT.regular).fontSize(9).fillColor(COLORS.text);
+    doc.font(FONT.regular).fontSize(9).fillColor(colors.text);
 
     for (const item of data.pointsSummary) {
       const lineTotal = item.pts * item.qty;
@@ -316,10 +423,10 @@ function renderReferencePage(doc, data, options) {
     }
 
     y += 2;
-    doc.rect(PAGE.margin, y, contentWidth, 1).fill(COLORS.border);
+    doc.rect(PAGE.margin, y, contentWidth, 1).fill(colors.border);
     y += 8;
 
-    doc.font(FONT.bold).fontSize(11).fillColor(COLORS.headerBg);
+    doc.font(FONT.bold).fontSize(11).fillColor(colors.headerBg);
     doc.text('TOTAL', PAGE.margin + 8, y);
     doc.text(`${totalPts} pts`, PAGE.width - 70, y, { width: 50, align: 'right' });
     y += 25;
@@ -327,23 +434,23 @@ function renderReferencePage(doc, data, options) {
 
   // Faction & Detachment Rules at bottom
   if (data.factionRule || data.detachmentRule) {
-    doc.rect(PAGE.margin, y, contentWidth, 2).fill(COLORS.headerBg);
+    doc.rect(PAGE.margin, y, contentWidth, 2).fill(colors.headerBg);
     y += 10;
 
     if (data.factionRule) {
-      doc.font(FONT.bold).fontSize(11).fillColor(COLORS.headerBg);
+      doc.font(FONT.bold).fontSize(11).fillColor(colors.headerBg);
       doc.text(`FACTION RULE: ${data.factionRule.name}`, PAGE.margin, y);
       y += 14;
-      doc.font(FONT.regular).fontSize(10).fillColor(COLORS.text);
+      doc.font(FONT.regular).fontSize(10).fillColor(colors.text);
       doc.text(data.factionRule.effect, PAGE.margin, y, { width: contentWidth });
       y += doc.heightOfString(data.factionRule.effect, { width: contentWidth }) + 12;
     }
 
     if (data.detachmentRule) {
-      doc.font(FONT.bold).fontSize(11).fillColor(COLORS.headerBg);
+      doc.font(FONT.bold).fontSize(11).fillColor(colors.headerBg);
       doc.text(`DETACHMENT RULE: ${data.detachmentRule.name}`, PAGE.margin, y);
       y += 14;
-      doc.font(FONT.regular).fontSize(10).fillColor(COLORS.text);
+      doc.font(FONT.regular).fontSize(10).fillColor(colors.text);
       doc.text(data.detachmentRule.effect, PAGE.margin, y, { width: contentWidth });
     }
   }
