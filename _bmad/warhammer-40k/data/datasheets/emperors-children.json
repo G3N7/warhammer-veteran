@@ -1,0 +1,4369 @@
+{
+  "faction": "emperors-children",
+  "last_updated": "2026-01-26T07:17:52.862968+00:00",
+  "source": "wahapedia-autodiscover",
+  "schema_version": "2.0",
+  "unit_count": 233,
+  "units": {
+    "Daemon Prince of Slaanesh": {
+      "name": "Daemon Prince of Slaanesh",
+      "url_slug": "Daemon-Prince-of-Slaanesh",
+      "stats": {
+        "M": "10",
+        "T": "10",
+        "Sv": "2+",
+        "W": "10",
+        "Ld": "6+",
+        "OC": "3"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Infernal cannon",
+            "range": "24\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Hellforged weapons \u2013 strike",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "8",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Hellforged weapons \u2013 sweep",
+            "range": "Melee",
+            "A": "14",
+            "skill": "2+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Lord of Excess",
+            "description": "While this model is within 3\" of one or more friendly SLAANESH INFANTRY units, this model has the Lone Operative ability. Excessive Vigour (Aura): While a friendly SLAANESH unit is within 6\" of this model, if that unit made a Charge move this turn, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1. Ecstatic Death: If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. This model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 180
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "SLAANESH INFANTRY",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "SINUOUS BREACH",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "EUPHORIC INSPIRATION",
+        "PRIDEFUL SUPERIORITY",
+        "DARK VIGOUR",
+        "CAPRICIOUS REACTIONS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "DIABOLIC MAJESTY",
+        "HEIGHTENED JEALOUSY",
+        "VENGEFUL SURGE",
+        "REFUSAL TO BE OUTDONE",
+        "BEAUTIFUL DEATH",
+        "DEVOTED DUELLISTS",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[PRECISION]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "BEASTS",
+        "VEHICLES",
+        "VEHICLE"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Daemon Prince of Slaanesh This model is equipped with: infernal cannon; hellforged weapons."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Daemon Prince of Slaanesh with Wings": {
+      "name": "Daemon Prince of Slaanesh with Wings",
+      "url_slug": "Daemon-Prince-of-Slaanesh-with-Wings",
+      "stats": {
+        "M": "14",
+        "T": "9",
+        "Sv": "2+",
+        "W": "10",
+        "Ld": "6+",
+        "OC": "3"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Infernal cannon",
+            "range": "24\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Hellforged weapons \u2013 strike",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "8",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Hellforged weapons \u2013 sweep",
+            "range": "Melee",
+            "A": "14",
+            "skill": "2+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Deep Strike"
+        ],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Daemonic Destruction",
+            "description": "Each time this model ends a Charge move , select one enemy unit within Engagement Range of it and roll one D6 for each of this model\u2019s remaining wounds: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). Stimulated by Pain: Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 215
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "SINUOUS BREACH",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "EUPHORIC INSPIRATION",
+        "PRIDEFUL SUPERIORITY",
+        "DARK VIGOUR",
+        "CAPRICIOUS REACTIONS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "DIABOLIC MAJESTY",
+        "HEIGHTENED JEALOUSY",
+        "VENGEFUL SURGE",
+        "REFUSAL TO BE OUTDONE",
+        "BEAUTIFUL DEATH",
+        "DEVOTED DUELLISTS",
+        "[HAZARDOUS]",
+        "FLY",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[PRECISION]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "BEASTS",
+        "VEHICLES",
+        "VEHICLE"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Daemon Prince of Slaanesh with Wings This model is equipped with: infernal cannon; hellforged weapons."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Fulgrim": {
+      "name": "Fulgrim",
+      "url_slug": "Fulgrim",
+      "stats": {
+        "M": "16",
+        "T": "11",
+        "Sv": "2+",
+        "W": "16",
+        "Ld": "5+",
+        "OC": "6"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Malefic lash sustained hits 1",
+            "range": "12\"",
+            "A": "6",
+            "skill": "2+",
+            "S": "8",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Daemonic blades \u2013 strike sustained hits 1",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Daemonic blades \u2013 sweep sustained hits 1",
+            "range": "Melee",
+            "A": "12",
+            "skill": "2+",
+            "S": "8",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Serpentine tail extra attacks",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "extra attacks"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6",
+          "Deep Strike"
+        ],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Beguiling Form",
+            "description": "Each time a model makes an attack that targets this model, subtract 1 from the Hit roll ."
+          },
+          {
+            "name": "Daemonic Speed",
+            "description": "This model has the Fights First ability."
+          },
+          {
+            "name": "Enthralling Hypnosis (Aura)",
+            "description": "While an enemy unit is within 6\" of this model, each time that unit is selected to Fall Back , it must take a Leadership test . If that test is failed, that unit must Remain Stationary this phase instead."
+          },
+          {
+            "name": "Daemonic Poisons",
+            "description": "In your Shooting phase and the Fight phase , after this model has finished making its attacks, select one enemy unit hit by one or more of those attacks. Until the end of the battle, that enemy unit is poisoned. At the start of each player\u2019s Command phase , roll one D6 for each poisoned enemy unit on the battlefield: on a 4+,that enemy unit suffers D3 mortal wounds . Daemon Primarch of Slaanesh: At the start of your opponent\u2019s Command phase , select one of the abilities in the Daemon Primarch of Slaanesh section. Until the start of your opponent\u2019s next Command phase, this model has that ability. Serpentine: Each time this model makes a Normal , Advance or Fall Back move , it can move over sections of terrain features that are 4\" or less in height."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 340
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "SINUOUS BREACH",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "EUPHORIC INSPIRATION",
+        "PRIDEFUL SUPERIORITY",
+        "DARK VIGOUR",
+        "CAPRICIOUS REACTIONS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "DIABOLIC MAJESTY",
+        "HEIGHTENED JEALOUSY",
+        "VENGEFUL SURGE",
+        "REFUSAL TO BE OUTDONE",
+        "BEAUTIFUL DEATH",
+        "DEVOTED DUELLISTS",
+        "[HAZARDOUS]",
+        "FLY",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[PRECISION]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "BEASTS",
+        "VEHICLES",
+        "VEHICLE"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Fulgrim \u2013 EPIC HERO This model is equipped with: malefic lash; daemonic blades; serpentine tail."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Keeper of Secrets": {
+      "name": "Keeper of Secrets",
+      "url_slug": "Keeper-of-Secrets",
+      "stats": {
+        "M": "14",
+        "T": "10",
+        "Sv": "5+",
+        "W": "18",
+        "Ld": "6+",
+        "OC": "5"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Living whip assault",
+            "range": "12\"",
+            "A": "6",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "assault"
+            ]
+          },
+          {
+            "name": "Phantasmagoria \u2013 witchfire",
+            "range": "18\"",
+            "A": "6",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Phantasmagoria \u2013 focused witchfire",
+            "range": "18\"",
+            "A": "9",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "devastating wounds",
+              "hazardous"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Ritual knife extra attacks",
+            "range": "Melee",
+            "A": "3",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "extra attacks"
+            ]
+          },
+          {
+            "name": "Snapping claws",
+            "range": "Melee",
+            "A": "4",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "devastating wounds",
+              "extra attacks"
+            ]
+          },
+          {
+            "name": "Witstealer sword",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "8",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6",
+          "Deep Strike"
+        ],
+        "faction": [
+          "Pact of Excess"
+        ],
+        "unit": [
+          {
+            "name": "Daemon Lord of Slaanesh (Aura)",
+            "description": "While a friendly LEGIONS OF EXCESS unit is within 6\" of this model, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1. Mesmerising Form: Each time an attack targets this model, subtract 1 from the Hit roll ."
+          },
+          {
+            "name": "Shining Aegis",
+            "description": "The bearer has a Save characteristic of 3+."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 240
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "LEGIONS OF EXCESS",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "SYCOPHANTIC SURGE",
+        "ECSTATIC SLAUGHTER",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "EMPEROR\u2019S CHILDREN EMPEROR\u2019S CHILDREN",
+        "[PRECISION]"
+      ],
+      "faction_keywords": [
+        "LEGIONS OF EXCESS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Keeper of Secrets This model is equipped with: Phantasmagoria; snapping claws; witstealer sword."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Lord Exultant": {
+      "name": "Lord Exultant",
+      "url_slug": "Lord-Exultant",
+      "stats": {
+        "M": "7",
+        "T": "4",
+        "Sv": "3+",
+        "W": "5",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Bolt pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Plasma pistol - standard pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Plasma pistol - supercharge hazardous pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "hazardous",
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Screamer pistol ignores cover pistol",
+            "range": "12\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "ignores cover",
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Master-crafted power sword",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "precision"
+            ]
+          },
+          {
+            "name": "Phoenix power spear lance",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "lance"
+            ]
+          },
+          {
+            "name": "Power fist",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "8",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Rapture lash extra attacks",
+            "range": "Melee",
+            "A": "4",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "extra attacks"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Perfectionists",
+            "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability. Euphoric Strikes: Once per battle, at the start of the Fight phase , this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 80
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "EMPEROR\u2019S CHILDREN BATTLELINE",
+        "[LETHAL HITS]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "VIOLENT CRESCENDO",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "PRIDEFUL SUPERIORITY",
+        "DARK VIGOUR",
+        "CAPRICIOUS REACTIONS",
+        "COMBAT STIMMS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "CEASELESS ONSLAUGHT",
+        "DIABOLIC MAJESTY",
+        "HEIGHTENED JEALOUSY",
+        "VENGEFUL SURGE",
+        "REFUSAL TO BE OUTDONE",
+        "BEAUTIFUL DEATH",
+        "DEVOTED DUELLISTS",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "BEASTS",
+        "VEHICLES",
+        "VEHICLE",
+        "SLAANESH BEASTS",
+        "SLAANESH INFANTRY",
+        "TRANSPORT"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": "This model can be attached to the following units: Infractors Tormentors",
+      "led_by": [
+        "Infractors Tormentors"
+      ],
+      "can_lead": [
+        "Infractors Tormentors"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Lord Exultant This model is equipped with: bolt pistol; plasma pistol; Phoenix power spear; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Lord Kakophonist": {
+      "name": "Lord Kakophonist",
+      "url_slug": "Lord-Kakophonist",
+      "stats": {
+        "M": "6",
+        "T": "5",
+        "Sv": "2+",
+        "W": "6",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Screamer pistol ignores cover pistol",
+            "range": "12\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "ignores cover",
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Power sword",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Obsessive Annunciation",
+            "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability. Doom Siren: In your Shooting phase , after this model\u2019s unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks and roll three D6: for each 4+, that enemy unit suffers 1 mortal wound . If an enemy unit suffers one or more mortal wounds as a result of this ability, it must take a Battle-shock test ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 70
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "[SUSTAINED HITS 1]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "VIOLENT CRESCENDO",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "PRIDEFUL SUPERIORITY",
+        "DARK VIGOUR",
+        "CAPRICIOUS REACTIONS",
+        "COMBAT STIMMS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "CEASELESS ONSLAUGHT",
+        "DIABOLIC MAJESTY",
+        "HEIGHTENED JEALOUSY",
+        "VENGEFUL SURGE",
+        "REFUSAL TO BE OUTDONE",
+        "BEAUTIFUL DEATH",
+        "DEVOTED DUELLISTS",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[PRECISION]",
+        "[LETHAL HITS]",
+        "BEASTS",
+        "VEHICLES",
+        "VEHICLE",
+        "SLAANESH BEASTS",
+        "SLAANESH INFANTRY",
+        "TRANSPORT"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": "This model can be attached to the following units: Chaos Terminators Noise Marines",
+      "led_by": [
+        "Chaos Terminators Noise Marines"
+      ],
+      "can_lead": [
+        "Chaos Terminators Noise Marines"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Lord Kakophonist This model is equipped with: screamer pistol; power sword."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Lucius the Eternal": {
+      "name": "Lucius the Eternal",
+      "url_slug": "Lucius-the-Eternal",
+      "stats": {
+        "M": "8",
+        "T": "5",
+        "Sv": "2+",
+        "W": "6",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Blade of the Laer",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "8",
+            "AP": "-3",
+            "D": "3",
+            "keywords": [
+              "precision"
+            ]
+          },
+          {
+            "name": "Lash of Torment sustained hits 1",
+            "range": "Melee",
+            "A": "10",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Feel No Pain 5+",
+          "Leader",
+          "Lone Operative"
+        ],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "A Challenge Worthy of Skill",
+            "description": "Each time this model makes an attack that targets a CHARACTER , MONSTER or WALKER unit, you can re-roll the Hit roll and you can re-roll the Wound roll . Duellist\u2019s Hubris: At the start of the Fight phase ; if this model is not leading a unit, until the end of the phase, it has the Fights First ability."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 150
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "VIOLENT CRESCENDO",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "PRIDEFUL SUPERIORITY",
+        "DARK VIGOUR",
+        "CAPRICIOUS REACTIONS",
+        "COMBAT STIMMS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "CEASELESS ONSLAUGHT",
+        "DIABOLIC MAJESTY",
+        "HEIGHTENED JEALOUSY",
+        "VENGEFUL SURGE",
+        "REFUSAL TO BE OUTDONE",
+        "BEAUTIFUL DEATH",
+        "DEVOTED DUELLISTS",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[PRECISION]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "BEASTS",
+        "VEHICLES",
+        "VEHICLE",
+        "SLAANESH BEASTS",
+        "SLAANESH INFANTRY",
+        "TRANSPORT"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": "This model can be attached to the following unit: Flawless Blades",
+      "led_by": [
+        "Flawless Blades"
+      ],
+      "can_lead": [
+        "Flawless Blades"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Lucius the Eternal \u2013 EPIC HERO This model is equipped with: Blade of the Laer; Lash of Torment."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Shalaxi Helbane": {
+      "name": "Shalaxi Helbane",
+      "url_slug": "Shalaxi-Helbane",
+      "stats": {
+        "M": "14",
+        "T": "10",
+        "Sv": "3+",
+        "W": "20",
+        "Ld": "6+",
+        "OC": "5"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Lash of Slaanesh assault",
+            "range": "12\"",
+            "A": "6",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "assault"
+            ]
+          },
+          {
+            "name": "Pavane of Slaanesh \u2013 witchfire",
+            "range": "18\"",
+            "A": "D6",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-1",
+            "D": "D3",
+            "keywords": [
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Pavane of Slaanesh \u2013 focused witchfire hazardous",
+            "range": "18\"",
+            "A": "D6",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-2",
+            "D": "D3",
+            "keywords": [
+              "devastating wounds",
+              "sustained hits 3",
+              "hazardous"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Snapping claws",
+            "range": "Melee",
+            "A": "4",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "devastating wounds",
+              "extra attacks"
+            ]
+          },
+          {
+            "name": "Soulpiercer",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+2",
+            "keywords": [
+              "precision"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6",
+          "Deep Strike"
+        ],
+        "faction": [
+          "Pact of Excess"
+        ],
+        "unit": [
+          {
+            "name": "No Prey Can Evade",
+            "description": "You can re-roll Advance and Charge rolls made for this model. Monarch of the Hunt: At the start of the first battle round , select one enemy unit to be this model\u2019s quarry. Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-roll the Wound roll . Each time this model\u2019s quarry is destroyed, select one new enemy unit to be this model\u2019s quarry."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 340
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "SYCOPHANTIC SURGE",
+        "ECSTATIC SLAUGHTER",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "EMPEROR\u2019S CHILDREN EMPEROR\u2019S CHILDREN",
+        "[PRECISION]"
+      ],
+      "faction_keywords": [
+        "LEGIONS OF EXCESS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Shalaxi Helbane \u2013 EPIC HERO This model is equipped with: lash of Slaanesh; Pavane of Slaanesh; snapping claws; Soulpiercer."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Sorcerer": {
+      "name": "Sorcerer",
+      "url_slug": "Sorcerer",
+      "stats": {
+        "M": "7",
+        "T": "4",
+        "Sv": "3+",
+        "W": "4",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Agonising Energies \u2013 witchfire psychic",
+            "range": "18\"",
+            "A": "D6",
+            "skill": "3+",
+            "S": "5",
+            "AP": "-1",
+            "D": "D3",
+            "keywords": []
+          },
+          {
+            "name": "Agonising Energies \u2013 focused witchfire",
+            "range": "18\"",
+            "A": "D6",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-2",
+            "D": "D3",
+            "keywords": [
+              "devastating wounds",
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Bolt pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Force weapon psychic",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-2",
+            "D": "D3",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Warped Interference (Psychic)",
+            "description": "While this model is leading a unit, each time a ranged attack targets that unit, models in it have the Benefit of Cover against that attack. Wracking Agonies (Psychic): In your Shooting phase , after this model has shot, select one INFANTRY unit hit by one or more of those attacks made with its Agonising Energies. Until the start of your next turn, that unit is wracked with agonies. While a unit is wracked with agonies, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 60
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "VIOLENT CRESCENDO",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "PRIDEFUL SUPERIORITY",
+        "DARK VIGOUR",
+        "CAPRICIOUS REACTIONS",
+        "COMBAT STIMMS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "CEASELESS ONSLAUGHT",
+        "DIABOLIC MAJESTY",
+        "HEIGHTENED JEALOUSY",
+        "VENGEFUL SURGE",
+        "REFUSAL TO BE OUTDONE",
+        "BEAUTIFUL DEATH",
+        "DEVOTED DUELLISTS",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[PRECISION]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "BEASTS",
+        "VEHICLES",
+        "VEHICLE",
+        "SLAANESH BEASTS",
+        "SLAANESH INFANTRY",
+        "TRANSPORT"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": "This model can be attached to the following units: Infractors Noise Marines Tormentors",
+      "led_by": [
+        "Infractors Noise Marines Tormentors"
+      ],
+      "can_lead": [
+        "Infractors Noise Marines Tormentors"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Sorcerer This model is equipped with: Agonising Energies; bolt pistol; force weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Daemonettes": {
+      "name": "Daemonettes",
+      "url_slug": "Daemonettes",
+      "stats": {
+        "M": "9",
+        "T": "3",
+        "Sv": "7+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Slashing claws",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "devastating wounds"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Fights First"
+        ],
+        "faction": [
+          "Pact of Excess"
+        ],
+        "unit": [
+          {
+            "name": "Horrifying Beauty",
+            "description": "At the start of the Fight phase , each enemy unit within Engagement Range of one or more units from your army with this ability must take a Battle-shock test , subtracting 1 from the result if that enemy unit is Below Half-strength ."
+          },
+          {
+            "name": "Daemonic Icon",
+            "description": "Models in the bearer\u2019s unit have a Leadership characteristic of 6+."
+          },
+          {
+            "name": "Instrument of Chaos",
+            "description": "Add 1 to Charge rolls made for the bearer\u2019s unit."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 10,
+          "points": 90
+        }
+      ],
+      "unit_sizes": [
+        10
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "SYCOPHANTIC SURGE",
+        "ECSTATIC SLAUGHTER",
+        "VIOLENT CRESCENDO",
+        "DARK APPARITIONS",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "EMPEROR\u2019S CHILDREN EMPEROR\u2019S CHILDREN",
+        "SLAANESH BEASTS",
+        "SLAANESH INFANTRY"
+      ],
+      "faction_keywords": [
+        "LEGIONS OF EXCESS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Alluress 9 Daemonettes Every model is equipped with: slashing claws."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Infractors": {
+      "name": "Infractors",
+      "url_slug": "Infractors",
+      "stats": {
+        "M": "7",
+        "T": "4",
+        "Sv": "3+",
+        "W": "2",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Bolt pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Plasma pistol - standard pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Plasma pistol - supercharge hazardous pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "hazardous",
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Duelling sabre",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "precision"
+            ]
+          },
+          {
+            "name": "Power sword",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "5",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "precision"
+            ]
+          },
+          {
+            "name": "Rapture lash",
+            "range": "Melee",
+            "A": "6",
+            "skill": "3+",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "precision"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Scouts 6\""
+        ],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Excessive Assault",
+            "description": "Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker , you can re-roll the Wound roll instead."
+          },
+          {
+            "name": "Icon of Excess",
+            "description": "At the end of your Shooting phase or the Fight phase , if the bearer\u2019s unit destroyed one or more enemy units that phase, the bearer\u2019s unit takes a Leadership test . If that test is passed, you gain 1CP."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Lord Exultant Sorcerer"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 5,
+          "points": 85
+        },
+        {
+          "models": 10,
+          "points": 160
+        }
+      ],
+      "unit_sizes": [
+        5,
+        10
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "VIOLENT CRESCENDO",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "PRIDEFUL SUPERIORITY",
+        "DARK VIGOUR",
+        "CAPRICIOUS REACTIONS",
+        "COMBAT STIMMS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "CEASELESS ONSLAUGHT",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "BEASTS",
+        "VEHICLES",
+        "VEHICLE",
+        "SLAANESH BEASTS",
+        "SLAANESH INFANTRY",
+        "TRANSPORT"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Obsessionist 4-9 Infractors The Obsessionist is equipped with: bolt pistol; power sword. Every Infractor is equipped with: bolt pistol; duelling sabre."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Tormentors": {
+      "name": "Tormentors",
+      "url_slug": "Tormentors",
+      "stats": {
+        "M": "7",
+        "T": "4",
+        "Sv": "3+",
+        "W": "2",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Bolt pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "precision",
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Boltgun",
+            "range": "24\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "precision"
+            ]
+          },
+          {
+            "name": "Meltagun melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "precision",
+              "melta 2"
+            ]
+          },
+          {
+            "name": "Plasma gun - standard",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1",
+              "precision"
+            ]
+          },
+          {
+            "name": "Plasma gun - supercharge hazardous",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "rapid fire 1",
+              "precision",
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Plasma pistol - standard pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "precision",
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Plasma pistol - supercharge hazardous pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "precision",
+              "hazardous",
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Power sword",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "5",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Rapture lash",
+            "range": "Melee",
+            "A": "6",
+            "skill": "3+",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Infiltrators"
+        ],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Objective Defiled",
+            "description": "At the end of your Command phase , if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent\u2019s Level of Control over that objective marker is greater than yours at the end of a phase."
+          },
+          {
+            "name": "Icon of Excess",
+            "description": "At the end of your Shooting phase or the Fight phase , if the bearer\u2019s unit destroyed one or more enemy units that phase, the bearer\u2019s unit takes a Leadership test . If that test is passed, you gain 1CP."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Lord Exultant Sorcerer"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 5,
+          "points": 85
+        },
+        {
+          "models": 10,
+          "points": 170
+        }
+      ],
+      "unit_sizes": [
+        5,
+        10
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "VIOLENT CRESCENDO",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "PRIDEFUL SUPERIORITY",
+        "DARK VIGOUR",
+        "CAPRICIOUS REACTIONS",
+        "COMBAT STIMMS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "CEASELESS ONSLAUGHT",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "BEASTS",
+        "VEHICLES",
+        "VEHICLE",
+        "SLAANESH BEASTS",
+        "SLAANESH INFANTRY",
+        "TRANSPORT"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Obsessionist 4-9 Tormentors The Obsessionist is equipped with: bolt pistol; power sword. Every Tormentor is equipped with: boltgun; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Chaos Rhino": {
+      "name": "Chaos Rhino",
+      "url_slug": "Chaos-Rhino",
+      "stats": {
+        "M": "12",
+        "T": "9",
+        "Sv": "3+",
+        "W": "10",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Combi-bolter rapid fire 2",
+            "range": "24\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 2"
+            ]
+          },
+          {
+            "name": "Combi-weapon",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "anti-infantry 4+",
+              "rapid fire 1",
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Havoc launcher blast",
+            "range": "48\"",
+            "A": "D6",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Firing Deck 2"
+        ],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Assault Vehicle",
+            "description": "Units can disembark from this TRANSPORT after it has Advanced . Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 80
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "EMPEROR\u2019S CHILDREN INFANTRY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "SMOKESCREEN",
+        "TANK SHOCK",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "PRIDEFUL SUPERIORITY",
+        "CAPRICIOUS REACTIONS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "ADVANCE AND CLAIM",
+        "DYNAMIC BREAKTHROUGH",
+        "REACTIVE DISEMBARKATION",
+        "OUTFLANKING STRIKE",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "TRANSPORT"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Chaos Rhino This model is equipped with: combi-bolter; armoured tracks."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": "This model has a transport capacity of 12 EMPEROR\u2019S CHILDREN INFANTRY models (excluding TERMINATOR and FLAWLESS BLADE models).",
+      "damaged_profile": null,
+      "role": null
+    },
+    "Chaos Land Raider": {
+      "name": "Chaos Land Raider",
+      "url_slug": "Chaos-Land-Raider",
+      "stats": {
+        "M": "10",
+        "T": "12",
+        "Sv": "2+",
+        "W": "16",
+        "Ld": "6+",
+        "OC": "5"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Combi-bolter rapid fire 2",
+            "range": "24\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 2"
+            ]
+          },
+          {
+            "name": "Combi-weapon",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "anti-infantry 4+",
+              "rapid fire 1",
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Havoc launcher blast",
+            "range": "48\"",
+            "A": "D6",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Soulshatter lascannon",
+            "range": "48\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": []
+          },
+          {
+            "name": "Twin heavy bolter sustained hits 1 twin-linked",
+            "range": "36\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "heavy",
+              "sustained hits 1",
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "A": "6",
+            "skill": "4+",
+            "S": "8",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Assault Ramp",
+            "description": "Each time a unit disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 220
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "EMPEROR\u2019S CHILDREN INFANTRY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "SMOKESCREEN",
+        "TANK SHOCK",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "PRIDEFUL SUPERIORITY",
+        "CAPRICIOUS REACTIONS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "ADVANCE AND CLAIM",
+        "DYNAMIC BREAKTHROUGH",
+        "REACTIVE DISEMBARKATION",
+        "OUTFLANKING STRIKE",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "TRANSPORT"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Chaos Land Raider This model is equipped with: 2 soulshatter lascannons; twin heavy bolter; armoured tracks."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": "This model has a transport capacity of 14 EMPEROR\u2019S CHILDREN INFANTRY models. Each TERMINATOR and FLAWLESS BLADE model takes up the space of 2 models.",
+      "damaged_profile": null,
+      "role": null
+    },
+    "Chaos Spawn": {
+      "name": "Chaos Spawn",
+      "url_slug": "Chaos-Spawn",
+      "stats": {
+        "M": "10",
+        "T": "5",
+        "Sv": "4+",
+        "W": "4",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Hideous mutations",
+            "range": "Melee",
+            "A": "D6+2",
+            "skill": "4+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Feel No Pain 5+"
+        ],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Scuttling Horrors",
+            "description": "Once per turn, when an enemy unit ends a Normal , Advance or Fall Back move within 9\" of this unit, this unit can make a Normal move of up to 6\"."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 2,
+          "points": 70
+        }
+      ],
+      "unit_sizes": [
+        2
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "VIOLENT CRESCENDO",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "PRIDEFUL SUPERIORITY",
+        "CAPRICIOUS REACTIONS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "VEHICLE",
+        "SLAANESH BEASTS",
+        "SLAANESH INFANTRY"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "2 Chaos Spawn Every model is equipped with: hideous mutations."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Chaos Terminators": {
+      "name": "Chaos Terminators",
+      "url_slug": "Chaos-Terminators",
+      "stats": {
+        "M": "6",
+        "T": "5",
+        "Sv": "2+",
+        "W": "3",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Combi-bolter rapid fire 2",
+            "range": "24\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 2"
+            ]
+          },
+          {
+            "name": "Combi-weapon",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "anti-infantry 4+",
+              "rapid fire 1",
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Heavy flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Reaper autocannon",
+            "range": "36\"",
+            "A": "4",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "devastating wounds",
+              "sustained hits 1"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Accursed weapon",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "5",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Chainfist",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "anti-vehicle 3+"
+            ]
+          },
+          {
+            "name": "Paired accursed weapons twin-linked",
+            "range": "Melee",
+            "A": "5",
+            "skill": "3+",
+            "S": "5",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Power fist",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Lethal Obsession",
+            "description": "In your Shooting phase , each time this unit is selected to shoot, if it makes one or more ranged attacks and all of those attacks target the same enemy unit, until the end of the turn, each time this unit declares a charge , if that enemy unit is a target of that charge, you can re-roll the Charge roll ."
+          },
+          {
+            "name": "This unit can be led by the following unit",
+            "description": "Lord Kakophonist"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 5,
+          "points": 155
+        }
+      ],
+      "unit_sizes": [
+        5
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "VIOLENT CRESCENDO",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "PRIDEFUL SUPERIORITY",
+        "DARK VIGOUR",
+        "CAPRICIOUS REACTIONS",
+        "COMBAT STIMMS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "CEASELESS ONSLAUGHT",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "BEASTS",
+        "VEHICLES",
+        "VEHICLE",
+        "SLAANESH BEASTS",
+        "SLAANESH INFANTRY",
+        "TRANSPORT"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Terminator Champion 4 Chaos Terminators Every model is equipped with: combi-bolter; accursed weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Fiends": {
+      "name": "Fiends",
+      "url_slug": "Fiends",
+      "stats": {
+        "M": "12",
+        "T": "5",
+        "Sv": "7+",
+        "W": "4",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Barbed tail and dissecting claws",
+            "range": "Melee",
+            "A": "5",
+            "skill": "3+",
+            "S": "5",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "devastating wounds"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "faction": [
+          "Pact of Excess"
+        ],
+        "unit": [
+          {
+            "name": "Soporific Musk",
+            "description": "Each time an enemy unit (excluding MONSTERS and VEHICLES ) within Engagement Range of one or more units from your army with this ability Falls Back , models in that enemy unit must take Desperate Escape tests . When doing so, if that enemy unit is also Battle-shocked , subtract 1 from each of those Desperate Escape tests."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 3,
+          "points": 95
+        },
+        {
+          "models": 6,
+          "points": 190
+        }
+      ],
+      "unit_sizes": [
+        3,
+        6
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "SYCOPHANTIC SURGE",
+        "ECSTATIC SLAUGHTER",
+        "VIOLENT CRESCENDO",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "EMPEROR\u2019S CHILDREN EMPEROR\u2019S CHILDREN",
+        "SLAANESH BEASTS",
+        "SLAANESH INFANTRY"
+      ],
+      "faction_keywords": [
+        "LEGIONS OF EXCESS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Blissbringer 2-5 Fiends Every model is equipped with: barbed tail and dissecting claws."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Flawless Blades": {
+      "name": "Flawless Blades",
+      "url_slug": "Flawless-Blades",
+      "stats": {
+        "M": "8",
+        "T": "5",
+        "Sv": "3+",
+        "W": "3",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Bolt pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Blissblade",
+            "range": "Melee",
+            "A": "4",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-3",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Daemonic Patrons",
+            "description": "Each time this unit is selected to fight, it can call upon daemonic patrons. If it does, until the end of the phase, each time a model in this unit makes an attack, an unmodified Wound roll of 3+ scores a Critical Wound . At the end of the Fight phase , if this unit called upon daemonic patrons this phase and no enemy models were destroyed by attacks made by models in this unit this phase, one model in this unit is destroyed."
+          },
+          {
+            "name": "3-6 Flawless Blades Every model is equipped with",
+            "description": "bolt pistol; blissblade."
+          },
+          {
+            "name": "This unit can be led by the following unit",
+            "description": "Lucius the Eternal"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 3,
+          "points": 110
+        },
+        {
+          "models": 6,
+          "points": 220
+        }
+      ],
+      "unit_sizes": [
+        3,
+        6
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "VIOLENT CRESCENDO",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "PRIDEFUL SUPERIORITY",
+        "DARK VIGOUR",
+        "CAPRICIOUS REACTIONS",
+        "COMBAT STIMMS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "CEASELESS ONSLAUGHT",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "BEASTS",
+        "VEHICLES",
+        "VEHICLE",
+        "SLAANESH BEASTS",
+        "SLAANESH INFANTRY",
+        "TRANSPORT"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "3-6 Flawless Blades Every model is equipped with: bolt pistol; blissblade."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Heldrake": {
+      "name": "Heldrake",
+      "url_slug": "Heldrake",
+      "stats": {
+        "M": "20",
+        "T": "10",
+        "Sv": "3+",
+        "W": "14",
+        "Ld": "7+",
+        "OC": "0"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Baleflamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6+3",
+            "skill": "N/A",
+            "S": "6",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Hades autocannon",
+            "range": "36\"",
+            "A": "6",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Heldrake claws",
+            "range": "Melee",
+            "A": "5",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "anti-fly 2+",
+              "devastating wounds"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Hover"
+        ],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Airborne Predator",
+            "description": "Each time this model ends a Normal move , you can select one enemy unit that it moved over during that move and roll two D6, adding 1 to each result if that enemy unit can FLY : for each 4+, that enemy unit suffers D3 mortal wounds ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 195
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "SINUOUS BREACH",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "EUPHORIC INSPIRATION",
+        "PRIDEFUL SUPERIORITY",
+        "CAPRICIOUS REACTIONS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "DYNAMIC BREAKTHROUGH",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Heldrake This model is equipped with: Hades autocannon; Heldrake claws."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Maulerfiend": {
+      "name": "Maulerfiend",
+      "url_slug": "Maulerfiend",
+      "stats": {
+        "M": "10",
+        "T": "10",
+        "Sv": "3+",
+        "W": "12",
+        "Ld": "6+",
+        "OC": "3"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Magma cutters melta 2",
+            "range": "6\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Lasher tendrils extra attacks",
+            "range": "Melee",
+            "A": "6",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "extra attacks"
+            ]
+          },
+          {
+            "name": "Maulerfiend fists",
+            "range": "Melee",
+            "A": "6",
+            "skill": "3+",
+            "S": "14",
+            "AP": "-2",
+            "D": "D6+1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Glutton for Punishment",
+            "description": "Each time this model makes an attack, if it is below its Starting Strength , add 1 to the Hit roll . If this model is also Below Half-strength , add 1 to the Wound roll as well."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 130
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "SINUOUS BREACH",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "EUPHORIC INSPIRATION",
+        "PRIDEFUL SUPERIORITY",
+        "CAPRICIOUS REACTIONS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "DYNAMIC BREAKTHROUGH",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "VEHICLE"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Maulerfiend This model is equipped with: lasher tendrils; Maulerfiend fists."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Noise Marines": {
+      "name": "Noise Marines",
+      "url_slug": "Noise-Marines",
+      "stats": {
+        "M": "6",
+        "T": "5",
+        "Sv": "3+",
+        "W": "2",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Blastmaster \u2013 single frequency ignores cover",
+            "range": "18\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "10",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "blast",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Blastmaster \u2013 varied frequency ignores cover",
+            "range": "18\"",
+            "A": "6",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "blast",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Screamer pistol ignores cover pistol",
+            "range": "12\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "ignores cover",
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Sonic blaster ignores cover",
+            "range": "18\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "blast",
+              "ignores cover"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Power sword",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "5",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Thrill Seekers"
+        ],
+        "unit": [
+          {
+            "name": "Terrifying Crescendo",
+            "description": "In your Shooting phase , after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Lord Kakophonist Sorcerer"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 6,
+          "points": 145
+        }
+      ],
+      "unit_sizes": [
+        6
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "ECSTATIC SLAUGHTER",
+        "SUSTAINED BY AGONY",
+        "VIOLENT CRESCENDO",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "UNSHAKEABLE OPPONENTS",
+        "ARMOUR OF ABHORRENCE",
+        "UNBOUND ARROGANCE",
+        "MARTIAL PERFECTION",
+        "CONTEMPTUOUS DISREGARD",
+        "CLOSE-QUARTERS EXCRUCIATION",
+        "CATALYTIC STIMULUS",
+        "PRIDEFUL SUPERIORITY",
+        "DARK VIGOUR",
+        "CAPRICIOUS REACTIONS",
+        "COMBAT STIMMS",
+        "VIOLENT EXCESS",
+        "CRUEL RAIDERS",
+        "TERRIFYING SPECTACLE",
+        "CRUEL BLADESMAN",
+        "DEATH ECSTASY",
+        "DEFT PARRY",
+        "INCESSANT VIOLENCE",
+        "CEASELESS ONSLAUGHT",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "BEASTS",
+        "VEHICLES",
+        "VEHICLE",
+        "SLAANESH BEASTS",
+        "SLAANESH INFANTRY",
+        "TRANSPORT"
+      ],
+      "faction_keywords": [
+        "EMPEROR\u2019S CHILDREN"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Disharmonist 5 Noise Marines Every model is equipped with: sonic blaster; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Seekers": {
+      "name": "Seekers",
+      "url_slug": "Seekers",
+      "stats": {
+        "M": "14",
+        "T": "4",
+        "Sv": "7+",
+        "W": "2",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Lashing tongue extra attacks",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "lethal hits",
+              "extra attacks"
+            ]
+          },
+          {
+            "name": "Slashing claws",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "devastating wounds"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Scouts 9\""
+        ],
+        "faction": [
+          "Pact of Excess"
+        ],
+        "unit": [
+          {
+            "name": "Unholy Speed",
+            "description": "You can re-roll Advance and Charge rolls made for this unit."
+          },
+          {
+            "name": "Daemonic Icon",
+            "description": "Models in the bearer\u2019s unit have a Leadership characteristic of 6+."
+          },
+          {
+            "name": "Instrument of Chaos",
+            "description": "Add 1 to Charge rolls made for the bearer\u2019s unit."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 5,
+          "points": 80
+        },
+        {
+          "models": 10,
+          "points": 160
+        }
+      ],
+      "unit_sizes": [
+        5,
+        10
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "UNCANNY REACTIONS",
+        "SYCOPHANTIC SURGE",
+        "ECSTATIC SLAUGHTER",
+        "VIOLENT CRESCENDO",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "[BLAST]",
+        "LEGIONS OF EXCESS",
+        "EMPEROR\u2019S CHILDREN EMPEROR\u2019S CHILDREN",
+        "SLAANESH BEASTS",
+        "SLAANESH INFANTRY"
+      ],
+      "faction_keywords": [
+        "LEGIONS OF EXCESS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Heartseeker 4-9 Seekers Every model is equipped with: lashing tongue; slashing claws."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Archon": {
+      "name": "Archon",
+      "url_slug": "Archon",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Asurmen": {
+      "name": "Asurmen",
+      "url_slug": "Asurmen",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Autarch": {
+      "name": "Autarch",
+      "url_slug": "Autarch",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Autarch Wayleaper": {
+      "name": "Autarch Wayleaper",
+      "url_slug": "Autarch-Wayleaper",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Avatar of Khaine": {
+      "name": "Avatar of Khaine",
+      "url_slug": "Avatar-of-Khaine",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Baharroth": {
+      "name": "Baharroth",
+      "url_slug": "Baharroth",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Death Jester": {
+      "name": "Death Jester",
+      "url_slug": "Death-Jester",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Drazhar": {
+      "name": "Drazhar",
+      "url_slug": "Drazhar",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Eldrad Ulthran": {
+      "name": "Eldrad Ulthran",
+      "url_slug": "Eldrad-Ulthran",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Farseer": {
+      "name": "Farseer",
+      "url_slug": "Farseer",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Farseer Skyrunner": {
+      "name": "Farseer Skyrunner",
+      "url_slug": "Farseer-Skyrunner",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Fuegan": {
+      "name": "Fuegan",
+      "url_slug": "Fuegan",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Haemonculus": {
+      "name": "Haemonculus",
+      "url_slug": "Haemonculus",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Jain Zar": {
+      "name": "Jain Zar",
+      "url_slug": "Jain-Zar",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Lady Malys": {
+      "name": "Lady Malys",
+      "url_slug": "Lady-Malys",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Lelith Hesperax": {
+      "name": "Lelith Hesperax",
+      "url_slug": "Lelith-Hesperax",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Lhykhis": {
+      "name": "Lhykhis",
+      "url_slug": "Lhykhis",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Maugan Ra": {
+      "name": "Maugan Ra",
+      "url_slug": "Maugan-Ra",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Shadowseer": {
+      "name": "Shadowseer",
+      "url_slug": "Shadowseer",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Solitaire": {
+      "name": "Solitaire",
+      "url_slug": "Solitaire",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Spiritseer": {
+      "name": "Spiritseer",
+      "url_slug": "Spiritseer",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Succubus": {
+      "name": "Succubus",
+      "url_slug": "Succubus",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "The Visarch": {
+      "name": "The Visarch",
+      "url_slug": "The-Visarch",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "The Yncarne": {
+      "name": "The Yncarne",
+      "url_slug": "The-Yncarne",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Troupe Master": {
+      "name": "Troupe Master",
+      "url_slug": "Troupe-Master",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Warlock": {
+      "name": "Warlock",
+      "url_slug": "Warlock",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Ynnari Archon": {
+      "name": "Ynnari Archon",
+      "url_slug": "Ynnari-Archon",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Ynnari Succubus": {
+      "name": "Ynnari Succubus",
+      "url_slug": "Ynnari-Succubus",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Yvraine": {
+      "name": "Yvraine",
+      "url_slug": "Yvraine",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Amallyn Shadowguide": {
+      "name": "Amallyn Shadowguide",
+      "url_slug": "Amallyn-Shadowguide",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Autarch Skyrunner": {
+      "name": "Autarch Skyrunner",
+      "url_slug": "Autarch-Skyrunner",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Beastmaster": {
+      "name": "Beastmaster",
+      "url_slug": "Beastmaster",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Bonesinger": {
+      "name": "Bonesinger",
+      "url_slug": "Bonesinger",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Illic Nightspear": {
+      "name": "Illic Nightspear",
+      "url_slug": "Illic-Nightspear",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Irillyth": {
+      "name": "Irillyth",
+      "url_slug": "Irillyth",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Karandras": {
+      "name": "Karandras",
+      "url_slug": "Karandras",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Prince Yriel": {
+      "name": "Prince Yriel",
+      "url_slug": "Prince-Yriel",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Urien Rakarth": {
+      "name": "Urien Rakarth",
+      "url_slug": "Urien-Rakarth",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Corsair Voidreavers": {
+      "name": "Corsair Voidreavers",
+      "url_slug": "Corsair-Voidreavers",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Guardian Defenders": {
+      "name": "Guardian Defenders",
+      "url_slug": "Guardian-Defenders",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Kabalite Warriors": {
+      "name": "Kabalite Warriors",
+      "url_slug": "Kabalite-Warriors",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Storm Guardians": {
+      "name": "Storm Guardians",
+      "url_slug": "Storm-Guardians",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Wracks": {
+      "name": "Wracks",
+      "url_slug": "Wracks",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Wyches": {
+      "name": "Wyches",
+      "url_slug": "Wyches",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Adrax Agatone": {
+      "name": "Adrax Agatone",
+      "url_slug": "Adrax-Agatone",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Aethon Shaan": {
+      "name": "Aethon Shaan",
+      "url_slug": "Aethon-Shaan",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Ancient": {
+      "name": "Ancient",
+      "url_slug": "Ancient",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Ancient In Terminator Armour": {
+      "name": "Ancient In Terminator Armour",
+      "url_slug": "Ancient-In-Terminator-Armour",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Apothecary": {
+      "name": "Apothecary",
+      "url_slug": "Apothecary",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Apothecary Biologis": {
+      "name": "Apothecary Biologis",
+      "url_slug": "Apothecary-Biologis",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Bladeguard Ancient": {
+      "name": "Bladeguard Ancient",
+      "url_slug": "Bladeguard-Ancient",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Caanok Var": {
+      "name": "Caanok Var",
+      "url_slug": "Caanok-Var",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Captain": {
+      "name": "Captain",
+      "url_slug": "Captain",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Captain In Gravis Armour": {
+      "name": "Captain In Gravis Armour",
+      "url_slug": "Captain-In-Gravis-Armour",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Captain In Phobos Armour": {
+      "name": "Captain In Phobos Armour",
+      "url_slug": "Captain-In-Phobos-Armour",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Captain In Terminator Armour": {
+      "name": "Captain In Terminator Armour",
+      "url_slug": "Captain-In-Terminator-Armour",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Captain Sicarius": {
+      "name": "Captain Sicarius",
+      "url_slug": "Captain-Sicarius",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Captain Titus": {
+      "name": "Captain Titus",
+      "url_slug": "Captain-Titus",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Captain With Jump Pack": {
+      "name": "Captain With Jump Pack",
+      "url_slug": "Captain-With-Jump-Pack",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Cato Sicarius": {
+      "name": "Cato Sicarius",
+      "url_slug": "Cato-Sicarius",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Chaplain": {
+      "name": "Chaplain",
+      "url_slug": "Chaplain",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Chaplain In Terminator Armour": {
+      "name": "Chaplain In Terminator Armour",
+      "url_slug": "Chaplain-In-Terminator-Armour",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Chaplain On Bike": {
+      "name": "Chaplain On Bike",
+      "url_slug": "Chaplain-On-Bike",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Chaplain With Jump Pack": {
+      "name": "Chaplain With Jump Pack",
+      "url_slug": "Chaplain-With-Jump-Pack",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Chief Librarian Tigurius": {
+      "name": "Chief Librarian Tigurius",
+      "url_slug": "Chief-Librarian-Tigurius",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Darnath Lysander": {
+      "name": "Darnath Lysander",
+      "url_slug": "Darnath-Lysander",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Iron Father Feirros": {
+      "name": "Iron Father Feirros",
+      "url_slug": "Iron-Father-Feirros",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Judiciar": {
+      "name": "Judiciar",
+      "url_slug": "Judiciar",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Kayvaan Shrike": {
+      "name": "Kayvaan Shrike",
+      "url_slug": "Kayvaan-Shrike",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Kor\u2019sarro Khan": {
+      "name": "Kor\u2019sarro Khan",
+      "url_slug": "Kor-sarro-Khan",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Librarian": {
+      "name": "Librarian",
+      "url_slug": "Librarian",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Librarian In Phobos Armour": {
+      "name": "Librarian In Phobos Armour",
+      "url_slug": "Librarian-In-Phobos-Armour",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Librarian In Terminator Armour": {
+      "name": "Librarian In Terminator Armour",
+      "url_slug": "Librarian-In-Terminator-Armour",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Lieutenant": {
+      "name": "Lieutenant",
+      "url_slug": "Lieutenant",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Lieutenant In Phobos Armour": {
+      "name": "Lieutenant In Phobos Armour",
+      "url_slug": "Lieutenant-In-Phobos-Armour",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Lieutenant In Reiver Armour": {
+      "name": "Lieutenant In Reiver Armour",
+      "url_slug": "Lieutenant-In-Reiver-Armour",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Lieutenant With Combi-weapon": {
+      "name": "Lieutenant With Combi-weapon",
+      "url_slug": "Lieutenant-With-Combi-weapon",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Marneus Calgar": {
+      "name": "Marneus Calgar",
+      "url_slug": "Marneus-Calgar",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Marneus Calgar in Armour of Antilochus": {
+      "name": "Marneus Calgar in Armour of Antilochus",
+      "url_slug": "Marneus-Calgar-in-Armour-of-Antilochus",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Pedro Kantor": {
+      "name": "Pedro Kantor",
+      "url_slug": "Pedro-Kantor",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Roboute Guilliman": {
+      "name": "Roboute Guilliman",
+      "url_slug": "Roboute-Guilliman",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Suboden Khan": {
+      "name": "Suboden Khan",
+      "url_slug": "Suboden-Khan",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Techmarine": {
+      "name": "Techmarine",
+      "url_slug": "Techmarine",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Tor Garadon": {
+      "name": "Tor Garadon",
+      "url_slug": "Tor-Garadon",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Uriel Ventris": {
+      "name": "Uriel Ventris",
+      "url_slug": "Uriel-Ventris",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Vulkan He\u2019stan": {
+      "name": "Vulkan He\u2019stan",
+      "url_slug": "Vulkan-He-stan",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Castellan": {
+      "name": "Castellan",
+      "url_slug": "Castellan",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Chaplain Grimaldus": {
+      "name": "Chaplain Grimaldus",
+      "url_slug": "Chaplain-Grimaldus",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Emperor\u2019s Champion": {
+      "name": "Emperor\u2019s Champion",
+      "url_slug": "Emperor-s-Champion",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Execrator": {
+      "name": "Execrator",
+      "url_slug": "Execrator",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "High Marshal Helbrecht": {
+      "name": "High Marshal Helbrecht",
+      "url_slug": "High-Marshal-Helbrecht",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Marshal": {
+      "name": "Marshal",
+      "url_slug": "Marshal",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Astorath": {
+      "name": "Astorath",
+      "url_slug": "Astorath",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Blood Angels Captain": {
+      "name": "Blood Angels Captain",
+      "url_slug": "Blood-Angels-Captain",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Chaplain Kastiel": {
+      "name": "Chaplain Kastiel",
+      "url_slug": "Chaplain-Kastiel",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Chief Librarian Mephiston": {
+      "name": "Chief Librarian Mephiston",
+      "url_slug": "Chief-Librarian-Mephiston",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Commander Dante": {
+      "name": "Commander Dante",
+      "url_slug": "Commander-Dante",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Death Company Captain": {
+      "name": "Death Company Captain",
+      "url_slug": "Death-Company-Captain",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Death Company Captain with Jump Pack": {
+      "name": "Death Company Captain with Jump Pack",
+      "url_slug": "Death-Company-Captain-with-Jump-Pack",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Judiciar Xacharus": {
+      "name": "Judiciar Xacharus",
+      "url_slug": "Judiciar-Xacharus",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Lemartes": {
+      "name": "Lemartes",
+      "url_slug": "Lemartes",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Sanguinary Priest": {
+      "name": "Sanguinary Priest",
+      "url_slug": "Sanguinary-Priest",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "The Sanguinor": {
+      "name": "The Sanguinor",
+      "url_slug": "The-Sanguinor",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Asmodai": {
+      "name": "Asmodai",
+      "url_slug": "Asmodai",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Azrael": {
+      "name": "Azrael",
+      "url_slug": "Azrael",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Belial": {
+      "name": "Belial",
+      "url_slug": "Belial",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Ezekiel": {
+      "name": "Ezekiel",
+      "url_slug": "Ezekiel",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Lazarus": {
+      "name": "Lazarus",
+      "url_slug": "Lazarus",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Lion El\u2019jonson": {
+      "name": "Lion El\u2019jonson",
+      "url_slug": "Lion-El-jonson",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Ravenwing Command Squad": {
+      "name": "Ravenwing Command Squad",
+      "url_slug": "Ravenwing-Command-Squad",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Sammael": {
+      "name": "Sammael",
+      "url_slug": "Sammael",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Watch Captain Artemis": {
+      "name": "Watch Captain Artemis",
+      "url_slug": "Watch-Captain-Artemis",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Watch Master": {
+      "name": "Watch Master",
+      "url_slug": "Watch-Master",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Kill Team Cassius": {
+      "name": "Kill Team Cassius",
+      "url_slug": "Kill-Team-Cassius",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Aquila Kill Team": {
+      "name": "Aquila Kill Team",
+      "url_slug": "Aquila-Kill-Team",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Deathwatch Kill Team": {
+      "name": "Deathwatch Kill Team",
+      "url_slug": "Deathwatch-Kill-Team",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Deathwatch Veterans": {
+      "name": "Deathwatch Veterans",
+      "url_slug": "Deathwatch-Veterans",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Decimus Kill Team": {
+      "name": "Decimus Kill Team",
+      "url_slug": "Decimus-Kill-Team",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Corvus Blackstar": {
+      "name": "Corvus Blackstar",
+      "url_slug": "Corvus-Blackstar",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Deathwatch Terminator Squad": {
+      "name": "Deathwatch Terminator Squad",
+      "url_slug": "Deathwatch-Terminator-Squad",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Fortis Kill Team": {
+      "name": "Fortis Kill Team",
+      "url_slug": "Fortis-Kill-Team",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Indomitor Kill Team": {
+      "name": "Indomitor Kill Team",
+      "url_slug": "Indomitor-Kill-Team",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Spectrus Kill Team": {
+      "name": "Spectrus Kill Team",
+      "url_slug": "Spectrus-Kill-Team",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Talonstrike Kill Team": {
+      "name": "Talonstrike Kill Team",
+      "url_slug": "Talonstrike-Kill-Team",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Proteus Kill Team": {
+      "name": "Proteus Kill Team",
+      "url_slug": "Proteus-Kill-Team",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Veteran Bike Squad": {
+      "name": "Veteran Bike Squad",
+      "url_slug": "Veteran-Bike-Squad",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Brother-captain": {
+      "name": "Brother-captain",
+      "url_slug": "Brother-captain",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Brotherhood Champion": {
+      "name": "Brotherhood Champion",
+      "url_slug": "Brotherhood-Champion",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Brotherhood Chaplain": {
+      "name": "Brotherhood Chaplain",
+      "url_slug": "Brotherhood-Chaplain",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Brotherhood Librarian": {
+      "name": "Brotherhood Librarian",
+      "url_slug": "Brotherhood-Librarian",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Brotherhood Techmarine": {
+      "name": "Brotherhood Techmarine",
+      "url_slug": "Brotherhood-Techmarine",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Castellan Crowe": {
+      "name": "Castellan Crowe",
+      "url_slug": "Castellan-Crowe",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Grand Master": {
+      "name": "Grand Master",
+      "url_slug": "Grand-Master",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Grand Master In Nemesis Dreadknight": {
+      "name": "Grand Master In Nemesis Dreadknight",
+      "url_slug": "Grand-Master-In-Nemesis-Dreadknight",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Grand Master Voldus": {
+      "name": "Grand Master Voldus",
+      "url_slug": "Grand-Master-Voldus",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Venerable Dreadnought": {
+      "name": "Venerable Dreadnought",
+      "url_slug": "Venerable-Dreadnought",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Brother-captain Stern": {
+      "name": "Brother-captain Stern",
+      "url_slug": "Brother-captain-Stern",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Kaldor Draigo": {
+      "name": "Kaldor Draigo",
+      "url_slug": "Kaldor-Draigo",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Brotherhood Terminator Squad": {
+      "name": "Brotherhood Terminator Squad",
+      "url_slug": "Brotherhood-Terminator-Squad",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Strike Squad": {
+      "name": "Strike Squad",
+      "url_slug": "Strike-Squad",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Razorback": {
+      "name": "Razorback",
+      "url_slug": "Razorback",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Rhino": {
+      "name": "Rhino",
+      "url_slug": "Rhino",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Grey Knights Relic Razorback": {
+      "name": "Grey Knights Relic Razorback",
+      "url_slug": "Grey-Knights-Relic-Razorback",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Interceptor Squad": {
+      "name": "Interceptor Squad",
+      "url_slug": "Interceptor-Squad",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Land Raider": {
+      "name": "Land Raider",
+      "url_slug": "Land-Raider",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Land Raider Redeemer": {
+      "name": "Land Raider Redeemer",
+      "url_slug": "Land-Raider-Redeemer",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Nemesis Dreadknight": {
+      "name": "Nemesis Dreadknight",
+      "url_slug": "Nemesis-Dreadknight",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Paladin Squad": {
+      "name": "Paladin Squad",
+      "url_slug": "Paladin-Squad",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Purgation Squad": {
+      "name": "Purgation Squad",
+      "url_slug": "Purgation-Squad",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Purifier Squad": {
+      "name": "Purifier Squad",
+      "url_slug": "Purifier-Squad",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Stormhawk Interceptor": {
+      "name": "Stormhawk Interceptor",
+      "url_slug": "Stormhawk-Interceptor",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Stormraven Gunship": {
+      "name": "Stormraven Gunship",
+      "url_slug": "Stormraven-Gunship",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Stormtalon Gunship": {
+      "name": "Stormtalon Gunship",
+      "url_slug": "Stormtalon-Gunship",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Grey Knights Thunderhawk Gunship": {
+      "name": "Grey Knights Thunderhawk Gunship",
+      "url_slug": "Grey-Knights-Thunderhawk-Gunship",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Grey Knights Dreadnought": {
+      "name": "Grey Knights Dreadnought",
+      "url_slug": "Grey-Knights-Dreadnought",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Servitors": {
+      "name": "Servitors",
+      "url_slug": "Servitors",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Aestred Thurga And Agathae Dolan": {
+      "name": "Aestred Thurga And Agathae Dolan",
+      "url_slug": "Aestred-Thurga-And-Agathae-Dolan",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Aleya": {
+      "name": "Aleya",
+      "url_slug": "Aleya",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Belisarius Cawl": {
+      "name": "Belisarius Cawl",
+      "url_slug": "Belisarius-Cawl",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Blade Champion": {
+      "name": "Blade Champion",
+      "url_slug": "Blade-Champion",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Cadian Castellan": {
+      "name": "Cadian Castellan",
+      "url_slug": "Cadian-Castellan",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Cadian Command Squad": {
+      "name": "Cadian Command Squad",
+      "url_slug": "Cadian-Command-Squad",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Callidus Assassin": {
+      "name": "Callidus Assassin",
+      "url_slug": "Callidus-Assassin",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Canis Rex": {
+      "name": "Canis Rex",
+      "url_slug": "Canis-Rex",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Canoness": {
+      "name": "Canoness",
+      "url_slug": "Canoness",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Canoness with Jump Pack": {
+      "name": "Canoness with Jump Pack",
+      "url_slug": "Canoness-with-Jump-Pack",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Catachan Command Squad": {
+      "name": "Catachan Command Squad",
+      "url_slug": "Catachan-Command-Squad",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Commissar": {
+      "name": "Commissar",
+      "url_slug": "Commissar",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Culexus Assassin": {
+      "name": "Culexus Assassin",
+      "url_slug": "Culexus-Assassin",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Cybernetica Datasmith": {
+      "name": "Cybernetica Datasmith",
+      "url_slug": "Cybernetica-Datasmith",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Daemonifuge": {
+      "name": "Daemonifuge",
+      "url_slug": "Daemonifuge",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Dialogus": {
+      "name": "Dialogus",
+      "url_slug": "Dialogus",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Dogmata": {
+      "name": "Dogmata",
+      "url_slug": "Dogmata",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Eversor Assassin": {
+      "name": "Eversor Assassin",
+      "url_slug": "Eversor-Assassin",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Gaunt\u2019s Ghosts": {
+      "name": "Gaunt\u2019s Ghosts",
+      "url_slug": "Gaunt-s-Ghosts",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Angron": {
+      "name": "Angron",
+      "url_slug": "Angron",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Be\u2019lakor": {
+      "name": "Be\u2019lakor",
+      "url_slug": "Be-lakor",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Bloodmaster": {
+      "name": "Bloodmaster",
+      "url_slug": "Bloodmaster",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Bloodthirster": {
+      "name": "Bloodthirster",
+      "url_slug": "Bloodthirster",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Changecaster": {
+      "name": "Changecaster",
+      "url_slug": "Changecaster",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Daemon Prince of Chaos": {
+      "name": "Daemon Prince of Chaos",
+      "url_slug": "Daemon-Prince-of-Chaos",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Daemon Prince Of Chaos With Wings": {
+      "name": "Daemon Prince Of Chaos With Wings",
+      "url_slug": "Daemon-Prince-Of-Chaos-With-Wings",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Daemon Prince of Khorne": {
+      "name": "Daemon Prince of Khorne",
+      "url_slug": "Daemon-Prince-of-Khorne",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Daemon Prince of Khorne with Wings": {
+      "name": "Daemon Prince of Khorne with Wings",
+      "url_slug": "Daemon-Prince-of-Khorne-with-Wings",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Daemon Prince of Nurgle": {
+      "name": "Daemon Prince of Nurgle",
+      "url_slug": "Daemon-Prince-of-Nurgle",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Daemon Prince of Nurgle with Wings": {
+      "name": "Daemon Prince of Nurgle with Wings",
+      "url_slug": "Daemon-Prince-of-Nurgle-with-Wings",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Daemon Prince of Tzeentch": {
+      "name": "Daemon Prince of Tzeentch",
+      "url_slug": "Daemon-Prince-of-Tzeentch",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Daemon Prince of Tzeentch with Wings": {
+      "name": "Daemon Prince of Tzeentch with Wings",
+      "url_slug": "Daemon-Prince-of-Tzeentch-with-Wings",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Epidemius": {
+      "name": "Epidemius",
+      "url_slug": "Epidemius",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Exalted Flamer": {
+      "name": "Exalted Flamer",
+      "url_slug": "Exalted-Flamer",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Fateskimmer": {
+      "name": "Fateskimmer",
+      "url_slug": "Fateskimmer",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Fluxmaster": {
+      "name": "Fluxmaster",
+      "url_slug": "Fluxmaster",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Great Unclean One": {
+      "name": "Great Unclean One",
+      "url_slug": "Great-Unclean-One",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Heretic Astartes Daemon Prince": {
+      "name": "Heretic Astartes Daemon Prince",
+      "url_slug": "Heretic-Astartes-Daemon-Prince",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Heretic Astartes Daemon Prince With Wings": {
+      "name": "Heretic Astartes Daemon Prince With Wings",
+      "url_slug": "Heretic-Astartes-Daemon-Prince-With-Wings",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Horticulous Slimux": {
+      "name": "Horticulous Slimux",
+      "url_slug": "Horticulous-Slimux",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Infernal Enrapturess": {
+      "name": "Infernal Enrapturess",
+      "url_slug": "Infernal-Enrapturess",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Kairos Fateweaver": {
+      "name": "Kairos Fateweaver",
+      "url_slug": "Kairos-Fateweaver",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Karanak": {
+      "name": "Karanak",
+      "url_slug": "Karanak",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Lord Discordant On Helstalker": {
+      "name": "Lord Discordant On Helstalker",
+      "url_slug": "Lord-Discordant-On-Helstalker",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Lord of Change": {
+      "name": "Lord of Change",
+      "url_slug": "Lord-of-Change",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Magnus The Red": {
+      "name": "Magnus The Red",
+      "url_slug": "Magnus-The-Red",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Mortarion": {
+      "name": "Mortarion",
+      "url_slug": "Mortarion",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Poxbringer": {
+      "name": "Poxbringer",
+      "url_slug": "Poxbringer",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Rendmaster On Blood Throne": {
+      "name": "Rendmaster On Blood Throne",
+      "url_slug": "Rendmaster-On-Blood-Throne",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Rotigus": {
+      "name": "Rotigus",
+      "url_slug": "Rotigus",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Skarbrand": {
+      "name": "Skarbrand",
+      "url_slug": "Skarbrand",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Skullmaster": {
+      "name": "Skullmaster",
+      "url_slug": "Skullmaster",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Skulltaker": {
+      "name": "Skulltaker",
+      "url_slug": "Skulltaker",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Slaughterbound": {
+      "name": "Slaughterbound",
+      "url_slug": "Slaughterbound",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "Sloppity Bilepiper": {
+      "name": "Sloppity Bilepiper",
+      "url_slug": "Sloppity-Bilepiper",
+      "error": "HTTP Error 404: Not Found"
+    }
+  }
+}

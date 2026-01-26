@@ -1,0 +1,5392 @@
+{
+  "faction": "chaos-knights",
+  "last_updated": "2026-01-26T07:15:24.577846+00:00",
+  "source": "wahapedia-autodiscover",
+  "schema_version": "2.0",
+  "unit_count": 37,
+  "units": {
+    "Knight Abominant": {
+      "name": "Knight Abominant",
+      "url_slug": "Knight-Abominant",
+      "stats": {
+        "M": "10",
+        "T": "11",
+        "Sv": "3+",
+        "W": "26",
+        "Ld": "6+",
+        "OC": "10"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Diabolus heavy stubber rapid fire 3",
+            "range": "36\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "rapid fire 3"
+            ]
+          },
+          {
+            "name": "Volkite combustor",
+            "range": "30\"",
+            "A": "12",
+            "skill": "3+",
+            "S": "12",
+            "AP": "0",
+            "D": "3",
+            "keywords": [
+              "devastating wounds"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Balemace extra attacks",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "extra attacks"
+            ]
+          },
+          {
+            "name": "Electroscourge sustained hits 1",
+            "range": "Melee",
+            "A": "9",
+            "skill": "3+",
+            "S": "10",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "faction": [
+          "Harbingers of Dread , Super-heavy Walker"
+        ],
+        "unit": [
+          {
+            "name": "Vortex Terrors (Psychic)",
+            "description": "At the start of your Shooting phase , select one enemy unit within 24\" of and visible to this model. That enemy unit must take a Battle-shock test . Warp Storms (Psychic): At the end of your Movement phase , roll one D6 for each enemy unit within 9\" of one or more models with this ability: on a 3+, that enemy unit suffers D3 mortal wounds ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 355
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "WAR DOG",
+        "ABHORRENT",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Knight Abominant This model is equipped with: diabolus heavy stubber; volkite combustor; balemace; electroscourge."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Knight Desecrator": {
+      "name": "Knight Desecrator",
+      "url_slug": "Knight-Desecrator",
+      "stats": {
+        "M": "10",
+        "T": "11",
+        "Sv": "3+",
+        "W": "26",
+        "Ld": "6+",
+        "OC": "10"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Desecrator laser destructor",
+            "range": "72\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "18",
+            "AP": "-4",
+            "D": "D6+3",
+            "keywords": []
+          },
+          {
+            "name": "Diabolus heavy stubber rapid fire 3",
+            "range": "36\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "rapid fire 3"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Reaper chainsword \u2013 strike",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "14",
+            "AP": "-4",
+            "D": "6",
+            "keywords": []
+          },
+          {
+            "name": "Reaper chainsword \u2013 sweep",
+            "range": "Melee",
+            "A": "12",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-3",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Warpstrike claw \u2013 strike",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "20",
+            "AP": "-3",
+            "D": "8",
+            "keywords": []
+          },
+          {
+            "name": "Warpstrike claw \u2013 sweep",
+            "range": "Melee",
+            "A": "8",
+            "skill": "3+",
+            "S": "10",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "faction": [
+          "Harbingers of Dread , Super-heavy Walker"
+        ],
+        "unit": [
+          {
+            "name": "Obsessive Ruthlessness",
+            "description": "Each time this model makes a ranged attack that targets a MONSTER or VEHICLE unit, that attack has the [DEVASTATING WOUNDS] ability. Taskmaster (Aura): While a friendly WAR DOG model is within 9\" of this model, each time that WAR DOG model makes a ranged attack, re-roll a Hit roll of 1."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 355
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "WAR DOG",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "ABHORRENT",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Knight Desecrator This model is equipped with: desecrator laser destructor; diabolus heavy stubber; reaper chainsword."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Knight Despoiler": {
+      "name": "Knight Despoiler",
+      "url_slug": "Knight-Despoiler",
+      "stats": {
+        "M": "10",
+        "T": "11",
+        "Sv": "3+",
+        "W": "26",
+        "Ld": "6+",
+        "OC": "10"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Daemonbreath meltagun melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          },
+          {
+            "name": "Daemonbreath thermal cannon blast melta 6",
+            "range": "24\"",
+            "A": "2D3",
+            "skill": "3+",
+            "S": "12",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 6",
+              "blast"
+            ]
+          },
+          {
+            "name": "Despoiler battle cannon blast rapid fire d6+3",
+            "range": "72\"",
+            "A": "D6+3",
+            "skill": "3+",
+            "S": "10",
+            "AP": "-1",
+            "D": "3",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Despoiler gatling cannon",
+            "range": "36\"",
+            "A": "18",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Diabolus heavy stubber rapid fire 3",
+            "range": "36\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "rapid fire 3"
+            ]
+          },
+          {
+            "name": "Havoc missile pod blast indirect fire",
+            "range": "48\"",
+            "A": "D6+1",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast",
+              "indirect fire"
+            ]
+          },
+          {
+            "name": "Heavy darkflamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Hellstorm autocannons",
+            "range": "48\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "anti-fly 2+",
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Ruinspear rocket pod",
+            "range": "48\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-2",
+            "D": "D6",
+            "keywords": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Reaper chainsword \u2013 strike",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "14",
+            "AP": "-4",
+            "D": "6",
+            "keywords": []
+          },
+          {
+            "name": "Reaper chainsword \u2013 sweep",
+            "range": "Melee",
+            "A": "12",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-3",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Titanic feet",
+            "range": "Melee",
+            "A": "4",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Warpstrike claw \u2013 strike",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "20",
+            "AP": "-3",
+            "D": "8",
+            "keywords": []
+          },
+          {
+            "name": "Warpstrike claw \u2013 sweep",
+            "range": "Melee",
+            "A": "8",
+            "skill": "3+",
+            "S": "10",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "faction": [
+          "Harbingers of Dread , Super-heavy Walker"
+        ],
+        "unit": [
+          {
+            "name": "Dread Dominion (Aura)",
+            "description": "While a friendly WAR DOG model is within 9\" of this model, improve that WAR DOG model\u2019s Leadership and Objective Control characteristics by 1. Seething Hatred: Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 390
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "WAR DOG",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "ABHORRENT",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Knight Despoiler This model is equipped with: daemonbreath meltagun; reaper chainsword; titanic feet; warpstrike claw."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Knight Rampager": {
+      "name": "Knight Rampager",
+      "url_slug": "Knight-Rampager",
+      "stats": {
+        "M": "12",
+        "T": "11",
+        "Sv": "3+",
+        "W": "26",
+        "Ld": "6+",
+        "OC": "10"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Diabolus heavy stubber rapid fire 3",
+            "range": "36\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "rapid fire 3"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Reaper chainsword \u2013 strike sustained hits 1",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "14",
+            "AP": "-4",
+            "D": "6",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Reaper chainsword \u2013 sweep sustained hits 1",
+            "range": "Melee",
+            "A": "18",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Warpstrike claw \u2013 strike sustained hits 1",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "20",
+            "AP": "-3",
+            "D": "8",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Warpstrike claw \u2013 sweep sustained hits 1",
+            "range": "Melee",
+            "A": "12",
+            "skill": "2+",
+            "S": "10",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "faction": [
+          "Harbingers of Dread , Super-heavy Walker"
+        ],
+        "unit": [
+          {
+            "name": "Bloodlust",
+            "description": "Each time this model makes a Charge move , until the end of the turn, its melee weapons have the [DEVASTATING WOUNDS] ability. Frenzied Rampage (Aura): While a friendly WAR DOG model is within 9\" of this model, each time that WAR DOG model makes a melee attack, re-roll a Hit roll of 1."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 365
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "WAR DOG",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "ABHORRENT",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Knight Rampager This model is equipped with: diabolus heavy stubber; reaper chainsword; warpstrike claw."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Knight Ruinator": {
+      "name": "Knight Ruinator",
+      "url_slug": "Knight-Ruinator",
+      "stats": {
+        "M": "10",
+        "T": "11",
+        "Sv": "3+",
+        "W": "26",
+        "Ld": "6+",
+        "OC": "10"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Darkflame lance ignores cover torrent",
+            "range": "18\"",
+            "A": "2D6",
+            "skill": "N/A",
+            "S": "8",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "torrent",
+              "ignores cover",
+              "lance"
+            ]
+          },
+          {
+            "name": "Terrorpulse missiles blast",
+            "range": "36\"",
+            "A": "2D6",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "blast"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Fellbore \u2013 strike",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "14",
+            "AP": "-3",
+            "D": "6",
+            "keywords": [
+              "anti-monster 2+",
+              "anti-vehicle 2+"
+            ]
+          },
+          {
+            "name": "Fellbore \u2013 sweep",
+            "range": "Melee",
+            "A": "10",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "faction": [
+          "Harbingers of Dread , Super-heavy Walker"
+        ],
+        "unit": [
+          {
+            "name": "Methodical Destruction",
+            "description": "At the start of the first battle round , select one unit from your opponent\u2019s army to be this model\u2019s victim. Each time this model makes an attack that targets its victim, you can re-roll the Wound roll . Each time this model\u2019s victim is destroyed, select one new enemy unit to be this model\u2019s victim. Close-range Killers (Aura): While a friendly WAR DOG model is within 9\" of this model, each time that WAR DOG model makes an attack that targets the closest enemy unit, improve the Armour Penetration characteristic of that attack by 1."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 355
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "WAR DOG",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "ABHORRENT",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Knight Ruinator This model is equipped with: darkflame lance; terrorpulse missiles; fellbore."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Knight Tyrant": {
+      "name": "Knight Tyrant",
+      "url_slug": "Knight-Tyrant",
+      "stats": {
+        "M": "8",
+        "T": "12",
+        "Sv": "3+",
+        "W": "28",
+        "Ld": "6+",
+        "OC": "10"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Brimstone volcano lance blast",
+            "range": "60\"",
+            "A": "D3",
+            "skill": "3+",
+            "S": "20",
+            "AP": "-5",
+            "D": "D6+8",
+            "keywords": [
+              "blast",
+              "lance"
+            ]
+          },
+          {
+            "name": "Darkflame cannon ignores cover torrent",
+            "range": "18\"",
+            "A": "3D6",
+            "skill": "N/A",
+            "S": "8",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Ectoplasma decimator \u2013 standard blast",
+            "range": "36\"",
+            "A": "D6+3",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Ectoplasma decimator \u2013 supercharge blast hazardous",
+            "range": "36\"",
+            "A": "D6+3",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-4",
+            "D": "3",
+            "keywords": [
+              "blast",
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Gheiststrike missile launcher",
+            "range": "72\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "12",
+            "AP": "-6",
+            "D": "D6+1",
+            "keywords": [
+              "anti-titanic 4+",
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Twin daemonbreath meltagun melta 2 twin-linked",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2",
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Twin Desecrator cannon blast twin-linked",
+            "range": "36\"",
+            "A": "D6",
+            "skill": "3+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast",
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Warpshock harpoon blast",
+            "range": "12\"",
+            "A": "D3",
+            "skill": "3+",
+            "S": "24",
+            "AP": "-6",
+            "D": "12",
+            "keywords": [
+              "devastating wounds",
+              "blast"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Titanic feet",
+            "range": "Melee",
+            "A": "4",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6+2"
+        ],
+        "faction": [
+          "Harbingers of Dread , Super-heavy Walker"
+        ],
+        "unit": [
+          {
+            "name": "Infernal Aegis (Aura)",
+            "description": "While a friendly WAR DOG model is within 6\" of this model, that WAR DOG model has the Benefit of Cover . Bastion of Corruption: Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 410
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "WAR DOG",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Knight Tyrant This model is equipped with: brimstone volcano lance; ectoplasma decimator; 2 gheiststrike missile launchers; 2 twin daemonbreath meltaguns; twin Desecrator cannon; titanic feet."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Cultist Firebrand": {
+      "name": "Cultist Firebrand",
+      "url_slug": "Cultist-Firebrand",
+      "stats": {
+        "M": "6",
+        "T": "4",
+        "Sv": "4+",
+        "W": "4",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Balefire pike IGNORES COVER TORRENT",
+            "range": "12\"",
+            "A": "D6+3",
+            "skill": "N/A",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "4",
+            "skill": "4+",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "Fiery Faith",
+            "description": "While this model is leading a unit, you can re-roll Leadership tests taken for that unit. Cursed Flames: In your Shooting phase , after this model has shot, select one enemy INFANTRY unit hit by one or more of those attacks. That unit must take a Battle-shock test ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 45
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "IGNORES COVER",
+        "TORRENT",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": "This model can be attached to the following units: Accursed Cultists Cultist Mob",
+      "led_by": [
+        "Accursed Cultists Cultist Mob"
+      ],
+      "can_lead": [
+        "Accursed Cultists Cultist Mob"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Cultist Firebrand This model is equipped with: balefire pike, close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Dark Commune": {
+      "name": "Dark Commune",
+      "url_slug": "Dark-Commune",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "6+",
+        "W": "4",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Autopistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Warp Curse \u2013 witchfire psychic",
+            "range": "18\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Warp Curse \u2013 focused witchfire hazardous psychic sustained hits 2",
+            "range": "18\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "sustained hits 2",
+              "hazardous"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Commune blade",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "4",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Commune stave",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "D3",
+            "keywords": [
+              "devastating wounds"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "Faithful Flock",
+            "description": "While this unit is leading a unit and contains a CULT DEMAGOGUE model, models in that unit have a 5+ invulnerable save . Dark Ritual: Once per battle, in your Command phase , if this unit contains a CULT DEMAGOGUE model, it can use this ability. If it does, until the end of the turn, this unit can declare a charge in a turn in which it Advanced and each time a model in this unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll ."
+          },
+          {
+            "name": "Chaos Icon",
+            "description": "Each time the bearer\u2019s unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 5,
+          "points": 90
+        }
+      ],
+      "unit_sizes": [
+        5
+      ],
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": "This model can be attached to the following units: Accursed Cultists Cultist Mob",
+      "led_by": [
+        "Accursed Cultists Cultist Mob"
+      ],
+      "can_lead": [
+        "Accursed Cultists Cultist Mob"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Cult Demagogue 1 Mindwitch 1 Iconarch 2 Blessed Blades The Cult Demagogue is equipped with: autopistol; Commune stave. The Mindwitch is equipped with: Warp Curse; close combat weapon. The Iconarch is equipped with: autopistol; close combat weapon; Chaos icon. Every Blessed Blade is equipped with: Commune blade."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Traitor Enforcer": {
+      "name": "Traitor Enforcer",
+      "url_slug": "Traitor-Enforcer",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "5+",
+        "W": "3",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Bolt pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Ogryn weapons",
+            "range": "Melee",
+            "A": "5",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Power fist",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "Brutal Example",
+            "description": "Once per turn, while this unit is leading a unit and contains a TRAITOR ENFORCER model, you can target that unit with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targeted a different unit from your army with that Stratagem this turn. Each time you use this ability, one Bodyguard model in that unit is destroyed . Mutated Bodyguard: While this unit contains a Traitor Ogryn model, CHARACTER models in this unit have the Feel No Pain 4+ ability."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 2,
+          "points": 55
+        }
+      ],
+      "unit_sizes": [
+        2
+      ],
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": "This model can be attached to the following unit: Traitor Guardsmen Squad",
+      "led_by": [
+        "Traitor Guardsmen Squad"
+      ],
+      "can_lead": [
+        "Traitor Guardsmen Squad"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Traitor Enforcer 1 Traitor Ogryn The Traitor Enforcer is equipped with: bolt pistol; power fist. The Traitor Ogryn is equipped with: Ogryn weapons."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Chaos Cerastus Knight Acheron": {
+      "name": "Chaos Cerastus Knight Acheron",
+      "url_slug": "Chaos-Cerastus-Knight-Acheron",
+      "stats": {
+        "M": "12",
+        "T": "11",
+        "Sv": "3+",
+        "W": "28",
+        "Ld": "6+",
+        "OC": "10"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Acheron flame cannon ignores cover torrent",
+            "range": "18\"",
+            "A": "2D6",
+            "skill": "N/A",
+            "S": "8",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Twin heavy bolter sustained hits 1 twin-linked",
+            "range": "36\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "heavy",
+              "sustained hits 1",
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Reaper chainfist \u2013 strike",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "14",
+            "AP": "-4",
+            "D": "6",
+            "keywords": []
+          },
+          {
+            "name": "Reaper chainfist \u2013 sweep",
+            "range": "Melee",
+            "A": "12",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-3",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6+2"
+        ],
+        "faction": [
+          "Harbingers of Dread , Super-heavy Walker"
+        ],
+        "unit": [
+          {
+            "name": "Searing Flames",
+            "description": "In your Shooting phase , after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have the Benefit of Cover . Unrestrained Terror (Aura): While a friendly WAR DOG model is within 6\" of this model, it is affected by this ability. At the start of the Fight phase , each enemy unit within Engagement Range of one or more WAR DOG units affected by this ability must take a Battle-shock test ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 385
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "WAR DOG",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Chaos Cerastus Knight Acheron This model is equipped with: Acheron flame cannon; twin heavy bolter; reaper chainfist."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Chaos Cerastus Knight Atrapos": {
+      "name": "Chaos Cerastus Knight Atrapos",
+      "url_slug": "Chaos-Cerastus-Knight-Atrapos",
+      "stats": {
+        "M": "12",
+        "T": "11",
+        "Sv": "3+",
+        "W": "28",
+        "Ld": "6+",
+        "OC": "10"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Atrapos lascutter \u2013 low intensity sustained hits 1",
+            "range": "36\"",
+            "A": "2D6",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Atrapos lascutter \u2013 high intensity sustained hits 1",
+            "range": "24\"",
+            "A": "D6",
+            "skill": "3+",
+            "S": "14",
+            "AP": "-3",
+            "D": "4",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Graviton singularity cannon \u2013 contained blast",
+            "range": "24\"",
+            "A": "D3",
+            "skill": "3+",
+            "S": "16",
+            "AP": "-4",
+            "D": "D6+1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Graviton singularity cannon \u2013 singularity blast",
+            "range": "24\"",
+            "A": "D3",
+            "skill": "3+",
+            "S": "16",
+            "AP": "-4",
+            "D": "D6+1",
+            "keywords": [
+              "devastating wounds",
+              "blast",
+              "hazardous"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Atrapos lascutter \u2013 low intensity sustained hits 1",
+            "range": "Melee",
+            "A": "12",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Atrapos lascutter \u2013 high intensity sustained hits 1",
+            "range": "Melee",
+            "A": "6",
+            "skill": "3+",
+            "S": "14",
+            "AP": "-3",
+            "D": "4",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6+2"
+        ],
+        "faction": [
+          "Harbingers of Dread , Super-heavy Walker"
+        ],
+        "unit": [
+          {
+            "name": "Macro-extinction Protocols",
+            "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll . If that target is TITANIC or TOWERING , add 1 to the Wound roll as well. Consumed with Hunger (Aura): While a friendly WAR DOG model is within 6\" of this model, each time that WAR DOG model makes an attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 395
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "WAR DOG",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Chaos Cerastus Knight Atrapos This model is equipped with: Atrapos lascutter; graviton singularity cannon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Chaos Cerastus Knight Castigator": {
+      "name": "Chaos Cerastus Knight Castigator",
+      "url_slug": "Chaos-Cerastus-Knight-Castigator",
+      "stats": {
+        "M": "12",
+        "T": "11",
+        "Sv": "3+",
+        "W": "28",
+        "Ld": "6+",
+        "OC": "10"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Castigator bolt cannon twin-linked",
+            "range": "36\"",
+            "A": "18",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Tempest warblade \u2013 strike",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "14",
+            "AP": "-4",
+            "D": "6",
+            "keywords": []
+          },
+          {
+            "name": "Tempest warblade \u2013 sweep",
+            "range": "Melee",
+            "A": "12",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-3",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6+2"
+        ],
+        "faction": [
+          "Harbingers of Dread , Super-heavy Walker"
+        ],
+        "unit": [
+          {
+            "name": "Storm of Bolts",
+            "description": "In your Shooting phase , after this model has shot, select one unit (excluding MONSTERS and VEHICLES ) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll . Offerings for the Dark Gods (Aura): While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [SUSTAINED HITS 1] ability."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 385
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "WAR DOG",
+        "[SUSTAINED HITS 1]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "[PRECISION]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Chaos Cerastus Knight Castigator This model is equipped with: Castigator bolt cannon; tempest warblade."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Chaos Cerastus Knight Lancer": {
+      "name": "Chaos Cerastus Knight Lancer",
+      "url_slug": "Chaos-Cerastus-Knight-Lancer",
+      "stats": {
+        "M": "14",
+        "T": "11",
+        "Sv": "3+",
+        "W": "28",
+        "Ld": "6+",
+        "OC": "10"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Cerastus shock lance assault sustained hits 2",
+            "range": "12\"",
+            "A": "6",
+            "skill": "3+",
+            "S": "6",
+            "AP": "0",
+            "D": "2",
+            "keywords": [
+              "assault",
+              "sustained hits 2",
+              "lance"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Cerastus shock lance \u2013 strike lance",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "20",
+            "AP": "-3",
+            "D": "8",
+            "keywords": [
+              "lance",
+              "lance"
+            ]
+          },
+          {
+            "name": "Cerastus shock lance \u2013 sweep",
+            "range": "Melee",
+            "A": "10",
+            "skill": "2+",
+            "S": "10",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "lance"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6+2"
+        ],
+        "faction": [
+          "Harbingers of Dread , Super-heavy Walker"
+        ],
+        "unit": [
+          {
+            "name": "Shock Charge",
+            "description": "You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase. Dark Fervour (Aura): While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that War Dog model have the [ASSAULT] ability."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 385
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "WAR DOG",
+        "[ASSAULT]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Chaos Cerastus Knight Lancer This model is equipped with: Cerastus shock lance."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Chaos Questoris Knight Magaera": {
+      "name": "Chaos Questoris Knight Magaera",
+      "url_slug": "Chaos-Questoris-Knight-Magaera",
+      "stats": {
+        "M": "10",
+        "T": "11",
+        "Sv": "3+",
+        "W": "26",
+        "Ld": "6+",
+        "OC": "10"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Lightning cannon sustained hits 2",
+            "range": "48\"",
+            "A": "12",
+            "skill": "3+",
+            "S": "9",
+            "AP": "0",
+            "D": "2",
+            "keywords": [
+              "sustained hits 2"
+            ]
+          },
+          {
+            "name": "Phased plasma-fusil rapid fire 2",
+            "range": "24\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "rapid fire 2"
+            ]
+          },
+          {
+            "name": "Twin rad cleanser",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "2",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "anti-infantry 2+",
+              "torrent",
+              "twin-linked",
+              "ignores cover"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Hekaton siege claw \u2013 strike",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "20",
+            "AP": "-3",
+            "D": "8",
+            "keywords": []
+          },
+          {
+            "name": "Hekaton siege claw \u2013 sweep",
+            "range": "Melee",
+            "A": "8",
+            "skill": "3+",
+            "S": "10",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Reaper chainsword \u2013 strike",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "14",
+            "AP": "-4",
+            "D": "6",
+            "keywords": []
+          },
+          {
+            "name": "Reaper chainsword \u2013 sweep",
+            "range": "Melee",
+            "A": "12",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-3",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "faction": [
+          "Harbingers of Dread , Super-heavy Walker"
+        ],
+        "unit": [
+          {
+            "name": "Huntmaster (Aura)",
+            "description": "While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [ASSAULT] ability. Repair Auto-simulacra: At the end of your Command phase , this model regains up to D3 lost wounds."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 375
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "WAR DOG",
+        "[ASSAULT]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "ABHORRENT",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Chaos Questoris Knight Magaera This model is equipped with: lightning cannon; phased plasma-fusil; reaper chainsword."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Chaos Questoris Knight Styrix": {
+      "name": "Chaos Questoris Knight Styrix",
+      "url_slug": "Chaos-Questoris-Knight-Styrix",
+      "stats": {
+        "M": "10",
+        "T": "11",
+        "Sv": "3+",
+        "W": "26",
+        "Ld": "6+",
+        "OC": "10"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Graviton crusher",
+            "range": "18\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "anti-vehicle 2+",
+              "blast"
+            ]
+          },
+          {
+            "name": "Twin rad cleanser",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "2",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "anti-infantry 2+",
+              "torrent",
+              "twin-linked",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Volkite chierovile",
+            "range": "30\"",
+            "A": "12",
+            "skill": "3+",
+            "S": "12",
+            "AP": "0",
+            "D": "3",
+            "keywords": [
+              "devastating wounds"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Hekaton siege claw \u2013 strike",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "20",
+            "AP": "-3",
+            "D": "8",
+            "keywords": []
+          },
+          {
+            "name": "Hekaton siege claw \u2013 sweep",
+            "range": "Melee",
+            "A": "8",
+            "skill": "3+",
+            "S": "10",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Reaper chainsword \u2013 strike",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "14",
+            "AP": "-4",
+            "D": "6",
+            "keywords": []
+          },
+          {
+            "name": "Reaper chainsword \u2013 sweep",
+            "range": "Melee",
+            "A": "12",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-3",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "faction": [
+          "Harbingers of Dread , Super-heavy Walker"
+        ],
+        "unit": [
+          {
+            "name": "Preysight (Aura)",
+            "description": "While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [IGNORES COVER] ability. Grav-pinned: In your Shooting phase , after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent\u2019s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit\u2019s Move characteristic and subtract 2 from Charge rolls made for that unit."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 375
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "WAR DOG",
+        "[IGNORES COVER]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "ABHORRENT",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Chaos Questoris Knight Styrix This model is equipped with: graviton crusher; volkite chierovile; reaper chainsword."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Renegade Enforcer": {
+      "name": "Renegade Enforcer",
+      "url_slug": "Renegade-Enforcer",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "5+",
+        "W": "3",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Autogun rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Enforcer pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Lasgun rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Shotgun assault",
+            "range": "12\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "assault"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Enforcer melee weapon",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Power fist",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Power weapon",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "4",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "Brutal Example",
+            "description": "While this model is leading a unit, you can target that unit with the Insane Bravery Stratagem for 0CP, and can do so even if another unit from your army has already been targeted with that Stratagem this phase. Each time you use this ability, one Bodyguard model in that unit is destroyed. Enforcer: This model\u2019s unit is eligible to declare a charge in a turn in which it Fell Back ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 65
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": "This model can be attached to the following units: Traitor Guardsmen Squad Renegade Heavy Weapons Squad",
+      "led_by": [
+        "Traitor Guardsmen Squad Renegade Heavy Weapons Squad"
+      ],
+      "can_lead": [
+        "Traitor Guardsmen Squad Renegade Heavy Weapons Squad"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Renegade Enforcer This model is equipped with: Enforcer pistol; Enforcer melee weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Rogue Psyker": {
+      "name": "Rogue Psyker",
+      "url_slug": "Rogue-Psyker",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "5+",
+        "W": "3",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Laspistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Psychic Strike \u2013 focused witchfire blast",
+            "range": "12\"",
+            "A": "D6+3",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "devastating wounds",
+              "blast",
+              "hazardous"
+            ]
+          },
+          {
+            "name": "Psychic Strike \u2013 witchfire blast",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "devastating wounds",
+              "blast"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chaos stave psychic",
+            "range": "Melee",
+            "A": "1",
+            "skill": "4+",
+            "S": "6",
+            "AP": "-1",
+            "D": "D3",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "Cursed Wardings (Psychic)",
+            "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks . Psychic Barrier (Psychic): At the start of your opponent\u2019s Shooting phase , you can roll one D6: on a 1, this PSYKER \u2019s unit suffers D3 mortal wounds ; on a 2+, until the end of the phase, models in this PSYKER \u2019s unit have a 4+ invulnerable save ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 60
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": "This model can be attached to the following units: Accursed Cultists Cultist Mob Negavolt Cultists",
+      "led_by": [
+        "Accursed Cultists Cultist Mob Negavolt Cultists"
+      ],
+      "can_lead": [
+        "Accursed Cultists Cultist Mob Negavolt Cultists"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Rogue Psyker This model is equipped with: laspistol; Psychic Strike; Chaos stave."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Cultist Mob": {
+      "name": "Cultist Mob",
+      "url_slug": "Cultist-Mob",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "6+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Autopistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Bolt pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Brutal assault weapon",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "assault"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "For the Dark Gods",
+            "description": "At the end of your Command phase , if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Cultist Firebrand Dark Commune Rogue Psyker"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 10,
+          "points": 50
+        },
+        {
+          "models": 20,
+          "points": 100
+        }
+      ],
+      "unit_sizes": [
+        10,
+        20
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Cultist Champion 9-19 Chaos Cultists Every model is equipped with: autopistol; brutal assault weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Cultist Mob with Firearms": {
+      "name": "Cultist Mob with Firearms",
+      "url_slug": "Cultist-Mob-with-Firearms",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "6+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Autogun rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Autopistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Bolt pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Grenade launcher \u2013 frag blast",
+            "range": "24\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Grenade launcher \u2013 krak",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-2",
+            "D": "D3",
+            "keywords": []
+          },
+          {
+            "name": "Heavy stubber heavy rapid fire 3",
+            "range": "36\"",
+            "A": "4",
+            "skill": "5+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "heavy",
+              "rapid fire 3"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Brutal assault weapon",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "assault"
+            ]
+          },
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "For the Dark Gods",
+            "description": "At the end of your Command phase , if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent\u2019s Level of Control over that objective marker is greater than yours at the end of a phase."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 10,
+          "points": 50
+        },
+        {
+          "models": 20,
+          "points": 100
+        }
+      ],
+      "unit_sizes": [
+        10,
+        20
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Cultist Champion 9-19 Chaos Cultists The Cultist Champion is equipped with: autopistol; brutal assault weapon. Every Chaos Cultist is equipped with: autopistol; brutal assault weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "War Dog Brigand": {
+      "name": "War Dog Brigand",
+      "url_slug": "War-Dog-Brigand",
+      "stats": {
+        "M": "12",
+        "T": "9",
+        "Sv": "3+",
+        "W": "14",
+        "Ld": "7+",
+        "OC": "6"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Avenger chaincannon",
+            "range": "24\"",
+            "A": "12",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Daemonbreath spear melta 4",
+            "range": "18\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "12",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 4"
+            ]
+          },
+          {
+            "name": "Diabolus heavy stubber rapid fire 3",
+            "range": "36\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "rapid fire 3"
+            ]
+          },
+          {
+            "name": "Havoc multi-launcher blast indirect fire",
+            "range": "48\"",
+            "A": "D6",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast",
+              "indirect fire"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured feet",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "Harbingers of Dread"
+        ],
+        "unit": [
+          {
+            "name": "Brigand",
+            "description": "Each time this model makes a ranged attack that targets a unit that is within range of one or more objective markers , that attack has the [IGNORES COVER] ability."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 140
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "[IGNORES COVER]",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "CUNNING HUNTER",
+        "HARRYING HOUNDS",
+        "ANIMALISTIC RAGE",
+        "HUNGRY FOR COMBAT",
+        "ENCIRCLING PACK",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "WAR DOG",
+        "ABHORRENT"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 War Dog Brigand This model is equipped with: avenger chaincannon; daemonbreath spear; diabolus heavy stubber; armoured feet."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "War Dog Executioner": {
+      "name": "War Dog Executioner",
+      "url_slug": "War-Dog-Executioner",
+      "stats": {
+        "M": "12",
+        "T": "9",
+        "Sv": "3+",
+        "W": "14",
+        "Ld": "7+",
+        "OC": "6"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Daemonbreath meltagun melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          },
+          {
+            "name": "Diabolus heavy stubber rapid fire 3",
+            "range": "36\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "rapid fire 3"
+            ]
+          },
+          {
+            "name": "War Dog autocannon",
+            "range": "48\"",
+            "A": "4",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-1",
+            "D": "3",
+            "keywords": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured feet",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "Harbingers of Dread"
+        ],
+        "unit": [
+          {
+            "name": "Executioner",
+            "description": "Each time this model makes an attack that targets a unit Below Half-strength , add 1 to the Hit roll . Each time an enemy unit is destroyed as the result of this model\u2019s attacks, before removing the last model in that unit from the battlefield, each unit from your opponent\u2019s army that is within 3\" of it must take a Battle-shock test ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 130
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "CUNNING HUNTER",
+        "HARRYING HOUNDS",
+        "ANIMALISTIC RAGE",
+        "HUNGRY FOR COMBAT",
+        "ENCIRCLING PACK",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "WAR DOG",
+        "ABHORRENT"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 War Dog Executioner This model is equipped with: diabolus heavy stubber; 2 War Dog autocannons; armoured feet."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "War Dog Huntsman": {
+      "name": "War Dog Huntsman",
+      "url_slug": "War-Dog-Huntsman",
+      "stats": {
+        "M": "12",
+        "T": "9",
+        "Sv": "3+",
+        "W": "14",
+        "Ld": "7+",
+        "OC": "6"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Daemonbreath meltagun melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          },
+          {
+            "name": "Daemonbreath spear melta 4",
+            "range": "18\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "12",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 4"
+            ]
+          },
+          {
+            "name": "Diabolus heavy stubber rapid fire 3",
+            "range": "36\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "rapid fire 3"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Reaper chaintalon \u2013 strike",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "10",
+            "AP": "-3",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Reaper chaintalon \u2013 sweep",
+            "range": "Melee",
+            "A": "8",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "Harbingers of Dread"
+        ],
+        "unit": [
+          {
+            "name": "Huntsman",
+            "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 140
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "CUNNING HUNTER",
+        "HARRYING HOUNDS",
+        "ANIMALISTIC RAGE",
+        "HUNGRY FOR COMBAT",
+        "ENCIRCLING PACK",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "WAR DOG",
+        "ABHORRENT"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 War Dog Huntsman This model is equipped with: daemonbreath spear; diabolus heavy stubber; reaper chaintalon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "War Dog Karnivore": {
+      "name": "War Dog Karnivore",
+      "url_slug": "War-Dog-Karnivore",
+      "stats": {
+        "M": "14",
+        "T": "9",
+        "Sv": "3+",
+        "W": "14",
+        "Ld": "7+",
+        "OC": "6"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Diabolus heavy stubber rapid fire 3",
+            "range": "36\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "rapid fire 3"
+            ]
+          },
+          {
+            "name": "Havoc multi-launcher blast indirect fire",
+            "range": "48\"",
+            "A": "D6",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast",
+              "indirect fire"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Reaper chaintalon sustained hits 1",
+            "range": "Melee",
+            "A": "12",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Slaughterclaw sustained hits 1",
+            "range": "Melee",
+            "A": "6",
+            "skill": "3+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+2",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "Harbingers of Dread"
+        ],
+        "unit": [
+          {
+            "name": "Karnivore",
+            "description": "You can re-roll Advance and Charge rolls made for this model."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 150
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "CUNNING HUNTER",
+        "HARRYING HOUNDS",
+        "ANIMALISTIC RAGE",
+        "HUNGRY FOR COMBAT",
+        "ENCIRCLING PACK",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "WAR DOG",
+        "ABHORRENT"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 War Dog Karnivore This model is equipped with: diabolus heavy stubber; reaper chaintalon; slaughterclaw."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "War Dog Stalker": {
+      "name": "War Dog Stalker",
+      "url_slug": "War-Dog-Stalker",
+      "stats": {
+        "M": "12",
+        "T": "9",
+        "Sv": "3+",
+        "W": "14",
+        "Ld": "7+",
+        "OC": "6"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Avenger chaincannon",
+            "range": "24\"",
+            "A": "12",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Daemonbreath spear melta 4",
+            "range": "18\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "12",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 4"
+            ]
+          },
+          {
+            "name": "Diabolus heavy stubber rapid fire 3",
+            "range": "36\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "rapid fire 3"
+            ]
+          },
+          {
+            "name": "Havoc multi-launcher blast indirect fire",
+            "range": "48\"",
+            "A": "D6",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast",
+              "indirect fire"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Reaper chaintalon \u2013 strike",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "10",
+            "AP": "-3",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Reaper chaintalon \u2013 sweep",
+            "range": "Melee",
+            "A": "8",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Slaughterclaw",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Scouts 6\""
+        ],
+        "faction": [
+          "Harbingers of Dread"
+        ],
+        "unit": [
+          {
+            "name": "Stalker",
+            "description": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent\u2019s army within 6\" of that target, add 1 to the Wound roll ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 140
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "CUNNING HUNTER",
+        "HARRYING HOUNDS",
+        "ANIMALISTIC RAGE",
+        "HUNGRY FOR COMBAT",
+        "ENCIRCLING PACK",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "WAR DOG",
+        "ABHORRENT"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 War Dog Stalker This model is equipped with: avenger chaincannon; diabolus heavy stubber; slaughterclaw."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Accursed Cultists": {
+      "name": "Accursed Cultists",
+      "url_slug": "Accursed-Cultists",
+      "stats": {
+        "M": "6",
+        "T": "4",
+        "Sv": "6+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Blasphemous appendages",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Hideous mutations",
+            "range": "Melee",
+            "A": "D6+2",
+            "skill": "4+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Feel No Pain 6+",
+          "Scouts 6\""
+        ],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "Accursed Horde",
+            "description": "Each time an enemy unit has shot, if one or more models from this unit were destroyed as a result of those attacks, this unit can make a Horde move. To do so, roll one D6: this unit can be moved a number of inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit (excluding AIRCRAFT ). When doing so, those models can be moved within Engagement Range of that enemy unit. A unit cannot make a Horde move while it is Battle-shocked ."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Cultist Firebrand Dark Commune Rogue Psyker"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 8,
+          "points": 90
+        },
+        {
+          "models": 16,
+          "points": 195
+        }
+      ],
+      "unit_sizes": [
+        8,
+        16
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "3-6 Torments 5-10 Mutants Every Torment is equipped with: hideous mutations. Every Mutant is equipped with: blasphemous appendages."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Fellgor Beastmen": {
+      "name": "Fellgor Beastmen",
+      "url_slug": "Fellgor-Beastmen",
+      "stats": {
+        "M": "6",
+        "T": "4",
+        "Sv": "5+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Autopistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Bolt pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Corrupted stave",
+            "range": "18\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Plasma pistol \u2013 standard pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Plasma pistol \u2013 supercharge hazardous pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "hazardous",
+              "pistol",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chainsword",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Corrupted stave",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "4",
+            "AP": "-1",
+            "D": "D3",
+            "keywords": [
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Great weapon",
+            "range": "Melee",
+            "A": "2",
+            "skill": "5+",
+            "S": "8",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "Bestial Raiders",
+            "description": "If this unit starts the game in Strategic Reserves , it can be set up in the Reinforcements step of your first, second or third Movement phase , regardless of any mission rules. If this unit is in Strategic Reserves, for the purposes of setting up this unit on the battlefield, treat the current battle round number as being one higher than it actually is."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 10,
+          "points": 70
+        }
+      ],
+      "unit_sizes": [
+        10
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Fellgor Champion 9 Fellgor Beastmen The Fellgor Champion is equipped with: bolt pistol; chainsword. Every Fellgor Beastman is equipped with: autopistol; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Traitor Guardsmen Squad": {
+      "name": "Traitor Guardsmen Squad",
+      "url_slug": "Traitor-Guardsmen-Squad",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "5+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Boltgun rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Corrupted pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Cultist grenade launcher \u2013 frag blast",
+            "range": "24\"",
+            "A": "D3",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Cultist grenade launcher \u2013 krak",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-2",
+            "D": "D3",
+            "keywords": []
+          },
+          {
+            "name": "Cultist sniper rifle heavy",
+            "range": "36\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "4",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "heavy",
+              "precision"
+            ]
+          },
+          {
+            "name": "Flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Lasgun rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Meltagun melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          },
+          {
+            "name": "Plasma gun \u2013 standard rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Plasma gun \u2013 supercharge hazardous rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "rapid fire 1",
+              "hazardous"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chainsword",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Power weapon",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "4",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "Twisted Defence Force",
+            "description": "While this unit is within range of an objective marker , each time a ranged attack targets this unit, models in this unit have the Benefit of Cover against that attack."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Traitor Enforcer Renegade Enforcer"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 10,
+          "points": 70
+        }
+      ],
+      "unit_sizes": [
+        10
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Traitor Sergeant 9 Traitor Guardsmen The Traitor Sergeant is equipped with: corrupted pistol; close combat weapon. Every Traitor Guardsman is equipped with: lasgun; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Chaos Acastus Knight Asterius": {
+      "name": "Chaos Acastus Knight Asterius",
+      "url_slug": "Chaos-Acastus-Knight-Asterius",
+      "stats": {
+        "M": "8",
+        "T": "13",
+        "Sv": "2+",
+        "W": "30",
+        "Ld": "6+",
+        "OC": "10"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Asterius volkite culverin",
+            "range": "24\"",
+            "A": "6",
+            "skill": "3+",
+            "S": "6",
+            "AP": "0",
+            "D": "2",
+            "keywords": [
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Karacnos mortar battery",
+            "range": "48\"",
+            "A": "D6+3",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "anti-infantry 2+",
+              "blast",
+              "indirect fire",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Twin conversion beam cannon conversion sustained hits d3 twin-linked",
+            "range": "48\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "16",
+            "AP": "-2",
+            "D": "6",
+            "keywords": [
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Titanic feet",
+            "range": "Melee",
+            "A": "6",
+            "skill": "4+",
+            "S": "10",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise 2D6"
+        ],
+        "faction": [
+          "Harbingers of Dread , Super-heavy Walker"
+        ],
+        "unit": [
+          {
+            "name": "Conversion",
+            "description": "Each time an attack is made with this weapon, if the target is more than 24\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit ."
+          },
+          {
+            "name": "Sunderer of Fortresses",
+            "description": "Each time this model makes an attack that targets a VEHICLE , improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a FORTIFICATION , improve the Strength and Damage characteristics of that attack by 2 instead)."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 765
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "WAR DOG"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Chaos Acastus Knight Asterius This model is equipped with: 2 Asterius volkite culverins; karacnos mortar battery; 2 twin conversion beam cannons; titanic feet."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Chaos Acastus Knight Porphyrion": {
+      "name": "Chaos Acastus Knight Porphyrion",
+      "url_slug": "Chaos-Acastus-Knight-Porphyrion",
+      "stats": {
+        "M": "8",
+        "T": "13",
+        "Sv": "2+",
+        "W": "30",
+        "Ld": "6+",
+        "OC": "10"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Acastus Autocannon",
+            "range": "48\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "9",
+            "AP": "-1",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Acastus ironstorm missile pod blast heavy indirect fire",
+            "range": "48\"",
+            "A": "D6+6",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "blast",
+              "indirect fire"
+            ]
+          },
+          {
+            "name": "Helios defence missiles",
+            "range": "48\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "10",
+            "AP": "-2",
+            "D": "D6",
+            "keywords": [
+              "anti-fly 2+",
+              "heavy"
+            ]
+          },
+          {
+            "name": "Lascannon",
+            "range": "48\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": []
+          },
+          {
+            "name": "Twin magna lascannon blast twin-linked",
+            "range": "72\"",
+            "A": "D6",
+            "skill": "3+",
+            "S": "18",
+            "AP": "-4",
+            "D": "D6+6",
+            "keywords": [
+              "blast",
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Titanic feet",
+            "range": "Melee",
+            "A": "6",
+            "skill": "4+",
+            "S": "10",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise 2D6"
+        ],
+        "faction": [
+          "Harbingers of Dread , Super-heavy Walker"
+        ],
+        "unit": [
+          {
+            "name": "Bastion of Firepower",
+            "description": "Each time this model Remains Stationary , until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 700
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "[LETHAL HITS]",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[IGNORES COVER]",
+        "WAR DOG"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Chaos Acastus Knight Porphyrion This model is equipped with: 2 Acastus autocannons; Acastus ironstorm missile pod; 2 twin magna lascannons; titanic feet."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "War Dog Moirax": {
+      "name": "War Dog Moirax",
+      "url_slug": "War-Dog-Moirax",
+      "stats": {
+        "M": "12",
+        "T": "10",
+        "Sv": "3+",
+        "W": "12",
+        "Ld": "7+",
+        "OC": "8"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Conversion beam cannon conversion sustained hits d3",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "10",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Graviton pulsar ANTI-VEHICLE 2+ BLAST",
+            "range": "24\"",
+            "A": "D6",
+            "skill": "3+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "anti-vehicle 2+",
+              "blast"
+            ]
+          },
+          {
+            "name": "Lightning lock sustained hits 2",
+            "range": "36\"",
+            "A": "6",
+            "skill": "3+",
+            "S": "8",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "sustained hits 2"
+            ]
+          },
+          {
+            "name": "Rad cleanser",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "2",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "anti-infantry 2+",
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Volkite veuglaire",
+            "range": "36\"",
+            "A": "4",
+            "skill": "3+",
+            "S": "8",
+            "AP": "0",
+            "D": "2",
+            "keywords": [
+              "devastating wounds"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured feet",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Siege claw",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "Harbingers of Dread"
+        ],
+        "unit": [
+          {
+            "name": "Conversion",
+            "description": "Each time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit ."
+          },
+          {
+            "name": "Protection Protocols",
+            "description": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 150
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "ANTI-VEHICLE 2+",
+        "BLAST",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "CUNNING HUNTER",
+        "HARRYING HOUNDS",
+        "ANIMALISTIC RAGE",
+        "HUNGRY FOR COMBAT",
+        "ENCIRCLING PACK",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "WAR DOG",
+        "ABHORRENT"
+      ],
+      "faction_keywords": [
+        "CHAOS KNIGHTS"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 War Dog Moirax This model is equipped with: graviton pulsar; volkite veuglaire; armoured feet."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Gellerpox Infected": {
+      "name": "Gellerpox Infected",
+      "url_slug": "Gellerpox-Infected",
+      "stats": {
+        "M": "5",
+        "T": "5",
+        "Sv": "6+",
+        "W": "4",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Belly-flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Brutal weapons",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Hideous mutations",
+            "range": "Melee",
+            "A": "4",
+            "skill": "4+",
+            "S": "6",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Feel No Pain 5+"
+        ],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "Fearsome (Aura)",
+            "description": "While an enemy unit is within 6\" of this unit, each time that enemy unit takes a Battle-shock or Leadership test , subtract 1 from the result."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 7,
+          "points": 125
+        }
+      ],
+      "unit_sizes": [
+        7
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "4 Nightmare Hulks 3 Gellerpox Mutants Every Gellerpox Mutant is equipped with: brutal weapons. One Nightmare Hulk is equipped with: belly-flamer; hideous mutations. Every other Nightmare Hulk is equipped with: hideous mutations."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Mutoid Vermin": {
+      "name": "Mutoid Vermin",
+      "url_slug": "Mutoid-Vermin",
+      "stats": {
+        "M": "8",
+        "T": "2",
+        "Sv": "7+",
+        "W": "1",
+        "Ld": "8+",
+        "OC": "0"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Diseased claws and fangs",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "2",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "lethal hits"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Feel No Pain 6+"
+        ],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "Mischief Makers (Aura)",
+            "description": "While an enemy unit (excluding MONSTERS and VEHICLES ) is within 6\" of this unit, each time a model in that unit makes a melee attack, subtract 1 from the Hit roll ."
+          },
+          {
+            "name": "16 Mutoid Vermin Every model is equipped with",
+            "description": "diseased claws and fangs."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 16,
+          "points": 85
+        }
+      ],
+      "unit_sizes": [
+        16
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "16 Mutoid Vermin Every model is equipped with: diseased claws and fangs."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Negavolt Cultists": {
+      "name": "Negavolt Cultists",
+      "url_slug": "Negavolt-Cultists",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "7+",
+        "W": "1",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Electro-goads sustained hits 2",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "sustained hits 2"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Feel No Pain 5+"
+        ],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "Voltagheist Field",
+            "description": "Each time this unit ends a Charge move , select one enemy unit within Engagement Range of it and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound ."
+          },
+          {
+            "name": "This unit can be led by the following unit",
+            "description": "Rogue Psyker"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 4,
+          "points": 55
+        }
+      ],
+      "unit_sizes": [
+        4
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": "If a unit from your army with the Leader ability can be attached to a CULTIST MOB , it can be attached to this unit instead.",
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "4 Negavolt Cultists Every model is equipped with: electro-goads."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Renegade Heavy Weapons Squad": {
+      "name": "Renegade Heavy Weapons Squad",
+      "url_slug": "Renegade-Heavy-Weapons-Squad",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "5+",
+        "W": "2",
+        "Ld": "7+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Autocannon heavy",
+            "range": "48\"",
+            "A": "2",
+            "skill": "5+",
+            "S": "9",
+            "AP": "-1",
+            "D": "3",
+            "keywords": [
+              "heavy"
+            ]
+          },
+          {
+            "name": "Heavy bolter heavy sustained hits 1",
+            "range": "36\"",
+            "A": "3",
+            "skill": "5+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "heavy",
+              "heavy",
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Heavy stubber heavy rapid fire 3",
+            "range": "36\"",
+            "A": "4",
+            "skill": "5+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "heavy",
+              "rapid fire 3"
+            ]
+          },
+          {
+            "name": "Lascannon heavy",
+            "range": "48\"",
+            "A": "1",
+            "skill": "5+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": [
+              "heavy"
+            ]
+          },
+          {
+            "name": "Missile launcher \u2013 frag blast heavy",
+            "range": "48\"",
+            "A": "D6",
+            "skill": "5+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "blast"
+            ]
+          },
+          {
+            "name": "Missile launcher \u2013 krak heavy",
+            "range": "48\"",
+            "A": "1",
+            "skill": "5+",
+            "S": "9",
+            "AP": "-2",
+            "D": "D6",
+            "keywords": [
+              "heavy"
+            ]
+          },
+          {
+            "name": "Mortar blast heavy indirect fire",
+            "range": "48\"",
+            "A": "D6",
+            "skill": "5+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "blast",
+              "indirect fire"
+            ]
+          },
+          {
+            "name": "Renegade firearm rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapons",
+            "range": "Melee",
+            "A": "2",
+            "skill": "4+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "Covering Fire",
+            "description": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+."
+          },
+          {
+            "name": "This unit can be led by the following unit",
+            "description": "Renegade Enforcer"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 3,
+          "points": 75
+        }
+      ],
+      "unit_sizes": [
+        3
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "3 Renegade Heavy Weapons Teams Every model is equipped with: renegade firearm; heavy stubber; close combat weapons."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Renegade Ogryn Beast Handler": {
+      "name": "Renegade Ogryn Beast Handler",
+      "url_slug": "Renegade-Ogryn-Beast-Handler",
+      "stats": {
+        "M": "6",
+        "T": "6",
+        "Sv": "5+",
+        "W": "4",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Befouled claws and fangs",
+            "range": "Melee",
+            "A": "2",
+            "skill": "3+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Mauler goad and ripper claw",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "Beastmaster",
+            "description": "While this unit contains an Ogryn Pack Master model, you can re-roll Charge rolls made for this unit, and each time a Chaos Mauler Hound model in this unit makes an attack, re-roll a Hit roll of 1."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 4,
+          "points": 40
+        },
+        {
+          "models": 7,
+          "points": 70
+        }
+      ],
+      "unit_sizes": [
+        4,
+        7
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Ogryn Pack Master 3 Chaos Mauler Hounds The Ogryn Pack Master is equipped with: mauler goad and ripper claw. Every Chaos Mauler Hound is equipped with: befouled claws and fangs."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Renegade Ogryn Brutes": {
+      "name": "Renegade Ogryn Brutes",
+      "url_slug": "Renegade-Ogryn-Brutes",
+      "stats": {
+        "M": "6",
+        "T": "6",
+        "Sv": "5+",
+        "W": "3",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Ogryn power drill",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "10",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Ogryn weapon",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-1",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "Ogryn Combat Stimms",
+            "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model\u2019s unit has finished making its attacks, and is then removed from play."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 3,
+          "points": 95
+        }
+      ],
+      "unit_sizes": [
+        3
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "3 Renegade Ogryn Brutes Every model is equipped with: Ogryn weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Renegade Plague Ogryns": {
+      "name": "Renegade Plague Ogryns",
+      "url_slug": "Renegade-Plague-Ogryns",
+      "stats": {
+        "M": "5",
+        "T": "7",
+        "Sv": "5+",
+        "W": "3",
+        "Ld": "7+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Ogryn plague claws",
+            "range": "Melee",
+            "A": "3",
+            "skill": "3+",
+            "S": "6",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "lethal hits"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Feel No Pain 6+"
+        ],
+        "faction": [
+          "Dark Pacts"
+        ],
+        "unit": [
+          {
+            "name": "Wall of Muscle",
+            "description": "Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 3,
+          "points": 95
+        }
+      ],
+      "unit_sizes": [
+        3
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "faction_keywords": [
+        "HERETIC ASTARTES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "3 Renegade Plague Ogryns Every model is equipped with: Ogryn plague claws."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    }
+  }
+}

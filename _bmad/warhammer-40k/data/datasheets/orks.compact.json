@@ -1,9 +1,440 @@
 {
   "faction": "orks",
-  "last_updated": "2026-01-19T21:37:36.830060+00:00",
+  "last_updated": "2026-01-26T07:23:44.309379+00:00",
   "schema": "compact-v1",
-  "unit_count": 20,
+  "unit_count": 86,
   "units": {
+    "Beastboss": {
+      "name": "Beastboss",
+      "pts": 80,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "TRANSPORT",
+        "BATTLELINE",
+        "WARBOSS INFANTRY",
+        "INFANTRY WARBOSS",
+        "BEAST SNAGGA INFANTRY",
+        "BEAST SNAGGA MOUNTED",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "STALKIN\u2019 TAKTIKS",
+        "DAT ONE\u2019S EVEN BIGGA!",
+        "UNSTOPPABLE MOMENTUM",
+        "DRAG IT DOWN",
+        "INSTINCTIVE HUNTERS",
+        "PILE THROUGH",
+        "CORNERED AND KRUMPED",
+        "PIT FIGHTER",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[PRECISION]",
+        "[RAPID FIRE 1]"
+      ],
+      "leads": [
+        "Beast Snagga Boyz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Beast Snagga Boyz"
+      ],
+      "core": [
+        "Feel No Pain 6+",
+        "Leader"
+      ]
+    },
+    "Beastboss On Squigosaur": {
+      "name": "Beastboss On Squigosaur",
+      "pts": 110,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "TRANSPORT",
+        "BATTLELINE",
+        "BEAST SNAGGA INFANTRY",
+        "BEAST SNAGGA MOUNTED",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "STALKIN\u2019 TAKTIKS",
+        "DAT ONE\u2019S EVEN BIGGA!",
+        "UNSTOPPABLE MOMENTUM",
+        "DRAG IT DOWN",
+        "INSTINCTIVE HUNTERS",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "GROTS",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[PRECISION]",
+        "[RAPID FIRE 1]"
+      ],
+      "leads": [
+        "Boyz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Boyz"
+      ],
+      "core": [
+        "Feel No Pain 5+",
+        "Leader"
+      ]
+    },
+    "Big Mek": {
+      "name": "Big Mek",
+      "pts": 70,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[PRECISION]",
+        "[RAPID FIRE 1]",
+        "WARBOSS"
+      ],
+      "leads": [
+        "Tankbustas",
+        "Lootas",
+        "Nobz",
+        "Boyz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Tankbustas",
+        "Lootas",
+        "Nobz",
+        "Boyz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Big Mek In Mega Armour": {
+      "name": "Big Mek In Mega Armour",
+      "pts": 90,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "PILE THROUGH",
+        "CORNERED AND KRUMPED",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[PRECISION]",
+        "[RAPID FIRE 1]",
+        "WARBOSS"
+      ],
+      "leads": [
+        "Meganobz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Meganobz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Big Mek With Shokk Attack Gun": {
+      "name": "Big Mek With Shokk Attack Gun",
+      "pts": 80,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[PRECISION]",
+        "[RAPID FIRE 1]",
+        "WARBOSS"
+      ],
+      "leads": [
+        "Tankbustas",
+        "Lootas",
+        "Nobz",
+        "Boyz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Tankbustas",
+        "Lootas",
+        "Nobz",
+        "Boyz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Boss Snikrot": {
+      "name": "Boss Snikrot",
+      "pts": 75,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "SMOKESCREEN",
+        "MONSTER",
+        "VEHICLE",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[PRECISION]"
+      ],
+      "leads": [
+        "Kommandos"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Kommandos"
+      ],
+      "core": [
+        "Infiltrators",
+        "Leader",
+        "Lone Operative",
+        "Stealth"
+      ]
+    },
+    "Deffkilla Wartrike": {
+      "name": "Deffkilla Wartrike",
+      "pts": 80,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "TRANSPORT",
+        "BATTLELINE",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "GROTS",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[PRECISION]",
+        "[RAPID FIRE 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "leads": [
+        "Warbikers"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Warbikers"
+      ],
+      "core": [
+        "Deadly Demise 1",
+        "Leader"
+      ]
+    },
     "Ghazghkull Thraka": {
       "name": "Ghazghkull Thraka",
       "pts": 235,
@@ -12,6 +443,43 @@
       ],
       "epic_hero": true,
       "models": 2,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "TRANSPORT",
+        "[LETHAL HITS]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "PILE THROUGH",
+        "CORNERED AND KRUMPED",
+        "PIT FIGHTER",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "MOB",
+        "GROTS",
+        "WARBOSS",
+        "[PRECISION]"
+      ],
       "leads": [
         "Meganobz",
         "Nobz",
@@ -30,67 +498,52 @@
         "Leader"
       ]
     },
-    "Warboss": {
-      "name": "Warboss",
-      "pts": 75,
+    "Mek": {
+      "name": "Mek",
+      "pts": 45,
       "sizes": [
         1
       ],
       "epic_hero": false,
       "models": 1,
       "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "GRENADES"
-      ],
-      "leads": [
-        "Nobz",
-        "Boyz"
-      ],
-      "is_leader": true,
-      "led_by": [
-        "Nobz",
-        "Boyz"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Warboss in Mega Armour": {
-      "name": "Warboss in Mega Armour",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER"
-      ],
-      "leads": [
-        "Meganobz"
-      ],
-      "is_leader": true,
-      "led_by": [
-        "Meganobz"
-      ],
-      "core": [
-        "Leader"
-      ]
-    },
-    "Big Mek with Shokk Attack Gun": {
-      "name": "Big Mek with Shokk Attack Gun",
-      "pts": 80,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "GRENADES"
+        "ORKS VEHICLE",
+        "MONSTER",
+        "VEHICLE",
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[PRECISION]",
+        "[RAPID FIRE 1]",
+        "WARBOSS"
       ],
       "leads": [
         "Tankbustas",
@@ -109,26 +562,122 @@
         "Leader"
       ]
     },
-    "Big Mek in Mega Armour": {
-      "name": "Big Mek in Mega Armour",
-      "pts": 90,
+    "Mozrog Skragbad": {
+      "name": "Mozrog Skragbad",
+      "pts": 145,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "TRANSPORT",
+        "BEAST SNAGGA INFANTRY",
+        "BEAST SNAGGA MOUNTED",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "STALKIN\u2019 TAKTIKS",
+        "DAT ONE\u2019S EVEN BIGGA!",
+        "UNSTOPPABLE MOMENTUM",
+        "DRAG IT DOWN",
+        "INSTINCTIVE HUNTERS",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "GROTS",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[PRECISION]"
+      ],
+      "leads": [
+        "Boyz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Boyz"
+      ],
+      "core": [
+        "Feel No Pain 5+",
+        "Leader"
+      ]
+    },
+    "Painboss": {
+      "name": "Painboss",
+      "pts": 70,
       "sizes": [
         1
       ],
       "epic_hero": false,
       "models": 1,
       "keywords": [
-        "INFANTRY",
-        "CHARACTER"
+        "BEAST SNAGGA CHARACTER",
+        "MONSTER",
+        "VEHICLE",
+        "BEAST SNAGGA INFANTRY",
+        "BEAST SNAGGA MOUNTED",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "STALKIN\u2019 TAKTIKS",
+        "DAT ONE\u2019S EVEN BIGGA!",
+        "UNSTOPPABLE MOMENTUM",
+        "DRAG IT DOWN",
+        "INSTINCTIVE HUNTERS",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[PRECISION]",
+        "[RAPID FIRE 1]"
       ],
       "leads": [
-        "Meganobz"
+        "Beast Snagga Boyz"
       ],
       "is_leader": true,
       "led_by": [
-        "Meganobz"
+        "Beast Snagga Boyz"
       ],
       "core": [
+        "Feel No Pain 5+",
         "Leader"
       ]
     },
@@ -141,8 +690,38 @@
       "epic_hero": false,
       "models": 1,
       "keywords": [
-        "INFANTRY",
-        "CHARACTER"
+        "MONSTER",
+        "VEHICLE",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[PRECISION]",
+        "[RAPID FIRE 1]"
       ],
       "leads": [
         "Burna Boyz",
@@ -158,6 +737,131 @@
         "Lootas",
         "Nobz",
         "Boyz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Warboss": {
+      "name": "Warboss",
+      "pts": 75,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "TRANSPORT",
+        "BATTLELINE",
+        "WARBOSS INFANTRY",
+        "INFANTRY WARBOSS",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "PILE THROUGH",
+        "CORNERED AND KRUMPED",
+        "PIT FIGHTER",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[PRECISION]",
+        "[RAPID FIRE 1]"
+      ],
+      "leads": [
+        "Nobz",
+        "Boyz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Nobz",
+        "Boyz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Warboss In Mega Armour": {
+      "name": "Warboss In Mega Armour",
+      "pts": 80,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "TRANSPORT",
+        "BATTLELINE",
+        "WARBOSS INFANTRY",
+        "INFANTRY WARBOSS",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "PILE THROUGH",
+        "CORNERED AND KRUMPED",
+        "PIT FIGHTER",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[PRECISION]",
+        "[RAPID FIRE 1]"
+      ],
+      "leads": [
+        "Meganobz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Meganobz"
       ],
       "core": [
         "Leader"
@@ -172,9 +876,39 @@
       "epic_hero": false,
       "models": 1,
       "keywords": [
-        "INFANTRY",
-        "CHARACTER",
-        "PSYKER"
+        "MONSTER",
+        "VEHICLE",
+        "[HAZARDOUS]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[PRECISION]",
+        "[RAPID FIRE 1]"
       ],
       "leads": [
         "Boyz"
@@ -186,6 +920,786 @@
       "core": [
         "Deadly Demise D3",
         "Leader"
+      ]
+    },
+    "Wurrboy": {
+      "name": "Wurrboy",
+      "pts": 60,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "BEAST SNAGGA INFANTRY",
+        "BEAST SNAGGA MOUNTED",
+        "[HAZARDOUS]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "STALKIN\u2019 TAKTIKS",
+        "DAT ONE\u2019S EVEN BIGGA!",
+        "UNSTOPPABLE MOMENTUM",
+        "DRAG IT DOWN",
+        "INSTINCTIVE HUNTERS",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[PRECISION]",
+        "[RAPID FIRE 1]"
+      ],
+      "leads": [
+        "Beast Snagga Boyz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Beast Snagga Boyz"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Feel No Pain 6+",
+        "Leader"
+      ]
+    },
+    "Zodgrod Wortsnagga": {
+      "name": "Zodgrod Wortsnagga",
+      "pts": 90,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[PRECISION]"
+      ],
+      "leads": [
+        "Gretchin"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Gretchin"
+      ],
+      "core": [
+        "Feel No Pain 6+",
+        "Leader"
+      ]
+    },
+    "Da Red Gobbo\u2019s Tinboy": {
+      "name": "Da Red Gobbo\u2019s Tinboy",
+      "pts": 45,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "INSANE BRAVERY",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "COUNTER-OFFENSIVE",
+        "EPIC CHALLENGE",
+        "SUPERFUELLED BOILER",
+        "DAKKA! DAKKA! DAKKA!",
+        "EXTRA GUBBINZ",
+        "KLANKIN\u2019 KLAWS",
+        "GET STUCK IN, LADZ!",
+        "HUGE SHOW-OFFS",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[PRECISION]",
+        "WARBOSS",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Lone Operative",
+        "Scouts 6\"",
+        "Deadly Demise 1"
+      ]
+    },
+    "Big Mek On Warbike": {
+      "name": "Big Mek On Warbike",
+      "pts": 105,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS VEHICLE",
+        "MONSTER",
+        "VEHICLE",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[PRECISION]",
+        "[RAPID FIRE 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "leads": [
+        "Warbikers"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Warbikers"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Big Mek With Kustom Force Field": {
+      "name": "Big Mek With Kustom Force Field",
+      "pts": 55,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[PRECISION]",
+        "[RAPID FIRE 1]",
+        "WARBOSS"
+      ],
+      "leads": [
+        "Burna Boyz",
+        "Tankbustas",
+        "Lootas",
+        "Nobz",
+        "Boyz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Burna Boyz",
+        "Tankbustas",
+        "Lootas",
+        "Nobz",
+        "Boyz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Boss Zagstruk": {
+      "name": "Boss Zagstruk",
+      "pts": 90,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "FLY",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[PRECISION]"
+      ],
+      "leads": [
+        "Stormboyz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Stormboyz"
+      ],
+      "core": [
+        "Deep Strike",
+        "Feel No Pain 6+",
+        "Leader"
+      ]
+    },
+    "Da Red Gobbo": {
+      "name": "Da Red Gobbo",
+      "pts": 40,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "[HAZARDOUS]",
+        "[PRECISION]"
+      ],
+      "leads": [
+        "Gretchin"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Gretchin"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Kaptin Badrukk": {
+      "name": "Kaptin Badrukk",
+      "pts": 80,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[PRECISION]"
+      ],
+      "leads": [
+        "Flash Gitz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Flash Gitz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Mad Dok Grotsnik": {
+      "name": "Mad Dok Grotsnik",
+      "pts": 65,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[PRECISION]"
+      ],
+      "leads": [
+        "Burna Boyz",
+        "Tankbustas",
+        "Lootas",
+        "Nobz",
+        "Boyz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Burna Boyz",
+        "Tankbustas",
+        "Lootas",
+        "Nobz",
+        "Boyz"
+      ],
+      "core": [
+        "Feel No Pain 5+",
+        "Leader"
+      ]
+    },
+    "Nob With Waaagh! Banner": {
+      "name": "Nob With Waaagh! Banner",
+      "pts": 70,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[PRECISION]",
+        "[RAPID FIRE 1]"
+      ],
+      "leads": [
+        "Nobz",
+        "Boyz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Nobz",
+        "Boyz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Painboy On Warbike": {
+      "name": "Painboy On Warbike",
+      "pts": 85,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[PRECISION]",
+        "[RAPID FIRE 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "leads": [
+        "Warbikers"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Warbikers"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Ufthak Blackhawk": {
+      "name": "Ufthak Blackhawk",
+      "pts": 70,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "TRANSPORT",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "PILE THROUGH",
+        "CORNERED AND KRUMPED",
+        "PIT FIGHTER",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[PRECISION]"
+      ],
+      "leads": [
+        "Nobz",
+        "Boyz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Nobz",
+        "Boyz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Warboss On Warbike": {
+      "name": "Warboss On Warbike",
+      "pts": 75,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "TRANSPORT",
+        "BATTLELINE",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "GROTS",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[PRECISION]",
+        "[RAPID FIRE 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "leads": [
+        "Nobz"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Nobz"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Beast Snagga Boyz": {
+      "name": "Beast Snagga Boyz",
+      "pts": null,
+      "sizes": [
+        10,
+        20
+      ],
+      "epic_hero": false,
+      "pts_per_model": 9,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "BEAST SNAGGA INFANTRY",
+        "BEAST SNAGGA MOUNTED",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "STALKIN\u2019 TAKTIKS",
+        "DAT ONE\u2019S EVEN BIGGA!",
+        "UNSTOPPABLE MOMENTUM",
+        "DRAG IT DOWN",
+        "INSTINCTIVE HUNTERS",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Feel No Pain 6+"
       ]
     },
     "Boyz": {
@@ -201,9 +1715,592 @@
         "20": 170
       },
       "keywords": [
-        "INFANTRY",
+        "MONSTER",
+        "VEHICLE",
+        "CHARACTER",
+        "WARBOSS",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "BRAGGIN\u2019 RIGHTS",
+        "COME ON LADZ!",
+        "GO GET \u2019EM!",
+        "TIDE OF MUSCLE",
+        "BULLDOZER BRUTALITY",
+        "COMPETITIVE STREAK",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "RAMBOYZ RAMPAGE",
+        "ENRAGED RUSH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]"
+      ]
+    },
+    "Trukk": {
+      "name": "Trukk",
+      "pts": 70,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS INFANTRY",
+        "JUMP PACK",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "SQUIG FLINGIN\u2019",
+        "SPEEDIEST FREEKS",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Firing Deck 12"
+      ]
+    },
+    "Big\u2019ed Bossbunka": {
+      "name": "Big\u2019ed Bossbunka",
+      "pts": 135,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS INFANTRY",
+        "JUMP PACK",
+        "FORTIFICATIONS",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Firing Deck 11"
+      ]
+    },
+    "Mekboy Workshop": {
+      "name": "Mekboy Workshop",
+      "pts": 80,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS VEHICLE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Battlewagon": {
+      "name": "Battlewagon",
+      "pts": 160,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS INFANTRY",
+        "JUMP PACK",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Firing Deck 11"
+      ]
+    },
+    "Blitza-bommer": {
+      "name": "Blitza-bommer",
+      "pts": 115,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Boomdakka Snazzwagon": {
+      "name": "Boomdakka Snazzwagon",
+      "pts": 70,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "TANK SHOCK",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Breaka Boyz": {
+      "name": "Breaka Boyz",
+      "pts": 140,
+      "sizes": [
+        6
+      ],
+      "epic_hero": false,
+      "models": 6,
+      "keywords": [
+        "CHARACTER",
+        "MONSTER",
+        "VEHICLE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]"
+      ]
+    },
+    "Burna Boyz": {
+      "name": "Burna Boyz",
+      "pts": null,
+      "sizes": [],
+      "epic_hero": false,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS"
+      ]
+    },
+    "Burna-bommer": {
+      "name": "Burna-bommer",
+      "pts": 125,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Dakkajet": {
+      "name": "Dakkajet",
+      "pts": 135,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Deff Dread": {
+      "name": "Deff Dread",
+      "pts": 120,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "GROTS VEHICLE",
         "BATTLELINE",
-        "GRENADES"
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "SUPERFUELLED BOILER",
+        "DAKKA! DAKKA! DAKKA!",
+        "EXTRA GUBBINZ",
+        "KLANKIN\u2019 KLAWS",
+        "GET STUCK IN, LADZ!",
+        "HUGE SHOW-OFFS",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Deffkoptas": {
+      "name": "Deffkoptas",
+      "pts": null,
+      "sizes": [
+        3,
+        6
+      ],
+      "epic_hero": false,
+      "pts_per_model": 26,
+      "keywords": [
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "TANK SHOCK",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "core": [
+        "Deep Strike"
+      ]
+    },
+    "Flash Gitz": {
+      "name": "Flash Gitz",
+      "pts": null,
+      "sizes": [
+        5,
+        10
+      ],
+      "epic_hero": false,
+      "pts_per_model": 16,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "[LETHAL HITS]",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]"
+      ]
+    },
+    "Gorkanaut": {
+      "name": "Gorkanaut",
+      "pts": 265,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS INFANTRY",
+        "JUMP PACK",
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "SUPERFUELLED BOILER",
+        "DAKKA! DAKKA! DAKKA!",
+        "EXTRA GUBBINZ",
+        "KLANKIN\u2019 KLAWS",
+        "GET STUCK IN, LADZ!",
+        "HUGE SHOW-OFFS",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise D6"
       ]
     },
     "Gretchin": {
@@ -216,21 +2313,274 @@
       "epic_hero": false,
       "pts_per_model": 3,
       "keywords": [
-        "INFANTRY"
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "CONNIVING RUNTS",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "[HAZARDOUS]"
       ]
     },
-    "Nobz": {
-      "name": "Nobz",
+    "Hunta Rig": {
+      "name": "Hunta Rig",
+      "pts": 135,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "BEAST SNAGGA INFANTRY",
+        "BEAST SNAGGA MOUNTED",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "DAT ONE\u2019S EVEN BIGGA!",
+        "UNSTOPPABLE MOMENTUM",
+        "DRAG IT DOWN",
+        "INSTINCTIVE HUNTERS",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Feel No Pain 6+",
+        "Firing Deck 11"
+      ]
+    },
+    "Kill Rig": {
+      "name": "Kill Rig",
+      "pts": 155,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "BEAST SNAGGA INFANTRY",
+        "BEAST SNAGGA MOUNTED",
+        "[LETHAL HITS]",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "DAT ONE\u2019S EVEN BIGGA!",
+        "UNSTOPPABLE MOMENTUM",
+        "DRAG IT DOWN",
+        "INSTINCTIVE HUNTERS",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Feel No Pain 6+"
+      ]
+    },
+    "Killa Kans": {
+      "name": "Killa Kans",
       "pts": null,
       "sizes": [
-        5,
+        3,
+        6
+      ],
+      "epic_hero": false,
+      "pts_per_model": 41,
+      "keywords": [
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "SUPERFUELLED BOILER",
+        "DAKKA! DAKKA! DAKKA!",
+        "EXTRA GUBBINZ",
+        "KLANKIN\u2019 KLAWS",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Kommandos": {
+      "name": "Kommandos",
+      "pts": 120,
+      "sizes": [
         10
       ],
       "epic_hero": false,
-      "pts_per_model": 21,
+      "models": 10,
       "keywords": [
-        "INFANTRY",
-        "GRENADES"
+        "SMOKESCREEN",
+        "MONSTER",
+        "VEHICLE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "DED SNEAKY",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Infiltrators",
+        "Stealth"
+      ]
+    },
+    "Kustom Boosta-blasta": {
+      "name": "Kustom Boosta-blasta",
+      "pts": 70,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "TANK SHOCK",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Lootas": {
+      "name": "Lootas",
+      "pts": null,
+      "sizes": [],
+      "epic_hero": false,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS"
       ]
     },
     "Meganobz": {
@@ -250,106 +2600,83 @@
         "6": 190
       },
       "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ]
-    },
-    "Lootas": {
-      "name": "Lootas",
-      "pts": null,
-      "sizes": [],
-      "epic_hero": false,
-      "keywords": [
-        "INFANTRY"
-      ]
-    },
-    "Burna Boyz": {
-      "name": "Burna Boyz",
-      "pts": null,
-      "sizes": [],
-      "epic_hero": false,
-      "keywords": [
-        "INFANTRY"
-      ]
-    },
-    "Tankbustas": {
-      "name": "Tankbustas",
-      "pts": 140,
-      "sizes": [
-        6
-      ],
-      "epic_hero": false,
-      "models": 6,
-      "keywords": [
-        "INFANTRY",
-        "GRENADES"
-      ]
-    },
-    "Deff Dread": {
-      "name": "Deff Dread",
-      "pts": 120,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Killa Kans": {
-      "name": "Killa Kans",
-      "pts": null,
-      "sizes": [
-        3,
-        6
-      ],
-      "epic_hero": false,
-      "pts_per_model": 41,
-      "keywords": [
-        "VEHICLE",
-        "WALKER"
-      ],
-      "core": [
-        "Deadly Demise 1"
-      ]
-    },
-    "Gorkanaut": {
-      "name": "Gorkanaut",
-      "pts": 265,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
-        "VEHICLE",
-        "WALKER",
-        "TRANSPORT"
-      ],
-      "core": [
-        "Deadly Demise D6"
-      ]
-    },
-    "Morkanaut": {
-      "name": "Morkanaut",
-      "pts": 280,
-      "sizes": [
-        1
-      ],
-      "epic_hero": false,
-      "models": 1,
-      "keywords": [
+        "MONSTER",
         "VEHICLE",
         "TRANSPORT",
-        "WALKER"
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "CUT\u2019EM DOWN",
+        "ARMED TO DATEEF",
+        "TOO ARROGANT TO DIE",
+        "HULKING BRUTES",
+        "CRUSHING IMPACT",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "PILE THROUGH",
+        "CORNERED AND KRUMPED",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]",
+        "WARBOSS"
+      ]
+    },
+    "Megatrakk Scrapjet": {
+      "name": "Megatrakk Scrapjet",
+      "pts": 75,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "[SUSTAINED HITS 2]"
       ],
       "core": [
-        "Deadly Demise D6"
+        "Deadly Demise 1"
       ]
     },
     "Mek Gunz": {
@@ -363,24 +2690,1295 @@
       "epic_hero": false,
       "pts_per_model": 50,
       "keywords": [
-        "VEHICLE"
+        "ANTI-FLY 2+",
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "BLAST",
+        "HAZARDOUS",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "DAKKA! DAKKA! DAKKA!",
+        "EXTRA GUBBINZ",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]"
       ]
     },
-    "Battlewagon": {
-      "name": "Battlewagon",
-      "pts": 160,
+    "Morkanaut": {
+      "name": "Morkanaut",
+      "pts": 280,
       "sizes": [
         1
       ],
       "epic_hero": false,
       "models": 1,
       "keywords": [
+        "ORKS INFANTRY",
+        "JUMP PACK",
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "SUPERFUELLED BOILER",
+        "DAKKA! DAKKA! DAKKA!",
+        "EXTRA GUBBINZ",
+        "KLANKIN\u2019 KLAWS",
+        "GET STUCK IN, LADZ!",
+        "HUGE SHOW-OFFS",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Nobz": {
+      "name": "Nobz",
+      "pts": null,
+      "sizes": [
+        5,
+        10
+      ],
+      "epic_hero": false,
+      "pts_per_model": 21,
+      "keywords": [
+        "MONSTER",
         "VEHICLE",
-        "TRANSPORT"
+        "TRANSPORT",
+        "WARBOSS",
+        "[LETHAL HITS]",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "CUT\u2019EM DOWN",
+        "ARMED TO DATEEF",
+        "TOO ARROGANT TO DIE",
+        "HULKING BRUTES",
+        "CRUSHING IMPACT",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "PILE THROUGH",
+        "CORNERED AND KRUMPED",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]"
+      ]
+    },
+    "Rukkatrukk Squigbuggy": {
+      "name": "Rukkatrukk Squigbuggy",
+      "pts": 95,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Shokkjump Dragsta": {
+      "name": "Shokkjump Dragsta",
+      "pts": 70,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Squighog Boyz": {
+      "name": "Squighog Boyz",
+      "pts": null,
+      "sizes": [
+        4,
+        8
+      ],
+      "epic_hero": false,
+      "pts_per_model": 37,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "BEAST SNAGGA INFANTRY",
+        "BEAST SNAGGA MOUNTED",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "HEROIC INTERVENTION",
+        "STALKIN\u2019 TAKTIKS",
+        "DAT ONE\u2019S EVEN BIGGA!",
+        "UNSTOPPABLE MOMENTUM",
+        "DRAG IT DOWN",
+        "INSTINCTIVE HUNTERS",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "GROTS",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Feel No Pain 5+"
+      ]
+    },
+    "Stompa": {
+      "name": "Stompa",
+      "pts": 800,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS INFANTRY",
+        "JUMP PACK",
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "SUPERFUELLED BOILER",
+        "DAKKA! DAKKA! DAKKA!",
+        "EXTRA GUBBINZ",
+        "KLANKIN\u2019 KLAWS",
+        "GET STUCK IN, LADZ!",
+        "HUGE SHOW-OFFS",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise 2D6"
+      ]
+    },
+    "Stormboyz": {
+      "name": "Stormboyz",
+      "pts": null,
+      "sizes": [
+        5,
+        10
+      ],
+      "epic_hero": false,
+      "pts_per_model": 13,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "EAGER TO FIGHT",
+        "PILE THROUGH",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "KRUNCHIN\u2019 DESCENT",
+        "FIGHT PROPPA",
+        "DED SNEAKY",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Deep Strike"
+      ]
+    },
+    "Tankbustas": {
+      "name": "Tankbustas",
+      "pts": 140,
+      "sizes": [
+        6
+      ],
+      "epic_hero": false,
+      "models": 6,
+      "keywords": [
+        "CHARACTER",
+        "MONSTER",
+        "VEHICLE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "MOB RULE",
+        "ERE WE GO",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "MOB",
+        "GROTS",
+        "[HAZARDOUS]"
+      ]
+    },
+    "Warbikers": {
+      "name": "Warbikers",
+      "pts": null,
+      "sizes": [
+        3,
+        6
+      ],
+      "epic_hero": false,
+      "pts_per_model": 21,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "HEROIC INTERVENTION",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 2]"
+      ]
+    },
+    "Wazbom Blastajet": {
+      "name": "Wazbom Blastajet",
+      "pts": 175,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "TANK SHOCK",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Gargantuan Squiggoth": {
+      "name": "Gargantuan Squiggoth",
+      "pts": 440,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS INFANTRY",
+        "JUMP PACK",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Deadly Demise 2D6",
+        "Firing Deck 20"
+      ]
+    },
+    "Attack Fighta": {
+      "name": "Attack Fighta",
+      "pts": 100,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Big Gunz": {
+      "name": "Big Gunz",
+      "pts": null,
+      "sizes": [
+        1,
+        2
+      ],
+      "epic_hero": false,
+      "pts_per_model": 20,
+      "keywords": [
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "DAKKA! DAKKA! DAKKA!",
+        "EXTRA GUBBINZ",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]"
+      ]
+    },
+    "Big Trakk": {
+      "name": "Big Trakk",
+      "pts": 90,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS INFANTRY",
+        "JUMP PACK",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Firing Deck 12"
+      ]
+    },
+    "Chinork Warkopta": {
+      "name": "Chinork Warkopta",
+      "pts": 105,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS INFANTRY",
+        "JUMP PACK",
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Deep Strike",
+        "Firing Deck 12"
+      ]
+    },
+    "Deff Rolla Battle Fortress": {
+      "name": "Deff Rolla Battle Fortress",
+      "pts": 250,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS INFANTRY",
+        "JUMP PACK",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Deadly Demise D6+2",
+        "Firing Deck 22"
+      ]
+    },
+    "Deffkoptas With Big Shootas": {
+      "name": "Deffkoptas With Big Shootas",
+      "pts": 130,
+      "sizes": [
+        3
+      ],
+      "epic_hero": false,
+      "models": 3,
+      "keywords": [
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "TANK SHOCK",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Deep Strike"
+      ]
+    },
+    "Fighta-bommer": {
+      "name": "Fighta-bommer",
+      "pts": 100,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]",
+        "[SUSTAINED HITS 2]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Grot Bomm Launcha": {
+      "name": "Grot Bomm Launcha",
+      "pts": 50,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 2]"
+      ]
+    },
+    "Grot Mega-tank": {
+      "name": "Grot Mega-tank",
+      "pts": 110,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "DAKKA! DAKKA! DAKKA!",
+        "EXTRA GUBBINZ",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Grot Tanks": {
+      "name": "Grot Tanks",
+      "pts": null,
+      "sizes": [
+        4,
+        8
+      ],
+      "epic_hero": false,
+      "pts_per_model": 38,
+      "keywords": [
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "DAKKA! DAKKA! DAKKA!",
+        "EXTRA GUBBINZ",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]"
+      ],
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Kannonwagon": {
+      "name": "Kannonwagon",
+      "pts": 115,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS INFANTRY",
+        "JUMP PACK",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]"
       ],
       "core": [
         "Deadly Demise D6",
-        "Firing Deck 11"
+        "Firing Deck 6"
+      ]
+    },
+    "Kill Krusha": {
+      "name": "Kill Krusha",
+      "pts": 230,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS INFANTRY",
+        "JUMP PACK",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Deadly Demise D6+2",
+        "Firing Deck 12"
+      ]
+    },
+    "Kill Tank": {
+      "name": "Kill Tank",
+      "pts": 295,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS INFANTRY",
+        "JUMP PACK",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Deadly Demise D6+2"
+      ]
+    },
+    "Lifta Wagon": {
+      "name": "Lifta Wagon",
+      "pts": 135,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Mega Dread": {
+      "name": "Mega Dread",
+      "pts": 225,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "[TWIN-LINKED]",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "SUPERFUELLED BOILER",
+        "DAKKA! DAKKA! DAKKA!",
+        "EXTRA GUBBINZ",
+        "KLANKIN\u2019 KLAWS",
+        "GET STUCK IN, LADZ!",
+        "HUGE SHOW-OFFS",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Meka-dread": {
+      "name": "Meka-dread",
+      "pts": 210,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS VEHICLE",
+        "GROTS VEHICLE",
+        "BATTLELINE",
+        "[TWIN-LINKED]",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "SUPERFUELLED BOILER",
+        "DAKKA! DAKKA! DAKKA!",
+        "EXTRA GUBBINZ",
+        "KLANKIN\u2019 KLAWS",
+        "GET STUCK IN, LADZ!",
+        "HUGE SHOW-OFFS",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "CAREEN!",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]",
+        "WARBOSS",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Nobz On Warbikes": {
+      "name": "Nobz On Warbikes",
+      "pts": 125,
+      "sizes": [
+        3
+      ],
+      "epic_hero": false,
+      "models": 3,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "HEROIC INTERVENTION",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "GROTS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 2]"
+      ]
+    },
+    "Skorchas": {
+      "name": "Skorchas",
+      "pts": null,
+      "sizes": [
+        1,
+        2
+      ],
+      "epic_hero": false,
+      "pts_per_model": 45,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "GROTS",
+        "[SUSTAINED HITS 2]"
+      ]
+    },
+    "Squiggoth": {
+      "name": "Squiggoth",
+      "pts": 150,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ORKS INFANTRY",
+        "JUMP PACK",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[HAZARDOUS]"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Firing Deck 10"
+      ]
+    },
+    "Warbuggies": {
+      "name": "Warbuggies",
+      "pts": null,
+      "sizes": [
+        1,
+        2
+      ],
+      "epic_hero": false,
+      "pts_per_model": 40,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "GROTS",
+        "[SUSTAINED HITS 2]"
+      ]
+    },
+    "Wartrakks": {
+      "name": "Wartrakks",
+      "pts": null,
+      "sizes": [
+        1,
+        2
+      ],
+      "epic_hero": false,
+      "pts_per_model": 50,
+      "keywords": [
+        "MONSTER",
+        "VEHICLE",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "SQUIG FLINGIN\u2019",
+        "MORE GITZ OVER \u2019ERE!",
+        "SPEEDIEST FREEKS",
+        "BLITZA FIRE",
+        "DAKKASTORM",
+        "FULL THROTTLE!",
+        "GET STUCK IN, LADZ!",
+        "SPESHUL SHELLS",
+        "CALL DAT DAKKA?",
+        "DAT\u2019S OURS",
+        "TAKTIKAL RETREAT",
+        "ON TO DA NEXT",
+        "FIGHT PROPPA",
+        "\u2019ARD AS NAILS",
+        "UNBRIDLED CARNAGE",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "GROTS",
+        "[SUSTAINED HITS 2]"
       ]
     }
   }

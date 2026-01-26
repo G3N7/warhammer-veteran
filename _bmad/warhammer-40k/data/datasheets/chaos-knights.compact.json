@@ -1,0 +1,1456 @@
+{
+  "faction": "chaos-knights",
+  "last_updated": "2026-01-26T07:15:24.577846+00:00",
+  "schema": "compact-v1",
+  "unit_count": 37,
+  "units": {
+    "Knight Abominant": {
+      "name": "Knight Abominant",
+      "pts": 355,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "WAR DOG",
+        "ABHORRENT",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Knight Desecrator": {
+      "name": "Knight Desecrator",
+      "pts": 355,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "WAR DOG",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "ABHORRENT",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Knight Despoiler": {
+      "name": "Knight Despoiler",
+      "pts": 390,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "WAR DOG",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "ABHORRENT",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Knight Rampager": {
+      "name": "Knight Rampager",
+      "pts": 365,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "WAR DOG",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "ABHORRENT",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Knight Ruinator": {
+      "name": "Knight Ruinator",
+      "pts": 355,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "WAR DOG",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "ABHORRENT",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Knight Tyrant": {
+      "name": "Knight Tyrant",
+      "pts": 410,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "WAR DOG",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise D6+2"
+      ]
+    },
+    "Cultist Firebrand": {
+      "name": "Cultist Firebrand",
+      "pts": 45,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "IGNORES COVER",
+        "TORRENT",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "DAMNED"
+      ],
+      "leads": [
+        "Accursed Cultists Cultist Mob"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Accursed Cultists Cultist Mob"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Dark Commune": {
+      "name": "Dark Commune",
+      "pts": 90,
+      "sizes": [
+        5
+      ],
+      "epic_hero": false,
+      "models": 5,
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "DAMNED"
+      ],
+      "leads": [
+        "Accursed Cultists Cultist Mob"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Accursed Cultists Cultist Mob"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Traitor Enforcer": {
+      "name": "Traitor Enforcer",
+      "pts": 55,
+      "sizes": [
+        2
+      ],
+      "epic_hero": false,
+      "models": 2,
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "DAMNED"
+      ],
+      "leads": [
+        "Traitor Guardsmen Squad"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Traitor Guardsmen Squad"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Chaos Cerastus Knight Acheron": {
+      "name": "Chaos Cerastus Knight Acheron",
+      "pts": 385,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "WAR DOG",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise D6+2"
+      ]
+    },
+    "Chaos Cerastus Knight Atrapos": {
+      "name": "Chaos Cerastus Knight Atrapos",
+      "pts": 395,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "WAR DOG",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise D6+2"
+      ]
+    },
+    "Chaos Cerastus Knight Castigator": {
+      "name": "Chaos Cerastus Knight Castigator",
+      "pts": 385,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "WAR DOG",
+        "[SUSTAINED HITS 1]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "[PRECISION]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise D6+2"
+      ]
+    },
+    "Chaos Cerastus Knight Lancer": {
+      "name": "Chaos Cerastus Knight Lancer",
+      "pts": 385,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "WAR DOG",
+        "[ASSAULT]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]"
+      ],
+      "core": [
+        "Deadly Demise D6+2"
+      ]
+    },
+    "Chaos Questoris Knight Magaera": {
+      "name": "Chaos Questoris Knight Magaera",
+      "pts": 375,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "WAR DOG",
+        "[ASSAULT]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "ABHORRENT",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Chaos Questoris Knight Styrix": {
+      "name": "Chaos Questoris Knight Styrix",
+      "pts": 375,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "WAR DOG",
+        "[IGNORES COVER]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "CORRUPTING TAINT",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "SPITEFUL DEMISE",
+        "CRUSHED LIKE VERMIN",
+        "RUNES OF DISDAIN",
+        "TITANIC DUEL",
+        "TROPHY HUNTER",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "ABHORRENT",
+        "[PRECISION]",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Renegade Enforcer": {
+      "name": "Renegade Enforcer",
+      "pts": 65,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "DAMNED"
+      ],
+      "leads": [
+        "Traitor Guardsmen Squad Renegade Heavy Weapons Squad"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Traitor Guardsmen Squad Renegade Heavy Weapons Squad"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Rogue Psyker": {
+      "name": "Rogue Psyker",
+      "pts": 60,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "DAMNED"
+      ],
+      "leads": [
+        "Accursed Cultists Cultist Mob Negavolt Cultists"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Accursed Cultists Cultist Mob Negavolt Cultists"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Cultist Mob": {
+      "name": "Cultist Mob",
+      "pts": null,
+      "sizes": [
+        10,
+        20
+      ],
+      "epic_hero": false,
+      "pts_per_model": 5,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ]
+    },
+    "Cultist Mob with Firearms": {
+      "name": "Cultist Mob with Firearms",
+      "pts": null,
+      "sizes": [
+        10,
+        20
+      ],
+      "epic_hero": false,
+      "pts_per_model": 5,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ]
+    },
+    "War Dog Brigand": {
+      "name": "War Dog Brigand",
+      "pts": 140,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "[IGNORES COVER]",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "CUNNING HUNTER",
+        "HARRYING HOUNDS",
+        "ANIMALISTIC RAGE",
+        "HUNGRY FOR COMBAT",
+        "ENCIRCLING PACK",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "WAR DOG",
+        "ABHORRENT"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "War Dog Executioner": {
+      "name": "War Dog Executioner",
+      "pts": 130,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "CUNNING HUNTER",
+        "HARRYING HOUNDS",
+        "ANIMALISTIC RAGE",
+        "HUNGRY FOR COMBAT",
+        "ENCIRCLING PACK",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "WAR DOG",
+        "ABHORRENT"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "War Dog Huntsman": {
+      "name": "War Dog Huntsman",
+      "pts": 140,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "CUNNING HUNTER",
+        "HARRYING HOUNDS",
+        "ANIMALISTIC RAGE",
+        "HUNGRY FOR COMBAT",
+        "ENCIRCLING PACK",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "WAR DOG",
+        "ABHORRENT"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "War Dog Karnivore": {
+      "name": "War Dog Karnivore",
+      "pts": 150,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "CUNNING HUNTER",
+        "HARRYING HOUNDS",
+        "ANIMALISTIC RAGE",
+        "HUNGRY FOR COMBAT",
+        "ENCIRCLING PACK",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "WAR DOG",
+        "ABHORRENT"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "War Dog Stalker": {
+      "name": "War Dog Stalker",
+      "pts": 140,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "CUNNING HUNTER",
+        "HARRYING HOUNDS",
+        "ANIMALISTIC RAGE",
+        "HUNGRY FOR COMBAT",
+        "ENCIRCLING PACK",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "WAR DOG",
+        "ABHORRENT"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Scouts 6\""
+      ]
+    },
+    "Accursed Cultists": {
+      "name": "Accursed Cultists",
+      "pts": null,
+      "sizes": [
+        8,
+        16
+      ],
+      "epic_hero": false,
+      "pts_table": {
+        "8": 90,
+        "16": 195
+      },
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "core": [
+        "Feel No Pain 6+",
+        "Scouts 6\""
+      ]
+    },
+    "Fellgor Beastmen": {
+      "name": "Fellgor Beastmen",
+      "pts": 70,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ]
+    },
+    "Traitor Guardsmen Squad": {
+      "name": "Traitor Guardsmen Squad",
+      "pts": 70,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ]
+    },
+    "Chaos Acastus Knight Asterius": {
+      "name": "Chaos Acastus Knight Asterius",
+      "pts": 765,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "WAR DOG"
+      ],
+      "core": [
+        "Deadly Demise 2D6"
+      ]
+    },
+    "Chaos Acastus Knight Porphyrion": {
+      "name": "Chaos Acastus Knight Porphyrion",
+      "pts": 700,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "[LETHAL HITS]",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[IGNORES COVER]",
+        "WAR DOG"
+      ],
+      "core": [
+        "Deadly Demise 2D6"
+      ]
+    },
+    "War Dog Moirax": {
+      "name": "War Dog Moirax",
+      "pts": 150,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ANTI-VEHICLE 2+",
+        "BLAST",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "CUNNING HUNTER",
+        "HARRYING HOUNDS",
+        "ANIMALISTIC RAGE",
+        "HUNGRY FOR COMBAT",
+        "ENCIRCLING PACK",
+        "UNRESTRAINED RAGE",
+        "SOUL HUNGER",
+        "PROFANE SYMBIOSIS",
+        "UNLEASH BALEFIRE",
+        "WARP VISION",
+        "DIABOLIC BULWARK",
+        "HELLFORGED CONSTRUCTION",
+        "PTERRORSHADES",
+        "A LONG LEASH",
+        "IMPERIOUS ADVANCE",
+        "STORM OF DARKNESS",
+        "CONQUERORS WITHOUT MERCY",
+        "[HAZARDOUS]",
+        "TITANIC",
+        "[BLAST]",
+        "DAMNED",
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "WAR DOG",
+        "ABHORRENT"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Gellerpox Infected": {
+      "name": "Gellerpox Infected",
+      "pts": 125,
+      "sizes": [
+        7
+      ],
+      "epic_hero": false,
+      "models": 7,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "core": [
+        "Feel No Pain 5+"
+      ]
+    },
+    "Mutoid Vermin": {
+      "name": "Mutoid Vermin",
+      "pts": 85,
+      "sizes": [
+        16
+      ],
+      "epic_hero": false,
+      "models": 16,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "core": [
+        "Feel No Pain 6+"
+      ]
+    },
+    "Negavolt Cultists": {
+      "name": "Negavolt Cultists",
+      "pts": 55,
+      "sizes": [
+        4
+      ],
+      "epic_hero": false,
+      "models": 4,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "core": [
+        "Feel No Pain 5+"
+      ]
+    },
+    "Renegade Heavy Weapons Squad": {
+      "name": "Renegade Heavy Weapons Squad",
+      "pts": 75,
+      "sizes": [
+        3
+      ],
+      "epic_hero": false,
+      "models": 3,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ]
+    },
+    "Renegade Ogryn Beast Handler": {
+      "name": "Renegade Ogryn Beast Handler",
+      "pts": null,
+      "sizes": [
+        4,
+        7
+      ],
+      "epic_hero": false,
+      "pts_per_model": 10,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[BLAST]",
+        "DAMNED"
+      ]
+    },
+    "Renegade Ogryn Brutes": {
+      "name": "Renegade Ogryn Brutes",
+      "pts": 95,
+      "sizes": [
+        3
+      ],
+      "epic_hero": false,
+      "models": 3,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[BLAST]",
+        "DAMNED"
+      ]
+    },
+    "Renegade Plague Ogryns": {
+      "name": "Renegade Plague Ogryns",
+      "pts": 95,
+      "sizes": [
+        3
+      ],
+      "epic_hero": false,
+      "models": 3,
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "WRETCHED MASSES",
+        "WORTHLESS CHATTEL",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "DAMNED"
+      ],
+      "core": [
+        "Feel No Pain 6+"
+      ]
+    }
+  }
+}

@@ -33,14 +33,46 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, '..', 'data', 'datasheets')
 METADATA_FILE = os.path.join(DATA_DIR, 'metadata.json')
 
-# User's factions (from memories.md)
+# User's factions (from memories.md) - priority refresh
 USER_FACTIONS = [
     'space-wolves',
     'space-marines',  # Ultramarines use base SM
     'orks',
     'astra-militarum',
     'tyranids',
-    'tau-empire'
+    'tau-empire',
+    'thousand-sons',
+]
+
+# ALL available 40k factions
+ALL_FACTIONS = [
+    # Imperium
+    'adepta-sororitas',
+    'adeptus-custodes',
+    'adeptus-mechanicus',
+    'astra-militarum',
+    'grey-knights',
+    'imperial-agents',
+    'imperial-knights',
+    'space-marines',
+    'space-wolves',  # SM subfaction
+    # Chaos
+    'chaos-daemons',
+    'chaos-knights',
+    'chaos-space-marines',
+    'death-guard',
+    'emperors-children',
+    'thousand-sons',
+    'world-eaters',
+    # Xenos
+    'aeldari',
+    'drukhari',
+    'genestealer-cults',
+    'leagues-of-votann',
+    'necrons',
+    'orks',
+    'tau-empire',
+    'tyranids',
 ]
 
 # Wahapedia faction URL mappings
@@ -196,16 +228,72 @@ FACTION_URLS = {
             ('Battlewagon', 'Battlewagon'),
         ]
     },
+    'thousand-sons': {
+        'base_url': 'https://wahapedia.ru/wh40k10ed/factions/thousand-sons/',
+        'index_url': 'https://wahapedia.ru/wh40k10ed/factions/thousand-sons/',
+        'units': [
+            # Epic Heroes
+            ('Magnus-The-Red', 'Magnus the Red'),
+            ('Ahriman', 'Ahriman'),
+            # Characters
+            ('Exalted-Sorcerer', 'Exalted Sorcerer'),
+            ('Infernal-Master', 'Infernal Master'),
+            ('Thousand-Sons-Sorcerer', 'Thousand Sons Sorcerer'),
+            ('Thousand-Sons-Daemon-Prince', 'Thousand Sons Daemon Prince'),
+            # Battleline
+            ('Rubric-Marines', 'Rubric Marines'),
+            ('Tzaangors', 'Tzaangors'),
+            # Elite
+            ('Scarab-Occult-Terminators', 'Scarab Occult Terminators'),
+            ('Tzaangor-Enlightened', 'Tzaangor Enlightened'),
+            ('Tzaangor-Shaman', 'Tzaangor Shaman'),
+            # Heavy Support / Monsters
+            ('Mutalith-Vortex-Beast', 'Mutalith Vortex Beast'),
+            ('Forgefiend', 'Forgefiend'),
+            ('Maulerfiend', 'Maulerfiend'),
+            ('Helbrute', 'Helbrute'),
+            ('Defiler', 'Defiler'),
+            # Vehicles
+            ('Chaos-Rhino', 'Chaos Rhino'),
+            ('Chaos-Land-Raider', 'Chaos Land Raider'),
+            ('Chaos-Predator-Annihilator', 'Chaos Predator Annihilator'),
+            ('Chaos-Predator-Destructor', 'Chaos Predator Destructor'),
+            ('Chaos-Vindicator', 'Chaos Vindicator'),
+            # Spawn
+            ('Chaos-Spawn', 'Chaos Spawn'),
+        ]
+    },
 }
 
-# Base URLs for faction discovery (when units are not hardcoded)
+# Base URLs for faction discovery (supports ALL factions via --discover)
 FACTION_BASE_URLS = {
-    'space-wolves': 'https://wahapedia.ru/wh40k10ed/factions/space-marines/',
-    'space-marines': 'https://wahapedia.ru/wh40k10ed/factions/space-marines/',
-    'tau-empire': 'https://wahapedia.ru/wh40k10ed/factions/t-au-empire/',
+    # Imperium
+    'adepta-sororitas': 'https://wahapedia.ru/wh40k10ed/factions/adepta-sororitas/',
+    'adeptus-custodes': 'https://wahapedia.ru/wh40k10ed/factions/adeptus-custodes/',
+    'adeptus-mechanicus': 'https://wahapedia.ru/wh40k10ed/factions/adeptus-mechanicus/',
     'astra-militarum': 'https://wahapedia.ru/wh40k10ed/factions/astra-militarum/',
-    'tyranids': 'https://wahapedia.ru/wh40k10ed/factions/tyranids/',
+    'grey-knights': 'https://wahapedia.ru/wh40k10ed/factions/grey-knights/',
+    'imperial-agents': 'https://wahapedia.ru/wh40k10ed/factions/imperial-agents/',
+    'imperial-knights': 'https://wahapedia.ru/wh40k10ed/factions/imperial-knights/',
+    'space-marines': 'https://wahapedia.ru/wh40k10ed/factions/space-marines/',
+    'space-wolves': 'https://wahapedia.ru/wh40k10ed/factions/space-marines/',  # SM subfaction
+    # Chaos
+    'chaos-daemons': 'https://wahapedia.ru/wh40k10ed/factions/chaos-daemons/',
+    'chaos-knights': 'https://wahapedia.ru/wh40k10ed/factions/chaos-knights/',
+    'chaos-space-marines': 'https://wahapedia.ru/wh40k10ed/factions/chaos-space-marines/',
+    'death-guard': 'https://wahapedia.ru/wh40k10ed/factions/death-guard/',
+    'emperors-children': 'https://wahapedia.ru/wh40k10ed/factions/emperor-s-children/',
+    'thousand-sons': 'https://wahapedia.ru/wh40k10ed/factions/thousand-sons/',
+    'world-eaters': 'https://wahapedia.ru/wh40k10ed/factions/world-eaters/',
+    # Xenos
+    'aeldari': 'https://wahapedia.ru/wh40k10ed/factions/aeldari/',
+    'drukhari': 'https://wahapedia.ru/wh40k10ed/factions/drukhari/',
+    'genestealer-cults': 'https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/',
+    'leagues-of-votann': 'https://wahapedia.ru/wh40k10ed/factions/leagues-of-votann/',
+    'necrons': 'https://wahapedia.ru/wh40k10ed/factions/necrons/',
     'orks': 'https://wahapedia.ru/wh40k10ed/factions/orks/',
+    'tau-empire': 'https://wahapedia.ru/wh40k10ed/factions/t-au-empire/',
+    'tyranids': 'https://wahapedia.ru/wh40k10ed/factions/tyranids/',
 }
 
 
@@ -1270,10 +1358,17 @@ def generate_compact_faction(full_faction_data: Dict[str, Any]) -> Dict[str, Any
 
 def refresh_faction(faction: str, verbose: bool = True) -> Dict[str, Any]:
     """Refresh full datasheet cache for a faction."""
+    # If faction has hardcoded units, use those; otherwise auto-discover
     if faction not in FACTION_URLS:
-        print(f"ERROR: Unknown faction '{faction}'")
-        print(f"Available: {list(FACTION_URLS.keys())}")
-        return None
+        if faction in FACTION_BASE_URLS:
+            # No hardcoded units - use auto-discover
+            if verbose:
+                print(f"No hardcoded units for '{faction}', using auto-discover...")
+            return refresh_faction_autodiscover(faction, verbose)
+        else:
+            print(f"ERROR: Unknown faction '{faction}'")
+            print(f"Available factions: {list(FACTION_BASE_URLS.keys())}")
+            return None
 
     config = FACTION_URLS[faction]
     base_url = config['base_url']
@@ -1682,6 +1777,27 @@ def main():
         faction = sys.argv[2]
         unit_name = sys.argv[3]
         show_unit(faction, unit_name)
+
+    elif cmd == '--list-factions':
+        print("\n=== AVAILABLE FACTIONS ===\n")
+        print("IMPERIUM:")
+        for f in ['adepta-sororitas', 'adeptus-custodes', 'adeptus-mechanicus',
+                  'astra-militarum', 'grey-knights', 'imperial-agents',
+                  'imperial-knights', 'space-marines', 'space-wolves']:
+            cached = '✓' if os.path.exists(os.path.join(DATA_DIR, f'{f}.json')) else ' '
+            print(f"  [{cached}] {f}")
+        print("\nCHAOS:")
+        for f in ['chaos-daemons', 'chaos-knights', 'chaos-space-marines',
+                  'death-guard', 'emperors-children', 'thousand-sons', 'world-eaters']:
+            cached = '✓' if os.path.exists(os.path.join(DATA_DIR, f'{f}.json')) else ' '
+            print(f"  [{cached}] {f}")
+        print("\nXENOS:")
+        for f in ['aeldari', 'drukhari', 'genestealer-cults', 'leagues-of-votann',
+                  'necrons', 'orks', 'tau-empire', 'tyranids']:
+            cached = '✓' if os.path.exists(os.path.join(DATA_DIR, f'{f}.json')) else ' '
+            print(f"  [{cached}] {f}")
+        print("\nUse --discover {faction} to build cache for any faction.")
+        print()
 
     else:
         print(__doc__)

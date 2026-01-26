@@ -1,0 +1,2476 @@
+{
+  "faction": "thousand-sons",
+  "last_updated": "2026-01-26T07:18:21.982637+00:00",
+  "schema": "compact-v1",
+  "unit_count": 60,
+  "units": {
+    "Ahriman": {
+      "name": "Ahriman",
+      "pts": 100,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "MONSTERS",
+        "FLY",
+        "THOUSAND SONS",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "CHRONOSORCEROUS BLEED",
+        "DECEPTIVE GLAMOUR",
+        "TZEENTCH\u2019S BOON",
+        "COSTLY BLESSING",
+        "EMPYRIC DESECRATION",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "PSYCHIC INGRESS",
+        "FELL SACRIFICE",
+        "INVISIBLE ASSAILANTS",
+        "PHANTASMIC MUNITIONS",
+        "STRATEGIC VISION",
+        "ENDURING ANIMUS",
+        "DESTINED BY FATE",
+        "PSYCHIC DOMINION",
+        "DESECRATION OF WORLDS",
+        "EGOTISTICAL POWER",
+        "ARCANE FOCUS",
+        "DEVASTATING SORCERY",
+        "WARDING HEX",
+        "STRANDS OF TIME",
+        "SCOURING WARPFLAME",
+        "KALEIDOSCOPIC TEMPEST",
+        "INFERNAL FUSILLADE",
+        "MUTATE LANDSCAPE",
+        "CYBERSPIRIT MACHINATIONS",
+        "GIFT OF CHANGE",
+        "BLESSED TRANSMUTATIONS",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PRECISION]",
+        "[IGNORES COVER]",
+        "[PSYCHIC]",
+        "[PISTOL]"
+      ],
+      "leads": [
+        "Rubric Marines Tzaangor Enlightened Tzaangor Enlightened with Fatecaster Greatbows"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Rubric Marines Tzaangor Enlightened Tzaangor Enlightened with Fatecaster Greatbows"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Daemon Prince of Tzeentch": {
+      "name": "Daemon Prince of Tzeentch",
+      "pts": 180,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS INFANTRY",
+        "THOUSAND SONS PSYKER",
+        "SCINTILLATING LEGIONS PSYKER",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "CHRONOSORCEROUS BLEED",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "DESTINED BY FATE",
+        "PSYCHIC DOMINION",
+        "DESECRATION OF WORLDS",
+        "EGOTISTICAL POWER",
+        "ARCANE FOCUS",
+        "DEVASTATING SORCERY",
+        "WARDING HEX",
+        "STRANDS OF TIME",
+        "SCOURING WARPFLAME",
+        "KALEIDOSCOPIC TEMPEST",
+        "INFERNAL FUSILLADE",
+        "MUTATE LANDSCAPE",
+        "CYBERSPIRIT MACHINATIONS",
+        "BLESSED TRANSMUTATIONS",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PRECISION]",
+        "[IGNORES COVER]",
+        "[PSYCHIC]",
+        "RUBRICAE"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Daemon Prince of Tzeentch with Wings": {
+      "name": "Daemon Prince of Tzeentch with Wings",
+      "pts": 170,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "FLY",
+        "[SUSTAINED HITS D3]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "CHRONOSORCEROUS BLEED",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "PSYCHIC INGRESS",
+        "FELL SACRIFICE",
+        "DESTINED BY FATE",
+        "PSYCHIC DOMINION",
+        "DESECRATION OF WORLDS",
+        "EGOTISTICAL POWER",
+        "ARCANE FOCUS",
+        "DEVASTATING SORCERY",
+        "WARDING HEX",
+        "STRANDS OF TIME",
+        "SCOURING WARPFLAME",
+        "KALEIDOSCOPIC TEMPEST",
+        "INFERNAL FUSILLADE",
+        "MUTATE LANDSCAPE",
+        "CYBERSPIRIT MACHINATIONS",
+        "BLESSED TRANSMUTATIONS",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PRECISION]",
+        "[IGNORES COVER]",
+        "[PSYCHIC]",
+        "RUBRICAE"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Deep Strike"
+      ]
+    },
+    "Exalted Sorcerer": {
+      "name": "Exalted Sorcerer",
+      "pts": 80,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "MONSTERS",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "CHRONOSORCEROUS BLEED",
+        "DECEPTIVE GLAMOUR",
+        "TZEENTCH\u2019S BOON",
+        "COSTLY BLESSING",
+        "EMPYRIC DESECRATION",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "PSYCHIC INGRESS",
+        "FELL SACRIFICE",
+        "INVISIBLE ASSAILANTS",
+        "PHANTASMIC MUNITIONS",
+        "STRATEGIC VISION",
+        "ENDURING ANIMUS",
+        "DESTINED BY FATE",
+        "PSYCHIC DOMINION",
+        "DESECRATION OF WORLDS",
+        "EGOTISTICAL POWER",
+        "ARCANE FOCUS",
+        "DEVASTATING SORCERY",
+        "WARDING HEX",
+        "STRANDS OF TIME",
+        "SCOURING WARPFLAME",
+        "KALEIDOSCOPIC TEMPEST",
+        "INFERNAL FUSILLADE",
+        "MUTATE LANDSCAPE",
+        "CYBERSPIRIT MACHINATIONS",
+        "GIFT OF CHANGE",
+        "BLESSED TRANSMUTATIONS",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PRECISION]",
+        "[IGNORES COVER]",
+        "[PSYCHIC]",
+        "RUBRICAE",
+        "[PISTOL]"
+      ],
+      "leads": [
+        "Rubric Marines"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Rubric Marines"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Exalted Sorcerer on Disc of Tzeentch": {
+      "name": "Exalted Sorcerer on Disc of Tzeentch",
+      "pts": 100,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "MONSTERS",
+        "FLY",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "CHRONOSORCEROUS BLEED",
+        "DECEPTIVE GLAMOUR",
+        "TZEENTCH\u2019S BOON",
+        "COSTLY BLESSING",
+        "EMPYRIC DESECRATION",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "PSYCHIC INGRESS",
+        "FELL SACRIFICE",
+        "DESTINED BY FATE",
+        "PSYCHIC DOMINION",
+        "DESECRATION OF WORLDS",
+        "EGOTISTICAL POWER",
+        "ARCANE FOCUS",
+        "DEVASTATING SORCERY",
+        "WARDING HEX",
+        "STRANDS OF TIME",
+        "SCOURING WARPFLAME",
+        "KALEIDOSCOPIC TEMPEST",
+        "INFERNAL FUSILLADE",
+        "MUTATE LANDSCAPE",
+        "CYBERSPIRIT MACHINATIONS",
+        "GIFT OF CHANGE",
+        "BLESSED TRANSMUTATIONS",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PRECISION]",
+        "[IGNORES COVER]",
+        "[PSYCHIC]",
+        "RUBRICAE"
+      ],
+      "leads": [
+        "Rubric Marines Tzaangor Enlightened Tzaangor Enlightened with Fatecaster Greatbows"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Rubric Marines Tzaangor Enlightened Tzaangor Enlightened with Fatecaster Greatbows"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Infernal Master": {
+      "name": "Infernal Master",
+      "pts": 95,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "MONSTERS",
+        "[SUSTAINED HITS 1]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "CHRONOSORCEROUS BLEED",
+        "DECEPTIVE GLAMOUR",
+        "TZEENTCH\u2019S BOON",
+        "COSTLY BLESSING",
+        "EMPYRIC DESECRATION",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "PSYCHIC INGRESS",
+        "FELL SACRIFICE",
+        "INVISIBLE ASSAILANTS",
+        "PHANTASMIC MUNITIONS",
+        "STRATEGIC VISION",
+        "ENDURING ANIMUS",
+        "DESTINED BY FATE",
+        "PSYCHIC DOMINION",
+        "DESECRATION OF WORLDS",
+        "EGOTISTICAL POWER",
+        "ARCANE FOCUS",
+        "DEVASTATING SORCERY",
+        "WARDING HEX",
+        "STRANDS OF TIME",
+        "SCOURING WARPFLAME",
+        "KALEIDOSCOPIC TEMPEST",
+        "INFERNAL FUSILLADE",
+        "MUTATE LANDSCAPE",
+        "CYBERSPIRIT MACHINATIONS",
+        "GIFT OF CHANGE",
+        "BLESSED TRANSMUTATIONS",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PRECISION]",
+        "[IGNORES COVER]",
+        "[PSYCHIC]",
+        "RUBRICAE",
+        "[PISTOL]"
+      ],
+      "leads": [
+        "Rubric Marines"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Rubric Marines"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Kairos Fateweaver": {
+      "name": "Kairos Fateweaver",
+      "pts": 285,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "FLY",
+        "MONSTERS",
+        "SCINTILLATING LEGIONS MONSTER",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "ETHEREAL PHANTASM",
+        "SULPHUROUS VEIL",
+        "CHRONOSORCEROUS BLEED",
+        "GLIMMERSHIFT PORTAL",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PRECISION]"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Deep Strike"
+      ]
+    },
+    "Lord of Change": {
+      "name": "Lord of Change",
+      "pts": 270,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "FLY",
+        "MONSTERS",
+        "SCINTILLATING LEGIONS MONSTER",
+        "SCINTILLATING LEGIONS",
+        "[IGNORES COVER]",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS D3]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "ETHEREAL PHANTASM",
+        "SULPHUROUS VEIL",
+        "CHRONOSORCEROUS BLEED",
+        "GLIMMERSHIFT PORTAL",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Deep Strike"
+      ]
+    },
+    "Magnus The Red": {
+      "name": "Magnus The Red",
+      "pts": 435,
+      "sizes": [
+        1
+      ],
+      "epic_hero": true,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "FLY",
+        "[HAZARDOUS]",
+        "THOUSAND SONS",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "CHRONOSORCEROUS BLEED",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "PSYCHIC INGRESS",
+        "FELL SACRIFICE",
+        "DESTINED BY FATE",
+        "PSYCHIC DOMINION",
+        "DESECRATION OF WORLDS",
+        "EGOTISTICAL POWER",
+        "ARCANE FOCUS",
+        "DEVASTATING SORCERY",
+        "WARDING HEX",
+        "STRANDS OF TIME",
+        "SCOURING WARPFLAME",
+        "KALEIDOSCOPIC TEMPEST",
+        "INFERNAL FUSILLADE",
+        "MUTATE LANDSCAPE",
+        "CYBERSPIRIT MACHINATIONS",
+        "BLESSED TRANSMUTATIONS",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PRECISION]",
+        "[IGNORES COVER]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Deep Strike"
+      ]
+    },
+    "Sorcerer": {
+      "name": "Sorcerer",
+      "pts": 80,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "MONSTERS",
+        "[LETHAL HITS]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "CHRONOSORCEROUS BLEED",
+        "DECEPTIVE GLAMOUR",
+        "TZEENTCH\u2019S BOON",
+        "COSTLY BLESSING",
+        "EMPYRIC DESECRATION",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "PSYCHIC INGRESS",
+        "FELL SACRIFICE",
+        "DESTINED BY FATE",
+        "PSYCHIC DOMINION",
+        "DESECRATION OF WORLDS",
+        "EGOTISTICAL POWER",
+        "ARCANE FOCUS",
+        "DEVASTATING SORCERY",
+        "WARDING HEX",
+        "STRANDS OF TIME",
+        "SCOURING WARPFLAME",
+        "KALEIDOSCOPIC TEMPEST",
+        "INFERNAL FUSILLADE",
+        "MUTATE LANDSCAPE",
+        "CYBERSPIRIT MACHINATIONS",
+        "GIFT OF CHANGE",
+        "BLESSED TRANSMUTATIONS",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PRECISION]",
+        "[IGNORES COVER]",
+        "[PSYCHIC]",
+        "RUBRICAE"
+      ],
+      "leads": [
+        "Rubric Marines"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Rubric Marines"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Sorcerer In Terminator Armour": {
+      "name": "Sorcerer In Terminator Armour",
+      "pts": 85,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "MONSTERS",
+        "[LETHAL HITS]",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "CHRONOSORCEROUS BLEED",
+        "DECEPTIVE GLAMOUR",
+        "TZEENTCH\u2019S BOON",
+        "COSTLY BLESSING",
+        "EMPYRIC DESECRATION",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "PSYCHIC INGRESS",
+        "FELL SACRIFICE",
+        "INVISIBLE ASSAILANTS",
+        "PHANTASMIC MUNITIONS",
+        "STRATEGIC VISION",
+        "ENDURING ANIMUS",
+        "DESTINED BY FATE",
+        "PSYCHIC DOMINION",
+        "DESECRATION OF WORLDS",
+        "EGOTISTICAL POWER",
+        "ARCANE FOCUS",
+        "DEVASTATING SORCERY",
+        "WARDING HEX",
+        "STRANDS OF TIME",
+        "SCOURING WARPFLAME",
+        "KALEIDOSCOPIC TEMPEST",
+        "INFERNAL FUSILLADE",
+        "MUTATE LANDSCAPE",
+        "CYBERSPIRIT MACHINATIONS",
+        "GIFT OF CHANGE",
+        "BLESSED TRANSMUTATIONS",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PRECISION]",
+        "[IGNORES COVER]",
+        "[PSYCHIC]",
+        "RUBRICAE",
+        "[PISTOL]"
+      ],
+      "leads": [
+        "Scarab Occult Terminators"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Scarab Occult Terminators"
+      ],
+      "core": [
+        "Deep Strike",
+        "Leader"
+      ]
+    },
+    "Tzaangor Shaman": {
+      "name": "Tzaangor Shaman",
+      "pts": 60,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "MONSTERS",
+        "MONSTER",
+        "TZEENTCH MUTANT INFANTRY",
+        "TZEENTCH MUTANT MOUNTED",
+        "FLY",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "CHRONOSORCEROUS BLEED",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "PSYCHIC INGRESS",
+        "FELL SACRIFICE",
+        "DESTINED BY FATE",
+        "PSYCHIC DOMINION",
+        "DESECRATION OF WORLDS",
+        "EGOTISTICAL POWER",
+        "ARCANE FOCUS",
+        "DEVASTATING SORCERY",
+        "WARDING HEX",
+        "STRANDS OF TIME",
+        "SCOURING WARPFLAME",
+        "KALEIDOSCOPIC TEMPEST",
+        "INFERNAL FUSILLADE",
+        "MUTATE LANDSCAPE",
+        "CYBERSPIRIT MACHINATIONS",
+        "GIFT OF CHANGE",
+        "BLESSED TRANSMUTATIONS",
+        "TOUCHED BY TZEENTCH",
+        "TWISTED MIRAGE",
+        "DERANGED FEROCITY",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PRECISION]",
+        "[IGNORES COVER]",
+        "[PSYCHIC]",
+        "RUBRICAE",
+        "TZEENTCH MUTANT"
+      ],
+      "leads": [
+        "Tzaangor Enlightened Tzaangor Enlightened with Fatecaster Greatbows Tzaangors"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Tzaangor Enlightened Tzaangor Enlightened with Fatecaster Greatbows Tzaangors"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Chaos Lord On Disc Of Tzeentch": {
+      "name": "Chaos Lord On Disc Of Tzeentch",
+      "pts": 100,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "MONSTERS",
+        "FLY",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "FELL SACRIFICE",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "GIFT OF CHANGE",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PRECISION]",
+        "RUBRICAE"
+      ],
+      "leads": [
+        "Rubric Marines"
+      ],
+      "is_leader": true,
+      "led_by": [
+        "Rubric Marines"
+      ],
+      "core": [
+        "Leader"
+      ]
+    },
+    "Blue Horrors": {
+      "name": "Blue Horrors",
+      "pts": 90,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "MONSTERS",
+        "SCINTILLATING LEGIONS MONSTER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "ETHEREAL PHANTASM",
+        "SULPHUROUS VEIL",
+        "FRACTAL DISJUNCTION",
+        "CHRONOSORCEROUS BLEED",
+        "GLIMMERSHIFT PORTAL",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "[HAZARDOUS]",
+        "THOUSAND SONS THOUSAND SONS",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]"
+      ],
+      "core": [
+        "Deep Strike",
+        "Infiltrators"
+      ]
+    },
+    "Pink Horrors": {
+      "name": "Pink Horrors",
+      "pts": 115,
+      "sizes": [
+        10
+      ],
+      "epic_hero": false,
+      "models": 10,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "MONSTERS",
+        "SCINTILLATING LEGIONS MONSTER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "ETHEREAL PHANTASM",
+        "SULPHUROUS VEIL",
+        "FRACTAL DISJUNCTION",
+        "CHRONOSORCEROUS BLEED",
+        "GLIMMERSHIFT PORTAL",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "[HAZARDOUS]",
+        "THOUSAND SONS THOUSAND SONS",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]"
+      ],
+      "core": [
+        "Deep Strike"
+      ]
+    },
+    "Rubric Marines": {
+      "name": "Rubric Marines",
+      "pts": null,
+      "sizes": [
+        5,
+        10
+      ],
+      "epic_hero": false,
+      "pts_table": {
+        "5": 100,
+        "10": 190
+      },
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "[IGNORES COVER]",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "CHRONOSORCEROUS BLEED",
+        "DECEPTIVE GLAMOUR",
+        "INFERNO BOLTERS",
+        "TZEENTCH\u2019S BOON",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "DESTINED BY FATE",
+        "PSYCHIC DOMINION",
+        "DESECRATION OF WORLDS",
+        "EGOTISTICAL POWER",
+        "ARCANE FOCUS",
+        "DEVASTATING SORCERY",
+        "WARDING HEX",
+        "STRANDS OF TIME",
+        "SCOURING WARPFLAME",
+        "KALEIDOSCOPIC TEMPEST",
+        "ARDENT AUTOMATA",
+        "INEXORABLE ADVANCE",
+        "INFERNAL FUSILLADE",
+        "IMPLACABLE GUARDIANS",
+        "UNWAVERING PHALANX",
+        "MUTATE LANDSCAPE",
+        "CYBERSPIRIT MACHINATIONS",
+        "BLESSED TRANSMUTATIONS",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]",
+        "RUBRICAE",
+        "[ASSAULT]"
+      ]
+    },
+    "Chaos Rhino": {
+      "name": "Chaos Rhino",
+      "pts": 90,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS INFANTRY",
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Firing Deck 2"
+      ]
+    },
+    "Terrax-pattern Termite": {
+      "name": "Terrax-pattern Termite",
+      "pts": 200,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS INFANTRY",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Deep Strike"
+      ]
+    },
+    "Chaos Land Raider": {
+      "name": "Chaos Land Raider",
+      "pts": 220,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS INFANTRY",
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Chaos Predator Annihilator": {
+      "name": "Chaos Predator Annihilator",
+      "pts": 130,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS PSYKER",
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Chaos Predator Destructor": {
+      "name": "Chaos Predator Destructor",
+      "pts": 130,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS PSYKER",
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Chaos Spawn": {
+      "name": "Chaos Spawn",
+      "pts": 65,
+      "sizes": [
+        2
+      ],
+      "epic_hero": false,
+      "models": 2,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "MONSTER",
+        "TZEENTCH MUTANT INFANTRY",
+        "TZEENTCH MUTANT MOUNTED",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "ENDURING ANIMUS",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "TOUCHED BY TZEENTCH",
+        "TWISTED MIRAGE",
+        "DERANGED FEROCITY",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "TZEENTCH MUTANT"
+      ],
+      "core": [
+        "Feel No Pain 5+"
+      ]
+    },
+    "Chaos Vindicator": {
+      "name": "Chaos Vindicator",
+      "pts": 185,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Defiler": {
+      "name": "Defiler",
+      "pts": 165,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ANTI-INFANTRY 4+",
+        "MONSTER",
+        "THOUSAND SONS PSYKER",
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "RAPID FIRE 1",
+        "SUSTAINED HITS 1",
+        "TWIN-LINKED",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Feel No Pain 6+"
+      ]
+    },
+    "Flamers": {
+      "name": "Flamers",
+      "pts": null,
+      "sizes": [
+        3,
+        6
+      ],
+      "epic_hero": false,
+      "pts_per_model": 21,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "FLY",
+        "MONSTERS",
+        "SCINTILLATING LEGIONS MONSTER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "ETHEREAL PHANTASM",
+        "SULPHUROUS VEIL",
+        "FRACTAL DISJUNCTION",
+        "CHRONOSORCEROUS BLEED",
+        "GLIMMERSHIFT PORTAL",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]"
+      ],
+      "core": [
+        "Deep Strike"
+      ]
+    },
+    "Forgefiend": {
+      "name": "Forgefiend",
+      "pts": 130,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Helbrute": {
+      "name": "Helbrute",
+      "pts": 110,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS PSYKER",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Heldrake": {
+      "name": "Heldrake",
+      "pts": 215,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3",
+        "Hover"
+      ]
+    },
+    "Maulerfiend": {
+      "name": "Maulerfiend",
+      "pts": 120,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS PSYKER",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Mutalith Vortex Beast": {
+      "name": "Mutalith Vortex Beast",
+      "pts": 170,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS PSYKER",
+        "SCINTILLATING LEGIONS PSYKER",
+        "MONSTER",
+        "TZEENTCH MUTANT INFANTRY",
+        "TZEENTCH MUTANT MOUNTED",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "TOUCHED BY TZEENTCH",
+        "TWISTED MIRAGE",
+        "DERANGED FEROCITY",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "TZEENTCH MUTANT"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Feel No Pain 5+"
+      ]
+    },
+    "Scarab Occult Terminators": {
+      "name": "Scarab Occult Terminators",
+      "pts": null,
+      "sizes": [
+        5,
+        10
+      ],
+      "epic_hero": false,
+      "pts_per_model": 36,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "CHRONOSORCEROUS BLEED",
+        "DECEPTIVE GLAMOUR",
+        "INFERNO BOLTERS",
+        "TZEENTCH\u2019S BOON",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "INVISIBLE ASSAILANTS",
+        "PHANTASMIC MUNITIONS",
+        "STRATEGIC VISION",
+        "ENDURING ANIMUS",
+        "DESTINED BY FATE",
+        "PSYCHIC DOMINION",
+        "DESECRATION OF WORLDS",
+        "EGOTISTICAL POWER",
+        "ARCANE FOCUS",
+        "DEVASTATING SORCERY",
+        "WARDING HEX",
+        "STRANDS OF TIME",
+        "SCOURING WARPFLAME",
+        "KALEIDOSCOPIC TEMPEST",
+        "ARDENT AUTOMATA",
+        "INEXORABLE ADVANCE",
+        "INFERNAL FUSILLADE",
+        "MUTATE LANDSCAPE",
+        "CYBERSPIRIT MACHINATIONS",
+        "BLESSED TRANSMUTATIONS",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "[PSYCHIC]",
+        "[PISTOL]",
+        "RUBRICAE",
+        "[ASSAULT]"
+      ],
+      "core": [
+        "Deep Strike"
+      ]
+    },
+    "Screamers": {
+      "name": "Screamers",
+      "pts": null,
+      "sizes": [
+        3,
+        6
+      ],
+      "epic_hero": false,
+      "pts_per_model": 26,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "FLY",
+        "MONSTERS",
+        "SCINTILLATING LEGIONS MONSTER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "ETHEREAL PHANTASM",
+        "SULPHUROUS VEIL",
+        "FRACTAL DISJUNCTION",
+        "CHRONOSORCEROUS BLEED",
+        "GLIMMERSHIFT PORTAL",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]"
+      ],
+      "core": [
+        "Deep Strike"
+      ]
+    },
+    "Sekhetar Robots": {
+      "name": "Sekhetar Robots",
+      "pts": null,
+      "sizes": [
+        2,
+        4
+      ],
+      "epic_hero": false,
+      "pts_per_model": 40,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Infiltrators",
+        "Stealth"
+      ]
+    },
+    "Tzaangor Enlightened": {
+      "name": "Tzaangor Enlightened",
+      "pts": null,
+      "sizes": [
+        3,
+        6
+      ],
+      "epic_hero": false,
+      "pts_per_model": 15,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "MONSTER",
+        "TZEENTCH MUTANT INFANTRY",
+        "TZEENTCH MUTANT MOUNTED",
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "TOUCHED BY TZEENTCH",
+        "TWISTED MIRAGE",
+        "DERANGED FEROCITY",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "TZEENTCH MUTANT"
+      ]
+    },
+    "Tzaangor Enlightened with Fatecaster Greatbows": {
+      "name": "Tzaangor Enlightened with Fatecaster Greatbows",
+      "pts": null,
+      "sizes": [
+        3,
+        6
+      ],
+      "epic_hero": false,
+      "pts_per_model": 18,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "MONSTER",
+        "TZEENTCH MUTANT INFANTRY",
+        "TZEENTCH MUTANT MOUNTED",
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "TOUCHED BY TZEENTCH",
+        "TWISTED MIRAGE",
+        "DERANGED FEROCITY",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "TZEENTCH MUTANT"
+      ]
+    },
+    "Tzaangors": {
+      "name": "Tzaangors",
+      "pts": null,
+      "sizes": [
+        10,
+        20
+      ],
+      "epic_hero": false,
+      "pts_table": {
+        "10": 70,
+        "20": 160
+      },
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "MONSTER",
+        "TZEENTCH MUTANT INFANTRY",
+        "TZEENTCH MUTANT MOUNTED",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "FELL SACRIFICE",
+        "FLESH CHANGE",
+        "BESTIAL SURGE",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "BLESSED TRANSMUTATIONS",
+        "TOUCHED BY TZEENTCH",
+        "TWISTED MIRAGE",
+        "WARPED VICISSITUDE",
+        "DERANGED FEROCITY",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "TZEENTCH MUTANT"
+      ],
+      "core": [
+        "Scouts 6\""
+      ]
+    },
+    "Cerberus": {
+      "name": "Cerberus",
+      "pts": 270,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "[LETHAL HITS]",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Chaos Thunderhawk": {
+      "name": "Chaos Thunderhawk",
+      "pts": 840,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS INFANTRY",
+        "THOUSAND SONS MOUNTED",
+        "SCINTILLATING LEGIONS PSYKER",
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D6+2",
+        "Hover"
+      ]
+    },
+    "Deredeo Dreadnought": {
+      "name": "Deredeo Dreadnought",
+      "pts": 160,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Falchion": {
+      "name": "Falchion",
+      "pts": 420,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D6+2"
+      ]
+    },
+    "Fellblade": {
+      "name": "Fellblade",
+      "pts": 480,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D6+2"
+      ]
+    },
+    "Fire Raptor Gunship": {
+      "name": "Fire Raptor Gunship",
+      "pts": 290,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Hover"
+      ]
+    },
+    "Hell Blade": {
+      "name": "Hell Blade",
+      "pts": 115,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Hell Talon": {
+      "name": "Hell Talon",
+      "pts": 140,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Kratos": {
+      "name": "Kratos",
+      "pts": 240,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "ANTI-INFANTRY 4+",
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "RAPID FIRE 1",
+        "SUSTAINED HITS 1",
+        "IGNORES COVER",
+        "TORRENT",
+        "MELTA 2",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Land Raider Achilles": {
+      "name": "Land Raider Achilles",
+      "pts": 230,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS INFANTRY",
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Land Raider Proteus": {
+      "name": "Land Raider Proteus",
+      "pts": 220,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS INFANTRY",
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Leviathan Dreadnought": {
+      "name": "Leviathan Dreadnought",
+      "pts": 160,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Mastodon": {
+      "name": "Mastodon",
+      "pts": 540,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS INFANTRY",
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise 2D6"
+      ]
+    },
+    "Rapier Carrier": {
+      "name": "Rapier Carrier",
+      "pts": 90,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "[HEAVY]",
+        "[LETHAL HITS]",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ]
+    },
+    "Relic Contemptor Dreadnought": {
+      "name": "Relic Contemptor Dreadnought",
+      "pts": 140,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "BLAST",
+        "TWIN-LINKED",
+        "SUSTAINED HITS 1",
+        "IGNORES COVER",
+        "TORRENT",
+        "MELTA 2",
+        "HAZARDOUS",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise 1"
+      ]
+    },
+    "Sicaran Battle Tank": {
+      "name": "Sicaran Battle Tank",
+      "pts": 160,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Sicaran Punisher": {
+      "name": "Sicaran Punisher",
+      "pts": 160,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "[SUSTAINED HITS 1]",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Sicaran Venator": {
+      "name": "Sicaran Venator",
+      "pts": 180,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Sokar-pattern Stormbird": {
+      "name": "Sokar-pattern Stormbird",
+      "pts": 900,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS INFANTRY",
+        "THOUSAND SONS MOUNTED",
+        "SCINTILLATING LEGIONS PSYKER",
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise 2D6",
+        "Hover"
+      ]
+    },
+    "Spartan": {
+      "name": "Spartan",
+      "pts": 300,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS INFANTRY",
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Storm Eagle Gunship": {
+      "name": "Storm Eagle Gunship",
+      "pts": 250,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "THOUSAND SONS INFANTRY",
+        "SCINTILLATING LEGIONS PSYKER",
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D6",
+        "Hover"
+      ]
+    },
+    "Typhon": {
+      "name": "Typhon",
+      "pts": 320,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D6"
+      ]
+    },
+    "Whirlwind Scorpius": {
+      "name": "Whirlwind Scorpius",
+      "pts": 115,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SMOKESCREEN",
+        "SCINTILLATING LEGIONS PSYKER",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    },
+    "Xiphon Interceptor": {
+      "name": "Xiphon Interceptor",
+      "pts": 115,
+      "sizes": [
+        1
+      ],
+      "epic_hero": false,
+      "models": 1,
+      "keywords": [
+        "SCINTILLATING LEGIONS PSYKER",
+        "FLY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "SULPHUROUS VEIL",
+        "DECEPTIVE GLAMOUR",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "PSYCHIC DOMINION",
+        "ARCANE FOCUS",
+        "MALEVOLENT ANIMUS",
+        "CYBERSPIRIT MACHINATIONS",
+        "HEX-MARKED ARMOUR",
+        "ENSORCELLED INFUSION",
+        "WARPFLAME GARGOYLES",
+        "[HAZARDOUS]",
+        "SCINTILLATING LEGIONS",
+        "[BLAST]",
+        "[PSYCHIC]"
+      ],
+      "core": [
+        "Deadly Demise D3"
+      ]
+    }
+  }
+}

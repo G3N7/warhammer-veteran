@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "last_global_refresh": "2026-01-19T21:40:57.198855+00:00",
+  "last_global_refresh": "2026-01-26T07:29:09.316851+00:00",
   "cache_invalid": false,
   "stale_after_days": 30,
   "factions_cached": [
@@ -9,7 +9,23 @@
     "astra-militarum",
     "orks",
     "tyranids",
-    "space-marines"
+    "space-marines",
+    "thousand-sons",
+    "adeptus-custodes",
+    "adepta-sororitas",
+    "adeptus-mechanicus",
+    "grey-knights",
+    "imperial-knights",
+    "imperial-agents",
+    "chaos-knights",
+    "chaos-daemons",
+    "emperors-children",
+    "death-guard",
+    "drukhari",
+    "leagues-of-votann",
+    "world-eaters",
+    "aeldari",
+    "necrons"
   ],
   "invalidation_reason": null
 }

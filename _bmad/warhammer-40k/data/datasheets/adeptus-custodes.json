@@ -1,0 +1,4326 @@
+{
+  "faction": "adeptus-custodes",
+  "last_updated": "2026-01-26T07:10:24.562707+00:00",
+  "source": "wahapedia-autodiscover",
+  "schema_version": "2.0",
+  "unit_count": 31,
+  "units": {
+    "Aleya": {
+      "name": "Aleya",
+      "url_slug": "Aleya",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "3+",
+        "W": "4",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Somnus",
+            "range": "Melee",
+            "A": "4",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-3",
+            "D": "3",
+            "keywords": [
+              "anti-psyker 5+",
+              "devastating wounds"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Feel No Pain 5+",
+          "Leader",
+          "Scouts 6\""
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "Tactical Perception",
+            "description": "While this model is leading a unit, models in that unit have the Fights First ability. Tenacious Spirit: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength , and add 1 to the Wound roll as well if that unit is Below Half-strength . Daughter of the Abyss: This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 65
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "SLAYER OF CHAMPIONS",
+        "SUPERHUMAN RESERVES",
+        "THE EMPEROR\u2019S AUSPICE",
+        "EARNING OF A NAME",
+        "VIGIL UNENDING",
+        "CORNERED PREY",
+        "FOCUSED FEAR",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GILDED CHAMPION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "DESPERATION\u2019S PRICE",
+        "WITCH HUNTERS",
+        "PSYCHIC ABOMINATIONS",
+        "MULTIPOTENTIALITY",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA",
+        "ANATHEMA PSYKANA INFANTRY",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": "This model can be attached to the following units: Prosecutors Vigilators Witchseekers",
+      "led_by": [
+        "Prosecutors Vigilators Witchseekers"
+      ],
+      "can_lead": [
+        "Prosecutors Vigilators Witchseekers"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Aleya \u2013 EPIC HERO This model is equipped with: Somnus."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Blade Champion": {
+      "name": "Blade Champion",
+      "url_slug": "Blade-Champion",
+      "stats": {
+        "M": "6",
+        "T": "6",
+        "Sv": "2+",
+        "W": "6",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Vaultswords \u2013 Behemor",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "precision"
+            ]
+          },
+          {
+            "name": "Vaultswords \u2013 Hurricanus sustained hits 1",
+            "range": "Melee",
+            "A": "9",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Vaultswords \u2013 Victus",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-3",
+            "D": "3",
+            "keywords": [
+              "devastating wounds"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Swift Onslaught",
+            "description": "While this model is leading a unit, you can re-roll Charge rolls made for that unit Martial Inspiration: Once per battle, in your Charge phase , this model\u2019s unit is eligible to declare a charge in a turn which it Advanced ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 120
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "SLAYER OF CHAMPIONS",
+        "SUPERHUMAN RESERVES",
+        "THE EMPEROR\u2019S AUSPICE",
+        "EARNING OF A NAME",
+        "VIGIL UNENDING",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GILDED CHAMPION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "UNWAVERING SENTINELS",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "BREACHING BEHEMOTHS",
+        "INESCAPABLE VENGEANCE",
+        "ARTIFICER ROUNDS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA INFANTRY",
+        "SHIELD-CAPTAIN"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": "This model can be attached to the following units: Custodian Guard Custodian Wardens",
+      "led_by": [
+        "Custodian Guard Custodian Wardens"
+      ],
+      "can_lead": [
+        "Custodian Guard Custodian Wardens"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Blade Champion This model is equipped with: vaultswords."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Knight-centura": {
+      "name": "Knight-centura",
+      "url_slug": "Knight-centura",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "3+",
+        "W": "4",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Master-crafted boltgun rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "4",
+            "AP": "0",
+            "D": "2",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          },
+          {
+            "name": "Witchseeker flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "3",
+            "skill": "2+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Executioner greatblade",
+            "range": "Melee",
+            "A": "3",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "anti-psyker 5+",
+              "devastating wounds"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader",
+          "Scouts 6\""
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "Seeker\u2019s Instincts",
+            "description": "While this model is leading a unit, add 2\" to the Move characteristic of models in that unit and add 2 to Advance and Charge rolls made for that unit. Daughter of the Abyss: This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds . Corner the Quarry: Each time an enemy unit (excluding MONSTERS and VEHICLES ) that is within Engagement Range of this model\u2019s unit Falls Back , all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked , subtract 1 from each of those tests."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 55
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "SLAYER OF CHAMPIONS",
+        "SUPERHUMAN RESERVES",
+        "THE EMPEROR\u2019S AUSPICE",
+        "EARNING OF A NAME",
+        "VIGIL UNENDING",
+        "CORNERED PREY",
+        "FOCUSED FEAR",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GILDED CHAMPION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "DESPERATION\u2019S PRICE",
+        "WITCH HUNTERS",
+        "PSYCHIC ABOMINATIONS",
+        "MULTIPOTENTIALITY",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA",
+        "ANATHEMA PSYKANA INFANTRY",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": "This model can be attached to the following units: Prosecutors Vigilators Witchseekers",
+      "led_by": [
+        "Prosecutors Vigilators Witchseekers"
+      ],
+      "can_lead": [
+        "Prosecutors Vigilators Witchseekers"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Knight-Centura This model is equipped with: executioner greatblade."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Shield-captain": {
+      "name": "Shield-captain",
+      "url_slug": "Shield-captain",
+      "stats": {
+        "M": "6",
+        "T": "6",
+        "Sv": "2+",
+        "W": "6",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Castellan axe assault",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "assault"
+            ]
+          },
+          {
+            "name": "Guardian spear assault",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "assault"
+            ]
+          },
+          {
+            "name": "Pyrithite spear melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          },
+          {
+            "name": "Sentinel blade assault pistol",
+            "range": "12\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "assault",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Castellan axe",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-1",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Guardian spear",
+            "range": "Melee",
+            "A": "7",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Pyrithite spear",
+            "range": "Melee",
+            "A": "7",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Sentinel blade",
+            "range": "Melee",
+            "A": "7",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Master of the Stances",
+            "description": "Once per battle, when this models unit is selected to fight , it can use this ability. if it does until that fight is resolved, both Ka\u2019tah Stances are active for that unit, instead of only one. Strategic Mastery: Once per battle round , you can select one model from your army with this ability. That model\u2019s unit can be targeted with a Stratagem . If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+          },
+          {
+            "name": "Praesidium shield",
+            "description": "Add 1 to the bearer\u2019s Wounds characteristic."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 120
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "SLAYER OF CHAMPIONS",
+        "SUPERHUMAN RESERVES",
+        "THE EMPEROR\u2019S AUSPICE",
+        "EARNING OF A NAME",
+        "VIGIL UNENDING",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GILDED CHAMPION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "UNWAVERING SENTINELS",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "BREACHING BEHEMOTHS",
+        "INESCAPABLE VENGEANCE",
+        "ARTIFICER ROUNDS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA INFANTRY",
+        "SHIELD-CAPTAIN"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": "This model can be attached to the following units: Custodian Guard Custodian Wardens",
+      "led_by": [
+        "Custodian Guard Custodian Wardens"
+      ],
+      "can_lead": [
+        "Custodian Guard Custodian Wardens"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Shield-Captain This model is equipped with: guardian spear."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Shield-captain In Allarus Terminator Armour": {
+      "name": "Shield-captain In Allarus Terminator Armour",
+      "url_slug": "Shield-captain-In-Allarus-Terminator-Armour",
+      "stats": {
+        "M": "5",
+        "T": "7",
+        "Sv": "2+",
+        "W": "7",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Balistus grenade launcher blast",
+            "range": "18\"",
+            "A": "D6",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Castellan axe assault",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "assault"
+            ]
+          },
+          {
+            "name": "Guardian spear assault",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "assault"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Castellan axe",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-1",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Guardian spear",
+            "range": "Melee",
+            "A": "7",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Auramite and Adamantine",
+            "description": "Once per battle, at the start of any phase, this model can use this ability If it does, until the end of the phase, each time an attack is allocated to this model, change the Damage characteristic of that attack to 1. Strategic Mastery: Once per battle round , you can select one model from your army with this ability and target that model\u2019s unit with a Stratagem . If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 130
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "SLAYER OF CHAMPIONS",
+        "SUPERHUMAN RESERVES",
+        "THE EMPEROR\u2019S AUSPICE",
+        "EARNING OF A NAME",
+        "VIGIL UNENDING",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GILDED CHAMPION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "UNWAVERING SENTINELS",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "BREACHING BEHEMOTHS",
+        "INESCAPABLE VENGEANCE",
+        "ARTIFICER ROUNDS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA INFANTRY",
+        "SHIELD-CAPTAIN"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": "This model can be attached to the following unit: Allarus Custodians",
+      "led_by": [
+        "Allarus Custodians"
+      ],
+      "can_lead": [
+        "Allarus Custodians"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Shield-Captain in Allarus Terminator Armour This model is equipped with: balistus grenade launcher; guardian spear."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Shield-captain On Dawneagle Jetbike": {
+      "name": "Shield-captain On Dawneagle Jetbike",
+      "url_slug": "Shield-captain-On-Dawneagle-Jetbike",
+      "stats": {
+        "M": "12",
+        "T": "7",
+        "Sv": "2+",
+        "W": "8",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Vertus hurricane bolter rapid fire 3 twin-linked",
+            "range": "18\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "rapid fire 3",
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Salvo launcher twin-linked",
+            "range": "24\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "10",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": [
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Interceptor lance lance",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "lance",
+              "lance"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Sweeping Advance",
+            "description": "Once per battle, at the end of the Fight phase , if this model\u2019s unit has fought this phase, if it is within Engagement Range of one or more enemy units, it can make a Fall Back move or, if it is not within Engagement Range of one or more enemy units, it can make a Normal move Strategic Mastery: Once per battle round , you can select one model from your army with this ability and target that model\u2019s unit with a Stratagem . If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 150
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "SLAYER OF CHAMPIONS",
+        "SUPERHUMAN RESERVES",
+        "THE EMPEROR\u2019S AUSPICE",
+        "EARNING OF A NAME",
+        "VIGIL UNENDING",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GILDED CHAMPION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "UNSTOPPABLE",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "FLY",
+        "SHIELD-CAPTAIN"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": "This model can be attached to the following unit: Vertus Praetors",
+      "led_by": [
+        "Vertus Praetors"
+      ],
+      "can_lead": [
+        "Vertus Praetors"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Shield-Captain on Dawneagle Jetbike This model is equipped with: salvo launcher; interceptor lance."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Trajann Valoris": {
+      "name": "Trajann Valoris",
+      "url_slug": "Trajann-Valoris",
+      "stats": {
+        "M": "6",
+        "T": "6",
+        "Sv": "2+",
+        "W": "7",
+        "Ld": "5+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Eagle's Scream assault",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "assault"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Watcher\u2019s Axe",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "10",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Feel No Pain 5+",
+          "Leader"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Captain-General",
+            "description": "While this model is leading a unit, each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack\u2019s Ballistic skill or Weapon skill characteristics and/or all modifiers to the Hit roll Moment Shackle: Once per battle, at the start of the Fight phase , you can select one of the following to take effect until the end of the phase: This model\u2019s Watcher\u2019s Axe melee weapon has an Attacks characteristic of 12. This model has a 2+ invulnerable save ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 140
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "SLAYER OF CHAMPIONS",
+        "SUPERHUMAN RESERVES",
+        "THE EMPEROR\u2019S AUSPICE",
+        "EARNING OF A NAME",
+        "VIGIL UNENDING",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GILDED CHAMPION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "UNWAVERING SENTINELS",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "BREACHING BEHEMOTHS",
+        "INESCAPABLE VENGEANCE",
+        "ARTIFICER ROUNDS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA INFANTRY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": "This model can be attached to the following units: Custodian Guard Custodian Wardens",
+      "led_by": [
+        "Custodian Guard Custodian Wardens"
+      ],
+      "can_lead": [
+        "Custodian Guard Custodian Wardens"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Trajann Valoris \u2013 EPIC HERO This model is equipped with: Watcher\u2019s Axe."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Valerian": {
+      "name": "Valerian",
+      "url_slug": "Valerian",
+      "stats": {
+        "M": "6",
+        "T": "6",
+        "Sv": "2+",
+        "W": "6",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Gnosis assault",
+            "range": "24\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "assault"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Gnosis",
+            "range": "Melee",
+            "A": "7",
+            "skill": "2+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Feel No Pain 6+",
+          "Leader"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Golden Laurels",
+            "description": "While this model is leading a unit, each time a melee attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1. Hero of Lion\u2019s Gate: Once per battle, after making a Hit roll , Wound roll or saving throw for this model, you can change the result of that roll to an unmodified 6."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 110
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "SLAYER OF CHAMPIONS",
+        "SUPERHUMAN RESERVES",
+        "THE EMPEROR\u2019S AUSPICE",
+        "EARNING OF A NAME",
+        "VIGIL UNENDING",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "GILDED CHAMPION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "UNWAVERING SENTINELS",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "BREACHING BEHEMOTHS",
+        "INESCAPABLE VENGEANCE",
+        "ARTIFICER ROUNDS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA INFANTRY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": "This model can be attached to the following units: Custodian Guard Custodian Wardens",
+      "led_by": [
+        "Custodian Guard Custodian Wardens"
+      ],
+      "can_lead": [
+        "Custodian Guard Custodian Wardens"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Valerian \u2013 EPIC HERO This model is equipped with: Gnosis."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": true,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Custodian Guard": {
+      "name": "Custodian Guard",
+      "url_slug": "Custodian-Guard",
+      "stats": {
+        "M": "6",
+        "T": "6",
+        "Sv": "2+",
+        "W": "3",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Guardian spear assault",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "assault"
+            ]
+          },
+          {
+            "name": "Sentinel blade assault pistol",
+            "range": "12\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "assault",
+              "pistol"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Guardian spear",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Misericordia",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Sentinel blade",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Stand Vigil",
+            "description": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead. Sentinel Storm: Once per battle, in your Shooting phase , after this unit has shot, it can shoot again ."
+          },
+          {
+            "name": "Praesidium Shield",
+            "description": "Add 1 to the bearer\u2019s Wounds characteristic."
+          },
+          {
+            "name": "Vexilla",
+            "description": "Add 1 to the Objective Control characteristic of models in the bearer\u2019s unit."
+          },
+          {
+            "name": "4-5 Custodian Guard Every model is equipped with",
+            "description": "guardian spear."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Blade Champion Shield-captain Trajann Valoris Valerian Inquisitor Inquisitor Coteaz Inquisitor Draxus Inquisitor Greyfax Inquisitor Eisenhorn Inquisitor In Terminator Armour Inquisitor Ostromandeus"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 4,
+          "points": 150
+        },
+        {
+          "models": 5,
+          "points": 190
+        }
+      ],
+      "unit_sizes": [
+        4,
+        5
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "VIGILANCE ETERNAL",
+        "ARCHEOTECH MUNITIONS",
+        "UNWAVERING SENTINELS",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "BREACHING BEHEMOTHS",
+        "INESCAPABLE VENGEANCE",
+        "ARTIFICER ROUNDS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA INFANTRY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "4-5 Custodian Guard Every model is equipped with: guardian spear."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Anathema Psykana Rhino": {
+      "name": "Anathema Psykana Rhino",
+      "url_slug": "Anathema-Psykana-Rhino",
+      "stats": {
+        "M": "12",
+        "T": "9",
+        "Sv": "3+",
+        "W": "10",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Hunter-killer missile one shot",
+            "range": "48\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6",
+            "keywords": [
+              "one shot"
+            ]
+          },
+          {
+            "name": "Storm bolter rapid fire 2",
+            "range": "24\"",
+            "A": "2",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Firing Deck 2"
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          },
+          {
+            "name": "Daughters of the Abyss",
+            "description": "This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds . Self Repair: At the start of your Command phase , this model regains 1 lost wound."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 75
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "ANATHEMA PSYKANA INFANTRY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "SMOKESCREEN",
+        "TANK SHOCK",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "DESPERATION\u2019S PRICE",
+        "WITCH HUNTERS",
+        "MULTIPOTENTIALITY",
+        "RELENTLESS PERSECUTION",
+        "UNSTOPPABLE",
+        "FLAWLESS CONSTRUCTION",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA",
+        "AIRCRAFT",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Anathema Psykana Rhino This model is equipped with: storm bolter; armoured tracks."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": "This model has a transport capacity of 12 ANATHEMA PSYKANA INFANTRY models.",
+      "damaged_profile": null,
+      "role": null
+    },
+    "Allarus Custodians": {
+      "name": "Allarus Custodians",
+      "url_slug": "Allarus-Custodians",
+      "stats": {
+        "M": "5",
+        "T": "7",
+        "Sv": "2+",
+        "W": "4",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Balistus grenade launcher blast",
+            "range": "18\"",
+            "A": "D6",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Castellan axe assault",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "assault"
+            ]
+          },
+          {
+            "name": "Guardian spear assault",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "assault"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Castellan axe",
+            "range": "Melee",
+            "A": "4",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-1",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Guardian spear",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Misericordia",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Slayers of Tyrants",
+            "description": "Each time a model in this unit makes an attack that targets a CHARACTER , MONSTER or VEHICLE unit, you can re-roll the Wound roll . From Golden Light: Once per battle, at the end of your opponent\u2019s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves ."
+          },
+          {
+            "name": "Vexilla",
+            "description": "Add 1 to the Objective Control characteristic of models in the bearer\u2019s unit."
+          },
+          {
+            "name": "This unit can be led by the following unit",
+            "description": "Shield-captain In Allarus Terminator Armour"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 2,
+          "points": 110
+        },
+        {
+          "models": 3,
+          "points": 165
+        },
+        {
+          "models": 5,
+          "points": 275
+        },
+        {
+          "models": 6,
+          "points": 330
+        }
+      ],
+      "unit_sizes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "UNWAVERING SENTINELS",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "BREACHING BEHEMOTHS",
+        "INESCAPABLE VENGEANCE",
+        "ARTIFICER ROUNDS",
+        "AURIC STORM",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA INFANTRY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "2-6 Allarus Custodians Every model is equipped with: balistus grenade launcher; guardian spear."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Custodian Wardens": {
+      "name": "Custodian Wardens",
+      "url_slug": "Custodian-Wardens",
+      "stats": {
+        "M": "6",
+        "T": "6",
+        "Sv": "2+",
+        "W": "3",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Castellan axe assault",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "assault"
+            ]
+          },
+          {
+            "name": "Guardian spear assault",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "assault"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Castellan axe",
+            "range": "Melee",
+            "A": "4",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-1",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Guardian spear",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Resolute Will",
+            "description": "While a CHARACTER is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll . Living Fortress: Once per battle, at the start of any phase, this unit can use this ability. If it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability."
+          },
+          {
+            "name": "Vexilla",
+            "description": "Add 1 to the Objective Control characteristic of models in the bearer\u2019s unit."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Blade Champion Shield-captain Trajann Valoris Valerian"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 4,
+          "points": 210
+        },
+        {
+          "models": 5,
+          "points": 260
+        }
+      ],
+      "unit_sizes": [
+        4,
+        5
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "UNWAVERING SENTINELS",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "BREACHING BEHEMOTHS",
+        "INESCAPABLE VENGEANCE",
+        "ARTIFICER ROUNDS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA INFANTRY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "4-5 Custodian Wardens Every model is equipped with: guardian spear."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Prosecutors": {
+      "name": "Prosecutors",
+      "url_slug": "Prosecutors",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "3+",
+        "W": "1",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Boltgun rapid fire 1",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 1"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "2",
+            "skill": "3+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "unit": [
+          {
+            "name": "Daughters of the Abyss",
+            "description": "Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds . Purity of Execution: Each time a model in this unit makes a ranged attack that targets a PSYKER unit, that attack has the [PRECISION] and [DEVASTATING WOUNDS] abilities."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Aleya Knight-centura"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 4,
+          "points": 40
+        },
+        {
+          "models": 5,
+          "points": 50
+        },
+        {
+          "models": 9,
+          "points": 75
+        },
+        {
+          "models": 10,
+          "points": 85
+        }
+      ],
+      "unit_sizes": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "keywords": [
+        "[PRECISION]",
+        "CORNERED PREY",
+        "FOCUSED FEAR",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "DESPERATION\u2019S PRICE",
+        "WITCH HUNTERS",
+        "PSY-CHAFF VOLLEY",
+        "PSYCHIC ABOMINATIONS",
+        "MULTIPOTENTIALITY",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "ARTIFICER ROUNDS",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA",
+        "ANATHEMA PSYKANA INFANTRY",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Prosecutor Sister Superior 3-9 Prosecutors Every model is equipped with: boltgun; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Venerable Contemptor Dreadnought": {
+      "name": "Venerable Contemptor Dreadnought",
+      "url_slug": "Venerable-Contemptor-Dreadnought",
+      "stats": {
+        "M": "6",
+        "T": "9",
+        "Sv": "2+",
+        "W": "10",
+        "Ld": "6+",
+        "OC": "3"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Combi-bolter rapid fire 2",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 2"
+            ]
+          },
+          {
+            "name": "Kheres-pattern assault cannon",
+            "range": "24\"",
+            "A": "6",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "assault",
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Multi-melta melta 2",
+            "range": "18\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Contemptor combat weapon",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "12",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise 1"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Unyielding Ancient",
+            "description": "The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 170
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "RELENTLESS PERSECUTION",
+        "UNSTOPPABLE",
+        "FLAWLESS CONSTRUCTION",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "AIRCRAFT"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Venerable Contemptor Dreadnought This model is equipped with: combi-bolter; multi-melta; Contemptor combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Venerable Land Raider": {
+      "name": "Venerable Land Raider",
+      "url_slug": "Venerable-Land-Raider",
+      "stats": {
+        "M": "10",
+        "T": "12",
+        "Sv": "2+",
+        "W": "16",
+        "Ld": "6+",
+        "OC": "5"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Godhammer lascannon",
+            "range": "48\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": []
+          },
+          {
+            "name": "Hunter-killer missile one shot",
+            "range": "48\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "14",
+            "AP": "-3",
+            "D": "D6",
+            "keywords": [
+              "one shot"
+            ]
+          },
+          {
+            "name": "Storm bolter rapid fire 2",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 2"
+            ]
+          },
+          {
+            "name": "Twin heavy bolter sustained hits 1 twin-linked",
+            "range": "36\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "heavy",
+              "sustained hits 1",
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "A": "6",
+            "skill": "4+",
+            "S": "8",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          },
+          {
+            "name": "Assault Ramp",
+            "description": "Each time a unit disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 220
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "ADEPTUS CUSTODES INFANTRY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "SMOKESCREEN",
+        "TANK SHOCK",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "RELENTLESS PERSECUTION",
+        "UNSTOPPABLE",
+        "FLAWLESS CONSTRUCTION",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "AIRCRAFT"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Venerable Land Raider This model is equipped with: 2 godhammer lascannons; twin heavy bolter; armoured tracks."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": "This model has a transport capacity of 6 ADEPTUS CUSTODES INFANTRY models.",
+      "damaged_profile": null,
+      "role": null
+    },
+    "Vertus Praetors": {
+      "name": "Vertus Praetors",
+      "url_slug": "Vertus-Praetors",
+      "stats": {
+        "M": "12",
+        "T": "7",
+        "Sv": "2+",
+        "W": "5",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Salvo launcher twin-linked",
+            "range": "24\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "10",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": [
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Vertus hurricane bolter rapid fire 3 twin-linked",
+            "range": "18\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "rapid fire 3",
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Interceptor lance lance",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "lance",
+              "lance"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Turbo-boost",
+            "description": "Each time this unit Advances , do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit. Quicksilver Execution: Once per battle, after this unit ends a Normal Move or Advance move , you can select one enemy unit (excluding MONSTER and VEHICLE units) that it moved over during that move, then roll one D6 for each model in this unit: for each 2+, that enemy unit suffers 2 mortal wounds ."
+          },
+          {
+            "name": "2-3 Vertus Praetors Every model is equipped with",
+            "description": "salvo launcher; interceptor lance."
+          },
+          {
+            "name": "This unit can be led by the following unit",
+            "description": "Shield-captain On Dawneagle Jetbike"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 2,
+          "points": 150
+        },
+        {
+          "models": 3,
+          "points": 225
+        }
+      ],
+      "unit_sizes": [
+        2,
+        3
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "UNSTOPPABLE",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "FLY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "2-3 Vertus Praetors Every model is equipped with: salvo launcher; interceptor lance."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Vigilators": {
+      "name": "Vigilators",
+      "url_slug": "Vigilators",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "3+",
+        "W": "1",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Executioner greatblade",
+            "range": "Melee",
+            "A": "2",
+            "skill": "3+",
+            "S": "5",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "anti-psyker 5+",
+              "devastating wounds"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "unit": [
+          {
+            "name": "Daughters of the Abyss",
+            "description": "Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds . Deft Parry: Each time a melee attack targets this unit, subtract 1 from the Hit roll ."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Aleya Knight-centura"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 4,
+          "points": 45
+        },
+        {
+          "models": 5,
+          "points": 55
+        },
+        {
+          "models": 9,
+          "points": 90
+        },
+        {
+          "models": 10,
+          "points": 100
+        }
+      ],
+      "unit_sizes": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "keywords": [
+        "CORNERED PREY",
+        "FOCUSED FEAR",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "DESPERATION\u2019S PRICE",
+        "WITCH HUNTERS",
+        "PSYCHIC ABOMINATIONS",
+        "ANATHEMA BLADEMASTERY",
+        "MULTIPOTENTIALITY",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "ARTIFICER ROUNDS",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA",
+        "ANATHEMA PSYKANA INFANTRY",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Vigilator Sister Superior 3-9 Vigilators Every model is equipped with: executioner greatblade."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Witchseekers": {
+      "name": "Witchseekers",
+      "url_slug": "Witchseekers",
+      "stats": {
+        "M": "6",
+        "T": "3",
+        "Sv": "3+",
+        "W": "1",
+        "Ld": "6+",
+        "OC": "1"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Witchseeker flamer ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "2",
+            "skill": "3+",
+            "S": "3",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Scouts 6\""
+        ],
+        "faction": [],
+        "unit": [
+          {
+            "name": "Daughters of the Abyss",
+            "description": "Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds . Sanctified Flames: In your Shooting phase , after this unit has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test ."
+          },
+          {
+            "name": "This unit can be led by the following units",
+            "description": "Aleya Knight-centura"
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 4,
+          "points": 45
+        },
+        {
+          "models": 5,
+          "points": 55
+        },
+        {
+          "models": 9,
+          "points": 90
+        },
+        {
+          "models": 10,
+          "points": 100
+        }
+      ],
+      "unit_sizes": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "keywords": [
+        "CORNERED PREY",
+        "FOCUSED FEAR",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "DESPERATION\u2019S PRICE",
+        "WITCH HUNTERS",
+        "PURGATION SWEEP",
+        "PSYCHIC ABOMINATIONS",
+        "MULTIPOTENTIALITY",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "ARTIFICER ROUNDS",
+        "[HAZARDOUS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA",
+        "ANATHEMA PSYKANA INFANTRY",
+        "[LETHAL HITS]",
+        "[SUSTAINED HITS 1]"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Witchseeker Sister Superior 3-9 Witchseekers Every model is equipped with: Witchseeker flamer; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Agamatus Custodians": {
+      "name": "Agamatus Custodians",
+      "url_slug": "Agamatus-Custodians",
+      "stats": {
+        "M": "12",
+        "T": "6",
+        "Sv": "2+",
+        "W": "4",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Adrathic devastator",
+            "range": "18\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Lastrum bolt cannon sustained hits 1",
+            "range": "36\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          },
+          {
+            "name": "Twin las-pulsar twin-linked",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Interceptor lance lance",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "lance",
+              "lance"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Turbo-boost",
+            "description": "Each time this unit Advances , do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit. Implacable Vanguard: Once per battle, in your Shooting phase , after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this unit is not eligible to declare a charge ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 3,
+          "points": 225
+        },
+        {
+          "models": 6,
+          "points": 450
+        }
+      ],
+      "unit_sizes": [
+        3,
+        6
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "UNSTOPPABLE",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "FLY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": "If a model from your army with the Leader ability can be attached to a VERTUS PRAETORS unit, it can be attached to this unit instead.",
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "3-6 Agamatus Custodians Every model is equipped with: lastrum bolt cannon; interceptor lance."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Aquilon Custodians": {
+      "name": "Aquilon Custodians",
+      "url_slug": "Aquilon-Custodians",
+      "stats": {
+        "M": "5",
+        "T": "7",
+        "Sv": "2+",
+        "W": "4",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Infernus firepike ignores cover torrent",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Lastrum storm bolter rapid fire 2",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "rapid fire 2"
+            ]
+          },
+          {
+            "name": "Twin adrathic destructor twin-linked",
+            "range": "18\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Solerite power gauntlet",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "8",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Solerite power talon",
+            "range": "Melee",
+            "A": "7",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Heavy Assault Infantry",
+            "description": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, re-roll a Wound roll of 1. From Golden Light: Once per battle, at the end of your opponent\u2019s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 3,
+          "points": 195
+        },
+        {
+          "models": 6,
+          "points": 390
+        }
+      ],
+      "unit_sizes": [
+        3,
+        6
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "UNWAVERING SENTINELS",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA INFANTRY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": "If a model from your army with the Leader ability can be attached to an ALLARUS CUSTODIANS unit, it can be attached to this unit instead.",
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "3-6 Aquilon Custodians Every model is equipped with: lastrum storm bolter; solerite power gauntlet."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Ares Gunship": {
+      "name": "Ares Gunship",
+      "url_slug": "Ares-Gunship",
+      "stats": {
+        "M": "20",
+        "T": "12",
+        "Sv": "2+",
+        "W": "22",
+        "Ld": "6+",
+        "OC": "0"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Arachnus heavy blaze cannon",
+            "range": "36\"",
+            "A": "4",
+            "skill": "2+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": [
+              "heavy"
+            ]
+          },
+          {
+            "name": "Arachnus magna-blaze cannon",
+            "range": "48\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "18",
+            "AP": "-4",
+            "D": "D6+6",
+            "keywords": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "range": "Melee",
+            "A": "9",
+            "skill": "4+",
+            "S": "9",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6",
+          "Hover"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Infernus Firebombs",
+            "description": "Each time this model ends a Normal move , you can select one enemy unit it moved over during that move. Until the end of the turn, models in that unit cannot have the Benefit of Cover . In addition, roll one D6 for each model in that unit: for each 6, that unit suffers 1 mortal wound ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 580
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "RELENTLESS PERSECUTION",
+        "UNSTOPPABLE",
+        "FLAWLESS CONSTRUCTION",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "FLY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Ares Gunship This model is equipped with: 2 arachnus heavy blaze cannons; arachnus magna-blaze cannon; armoured hull."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Caladius Grav-tank": {
+      "name": "Caladius Grav-tank",
+      "url_slug": "Caladius-Grav-tank",
+      "stats": {
+        "M": "10",
+        "T": "11",
+        "Sv": "2+",
+        "W": "14",
+        "Ld": "6+",
+        "OC": "4"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Twin arachnus heavy blaze cannon twin-linked",
+            "range": "48\"",
+            "A": "4",
+            "skill": "2+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+2",
+            "keywords": [
+              "heavy",
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Twin iliastus accelerator cannon rapid fire 4 twin-linked",
+            "range": "48\"",
+            "A": "4",
+            "skill": "2+",
+            "S": "10",
+            "AP": "-1",
+            "D": "3",
+            "keywords": [
+              "rapid fire 4",
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Twin lastrum bolt cannon sustained hits 1",
+            "range": "36\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "range": "Melee",
+            "A": "4",
+            "skill": "4+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Advanced Firepower",
+            "description": "Each time this model makes an attack with its twin iliastus accelerator cannon that targets an enemy unit (excluding MONSTERS and VEHICLES ), that attack has the [LETHAL HITS] ability. Each time this model makes an attack with its twin arachnus heavy blaze cannon that targets an enemy MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 215
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "[LETHAL HITS]",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "RELENTLESS PERSECUTION",
+        "UNSTOPPABLE",
+        "FLAWLESS CONSTRUCTION",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "AIRCRAFT",
+        "FLY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Caladius Grav-tank This model is equipped with: twin iliastus accelerator cannon; twin lastrum bolt cannon; armoured hull."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Contemptor-achillus Dreadnought": {
+      "name": "Contemptor-achillus Dreadnought",
+      "url_slug": "Contemptor-achillus-Dreadnought",
+      "stats": {
+        "M": "6",
+        "T": "9",
+        "Sv": "2+",
+        "W": "10",
+        "Ld": "6+",
+        "OC": "3"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Achillus dreadspear",
+            "range": "12\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Infernus incinerator torrent ignores cover",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "ignores cover"
+            ]
+          },
+          {
+            "name": "Lastrum storm bolter rapid fire 2",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "rapid fire 2"
+            ]
+          },
+          {
+            "name": "Twin adrathic destructor twin-linked",
+            "range": "18\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-2",
+            "D": "3",
+            "keywords": [
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Achillus dreadspear lance",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "12",
+            "AP": "-2",
+            "D": "D6+1",
+            "keywords": [
+              "lance"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise 1"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Dread Foe",
+            "description": "Each time this model is selected to fight, you can select one enemy unit within Engagement Range of it and roll one D6, adding 2 to the result if this model made a Charge move this turn: on a 4-5, that enemy unit suffers D3 mortal wounds ; on a 6+, that enemy unit suffers 3 mortal wounds."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 155
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "RELENTLESS PERSECUTION",
+        "UNSTOPPABLE",
+        "FLAWLESS CONSTRUCTION",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "AIRCRAFT"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Contemptor-Achillus Dreadnought This model is equipped with: 2 lastrum storm bolters; Achillus dreadspear."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Contemptor-galatus Dreadnought": {
+      "name": "Contemptor-galatus Dreadnought",
+      "url_slug": "Contemptor-galatus-Dreadnought",
+      "stats": {
+        "M": "6",
+        "T": "9",
+        "Sv": "2+",
+        "W": "10",
+        "Ld": "6+",
+        "OC": "3"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Galatus warblade ignores cover torrent twin-linked",
+            "range": "12\"",
+            "A": "D6",
+            "skill": "N/A",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "twin-linked",
+              "ignores cover"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Galatus warblade",
+            "range": "Melee",
+            "A": "8",
+            "skill": "2+",
+            "S": "8",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise 1"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Galatus Shield",
+            "description": "Each time a melee attack targets this model, subtract 1 from the Wound roll ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 165
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "RELENTLESS PERSECUTION",
+        "UNSTOPPABLE",
+        "FLAWLESS CONSTRUCTION",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "AIRCRAFT"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Contemptor-Galatus Dreadnought This model is equipped with: Galatus warblade."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Coronus Grav-carrier": {
+      "name": "Coronus Grav-carrier",
+      "url_slug": "Coronus-Grav-carrier",
+      "stats": {
+        "M": "12",
+        "T": "12",
+        "Sv": "2+",
+        "W": "16",
+        "Ld": "6+",
+        "OC": "5"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Twin arachnus blaze cannon",
+            "range": "24\"",
+            "A": "8",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "devastating wounds",
+              "twin-linked"
+            ]
+          },
+          {
+            "name": "Twin lastrum bolt cannon sustained hits 1",
+            "range": "36\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "range": "Melee",
+            "A": "6",
+            "skill": "4+",
+            "S": "8",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Fire Support",
+            "description": "In your Shooting phase , after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 200
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "ADEPTUS CUSTODES INFANTRY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "RELENTLESS PERSECUTION",
+        "UNSTOPPABLE",
+        "FLAWLESS CONSTRUCTION",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "AIRCRAFT",
+        "FLY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Coronus Grav-carrier This model is equipped with: twin arachnus blaze cannon; twin lastrum bolt cannon; armoured hull."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": "This model has a transport capacity of 8 ADEPTUS CUSTODES INFANTRY models.",
+      "damaged_profile": null,
+      "role": null
+    },
+    "Custodian Guard With Adrasite And Pyrithite Spears": {
+      "name": "Custodian Guard With Adrasite And Pyrithite Spears",
+      "url_slug": "Custodian-Guard-With-Adrasite-And-Pyrithite-Spears",
+      "stats": {
+        "M": "6",
+        "T": "6",
+        "Sv": "2+",
+        "W": "3",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Adrasite spear",
+            "range": "18\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Pyrithite spear melta 2",
+            "range": "12\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-4",
+            "D": "D6",
+            "keywords": [
+              "melta 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Adrasite spear",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Pyrithite spear",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Stand Vigil",
+            "description": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead. No Foe Shall Stand: Once per battle, at the start of your Shooting phase , this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] and [IGNORES COVER] abilities."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 5,
+          "points": 250
+        }
+      ],
+      "unit_sizes": [
+        5
+      ],
+      "keywords": [
+        "[LETHAL HITS]",
+        "[IGNORES COVER]",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "UNWAVERING SENTINELS",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "ANATHEMA PSYKANA INFANTRY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": "If an ADEPTUS CUSTODES model from your army with the Leader ability can be attached to a CUSTODIAN GUARD unit, it can be attached to this unit instead.",
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "5 Custodian Guard with Adrasite and Pyrithite Spears Every model is equipped with: adrasite spear."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Orion Assault Dropship": {
+      "name": "Orion Assault Dropship",
+      "url_slug": "Orion-Assault-Dropship",
+      "stats": {
+        "M": "20",
+        "T": "12",
+        "Sv": "2+",
+        "W": "22",
+        "Ld": "6+",
+        "OC": "0"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Arachnus heavy blaze cannon",
+            "range": "36\"",
+            "A": "4",
+            "skill": "2+",
+            "S": "12",
+            "AP": "-3",
+            "D": "D6+1",
+            "keywords": [
+              "heavy"
+            ]
+          },
+          {
+            "name": "Spiculus heavy bolt launcher blast",
+            "range": "36\"",
+            "A": "D6+6",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "heavy",
+              "blast"
+            ]
+          },
+          {
+            "name": "Twin lastrum bolt cannon sustained hits 1",
+            "range": "36\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "range": "Melee",
+            "A": "9",
+            "skill": "4+",
+            "S": "9",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D6",
+          "Hover"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Assault Dropship",
+            "description": "If a unit disembarks from this TRANSPORT before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 690
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "ADEPTUS CUSTODES INFANTRY",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "RELENTLESS PERSECUTION",
+        "UNSTOPPABLE",
+        "FLAWLESS CONSTRUCTION",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "FLY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Orion Assault Dropship This model is equipped with: 2 arachnus heavy blaze cannons; 2 twin lastrum bolt cannons; 2 spiculus heavy bolt launchers; armoured hull."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": "This model has a transport capacity of 12 ADEPTUS CUSTODES INFANTRY models. This model can also transport 1 VENERABLE CONTEMPTOR DREADNOUGHT , 1 CONTEMPTOR-ACHILLUS DREADNOUGHT or 1 CONTEMPTOR GALATUS-DREADNOUGHT ; while doing so, its transport capacity is reduced to 6 ADEPTUS CUSTODES INFANTRY models.",
+      "damaged_profile": null,
+      "role": null
+    },
+    "Pallas Grav-attack": {
+      "name": "Pallas Grav-attack",
+      "url_slug": "Pallas-Grav-attack",
+      "stats": {
+        "M": "12",
+        "T": "8",
+        "Sv": "2+",
+        "W": "9",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "5++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Twin arachnus blaze cannon",
+            "range": "24\"",
+            "A": "8",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "devastating wounds",
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Merciless Hunter",
+            "description": "In your Shooting phase , each time this model makes an attack that targets an enemy unit that is Below Half-strength , add 1 to the Wound roll ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 105
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "RELENTLESS PERSECUTION",
+        "UNSTOPPABLE",
+        "FLAWLESS CONSTRUCTION",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "AIRCRAFT",
+        "FLY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Pallas Grav-attack This model is equipped with: twin arachnus blaze cannon; armoured hull."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Sagittarum Custodians": {
+      "name": "Sagittarum Custodians",
+      "url_slug": "Sagittarum-Custodians",
+      "stats": {
+        "M": "6",
+        "T": "6",
+        "Sv": "2+",
+        "W": "3",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Adrastus bolt caliver sustained hits 1",
+            "range": "36\"",
+            "A": "3",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "sustained hits 1"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Misericordia",
+            "range": "Melee",
+            "A": "4",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Saturation Volleys",
+            "description": "In your Shooting phase , after this unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES ) hit by one or more of those attacks. Until the start of your next turn, while this unit is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll . Disintegration Beams: Once per battle, at the start of your Shooting phase , this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 5,
+          "points": 225
+        }
+      ],
+      "unit_sizes": [
+        5
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "UNWAVERING SENTINELS",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA INFANTRY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": "If an ADEPTUS CUSTODES model from your army with the Leader ability can be attached to a CUSTODIAN GUARD unit, it can be attached to this unit instead.",
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "5 Sagittarum Custodians Every model is equipped with: adrastus bolt caliver; misericordia."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Telemon Heavy Dreadnought": {
+      "name": "Telemon Heavy Dreadnought",
+      "url_slug": "Telemon-Heavy-Dreadnought",
+      "stats": {
+        "M": "8",
+        "T": "10",
+        "Sv": "2+",
+        "W": "12",
+        "Ld": "6+",
+        "OC": "4"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Arachnus storm cannon",
+            "range": "24\"",
+            "A": "12",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Iliastus accelerator culverin",
+            "range": "48\"",
+            "A": "4",
+            "skill": "2+",
+            "S": "9",
+            "AP": "-1",
+            "D": "3",
+            "keywords": []
+          },
+          {
+            "name": "Spiculus bolt launcher blast",
+            "range": "36\"",
+            "A": "D6+3",
+            "skill": "2+",
+            "S": "5",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "blast"
+            ]
+          },
+          {
+            "name": "Twin plasma projector torrent twin-linked",
+            "range": "12\"",
+            "A": "D3",
+            "skill": "N/A",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "torrent",
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured feet",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "7",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Telemon caestus",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "12",
+            "AP": "-2",
+            "D": "3",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Guardian Eternal",
+            "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack. Devoted to Destruction: If this model is equipped with 2 Telemon caestus weapons in addition to its armoured feet weapon, add 2 to the Attacks characteristic of those Telemon caestus weapons."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 225
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "TANK SHOCK",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "RELENTLESS PERSECUTION",
+        "UNSTOPPABLE",
+        "FLAWLESS CONSTRUCTION",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "AIRCRAFT"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "Guardian Eternal: Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack. Devoted to Destruction: If this model is equipped with 2 Telemon caestus weapons in addition to its armoured feet weapon, add 2 to the Attacks characteristic of those Telemon caestus weapons.",
+        "1 Telemon Heavy Dreadnought This model is equipped with: 2 iliastus accelerator culverins; spiculus bolt launcher; armoured feet."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Venatari Custodians": {
+      "name": "Venatari Custodians",
+      "url_slug": "Venatari-Custodians",
+      "stats": {
+        "M": "10",
+        "T": "6",
+        "Sv": "2+",
+        "W": "3",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": "4++",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Kinetic destroyer pistol sustained hits 1",
+            "range": "12\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "6",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "sustained hits 1",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Venatari lance assault",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "assault",
+              "lance"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Tarsis buckler",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-2",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Venatari lance lance",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "lance",
+              "lance"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "faction": [
+          "Martial Ka\u2019tah"
+        ],
+        "unit": [
+          {
+            "name": "Strike from the Skies",
+            "description": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back . Swooping Dive: Once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+          },
+          {
+            "name": "Tarsis Buckler",
+            "description": "The bearer has a Wounds characteristic of 4."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 3,
+          "points": 165
+        },
+        {
+          "models": 6,
+          "points": 330
+        }
+      ],
+      "unit_sizes": [
+        3,
+        6
+      ],
+      "keywords": [
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GO TO GROUND",
+        "HEROIC INTERVENTION",
+        "MANOEUVRE AND FIRE",
+        "PEERLESS WARRIOR",
+        "ARCANE GENETIC ALCHEMY",
+        "MULTIPOTENTIALITY",
+        "ARCHEOTECH MUNITIONS",
+        "UNWAVERING SENTINELS",
+        "PUNISHMENT INESCAPABLE",
+        "EMPEROR\u2019S VENGEANCE",
+        "WRATHFUL ADVANCE",
+        "HUNT AS ONE",
+        "TALONED PINCER",
+        "EMPYRIC SEVERANCE",
+        "TALONS INTERLOCKED",
+        "SHIELD OF HONOUR",
+        "EMPEROR\u2019S EXECUTIONERS",
+        "[HAZARDOUS]",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "[BLAST]",
+        "[PRECISION]",
+        "ANATHEMA PSYKANA",
+        "[IGNORES COVER]",
+        "ANATHEMA PSYKANA INFANTRY",
+        "FLY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "3-6 Venatari Custodians Every model is equipped with: Venatari lance."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    }
+  }
+}
