@@ -222,7 +222,7 @@ agent:
         "role": "Epic Hero" | "Character" | "Battleline" | "Infantry" | "Vehicle" | "Beast",
         "stats": { "M": "6\"", "T": 5, "SV": "2+", "W": 6, "LD": "6+", "OC": 1, "INV": "4++", "FNP": "5+" },
         "weapons": [
-          { "name": "Weapon Name", "profile": "24\" | A6 | 2+ | S6 | 0 | D1", "tags": ["Dev Wounds", "Rapid Fire 2"] }
+          { "name": "Weapon Name", "profile": "24\" | A6 | 2+ | S6 | 0 | 1", "tags": ["Dev Wounds", "Rapid Fire 2"] }
         ],
         "abilities": ["shorthand ability 1", "shorthand ability 2"],
         "core": ["Deep Strike", "Leader", "Grenades"],
@@ -264,7 +264,7 @@ agent:
     - |
       CORE ARRAY - GAMEPLAY KEYWORDS REFERENCE:
       Always extract these keywords from the keywords array to core:
-      - GRENADES → "Grenades" (enables 1CP Grenade strat: D6 S4 AP0 D1 Blast at 6")
+      - GRENADES → "Grenades" (enables 1CP Grenade strat: D6 attacks S4 AP0 Dmg1 Blast at 6")
       - SMOKE → "Smoke" (enables 1CP Smokescreen strat: -1 to Hit vs unit)
       - FLY → "Fly" (move over models/terrain, measure through air)
       - MOUNTED → "Mounted" (Tank Shock, movement stratagems)
@@ -295,10 +295,14 @@ agent:
     # === CHEATSHEET WEAPON PROFILE FORMAT ===
     - |
       WEAPON PROFILE FORMAT:
-      - Ranged: "24\" | A6 | 2+ | S6 | 0 | D1"  (Range | Attacks | BS | Strength | AP | Damage)
-      - Melee:  "A5 | 2+ | S8 | -2 | D3"         (Attacks | WS | Strength | AP | Damage)
-      - Variable: "A1 | 3+ | S7/8 | -2/-3 | D1/2" (for supercharge/overcharge modes)
-      - Random:  "12\" | D6 | N/A | S5 | -1 | D1"  (for auto-hit weapons like flamers)
+      - Ranged: "24\" | A6 | 2+ | S6 | 0 | 1"  (Range | Attacks | BS | Strength | AP | Damage)
+      - Melee:  "A5 | 2+ | S8 | -2 | 3"         (Attacks | WS | Strength | AP | Damage)
+      - Variable: "A1 | 3+ | S7/8 | -2/-3 | 1/2" (for supercharge/overcharge modes)
+      - Random:  "12\" | D6 | N/A | S5 | -1 | 1"  (for auto-hit weapons like flamers)
+      - Dice damage: "| D3" (roll 1-3), "| D6" (roll 1-6), "| D6+2" (roll d6+2)
+      DAMAGE NOTATION:
+      - Fixed damage uses plain numbers: 1, 2, 3
+      - Variable/dice damage uses D prefix: D3, D6, D6+2 (roll the die)
     - 'WEAPON TAGS: Use standard abbreviations - "Dev Wounds", "Lethal Hits", "Rapid Fire X", "Twin-linked", "Torrent", "Ign Cover", "Hazardous", "Pistol", "Assault", "Anti-X Y+", "Precision"'
 
     # === CHEATSHEET STRATAGEMS ===
@@ -322,7 +326,7 @@ agent:
           "Deep Strike": "Set up in Reserves, arrive 9\"+ from enemies",
           "Deadly Demise X": "On death, 6+ = X mortal wounds to units w/in 6\"",
           "Rapid Fire X": "+X attacks at half range",
-          "Grenades": "Enables Grenade strat (1CP): D6 S4 AP0 D1 Blast at 6\"",
+          "Grenades": "Enables Grenade strat (1CP): D6 attacks S4 AP0 Dmg1 Blast at 6\"",
           "Smoke": "Enables Smokescreen strat (1CP): -1 to Hit vs unit",
           "Infiltrators": "Set up anywhere 9\"+ from enemy deployment/models",
           "Scouts X\"": "Before T1, make Normal move up to X\"",

@@ -14,8 +14,8 @@
       "role": "Epic Hero",
       "stats": { "M": "6\"", "T": 5, "SV": "2+", "W": 6, "LD": "6+", "OC": 1, "INV": "4++" },
       "weapons": [
-        { "name": "Foehammer (R)", "profile": "6\" | A1 | 2+ | S8 | -2 | D3", "tags": ["Anti-MV 3+", "Assault"] },
-        { "name": "Foehammer (M)", "profile": "A5 | 2+ | S8 | -2 | D3", "tags": ["Anti-MV 3+", "Precision"] }
+        { "name": "Foehammer (R)", "profile": "6\" | A1 | 2+ | S8 | -2 | 3", "tags": ["Anti-MV 3+", "Assault"] },
+        { "name": "Foehammer (M)", "profile": "A5 | 2+ | S8 | -2 | 3", "tags": ["Anti-MV 3+", "Precision"] }
       ],
       "abilities": [
         "4+ FoD (melee) - led unit fights on death",
@@ -31,10 +31,10 @@
       "role": "Epic Hero / Warlord",
       "stats": { "M": "6\"", "T": 5, "SV": "2+", "W": 8, "LD": "6+", "OC": 1, "INV": "4++" },
       "weapons": [
-        { "name": "Storm Bolter", "profile": "24\" | A2 | 2+ | S4 | 0 | D1", "tags": ["Rapid Fire 2"] },
-        { "name": "Axe Morkai (sweep)", "profile": "A10 | 2+ | S6 | -2 | D1", "tags": [] },
-        { "name": "Axe Morkai (strike)", "profile": "A6 | 2+ | S8 | -2 | D3", "tags": [] },
-        { "name": "Tyrnak & Fenrir", "profile": "A6 | 2+ | S5 | -1 | D1", "tags": ["Extra Attacks"] }
+        { "name": "Storm Bolter", "profile": "24\" | A2 | 2+ | S4 | 0 | 1", "tags": ["Rapid Fire 2"] },
+        { "name": "Axe Morkai (sweep)", "profile": "A10 | 2+ | S6 | -2 | 1", "tags": [] },
+        { "name": "Axe Morkai (strike)", "profile": "A6 | 2+ | S8 | -2 | 3", "tags": [] },
+        { "name": "Tyrnak & Fenrir", "profile": "A6 | 2+ | S5 | -1 | 1", "tags": ["Extra Attacks"] }
       ],
       "abilities": [
         "1/rnd: Reserve unit arrives 1 turn early",
@@ -51,10 +51,10 @@
       "role": "Epic Hero / Psyker",
       "stats": { "M": "7\"", "T": 4, "SV": "3+", "W": 4, "LD": "6+", "OC": 1, "INV": "4++" },
       "weapons": [
-        { "name": "Bolt Pistol", "profile": "12\" | A1 | 3+ | S4 | 0 | D1", "tags": ["Pistol"] },
-        { "name": "Living Lightning (witchfire)", "profile": "24\" | D6 | 3+ | S7 | -1 | D1", "tags": ["Psychic", "Sustained 2"] },
-        { "name": "Living Lightning (focused)", "profile": "24\" | 2D6 | 3+ | S7 | -1 | D1", "tags": ["Psychic", "Sustained 2", "Hazardous"] },
-        { "name": "Staff of the Stormcaller", "profile": "A4 | 3+ | S7 | -1 | D3", "tags": ["Psychic", "Sustained 2"] }
+        { "name": "Bolt Pistol", "profile": "12\" | A1 | 3+ | S4 | 0 | 1", "tags": ["Pistol"] },
+        { "name": "Living Lightning (witchfire)", "profile": "24\" | D6 | 3+ | S7 | -1 | 1", "tags": ["Psychic", "Sustained 2"] },
+        { "name": "Living Lightning (focused)", "profile": "24\" | 2D6 | 3+ | S7 | -1 | 1", "tags": ["Psychic", "Sustained 2", "Hazardous"] },
+        { "name": "Staff of the Stormcaller", "profile": "A4 | 3+ | S7 | -1 | 3", "tags": ["Psychic", "Sustained 2"] }
       ],
       "abilities": [
         "Led unit: ranged weapons get [ASSAULT]",
@@ -70,8 +70,8 @@
       "role": "Character",
       "stats": { "M": "6\"", "T": 4, "SV": "3+", "W": 4, "LD": "6+", "OC": 1, "INV": "4++" },
       "weapons": [
-        { "name": "Absolvor Bolt Pistol", "profile": "18\" | A1 | 3+ | S5 | -1 | D2", "tags": ["Pistol"] },
-        { "name": "Crozius Arcanum", "profile": "A5 | 2+ | S6 | -1 | D2", "tags": [] }
+        { "name": "Absolvor Bolt Pistol", "profile": "18\" | A1 | 3+ | S5 | -1 | 2", "tags": ["Pistol"] },
+        { "name": "Crozius Arcanum", "profile": "A5 | 2+ | S6 | -1 | 2", "tags": [] }
       ],
       "abilities": [
         "Rez 1 model/Cmd phase (not CHAR)",
@@ -88,9 +88,9 @@
       "role": "Epic Hero",
       "stats": { "M": "9\"", "T": 9, "SV": "2+", "W": 8, "LD": "6+", "OC": 3, "INV": "5++", "FNP": "5+" },
       "weapons": [
-        { "name": "Heavy Flamer", "profile": "12\" | D6 | N/A | S5 | -1 | D1", "tags": ["Torrent", "Ign Cover"] },
-        { "name": "Helfrost Cannon", "profile": "24\" | A3 | 3+ | S8 | -3 | D3", "tags": [] },
-        { "name": "Trueclaw", "profile": "A6 | 2+ | S12 | -2 | D3", "tags": ["Lethal Hits"] }
+        { "name": "Heavy Flamer", "profile": "12\" | D6 | N/A | S5 | -1 | 1", "tags": ["Torrent", "Ign Cover"] },
+        { "name": "Helfrost Cannon", "profile": "24\" | A3 | 3+ | S8 | -3 | 3", "tags": [] },
+        { "name": "Trueclaw", "profile": "A6 | 2+ | S12 | -2 | 3", "tags": ["Lethal Hits"] }
       ],
       "abilities": [
         "+1CP each Cmd phase",
@@ -106,10 +106,10 @@
       "role": "Battleline",
       "stats": { "M": "6\"", "T": 4, "SV": "3+", "W": 2, "LD": "6+", "OC": 2 },
       "weapons": [
-        { "name": "Bolt Pistol (x9)", "profile": "12\" | A1 | 3+ | S4 | 0 | D1", "tags": ["Pistol"] },
-        { "name": "Plasma Pistol (ldr)", "profile": "12\" | A1 | 3+ | S7/8 | -2/-3 | D1/2", "tags": ["Hazardous", "Pistol"] },
-        { "name": "Chainsword (x9)", "profile": "A4 | 3+ | S4 | -1 | D1", "tags": [] },
-        { "name": "Power Weapon (ldr)", "profile": "A4 | 3+ | S5 | -2 | D1", "tags": [] }
+        { "name": "Bolt Pistol (x9)", "profile": "12\" | A1 | 3+ | S4 | 0 | 1", "tags": ["Pistol"] },
+        { "name": "Plasma Pistol (ldr)", "profile": "12\" | A1 | 3+ | S7/8 | -2/-3 | 1/2", "tags": ["Hazardous", "Pistol"] },
+        { "name": "Chainsword (x9)", "profile": "A4 | 3+ | S4 | -1 | 1", "tags": [] },
+        { "name": "Power Weapon (ldr)", "profile": "A4 | 3+ | S5 | -2 | 1", "tags": [] }
       ],
       "abilities": [
         "Can charge after Advancing"
@@ -126,10 +126,10 @@
       "stats": { "M": "10\"", "T": 10, "SV": "3+", "W": 12, "LD": "6+", "OC": 3 },
       "weapons": [
         { "name": "Lancer Laser Destroyer", "profile": "72\" | A2 | 3+ | S14 | -4 | D6+3", "tags": ["Heavy", "Lance"] },
-        { "name": "Icarus Rocket Pod", "profile": "24\" | D3 | 3+ | S8 | -1 | D2", "tags": ["Anti-Fly 2+"] },
-        { "name": "Ironhail Heavy Stubber", "profile": "36\" | A3 | 3+ | S4 | 0 | D1", "tags": ["Rapid Fire 3"] },
-        { "name": "Fragstorm Grenade Launcher (x2)", "profile": "18\" | D6 | 3+ | S4 | 0 | D1", "tags": ["Blast"] },
-        { "name": "Armoured Hull", "profile": "A3 | 4+ | S6 | 0 | D1", "tags": [] }
+        { "name": "Icarus Rocket Pod", "profile": "24\" | D3 | 3+ | S8 | -1 | 2", "tags": ["Anti-Fly 2+"] },
+        { "name": "Ironhail Heavy Stubber", "profile": "36\" | A3 | 3+ | S4 | 0 | 1", "tags": ["Rapid Fire 3"] },
+        { "name": "Fragstorm Grenade Launcher (x2)", "profile": "18\" | D6 | 3+ | S4 | 0 | 1", "tags": ["Blast"] },
+        { "name": "Armoured Hull", "profile": "A3 | 4+ | S6 | 0 | 1", "tags": [] }
       ],
       "abilities": [
         "Aquilon Optics: RR 1 Hit, 1 Wound, 1 Dmg each shooting"
@@ -144,9 +144,9 @@
       "role": "Mounted",
       "stats": { "M": "12\"", "T": 6, "SV": "3+", "W": 4, "LD": "6+", "OC": 2 },
       "weapons": [
-        { "name": "Bolt Pistol", "profile": "12\" | A1 | 3+ | S4 | 0 | D1", "tags": ["Pistol"] },
-        { "name": "Wolf Guard Weapon", "profile": "A4 | 3+ | S5 | -2 | D2", "tags": [] },
-        { "name": "Teeth and Claws", "profile": "A3 | 4+ | S5 | -1 | D1", "tags": ["Extra Attacks"] }
+        { "name": "Bolt Pistol", "profile": "12\" | A1 | 3+ | S4 | 0 | 1", "tags": ["Pistol"] },
+        { "name": "Wolf Guard Weapon", "profile": "A4 | 3+ | S5 | -2 | 2", "tags": [] },
+        { "name": "Teeth and Claws", "profile": "A3 | 4+ | S5 | -1 | 1", "tags": ["Extra Attacks"] }
       ],
       "abilities": [
         "Thunderous Charge: +1S & +1AP on charge",
@@ -161,9 +161,9 @@
       "role": "Vehicle",
       "stats": { "M": "8\"", "T": 9, "SV": "2+", "W": 8, "LD": "6+", "OC": 3, "INV": "4++" },
       "weapons": [
-        { "name": "Assault Cannon", "profile": "24\" | A6 | 3+ | S6 | 0 | D1", "tags": ["Dev Wounds"] },
-        { "name": "Storm Bolter", "profile": "24\" | A2 | 3+ | S4 | 0 | D1", "tags": ["Rapid Fire 2"] },
-        { "name": "Dreadnought Combat Weapon", "profile": "A5 | 3+ | S12 | -2 | D3", "tags": [] }
+        { "name": "Assault Cannon", "profile": "24\" | A6 | 3+ | S6 | 0 | 1", "tags": ["Dev Wounds"] },
+        { "name": "Storm Bolter", "profile": "24\" | A2 | 3+ | S4 | 0 | 1", "tags": ["Rapid Fire 2"] },
+        { "name": "Dreadnought Combat Weapon", "profile": "A5 | 3+ | S12 | -2 | 3", "tags": [] }
       ],
       "abilities": [
         "+1 Adv/Chg for SW w/in 6\" (Aura)",
@@ -178,8 +178,8 @@
       "role": "Infantry",
       "stats": { "M": "6\"", "T": 5, "SV": "2+", "W": 3, "LD": "6+", "OC": 1, "INV": "4++" },
       "weapons": [
-        { "name": "Twin Lightning Claws (ldr)", "profile": "A6 | 3+ | S5 | -2 | D1", "tags": ["Twin-linked"] },
-        { "name": "MC Power Weapon (x9)", "profile": "A4 | 3+ | S5 | -2 | D2", "tags": [] }
+        { "name": "Twin Lightning Claws (ldr)", "profile": "A6 | 3+ | S5 | -2 | 1", "tags": ["Twin-linked"] },
+        { "name": "MC Power Weapon (x9)", "profile": "A4 | 3+ | S5 | -2 | 2", "tags": [] }
       ],
       "abilities": [
         "-1 to Wound when S > T",
@@ -195,8 +195,8 @@
       "role": "Infantry",
       "stats": { "M": "6\"", "T": 5, "SV": "2+", "W": 3, "LD": "6+", "OC": 1, "INV": "4++" },
       "weapons": [
-        { "name": "Twin Lightning Claws (ldr)", "profile": "A6 | 3+ | S5 | -2 | D1", "tags": ["Twin-linked"] },
-        { "name": "MC Power Weapon (x4)", "profile": "A4 | 3+ | S5 | -2 | D2", "tags": [] }
+        { "name": "Twin Lightning Claws (ldr)", "profile": "A6 | 3+ | S5 | -2 | 1", "tags": ["Twin-linked"] },
+        { "name": "MC Power Weapon (x4)", "profile": "A4 | 3+ | S5 | -2 | 2", "tags": [] }
       ],
       "abilities": [
         "-1 to Wound when S > T",
@@ -212,10 +212,10 @@
       "role": "Infantry",
       "stats": { "M": "6\"", "T": 4, "SV": "4+", "W": 2, "LD": "6+", "OC": 1 },
       "weapons": [
-        { "name": "Plasma Pistol (x4+ldr)", "profile": "12\" | A1 | 3+ | S7/8 | -2/-3 | D1/2", "tags": ["Hazardous", "Pistol"] },
-        { "name": "Combat Blade (x4)", "profile": "A3 | 3+ | S5 | -1 | D1", "tags": [] },
-        { "name": "Power Weapon (ldr)", "profile": "A3 | 3+ | S5 | -2 | D1", "tags": [] },
-        { "name": "Teeth and Claws (wolf)", "profile": "A3 | 4+ | S4 | -1 | D1", "tags": [] }
+        { "name": "Plasma Pistol (x4+ldr)", "profile": "12\" | A1 | 3+ | S7/8 | -2/-3 | 1/2", "tags": ["Hazardous", "Pistol"] },
+        { "name": "Combat Blade (x4)", "profile": "A3 | 3+ | S5 | -1 | 1", "tags": [] },
+        { "name": "Power Weapon (ldr)", "profile": "A3 | 3+ | S5 | -2 | 1", "tags": [] },
+        { "name": "Teeth and Claws (wolf)", "profile": "A3 | 4+ | S4 | -1 | 1", "tags": [] }
       ],
       "abilities": [
         "Infiltrators: Deploy 9\"+ from enemy deployment/models",
@@ -243,7 +243,7 @@
     "Assault": "Can shoot after Advancing (only Assault weapons)",
     "Pistol": "Can shoot in engagement range (only at engaged unit)",
     "Ign Cover": "Target can't benefit from cover",
-    "Grenades": "Unit can use Grenade stratagem (D6 S4 AP0 D1 Blast at 6\")",
+    "Grenades": "Unit can use Grenade stratagem (D6 S4 AP0 Dmg1 Blast at 6\")",
     "Smoke": "Unit can use Smokescreen stratagem (-1 to Hit vs this unit)",
     "Lance": "+1 to Wound if unit made a Charge move this turn",
     "Heavy": "-1 to Hit if unit moved (unless VEHICLE/MONSTER)",
@@ -265,7 +265,7 @@
     { "name": "Epic Challenge", "cp": 1, "phase": "Fight", "effect": "CHAR gets [PRECISION] for melee attacks this phase" },
     { "name": "Fire Overwatch", "cp": 1, "phase": "Enemy Move/Charge", "effect": "Shoot at enemy ending move w/in 24\"; hit on 6s only" },
     { "name": "Go to Ground", "cp": 1, "phase": "Enemy Shooting", "effect": "Unit gets +1 Save & Benefit of Cover until next turn; Battle-shocked" },
-    { "name": "Grenade", "cp": 1, "phase": "Shooting", "effect": "GRENADES unit: 1 model throws D6 S4 AP0 D1 Blast at 6\"" },
+    { "name": "Grenade", "cp": 1, "phase": "Shooting", "effect": "GRENADES unit: 1 model throws D6 S4 AP0 Dmg1 Blast at 6\"" },
     { "name": "Heroic Intervention", "cp": 2, "phase": "Enemy Charge", "effect": "After enemy charges, your unit w/in 6\" makes D6\" move toward them" },
     { "name": "Insane Bravery", "cp": 1, "phase": "Any", "effect": "Auto-pass Battle-shock test" },
     { "name": "Rapid Ingress", "cp": 1, "phase": "Enemy Move", "effect": "Set up one Reserves unit at end of enemy Move phase" },

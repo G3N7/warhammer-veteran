@@ -100,6 +100,7 @@ FACTION_URLS = {
             ('Murderfang', 'Murderfang'),
             ('Wulfen-Dreadnought-1', 'Wulfen Dreadnought'),
             ('Wolf-Scouts', 'Wolf Scouts'),
+            ('Wolf-Guard-Headtakers', 'Wolf Guard Headtakers'),
         ]
     },
     'space-marines': {
@@ -119,6 +120,8 @@ FACTION_URLS = {
             ('Vindicator', 'Vindicator'),
             ('Gladiator-Lancer', 'Gladiator Lancer'),
             ('Terminator-Squad', 'Terminator Squad'),
+            ('Stormraven-Gunship', 'Stormraven Gunship'),
+            ('Scout-Squad', 'Scout Squad'),
         ]
     },
     'tau-empire': {
@@ -821,18 +824,48 @@ def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str
                         'description': parts[1].strip()  # Full description
                     })
 
-    # 5. Extract points (model count + points) - search more broadly
-    # Points can appear in various formats: "5 models 170" or "5 MODEL 170 PTS" etc.
-    for div in soup.find_all(['div', 'td', 'span']):
-        text = div.get_text(' ', strip=True)
-        # Match patterns like "5 models 170" or "10 models 340"
-        matches = re.findall(r'(\d+)\s+model[s]?\s+(\d+)', text, re.IGNORECASE)
-        for match in matches:
-            models = int(match[0])
-            pts = int(match[1])
-            if pts > 0 and models > 0:  # Sanity check
-                datasheet['points'].append({'models': models, 'points': pts})
-                datasheet['unit_sizes'].append(models)
+    # 5. Extract points (model count + points) - search multiple patterns
+    # Wahapedia uses various formats across different pages:
+    #   "5 models 170" / "5 MODELS 170 PTS" / "3 models: 110 pts"
+    #   Also look for dsPointsCost CSS class used on some pages
+    points_patterns = [
+        # Standard: "5 models 170" or "5 MODEL 170 PTS"
+        r'(\d+)\s+model[s]?\s*[:\-–]?\s*(\d+)\s*(?:pts|points)?',
+        # Reversed: "170 pts 5 models" (some pages)
+        r'(\d+)\s*(?:pts|points)\s+(\d+)\s+model[s]?',
+        # Compact: "5 models170" (no space before number)
+        r'(\d+)\s+model[s]?(\d{2,})',
+    ]
+
+    # First try: look for dedicated points containers (most reliable)
+    for pts_el in soup.find_all(class_=re.compile(r'dsPointsCost|Points|pointsCont', re.IGNORECASE)):
+        text = pts_el.get_text(' ', strip=True)
+        for pattern in points_patterns:
+            matches = re.findall(pattern, text, re.IGNORECASE)
+            for match in matches:
+                models = int(match[0])
+                pts = int(match[1])
+                # For reversed pattern, swap
+                if 'pts' in pattern and models > pts:
+                    models, pts = pts, models
+                if pts > 0 and models > 0 and pts < 2000:  # Sanity check
+                    datasheet['points'].append({'models': models, 'points': pts})
+                    datasheet['unit_sizes'].append(models)
+
+    # Second try: broad search across all elements (fallback)
+    if not datasheet['points']:
+        for div in soup.find_all(['div', 'td', 'span']):
+            text = div.get_text(' ', strip=True)
+            for pattern in points_patterns:
+                matches = re.findall(pattern, text, re.IGNORECASE)
+                for match in matches:
+                    models = int(match[0])
+                    pts = int(match[1])
+                    if 'pts' in pattern and models > pts:
+                        models, pts = pts, models
+                    if pts > 0 and models > 0 and pts < 2000:
+                        datasheet['points'].append({'models': models, 'points': pts})
+                        datasheet['unit_sizes'].append(models)
 
     # Deduplicate points
     seen = set()
@@ -865,15 +898,16 @@ def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str
 
     # 8. Extract keywords - look for specific keyword containers first
     # Wahapedia uses specific CSS classes for keywords (dsKw, Keyword, etc.)
+    # IMPORTANT: Individual keywords must be short (< 40 chars). Anything longer is garbage data.
 
     # First, try to find keyword spans/divs with dedicated classes
     # These are more reliable than text parsing
     for kw_element in soup.find_all(class_=re.compile(r'^dsKw|^Keyword', re.IGNORECASE)):
         text = kw_element.get_text(' ', strip=True)
-        # Filter out labels and noise
-        if text and 2 < len(text) < 60 and text.upper() not in ['KEYWORDS:', 'KEYWORDS', 'FACTION KEYWORDS:', 'FACTION KEYWORDS']:
+        # Keywords are short identifiers, not sentences or rules text
+        if text and 2 < len(text) < 40 and text.upper() not in ['KEYWORDS:', 'KEYWORDS', 'FACTION KEYWORDS:', 'FACTION KEYWORDS']:
             # Skip if it looks like rules text (contains common rules words)
-            if not any(x in text.lower() for x in ['attack', 'phase', 'roll', 'wound', 'damage', 'target', 'enemy', 'model', 'unit ']):
+            if not any(x in text.lower() for x in ['attack', 'phase', 'roll', 'wound', 'damage', 'target', 'enemy', 'model', 'unit ', 'stratagem', 'detachment', 'enhancement', 'ability']):
                 if text.upper() not in [k.upper() for k in datasheet['keywords']]:
                     datasheet['keywords'].append(text)
 
@@ -883,7 +917,7 @@ def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str
         # Check if this looks like a keyword (UPPERCASE, short, no spaces or few spaces)
         if text and text.isupper() and 2 < len(text) < 40 and text.count(' ') <= 3:
             # Filter out common non-keywords
-            skip_words = ['WHEN:', 'TARGET:', 'EFFECT:', 'RESTRICTIONS:', 'STRATAGEM', 'WARGEAR', 'ABILITY', 'DETACHMENT']
+            skip_words = ['WHEN:', 'TARGET:', 'EFFECT:', 'RESTRICTIONS:', 'STRATAGEM', 'WARGEAR', 'ABILITY', 'DETACHMENT', 'ENHANCEMENTS']
             if text not in skip_words and not any(x in text for x in skip_words):
                 if text not in [k.upper() for k in datasheet['keywords']]:
                     datasheet['keywords'].append(text)
@@ -932,14 +966,16 @@ def extract_full_datasheet(html: str, unit_name: str, url_slug: str) -> Dict[str
                     break
             else:
                 # If regex fails, try a simpler approach: take first few comma-separated items
-                simple_match = re.search(r'FACTION KEYWORDS:\s*([^\.]+)', text, re.IGNORECASE)
+                # IMPORTANT: Limit to 200 chars to prevent grabbing entire page text
+                simple_match = re.search(r'FACTION KEYWORDS:\s*(.{1,200}?)(?:\.|STRATAGEM|LED BY|DETACHMENT|ENHANCEMENT|This unit|This model|$)', text, re.IGNORECASE)
                 if simple_match:
                     raw = simple_match.group(1).strip()
                     # Take only reasonable-looking keywords (stop at first long item)
                     fkeywords = []
                     for item in raw.split(',')[:5]:  # Max 5 faction keywords
                         item = item.strip()
-                        if item and 2 < len(item) < 40:
+                        # Individual faction keywords must be short (e.g., "IMPERIUM", "ADEPTUS ASTARTES")
+                        if item and 2 < len(item) < 40 and ' ' not in item or item.count(' ') <= 2:
                             fkeywords.append(item)
                         else:
                             break  # Stop if we hit garbage
@@ -1278,8 +1314,9 @@ def generate_compact_datasheet(full_datasheet: Dict[str, Any]) -> Dict[str, Any]
 
     # Key keywords for validation - ALWAYS include if present
     # These keywords affect gameplay mechanics, stratagems, and list-building rules
+    # SAFETY: Skip any keyword longer than 40 chars — those are garbage from HTML parsing
     key_keywords = []
-    keywords = full_datasheet.get('keywords', [])
+    keywords = [kw for kw in full_datasheet.get('keywords', []) if len(kw) < 40]
     for kw in keywords:
         kw_upper = kw.upper()
         # Keywords that affect list-building rules and stratagem eligibility

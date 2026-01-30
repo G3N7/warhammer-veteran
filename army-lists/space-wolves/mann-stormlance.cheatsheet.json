@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "name": "Mann Stormlance",
+    "faction": "Space Wolves",
+    "detachment": "Stormlance Task Force",
+    "points": 2000,
+    "battleSize": "Strike Force (2000pts)",
+    "source": "Michael Mann - California Cup 2025 (1st, Undefeated, 266 players)",
+    "note": "Reconstructed from tournament reports. ✅ = cache-verified, ⚠️ = web-sourced"
+  },
+  "units": [
+    {
+      "name": "Logan Grimnar",
+      "pts": 110,
+      "models": "1",
+      "role": "Epic Hero / Warlord",
+      "stats": { "M": "6\"", "T": 5, "SV": "2+", "W": 8, "LD": "6+", "OC": 1, "INV": "4++" },
+      "weapons": [
+        { "name": "Storm Bolter", "profile": "24\" | A2 | 2+ | S4 | 0 | 1", "tags": ["Rapid Fire 2"] },
+        { "name": "Axe Morkai (sweep)", "profile": "A10 | 2+ | S6 | -2 | 1", "tags": [] },
+        { "name": "Axe Morkai (strike)", "profile": "A6 | 2+ | S8 | -2 | 3", "tags": [] },
+        { "name": "Tyrnak & Fenrir", "profile": "A6 | 2+ | S5 | -1 | 1", "tags": ["Extra Attacks"] }
+      ],
+      "abilities": [
+        "1/game: Reserve unit arrives 1 turn early (ANY reserve unit, not just his)",
+        "+1CP strat cost for enemies within 12\" (Aura)"
+      ],
+      "core": ["Deep Strike", "Leader"],
+      "leads": ["Wolf Guard Terminators"],
+      "notes": "Leads WGT x10. Use reserve ability T1 to Deep Strike Terminators early."
+    },
+    {
+      "name": "Arjac Rockfist",
+      "pts": 105,
+      "models": "1",
+      "role": "Epic Hero (Solo)",
+      "stats": { "M": "6\"", "T": 5, "SV": "2+", "W": 6, "LD": "6+", "OC": 1, "INV": "4++" },
+      "weapons": [
+        { "name": "Foehammer (R)", "profile": "6\" | A1 | 2+ | S8 | -2 | 3", "tags": ["Anti-MV 3+", "Assault"] },
+        { "name": "Foehammer (M)", "profile": "A5 | 2+ | S8 | -2 | 3", "tags": ["Anti-MV 3+", "Precision"] }
+      ],
+      "abilities": [
+        "4+ FoD (melee) - led unit fights on death",
+        "Full RR Hit+Wound vs CHAR/MONSTER"
+      ],
+      "core": ["Deep Strike", "Leader"],
+      "leads": ["Wolf Guard Terminators"],
+      "notes": "Running SOLO in Mann's list. Charges biggest target independently. Cannot join Logan's WGT (Gate 12: 1 leader max)."
+    },
+    {
+      "name": "Bjorn the Fell-Handed",
+      "pts": 160,
+      "models": "1",
+      "role": "Epic Hero",
+      "stats": { "M": "9\"", "T": 9, "SV": "2+", "W": 8, "LD": "6+", "OC": 3, "INV": "5++", "FNP": "5+" },
+      "weapons": [
+        { "name": "Heavy Flamer", "profile": "12\" | D6 | N/A | S5 | -1 | 1", "tags": ["Torrent", "Ign Cover"] },
+        { "name": "Helfrost Cannon", "profile": "24\" | A3 | 3+ | S8 | -3 | 3", "tags": [] },
+        { "name": "Trueclaw", "profile": "A6 | 2+ | S12 | -2 | 3", "tags": ["Lethal Hits"] }
+      ],
+      "abilities": [
+        "+1CP each Command phase (automatic)",
+        "-1 to Wound when S > T (passive durability)"
+      ],
+      "core": ["Deadly Demise D3", "Smoke"],
+      "notes": "Backfield anchor. 5 bonus CP over 5 rounds. Helfrost Cannon for anti-heavy shooting."
+    },
+    {
+      "name": "Wolf Priest",
+      "pts": 85,
+      "models": "1",
+      "role": "Character",
+      "stats": { "M": "6\"", "T": 4, "SV": "3+", "W": 4, "LD": "6+", "OC": 1, "INV": "4++" },
+      "weapons": [
+        { "name": "Absolvor Bolt Pistol", "profile": "18\" | A1 | 3+ | S5 | -1 | 2", "tags": ["Pistol"] },
+        { "name": "Crozius Arcanum", "profile": "A5 | 2+ | S6 | -1 | 2", "tags": [] }
+      ],
+      "abilities": [
+        "Rez 1 model/Cmd phase (not CHAR)",
+        "+1 to Wound (melee) for led unit"
+      ],
+      "enhancement": { "name": "Portents of Wisdom", "pts": 15, "effect": "Re-roll Advance rolls for led unit" },
+      "core": ["Leader"],
+      "leads": ["Wolf Guard Headtakers", "Grey Hunters", "Blood Claws"],
+      "notes": "Leads Headtakers in 2000pt list. Enhancement included in 85pts total."
+    },
+    {
+      "name": "Lieutenant",
+      "pts": 55,
+      "models": "1",
+      "role": "Character",
+      "stats": { "M": "6\"", "T": 4, "SV": "3+", "W": 4, "LD": "6+", "OC": 1 },
+      "weapons": [
+        { "name": "Combi-weapon", "profile": "24\" | A1 | 4+ | S4 | 0 | 1", "tags": ["Anti-Inf 4+", "Dev Wounds", "Rapid Fire 1"] },
+        { "name": "Paired Combat Blades", "profile": "A6 | 3+ | S4 | 0 | 1", "tags": ["Twin-linked"] }
+      ],
+      "abilities": [
+        "Re-roll Wound rolls of 1 for led unit (shooting + melee)"
+      ],
+      "core": ["Leader"],
+      "leads": ["Assault Intercessor Squad", "Intercessor Squad", "others"],
+      "notes": "Generic SM unit. Provides wound re-rolls."
+    },
+    {
+      "name": "Wolf Guard Terminators (10)",
+      "pts": 340,
+      "models": "10 (1 Ldr + 9)",
+      "role": "Infantry",
+      "stats": { "M": "6\"", "T": 5, "SV": "2+", "W": 3, "LD": "6+", "OC": 1, "INV": "4++" },
+      "weapons": [
+        { "name": "Assault Cannon (x2)", "profile": "24\" | A6 | 3+ | S6 | 0 | 1", "tags": ["Dev Wounds"] },
+        { "name": "MC Power Weapon (x7)", "profile": "A4 | 3+ | S5 | -2 | 2", "tags": [] },
+        { "name": "Power Fist (x2)", "profile": "A3 | 3+ | S8 | -2 | 2", "tags": [] },
+        { "name": "Relic Greataxe (ldr)", "profile": "A4 | 3+ | S7 | -2 | 2", "tags": [] }
+      ],
+      "abilities": [
+        "-1 to Wound when S > T",
+        "Storm Shield: W4 instead of W3 (7 models equipped)"
+      ],
+      "core": ["Deep Strike"],
+      "notes": "Logan attached. 7x Storm Shield = 7×4W + 3×3W = 37W total. Deep Strike T2 (or T1 via Logan)."
+    },
+    {
+      "name": "Wulfen (10)",
+      "pts": 170,
+      "qty": 2,
+      "models": "10",
+      "role": "Infantry",
+      "stats": { "M": "7\"", "T": 5, "SV": "5+", "W": 3, "LD": "7+", "OC": 0, "FNP": "6+" },
+      "weapons": [
+        { "name": "Thunder Hammer", "profile": "A3 | 3+ | S10 | -2 | 3", "tags": ["Dev Wounds"] },
+        { "name": "Death Totem", "profile": "A3 | 3+ | S5 | -1 | 1", "tags": ["Extra Attacks"] }
+      ],
+      "abilities": [
+        "Berserk Charge: +1A and +1S on charge",
+        "OC 0 — CANNOT hold objectives or do actions"
+      ],
+      "core": ["Feel No Pain 6+"],
+      "notes": "x2 units. Pure melee hammers. WARNING: OC 0 means they CANNOT score. Use for killing only."
+    },
+    {
+      "name": "Thunderwolf Cavalry (6)",
+      "pts": 228,
+      "models": "6",
+      "role": "Mounted",
+      "stats": { "M": "12\"", "T": 6, "SV": "3+", "W": 4, "LD": "6+", "OC": 2, "INV": "4++" },
+      "weapons": [
+        { "name": "Bolt Pistol", "profile": "12\" | A1 | 3+ | S4 | 0 | 1", "tags": ["Pistol"] },
+        { "name": "Wolf Guard Weapon", "profile": "A4 | 3+ | S5 | -2 | 2", "tags": [] },
+        { "name": "Storm Shield", "profile": "—", "tags": ["4++ Invuln"] },
+        { "name": "Teeth and Claws", "profile": "A3 | 4+ | S5 | -1 | 1", "tags": ["Extra Attacks"] }
+      ],
+      "abilities": [
+        "Thunderous Charge: +1S & +1AP on charge turn",
+        "Storm Shield: 4++ invulnerable save"
+      ],
+      "core": ["Grenades"],
+      "notes": "Flanking unit. 12\" move + Advance + Charge under Stormlance = massive threat range."
+    },
+    {
+      "name": "Wolf Guard Headtakers",
+      "pts": 110,
+      "qty": 2,
+      "models": "3 + 3 Hunting Wolves",
+      "role": "Infantry",
+      "stats": { "M": "6\"", "T": 4, "SV": "3+", "W": 3, "LD": "6+", "OC": 1 },
+      "weapons": [
+        { "name": "Heavy Bolt Pistol", "profile": "18\" | A1 | 3+ | S5 | -1 | 2", "tags": ["Pistol"] },
+        { "name": "Paired MC Power Weapons", "profile": "A6 | 2+ | S5 | -2 | 2", "tags": [] },
+        { "name": "Hunting Wolf Teeth", "profile": "A3 | 4+ | S4 | -1 | 1", "tags": ["Extra Attacks"] }
+      ],
+      "abilities": [
+        "Select Quarry: Pick 1 enemy CHARACTER, MONSTER, or VEHICLE at start of battle",
+        "vs Quarry: [Devastating Wounds] + [Precision]"
+      ],
+      "core": [],
+      "notes": "⚠️ Points web-sourced (not in cache). x2 units. Wolf Priest leads unit 1. Character assassination role."
+    },
+    {
+      "name": "Intercessor Squad (5)",
+      "pts": 80,
+      "models": "5",
+      "role": "Battleline",
+      "stats": { "M": "6\"", "T": 4, "SV": "3+", "W": 2, "LD": "6+", "OC": 2 },
+      "weapons": [
+        { "name": "Bolt Rifle", "profile": "30\" | A1 | 3+ | S4 | -1 | 1", "tags": ["Assault", "Heavy"] },
+        { "name": "Bolt Pistol", "profile": "12\" | A1 | 3+ | S4 | 0 | 1", "tags": ["Pistol"] }
+      ],
+      "abilities": [],
+      "core": [],
+      "notes": "Generic SM unit. Backfield objective holders."
+    },
+    {
+      "name": "Stormraven Gunship",
+      "pts": 280,
+      "models": "1",
+      "role": "Vehicle / Fly / Transport",
+      "stats": { "M": "14\"", "T": 10, "SV": "3+", "W": 14, "LD": "6+", "OC": 0 },
+      "weapons": [
+        { "name": "Twin Multi-melta", "profile": "18\" | A4 | 3+ | S9 | -4 | D6", "tags": ["Melta 2"] },
+        { "name": "Twin Heavy Plasma Cannon", "profile": "36\" | A2D3 | 3+ | S8/-9 | -3/-4 | 2/3", "tags": ["Blast", "Hazardous (supercharge)"] },
+        { "name": "Hurricane Bolters (x2)", "profile": "24\" | A12 | 3+ | S4 | 0 | 1", "tags": ["Rapid Fire 6", "Twin-linked"] },
+        { "name": "Stormstrike Missiles (x2)", "profile": "48\" | A2 | 3+ | S10 | -3 | 3", "tags": [] }
+      ],
+      "abilities": [
+        "Transport: 12 INFANTRY models (TERMINATOR/JUMP count as 2)",
+        "Hover: Can hover (becomes slower, gains OC)"
+      ],
+      "core": ["Deadly Demise D3", "Hover"],
+      "notes": "⚠️ Points web-sourced (not in SM cache). Heavy firepower + transport."
+    }
+  ],
+  "keywords": {
+    "Deep Strike": "Set up in Reserves, arrive 9\"+ from enemies",
+    "Deadly Demise X": "On death, 6+ = X mortal wounds to units within 6\"",
+    "Leader": "Attaches to bodyguard unit, wounds go to bodyguards first",
+    "Rapid Fire X": "+X attacks at half range",
+    "Twin-linked": "RR Wound roll",
+    "Lethal Hits": "Crit Hit auto-wounds",
+    "Dev Wounds": "Crit Wound = mortals equal to damage, no saves",
+    "Torrent": "Auto-hit",
+    "Precision": "Can allocate wounds to visible CHAR",
+    "Hazardous": "After attacks, roll D6 per hazardous wpn used; 1 = 3MW",
+    "Anti-X Y+": "Unmod wound Y+ vs keyword X = Crit Wound",
+    "Extra Attacks": "Bonus attacks, doesn't replace other melee",
+    "Assault": "Can shoot after Advancing (only Assault weapons)",
+    "Pistol": "Can shoot in engagement range (only at engaged unit)",
+    "Ign Cover": "Target can't benefit from cover",
+    "Grenades": "Unit can use Grenade stratagem (D6 S4 AP0 Dmg1 Blast at 6\")",
+    "Smoke": "Unit can use Smokescreen stratagem (-1 to Hit vs this unit)",
+    "Lance": "+1 to Wound if unit made a Charge move this turn",
+    "Heavy": "-1 to Hit if unit moved (unless VEHICLE/MONSTER)",
+    "Melta X": "+X Damage at half range",
+    "Blast": "+1 attack per 5 models in target unit",
+    "Sustained X": "Crit Hit = X extra hits"
+  },
+  "detachmentRule": {
+    "name": "Lightning Assault",
+    "effect": "All ADEPTUS ASTARTES can charge after Advancing or Falling Back"
+  },
+  "factionRule": {
+    "name": "Oath of Moment (Divergent)",
+    "effect": "Start of Cmd phase: pick 1 enemy unit. RR Hit rolls vs that unit. DIVERGENT: Space Wolves get re-roll hits ONLY (no +1 to wound)."
+  },
+  "coreStratagems": [
+    { "name": "Command Re-roll", "cp": 1, "phase": "Any", "effect": "RR one Hit, Wound, Damage, Save, Advance, or Charge roll" },
+    { "name": "Counter-offensive", "cp": 2, "phase": "Fight", "effect": "After enemy unit fights, one of your units fights next" },
+    { "name": "Epic Challenge", "cp": 1, "phase": "Fight", "effect": "CHAR gets [PRECISION] for melee attacks this phase" },
+    { "name": "Fire Overwatch", "cp": 1, "phase": "Enemy Move/Charge", "effect": "Shoot at enemy ending move within 24\"; hit on 6s only" },
+    { "name": "Go to Ground", "cp": 1, "phase": "Enemy Shooting", "effect": "Unit gets +1 Save & Benefit of Cover until next turn; Battle-shocked" },
+    { "name": "Grenade", "cp": 1, "phase": "Shooting", "effect": "GRENADES unit: 1 model throws D6 S4 AP0 Dmg1 Blast at 6\"" },
+    { "name": "Heroic Intervention", "cp": 2, "phase": "Enemy Charge", "effect": "After enemy charges, your unit within 6\" makes D6\" move toward them" },
+    { "name": "Insane Bravery", "cp": 1, "phase": "Any", "effect": "Auto-pass Battle-shock test" },
+    { "name": "Rapid Ingress", "cp": 1, "phase": "Enemy Move", "effect": "Set up one Reserves unit at end of enemy Move phase" },
+    { "name": "Smokescreen", "cp": 1, "phase": "Enemy Shooting", "effect": "SMOKE unit: -1 to Hit vs this unit until your next turn" },
+    { "name": "Tank Shock", "cp": 1, "phase": "Charge", "effect": "VEHICLE/MOUNTED: after charge, pick enemy in Engagement; roll D6 per model, 5+ = MW" }
+  ],
+  "detachmentStratagems": [
+    { "name": "Armour of Contempt", "cp": 1, "phase": "Any (save)", "type": "Battle Tactic", "effect": "Worsen AP of attacks vs ADEPTUS ASTARTES unit by 1" },
+    { "name": "Blitzing Fusillade", "cp": 1, "phase": "Shooting", "type": "Battle Tactic", "effect": "Unit that Advanced: ranged attacks get [ASSAULT] & +1 to Hit" },
+    { "name": "Lightning Assault", "cp": 1, "phase": "Charge", "type": "Strategic Ploy", "effect": "Unit that Fell Back: +2 to Charge roll this phase" },
+    { "name": "Storm of Violence", "cp": 1, "phase": "Fight", "type": "Battle Tactic", "effect": "Unit that charged: melee Crit Hits cause 1 extra hit" },
+    { "name": "Ride Hard, Ride Fast", "cp": 1, "phase": "Move", "type": "Strategic Ploy", "effect": "MOUNTED/VEHICLE unit: +2\" to Move and Advance rolls" },
+    { "name": "Pack Hunters", "cp": 1, "phase": "Fight", "type": "Battle Tactic", "effect": "SW unit: +1 to Wound in melee vs enemy engaged by another SW unit" }
+  ],
+  "pointsSummary": [
+    { "unit": "Logan Grimnar", "pts": 110, "qty": 1, "verified": true },
+    { "unit": "Arjac Rockfist (solo)", "pts": 105, "qty": 1, "verified": true },
+    { "unit": "Bjorn the Fell-Handed", "pts": 160, "qty": 1, "verified": true },
+    { "unit": "Wolf Priest + Portents of Wisdom", "pts": 85, "qty": 1, "verified": true },
+    { "unit": "Lieutenant", "pts": 55, "qty": 1, "verified": true },
+    { "unit": "Wolf Guard Terminators (10)", "pts": 340, "qty": 1, "verified": true },
+    { "unit": "Wulfen (10)", "pts": 170, "qty": 2, "verified": true },
+    { "unit": "Thunderwolf Cavalry (6)", "pts": 228, "qty": 1, "verified": true },
+    { "unit": "Wolf Guard Headtakers", "pts": 110, "qty": 2, "verified": false },
+    { "unit": "Intercessor Squad (5)", "pts": 80, "qty": 1, "verified": true },
+    { "unit": "Stormraven Gunship", "pts": 280, "qty": 1, "verified": false }
+  ],
+  "phaseReminders": {
+    "command": [
+      { "text": "BJORN +1 CP: Automatic every Command phase. 5 bonus CP over 5 rounds.", "priority": 1 },
+      { "text": "OATH OF MOMENT: Pick the scariest enemy unit. ALL your units re-roll hit rolls vs it (shooting AND melee). DIVERGENT: hits only, NOT +1 wound.", "priority": 1 },
+      { "text": "WOLF PRIEST RESURRECT: Bring back 1 dead Headtaker (not characters). Great for keeping assassination squad alive.", "priority": 2 },
+      { "text": "LOGAN EARLY RESERVES (once/game): Any reserve unit arrives 1 turn early. Terminators can Deep Strike T1!", "priority": 2 }
+    ],
+    "movement": [
+      { "text": "STORMLANCE RULE: Every unit can Advance and still charge. Also can charge after Falling Back. THIS IS YOUR WHOLE ARMY'S THING — USE IT.", "priority": 1 },
+      { "text": "DEEP STRIKE: Logan + 10 Terminators arrive 9\"+ from enemies. With Logan's T1 ability, you can alpha strike before opponent is ready.", "priority": 1 },
+      { "text": "TWC FLANKING: 12\" move + Advance (D6\") + Charge = ~24\" threat range. Flank around enemy and hit backfield.", "priority": 2 },
+      { "text": "RIDE HARD RIDE FAST (1CP): Give TWC or Stormraven +2\" Move and +2\" Advance. Extends threat range.", "priority": 2 },
+      { "text": "WULFEN OC WARNING: Both Wulfen units have OC 0. They CANNOT score objectives. Position them to KILL, not to hold.", "priority": 3 }
+    ],
+    "shooting": [
+      { "text": "OATH TARGET: Re-roll ALL hits against your chosen target. Prioritize shooting at that unit first.", "priority": 1 },
+      { "text": "STORMRAVEN FIREPOWER: Twin Multi-melta (S9 AP-4 D6 Melta 2), Twin Heavy Plasma (S8/9 AP-3/-4 D2/3), Hurricane Bolters (24 shots). Point at priority target.", "priority": 1 },
+      { "text": "BJORN: Helfrost Cannon A3 S8 AP-3 D3 at 24\". Good anti-heavy chip damage.", "priority": 2 },
+      { "text": "BLITZING FUSILLADE (1CP): If unit Advanced, ranged gets [ASSAULT] + hit on 3+. Good for TWC or Wulfen with pistols.", "priority": 3 }
+    ],
+    "charge": [
+      { "text": "STORM OF VIOLENCE (1CP): Declare on a charging unit. Their melee crit hits (6s) generate 1 extra hit each. HUGE on Terminators with 40+ attacks.", "priority": 1 },
+      { "text": "TWC THUNDEROUS CHARGE: On charge turn, Wolf Guard Weapons become S6 AP-3 (instead of S5 AP-2). Much deadlier.", "priority": 1 },
+      { "text": "WULFEN BERSERK CHARGE: +1A and +1S on charge. Thunder Hammers go to S11 with 4 attacks each.", "priority": 1 },
+      { "text": "LIGHTNING ASSAULT (1CP): Unit that Fell Back gets +2 to Charge. Combined with Stormlance, Fall Back and charge same turn at +2.", "priority": 2 },
+      { "text": "ARJAC SOLO CHARGE: Point Arjac at the scariest CHAR or MONSTER. Full re-roll hits and wounds. Foehammer S8 AP-2 D3 Precision.", "priority": 2 }
+    ],
+    "fight": [
+      { "text": "OATH TARGET MELEE: Still re-rolling all hits in melee vs Oath target. Focus your best attackers on it.", "priority": 1 },
+      { "text": "PACK HUNTERS (1CP): If another SW unit is also engaged with same enemy, get +1 to Wound. Gang up on targets.", "priority": 1 },
+      { "text": "WOLF PRIEST +1 WOUND: Headtakers get +1 to Wound melee. Paired MC Power Weapons wound Marines on 3+.", "priority": 1 },
+      { "text": "HEADTAKER ASSASSINATION: vs Quarry target, attacks gain [Devastating Wounds] + [Precision]. Point at enemy warlord.", "priority": 2 },
+      { "text": "TERMINATOR DURABILITY: -1 to Wound when S > T. Enemy S8 weapons wound on 4+ instead of 3+. Very tanky.", "priority": 2 },
+      { "text": "ARJAC VS CHAR/MONSTER: Full re-roll hits AND wounds. Foehammer at Precision. Kills enemy characters dead.", "priority": 2 }
+    ],
+    "endOfTurn": [
+      { "text": "SCORE OBJECTIVES: Check Primary + Secondary. Intercessors and TWC are your OC scorers. Wulfen CANNOT score (OC 0).", "priority": 1 },
+      { "text": "STORMRAVEN HOVER: If grounded, gains OC. Consider hovering late game for objective play.", "priority": 2 }
+    ]
+  },
+  "scaledLists": {
+    "1000pt": {
+      "points": 1000,
+      "note": "Cache-verified, exactly 1000pts",
+      "units": [
+        { "unit": "Logan Grimnar", "pts": 110, "leads": "Wolf Guard Terminators x10" },
+        { "unit": "Bjorn the Fell-Handed", "pts": 160, "role": "CP gen + fire support" },
+        { "unit": "Wolf Priest + Portents of Wisdom", "pts": 85, "leads": "Blood Claws x10" },
+        { "unit": "Wolf Guard Terminators x10", "pts": 340, "role": "Deep Strike brick" },
+        { "unit": "Wulfen x10", "pts": 170, "role": "Melee hammer" },
+        { "unit": "Blood Claws x10", "pts": 135, "role": "Objective holders + melee" }
+      ]
+    },
+    "500pt_colosseum": {
+      "points": 500,
+      "format": "King of the Colosseum",
+      "note": "Cache-verified, exactly 500pts. No Epic Heroes, max T9, 2+ INFANTRY.",
+      "units": [
+        { "unit": "Wolf Priest + Portents of Wisdom", "pts": 85, "leads": "Grey Hunters x10" },
+        { "unit": "Wolf Guard Terminators x5", "pts": 170, "role": "Deep Strike hammer" },
+        { "unit": "Grey Hunters x10", "pts": 165, "role": "Primary objective (30 OC)" },
+        { "unit": "Wolf Scouts x5", "pts": 80, "role": "Infiltrate + Scouts 6\" forward" }
+      ],
+      "validation": {
+        "characters": "Wolf Priest = 1 CHARACTER ✅",
+        "epic_heroes": "None ✅",
+        "max_toughness": "T5 (Terminators) ✅ under T9 cap",
+        "infantry_minimum": "WGT + Grey Hunters + Wolf Scouts = 3 INFANTRY ✅"
+      }
+    }
+  }
+}
