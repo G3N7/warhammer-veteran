@@ -245,52 +245,14 @@ This is the refined Dread Castle archetype: heroes + Victrix wall + maximum Drea
 | **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
 | **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
 | **Redemptor Dreadnought**            | 1      | Versatile All-Rounder                | 195           |
-| **Redemptor Dreadnought**            | 1      | Versatile All-Rounder                | 195           |
-| **Intercessor Squad**                | 10     | Battleline (Guilliman)               | 160           |
-| **Intercessor Squad**                | 5      | Battleline (Calgar)                  | 80            |
-| **Intercessor Squad**                | 5      | Battleline (Captain)                 | 80            |
-| **Sternguard Veteran Squad**         | 5      | Precision Fire (Lieutenant attached) | 100           |
-| **Sternguard Veteran Squad**         | 5      | Precision Fire Support               | 100           |
-| **TOTAL**                            |        |                                      | **2,075 pts** |
-
-> **⚠️ LIST IS 75pts OVER** - See Alternative Build below for legal 2000pt version
-
-**Points Calculation (January 2026 MFM - Verified):**
-```
-Guilliman:         340
-Calgar:            200
-Captain + Enh:     80 + 10 = 90
-Lieutenant + Enh:  55 + 30 = 85
-3× Ballistus:      150 × 3 = 450
-2× Redemptor:      195 × 2 = 390
-Intercessors:      160 + 80 + 80 = 320
-2× Sternguard:     100 × 2 = 200
-─────────────────────────
-TOTAL: 340 + 200 + 90 + 85 + 450 + 390 + 320 + 200 = 2,075pts ❌
-```
-
----
-
-### Alternative 2000pt Build - LEGAL (Drop 1 Redemptor)
-
-| Unit                                 | Models | Role                                 | Points        |
-| ------------------------------------ | ------ | ------------------------------------ | ------------- |
-| **Roboute Guilliman**                | 1      | Primarch Warlord                     | 340           |
-| **Marneus Calgar**                   | 3      | Chapter Master (includes 2x Victrix) | 200           |
-| **Captain in Gravis Armour**         | 1      | Enhancement Bearer                   | 80            |
-| **Enhancement: Artificer Armour**    | -      | On Captain                           | 10            |
-| **Lieutenant**                       | 1      | Wound Rerolls for Sternguard         | 55            |
-| **Enhancement: Fire Discipline**     | -      | On Lieutenant                        | 30            |
-| **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
-| **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
-| **Ballistus Dreadnought**            | 1      | Anti-tank Gunboat                    | 150           |
-| **Redemptor Dreadnought**            | 1      | Versatile All-Rounder                | 195           |
 | **Intercessor Squad**                | 10     | Battleline (Guilliman)               | 160           |
 | **Intercessor Squad**                | 10     | Battleline (Calgar)                  | 160           |
-| **Intercessor Squad**                | 5      | Battleline (Captain)                 | 80            |
+| **Intercessor Squad**                | 7      | Battleline (Captain)                 | 112           |
 | **Sternguard Veteran Squad**         | 5      | Precision Fire (Lieutenant attached) | 100           |
 | **Sternguard Veteran Squad**         | 5      | Precision Fire Support               | 100           |
-| **TOTAL**                            |        |                                      | **1,960 pts** |
+| **TOTAL**                            |        |                                      | **1,992 pts** |
+
+**STATUS: TOURNAMENT LEGAL (1,992/2,000pts)**
 
 **Points Calculation (January 2026 MFM - Verified):**
 ```
@@ -300,32 +262,35 @@ Captain + Enh:     80 + 10 = 90
 Lieutenant + Enh:  55 + 30 = 85
 3× Ballistus:      150 × 3 = 450
 1× Redemptor:      195
-Intercessors:      160 + 160 + 80 = 400
+Intercessors:      160 + 160 + 112 = 432
 2× Sternguard:     100 × 2 = 200
 ─────────────────────────
-TOTAL: 340 + 200 + 90 + 85 + 450 + 195 + 400 + 200 = 1,960pts ✅
+TOTAL: 340 + 200 + 90 + 85 + 450 + 195 + 432 + 200 = 1,992pts ✅
 ```
-
-**40pts remaining** - Options:
-- Upgrade 5-man Intercessors to 7-man (+32pts) = 1,992pts
-- Add 2 more Intercessors to any squad (+32pts)
-
-**STATUS: ✅ TOURNAMENT LEGAL (1,960/2,000pts)**
 
 **Rule of Three Compliance:**
 
-- Ballistus Dreadnought: 3 units ✅ (MAX)
-- Redemptor Dreadnought: 1 unit ✅
-- Intercessor Squads: 3 units ✅ (Battleline exempt from Rule of Three)
-- Sternguard Veteran Squads: 2 units ✅
-- All other units: 1 each ✅
+- Ballistus Dreadnought: 3 units (MAX)
+- Redemptor Dreadnought: 1 unit
+- Intercessor Squads: 3 units (Battleline exempt from Rule of Three)
+- Sternguard Veteran Squads: 2 units
+- All other units: 1 each
 
 **Why This Build Works:**
-- **4 Dreadnoughts total** - 3× Ballistus + 1× Redemptor under Guilliman's 6" reroll bubble
+- **4 Dreadnoughts total** - 3x Ballistus + 1x Redemptor under Guilliman's 6" reroll bubble
 - **Triple Ballistus** - Maximum anti-tank firepower (S12 AP-3 D6+1 lascannons)
 - **Sternguard Veterans** - Lethal Hits bolt rifles for precision kills
-- **25 Intercessors** - Strong objective presence (10+10+5 models)
+- **27 Intercessors** - Strong objective presence (10+10+7 models)
 - **Victrix Wall** - Calgar's 2 Victrix Honour Guard bodyblock for Characters
+
+---
+
+> **Theoretical/Aspirational Build (2,075pts - OVER LIMIT, NOT LEGAL)**
+>
+> Adding a 2nd Redemptor Dreadnought (+195pts) and running Intercessors at 10+5+5 (+320pts)
+> brings the list to 2,075pts, which exceeds the 2,000pt cap by 75pts.
+> This build would maximize Dreadnought firepower with 5 walkers but is not tournament legal.
+> If future points adjustments bring this under cap, it would be the ideal version.
 
 ### Enhancements (Gladius Task Force)
 
@@ -361,7 +326,7 @@ TOTAL: 340 + 200 + 90 + 85 + 450 + 195 + 400 + 200 = 1,960pts ✅
 
 - **Maximum Firepower:** 4 Dreadnoughts under Guilliman = 8+ high-damage shots per turn
 - **Elite durability:** Guilliman + Calgar nearly unkillable
-- **Objective presence:** 25 Intercessors + 10 Sternguard + Characters hold 3-4 objectives
+- **Objective presence:** 27 Intercessors + 10 Sternguard + Characters hold 3-4 objectives
 - **Anti-tank overkill:** 3× Ballistus delete any vehicle/monster
 - **Anti-elite:** Redemptor plasma deletes Terminators, Crisis Suits, Custodes
 - **Precision kills:** Sternguard Lethal Hits + Fire Discipline crits on 5+
@@ -486,14 +451,14 @@ Calgar + Intercessors     Captain + Intercessors
 
 ### 2000pt "Sons of Guilliman" - Unit Loadouts (DREAD CASTLE)
 
-**Roboute Guilliman (345pts):**
+**Roboute Guilliman (340pts):**
 
 - Hand of Dominion (S8 AP-4 D3, 8 Attacks)
 - Emperor's Sword (S14 AP-4 D4)
 - Armor of Fate (2+/4++ save, regenerates D3 wounds/turn)
 - **Position:** CENTER of the 6" reroll bubble - all Dreadnoughts key off him
 
-**Marneus Calgar (210pts includes 2x Victrix Honour Guard):**
+**Marneus Calgar (200pts includes 2x Victrix Honour Guard):**
 
 - Gauntlets of Ultramar (twin bolter + power fists)
 - 2x Victrix Honour Guard (storm shields - bodyblock wounds for Calgar)
@@ -528,33 +493,33 @@ Calgar + Intercessors     Captain + Intercessors
 - **Why Plasma:** Complements Ballistus anti-tank, shreds elite infantry
 - **Position:** Within 6" of Guilliman for reroll bubble
 
-**Intercessor Squad #1 (80pts - 10 models) - Guilliman's Unit:**
+**Intercessor Squad #1 (160pts - 10 models) - Guilliman's Unit:**
 
 - 1x Intercessor Sergeant: Bolt rifle + power fist
 - 9x Intercessors: Bolt rifle
 
-**Intercessor Squad #2 (80pts - 10 models) - Calgar's Unit:**
+**Intercessor Squad #2 (160pts - 10 models) - Calgar's Unit:**
 
 - 1x Intercessor Sergeant: Bolt rifle + power fist
 - 9x Intercessors: Bolt rifle
 
-**Intercessor Squad #3 (80pts - 10 models) - Captain's Unit:**
+**Intercessor Squad #3 (112pts - 7 models) - Captain's Unit:**
 
 - 1x Intercessor Sergeant: Auto bolt rifle + power fist
-- 9x Intercessors: Auto bolt rifle (Devastator Doctrine synergy)
+- 6x Intercessors: Auto bolt rifle (Devastator Doctrine synergy)
 
-**Sternguard Veteran Squad #1 (90pts - 5 models) - Lieutenant Attached:**
+**Sternguard Veteran Squad #1 (100pts - 5 models) - Lieutenant Attached:**
 
 - 5x Sternguard Veterans: Sternguard bolt rifle (Lethal Hits)
-- **Combo:** Lieutenant's Fire Discipline = Sustained Hits 1 + Lethal Hits = crit-fishing
+- **Combo:** Lieutenant's Fire Discipline = crits on 5+ with Lethal Hits = auto-wound fishing
 - **Role:** Precision Character/elite sniping
 
-**Sternguard Veteran Squad #2 (90pts - 5 models):**
+**Sternguard Veteran Squad #2 (100pts - 5 models):**
 
 - 5x Sternguard Veterans: Sternguard bolt rifle (Lethal Hits)
 - **Role:** Flank objective holders with precision fire support
 
-**Total Models: 48 (4 Characters + 2 Victrix + 5 Dreadnoughts + 40 Infantry)**
+**Total Models: 47 (4 Characters + 2 Victrix + 4 Dreadnoughts + 37 Infantry)**
 
 ---
 
@@ -569,11 +534,11 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 - ✅ **Enhancements:** Max 1 per Character (Captain gets Artificer, Lieutenant gets Fire Discipline)
 - ✅ **Epic Heroes:** Each can only be taken once (Guilliman, Calgar both unique)
 - ✅ **Battleline:** Intercessors count as Battleline (exempt from Rule of Three)
-- ✅ **Points Limits:** 500pt (510pts), 1000pt (995pts), 2000pt (1,960pts)
+- ✅ **Points Limits:** 500pt (510pts), 1000pt (995pts), 2000pt (1,992pts)
 - ✅ **RULE OF THREE COMPLIANCE:**
   - 500pt: Ballistus (1) ✅, Redemptor (1) ✅
   - 1000pt: Ballistus (2) ✅, Redemptor (1) ✅
-  - 2000pt: Ballistus (3 - MAX) ✅, Redemptor (2) ✅, Sternguard (2) ✅
+  - 2000pt: Ballistus (3 - MAX) ✅, Redemptor (1) ✅, Sternguard (2) ✅
 
 ### Unit Attachments
 
@@ -733,7 +698,7 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 
 ---
 
-### 2000pt "Sons of Guilliman" - Physical Models Required (LEGAL BUILD @ 1,960pts)
+### 2000pt "Sons of Guilliman" - Physical Models Required (LEGAL BUILD @ 1,992pts)
 
 **Epic Heroes:**
 
@@ -752,9 +717,9 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 
 **Infantry:**
 
-- **Intercessors (25 models total):**
+- **Intercessors (27 models total):**
   - 3x Intercessor Sergeant (1 per squad)
-  - 22x Intercessors (10-man + 10-man + 5-man squads)
+  - 24x Intercessors (10-man + 10-man + 7-man squads)
 - **Sternguard Veterans (10 models total):**
   - 10x Sternguard Veterans (2 squads of 5)
 - **Victrix Honour Guard:**
@@ -765,9 +730,9 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 - Epic Heroes: 2 (Guilliman + Calgar w/ 2 Victrix)
 - Generic Characters: 2 (Captain + Lieutenant)
 - Dreadnoughts: 4 (3 Ballistus + 1 Redemptor)
-- Infantry: 35 models (25 Intercessors + 10 Sternguard)
+- Infantry: 37 models (27 Intercessors + 10 Sternguard)
 
-**GRAND TOTAL: 45 models (including 4 Dreadnoughts)**
+**GRAND TOTAL: 47 models (including 4 Dreadnoughts)**
 
 | Category | Models |
 |----------|--------|
@@ -777,9 +742,9 @@ All lists and loadouts have been verified for 10th Edition Warhammer 40,000 lega
 | Lieutenant | 1 |
 | Ballistus Dreads | 3 |
 | Redemptor Dread | 1 |
-| Intercessors | 25 |
+| Intercessors | 27 |
 | Sternguard | 10 |
-| **TOTAL** | **45** |
+| **TOTAL** | **47** |
 
 *Note: Victrix are counted with Calgar as a single unit (3 models total).*
 
@@ -855,7 +820,7 @@ Ballistus #1 + Ballistus #2 (within 6" of each other, 36" from midfield)
 
 [MIDFIELD]
 Guilliman + Intercessor Squad #1 (center objective)
-Assault Intercessors (aggressive forward position, threatening charge)
+Redemptor Dreadnought (midfield fire support)
 ```
 
 **2000pt DREAD CASTLE Deployment:**
@@ -864,7 +829,7 @@ Assault Intercessors (aggressive forward position, threatening charge)
 [THE KILLING GROUND - CENTER OBJECTIVE]
                     ★ GUILLIMAN ★ (center)
     Ballistus #1      Ballistus #2      Ballistus #3
-          Redemptor #1        Redemptor #2
+                    Redemptor
 
     <────────── 6" REROLL BUBBLE ──────────>
 
@@ -877,7 +842,7 @@ Lieutenant + Sternguard #1 (precision fire support)
 Sternguard #2 (secondary objective holder)
 ```
 
-**CRITICAL:** ALL 5 Dreadnoughts within Guilliman's 6" reroll bubble. This is non-negotiable. The castle moves as one unit - never spread out your Dreadnoughts.
+**CRITICAL:** ALL 4 Dreadnoughts within Guilliman's 6" reroll bubble. This is non-negotiable. The castle moves as one unit - never spread out your Dreadnoughts.
 
 ### Target Priority Guide
 
@@ -931,8 +896,8 @@ Command Phase:
 Movement:
 - Advance Guilliman + Intercessor Squad #1 toward center (6+D6")
 - Advance Calgar + Intercessor Squad #2 toward secondary objective (6+D6")
-- Advance Assault Intercessors + Lieutenant toward enemy deployment (12+D6" total threat)
-- Advance Infernus Squad #1 forward screening
+- Captain + Intercessor Squad #3 hold backfield objective
+- Lieutenant + Sternguard #1 move to firing positions on flank
 - Move Ballistus #1 within 6" of Guilliman (maintain reroll aura)
 - Keep Ballistus #2 + #3 + Redemptor in backfield fire positions
 
@@ -940,54 +905,56 @@ Shooting:
 - Ballistus #1 (within Guilliman reroll aura): Target Oath of Moment unit (enemy tank)
 - Ballistus #2 + #3: Also target Oath of Moment unit (focus fire)
 - Redemptor (plasma mode): Target enemy elite infantry (Crisis Suits, etc.)
-- All Intercessor squads: Shoot despite Advancing (Devastator Doctrine) at enemy screens
+- Sternguard #1 (with Lieutenant's Fire Discipline): Fish for crits on 5+ vs elite targets
+- All Intercessor squads: Shoot at enemy screens
 
 Expected Result: 2-3 enemy vehicles/monsters deleted, board control established
 ```
 
-**TURN 2 - ASSAULT DOCTRINE ACTIVE**
+**TURN 2 - SUSTAINED HITS ACTIVE**
 
 ```
 Command Phase:
-- Activate Assault Doctrine
-- Oath of Moment on 1 enemy Character unit (reroll hits)
+- Activate Tactical Doctrine (Sustained Hits 1)
+- Oath of Moment on 1 enemy elite/Character unit (reroll hits)
 - Calgar generates +1 CP (total ~4 CP after Turn 1 spending)
 
 Movement:
 - Guilliman + Calgar hold center objectives (already in position)
-- Assault Intercessors Advance toward enemy backfield (6+D6")
-- Infernus Squad Advance toward enemy lines (6+D6")
 - Maintain Guilliman's 6" Dreadnought bubble
+- Reposition Sternguard squads for optimal firing angles
+- Captain + Intercessor Squad #3 hold backfield
+
+Shooting:
+- ALL Dreadnoughts within Guilliman's reroll bubble: Focus fire on Oath of Moment target
+- Sternguard #1 (Lieutenant attached, Fire Discipline): Sustained Hits + crits on 5+ = volume fire
+- Sternguard #2: Precision fire on secondary targets
+- Intercessor squads: Volume fire benefits most from Sustained Hits 1
 
 Charge:
-- Assault Intercessors + Lieutenant CHARGE after Advancing (Assault Doctrine)
-  - Lieutenant has +2 Attack/Strength from The Honour Vehement enhancement
-  - Charge into enemy backfield objective holders
-- Infernus Squad charges if flamers already in range
 - Guilliman charges if priority Character target in range
+- Otherwise hold position - this is a shooting army
 
-Shooting (before charging):
-- Focus fire on Oath of Moment targets
-- Soften charge targets with Intercessor/Infernus shooting
-
-Expected Result: Enemy backfield disrupted, center objectives held, 3-4 enemy units destroyed
+Expected Result: Center objectives held, 2-3 more enemy units destroyed, board control solidified
 ```
 
-**TURN 3+ - TACTICAL DOCTRINE (IF NEEDED)**
+**TURN 3+ - LETHAL HITS ACTIVE (GRINDING PHASE)**
 
 ```
 Command Phase:
-- Activate Tactical Doctrine (only if units are tied up in melee)
+- Activate Assault Doctrine (Lethal Hits)
 - Oath of Moment on 1 remaining priority threat (reroll hits)
 - Calgar +1 CP
 
 Movement:
-- Units tied in melee Fall Back
 - Reposition Intercessors to claim more objectives
+- Keep Dreadnought castle tight within Guilliman's 6" bubble
 
 Shooting:
-- Fall Back units can STILL SHOOT (Tactical Doctrine)
+- Lethal Hits = auto-wounds on critical hits, bypasses high Toughness
+- Sternguard with native Lethal Hits stack with Fire Discipline crits on 5+ = devastating
 - Focus fire with Guilliman's reroll aura on priority targets
+- Intercessors clear remaining screens
 
 Expected Result: Hold 3-4 objectives, grind remaining enemy forces
 ```
@@ -1019,19 +986,19 @@ Expected Result: Hold 3-4 objectives, grind remaining enemy forces
 **Strong Against:**
 
 - **Armor-Heavy Armies:** Triple Ballistus delete 3 vehicles per turn
-- **Elite Infantry:** Redemptor plasma + Infernus flamers shred Crisis Suits, Terminators
-- **Melee Armies:** Infernus Squad Torrent flamers prevent charges, Guilliman counter-charges
+- **Elite Infantry:** Redemptor plasma + Sternguard Lethal Hits shred Crisis Suits, Terminators
+- **Melee Armies:** 27 Intercessors screen charges, Guilliman counter-charges
 
 **Weak Against:**
 
 - **Mortal Wound Spam:** Psykers, Thousand Sons, Grey Knights (2+/4++ doesn't help)
-- **Extreme Horde:** 200+ model Ork/Guard armies (not enough Infernus Squad flamers)
+- **Extreme Horde:** 200+ model Ork/Guard armies (limited anti-horde volume)
 - **Indirect Fire:** Basilisks, Whirlwinds hiding behind terrain
 
 **Tactical Adjustments:**
 
 - **Vs Mortal Wounds:** Screen Characters with Intercessors, spread out to minimize blast radius
-- **Vs Horde:** Activate Devastator Doctrine early, maximize Infernus/Redemptor gatling usage
+- **Vs Horde:** Maximize Redemptor plasma Blast + Intercessor volume fire
 - **Vs Indirect:** Rush midfield aggressively, deny Line of Sight with terrain
 
 ---
@@ -1046,8 +1013,8 @@ Expected Result: Hold 3-4 objectives, grind remaining enemy forces
 - [Ballistus Dreadnought](https://wahapedia.ru/wh40k10ed/factions/space-marines/Ballistus-Dreadnought)
 - [Redemptor Dreadnought](https://wahapedia.ru/wh40k10ed/factions/space-marines/Redemptor-Dreadnought)
 - [Intercessor Squad](https://wahapedia.ru/wh40k10ed/factions/space-marines/Intercessor-Squad)
-- [Assault Intercessor Squad](https://wahapedia.ru/wh40k10ed/factions/space-marines/Assault-Intercessor-Squad)
-- [Infernus Squad](https://wahapedia.ru/wh40k10ed/factions/space-marines/Infernus-Squad)
+- [Sternguard Veteran Squad](https://wahapedia.ru/wh40k10ed/factions/space-marines/Sternguard-Veteran-Squad)
+- [Lieutenant](https://wahapedia.ru/wh40k10ed/factions/space-marines/Lieutenant)
 
 **Detachment Rules:**
 
@@ -1093,13 +1060,13 @@ The Ultramarines are the poster boys of Warhammer 40,000 - the XIII Legion, code
 | Unit                  | Search Link               | Price (USD) | Notes                  |
 | --------------------- | ------------------------- | ----------- | ---------------------- |
 | Ballistus Dreadnought | [Search →](https://www.warhammer.com/en-US/plp?search=Ballistus%20Dreadnought) | ~$65        | Need 3 for 2000pt list |
-| Redemptor Dreadnought | [Search →](https://www.warhammer.com/en-US/plp?search=Redemptor%20Dreadnought) | ~$65        | Need 2 for 2000pt DREAD CASTLE |
+| Redemptor Dreadnought | [Search →](https://www.warhammer.com/en-US/plp?search=Redemptor%20Dreadnought) | ~$65        | Need 1 for 2000pt DREAD CASTLE |
 
 ### Troops & Infantry
 
 | Unit                    | Search Link               | Price (USD) | Notes                                               |
 | ----------------------- | ------------------------- | ----------- | --------------------------------------------------- |
-| Primaris Intercessors   | [Search →](https://www.warhammer.com/en-US/plp?search=Primaris%20Intercessors) | ~$60        | 10 models per box, need 3 boxes for 30 Intercessors |
+| Primaris Intercessors   | [Search →](https://www.warhammer.com/en-US/plp?search=Primaris%20Intercessors) | ~$60        | 10 models per box, need 3 boxes for 27 Intercessors |
 | Sternguard Veterans     | [Search →](https://www.warhammer.com/en-US/plp?search=Sternguard%20Veterans) | ~$60        | 5 models per box, need 2 boxes for 10 Sternguard    |
 
 ### Cost Breakdown by Points Level
@@ -1121,17 +1088,17 @@ The Ultramarines are the poster boys of Warhammer 40,000 - the XIII Legion, code
 - 1x Primaris Intercessors box: $60 (10 models)
 - **TOTAL: ~$363**
 
-**2000pt FULL DREAD CASTLE (~$818 USD):**
+**2000pt FULL DREAD CASTLE (~$753 USD):**
 
 - 1x Roboute Guilliman: $70
 - 1x Marneus Calgar: $50
 - 1x Captain in Gravis Armour: $38
 - 1x Primaris Lieutenant: $35
 - 3x Ballistus Dreadnought: $195
-- 2x Redemptor Dreadnought: $130
-- 3x Primaris Intercessors boxes: $180 (30 models)
+- 1x Redemptor Dreadnought: $65
+- 3x Primaris Intercessors boxes: $180 (27 models needed, 3 spare)
 - 2x Sternguard Veterans boxes: $120 (10 models)
-- **TOTAL: ~$818**
+- **TOTAL: ~$753**
 
 ### Painting Guide Resources
 
@@ -1188,8 +1155,64 @@ The Ultramarines are the poster boys of Warhammer 40,000 - the XIII Legion, code
 
 ---
 
+<!-- ARTISAN SECTION - Tacticus ignore -->
+## Assembly Guide
+
+### Build Priority
+
+Guilliman is the centrepiece -- build him first. Then Dreadnoughts (the army's core identity), then troops.
+
+| Priority | Unit | Reason |
+|----------|------|--------|
+| 1 | Roboute Guilliman | Centrepiece model, Primarch, the entire army keys off his 6" bubble |
+| 2 | Ballistus Dreadnought #1 | Core of the Dread Castle, anti-tank gunboat |
+| 3 | Redemptor Dreadnought | Versatile all-rounder, largest Dreadnought kit |
+| 4 | Ballistus Dreadnought #2 | Second anti-tank platform |
+| 5 | Ballistus Dreadnought #3 | Triple Ballistus completes the castle firepower |
+| 6 | Marneus Calgar + 2 Victrix Honour Guard | Chapter Master, CP generation, Victrix bodyguard wall |
+| 7 | Captain in Gravis Armour | Enhancement bearer, backfield anchor |
+| 8 | Lieutenant | Fire Discipline bearer, attaches to Sternguard |
+| 9 | Intercessor Squad #1 (10 models) | Guilliman's screening unit |
+| 10 | Intercessor Squad #2 (10 models) | Calgar's screening unit |
+| 11 | Sternguard Veteran Squad #1 (5 models) | Precision fire with Lieutenant attached |
+| 12 | Sternguard Veteran Squad #2 (5 models) | Flank fire support |
+| 13 | Intercessor Squad #3 (7 models) | Captain's backfield objective holders |
+
+> **Tip:** You can play 500pt games with just Guilliman + 1 Ballistus + 1 Redemptor + 10 Intercessors. Build priorities 1-3 and 9 to start playing immediately.
+
+### Magnetization Recommendations
+
+| Unit | What to Magnetize | Difficulty | Priority |
+|------|-------------------|------------|----------|
+| **Redemptor Dreadnought** | Primary weapon (Macro Plasma Incinerator vs Heavy Onslaught Gatling Cannon), secondary weapon (heavy flamer vs storm bolter) | Medium | **HIGHLY RECOMMENDED** -- the two primary weapons play completely differently. Plasma for anti-elite, Gatling for anti-horde. 5mm x 2mm magnets in the weapon mount. |
+| **Ballistus Dreadnought** | N/A -- fixed loadout | N/A | No magnetization needed. The Ballistus has no weapon options; lascannon + missile launcher is the only build. |
+| **Intercessor Squads** | Weapon swap (bolt rifle vs auto bolt rifle vs stalker bolt rifle) | Easy | Optional. Bolt rifles are the default for most squads. If you want flexibility, leave arms unglued or use 2mm x 1mm magnets at the wrist. Sergeant power fist vs power weapon is worth magnetizing. |
+| **Sternguard Veterans** | N/A -- fixed bolt rifle loadout | N/A | No magnetization needed. Sternguard bolt rifles are the only option. |
+| **Roboute Guilliman** | N/A | N/A | Fixed pose centrepiece model. No options to magnetize. |
+| **Marneus Calgar** | N/A | N/A | Fixed loadout Epic Hero. |
+
+> **Key Insight:** The Redemptor is the only unit that truly benefits from magnetization in this list. The Ballistus Dreadnoughts and Sternguard have fixed loadouts. If you only magnetize one thing, magnetize the Redemptor's primary weapon arm -- it takes 10 minutes and lets you swap between plasma and gatling before each game.
+
+### Shopping List
+
+| Product | Qty | Approx USD | Notes |
+|---------|-----|------------|-------|
+| Roboute Guilliman | 1 | $70 | Centrepiece Primarch, required for 1000pt+ |
+| Marneus Calgar | 1 | $50 | Includes 2x Victrix Honour Guard |
+| Captain in Gravis Armour | 1 | $38 | Enhancement bearer |
+| Primaris Lieutenant | 1 | $35 | Fire Discipline bearer |
+| Ballistus Dreadnought | 3 | $195 | Anti-tank gunboat x3 |
+| Redemptor Dreadnought | 1 | $65 | Versatile all-rounder |
+| Primaris Intercessors | 3 | $180 | 10-model boxes (27 models needed, 3 spare) |
+| Sternguard Veteran Squad | 2 | $120 | 5-model boxes |
+| Magnetization supplies | 1 | $10 | 5mm x 2mm magnets (for Redemptor), pin vise, super glue |
+| **TOTAL** | | **~$763** | Full 2000pt Dread Castle + magnets |
+<!-- END ARTISAN SECTION -->
+
+---
+
 _Document created: December 2025_
-_Document updated: January 7, 2026_
+_Document updated: February 9, 2026_
 _Army optimized for tournament matched play - DREAD CASTLE BUILD_
 _All lists verified Rule of Three compliant_
 _Rules source: wahapedia.ru + newrecruit.eu (verified January 7, 2026)_
@@ -1197,3 +1220,13 @@ _Points source: Munitorum Field Manual January 2026_
 _Combat Doctrines: Updated to current 10th Ed (Devastating Wounds → Sustained Hits → Lethal Hits)_
 _Tournament data: Adepticon 2025 + Dallas Open 2025 winning lists_
 _Brushmaster Agent - Paint Scheme_
+
+<!-- CHRONICLER SECTION - Tacticus ignore -->
+## Campaign Metadata
+
+- **campaign_ready:** false
+- **battles_played:** 0
+- **win_record:** 0-0-0
+- **crusade_compatible:** true
+- **narrative_hooks:** Derived from army lore section above
+<!-- END CHRONICLER SECTION -->

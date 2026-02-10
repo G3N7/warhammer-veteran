@@ -8,6 +8,12 @@
 
 ---
 
+## Army Lore
+
+Hive Fleet Leviathan is the largest and most terrible Tyranid hive fleet to threaten the galaxy, approaching from below the galactic plane where no Watch Fortress could detect its advance. Unlike earlier fleets that attacked in narrow tendrils, Leviathan strikes with overwhelming force across entire sectors simultaneously. This Bio-Fortress Stampede channels the hive fleet's preferred strategy: advance an unstoppable wall of monstrous creatures, each a living siege engine of chitin and bio-plasma, consuming all biomass in their path to fuel the endless swarm.
+
+---
+
 ## Army Lists
 
 ### 500pt - Monster Core
@@ -671,6 +677,50 @@ MONSTER units gain escalating bonuses as they take casualties:
 ---
 
 <!-- BRUSHMASTER SECTION - Tacticus ignore -->
+## Paint Scheme: Hive Fleet Leviathan (White Carapace)
+
+**Hive Fleet:** Leviathan (white/bone carapace, purple skin - box art scheme)
+
+### Palette
+
+| Type | Role | Paint | Hex | Swatch |
+|:----:|------|-------|-----|--------|
+| ■ | Carapace | Matt White | #FFFFFF | <span style="background:#FFFFFF;padding:2px 12px;">&nbsp;</span> |
+| ● | Carapace Shade | Purple Tone | #6A0DAD | <span style="background:#6A0DAD;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Carapace Highlight | Matt White | #FFFFFF | <span style="background:#FFFFFF;padding:2px 12px;">&nbsp;</span> |
+| ■ | Skin | Alien Purple | #8B5CF6 | <span style="background:#8B5CF6;padding:2px 12px;">&nbsp;</span> |
+| ● | Skin Shade | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Skin Highlight | Lavender | #B39DDB | <span style="background:#B39DDB;padding:2px 12px;">&nbsp;</span> |
+| ■ | Claws/Talons | Matt Black | #1A1A1A | <span style="background:#1A1A1A;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Claw Highlight | Uniform Grey | #6B6B6B | <span style="background:#6B6B6B;padding:2px 12px;">&nbsp;</span> |
+| ■ | Tongue/Flesh | Pure Red | #C41E3A | <span style="background:#C41E3A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Eyes | Daemonic Yellow | #F5D033 | <span style="background:#F5D033;padding:2px 12px;">&nbsp;</span> |
+| ★ | Venom Weapons | Goblin Green | #3CB371 | <span style="background:#3CB371;padding:2px 12px;">&nbsp;</span> |
+
+**Shape Key:** ■ Base | ▲ Layer | ◆ Metallic | ● Wash | ★ Effect
+
+### Quick Recipes
+
+**White Carapace:** ■ Matt White → ● Purple Tone in recesses → ▲ Matt White cleanup on plates
+**Purple Skin:** ■ Alien Purple → ● Dark Tone recess → ▲ Lavender drybrush
+**Claws/Talons:** ■ Matt Black → ▲ Uniform Grey edge highlight
+**Tongue/Flesh:** ■ Pure Red → ● Dark Tone → ▲ Mars Red highlight
+**Eyes:** ■ Daemonic Yellow → ● Soft Tone → ▲ Matt White specular dot
+**Venom Weapons:** ★ Goblin Green base → ● Dark Tone recess → ▲ Matt White hotspot
+
+### Tyranids Signature Elements
+- White/bone carapace plates with purple shading in recesses
+- Purple flesh and skin membranes
+- Black claws fading to grey tips
+- Bright green bio-weapon vents and toxin sacs
+- Red tongues and exposed flesh in mouths
+- Yellow eyes for alien menace
+- Organic, textured basing (alien infestation theme)
+
+*View color swatches: Open file in VSCode → Ctrl+Shift+V*
+<!-- END BRUSHMASTER SECTION -->
+
+<!-- BRUSHMASTER SECTION - Tacticus ignore -->
 ## Paint Scheme: Hive Fleet Leviathan
 
 **Hive Fleet:** Leviathan (bone/purple scheme - classic)
@@ -721,3 +771,13 @@ Use ◐ Hardened Leather for bone skin (one coat over white primer) - saves hour
 *Tacticus Agent - Tyranid Specialist*
 *Brushmaster Agent - Paint Scheme*
 *Meta: December 2025 Balance Dataslate*
+
+<!-- CHRONICLER SECTION - Tacticus ignore -->
+## Campaign Metadata
+
+- **campaign_ready:** false
+- **battles_played:** 0
+- **win_record:** 0-0-0
+- **crusade_compatible:** true
+- **narrative_hooks:** Derived from army lore section above
+<!-- END CHRONICLER SECTION -->

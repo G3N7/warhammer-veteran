@@ -146,8 +146,14 @@
 **Key Strengths:**
 - Maximum legal artillery (9 Mek Gunz)
 - Press It Fasta! can generate insane combos (double buffs on weapons)
-- CP farming engine (4+ per objective held = potentially 3-5 CP per turn)
+- Deathskulls objective play (4+ per objective = max 1 CP per battle round per FAQ)
 - 15 walkers provide durable melee threat
+
+---
+
+## Army Lore
+
+A Dread Mob is what happens when a Big Mek gets more teef than sense and decides walkers are the answer to everything. Killa Kans, Deff Dreads, and Morkanauts stomp forward in a ramshackle wall of scrap metal and dakka while Gretchin scurry underfoot scavenging whatever isn't bolted down (and most things that are). The Deathskulls clan's legendary thievin' ways keep the mob running -- if it breaks, loot it; if it doesn't break, loot it anyway.
 
 ---
 
@@ -210,7 +216,7 @@ Each model's Smasha Gun can be replaced with:
 **Unit Size:** 11 models (1 Runtherd + 10 Gretchin) OR 22 models (2 Runtherds + 20 Gretchin)
 
 **Abilities:**
-- **Thievin' Scavengers:** At start of your Movement phase, roll D6 for each objective marker you control within range of this unit. On 4+, gain 1 Command Point.
+- **Thievin' Scavengers (FAQ'd v1.1+):** At start of your Movement phase, roll one D6 for each objective marker you control that has one or more units with this ability within range (excluding Battle-shocked units). If one or more of those rolls is a 4+, you gain 1CP. **Important: Maximum 1CP per phase regardless of objectives controlled. Multiple Gretchin units on separate objectives do NOT each generate CP independently.**
 
 **Keywords:** INFANTRY, BATTLELINE (in Dread Mob), GRETCHIN
 
@@ -420,14 +426,14 @@ Each time a MEK, ORKS WALKER, or GROTS VEHICLE unit from your army is selected t
 - **Big Mek positioning:** Attach to your most valuable Mek Gunz unit (usually the one with Smasha Guns).
 
 **2. Turn 1-2: Establish Gunline**
-- **Gretchin:** Move onto objectives. Roll Thievin' Scavengers (4+ = 1 CP per objective). Ideally generate 2-3 CP per turn.
+- **Gretchin:** Move onto objectives. Roll Thievin' Scavengers (one D6 per controlled objective with Gretchin on it, any 4+ = 1CP max). Ideally generate 1CP per turn.
 - **Mek Gunz:** Stay still (no penalty for Heavy weapons). Roll Try Dat Button! for each unit:
   - If you have **Press It Fasta!**, roll 3 D6 and gain TWO abilities
   - Target priority: Vehicles with Smasha Guns, elite infantry with Kustom Mega-Kannons
 - **Walkers:** Advance toward midfield. Use them to zone out enemy Deep Strike and threaten charges.
 
 **3. Turn 3+: Hold and Blast**
-- **CP Farm:** By Turn 3, you should have 4+ objectives controlled. Roll Thievin' Scavengers = potentially 3-5 CP gained per turn.
+- **CP Farm:** By Turn 3, you should have 4+ objectives controlled with Gretchin. Roll Thievin' Scavengers = 1CP per Movement phase (more objectives = better odds of hitting the 4+, but still max 1CP).
 - **Mek Gunz:** Continue firing. Use Dakka Dakka Dakka (1 CP) to stack Sustained Hits if you rolled Lethal Hits.
 - **Walkers:** Charge enemy units trying to claim objectives. Deff Dreads get D3/D3+3 mortal wounds on charge (Piston-driven Brutality).
 - **WAAAGH! Ability:** Save this for Turn 3-4. When activated:
@@ -492,7 +498,7 @@ Each time a MEK, ORKS WALKER, or GROTS VEHICLE unit from your army is selected t
 ❌ **Forgetting Try Dat Button!** - Roll EVERY shooting/fight phase for MEK/WALKER/GROTS VEHICLE units
 ❌ **Not screening Mek Gunz** - They die fast to charges. Gretchin are your shield.
 ❌ **Wasting Press It Fasta!** - This enhancement is INSANELY good. Always take it at 2000pts.
-❌ **Not using Thievin' Scavengers** - Roll EVERY Movement phase for EVERY Gretchin unit on objectives. Free CP!
+❌ **Not using Thievin' Scavengers** - Roll EVERY Movement phase! More Gretchin on more objectives = more D6s rolled = higher chance of hitting the 4+ for 1CP. Spread them out!
 ❌ **Clumping Mek Gunz** - Spread 3" apart. Blast weapons hurt when you bunch up.
 ❌ **Saving WAAAGH! too long** - Use it Turn 3-4 when you need to go aggressive. Don't save it for "the perfect moment."
 
@@ -719,3 +725,13 @@ Each time a MEK, ORKS WALKER, or GROTS VEHICLE unit from your army is selected t
 *Last Updated: December 30, 2025*
 *Tacticus Agent - Warhammer 40k 10th Edition*
 *Brushmaster Agent - Paint Scheme*
+
+<!-- CHRONICLER SECTION - Tacticus ignore -->
+## Campaign Metadata
+
+- **campaign_ready:** false
+- **battles_played:** 0
+- **win_record:** 0-0-0
+- **crusade_compatible:** true
+- **narrative_hooks:** Derived from army lore section above
+<!-- END CHRONICLER SECTION -->

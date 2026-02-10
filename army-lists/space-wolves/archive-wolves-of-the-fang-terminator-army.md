@@ -634,3 +634,14 @@ With Bjorn generating +1CP per phase:
 *Points Source: Munitorum Field Manual December 2025*
 *Rules Source: Space Wolves Codex Supplement (May 2025)*
 *Brushmaster Agent - Paint Scheme*
+
+<!-- CHRONICLER SECTION - Tacticus ignore -->
+## Campaign Metadata
+
+- **campaign_ready:** false
+- **status:** archived
+- **battles_played:** 0
+- **win_record:** 0-0-0
+- **crusade_compatible:** true
+- **narrative_hooks:** Derived from army lore section above
+<!-- END CHRONICLER SECTION -->

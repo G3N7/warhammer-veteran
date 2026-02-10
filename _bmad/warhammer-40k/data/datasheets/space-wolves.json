@@ -1,9 +1,9 @@
 {
   "faction": "space-wolves",
-  "last_updated": "2026-01-30T05:03:00.839461+00:00",
+  "last_updated": "2026-02-08T00:22:24.128323+00:00",
   "source": "wahapedia",
   "schema_version": "2.0",
-  "unit_count": 20,
+  "unit_count": 21,
   "units": {
     "Arjac Rockfist": {
       "name": "Arjac Rockfist",
@@ -5545,6 +5545,364 @@
       "unit_composition": null,
       "default_wargear": [
         "3-6 Wolf Guard Headtakers 0-6 Hunting Wolves Every Wolf Guard Headtaker is equipped with: heavy bolt pistol; master-crafted power weapon; storm shield. Every Hunting Wolf is equipped with: teeth and claws."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Wolf Guard Battle Leader On Thunderwolf": {
+      "name": "Wolf Guard Battle Leader On Thunderwolf",
+      "url_slug": "Wolf-Guard-Battle-Leader-On-Thunderwolf",
+      "stats": {
+        "M": "10",
+        "T": "6",
+        "Sv": "3+",
+        "W": "5",
+        "Ld": "6+",
+        "OC": "2"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Bolt pistol pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Combi-weapon",
+            "range": "24\"",
+            "A": "1",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "anti-infantry 4+",
+              "rapid fire 1",
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Master-crafted boltgun",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "0",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Plasma pistol \u2013 standard pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "7",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Plasma pistol \u2013 supercharge hazardous pistol",
+            "range": "12\"",
+            "A": "1",
+            "skill": "2+",
+            "S": "8",
+            "AP": "-3",
+            "D": "2",
+            "keywords": [
+              "hazardous",
+              "pistol",
+              "pistol"
+            ]
+          },
+          {
+            "name": "Storm bolter rapid fire 2",
+            "range": "24\"",
+            "A": "2",
+            "skill": "2+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "rapid fire 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "A": "5",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          },
+          {
+            "name": "Crushing teeth and claws extra attacks",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "5",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "extra attacks"
+            ]
+          },
+          {
+            "name": "Power fist",
+            "range": "Melee",
+            "A": "4",
+            "skill": "2+",
+            "S": "8",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Relic weapon",
+            "range": "Melee",
+            "A": "5",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-2",
+            "D": "2",
+            "keywords": []
+          },
+          {
+            "name": "Thunder hammer",
+            "range": "Melee",
+            "A": "4",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-2",
+            "D": "2",
+            "keywords": [
+              "devastating wounds"
+            ]
+          },
+          {
+            "name": "Twin lightning claws twin-linked",
+            "range": "Melee",
+            "A": "6",
+            "skill": "2+",
+            "S": "5",
+            "AP": "-2",
+            "D": "1",
+            "keywords": [
+              "twin-linked"
+            ]
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Oath of Moment"
+        ],
+        "unit": [
+          {
+            "name": "Tactical Precision",
+            "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability. Aggressive Hunter: Once per battle, in your opponent\u2019s Shooting phase , after an enemy unit has finished making its attacks, if this model\u2019s unit was targeted by one or more of those attacks, this model\u2019s unit can make a Normal move of up to D6\", but must end that move as close as possible to the closest enemy unit. When doing so, models in this model\u2019s unit can be moved within Engagement Range of that enemy unit."
+          },
+          {
+            "name": "Storm Shield",
+            "description": "The bearer has a 4+ invulnerable save ."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 80
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "[LETHAL HITS]",
+        "CAPTAIN",
+        "CHAPTER MASTER",
+        "ARMOUR OF CONTEMPT",
+        "STRIKE NOW FOR GLORY",
+        "FOCUSED FURY",
+        "BATTLE DRILL RECALL",
+        "NO THREAT TOO GREAT",
+        "HAIL OF VENGEANCE",
+        "RIGID DISCIPLINE",
+        "CODEX DISCIPLINE",
+        "LIGHT OF VENGEANCE",
+        "HERESY UNDONE",
+        "ADAPTIVE TACTICS",
+        "ULTRAMARIAN ADAPTIVITY",
+        "PRACTICAL TACTICS",
+        "TACTICAL FORESIGHT",
+        "EXEMPLARY VIGILANCE",
+        "COURAGE AND HONOUR!",
+        "BATTLEFIELD COMMAND",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "GRENADE",
+        "HEROIC INTERVENTION",
+        "EPIC CHALLENGE",
+        "IMMOLATION PROTOCOLS",
+        "ONSLAUGHT OF FIRE",
+        "BLAZING EARTH",
+        "ADAPTIVE STRATEGY",
+        "SQUAD TACTICS",
+        "STORM OF FIRE",
+        "CONDEMNATORY INFO-SCREED",
+        "UNBOWED CONVICTION",
+        "ANGELIC GRACE",
+        "AGGRESSIVE ONSLAUGHT",
+        "RELENTLESS ASSAULT",
+        "SAVAGE ECHOES",
+        "RED RAMPAGE",
+        "FIERY SHIELD",
+        "OVERPOWERING EXACTION",
+        "STRENGTH IN UNITY",
+        "SUPPRESSION STRAFING",
+        "AUTO\u2011SENSE COORDINATION",
+        "TACTICAL DECAPITATION",
+        "BLIND SCREEN",
+        "SHOCK ONSLAUGHT",
+        "RED WRATH",
+        "LIMB FROM LIMB",
+        "CRUSADING CONQUERORS",
+        "SCIONS OF GUILLIMAN",
+        "ULTRAMARIAN DESTINY",
+        "FURIOUS DEDICATION",
+        "MARCHING EVER ON",
+        "THUNDEROUS PURSUIT",
+        "PINNING FIRE",
+        "UNBRIDLED FEROCITY",
+        "COORDINATED STRIKE",
+        "CHAMPION\u2019S GUIDANCE",
+        "HEROIC RESOLVE",
+        "ALPHA STRIKE",
+        "COUNTERCHARGE",
+        "INSPIRING PRESENCE",
+        "GRIMNAR\u2019S COMMAND",
+        "FENRISIAN FEROCITY",
+        "UNRELENTING HUNTERS",
+        "THE FOE FORESEEN",
+        "BATTLE INSTINCTS",
+        "CHOSEN PREY",
+        "MARKED FOR DESTRUCTION",
+        "HUNTERS\u2019 TRAIL",
+        "OVERWHELMING ONSLAUGHT",
+        "TERRITORIAL ADVANTAGE",
+        "FEINT AND THRUST",
+        "RAPTORIAL VIGILANCE",
+        "MOBILE LETHALITY",
+        "HUNTER\u2019S INSTINCTS",
+        "EVASIVE MANOEUVRES",
+        "WITHDRAW AND REGROUP",
+        "FULL THROTTLE",
+        "WIND-SWIFT EVASION",
+        "BLITZING FUSILLADE",
+        "RIDE HARD, RIDE FAST",
+        "SHOCK ASSAULT",
+        "UNBRIDLED ARDOUR",
+        "INTRACTABLE",
+        "UNFORGIVEN FURY",
+        "FIRE DISCIPLINE",
+        "GRIM RETRIBUTION",
+        "UNBREAKABLE LINES",
+        "A DEADLY PRIZE",
+        "RECLAIM OUR HONOUR!",
+        "PERFERVID INTERVENTION",
+        "LITANIES OF PURGATION",
+        "INESCAPABLE JUSTICE",
+        "LION\u2019S WILL",
+        "TACTICAL MASTERY",
+        "LEONINE AGGRESSION",
+        "FUELLED BY FAITH",
+        "VOICE OF DEVOTION",
+        "BRUTE FERVOUR",
+        "RELENTLESS MOMENTUM",
+        "BLACK TEMPLARS",
+        "BLOOD ANGELS",
+        "DARK ANGELS",
+        "DEATHWATCH",
+        "SPACE WOLVES",
+        "[SUSTAINED HITS 1]",
+        "[LANCE]",
+        "BATTLELINE",
+        "[PRECISION]",
+        "KILL TEAM",
+        "[IGNORES COVER]",
+        "[BLAST]",
+        "[HAZARDOUS]",
+        "FLY",
+        "TRANSPORT",
+        "LAND RAIDER",
+        "DEATHWING",
+        "RAVENWING",
+        "TITANIC",
+        "SPACE WOLVES INFANTRY",
+        "SPACE WOLVES CHARACTER",
+        "BEASTS",
+        "VEHICLES",
+        "SPACE WOLVES BEASTS",
+        "PHOBOS",
+        "SCOUT SQUAD",
+        "WALKERS",
+        "[ASSAULT]",
+        "[HEAVY]",
+        "ANCIENT",
+        "VEHICLE",
+        "MARNEUS CALGAR",
+        "APOTHECARY",
+        "SALAMANDERS",
+        "IMPERIAL FISTS",
+        "ULTRAMARINES",
+        "WULFEN INFANTRY",
+        "WULFEN",
+        "DEDICATED TRANSPORT",
+        "[SUSTAINED HITS 2]",
+        "DEATH COMPANY"
+      ],
+      "faction_keywords": [
+        "ADEPTUS ASTARTES",
+        "SPACE WOLVES"
+      ],
+      "leader_info": "This model can be attached to the following unit: Thunderwolf Cavalry You can attach this model to the above unit even if one CAPTAIN or CHAPTER MASTER model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths .",
+      "led_by": [
+        "Thunderwolf Cavalry You can attach this model to the above unit even if one CAPTAIN or CHAPTER MASTER model has already been attached to it. If you do",
+        "and that Bodyguard unit is destroyed",
+        "the Leader units attached to it become separate units",
+        "with their original Starting Strengths ."
+      ],
+      "can_lead": [
+        "Thunderwolf Cavalry You can attach"
+      ],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Wolf Guard Battle Leader on Thunderworlf This model is equipped with: bolt pistol; crushing teeth and claws; relic weapon."
       ],
       "wargear_options": [],
       "is_epic_hero": false,

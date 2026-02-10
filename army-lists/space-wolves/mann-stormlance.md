@@ -7,6 +7,12 @@
 
 ---
 
+## Army Lore
+
+A Great Company's mounted warband, led by a Wolf Lord atop his thunderwolf, this force represents a classic Fenrisian hunting pack adapted for competitive play. The wolves ride to war as their forebears did on the ice plains of Fenris -- swift, brutal, and utterly without mercy.
+
+---
+
 ## Army Identity
 
 **Core Strengths:**
@@ -310,4 +316,122 @@ Scaled version maintaining Mann's core identity: Logan + Terminators + Wulfen + 
 
 ---
 
+<!-- BRUSHMASTER SECTION - Tacticus ignore -->
+## Paint Scheme: Space Wolves (Great Fang)
+
+**Chapter:** Space Wolves (VI Legion) - Great Company
+
+### Palette
+
+| Type | Role | Paint | Hex | Swatch |
+|:----:|------|-------|-----|--------|
+| ■ | Primary (Armour) | The Fang / Space Wolves Grey | #6B7B8D | <span style="background:#6B7B8D;padding:2px 12px;">&nbsp;</span> |
+| ● | Shade | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Highlight | Fenrisian Grey | #A8B4BE | <span style="background:#A8B4BE;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Edge Highlight | Matt White | #FFFFFF | <span style="background:#FFFFFF;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Gold Trim | Greedy Gold | #FFD700 | <span style="background:#FFD700;padding:2px 12px;">&nbsp;</span> |
+| ● | Gold Shade | Strong Tone | #5C4033 | <span style="background:#5C4033;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Silver Metal | Plate Mail Metal | #C0C0C0 | <span style="background:#C0C0C0;padding:2px 12px;">&nbsp;</span> |
+| ● | Metal Wash | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ■ | Skin | Tanned Flesh | #D4A574 | <span style="background:#D4A574;padding:2px 12px;">&nbsp;</span> |
+| ● | Skin Shade | Flesh Wash | #C4956A | <span style="background:#C4956A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Pack Markings | Pure Red | #C41E3A | <span style="background:#C41E3A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Shoulder Trim (Great Company) | Daemonic Yellow | #F5D033 | <span style="background:#F5D033;padding:2px 12px;">&nbsp;</span> |
+| ■ | Leather/Pelts | Leather Brown | #8B4513 | <span style="background:#8B4513;padding:2px 12px;">&nbsp;</span> |
+| ■ | Bone/Fangs | Skeleton Bone | #E8DCC4 | <span style="background:#E8DCC4;padding:2px 12px;">&nbsp;</span> |
+| ■ | Eyes/Lenses | Pure Red | #C41E3A | <span style="background:#C41E3A;padding:2px 12px;">&nbsp;</span> |
+
+**Shape Key:** ■ Base | ▲ Layer | ◆ Metallic | ● Wash | ★ Effect
+
+### Quick Recipes
+
+**Armour:** ■ The Fang → ● Dark Tone recess → ▲ Fenrisian Grey layer → ▲ Matt White edge
+**Gold Trim:** ◆ Greedy Gold → ● Strong Tone → ◆ Greedy Gold recess avoid
+**Pack Markings:** ■ Pure Red → ● Dark Tone → ▲ Mars Red highlight
+**Shoulder Trim:** ■ Daemonic Yellow → ● Soft Tone → ▲ Daemonic Yellow cleanup
+**Skin:** ■ Tanned Flesh → ● Flesh Wash → ▲ Fair Skin highlight
+**Pelts/Leather:** ■ Leather Brown → ● Dark Tone → ▲ Monster Brown drybrush
+**Fangs/Bone:** ■ Skeleton Bone → ● Soft Tone → ▲ Matt White tips
+
+### Space Wolves Signature Elements
+- Grey-blue armour with weathered, battle-worn look
+- Gold trim and Fenrisian knotwork on pauldrons
+- Red pack markings and Great Company identifiers
+- Yellow shoulder trim denoting Great Company
+- Wolf pelts, fangs, and trophies on every model
+- Runes and Fenrisian glyphs (freehand or transfers)
+- Red eye lenses
+
+*View color swatches: Open file in VSCode → Ctrl+Shift+V*
+<!-- END BRUSHMASTER SECTION -->
+
+---
+
+<!-- ARTISAN SECTION - Tacticus ignore -->
+## Assembly Guide
+
+### Build Priority
+
+Prioritize the big melee bricks and characters that define Mann's alpha-strike style.
+
+| Priority | Unit | Reason |
+|----------|------|--------|
+| 1 | Wolf Guard Battle Leader on Thunderwolf / Wolf Priest | HQ required, leads key units |
+| 2 | Thunderwolf Cavalry x6 | Signature flanking unit, high model count, visual centrepiece |
+| 3 | Wolf Guard Terminators x10 | Core Deep Strike brick, Logan attached |
+| 4 | Logan Grimnar | Warlord, enables T1 Deep Strike alpha |
+| 5 | Wulfen x10 (first squad) | Melee hammer, Thunder Hammers + Death Totems |
+| 6 | Wulfen x10 (second squad) | Second hammer, redundant threat |
+| 7 | Arjac Rockfist | Solo character hunter, anti-monster |
+| 8 | Bjorn the Fell-Handed | CP generation, fire support |
+| 9 | Wolf Guard Headtakers x2 squads | Character assassins |
+| 10 | Wolf Priest + Portents of Wisdom | Leads Headtakers, +1 to wound melee |
+| 11 | Lieutenant | Re-roll wound rolls of 1 |
+| 12 | Intercessor Squad x5 | Backfield objective holders |
+| 13 | Stormraven Gunship | Transport + heavy firepower (large kit, save for last) |
+
+### Magnetization Recommendations
+
+| Unit | What to Magnetize | Difficulty | Notes |
+|------|-------------------|------------|-------|
+| **Thunderwolf Cavalry** | Rider weapon arms (thunder hammer, wolf claw, storm shield, chainfist, power fist) | Medium | 3mm x 1mm magnets in shoulder sockets. Six riders means a lot of magnetization work but huge payoff -- swap entire loadouts between games. |
+| **Wolf Guard Terminators** | Arms (storm bolter, assault cannon, cyclone missile launcher, thunder hammer, storm shield, wolf claw, power fist) | Medium | 3mm x 1mm in shoulder joints. 10-man brick = 10 sets of arms. Magnetize at least the special weapons (assault cannon, cyclone). |
+| **Wulfen** | Weapon hands (Thunder Hammer + Storm Shield vs Great Frost Axe vs Wulfen Claws) | Easy-Medium | Wulfen arms are large and easy to pin. Magnets at wrist or shoulder. Thunder Hammers are meta-optimal but magnetizing gives flexibility. |
+| **Stormraven Gunship** | Turret weapon (twin assault cannon vs twin lascannon), sponsons (hurricane bolters vs typhoon missile launcher) | Hard | Large 5mm x 2mm magnets. The kit has all weapon options on sprue -- magnetize to swap between anti-horde and anti-tank configurations. |
+| **Wolf Priests / Characters** | N/A | N/A | Fixed loadout characters, no magnetization needed. |
+
+> **Tip:** The TWC and Terminators are the must-magnetize units. Wulfen are a nice-to-have. The Stormraven is worth magnetizing only if you enjoy the build challenge -- it is a complex kit.
+
+### Shopping List
+
+| Product | Qty | Approx USD | Notes |
+|---------|-----|------------|-------|
+| Logan Grimnar | 1 | $42 | Epic Hero, Warlord |
+| Arjac Rockfist | 1 | $35 | Epic Hero, solo character hunter |
+| Bjorn the Fell-Handed | 1 | $55 | Epic Hero dreadnought |
+| Primaris Chaplain | 1 | $35 | Build as Wolf Priest |
+| Space Wolves Upgrade Pack | 1 | $15 | Wolf bits for Chaplain conversion |
+| Primaris Lieutenant | 1 | $35 | Re-roll wounds support |
+| Wolf Guard Terminators | 2 | $120 | 5-model boxes, combine for 10-man brick |
+| Wulfen | 2 | $120 | 5-model boxes, two squads of 10 |
+| Thunderwolf Cavalry | 2 | $140 | 3-model boxes, combine for 6-model squad |
+| Wolf Guard Headtakers | 2 | $110 | Character assassin squads |
+| Intercessors | 1 | $60 | 10-model box (5 used, 5 spare) |
+| Stormraven Gunship | 1 | $90 | Large flyer kit |
+| Magnetization supplies | 1 | $15 | 3mm x 1mm rare earth magnets (100-pack), pin vise, super glue |
+| **TOTAL** | | **~$872** | Full 2000pt army + magnets |
+<!-- END ARTISAN SECTION -->
+
+---
+
 *Reconstructed by Tacticus based on Michael Mann's California Cup 2025 championship list. Vlka Fenryka!*
+
+<!-- CHRONICLER SECTION - Tacticus ignore -->
+## Campaign Metadata
+
+- **campaign_ready:** false
+- **battles_played:** 0
+- **win_record:** 0-0-0
+- **crusade_compatible:** true
+- **narrative_hooks:** Derived from army lore section above
+<!-- END CHRONICLER SECTION -->

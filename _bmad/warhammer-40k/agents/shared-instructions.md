@@ -48,16 +48,33 @@
 
 ### Cross-Agent Data Sharing
 
-Agents share data through the `army-lists/` files:
+Agents share data through `army-lists/` files AND the shared data directory:
 
 | Agent | Writes | Reads |
 |-------|--------|-------|
-| **Tacticus** | Army list content (units, points, tactics) | — |
-| **Brushmaster** | BRUSHMASTER SECTION (paint schemes) | Army faction context |
-| **Arbitrator** | — | Army composition for rules context |
-| **Chronicler** | — | Army lists for campaign tracking |
-| **Lorekeeper** | — | Faction info for lore context |
-| **Artisan** | — | Army composition for conversion ideas |
+| **Tacticus** | Army list content, army-registry.yaml | validation-rules.yaml, faq-registry.yaml |
+| **Brushmaster** | BRUSHMASTER SECTION (paint schemes) | Army faction context, user-profile.yaml |
+| **Arbitrator** | faq-registry.yaml, rulings | Army composition, validation-rules.yaml |
+| **Chronicler** | CHRONICLER SECTION (campaign metadata) | Army lists, user-profile.yaml |
+| **Lorekeeper** | Lore sections in army lists | Faction info, user-profile.yaml |
+| **Artisan** | ARTISAN SECTION (assembly/magnetization) | Army composition, user-profile.yaml |
+
+### Shared Data Directory
+
+`_bmad/warhammer-40k/agents/shared/` contains cross-agent registries:
+
+| File | Purpose | Updated By |
+|------|---------|------------|
+| `army-registry.yaml` | Central index of all armies + completion status | Any agent |
+| `user-profile.yaml` | User preferences, playstyle, faction ownership | Any agent |
+
+### Templates
+
+`_bmad/warhammer-40k/templates/` contains standardized document templates:
+- `army-list-template.md` - Full army list with all agent sections
+- `paint-scheme-template.md` - Brushmaster paint scheme format
+- `cheatsheet-template.md` - Game day quick reference
+- `assembly-guide-template.md` - Artisan assembly/magnetization format
 
 ### Section Boundaries
 
@@ -66,8 +83,15 @@ When multiple agents write to the same file, use HTML comments to mark sections:
 ```markdown
 <!-- BRUSHMASTER SECTION - Tacticus ignore -->
 ## Paint Scheme: ...
-...
 <!-- END BRUSHMASTER SECTION -->
+
+<!-- ARTISAN SECTION - Tacticus ignore -->
+## Model Assembly & Magnetization Guide
+<!-- END ARTISAN SECTION -->
+
+<!-- CHRONICLER SECTION - Tacticus ignore -->
+## Campaign Metadata
+<!-- END CHRONICLER SECTION -->
 ```
 
 Agents MUST respect other agents' sections and not modify them.
@@ -106,6 +130,6 @@ After any file update:
 
 ---
 
-*Version: 1.0*
-*Last Updated: 2025-12-30*
+*Version: 1.1*
+*Last Updated: 2026-02-09*
 *Applies to: All warhammer-40k agents*

@@ -6,6 +6,12 @@
 
 ---
 
+## Army Lore
+
+The Space Wolves are the VI Legion, sons of Leman Russ, the Wolf King of Fenris. Known as the Emperor's executioners, they fight with savage ferocity tempered by fierce loyalty. The Stormlance detachment represents their thundering cavalry charges -- Thunderwolf riders and swift Outriders crashing into enemy lines like a Fenrisian blizzard. This list embodies the Vlka Fenryka's preferred way of war: hit fast, hit hard, leave nothing standing.
+
+---
+
 ## Army Identity
 
 **Core Strengths:**
@@ -363,4 +369,126 @@ Build order optimized for playability at each point level.
 
 ---
 
+<!-- BRUSHMASTER SECTION - Tacticus ignore -->
+## Paint Scheme: Space Wolves (Great Fang)
+
+**Chapter:** Space Wolves (VI Legion) - Great Company
+
+### Palette
+
+| Type | Role | Paint | Hex | Swatch |
+|:----:|------|-------|-----|--------|
+| ■ | Primary (Armour) | The Fang / Space Wolves Grey | #6B7B8D | <span style="background:#6B7B8D;padding:2px 12px;">&nbsp;</span> |
+| ● | Shade | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Highlight | Fenrisian Grey | #A8B4BE | <span style="background:#A8B4BE;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Edge Highlight | Matt White | #FFFFFF | <span style="background:#FFFFFF;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Gold Trim | Greedy Gold | #FFD700 | <span style="background:#FFD700;padding:2px 12px;">&nbsp;</span> |
+| ● | Gold Shade | Strong Tone | #5C4033 | <span style="background:#5C4033;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Silver Metal | Plate Mail Metal | #C0C0C0 | <span style="background:#C0C0C0;padding:2px 12px;">&nbsp;</span> |
+| ● | Metal Wash | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ■ | Skin | Tanned Flesh | #D4A574 | <span style="background:#D4A574;padding:2px 12px;">&nbsp;</span> |
+| ● | Skin Shade | Flesh Wash | #C4956A | <span style="background:#C4956A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Pack Markings | Pure Red | #C41E3A | <span style="background:#C41E3A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Shoulder Trim (Great Company) | Daemonic Yellow | #F5D033 | <span style="background:#F5D033;padding:2px 12px;">&nbsp;</span> |
+| ■ | Leather/Pelts | Leather Brown | #8B4513 | <span style="background:#8B4513;padding:2px 12px;">&nbsp;</span> |
+| ■ | Bone/Fangs | Skeleton Bone | #E8DCC4 | <span style="background:#E8DCC4;padding:2px 12px;">&nbsp;</span> |
+| ■ | Eyes/Lenses | Pure Red | #C41E3A | <span style="background:#C41E3A;padding:2px 12px;">&nbsp;</span> |
+
+**Shape Key:** ■ Base | ▲ Layer | ◆ Metallic | ● Wash | ★ Effect
+
+### Quick Recipes
+
+**Armour:** ■ The Fang → ● Dark Tone recess → ▲ Fenrisian Grey layer → ▲ Matt White edge
+**Gold Trim:** ◆ Greedy Gold → ● Strong Tone → ◆ Greedy Gold recess avoid
+**Pack Markings:** ■ Pure Red → ● Dark Tone → ▲ Mars Red highlight
+**Shoulder Trim:** ■ Daemonic Yellow → ● Soft Tone → ▲ Daemonic Yellow cleanup
+**Skin:** ■ Tanned Flesh → ● Flesh Wash → ▲ Fair Skin highlight
+**Pelts/Leather:** ■ Leather Brown → ● Dark Tone → ▲ Monster Brown drybrush
+**Fangs/Bone:** ■ Skeleton Bone → ● Soft Tone → ▲ Matt White tips
+
+### Space Wolves Signature Elements
+- Grey-blue armour with weathered, battle-worn look
+- Gold trim and Fenrisian knotwork on pauldrons
+- Red pack markings and Great Company identifiers
+- Yellow shoulder trim denoting Great Company
+- Wolf pelts, fangs, and trophies on every model
+- Runes and Fenrisian glyphs (freehand or transfers)
+- Red eye lenses
+
+*View color swatches: Open file in VSCode → Ctrl+Shift+V*
+<!-- END BRUSHMASTER SECTION -->
+
+---
+
+<!-- ARTISAN SECTION - Tacticus ignore -->
+## Assembly Guide
+
+### Build Priority
+
+Build characters and key melee units first to get playable games fastest.
+
+| Priority | Unit | Reason |
+|----------|------|--------|
+| 1 | Wolf Priest #1 (Primaris Chaplain) | HQ required for every game, leads Blood Claws |
+| 2 | Wolf Priest #2 (Primaris Chaplain) | Second HQ, leads Headtakers |
+| 3 | Thunderwolf Cavalry x3 | Signature unit, high visual impact, Stormlance centrepiece |
+| 4 | Wolf Guard Terminators x5 (Brick 1) | Deep Strike threat, pairs with Logan |
+| 5 | Wolf Guard Terminators x5 (Brick 2) | Second Deep Strike brick, pairs with Arjac |
+| 6 | Logan Grimnar | Warlord, attach to Terminator Brick 1 |
+| 7 | Arjac Rockfist | Terminator leader, melee hammer |
+| 8 | Blood Claws x10 | Melee blob, Wolf Priest attached |
+| 9 | Grey Hunters x10 | Objective holders, Njal attached |
+| 10 | Bjorn the Fell-Handed | CP generation, fire support |
+| 11 | Njal Stormcaller | Psyker leader for Grey Hunters |
+| 12 | Ballistus Dreadnought | Ranged fire support |
+| 13 | Gladiator Reaper | Anti-horde fire support |
+| 14 | Wolf Guard Headtakers | Character hunters |
+| 15 | Wolf Scouts x5 | Infiltrate screening |
+
+### Magnetization Recommendations
+
+| Unit | What to Magnetize | Difficulty | Notes |
+|------|-------------------|------------|-------|
+| **Thunderwolf Cavalry** | Rider weapon arms (thunder hammer, wolf claw, storm shield, chainfist) | Medium | 3mm x 1mm magnets in shoulder sockets. Each rider has multiple weapon options -- magnetize all three riders to swap loadouts between games. |
+| **Wolf Guard Terminators** | Arms (storm bolter, assault cannon, cyclone missile launcher, thunder hammer, storm shield, wolf claw, power fist) | Medium | 3mm x 1mm in shoulder joints. Lets you swap between shooty and melee loadouts per brick. Highly recommended -- the kit comes with all options. |
+| **Long Fangs / Ballistus** | N/A (Ballistus is fixed loadout) | N/A | Ballistus has no weapon options. If you swap Long Fangs in later, magnetize heavy weapons (lascannon, heavy bolter, multi-melta, plasma cannon). |
+| **Gladiator Reaper** | Hull weapon (Reaper vs Lancer vs Valiant) | Hard | If you want to run different Gladiator variants from one kit, magnetize the turret and hull weapons. Large magnets (5mm x 2mm) required. |
+| **Wolf Priests** | N/A | N/A | Fixed loadout characters -- no magnetization needed. |
+
+> **Tip:** At minimum, magnetize the Thunderwolf Cavalry riders and Terminator arms. These two kits have the most loadout flexibility and you will want to adjust between tournaments.
+
+### Shopping List
+
+| Product | Qty | Approx USD | Notes |
+|---------|-----|------------|-------|
+| Logan Grimnar | 1 | $42 | Epic Hero (foot version) |
+| Arjac Rockfist | 1 | $35 | Epic Hero |
+| Bjorn the Fell-Handed | 1 | $55 | Epic Hero dreadnought |
+| Njal Stormcaller | 1 | $42 | Epic Hero psyker |
+| Primaris Chaplain | 2 | $70 | Build as Wolf Priest x2 |
+| Space Wolves Upgrade Pack | 1 | $15 | Wolf bits for Chaplain conversions |
+| Wolf Guard Terminators | 2 | $120 | 5-model boxes, one per brick |
+| Wolf Guard Headtakers | 1 | $55 | 3 models + 3 Hunting Wolves |
+| Space Wolves Pack | 2 | $110 | 1x Grey Hunters, 1x Blood Claws |
+| Thunderwolf Cavalry | 1 | $70 | 3-model box |
+| Wolf Scouts | 1 | $35 | 5-model box |
+| Assault Intercessors | 1 | $55 | For 500pt Colosseum list |
+| Gladiator Reaper | 1 | $70 | Tank kit |
+| Ballistus Dreadnought | 1 | $70 | Dreadnought |
+| Magnetization supplies | 1 | $15 | 3mm x 1mm rare earth magnets (50-pack), pin vise, super glue |
+| **TOTAL** | | **~$859** | Full 2000pt army + magnets |
+<!-- END ARTISAN SECTION -->
+
+---
+
 *Built by Tacticus for competitive play. Vlka Fenryka!*
+
+<!-- CHRONICLER SECTION - Tacticus ignore -->
+## Campaign Metadata
+
+- **campaign_ready:** false
+- **battles_played:** 0
+- **win_record:** 0-0-0
+- **crusade_compatible:** true
+- **narrative_hooks:** Derived from army lore section above
+<!-- END CHRONICLER SECTION -->

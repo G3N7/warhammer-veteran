@@ -26,12 +26,20 @@ This is a beginner-friendly gunline army that rewards patience. You stand still,
 
 ---
 
+## Army Lore
+
+The T'au Empire fights for the Greater Good -- a philosophy of unity and progress in a galaxy consumed by war. The Kauyon, or "Patient Hunter," is Commander Shadowsun's signature strategy: lure the enemy into a killing ground, then annihilate them with massed firepower from prepared positions. This cadre of Fire Warriors and battlesuits from the T'au Sept -- the founding sept and heart of the Empire -- exemplifies the Mont'ka principle's counterpart: patience, discipline, and devastating coordinated volleys.
+
+---
+
 ## 2000pt List - Primary Build
 
 **Points:** 1,950/2,000 (50pts remaining)
 **Models:** 42 models
 **Validation:** All 9 gates passed
 **Note:** Commander Shadowsun and Longstrike are Epic Heroes and cannot take enhancements.
+
+**Spending the remaining 50pts:** Consider adding the **Precision of the Patient Hunter** enhancement (15pts) on a second character, or upgrading a 10-man Strike Team to include a **DS8 Support Turret** option. Alternatively, the remaining points provide a safety margin for future MFM point adjustments.
 
 ### Army List Table
 
@@ -619,3 +627,13 @@ Use ◐ Zealot Yellow for armour (one coat over white primer) - great for batch 
 *Created by Tacticus Agent*
 *Brushmaster Agent - Paint Scheme*
 *Last Updated: December 30, 2025*
+
+<!-- CHRONICLER SECTION - Tacticus ignore -->
+## Campaign Metadata
+
+- **campaign_ready:** false
+- **battles_played:** 0
+- **win_record:** 0-0-0
+- **crusade_compatible:** true
+- **narrative_hooks:** Derived from army lore section above
+<!-- END CHRONICLER SECTION -->

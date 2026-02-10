@@ -1,0 +1,59 @@
+# User Profile - Cross-Agent Shared Preferences
+# Purpose: Centralized user preferences accessible to all agents
+# Updated by: Any agent when learning new preferences
+# Version: 1.0 | Last Updated: 2026-02-09
+
+user:
+  name: Brian
+  skill_level: veteran
+  experience: "Returning player, experienced with army building and competitive play"
+
+playstyle:
+  primary: competitive
+  secondary: narrative
+  hobby_focus: all  # competitive + narrative + hobby
+  preferred_game_size: 2000
+  common_formats: [Strike Force, Colosseum]
+
+  tactical_preferences:
+    - Castle/gunline strategies
+    - Artillery and ranged firepower
+    - Elite durable units (T10+)
+    - Synergy-focused character auras
+    - Tournament-competitive builds
+    - Meta-aware list construction
+
+  themes:
+    - "Big stompy robots" (Dreadnoughts, Walkers, Knights, Monsters)
+    - Tank/vehicle heavy (Leman Russ, Tyrannofex, Knights)
+    - Durability obsession (consistently picks T10+ across factions)
+    - Melta saturation and sniper networks
+    - Scalable lists (500/1000/2000 progression)
+
+factions:
+  primary: Space Wolves
+  owned:
+    - Space Wolves
+    - Ultramarines
+    - Orks
+    - Astra Militarum
+    - Tyranids
+    - "T'au Empire"
+    - Adepta Sororitas
+    - Imperial Knights
+
+hobby:
+  painting:
+    preferred_brand: Army Painter
+    skill_level: intermediate
+    favorite_techniques: [drybrushing, wash-heavy, contrast-over-metallic]
+  modeling:
+    magnetization: true  # user magnetizes multi-option kits
+    basing_style: varied  # faction-specific basing themes
+  play_group:
+    notes: "Local group, tournament-oriented"
+
+# Personal context (for agent personality)
+personal:
+  wife_plays: true
+  wife_faction: "To be determined"

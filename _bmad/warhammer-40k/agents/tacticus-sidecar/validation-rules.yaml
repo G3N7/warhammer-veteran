@@ -1,7 +1,7 @@
 # Tacticus Validation Rules - Machine-Readable Format
 # CRITICAL: Load this BEFORE building any list. Check EVERY rule.
-# Last Updated: 2025-01-03
-# Version: 1.1
+# Last Updated: 2026-02-09
+# Version: 1.2
 
 # ============================================================
 # FACTION ABILITIES - Chapter-specific rules (10th Edition)
@@ -562,6 +562,15 @@ detachments:
       - {name: "Hunter's Guile", pts: 20, effect: "Redeploy up to 3 Thunderwolf Cavalry/Wulfen/Blood Claws units pre-game"}
       - {name: "Wolf-Touched", pts: 15, effect: "+2\" Move, bearer can join Wulfen units"}
 
+  stormlance_task_force:
+    faction: "Space Wolves"
+    ability: "Lance Charge: Units that made a charge move get +1 Strength and +1 AP on melee weapons until end of turn. Applies to all melee weapons including attached characters."
+    enhancements:
+      - {name: "Beastslayer's Oath", pts: 15, effect: "Bearer's melee weapons gain [LANCE]"}
+      - {name: "Black Death", pts: 25, effect: "Add 2 to bearer's Attacks characteristic"}
+      - {name: "Frost Weapon", pts: 15, effect: "Bearer's melee weapons gain [LETHAL HITS]"}
+      - {name: "Wolf Tail Talisman", pts: 20, effect: "4+ Feel No Pain vs mortal wounds, 5+ FNP vs psychic"}
+
   # === SPACE MARINES (Ultramarines) ===
   gladius_task_force:
     faction: "Space Marines"
@@ -649,12 +658,47 @@ detachments:
       - {name: "The Dirgeheart of Kharis", pts: 20, effect: "Once per battle, enemy unit -1 to hit you"}
 
 # ============================================================
-# META SNAPSHOT - December 2025
+# KNOWN ERRATA - FAQ/errata changes affecting user's armies
+# Cross-reference: arbitrator-sidecar/faq-registry.yaml for full details
+# ============================================================
+known_errata:
+
+  orks_thievin_scavengers:
+    faction: "Orks"
+    rule: "Thievin' Scavengers (Deathskulls)"
+    change: "Max 1 CP per battle round regardless of objectives held"
+    source: "Orks FAQ v1.2"
+    impact: "Lists must NOT claim multi-CP generation per turn"
+
+  wolf_guard_terminator_wargear:
+    faction: "Space Wolves"
+    rule: "Wolf Guard Terminator options"
+    change: "10th Ed limits to: MC Power Weapon, Power Fist, Twin Lightning Claws, Chainfist, Storm Shield"
+    removed: ["Thunder Hammer", "Frost Weapon", "Wolf Claw"]
+    impact: "BLOCKING - never recommend removed wargear options"
+
+  devastating_wounds_fnp:
+    faction: "All"
+    rule: "Devastating Wounds mortal wound interaction"
+    change: "Mortal wounds from Devastating Wounds CAN be saved by Feel No Pain"
+    source: "Core Rules FAQ v1.3"
+    impact: "Affects damage calculations for DW-heavy armies"
+
+  leader_detachment:
+    faction: "All"
+    rule: "Leader voluntary unit departure"
+    change: "Leaders CANNOT voluntarily leave units once attached in 10th Edition"
+    source: "Core Rules"
+    impact: "No mid-game leader swapping between units"
+
+# ============================================================
+# META SNAPSHOT - February 2026
 # Refresh: Monthly or after balance dataslate
 # ============================================================
 meta:
-  last_updated: "2025-12-23"
-  dataslate: "December 2025"
+  last_updated: "2026-02-09"
+  dataslate: "January 2026"
+  munitorum_field_manual: "January 2026"
 
   s_tier:
     - "Astra Militarum"
@@ -663,7 +707,14 @@ meta:
     - "Chaos Daemons"
     - "Death Guard"
 
+  a_tier:
+    - "Adepta Sororitas"
+    - "Imperial Knights"
+    - "T'au Empire (Kauyon)"
+
   notes:
     - "Aeldari nerfed hard (Skyborne Sanctuary changes)"
     - "T'au + GSC left untouched despite needing help"
     - "Tank-heavy armies stable"
+    - "MFM January 2026 points in effect - verify all lists against current MFM"
+    - "Stormlance Task Force emerging as competitive Space Wolves detachment"

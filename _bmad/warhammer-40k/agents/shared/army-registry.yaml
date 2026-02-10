@@ -1,0 +1,178 @@
+# Cross-Agent Army Registry
+# Purpose: Central index linking army lists to all agent data (paint, assembly, campaign, lore)
+# Updated by: Any agent when creating/modifying army lists
+# Consumed by: All agents for cross-referencing
+# Version: 1.0 | Last Updated: 2026-02-09
+
+armies:
+
+  # === SPACE WOLVES ===
+  space-wolves:
+    faction_key: space-wolves
+    chapter: Space Wolves
+    parent_faction: Adeptus Astartes
+
+    lists:
+      - id: competitive-wolves-stormlance
+        file: army-lists/space-wolves/competitive-wolves-stormlance.md
+        detachment: Stormlance Task Force
+        points: [500, 1000, 2000]
+        status: active
+        has_paint_scheme: true
+        has_assembly_guide: false
+        has_lore_section: true
+        campaign_ready: false
+        cheatsheet: army-lists/space-wolves/competitive-wolves-stormlance-cheatsheet.md
+
+      - id: mann-stormlance
+        file: army-lists/space-wolves/mann-stormlance.md
+        detachment: Stormlance Task Force
+        points: [500, 1000, 2000]
+        status: active
+        has_paint_scheme: true
+        has_assembly_guide: false
+        has_lore_section: true
+        campaign_ready: false
+        cheatsheet: army-lists/space-wolves/samelance.cheatsheet.json
+
+      - id: colosseum-wolf-priest
+        file: army-lists/space-wolves/colosseum-wolf-priest.md
+        detachment: Saga of the Beastslayer
+        points: [500]
+        status: active
+        has_paint_scheme: true
+        has_assembly_guide: true
+        has_lore_section: true
+        campaign_ready: false
+        cheatsheet: null
+
+      - id: archive-wolves-of-the-fang
+        file: army-lists/space-wolves/archive-wolves-of-the-fang-terminator-army.md
+        detachment: Saga of the Beastslayer
+        points: [500, 1000, 2000]
+        status: archived
+        has_paint_scheme: true
+        has_assembly_guide: true
+        has_lore_section: true
+        campaign_ready: false
+        cheatsheet: army-lists/space-wolves/wolves-of-the-fang-cheatsheet.md
+
+  # === ULTRAMARINES ===
+  ultramarines:
+    faction_key: ultramarines
+    chapter: Ultramarines
+    parent_faction: Adeptus Astartes
+
+    lists:
+      - id: dread-castle-gladius
+        file: army-lists/ultramarines/dread-castle-gladius-army.md
+        detachment: Gladius Task Force
+        points: [500, 1000, 2000]
+        status: active
+        has_paint_scheme: true
+        has_assembly_guide: false
+        has_lore_section: true
+        campaign_ready: false
+        cheatsheet: null
+
+  # === ORKS ===
+  orks:
+    faction_key: orks
+    parent_faction: Orks
+
+    lists:
+      - id: mek-gunz-apocalypse
+        file: army-lists/orks/mek-gunz-apocalypse-dread-mob.md
+        detachment: Dread Mob
+        points: [500, 1000, 2000]
+        status: active
+        has_paint_scheme: true
+        has_assembly_guide: true
+        has_lore_section: true
+        campaign_ready: false
+        cheatsheet: null
+
+  # === ASTRA MILITARUM ===
+  astra-militarum:
+    faction_key: astra-militarum
+    parent_faction: Astra Militarum
+
+    lists:
+      - id: imperial-hammer-grizzled
+        file: army-lists/astra-militarum/imperial-hammer-grizzled-company.md
+        detachment: Grizzled Company
+        points: [500, 1000, 2000]
+        status: active
+        has_paint_scheme: true
+        has_assembly_guide: true
+        has_lore_section: true
+        campaign_ready: false
+        cheatsheet: null
+
+  # === TYRANIDS ===
+  tyranids:
+    faction_key: tyranids
+    parent_faction: Tyranids
+
+    lists:
+      - id: bio-fortress-crusher
+        file: army-lists/tyranids/bio-fortress-crusher-stampede.md
+        detachment: Crusher Stampede
+        points: [500, 1000, 2000]
+        status: active
+        has_paint_scheme: true
+        has_assembly_guide: true
+        has_lore_section: true
+        campaign_ready: false
+        cheatsheet: null
+
+  # === T'AU EMPIRE ===
+  tau-empire:
+    faction_key: tau-empire
+    parent_faction: "T'au Empire"
+
+    lists:
+      - id: patient-hunter-kauyon
+        file: army-lists/tau-empire/patient-hunter-kauyon-gunline.md
+        detachment: Kauyon
+        points: [500, 1000, 2000]
+        status: active
+        has_paint_scheme: true
+        has_assembly_guide: true
+        has_lore_section: true
+        campaign_ready: false
+        cheatsheet: null
+
+  # === ADEPTA SORORITAS ===
+  adepta-sororitas:
+    faction_key: adepta-sororitas
+    parent_faction: Adepta Sororitas
+
+    lists:
+      - id: terminator-slayer-army-of-faith
+        file: army-lists/adepta-sororitas/terminator-slayer-army-of-faith.md
+        detachment: Army of Faith
+        points: [500, 1000, 2000]
+        status: active
+        has_paint_scheme: true
+        has_assembly_guide: true
+        has_lore_section: true
+        campaign_ready: false
+        cheatsheet: null
+
+  # === IMPERIAL KNIGHTS ===
+  imperial-knights:
+    faction_key: imperial-knights
+    parent_faction: Imperial Knights
+
+    lists:
+      - id: iron-bulwark-spearhead
+        file: army-lists/imperial-knights/iron-bulwark-spearhead-army.md
+        detachment: Spearhead-at-Arms
+        points: [500, 1000, 2000]
+        status: active
+        has_paint_scheme: true
+        has_assembly_guide: true
+        has_lore_section: true
+        campaign_ready: false
+        cheatsheet: null

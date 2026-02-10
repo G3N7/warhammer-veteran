@@ -24,6 +24,12 @@
 
 ---
 
+## Army Lore
+
+The Cadian 8th -- "The Lord Castellan's Own" -- stood at the gates of the Eye of Terror for ten thousand years until Cadia fell. Now scattered across the galaxy, Cadian regiments carry the doctrine and discipline that made their homeworld the Imperium's shield. This grizzled company fights in the Cadian way: massed armour supported by precise artillery, every soldier trained from birth to hold the line. Lord Solar Leontus himself rides to inspire these veterans -- the finest soldiers humanity has ever produced.
+
+---
+
 ## 500 Point List - "The Vanguard"
 
 **Total Points:** 495pts
@@ -674,7 +680,7 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 - **War Horse Hooves**: Melee A6 S5 AP-1 D2
 
 **Abilities:**
-- **Voice of Command:** Issue 3 Orders per Command phase (range 6")
+- **Voice of Command:** Issue 3 Orders per Command phase (range 6") — **4 Orders total** with Grizzled Company's Ruthless Discipline (+1 Order per Officer)
 - **Master Strategist:** Gain 1CP at start of each Command phase
 - **Redeploy the Reserves:** Before battle, redeploy up to 3 units
 - **Invulnerable Save:** 4+
@@ -1065,3 +1071,13 @@ This list fields **THREE** sniper units creating overlapping Precision fire from
 *Last Updated: January 7, 2026*
 *Tacticus Agent - Warhammer 40k 10th Edition*
 *Brushmaster Agent - Paint Scheme*
+
+<!-- CHRONICLER SECTION - Tacticus ignore -->
+## Campaign Metadata
+
+- **campaign_ready:** false
+- **battles_played:** 0
+- **win_record:** 0-0-0
+- **crusade_compatible:** true
+- **narrative_hooks:** Derived from army lore section above
+<!-- END CHRONICLER SECTION -->

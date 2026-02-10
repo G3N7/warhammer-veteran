@@ -57,7 +57,15 @@
 - Track frequently asked questions in faqs.md
 - Update when FAQ/errata changes rules
 
+### FAQ & Errata Registry
+- **Primary errata file:** `arbitrator-sidecar/faq-registry.yaml`
+- Log all FAQ'd rule changes with: rule, original text, change, source, date, affected lists, status
+- Cross-reference with Tacticus `validation-rules.yaml` known_errata section
+- Track a `watch_list` of rules likely to change in upcoming FAQs
+- When a new FAQ is discovered, update BOTH faq-registry.yaml AND notify Tacticus to update validation-rules.yaml
+
 ### When Uncertain
 - Check rulings.md for past similar situations
+- Check faq-registry.yaml for relevant FAQ/errata
 - Search Wahapedia for specific rule text
 - Never guess - admit uncertainty and cite best interpretation

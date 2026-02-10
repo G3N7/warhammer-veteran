@@ -55,7 +55,7 @@
 | **Armiger Warglaive** | ARMIGER | 140 | 12" | 9 | 3+ | 14 | 6 | 5++ | Counter-Charge |
 | **TOTAL** | | **420** | | | | **42W** | **18** | | |
 
-**80pts remaining** - Cannot fit another Armiger (140pts). Use for wargear if any options exist.
+**80pts remaining** - Cannot fit another Armiger (140pts minimum). This gap is inherent to Imperial Knights at 500pts — no legal unit or wargear option fits in 80pts. The 3-Armiger build is the optimal 500pt configuration for this faction.
 
 **Points Calculation:**
 ```
@@ -807,3 +807,13 @@ _Army optimized for shooting-focused castle gameplay_
 _All lists verified Rule of Three compliant_
 _Rules source: wahapedia.ru_
 _Points source: Wahapedia December 2025_
+
+<!-- CHRONICLER SECTION - Tacticus ignore -->
+## Campaign Metadata
+
+- **campaign_ready:** false
+- **battles_played:** 0
+- **win_record:** 0-0-0
+- **crusade_compatible:** true
+- **narrative_hooks:** Derived from army lore section above
+<!-- END CHRONICLER SECTION -->

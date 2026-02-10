@@ -281,6 +281,12 @@
 
 ---
 
+## Army Lore
+
+The Wolf Priests are the spiritual heart of the Space Wolves, combining the roles of Chaplain and Apothecary. They select aspirants from the death world of Fenris, guide them through the transformation into Astartes, and tend to their battle-brothers' souls and bodies alike. A Wolf Priest leading Grey Hunters into the arena channels the ancient saga tradition -- every kill adds a verse to the Great Company's legend.
+
+---
+
 ## Faction Ability Reminder
 
 **Space Wolves - Oath of Moment:**
@@ -300,7 +306,68 @@
 
 ---
 
+<!-- BRUSHMASTER SECTION - Tacticus ignore -->
+## Paint Scheme: Space Wolves (Great Fang)
+
+**Chapter:** Space Wolves (VI Legion) - Great Company
+
+### Palette
+
+| Type | Role | Paint | Hex | Swatch |
+|:----:|------|-------|-----|--------|
+| ■ | Primary (Armour) | The Fang / Space Wolves Grey | #6B7B8D | <span style="background:#6B7B8D;padding:2px 12px;">&nbsp;</span> |
+| ● | Shade | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Highlight | Fenrisian Grey | #A8B4BE | <span style="background:#A8B4BE;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Edge Highlight | Matt White | #FFFFFF | <span style="background:#FFFFFF;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Gold Trim | Greedy Gold | #FFD700 | <span style="background:#FFD700;padding:2px 12px;">&nbsp;</span> |
+| ● | Gold Shade | Strong Tone | #5C4033 | <span style="background:#5C4033;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Silver Metal | Plate Mail Metal | #C0C0C0 | <span style="background:#C0C0C0;padding:2px 12px;">&nbsp;</span> |
+| ● | Metal Wash | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ■ | Skin | Tanned Flesh | #D4A574 | <span style="background:#D4A574;padding:2px 12px;">&nbsp;</span> |
+| ● | Skin Shade | Flesh Wash | #C4956A | <span style="background:#C4956A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Pack Markings | Pure Red | #C41E3A | <span style="background:#C41E3A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Shoulder Trim (Great Company) | Daemonic Yellow | #F5D033 | <span style="background:#F5D033;padding:2px 12px;">&nbsp;</span> |
+| ■ | Leather/Pelts | Leather Brown | #8B4513 | <span style="background:#8B4513;padding:2px 12px;">&nbsp;</span> |
+| ■ | Bone/Fangs | Skeleton Bone | #E8DCC4 | <span style="background:#E8DCC4;padding:2px 12px;">&nbsp;</span> |
+| ■ | Eyes/Lenses | Pure Red | #C41E3A | <span style="background:#C41E3A;padding:2px 12px;">&nbsp;</span> |
+
+**Shape Key:** ■ Base | ▲ Layer | ◆ Metallic | ● Wash | ★ Effect
+
+### Quick Recipes
+
+**Armour:** ■ The Fang → ● Dark Tone recess → ▲ Fenrisian Grey layer → ▲ Matt White edge
+**Gold Trim:** ◆ Greedy Gold → ● Strong Tone → ◆ Greedy Gold recess avoid
+**Pack Markings:** ■ Pure Red → ● Dark Tone → ▲ Mars Red highlight
+**Shoulder Trim:** ■ Daemonic Yellow → ● Soft Tone → ▲ Daemonic Yellow cleanup
+**Skin:** ■ Tanned Flesh → ● Flesh Wash → ▲ Fair Skin highlight
+**Pelts/Leather:** ■ Leather Brown → ● Dark Tone → ▲ Monster Brown drybrush
+**Fangs/Bone:** ■ Skeleton Bone → ● Soft Tone → ▲ Matt White tips
+
+### Space Wolves Signature Elements
+- Grey-blue armour with weathered, battle-worn look
+- Gold trim and Fenrisian knotwork on pauldrons
+- Red pack markings and Great Company identifiers
+- Yellow shoulder trim denoting Great Company
+- Wolf pelts, fangs, and trophies on every model
+- Runes and Fenrisian glyphs (freehand or transfers)
+- Red eye lenses
+
+*View color swatches: Open file in VSCode → Ctrl+Shift+V*
+<!-- END BRUSHMASTER SECTION -->
+
+---
+
 *Document Generated: January 18, 2026*
 *Document Updated: January 18, 2026 (revised - wolves removed for Assault Intercessors)*
 *Points Source: Munitorum Field Manual January 2026*
 *Format Rules Source: Play On Tabletop - King of the Colosseum*
+
+<!-- CHRONICLER SECTION - Tacticus ignore -->
+## Campaign Metadata
+
+- **campaign_ready:** false
+- **battles_played:** 0
+- **win_record:** 0-0-0
+- **crusade_compatible:** true
+- **narrative_hooks:** Derived from army lore section above
+<!-- END CHRONICLER SECTION -->

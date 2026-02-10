@@ -1052,6 +1052,55 @@ This list trades melta spam for durability, melee threat, and all-around flexibi
 ---
 
 <!-- BRUSHMASTER SECTION - Tacticus ignore -->
+## Paint Scheme: Order of Our Martyred Lady
+
+**Order:** Order of Our Martyred Lady (black armour, red cloth, white details)
+
+### Palette
+
+| Type | Role | Paint | Hex | Swatch |
+|:----:|------|-------|-----|--------|
+| ■ | Primary (Armour) | Matt Black | #1A1A1A | <span style="background:#1A1A1A;padding:2px 12px;">&nbsp;</span> |
+| ● | Armour Shade | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Armour Highlight | Uniform Grey | #6B6B6B | <span style="background:#6B6B6B;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Edge Highlight | Ash Grey | #B2BEB5 | <span style="background:#B2BEB5;padding:2px 12px;">&nbsp;</span> |
+| ■ | Cloth/Robes | Pure Red | #C41E3A | <span style="background:#C41E3A;padding:2px 12px;">&nbsp;</span> |
+| ● | Cloth Shade | Red Tone | #8B1A1A | <span style="background:#8B1A1A;padding:2px 12px;">&nbsp;</span> |
+| ▲ | Cloth Highlight | Mars Red | #E35335 | <span style="background:#E35335;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Metal | Gun Metal | #6A6A6A | <span style="background:#6A6A6A;padding:2px 12px;">&nbsp;</span> |
+| ● | Metal Wash | Dark Tone | #3D2B1F | <span style="background:#3D2B1F;padding:2px 12px;">&nbsp;</span> |
+| ◆ | Gold Trim | Greedy Gold | #FFD700 | <span style="background:#FFD700;padding:2px 12px;">&nbsp;</span> |
+| ■ | Parchment/Seals | Skeleton Bone | #E8DCC4 | <span style="background:#E8DCC4;padding:2px 12px;">&nbsp;</span> |
+| ■ | Skin | Tanned Flesh | #D4A574 | <span style="background:#D4A574;padding:2px 12px;">&nbsp;</span> |
+| ● | Skin Shade | Flesh Wash | #C4956A | <span style="background:#C4956A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Eyes/Lenses | Pure Red | #C41E3A | <span style="background:#C41E3A;padding:2px 12px;">&nbsp;</span> |
+| ■ | Fleur-de-lis | Matt White | #FFFFFF | <span style="background:#FFFFFF;padding:2px 12px;">&nbsp;</span> |
+
+**Shape Key:** ■ Base | ▲ Layer | ◆ Metallic | ● Wash | ★ Effect
+
+### Quick Recipes
+
+**Black Armour:** ■ Matt Black → ● Dark Tone recess → ▲ Uniform Grey edge → ▲ Ash Grey fine edge
+**Red Cloth:** ■ Pure Red → ● Red Tone recess → ▲ Mars Red layer → ▲ Mars Red edge
+**Gold Trim:** ◆ Greedy Gold → ● Dark Tone → ◆ Greedy Gold recess avoid
+**Metal Weapons:** ◆ Gun Metal → ● Dark Tone → ◆ Gun Metal edge highlight
+**Parchment/Seals:** ■ Skeleton Bone → ● Dark Tone → ▲ Skeleton Bone cleanup → ■ Pure Red wax
+**Skin:** ■ Tanned Flesh → ● Flesh Wash → ▲ Fair Skin highlight
+**Eyes/Lenses:** ■ Pure Red → ▲ Mars Red dot → ■ Matt White specular
+
+### Adepta Sororitas Signature Elements
+- Black armour with red cloth - the classic Martyred Lady contrast
+- White fleur-de-lis on shoulder pads and banners
+- Bone-colored parchment scrolls and purity seals
+- Red eye lenses on helmeted models
+- White Order symbol on tilting plates
+- Gold Aquilas and devotional iconography
+- Warm skin tones with dark hair (Order tradition)
+
+*View color swatches: Open file in VSCode → Ctrl+Shift+V*
+<!-- END BRUSHMASTER SECTION -->
+
+<!-- BRUSHMASTER SECTION - Tacticus ignore -->
 ## Paint Scheme: Order of the Rose Eternal (Hot Pink)
 
 **Order:** Custom Order - "Order of the Rose Eternal" (hot pink themed for your wife!)
@@ -1119,3 +1168,13 @@ Use ◐ Succubus Pink over white primer for quick hot pink armour - perfect for 
 **Validated:** All points verified against Wahapedia 10th Edition
 
 **FOR THE EMPEROR!**
+
+<!-- CHRONICLER SECTION - Tacticus ignore -->
+## Campaign Metadata
+
+- **campaign_ready:** false
+- **battles_played:** 0
+- **win_record:** 0-0-0
+- **crusade_compatible:** true
+- **narrative_hooks:** Derived from army lore section above
+<!-- END CHRONICLER SECTION -->
