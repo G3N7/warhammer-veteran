@@ -240,15 +240,15 @@ Scaled version maintaining Mann's core identity: Logan + Terminators + Wulfen + 
 ### Stormlance Task Force
 
 **Detachment Rule - Lightning Assault:**
-> Each time an ADEPTUS ASTARTES unit from your army Advances, until the end of the turn, that unit is eligible to declare a charge. Units can also charge after Falling Back.
+> ADEPTUS ASTARTES units can charge after Advancing. Units can also charge after Falling Back.
 
 **Enhancements:**
 | Enhancement | Points | Restriction | Effect |
 |-------------|--------|-------------|--------|
-| Fury of the Storm | 25 | MOUNTED | +1 to wound on charge |
-| Hunter's Instincts | 10 | MOUNTED | +1 to hit on charge |
+| Fury of the Storm | 25 | MOUNTED CHARACTER | Melee +1S/+1AP, or +2S/+2AP if charged |
+| Hunter's Instincts | 10 | MOUNTED CHARACTER (RESERVES) | Unit counts battle round as 1 higher for arrival |
 | Portents of Wisdom | 15 | — | Re-roll Advance rolls for led unit |
-| Feinting Withdrawal | 10 | — | Fall Back and Charge |
+| Feinting Withdrawal | 20 | — | Fall Back and Shoot |
 
 **Stratagems:**
 | Stratagem | CP | Phase | Effect |
@@ -257,7 +257,7 @@ Scaled version maintaining Mann's core identity: Logan + Terminators + Wulfen + 
 | Blitzing Fusillade | 1 | Shooting | Unit that Advanced: ranged gets [ASSAULT] + hit on 3+ |
 | Lightning Assault | 1 | Charge | Unit that Fell Back: +2 to Charge |
 | Storm of Violence | 1 | Fight | Unit that charged: melee crit hits cause 1 extra hit |
-| Ride Hard, Ride Fast | 1 | Move | MOUNTED/VEHICLE: +2" Move and Advance |
+| Ride Hard, Ride Fast | 1 | Enemy Shooting | MOUNTED/FLY VEHICLE (not WALKERS): -1 to Hit and -1 to Wound |
 | Pack Hunters | 1 | Fight | +1 to Wound melee vs enemy also engaged by another SW unit |
 
 ### Space Wolves Faction Rule
@@ -275,7 +275,7 @@ Scaled version maintaining Mann's core identity: Logan + Terminators + Wulfen + 
 **vs. Horde Armies:**
 - Wulfen Thunder Hammers cleave through infantry (S10+ AP-2 D3)
 - TWC Thunderous Charge (+1S, +1AP) for efficient multi-wound kills
-- Grey Hunters / Blood Claws hold objectives with superior OC
+- Intercessors hold backfield objectives while melee units push forward
 
 **vs. Elite/Terminator Armies:**
 - Logan + WGT brick Deep Strikes into their backline

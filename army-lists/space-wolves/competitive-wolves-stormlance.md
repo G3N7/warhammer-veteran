@@ -36,18 +36,19 @@ The Space Wolves are the VI Legion, sons of Leman Russ, the Wolf King of Fenris.
 
 ## 2000pt List (2,000pts)
 
-### Characters (610pts)
+### Characters (600pts)
 
 | Unit | Points | Role |
 |------|--------|------|
 | Logan Grimnar | 110 | Warlord, leads Terminators |
 | Arjac Rockfist | 105 | Terminator leader, melee hammer |
-| Bjorn the Fell-Handed | 160 | CP generation (4+ each round), fire support |
+| Bjorn the Fell-Handed | 160 | CP generation (+1CP/Command phase, automatic), fire support |
 | Njal Stormcaller | 85 | Grey Hunters leader, PSYKER, mortal wounds |
-| Wolf Priest + Feinting Withdrawal | 80 | Blood Claws leader, +1 to wound melee, Fall Back+Charge |
+| Wolf Priest | 70 | Blood Claws leader, +1 to wound melee |
 | Wolf Priest | 70 | Headtakers leader, +1 to wound melee |
 
 > **Note:** Logan (foot, 110pts) leads Wolf Guard Terminators. Stormrider version (180pts) can only lead Thunderwolf Cavalry.
+> **Note:** Feinting Withdrawal (20pts) removed — Stormlance detachment already grants Fall Back+Charge to all units. 10pts freed.
 
 ### Elites (450pts)
 
@@ -92,13 +93,13 @@ The Space Wolves are the VI Legion, sons of Leman Russ, the Wolf King of Fenris.
 
 | Category | Points | Models |
 |----------|--------|--------|
-| Characters | 610 | 6 |
+| Characters | 600 | 6 |
 | Elites | 450 | 16 |
 | Battleline | 435 | 30 |
 | Fast Attack | 115 | 3 |
 | Fire Support | 310 | 2 |
 | Screening | 80 | 5 |
-| **TOTAL** | **2,000** | **62** |
+| **TOTAL** | **1,990** | **62** |
 
 ### Points Verification
 
@@ -106,8 +107,8 @@ The Space Wolves are the VI Legion, sons of Leman Russ, the Wolf King of Fenris.
 - Arjac Rockfist: 105pts
 - Bjorn the Fell-Handed: 160pts
 - Njal Stormcaller: 85pts
-- Wolf Priest + Feinting Withdrawal: 70 + 10 = 80pts
-- Wolf Priest: 70pts
+- Wolf Priest: 70pts (Blood Claws)
+- Wolf Priest: 70pts (Headtakers)
 - Wolf Guard Terminators ×5: 170pts × 2 = 340pts
 - Wolf Guard Headtakers: 110pts
 - Blood Claws ×10: 135pts × 2 = 270pts
@@ -117,7 +118,7 @@ The Space Wolves are the VI Legion, sons of Leman Russ, the Wolf King of Fenris.
 - Ballistus Dreadnought: 150pts
 - Wolf Scouts ×5: 80pts (16pts × 5)
 
-**TOTAL: 110 + 105 + 160 + 85 + 80 + 70 + 340 + 110 + 270 + 165 + 115 + 160 + 150 + 80 = 2,000pts** ✅
+**TOTAL: 110 + 105 + 160 + 85 + 70 + 70 + 340 + 110 + 270 + 165 + 115 + 160 + 150 + 80 = 1,990pts** ✅
 
 ### Meta Coverage
 
@@ -284,16 +285,16 @@ Build order optimized for playability at each point level.
 
 ### Stormlance Task Force
 
-**Detachment Rule - Ride Hard, Ride Fast:**
-> Each time an ADEPTUS ASTARTES unit from your army Advances, until the end of the turn, that unit is eligible to declare a charge.
+**Detachment Rule - Lightning Assault:**
+> ADEPTUS ASTARTES units can charge after Advancing. Units can also charge after Falling Back.
 
 **Enhancements:**
 | Enhancement | Points | Restriction | Effect |
 |-------------|--------|-------------|--------|
-| Fury of the Storm | 25 | MOUNTED | +1 to wound on charge |
-| Hunter's Instincts | 10 | MOUNTED | +1 to hit on charge |
+| Fury of the Storm | 25 | MOUNTED CHARACTER | Melee +1S/+1AP, or +2S/+2AP if charged |
+| Hunter's Instincts | 10 | MOUNTED CHARACTER (RESERVES) | Unit counts battle round as 1 higher for arrival |
 | Portents of Wisdom | 15 | - | Re-roll Advance rolls for led unit |
-| Feinting Withdrawal | 10 | - | Fall Back and Charge |
+| Feinting Withdrawal | 20 | - | Fall Back and Shoot |
 
 **Stratagems (Key):**
 - **Swift Hunters (1CP):** After enemy Falls Back, one of your units can make a Normal Move
@@ -309,7 +310,7 @@ Build order optimized for playability at each point level.
 | Logan Grimnar | Wolf Guard Terminators (Brick 1) | Deep Strike, +1 Attack aura |
 | Arjac Rockfist | Wolf Guard Terminators (Brick 2) | Champion of the Kingsguard (+1 to wound) |
 | Njal Stormcaller | Grey Hunters | PSYKER, Tempest Wrath (mortal wounds), +1 to wound melee |
-| Wolf Priest #1 + Feinting Withdrawal | Blood Claws | +1 to wound melee, resurrect 1 model/turn, Fall Back+Charge |
+| Wolf Priest #1 | Blood Claws | +1 to wound melee, resurrect 1 model/turn |
 | Wolf Priest #2 | Wolf Guard Headtakers | +1 to wound melee, resurrect 1 model/turn |
 
 > **Verified against cache:**
@@ -326,7 +327,6 @@ Build order optimized for playability at each point level.
 
 **vs. Horde Armies:**
 - Castle Gladiator Reaper + Bjorn for volume fire
-- Use Fenrisian Wolves to tie up chaff
 - Wolf Scouts grab distant objectives early
 - Blood Claws with Wolf Priest delete infantry blobs
 
@@ -350,7 +350,7 @@ Build order optimized for playability at each point level.
 
 1. **Logan Alpha:** Deep Strike Terminators T2, charge 9"
 2. **Dual Wolf Priest Buffs:** Two units get +1 to wound melee + model resurrection each turn
-3. **Bjorn CP Farm:** Average 2.5 CP over 5 rounds, fuels stratagems
+3. **Bjorn CP Farm:** +1CP each Command phase = 5 bonus CP over 5 rounds, fuels stratagems
 4. **Headtaker Assassination:** Pick quarry → Devastating Wounds + Precision = dead characters
 5. **TWC Flanking:** 10" move + Advance + Charge = massive threat range
 6. **Scout Forward Deploy:** Wolf Scouts Infiltrate for early board control

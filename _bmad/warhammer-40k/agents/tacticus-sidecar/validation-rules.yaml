@@ -564,12 +564,13 @@ detachments:
 
   stormlance_task_force:
     faction: "Space Wolves"
-    ability: "Lance Charge: Units that made a charge move get +1 Strength and +1 AP on melee weapons until end of turn. Applies to all melee weapons including attached characters."
+    ability: "Lightning Assault: ADEPTUS ASTARTES units can charge after Advancing. Units can also charge after Falling Back."
     enhancements:
-      - {name: "Beastslayer's Oath", pts: 15, effect: "Bearer's melee weapons gain [LANCE]"}
-      - {name: "Black Death", pts: 25, effect: "Add 2 to bearer's Attacks characteristic"}
-      - {name: "Frost Weapon", pts: 15, effect: "Bearer's melee weapons gain [LETHAL HITS]"}
-      - {name: "Wolf Tail Talisman", pts: 20, effect: "4+ Feel No Pain vs mortal wounds, 5+ FNP vs psychic"}
+      - {name: "Fury of the Storm", pts: 25, restriction: "MOUNTED CHARACTER", effect: "Bearer's melee weapons +1S/+1AP, or +2S/+2AP if bearer charged this turn"}
+      - {name: "Hunter's Instincts", pts: 10, restriction: "MOUNTED CHARACTER in RESERVES", effect: "Bearer's unit counts battle round as 1 higher for Reserves arrival"}
+      - {name: "Portents of Wisdom", pts: 15, effect: "While leading, re-roll Advance rolls for led unit"}
+      - {name: "Feinting Withdrawal", pts: 20, effect: "While leading, unit can Fall Back and Shoot"}
+    note: "Previous entry had wrong enhancement names (Beastslayer's Oath, Black Death, Frost Weapon, Wolf Tail Talisman). Corrected 2026-02-14 via Wahapedia/Goonhammer/AdeptusArs verification."
     stratagem_notes:
       ride_hard_ride_fast:
         target: "MOUNTED or FLY VEHICLE (excludes WALKERS)"

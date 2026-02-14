@@ -432,9 +432,8 @@ With Bjorn generating +1CP per phase:
 - Strategy: Reserves, Deep Strike behind their castle, charge
 
 **Psyker-Heavy Armies (Thousand Sons, Grey Knights)**
-- Wolf Priests provide Feel No Pain 6+ vs mortal wounds
+- Logan Grimnar's Guile of the Wolf taxes enemy Stratagem usage (+1CP cost within 12")
 - Space Wolves stratagems provide battle-shock resistance
-- Logan Grimnar's Guile of the Wolf = enemy stratagems cost +1CP
 - Strategy: Push aggressively, deny psychic phase value with melee pressure
 
 ### Weak Against
@@ -577,7 +576,7 @@ With Bjorn generating +1CP per phase:
 
 **HIGH PRIORITY:**
 - **Terminator arms:** Magnetize to swap storm bolter ↔ storm shield ↔ assault cannon
-- **Pack Leader weapons:** Twin lightning claws ↔ thunder hammer + storm shield
+- **Pack Leader weapons:** Twin lightning claws ↔ power fist ↔ chainfist
 
 **MEDIUM PRIORITY:**
 - **Venerable Dreadnought:** Greataxe ↔ other melee options

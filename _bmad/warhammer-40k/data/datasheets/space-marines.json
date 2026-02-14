@@ -1,9 +1,9 @@
 {
   "faction": "space-marines",
-  "last_updated": "2026-01-30T05:06:04.549495+00:00",
+  "last_updated": "2026-02-14T16:18:52.817862+00:00",
   "source": "wahapedia",
   "schema_version": "2.0",
-  "unit_count": 15,
+  "unit_count": 16,
   "units": {
     "Roboute Guilliman": {
       "name": "Roboute Guilliman",
@@ -4220,6 +4220,238 @@
       "unit_composition": null,
       "default_wargear": [
         "1 Scout Sergeant 4-9 Scouts Every model is equipped with: bolt pistol; boltgun; close combat weapon."
+      ],
+      "wargear_options": [],
+      "is_epic_hero": false,
+      "transport_capacity": null,
+      "damaged_profile": null,
+      "role": null
+    },
+    "Gladiator Reaper": {
+      "name": "Gladiator Reaper",
+      "url_slug": "Gladiator-Reaper",
+      "stats": {
+        "M": "10",
+        "T": "10",
+        "Sv": "3+",
+        "W": "12",
+        "Ld": "6+",
+        "OC": "3"
+      },
+      "invuln": null,
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Icarus rocket pod",
+            "range": "24\"",
+            "A": "D3",
+            "skill": "3+",
+            "S": "8",
+            "AP": "-1",
+            "D": "2",
+            "keywords": [
+              "anti-fly 2+"
+            ]
+          },
+          {
+            "name": "Ironhail heavy stubber rapid fire 3",
+            "range": "36\"",
+            "A": "3",
+            "skill": "3+",
+            "S": "4",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "rapid fire 3"
+            ]
+          },
+          {
+            "name": "Tempest bolter rapid fire 4",
+            "range": "24\"",
+            "A": "4",
+            "skill": "3+",
+            "S": "4",
+            "AP": "-1",
+            "D": "1",
+            "keywords": [
+              "rapid fire 4"
+            ]
+          },
+          {
+            "name": "Twin heavy onslaught gatling cannon",
+            "range": "24\"",
+            "A": "12",
+            "skill": "3+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": [
+              "heavy",
+              "devastating wounds",
+              "twin-linked"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "range": "Melee",
+            "A": "3",
+            "skill": "4+",
+            "S": "6",
+            "AP": "0",
+            "D": "1",
+            "keywords": []
+          }
+        ]
+      },
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "Oath of Moment"
+        ],
+        "unit": [
+          {
+            "name": "Rotating Death",
+            "description": "This model\u2019s twin heavy onslaught gatling cannon has the [SUSTAINED HITS 2] ability when targeting INFANTRY units."
+          }
+        ]
+      },
+      "points": [
+        {
+          "models": 1,
+          "points": 160
+        }
+      ],
+      "unit_sizes": [
+        1
+      ],
+      "keywords": [
+        "[SUSTAINED HITS 2]",
+        "ARMOUR OF CONTEMPT",
+        "STRIKE NOW FOR GLORY",
+        "FOCUSED FURY",
+        "BATTLE DRILL RECALL",
+        "NO THREAT TOO GREAT",
+        "HAIL OF VENGEANCE",
+        "RIGID DISCIPLINE",
+        "CODEX DISCIPLINE",
+        "LIGHT OF VENGEANCE",
+        "HERESY UNDONE",
+        "ADAPTIVE TACTICS",
+        "ULTRAMARIAN ADAPTIVITY",
+        "TACTICAL FORESIGHT",
+        "EXEMPLARY VIGILANCE",
+        "COURAGE AND HONOUR!",
+        "INSANE BRAVERY",
+        "EXPLOSIVE CLEARANCE",
+        "COUNTER-OFFENSIVE",
+        "FIRE OVERWATCH",
+        "RAPID INGRESS",
+        "SMOKESCREEN",
+        "TANK SHOCK",
+        "IMMOLATION PROTOCOLS",
+        "ONSLAUGHT OF FIRE",
+        "BLAZING EARTH",
+        "ADAPTIVE STRATEGY",
+        "STORM OF FIRE",
+        "BLESSED HULL",
+        "CONDEMNATORY INFO-SCREED",
+        "VENGEFUL ANIMUS",
+        "UNBOWED CONVICTION",
+        "ANGELIC GRACE",
+        "AGGRESSIVE ONSLAUGHT",
+        "RELENTLESS ASSAULT",
+        "SAVAGE ECHOES",
+        "RED RAMPAGE",
+        "OVERPOWERING EXACTION",
+        "STRENGTH IN UNITY",
+        "SUPPRESSION STRAFING",
+        "AUTO\u2011SENSE COORDINATION",
+        "TACTICAL DECAPITATION",
+        "BLIND SCREEN",
+        "SHOCK ONSLAUGHT",
+        "RED WRATH",
+        "LIMB FROM LIMB",
+        "CRUSADING CONQUERORS",
+        "SCIONS OF GUILLIMAN",
+        "ULTRAMARIAN DESTINY",
+        "FURIOUS DEDICATION",
+        "MARCHING EVER ON",
+        "THUNDEROUS PURSUIT",
+        "PINNING FIRE",
+        "GRIMNAR\u2019S COMMAND",
+        "UNRELENTING HUNTERS",
+        "THE FOE FORESEEN",
+        "MARKED FOR DESTRUCTION",
+        "OVERWHELMING ONSLAUGHT",
+        "TERRITORIAL ADVANTAGE",
+        "FEINT AND THRUST",
+        "MOBILE LETHALITY",
+        "FULL THROTTLE",
+        "BLITZING FUSILLADE",
+        "UNBRIDLED ARDOUR",
+        "INTRACTABLE",
+        "UNFORGIVEN FURY",
+        "FIRE DISCIPLINE",
+        "GRIM RETRIBUTION",
+        "UNBREAKABLE LINES",
+        "RECLAIM OUR HONOUR!",
+        "PERFERVID INTERVENTION",
+        "LITANIES OF PURGATION",
+        "LION\u2019S WILL",
+        "TACTICAL MASTERY",
+        "LEONINE AGGRESSION",
+        "FUELLED BY FAITH",
+        "BRUTE FERVOUR",
+        "RELENTLESS MOMENTUM",
+        "[HAZARDOUS]",
+        "BLACK TEMPLARS",
+        "BLOOD ANGELS",
+        "DARK ANGELS",
+        "DEATHWATCH",
+        "SPACE WOLVES",
+        "[SUSTAINED HITS 1]",
+        "[LETHAL HITS]",
+        "CHARACTER",
+        "[LANCE]",
+        "BATTLELINE",
+        "[PRECISION]",
+        "KILL TEAM",
+        "[IGNORES COVER]",
+        "[BLAST]",
+        "FLY",
+        "LAND RAIDER",
+        "DEATHWING",
+        "RAVENWING",
+        "TITANIC",
+        "SPACE WOLVES INFANTRY",
+        "BEASTS",
+        "SPACE WOLVES BEASTS",
+        "PHOBOS",
+        "SCOUT SQUAD",
+        "WALKERS",
+        "[ASSAULT]",
+        "[HEAVY]",
+        "ANCIENT",
+        "MARNEUS CALGAR",
+        "APOTHECARY",
+        "SALAMANDERS",
+        "IMPERIAL FISTS",
+        "ULTRAMARINES"
+      ],
+      "faction_keywords": [
+        "ADEPTUS ASTARTES"
+      ],
+      "leader_info": null,
+      "led_by": [],
+      "can_lead": [],
+      "unit_composition": null,
+      "default_wargear": [
+        "1 Gladiator Reaper This model is equipped with: 2 tempest bolters; twin heavy onslaught gatling cannon; armoured hull."
       ],
       "wargear_options": [],
       "is_epic_hero": false,

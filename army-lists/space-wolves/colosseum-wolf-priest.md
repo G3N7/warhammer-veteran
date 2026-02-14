@@ -242,7 +242,7 @@
 
 **HIGH PRIORITY:**
 - **Terminator arms:** Storm bolter ↔ storm shield ↔ assault cannon
-- **Pack Leader weapons:** Twin lightning claws ↔ thunder hammer + shield
+- **Pack Leader weapons:** Twin lightning claws ↔ power fist ↔ chainfist
 
 **LOW PRIORITY:**
 - Wolf Priest weapons (fixed)
