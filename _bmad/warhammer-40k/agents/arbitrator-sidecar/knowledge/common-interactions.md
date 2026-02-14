@@ -1,4 +1,8 @@
+<!-- VERIFIED: 2024-12-01 | SOURCE: 10th Edition Core Rules - Common Interactions & FAQ | NEXT REVIEW: 2025-03-01 -->
+
 # Common Rules Interactions & FAQ
+
+> **⚠️ EDITION NOTICE:** This content is for Warhammer 40,000 10th Edition. Rules may change with Balance Dataslates and FAQ updates. Always cross-reference with Wahapedia for the latest text.
 
 **Edition:** Warhammer 40,000 10th Edition
 **Last Updated:** December 2024

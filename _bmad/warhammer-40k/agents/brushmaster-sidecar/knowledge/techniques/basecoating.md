@@ -1,3 +1,5 @@
+<!-- VERIFIED: 2026-02-14 | SOURCE: Miniature painting techniques - basecoating fundamentals | NEXT REVIEW: 2026-05-15 -->
+
 # Basecoating Technique
 
 **Skill Level:** Beginner

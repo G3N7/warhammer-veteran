@@ -1,3 +1,5 @@
+<!-- VERIFIED: 2026-02-14 | SOURCE: Painting techniques and color theory fundamentals for miniature painting | NEXT REVIEW: 2026-05-15 -->
+
 # Color Theory for Miniature Painting
 
 ## The Color Wheel

@@ -1,3 +1,5 @@
+<!-- VERIFIED: 2026-02-14 | SOURCE: 10th Edition Core Rules - List Building Fundamentals | NEXT REVIEW: 2026-05-15 -->
+
 # 10th Edition List Building Fundamentals
 
 **Edition:** Warhammer 40,000 10th Edition

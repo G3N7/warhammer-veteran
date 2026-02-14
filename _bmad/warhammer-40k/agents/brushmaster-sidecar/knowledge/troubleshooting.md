@@ -1,3 +1,5 @@
+<!-- VERIFIED: 2026-02-14 | SOURCE: Miniature painting troubleshooting - common problems and solutions | NEXT REVIEW: 2026-05-15 -->
+
 # Painting Troubleshooting Guide
 
 Quick fixes for common painting problems.

@@ -1,3 +1,5 @@
+<!-- VERIFIED: 2025-12-24 | SOURCE: 10th Edition army list validation rules and checklist | NEXT REVIEW: 2026-03-24 -->
+
 # Tacticus Validation Checklist
 
 **Purpose:** Mandatory validation gates that MUST pass before presenting any army list to user.
