@@ -8,6 +8,9 @@
       "version": "3.12"
     }
   },
+  "mounts": [
+    "source=warhammer-veteran-claude-config,target=/home/node/.claude,type=volume"
+  ],
   "forwardPorts": [5173],
   "postCreateCommand": "npm install && pip3 install beautifulsoup4 requests",
   "customizations": {
