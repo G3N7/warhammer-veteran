@@ -570,6 +570,13 @@ detachments:
       - {name: "Black Death", pts: 25, effect: "Add 2 to bearer's Attacks characteristic"}
       - {name: "Frost Weapon", pts: 15, effect: "Bearer's melee weapons gain [LETHAL HITS]"}
       - {name: "Wolf Tail Talisman", pts: 20, effect: "4+ Feel No Pain vs mortal wounds, 5+ FNP vs psychic"}
+    stratagem_notes:
+      ride_hard_ride_fast:
+        target: "MOUNTED or FLY VEHICLE (excludes WALKERS)"
+        phase: "Enemy Shooting"
+        effect: "-1 to Hit and -1 to Wound vs target unit"
+        warning: "Venerable Dreadnoughts and other WALKERS are NOT valid targets. Only MOUNTED (Thunderwolf Cavalry) or FLY VEHICLE units qualify."
+        date: "2026-02-12"
 
   # === SPACE MARINES (Ultramarines) ===
   gladius_task_force:

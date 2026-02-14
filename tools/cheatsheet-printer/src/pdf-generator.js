@@ -156,8 +156,8 @@ function renderUnitCard(doc, unit, x, y, colors = COLORS, strokeWidth = 1) {
 
   currentY += statsHeight + 1;
 
-  // Calculate space for content
-  const footerHeight = 12;
+  // Calculate space for content - footer gets 2 lines for wrapping
+  const footerHeight = 20;
   const contentEnd = y + CARD.height - footerHeight;
   const contentSpace = contentEnd - currentY;
 
@@ -212,15 +212,17 @@ function renderUnitCard(doc, unit, x, y, colors = COLORS, strokeWidth = 1) {
 
   // Add Leads info
   if (unit.leads && unit.leads.length > 0) {
-    footerParts.push(`→${unit.leads.join(', ')}`);
+    footerParts.push(`Leads: ${unit.leads.join(', ')}`);
   }
 
   // Add notes
   if (unit.notes) footerParts.push(unit.notes);
 
   if (footerParts.length > 0) {
+    const footerText = footerParts.join(' | ');
     doc.font(FONT.bold).fontSize(7).fillColor(colors.accent);
-    doc.text(footerParts.join(' | '), x + padding, bottomY, { width: innerWidth, lineBreak: false, ellipsis: true });
+    // Allow wrapping within footer area, clip to available height
+    doc.text(footerText, x + padding, bottomY, { width: innerWidth, height: footerHeight, ellipsis: true });
   }
 }
 
@@ -307,13 +309,6 @@ function renderPhaseRemindersPage(doc, data, colors = COLORS, strokeWidth = 1) {
   const isBW = colors === BW_COLORS;
   const phaseColors = isBW ? PHASE_COLORS_BW : PHASE_COLORS;
 
-  const headerHeight = 22;
-  const headerFontSize = 14;
-  const textFontSize = 12;
-  const lineHeight = 21;
-  const phaseGap = 10;
-  let y = PAGE.margin;
-
   const phases = [
     { key: 'command', label: 'COMMAND' },
     { key: 'movement', label: 'MOVEMENT' },
@@ -323,18 +318,63 @@ function renderPhaseRemindersPage(doc, data, colors = COLORS, strokeWidth = 1) {
     { key: 'endOfTurn', label: 'END OF TURN' }
   ];
 
-  // Render phases vertically
-  for (const phase of phases) {
-    const reminders = data.phaseReminders[phase.key];
-    if (!reminders || !reminders.length) continue;
+  // Collect active phases
+  const activePhases = phases.filter(p => {
+    const r = data.phaseReminders[p.key];
+    return r && r.length > 0;
+  });
 
+  // Auto-scale: measure total height at default size, shrink if needed to fit one page
+  const availableHeight = PAGE.height - PAGE.margin * 2;
+  const headerHeight = 18;
+  const phaseGap = 6;
+  const itemPad = 3;
+  let textFontSize = 11;
+  const minFontSize = 7;
+
+  // Measure total height at a given font size
+  function measureTotal(fontSize) {
+    let total = 0;
+    for (const phase of activePhases) {
+      const reminders = data.phaseReminders[phase.key];
+      total += headerHeight + 3; // header + gap after header
+      for (const reminder of reminders) {
+        const text = typeof reminder === 'string' ? reminder : reminder.text;
+        const priority = typeof reminder === 'object' ? reminder.priority : 2;
+        const font = priority === 1 ? FONT.bold : FONT.regular;
+        doc.font(font).fontSize(fontSize);
+        const h = doc.heightOfString(`• ${text}`, { width: contentWidth - 16 });
+        total += h + itemPad;
+      }
+      total += phaseGap;
+    }
+    return total;
+  }
+
+  // Shrink font until content fits on one page
+  while (textFontSize > minFontSize && measureTotal(textFontSize) > availableHeight) {
+    textFontSize -= 0.5;
+  }
+
+  const headerFontSize = Math.min(13, textFontSize + 2);
+  let y = PAGE.margin;
+
+  // Render phases
+  for (const phase of activePhases) {
+    const reminders = data.phaseReminders[phase.key];
     const pColor = phaseColors[phase.key] || phaseColors.command;
+
+    // Page break if needed
+    if (y + headerHeight + 20 > PAGE.height - PAGE.margin) {
+      doc.addPage();
+      y = PAGE.margin;
+    }
 
     // Phase header bar
     doc.rect(PAGE.margin, y, contentWidth, headerHeight).fill(pColor.bg);
     doc.font(FONT.bold).fontSize(headerFontSize).fillColor(pColor.text);
-    doc.text(phase.label, PAGE.margin + 6, y + 4);
-    y += headerHeight + 4;
+    doc.text(phase.label, PAGE.margin + 6, y + 3);
+    y += headerHeight + 3;
 
     // Reminder items
     for (const reminder of reminders) {
@@ -349,11 +389,20 @@ function renderPhaseRemindersPage(doc, data, colors = COLORS, strokeWidth = 1) {
         doc.font(FONT.regular).fontSize(textFontSize).fillColor(colors.text);
       }
 
+      // Measure actual text height before rendering
+      const textHeight = doc.heightOfString(`• ${text}`, { width: contentWidth - 16 });
+
+      // Page break if this item won't fit
+      if (y + textHeight > PAGE.height - PAGE.margin) {
+        doc.addPage();
+        y = PAGE.margin;
+      }
+
       doc.text(`• ${text}`, PAGE.margin + 8, y, { width: contentWidth - 16 });
-      y += lineHeight;
+      y += textHeight + itemPad;
     }
 
-    y += phaseGap; // Gap between phases
+    y += phaseGap;
   }
 }
 

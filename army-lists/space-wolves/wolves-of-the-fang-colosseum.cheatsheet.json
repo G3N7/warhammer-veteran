@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "name": "Wolves of the Fang - Colosseum",
+    "faction": "Space Wolves",
+    "detachment": "Stormlance Task Force",
+    "points": 500,
+    "battleSize": "King of the Colosseum (500pts)",
+    "format": "Colosseum: No Epic Heroes, max T9, 2+ INFANTRY, 1+ CHARACTER"
+  },
+  "units": [
+    {
+      "name": "Wolf Priest",
+      "pts": 70,
+      "models": "1",
+      "role": "Character / Warlord",
+      "stats": { "M": "7\"", "T": 4, "SV": "3+", "W": 4, "LD": "6+", "OC": 1, "INV": "4++" },
+      "weapons": [
+        { "name": "Absolvor Bolt Pistol", "profile": "18\" | A1 | 3+ | S5 | -1 | 2", "tags": ["Pistol"] },
+        { "name": "Crozius Arcanum", "profile": "A5 | 2+ | S6 | -1 | 2", "tags": [] }
+      ],
+      "abilities": [
+        "Rez 1 model/Cmd phase (not CHAR)",
+        "+1 to Wound (melee) for led unit"
+      ],
+      "core": ["Leader"],
+      "leads": ["Blood Claws", "Grey Hunters", "Wolf Guard Headtakers"],
+      "notes": "Attached to Blood Claws"
+    },
+    {
+      "name": "Blood Claws",
+      "pts": 135,
+      "models": "10 (9 Blood Claws + Pack Leader)",
+      "role": "Battleline",
+      "stats": { "M": "7\"", "T": 4, "SV": "3+", "W": 2, "LD": "6+", "OC": 2 },
+      "weapons": [
+        { "name": "Bolt Pistol (x9)", "profile": "12\" | A1 | 3+ | S4 | 0 | 1", "tags": ["Pistol"] },
+        { "name": "Plasma Pistol (PL)", "profile": "12\" | A1 | 3+ | S7/8 | -2/-3 | 1/2", "tags": ["Pistol", "Hazardous (supercharge)"] },
+        { "name": "Astartes Chainsword (x9)", "profile": "A4 | 3+ | S4 | -1 | 1", "tags": [] },
+        { "name": "Power Weapon (PL)", "profile": "A4 | 3+ | S5 | -2 | 1", "tags": [] }
+      ],
+      "abilities": [
+        "Berserk Charge: Can charge after Advancing"
+      ],
+      "core": ["Grenades"],
+      "notes": "Wolf Priest attached. Charge: S5 AP-2 chainswords, +1W from Litany"
+    },
+    {
+      "name": "Grey Hunters",
+      "pts": 165,
+      "models": "10 (9 Grey Hunters + Pack Leader)",
+      "role": "Battleline",
+      "stats": { "M": "7\"", "T": 4, "SV": "3+", "W": 2, "LD": "6+", "OC": 3 },
+      "weapons": [
+        { "name": "Bolt Carbine (x10)", "profile": "24\" | A2 | 3+ | S4 | 0 | 1", "tags": ["Rapid Fire 1"] },
+        { "name": "Bolt Pistol (x10)", "profile": "12\" | A1 | 3+ | S4 | 0 | 1", "tags": ["Pistol"] },
+        { "name": "Astartes Chainsword (x10)", "profile": "A4 | 3+ | S4 | -1 | 1", "tags": [] }
+      ],
+      "abilities": [
+        "Cunning Hunters: RR Wound 1s (Full RR Wound on objectives)"
+      ],
+      "core": ["Grenades"],
+      "notes": "OC3 best holders. Charge: S5 AP-2 chainswords. Full RR Wound on objectives"
+    },
+    {
+      "name": "Venerable Dreadnought",
+      "pts": 130,
+      "models": "1",
+      "role": "Vehicle / Walker",
+      "stats": { "M": "8\"", "T": 9, "SV": "2+", "W": 8, "LD": "6+", "OC": 3, "INV": "4++" },
+      "weapons": [
+        { "name": "Heavy Flamer", "profile": "12\" | D6 | N/A | S5 | -1 | 1", "tags": ["Torrent", "Ign Cover"] },
+        { "name": "Fenrisian Greataxe (strike)", "profile": "A6 | 3+ | S10 | -2 | D6+1", "tags": [] },
+        { "name": "Fenrisian Greataxe (sweep)", "profile": "A12 | 3+ | S6 | -2 | 1", "tags": [] }
+      ],
+      "abilities": [
+        "Fervour of the Ancients (Aura): +1 Adv/Chg for SW w/in 6\"",
+        "Blizzard Shield: 4++ INV"
+      ],
+      "core": ["Deadly Demise 1", "Smoke"],
+      "notes": "Aura: +1 Adv/Chg w/in 6\". Charge: axe S11 AP-3. Use Smokescreen"
+    }
+  ],
+  "keywords": {
+    "Deadly Demise X": "On death, roll D6: on 6, each unit w/in 6\" takes X mortal wounds",
+    "Grenades": "Enables Grenade strat (1CP): Roll 6D6 vs visible enemy w/in 8\" (not in Engagement); each 4+ = 1 mortal wound",
+    "Smoke": "Enables Smokescreen strat (1CP): -1 to Hit vs unit until your next turn",
+    "Leader": "Attaches to a Bodyguard unit. While leading, gains Bodyguard protection",
+    "Rapid Fire X": "+X attacks at half range",
+    "Torrent": "Auto-hits (no hit roll needed)",
+    "Ignores Cover": "Target does not benefit from cover saves",
+    "Pistol": "Can shoot in Engagement Range; only Pistols can fire if in Engagement",
+    "Hazardous": "After resolving attacks, roll D6: on 1, bearer takes 3 mortal wounds (CHAR) or is destroyed (non-CHAR)",
+    "Lance Charge (Detachment)": "Units that charged: melee weapons get +1S and +1AP until end of turn",
+    "Assault": "Can shoot after Advancing (at normal BS)",
+    "Blast": "+1 attack per 5 models in target unit"
+  },
+  "detachmentRule": {
+    "name": "Lance Charge",
+    "effect": "Units that made a charge move: melee weapons get +1 Strength and +1 AP until end of turn. Includes attached characters."
+  },
+  "factionRule": {
+    "name": "Oath of Moment (Divergent)",
+    "effect": "Start of Cmd phase: pick 1 enemy unit. RR ALL Hit rolls vs that unit. NOTE: Space Wolves do NOT get +1 to Wound (divergent chapter)."
+  },
+  "coreStratagems": [
+    { "name": "Command Re-roll", "cp": 1, "phase": "Any", "effect": "RR one Hit, Wound, Damage, Save, Advance, or Charge roll" },
+    { "name": "Counter-offensive", "cp": 2, "phase": "Fight", "effect": "After enemy unit fights, one of your units fights next" },
+    { "name": "Epic Challenge", "cp": 1, "phase": "Fight", "effect": "CHAR gets [PRECISION] for melee attacks this phase" },
+    { "name": "Fire Overwatch", "cp": 1, "phase": "Enemy Move/Charge", "effect": "Shoot at enemy ending move w/in 24\"; hit on 6s only" },
+    { "name": "Go to Ground", "cp": 1, "phase": "Enemy Shooting", "effect": "Unit gets +1 Save & Benefit of Cover until next turn; Battle-shocked" },
+    { "name": "Grenade", "cp": 1, "phase": "Shooting", "effect": "GRENADES unit (not in Engagement, hasn't shot): pick visible enemy w/in 8\" not in Engagement; roll 6D6, each 4+ = 1 MW" },
+    { "name": "Heroic Intervention", "cp": 2, "phase": "Enemy Charge", "effect": "After enemy charges, your unit w/in 6\" makes D6\" move toward them" },
+    { "name": "Insane Bravery", "cp": 1, "phase": "Any", "effect": "Auto-pass Battle-shock test" },
+    { "name": "Rapid Ingress", "cp": 1, "phase": "Enemy Move", "effect": "Set up one Reserves unit at end of enemy Move phase" },
+    { "name": "Smokescreen", "cp": 1, "phase": "Enemy Shooting", "effect": "SMOKE unit: -1 to Hit vs this unit until your next turn" },
+    { "name": "Tank Shock", "cp": 1, "phase": "Charge", "effect": "VEHICLE/MOUNTED: after charge, pick enemy w/in Engagement; roll D6 per model, 5+ = MW" }
+  ],
+  "detachmentStratagems": [
+    { "name": "Armour of Contempt", "cp": 1, "phase": "Any (save)", "type": "Battle Tactic", "effect": "Worsen AP of attacks vs ADEPTUS ASTARTES unit by 1" },
+    { "name": "Blitzing Fusillade", "cp": 1, "phase": "Shooting", "type": "Battle Tactic", "effect": "Unit that Advanced: ranged attacks get [ASSAULT] & +1 to Hit" },
+    { "name": "Lightning Assault", "cp": 1, "phase": "Charge", "type": "Strategic Ploy", "effect": "Unit that Fell Back: +2 to Charge roll this phase" },
+    { "name": "Storm of Violence", "cp": 1, "phase": "Fight", "type": "Battle Tactic", "effect": "Unit that charged: melee Crit Hits cause 1 extra hit" },
+    { "name": "Ride Hard, Ride Fast", "cp": 1, "phase": "Enemy Shooting", "type": "Strategic Ploy", "effect": "MOUNTED/FLY VEHICLE (no WALKERS): -1 to Hit & -1 to Wound vs target. N/A in this list." },
+    { "name": "Pack Hunters", "cp": 1, "phase": "Fight", "type": "Battle Tactic", "effect": "SW unit: +1 to Wound in melee vs enemy engaged by another SW unit" }
+  ],
+  "pointsSummary": [
+    { "unit": "Wolf Priest", "pts": 70, "qty": 1 },
+    { "unit": "Blood Claws (10)", "pts": 135, "qty": 1 },
+    { "unit": "Grey Hunters (10)", "pts": 165, "qty": 1 },
+    { "unit": "Venerable Dreadnought", "pts": 130, "qty": 1 }
+  ],
+  "phaseReminders": {
+    "command": [
+      { "text": "OATH OF MOMENT: Pick 1 enemy unit. ALL your units re-roll ALL hit rolls vs it (shooting + melee). Pick the biggest threat.", "priority": 1 },
+      { "text": "WOLF PRIEST RESURRECT: Bring back 1 dead Blood Claw. Place in coherency. Do this EVERY turn you have casualties.", "priority": 1 }
+    ],
+    "movement": [
+      { "text": "STORMLANCE: All units can Advance and still charge! Blood Claws ALSO have Berserk Charge (same effect). USE THIS AGGRESSIVELY.", "priority": 1 },
+      { "text": "VEN DREAD POSITIONING: +1 Adv/Chg aura for all SW within 6\". Keep him central so Blood Claws and Grey Hunters benefit.", "priority": 1 }
+    ],
+    "shooting": [
+      { "text": "OATH TARGET: Prioritize shooting the Oath target. Grey Hunters have 20 bolt carbine shots (30 at half range w/ Rapid Fire).", "priority": 1 },
+      { "text": "VEN DREAD HEAVY FLAMER: D6 auto-hits at S5 AP-1. Use to clear screens before charging with Blood Claws.", "priority": 2 },
+      { "text": "BLITZING FUSILLADE (1CP): If unit Advanced, ranged attacks get [ASSAULT] & +1 to Hit. Good for Grey Hunters advancing and shooting.", "priority": 2 }
+    ],
+    "charge": [
+      { "text": "STORM OF VIOLENCE (1CP): Charging unit's melee crit hits (6s) generate 1 extra hit. Use on Blood Claws (36+ attacks with Wolf Priest).", "priority": 1 },
+      { "text": "VEN DREAD AURA: +1 to Charge for units within 6\". 8\" charge becomes 7\". Stack with Command Re-roll.", "priority": 1 },
+      { "text": "LIGHTNING ASSAULT (1CP): Fell Back unit gets +2 to Charge. Fall Back and re-charge for Lance Charge bonus again!", "priority": 2 }
+    ],
+    "fight": [
+      { "text": "LANCE CHARGE MATH: Blood Claws on charge: chainswords S5 AP-2 + Wolf Priest +1W = wound MEQ on 3+ at AP-2. DEVASTATING.", "priority": 1 },
+      { "text": "PACK HUNTERS (1CP): +1 to Wound if another SW unit is also fighting same enemy. Stack with Wolf Priest for +2 to Wound total.", "priority": 1 },
+      { "text": "VEN DREAD MELEE: Greataxe strike on charge = S11 AP-3 D6+1. Use vs vehicles/monsters. Sweep (A12 S7 AP-3) vs hordes.", "priority": 2 },
+      { "text": "EPIC CHALLENGE (1CP): Wolf Priest gets [PRECISION] in melee. Snipe enemy characters with S7 AP-2 D2 crozius on charge.", "priority": 2 }
+    ],
+    "endOfTurn": [
+      { "text": "COLOSSEUM SCORING: 5 VP per objective held (max 15/round, 50/game). Starts scoring Turn 2. Grey Hunters are OC3 - your best holders.", "priority": 1 },
+      { "text": "SECONDARY: Bring It Down (1x2 = Ven Dread worth 2VP if killed), Assassination (1 Character). Protect Wolf Priest.", "priority": 1 }
+    ]
+  },
+  "colosseumNotes": {
+    "format": "Best of 3 games, 1hr10min per round",
+    "missions": ["Terraform", "Take and Hold", "Linchpin"],
+    "secondaries": "Tactical only",
+    "scoring": "5 VP per objective held (max 15/round, 50/game), starts Turn 2",
+    "yourGiveUp": {
+      "bringItDown": "2 VP (Ven Dread)",
+      "assassination": "1 Character (Wolf Priest)"
+    }
+  }
+}

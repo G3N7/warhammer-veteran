@@ -39,5 +39,8 @@
     "module.yaml",
     "README.md",
     "TODO.md"
-  ]
+  ],
+  "devDependencies": {
+    "bmad-method": "^6.0.0-Beta.8"
+  }
 }
