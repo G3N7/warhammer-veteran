@@ -1,41 +1,47 @@
+<!-- VERIFIED: 2024-12-01 | SOURCE: Training data + general knowledge | NEXT REVIEW: 2026-03-01 -->
+
 # 10th Edition Competitive Meta Overview
+
+> **ANTI-HALLUCINATION WARNING:** Points values, stat lines, and specific ability text in this file are STRATEGIC GUIDANCE ONLY. Always verify against datasheet cache before citing specific numbers. This file provides competitive context, NOT authoritative data.
+
+> **STALE DATA:** This overview is from December 2024. The validation-rules.yaml meta_snapshot (last updated 2026-02-09) contains MORE CURRENT tier rankings. Always prefer validation-rules.yaml for current meta.
 
 **Last Updated:** December 2024
 **Edition:** Warhammer 40,000 10th Edition
 
 ## Current Meta Tier List
 
-### S-Tier (Tournament Dominant)
+### S-Tier (Tournament Dominant) [UNVERIFIED]
 | Faction | Win Rate | Key Strengths |
 |---------|----------|---------------|
-| Aeldari | 55-60% | Fate Dice manipulation, mobile firepower, strong psychic |
-| Chaos Space Marines | 52-55% | Versatile detachments, strong daemon engines |
-| Space Marines | 50-55% | Multiple strong detachments, flexible builds |
+| Aeldari | [CHECK CACHE for current points] | Fate Dice manipulation, mobile firepower, strong psychic |
+| Chaos Space Marines | [CHECK CACHE for current points] | Versatile detachments, strong daemon engines |
+| Space Marines | [CHECK CACHE for current points] | Multiple strong detachments, flexible builds |
 
-### A-Tier (Competitive)
+### A-Tier (Competitive) [UNVERIFIED]
 | Faction | Win Rate | Key Strengths |
 |---------|----------|---------------|
-| Tyranids | 48-52% | Monster mash viable, strong objective control |
-| Necrons | 48-52% | Resurrection protocols, durable infantry |
-| Adeptus Custodes | 48-52% | Elite durability, powerful characters |
-| Death Guard | 48-52% | Extremely durable, strong in attrition |
-| Orks | 47-51% | High volume attacks, fun and unpredictable |
+| Tyranids | [CHECK CACHE for current points] | Monster mash viable, strong objective control |
+| Necrons | [CHECK CACHE for current points] | Resurrection protocols, durable infantry |
+| Adeptus Custodes | [CHECK CACHE for current points] | Elite durability, powerful characters |
+| Death Guard | [CHECK CACHE for current points] | Extremely durable, strong in attrition |
+| Orks | [CHECK CACHE for current points] | High volume attacks, fun and unpredictable |
 
-### B-Tier (Viable)
+### B-Tier (Viable) [UNVERIFIED]
 | Faction | Win Rate | Key Strengths |
 |---------|----------|---------------|
-| Tau Empire | 45-50% | Ranged firepower, good into certain matchups |
-| Imperial Knights | 45-50% | High damage, limited but powerful models |
-| Thousand Sons | 45-50% | Psychic dominance, cabal points mechanic |
-| World Eaters | 45-50% | Melee blender, blood tithe mechanic |
-| Leagues of Votann | 45-48% | Tough infantry, judgment tokens |
+| Tau Empire | [CHECK CACHE for current points] | Ranged firepower, good into certain matchups |
+| Imperial Knights | [CHECK CACHE for current points] | High damage, limited but powerful models |
+| Thousand Sons | [CHECK CACHE for current points] | Psychic dominance, cabal points mechanic |
+| World Eaters | [CHECK CACHE for current points] | Melee blender, blood tithe mechanic |
+| Leagues of Votann | [CHECK CACHE for current points] | Tough infantry, judgment tokens |
 
-### C-Tier (Struggling)
+### C-Tier (Struggling) [UNVERIFIED]
 | Faction | Win Rate | Notes |
 |---------|----------|-------|
-| Genestealer Cults | 42-46% | Glass cannon, deployment dependent |
-| Imperial Guard | 42-46% | Order changes hurt, needs buffs |
-| Drukhari | 42-46% | Pain token changes reduced power |
+| Genestealer Cults | [CHECK CACHE for current points] | Glass cannon, deployment dependent |
+| Imperial Guard | [CHECK CACHE for current points] | Order changes hurt, needs buffs |
+| Drukhari | [CHECK CACHE for current points] | Pain token changes reduced power |
 
 ## Meta Trends
 

@@ -7,7 +7,7 @@
 | Agent | Emoji | Sidecar | Domain |
 |-------|-------|---------|--------|
 | Tacticus | ⚔️ | tacticus-sidecar/ | Army lists, validation, cheatsheets |
-| Arbitrator | 📜 | arbitrator-sidecar/ | Rules, FAQ, disputes |
+| Arbitrator | ⚖️ | arbitrator-sidecar/ | Rules, FAQ, disputes |
 | Brushmaster | 🎨 | brushmaster-sidecar/ | Paint schemes, techniques |
 | Lorekeeper | 🔮 | lorekeeper-sidecar/ | Faction lore, timelines |
 | Chronicler | 📖 | chronicler-sidecar/ | Campaigns, battle logs |

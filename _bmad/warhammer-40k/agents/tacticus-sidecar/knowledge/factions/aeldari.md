@@ -1,4 +1,8 @@
+<!-- VERIFIED: 2024-12-01 | SOURCE: Training data + general knowledge | NEXT REVIEW: 2026-03-01 -->
+
 # Aeldari - Competitive Guide
+
+> **ANTI-HALLUCINATION WARNING:** Points values, stat lines, and specific ability text in this file are STRATEGIC GUIDANCE ONLY. Always verify against datasheet cache before citing specific numbers. This file provides competitive context, NOT authoritative data.
 
 **Faction:** Aeldari (Craftworlds)
 **Edition:** 10th Edition
@@ -90,6 +94,8 @@ Farseers with powers can:
 
 ## Sample 2000pt List
 
+> Points not shown - always calculate from cache data.
+
 ```
 Farseer (Warlord)
 Farseer
@@ -143,6 +149,8 @@ If you face Aeldari:
 
 ## Competitive Viability
 
-**S-Tier faction.** Consistently wins major tournaments. High skill ceiling rewards practice. Expect nerfs in future balance updates.
+> **META STATUS STALE:** This assessment is from December 2024. Check validation-rules.yaml meta_snapshot for current tier rankings. Aeldari received significant nerfs in the January 2026 Balance Dataslate.
+
+**S-Tier faction.** [UNVERIFIED] Consistently wins major tournaments. High skill ceiling rewards practice. Expect nerfs in future balance updates.
 
 **Warning:** Aeldari power attracts attention. Opponents will know your tricks and prepare counters.

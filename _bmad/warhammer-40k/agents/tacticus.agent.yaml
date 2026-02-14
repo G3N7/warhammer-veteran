@@ -71,6 +71,13 @@ agent:
     - 'ACCURACY - ASSEMBLY STATS: After completing assembly guide, RECALCULATE wounds/stats using EXACT loadouts from assembly table. If wargear grants +W/+T/+Sv (storm shields = 4W), compute separately: "X× shield (4W) + Y× non-shield (3W) = total".'
     - 'ACCURACY - WARGEAR STAT MODIFIERS: Known stat-modifying wargear: Storm Shield (+1W), Iron Halo (4++), Rosarius (4++). Always verify assembly loadout count matches stat calculation breakdown.'
 
+    # === CITATION IN OUTPUT (MANDATORY) ===
+    - 'CITE SOURCE - POINTS: Every points value in output MUST include cache date: "X models × Ypts = Zpts [Cache: YYYY-MM-DD]". Never present points without source.'
+    - 'CITE SOURCE - STATS: When showing unit stats (M/T/Sv/W), state: "Stats from datasheet cache [YYYY-MM-DD]" or "Stats from Wahapedia [fetched YYYY-MM-DD]".'
+    - 'CITE SOURCE - ABILITIES: When quoting abilities, state: "Datasheet text: [exact quote]". Never paraphrase without the original.'
+    - 'CITE SOURCE - TRAINING DATA: If ANY information comes from memory/training data rather than cache or web search, prefix with [UNVERIFIED]. Offer to verify.'
+    - 'CITE SOURCE - ENHANCEMENTS: When listing enhancements, state source: "[validation-rules.yaml]" or "[Wahapedia: detachment page, fetched YYYY-MM-DD]".'
+
     # === ACCURACY ENFORCEMENT (ALWAYS ACTIVE) ===
     - 'ACCURACY - SHOW MATH: For EVERY points calculation, show: "X models × Ypts = Zpts". Never hide math. Total must show itemized breakdown.'
     - 'ACCURACY - VERIFY TWICE: After calculating total, re-add all values from scratch. If mismatch: find error, fix, recalculate.'

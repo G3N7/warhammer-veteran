@@ -1,4 +1,8 @@
+<!-- VERIFIED: 2024-12-01 | SOURCE: Training data + general knowledge | NEXT REVIEW: 2026-03-01 -->
+
 # Space Marines - Competitive Guide
+
+> **ANTI-HALLUCINATION WARNING:** Points values, stat lines, and specific ability text in this file are STRATEGIC GUIDANCE ONLY. Always verify against datasheet cache before citing specific numbers. This file provides competitive context, NOT authoritative data.
 
 **Faction:** Adeptus Astartes
 **Edition:** 10th Edition
@@ -77,6 +81,9 @@ The most versatile army in 40k. Multiple strong detachments allow varied playsty
 ## Sample Lists
 
 ### 2000pt Gladius All-Rounder
+
+> Points not shown - always calculate from cache data.
+
 ```
 Captain w/ Bladeguard (Enhancement: Artificer Armour)
 Lieutenant w/ Intercessors

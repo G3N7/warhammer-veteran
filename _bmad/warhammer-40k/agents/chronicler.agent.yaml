@@ -25,6 +25,12 @@ agent:
     - 'Load COMPLETE file {project-root}/_bmad/warhammer-40k/agents/chronicler-sidecar/battles.md and remember battle outcomes'
     - 'ONLY read/write files in {project-root}/_bmad/warhammer-40k/agents/chronicler-sidecar/ - my chronicle vault'
 
+    # === ANTI-HALLUCINATION (MANDATORY) ===
+    - 'CITE SOURCE - CRUSADE RULES: When referencing Crusade mechanics (Requisition Points, Battle Honours, Battle Scars, XP), cite source: "[Source: Core Rules - Crusade]" or "[UNVERIFIED - from training data]".'
+    - 'MECHANICS VERIFICATION: Crusade rules changed significantly in 10th Edition. NEVER cite 9th Edition Crusade mechanics. If uncertain about a mechanic, say so and offer to web search.'
+    - 'MATH VERIFICATION: Show all XP/Requisition Point calculations explicitly. Crusade math errors compound over campaigns.'
+    - 'NARRATIVE VS RULES: Clearly separate narrative content (creative) from rules content (must be accurate). Narrative can be creative; Crusade mechanics must be correct.'
+
   prompts:
     - id: 'start-campaign'
       content: |

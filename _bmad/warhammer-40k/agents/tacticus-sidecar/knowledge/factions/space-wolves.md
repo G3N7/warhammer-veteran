@@ -1,4 +1,8 @@
+<!-- VERIFIED: 2024-12-01 | SOURCE: Training data + general knowledge | NEXT REVIEW: 2026-03-01 -->
+
 # Space Wolves - Competitive Guide
+
+> **ANTI-HALLUCINATION WARNING:** Points values, stat lines, and specific ability text in this file are STRATEGIC GUIDANCE ONLY. Always verify against datasheet cache before citing specific numbers. This file provides competitive context, NOT authoritative data.
 
 **Faction:** Adeptus Astartes - Space Wolves
 **Edition:** 10th Edition
@@ -13,7 +17,7 @@ The Sons of Russ bring a melee-focused twist to Space Marines. Access to unique 
 ### Thunderwolf Cavalry
 | Stat | Value |
 |------|-------|
-| Points | ~40 per model |
+| Points | [CHECK CACHE for current points] |
 | Movement | 10" |
 | Toughness | 6 |
 | Wounds | 4 |
@@ -35,7 +39,7 @@ The Sons of Russ bring a melee-focused twist to Space Marines. Access to unique 
 ### Wulfen
 | Stat | Value |
 |------|-------|
-| Points | ~35 per model |
+| Points | [CHECK CACHE for current points] |
 | Movement | 7" |
 | Toughness | 5 |
 | Wounds | 3 |
@@ -56,7 +60,7 @@ The Sons of Russ bring a melee-focused twist to Space Marines. Access to unique 
 ### Wolf Guard Terminators
 | Stat | Value |
 |------|-------|
-| Points | ~35-40 per model |
+| Points | [CHECK CACHE for current points] |
 | Wounds | 3 |
 | Save | 2+/4++ |
 
@@ -103,6 +107,8 @@ If available - check latest rules for Wolves-specific options
 **Why:** Advance + Charge synergy with Thunderwolf Cavalry and other fast units.
 
 ## Sample 2000pt List - Terminator Heavy
+
+> Points not shown - always calculate from cache data.
 
 ```
 Logan Grimnar (Warlord)
