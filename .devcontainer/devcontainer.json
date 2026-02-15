@@ -12,7 +12,7 @@
     "source=warhammer-veteran-claude-config,target=/home/node/.claude,type=volume"
   ],
   "forwardPorts": [5173],
-  "postCreateCommand": "sudo chown -R node:node /home/node/.claude && npm install && pip3 install beautifulsoup4 requests && npm run bmad:update",
+  "postCreateCommand": "npm install -g npm@latest && sudo chown -R node:node /home/node/.claude &&  pip3 install beautifulsoup4 requests && npm install && npm run bmad:update",
   "customizations": {
     "vscode": {
       "extensions": [

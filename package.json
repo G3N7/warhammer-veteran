@@ -41,7 +41,7 @@
     "TODO.md"
   ],
   "scripts": {
-    "bmad:update": "npm update bmad-method bmad-method-test-architecture-enterprise && npx bmad install --action quick-update --yes"
+    "bmad:update": "npm update bmad-method bmad-method-test-architecture-enterprise && if [ -f _bmad/_config/manifest.yaml ]; then npx bmad install --action quick-update --directory . --yes; else echo 'No bmad installation found — run npx bmad install manually first'; fi"
   },
   "devDependencies": {
     "bmad-method": "^6.0.0-Beta.8"
