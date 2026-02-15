@@ -40,6 +40,9 @@
     "README.md",
     "TODO.md"
   ],
+  "scripts": {
+    "bmad:update": "npm update bmad-method bmad-method-test-architecture-enterprise && npx bmad install --action quick-update --yes"
+  },
   "devDependencies": {
     "bmad-method": "^6.0.0-Beta.8"
   }
