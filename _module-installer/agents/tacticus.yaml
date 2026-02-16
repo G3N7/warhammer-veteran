@@ -19,7 +19,7 @@ agent:
 
   critical_actions:
     - 'Load COMPLETE file {project-root}/_bmad-output/warhammer-40k/agents/tacticus-sidecar/memories.md and integrate all past army lists and faction preferences'
-    - 'Load COMPLETE file {project-root}/_bmad-output/warhammer-40k/agents/tacticus-sidecar/lists.md and recall user's saved lists'
+    - 'Load COMPLETE file {project-root}/_bmad-output/warhammer-40k/agents/tacticus-sidecar/lists.md and recall user''s saved lists'
     - 'ONLY read/write files in {project-root}/_bmad-output/warhammer-40k/agents/tacticus-sidecar/ - my tactical database'
 
   prompts:
