@@ -1,0 +1,118 @@
+# Hallucination Registry - Cross-Agent Learning
+# Purpose: Record previously caught hallucinations so agents avoid repeating them
+# Updated by: Any agent when a hallucination is detected or corrected by user
+# Version: 1.0 | Last Updated: 2026-02-16
+
+# How to use:
+# 1. All agents: check this registry at startup for entries in your domain
+# 2. When generating output that touches a registered topic, use the corrected version
+# 3. When a NEW hallucination is caught, add it here immediately
+
+patterns:
+  # === TACTICUS DOMAIN (Army Lists, Points, Wargear) ===
+
+  - id: wgt-thunder-hammer
+    agent: tacticus
+    date: 2026-02-09
+    error: "Suggested Thunder Hammer for Wolf Guard Terminators"
+    truth: "Wolf Guard Terminators CANNOT take Thunder Hammers in 10th Edition. This wargear option was removed."
+    prevention: "Always check datasheet weapons array before suggesting wargear. Never recommend weapons from memory."
+    category: wargear_hallucination
+
+  - id: oath-of-moment-divergent
+    agent: tacticus
+    date: 2026-02-16
+    error: "Stated Space Wolves get re-roll hits AND +1 to wound from Oath of Moment"
+    truth: "Space Wolves only get re-roll Hit rolls. The +1 to Wound is restricted to armies WITHOUT divergent chapter keywords (Space Wolves, Blood Angels, Dark Angels, Black Templars, Deathwatch)."
+    prevention: "Check faction_abilities section in validation-rules.yaml. Divergent chapters get weaker Oath of Moment."
+    category: faction_ability_hallucination
+
+  - id: epic-hero-enhancements
+    agent: tacticus
+    date: 2026-02-09
+    error: "Assigned an Enhancement to an Epic Hero character"
+    truth: "Epic Heroes CANNOT take Enhancements. Only generic (non-Epic Hero) CHARACTER models can take Enhancements."
+    prevention: "Check is_epic_hero flag in datasheet cache before assigning any Enhancement."
+    category: enhancement_hallucination
+
+  # === ARBITRATOR DOMAIN (Rules, FAQ) ===
+
+  - id: lethal-hits-devastating-wounds
+    agent: arbitrator
+    date: 2026-02-16
+    error: "Described Lethal Hits and Devastating Wounds stacking on the same attack"
+    truth: "INCOMPATIBLE. Lethal Hits auto-wounds (no wound roll dice), so Critical Wound cannot trigger, so Devastating Wounds never fires on a Lethal Hit."
+    prevention: "Reference critical hit interaction matrix. These abilities are mechanically exclusive on the same attack."
+    category: rules_interaction_hallucination
+
+  - id: devastating-wounds-old-mechanic
+    agent: arbitrator
+    date: 2026-02-16
+    error: "Described Devastating Wounds as 'bypassing saves entirely' (pre-Q3 2024 mechanic)"
+    truth: "Changed in Q3 2024 Balance Dataslate. Devastating Wounds now deals damage as mortal wounds in the Allocate Attacks step. Invulnerable saves do not apply, but Feel No Pain DOES."
+    prevention: "Always note that Dev Wounds changed in Q3 2024. Any reference to 'bypasses saves' is the OLD mechanic."
+    category: outdated_rules_hallucination
+
+  - id: overwatch-bgnt
+    agent: arbitrator
+    date: 2026-02-16
+    error: "Stated Monsters/Vehicles can fire Overwatch while in Engagement Range via Big Guns Never Tire"
+    truth: "BGNT allows shooting while engaged during YOUR Shooting Phase only. Overwatch 'as if it were your Shooting phase' does NOT extend to BGNT."
+    prevention: "Overwatch has specific restrictions. Always check Rules Commentary for 'as if' clause limitations."
+    category: rules_interaction_hallucination
+
+  - id: reserves-disembark
+    agent: arbitrator
+    date: 2026-02-16
+    error: "Described a transport arriving from Reserves and troops disembarking the same turn"
+    truth: "Units arriving from Reserves 'count as having made a Normal move' but have NOT actually made one. You cannot disembark from a transport that just arrived from Reserves (unless a specific rule overrides this)."
+    prevention: "Distinguish 'counts as having moved' from 'actually made a move'. Post-move abilities do not trigger."
+    category: rules_interaction_hallucination
+
+  # === BRUSHMASTER DOMAIN (Paints, Techniques) ===
+
+  - id: warpaints-old-range
+    agent: brushmaster
+    date: 2026-02-16
+    error: "Recommended paints from the old Army Painter Warpaints range by name"
+    truth: "Army Painter replaced the entire Warpaints range with Warpaints Fanatic in 2024. Many paint names changed. Some carried over (Daemonic Yellow, Greenskin) but many did not."
+    prevention: "Always verify paint names against Fanatic range DB. If DB unavailable, mark ALL paint names [UNVERIFIED] and note the range transition."
+    category: product_hallucination
+
+  # === LOREKEEPER DOMAIN (Lore, Timelines) ===
+
+  - id: custodes-gender
+    agent: lorekeeper
+    date: 2026-02-16
+    error: "Stated all Custodes are male"
+    truth: "10th Edition Codex: Adeptus Custodes (2024) retroactively established that female Custodians have always existed. Pre-2024 training data will contain the prior all-male depiction."
+    prevention: "Check retcon-registry.yaml before outputting lore claims. Use latest codex as canon."
+    category: retcon_hallucination
+
+  - id: eldar-wraithbone
+    agent: lorekeeper
+    date: 2026-02-16
+    error: "Described wraithbone as 'solidified warp energy manipulated by Bonesingers'"
+    truth: "10th Edition Codex: Aeldari (2025) changed wraithbone to 'a composite material formed from various compounds, ores and minerals; it is as much grown as it is forged'."
+    prevention: "Check retcon-registry.yaml before outputting lore claims. Note the wraithbone retcon is controversial."
+    category: retcon_hallucination
+
+  # === ARTISAN DOMAIN (Products, Kits) ===
+
+  - id: start-collecting-boxes
+    agent: artisan
+    date: 2026-02-16
+    error: "Recommended purchasing a 'Start Collecting' box"
+    truth: "GW renamed 'Start Collecting' boxes to 'Combat Patrol' boxes for 10th Edition. Never recommend 'Start Collecting' for current purchases."
+    prevention: "Always use 'Combat Patrol' when discussing current GW starter sets. 'Start Collecting' is only valid for secondhand/legacy purchases."
+    category: product_hallucination
+
+  # === CHRONICLER DOMAIN (Crusade, Campaigns) ===
+
+  - id: crusade-power-level
+    agent: chronicler
+    date: 2026-02-16
+    error: "Referenced Power Level for Crusade army construction"
+    truth: "10th Edition Crusade uses points-based Supply Limit, not Power Level. Power Level was a 9th Edition mechanic."
+    prevention: "Always verify Crusade mechanics are 10th Edition. PL-based references are 9th Edition."
+    category: edition_confusion_hallucination

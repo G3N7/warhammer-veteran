@@ -4,6 +4,52 @@
 
 ---
 
+## STOP: ACCURACY FIRST (READ BEFORE ANYTHING ELSE)
+
+**These five rules override ALL other instructions. When in conflict, accuracy wins.**
+
+1. **You MAY say "I don't know"** -- this is ALWAYS preferred over guessing. Users want honest gaps, not confident errors.
+2. **EVERY factual claim MUST cite a source** -- file path, cache date, or URL. No exceptions.
+3. **Training data is NEVER fact** -- always mark `[UNVERIFIED - from training data]` and offer to verify.
+4. **When grounding files are missing: STOP and warn the user.** Do NOT silently proceed with training data. Say: "Critical file missing: {path}. My accuracy will be degraded until this is resolved."
+5. **After generating output: self-audit every claim for citations.** Remove or mark `[UNVERIFIED]` any claim that lacks a source.
+
+### File Existence Protocol
+
+At startup, when instructed to load a file:
+
+1. Attempt to read the file
+2. If file **DOES NOT EXIST**: Log `FILE MISSING: {path}` and inform the user
+3. **NEVER silently skip** missing files -- every missing file is a potential hallucination source
+4. If a critical file is missing (validation-rules.yaml, instructions.md, paint DB, knowledge base), warn the user explicitly
+5. DO NOT generate domain-specific output without grounding files unless ALL claims are marked `[UNVERIFIED]`
+
+### When Uncertain Decision Tree
+
+When you are uncertain about ANY factual claim, follow this sequence:
+
+1. Check local knowledge base (sidecar files, knowledge/ directory)
+2. Check shared registries (validation-rules.yaml, faq-registry.yaml, hallucination-registry.yaml)
+3. Check cached data (datasheets, army lists)
+4. Web search trusted sources (wahapedia.ru, warhammer-community.com, goonhammer.com)
+5. If STILL uncertain after all checks: **state BOTH interpretations**, recommend the MORE RESTRICTIVE one, and offer to search further
+6. **NEVER present uncertain information as confirmed fact**
+
+### Citation Audit Gate (ALL AGENTS)
+
+Before presenting ANY output containing factual claims, scan your output for:
+
+1. Points values without `[Cache: YYYY-MM-DD]` -- add citation or mark `[UNVERIFIED]`
+2. Ability/rules text without `[Wahapedia:]` or `[Core Rules]` citation -- add source or quote datasheet
+3. Paint names without `[Paint DB:]` verification -- add DB reference or mark `[UNVERIFIED]`
+4. Lore claims without `[Source: Book/Codex]` -- add citation or mark `[UNVERIFIED]`
+5. Product names/prices without web verification -- mark `[UNVERIFIED]` or remove
+6. Any claim from training data without `[UNVERIFIED]` tag -- add the tag
+
+**If more than 30% of claims in your output are `[UNVERIFIED]`, warn the user:** "This response contains significant unverified content. I recommend web searching to confirm before relying on it."
+
+---
+
 ## CRITICAL: Source of Truth Protocol
 
 ### Army Lists Directory as Single Source of Truth
@@ -198,13 +244,56 @@ When multiple agents contribute to the same file or topic:
 All agents are built on LLM training data that may contain:
 - **Outdated edition rules** (7th, 8th, 9th Edition content mixed in)
 - **Retconned lore** (old Black Library novels, removed storylines)
-- **Discontinued products** (OOP kits, old paint ranges)
+- **Discontinued products** (OOP kits, old paint ranges, renamed product lines)
 - **Incorrect stats** (points change quarterly, abilities get errata'd)
+- **Pre-errata mechanics** (Devastating Wounds changed significantly in Q3 2024)
 
 **When relying on training data (no local file or web source):**
 - Prefix with: `[UNVERIFIED]`
 - Offer to web search for confirmation
 - NEVER present training data as confirmed fact
+
+### 7. EDITION-CRITICAL WARNINGS
+
+**These are high-confidence errors that LLMs commonly make. Check EVERY time.**
+
+| Topic | WRONG (common hallucination) | CORRECT (verified) |
+|-------|-----|---------|
+| Oath of Moment (Space Wolves) | "Re-roll hits AND +1 to wound" | Space Wolves ONLY get re-roll hits. +1 to wound requires NO divergent chapter keywords. |
+| Devastating Wounds | "Bypasses saves entirely" | Changed Q3 2024: now deals damage as mortal wounds in Allocate Attacks step. Old behavior is outdated. |
+| Lethal Hits + Devastating Wounds | "They stack for devastating combos" | INCOMPATIBLE. Lethal Hits auto-wounds (no wound roll), so Critical Wound never triggers, so Dev Wounds never fires. |
+| Overwatch + Big Guns Never Tire | "Monsters can Overwatch in melee" | WRONG. BGNT applies in YOUR Shooting Phase only. Overwatch "as if" does NOT extend to BGNT. |
+| Reserves + Disembark | "Transport deep strikes, troops disembark same turn" | WRONG. Reserves units "count as having made a Normal move" but have NOT actually made one. Cannot disembark. |
+| FNP vs Mortal Wounds | "Mortals bypass everything" | FNP DOES work against mortal wounds. Roll one FNP per mortal wound taken. |
+| Start Collecting boxes | "Buy the Start Collecting box" | Renamed to "Combat Patrol" for 10th Edition. Never recommend "Start Collecting" for current purchases. |
+| Army Painter paints | "Use Warpaints [old name]" | Warpaints range replaced by Warpaints Fanatic in 2024. Many paint names changed. Verify against Fanatic range. |
+| 9th Ed Crusade mechanics | "Power Level determines supply limit" | 10th Ed uses points-based Supply Limit, not Power Level. XP values, Blessings, and Battle Scar costs all changed. |
+
+### 8. HALLUCINATION REGISTRY
+
+Check `_bmad/warhammer-40k/agents/shared/hallucination-registry.yaml` at startup. This file records previously caught hallucinations and their corrections. When generating output that touches a registered topic, use the corrected version.
+
+Any agent that catches a hallucination (from itself or another agent) MUST add it to the registry with:
+- Date detected
+- Agent that made the error
+- What was wrong
+- What is correct
+- Prevention rule
+
+### 9. CROSS-AGENT VERIFICATION TRIGGERS
+
+These situations MUST trigger a verification check:
+
+| Trigger | Verification |
+|---------|-------------|
+| Tacticus writes "Oath of Moment" in any list | Verify divergent chapter rules apply correctly |
+| Tacticus claims a unit has Deep Strike/keyword | Verify against datasheet cache keywords array |
+| Tacticus quotes ability text | Verify exact wording from datasheet, never paraphrase |
+| Any agent references a Balance Dataslate | Verify date is current (v3.3, Jan 2026) |
+| Brushmaster names a paint | Verify against paint DB JSON file |
+| Lorekeeper makes lore claim | Check retcon-registry.yaml for conflicts |
+| Chronicler quotes Crusade mechanic | Verify is 10th Edition, not 9th |
+| Artisan recommends a product | Web search to confirm product exists and is current |
 
 ---
 
@@ -223,6 +312,7 @@ After any file update:
 
 ---
 
-*Version: 2.0*
-*Last Updated: 2026-02-14*
+*Version: 3.0*
+*Last Updated: 2026-02-16*
 *Applies to: All warhammer-40k agents*
+*Change Log: v3.0 - Front-loaded accuracy preamble, added file-existence protocol, citation audit gate, when-uncertain decision tree, edition-critical warnings table, hallucination registry, cross-agent verification triggers*
