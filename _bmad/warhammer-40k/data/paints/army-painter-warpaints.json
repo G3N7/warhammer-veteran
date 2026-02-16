@@ -1,0 +1,506 @@
+{
+  "$schema": "./paint-inventory.schema.json",
+  "brand": "Army Painter",
+  "range": "Warpaints",
+  "version": "2024.1",
+  "description": "The Army Painter Warpaints range - high-pigment acrylic paints designed for miniature painting",
+  "shape_key": {
+    "base": { "shape": "■", "name": "Base", "description": "Opaque base colors for solid coverage" },
+    "layer": { "shape": "▲", "name": "Layer", "description": "Semi-transparent colors for layering and blending" },
+    "metallic": { "shape": "◆", "name": "Metallic", "description": "Metallic paints with realistic sheen" },
+    "wash": { "shape": "●", "name": "Wash/Shade", "description": "Shading washes for recesses and definition" },
+    "effect": { "shape": "★", "name": "Effect", "description": "Special effect paints (blood, rust, etc.)" },
+    "primer": { "shape": "▼", "name": "Primer", "description": "Spray and brush-on primers" },
+    "speedpaint": { "shape": "◐", "name": "Speedpaint", "description": "One-coat contrast-style paints" }
+  },
+  "categories": {
+    "base": "Opaque base colors for solid coverage",
+    "layer": "Semi-transparent colors for layering and blending",
+    "metallic": "Metallic paints with realistic sheen",
+    "wash": "Shading washes for recesses and definition",
+    "effect": "Special effect paints (blood, rust, etc.)",
+    "primer": "Spray and brush-on primers"
+  },
+  "paints": [
+    {
+      "id": "wp-matt-white",
+      "name": "Matt White",
+      "hex": "#FFFFFF",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Pure white, excellent for highlights and mixing"
+    },
+    {
+      "id": "wp-matt-black",
+      "name": "Matt Black",
+      "hex": "#1A1A1A",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Deep black, foundation for dark schemes"
+    },
+    {
+      "id": "wp-pure-red",
+      "name": "Pure Red",
+      "hex": "#C41E3A",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Vibrant primary red, Blood Angels base"
+    },
+    {
+      "id": "wp-dragon-red",
+      "name": "Dragon Red",
+      "hex": "#8B0000",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Deep crimson, rich dark red"
+    },
+    {
+      "id": "wp-phoenix-flames",
+      "name": "Phoenix Flames",
+      "hex": "#FF4500",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Bright orange-red, fire effects"
+    },
+    {
+      "id": "wp-lava-orange",
+      "name": "Lava Orange",
+      "hex": "#FF6B35",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Bright orange, lava and fire"
+    },
+    {
+      "id": "wp-daemonic-yellow",
+      "name": "Daemonic Yellow",
+      "hex": "#FFD700",
+      "category": "base",
+      "coverage": "medium",
+      "notes": "Warm golden yellow"
+    },
+    {
+      "id": "wp-moon-dust",
+      "name": "Moon Dust",
+      "hex": "#FFFACD",
+      "category": "layer",
+      "coverage": "medium",
+      "notes": "Pale cream yellow, bone highlights"
+    },
+    {
+      "id": "wp-electric-blue",
+      "name": "Electric Blue",
+      "hex": "#00BFFF",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Vibrant cyan blue, Thousand Sons"
+    },
+    {
+      "id": "wp-crystal-blue",
+      "name": "Crystal Blue",
+      "hex": "#4169E1",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Royal blue, Ultramarines base"
+    },
+    {
+      "id": "wp-deep-blue",
+      "name": "Deep Blue",
+      "hex": "#00008B",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Dark navy blue, Night Lords"
+    },
+    {
+      "id": "wp-ultramarine-blue",
+      "name": "Ultramarine Blue",
+      "hex": "#1E40AF",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Classic Ultramarines blue"
+    },
+    {
+      "id": "wp-voidshield-blue",
+      "name": "Voidshield Blue",
+      "hex": "#0F52BA",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Rich sapphire blue"
+    },
+    {
+      "id": "wp-wolf-grey",
+      "name": "Wolf Grey",
+      "hex": "#6B8E9F",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Space Wolves signature grey-blue"
+    },
+    {
+      "id": "wp-ice-storm",
+      "name": "Ice Storm",
+      "hex": "#B0C4DE",
+      "category": "layer",
+      "coverage": "medium",
+      "notes": "Pale icy blue, Space Wolves highlight"
+    },
+    {
+      "id": "wp-angel-green",
+      "name": "Angel Green",
+      "hex": "#004225",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Dark Angels green, deep forest"
+    },
+    {
+      "id": "wp-goblin-green",
+      "name": "Goblin Green",
+      "hex": "#228B22",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Classic bright green, Ork skin"
+    },
+    {
+      "id": "wp-greenskin",
+      "name": "Greenskin",
+      "hex": "#6B8E23",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Olive green, Ork flesh base"
+    },
+    {
+      "id": "wp-jungle-green",
+      "name": "Jungle Green",
+      "hex": "#29AB87",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Bright tropical green"
+    },
+    {
+      "id": "wp-poisonous-cloud",
+      "name": "Poisonous Cloud",
+      "hex": "#ADFF2F",
+      "category": "layer",
+      "coverage": "medium",
+      "notes": "Toxic yellow-green, Nurgle effects"
+    },
+    {
+      "id": "wp-alien-purple",
+      "name": "Alien Purple",
+      "hex": "#9932CC",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Rich purple, Genestealer skin"
+    },
+    {
+      "id": "wp-liche-purple",
+      "name": "Liche Purple",
+      "hex": "#4B0082",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Deep royal purple"
+    },
+    {
+      "id": "wp-pixie-pink",
+      "name": "Pixie Pink",
+      "hex": "#FF69B4",
+      "category": "layer",
+      "coverage": "medium",
+      "notes": "Bright pink, Slaanesh accents"
+    },
+    {
+      "id": "wp-warlock-purple",
+      "name": "Warlock Purple",
+      "hex": "#7B68EE",
+      "category": "layer",
+      "coverage": "medium",
+      "notes": "Blue-purple, magical effects"
+    },
+    {
+      "id": "wp-barbarian-flesh",
+      "name": "Barbarian Flesh",
+      "hex": "#E8BEAC",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Caucasian skin tone base"
+    },
+    {
+      "id": "wp-tanned-flesh",
+      "name": "Tanned Flesh",
+      "hex": "#C68642",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Mediterranean/tan skin tone"
+    },
+    {
+      "id": "wp-oak-brown",
+      "name": "Oak Brown",
+      "hex": "#8B4513",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Rich wood brown"
+    },
+    {
+      "id": "wp-leather-brown",
+      "name": "Leather Brown",
+      "hex": "#A0522D",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Classic leather tone"
+    },
+    {
+      "id": "wp-monster-brown",
+      "name": "Monster Brown",
+      "hex": "#5D3A1A",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Dark chocolate brown"
+    },
+    {
+      "id": "wp-fur-brown",
+      "name": "Fur Brown",
+      "hex": "#7B3F00",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Animal fur base color"
+    },
+    {
+      "id": "wp-desert-yellow",
+      "name": "Desert Yellow",
+      "hex": "#EDC9AF",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Sandy tan, Tallarn bases"
+    },
+    {
+      "id": "wp-skeleton-bone",
+      "name": "Skeleton Bone",
+      "hex": "#E3DAC9",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Off-white bone color"
+    },
+    {
+      "id": "wp-mummy-robes",
+      "name": "Mummy Robes",
+      "hex": "#F5F5DC",
+      "category": "layer",
+      "coverage": "medium",
+      "notes": "Aged cloth white"
+    },
+    {
+      "id": "wp-uniform-grey",
+      "name": "Uniform Grey",
+      "hex": "#808080",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Neutral mid grey"
+    },
+    {
+      "id": "wp-ash-grey",
+      "name": "Ash Grey",
+      "hex": "#B2BEB5",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Light cool grey"
+    },
+    {
+      "id": "wp-dungeon-grey",
+      "name": "Dungeon Grey",
+      "hex": "#4A4A4A",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Dark neutral grey"
+    },
+    {
+      "id": "wp-necromancer-cloak",
+      "name": "Necromancer Cloak",
+      "hex": "#36454F",
+      "category": "base",
+      "coverage": "high",
+      "notes": "Dark charcoal grey"
+    },
+    {
+      "id": "wp-plate-mail-metal",
+      "name": "Plate Mail Metal",
+      "hex": "#C0C0C0",
+      "category": "metallic",
+      "coverage": "high",
+      "notes": "Bright steel silver"
+    },
+    {
+      "id": "wp-gun-metal",
+      "name": "Gun Metal",
+      "hex": "#6E7F80",
+      "category": "metallic",
+      "coverage": "high",
+      "notes": "Dark metallic grey, weapons"
+    },
+    {
+      "id": "wp-shining-silver",
+      "name": "Shining Silver",
+      "hex": "#E8E8E8",
+      "category": "metallic",
+      "coverage": "high",
+      "notes": "Bright highlight silver"
+    },
+    {
+      "id": "wp-dark-sky",
+      "name": "Dark Sky",
+      "hex": "#3B444B",
+      "category": "metallic",
+      "coverage": "medium",
+      "notes": "Dark metallic blue-grey"
+    },
+    {
+      "id": "wp-greedy-gold",
+      "name": "Greedy Gold",
+      "hex": "#FFD700",
+      "category": "metallic",
+      "coverage": "high",
+      "notes": "Rich yellow gold"
+    },
+    {
+      "id": "wp-weapon-bronze",
+      "name": "Weapon Bronze",
+      "hex": "#CD7F32",
+      "category": "metallic",
+      "coverage": "high",
+      "notes": "Classic bronze, weapons and trim"
+    },
+    {
+      "id": "wp-ancient-gold",
+      "name": "Ancient Gold",
+      "hex": "#DAA520",
+      "category": "metallic",
+      "coverage": "high",
+      "notes": "Old gold, aged metal"
+    },
+    {
+      "id": "wp-glorious-gold",
+      "name": "Glorious Gold",
+      "hex": "#FFBF00",
+      "category": "metallic",
+      "coverage": "high",
+      "notes": "Bright warm gold"
+    },
+    {
+      "id": "wp-rough-iron",
+      "name": "Rough Iron",
+      "hex": "#52595D",
+      "category": "metallic",
+      "coverage": "high",
+      "notes": "Dark iron, weathered metal"
+    },
+    {
+      "id": "wp-copper",
+      "name": "Copper",
+      "hex": "#B87333",
+      "category": "metallic",
+      "coverage": "high",
+      "notes": "Warm copper tone"
+    },
+    {
+      "id": "wp-dark-tone",
+      "name": "Dark Tone",
+      "hex": "#3D2B1F",
+      "category": "wash",
+      "coverage": "transparent",
+      "notes": "Black-brown wash, universal shading"
+    },
+    {
+      "id": "wp-strong-tone",
+      "name": "Strong Tone",
+      "hex": "#5C4033",
+      "category": "wash",
+      "coverage": "transparent",
+      "notes": "Brown wash, warm shading"
+    },
+    {
+      "id": "wp-soft-tone",
+      "name": "Soft Tone",
+      "hex": "#967969",
+      "category": "wash",
+      "coverage": "transparent",
+      "notes": "Sepia wash, gentle shading"
+    },
+    {
+      "id": "wp-flesh-wash",
+      "name": "Flesh Wash",
+      "hex": "#CC7E72",
+      "category": "wash",
+      "coverage": "transparent",
+      "notes": "Pink-brown wash for skin"
+    },
+    {
+      "id": "wp-red-tone",
+      "name": "Red Tone",
+      "hex": "#8B0000",
+      "category": "wash",
+      "coverage": "transparent",
+      "notes": "Red wash, warm armor shading"
+    },
+    {
+      "id": "wp-green-tone",
+      "name": "Green Tone",
+      "hex": "#355E3B",
+      "category": "wash",
+      "coverage": "transparent",
+      "notes": "Green wash, vegetation and Ork skin"
+    },
+    {
+      "id": "wp-blue-tone",
+      "name": "Blue Tone",
+      "hex": "#1E3A5F",
+      "category": "wash",
+      "coverage": "transparent",
+      "notes": "Blue wash, cool shading"
+    },
+    {
+      "id": "wp-purple-tone",
+      "name": "Purple Tone",
+      "hex": "#4B0082",
+      "category": "wash",
+      "coverage": "transparent",
+      "notes": "Purple wash, magical effects"
+    },
+    {
+      "id": "wp-quickshade",
+      "name": "Quickshade Dark Tone",
+      "hex": "#2F1F0F",
+      "category": "wash",
+      "coverage": "heavy",
+      "notes": "Strong dip shade, armor and vehicles"
+    },
+    {
+      "id": "wp-glistening-blood",
+      "name": "Glistening Blood",
+      "hex": "#8B0000",
+      "category": "effect",
+      "coverage": "gloss",
+      "notes": "Blood for Blood God equivalent, gore effects"
+    },
+    {
+      "id": "wp-dry-rust",
+      "name": "Dry Rust",
+      "hex": "#B7410E",
+      "category": "effect",
+      "coverage": "textured",
+      "notes": "Rust effect pigment"
+    },
+    {
+      "id": "wp-disgusting-slime",
+      "name": "Disgusting Slime",
+      "hex": "#9ACD32",
+      "category": "effect",
+      "coverage": "gloss",
+      "notes": "Nurgle slime effect, toxic ooze"
+    },
+    {
+      "id": "wp-hardened-carapace",
+      "name": "Hardened Carapace",
+      "hex": "#1C1C1C",
+      "category": "effect",
+      "coverage": "gloss",
+      "notes": "Gloss black, Tyranid carapace"
+    }
+  ]
+}

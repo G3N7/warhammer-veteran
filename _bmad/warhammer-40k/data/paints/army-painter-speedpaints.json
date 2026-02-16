@@ -1,0 +1,212 @@
+{
+  "$schema": "./paint-inventory.schema.json",
+  "brand": "Army Painter",
+  "range": "Speedpaints 2.0",
+  "version": "2024.1",
+  "description": "Army Painter Speedpaints - contrast-style paints that base, shade, and highlight in one coat over zenithal primer",
+  "shape_key": {
+    "speedpaint": { "shape": "◐", "name": "Speedpaint", "description": "One-coat contrast-style paints" }
+  },
+  "categories": {
+    "speedpaint": "One-coat contrast paints for rapid army painting"
+  },
+  "application_notes": {
+    "primer": "Best results over Army Painter Speedpaint Primer (Matt White) or zenithal priming",
+    "technique": "Single coat application, avoid pooling, work in sections",
+    "tip": "Do not go back over drying paint - work wet and move on"
+  },
+  "paints": [
+    {
+      "id": "sp-holy-white",
+      "name": "Holy White",
+      "hex": "#F5F5F5",
+      "category": "speedpaint",
+      "intensity": "light",
+      "notes": "Subtle off-white, robes and cloth"
+    },
+    {
+      "id": "sp-pallid-bone",
+      "name": "Pallid Bone",
+      "hex": "#E8E4D4",
+      "category": "speedpaint",
+      "intensity": "light",
+      "notes": "Ivory/bone tone, skeletons and parchment"
+    },
+    {
+      "id": "sp-zealot-yellow",
+      "name": "Zealot Yellow",
+      "hex": "#FFC107",
+      "category": "speedpaint",
+      "intensity": "medium",
+      "notes": "Warm yellow, Imperial Fists"
+    },
+    {
+      "id": "sp-orc-skin",
+      "name": "Orc Skin",
+      "hex": "#7CB342",
+      "category": "speedpaint",
+      "intensity": "medium",
+      "notes": "Classic Ork green flesh"
+    },
+    {
+      "id": "sp-slaughter-red",
+      "name": "Slaughter Red",
+      "hex": "#B71C1C",
+      "category": "speedpaint",
+      "intensity": "medium",
+      "notes": "Blood red, Khorne and Blood Angels"
+    },
+    {
+      "id": "sp-blood-red",
+      "name": "Blood Red",
+      "hex": "#D32F2F",
+      "category": "speedpaint",
+      "intensity": "medium",
+      "notes": "Bright red, armor and cloth"
+    },
+    {
+      "id": "sp-fire-giant-orange",
+      "name": "Fire Giant Orange",
+      "hex": "#FF5722",
+      "category": "speedpaint",
+      "intensity": "medium",
+      "notes": "Warm orange, fire effects and cloth"
+    },
+    {
+      "id": "sp-broadsword-orange",
+      "name": "Broadsword Orange",
+      "hex": "#E65100",
+      "category": "speedpaint",
+      "intensity": "medium",
+      "notes": "Deep orange, rust and weathering"
+    },
+    {
+      "id": "sp-highlord-blue",
+      "name": "Highlord Blue",
+      "hex": "#1565C0",
+      "category": "speedpaint",
+      "intensity": "medium",
+      "notes": "Ultramarines blue"
+    },
+    {
+      "id": "sp-ultramarine-blue",
+      "name": "Ultramarine Blue",
+      "hex": "#1976D2",
+      "category": "speedpaint",
+      "intensity": "medium",
+      "notes": "Classic Space Marine blue"
+    },
+    {
+      "id": "sp-ice-storm",
+      "name": "Ice Storm",
+      "hex": "#64B5F6",
+      "category": "speedpaint",
+      "intensity": "light",
+      "notes": "Light icy blue, Space Wolves"
+    },
+    {
+      "id": "sp-dark-wood",
+      "name": "Dark Wood",
+      "hex": "#5D4037",
+      "category": "speedpaint",
+      "intensity": "dark",
+      "notes": "Rich dark brown, wood and leather"
+    },
+    {
+      "id": "sp-hardened-leather",
+      "name": "Hardened Leather",
+      "hex": "#795548",
+      "category": "speedpaint",
+      "intensity": "medium",
+      "notes": "Classic leather brown"
+    },
+    {
+      "id": "sp-crusader-skin",
+      "name": "Crusader Skin",
+      "hex": "#FFCCBC",
+      "category": "speedpaint",
+      "intensity": "light",
+      "notes": "Caucasian skin tone"
+    },
+    {
+      "id": "sp-ruddy-skin",
+      "name": "Ruddy Skin",
+      "hex": "#FFAB91",
+      "category": "speedpaint",
+      "intensity": "light",
+      "notes": "Flushed/weathered skin"
+    },
+    {
+      "id": "sp-lawful-grey",
+      "name": "Lawful Grey",
+      "hex": "#9E9E9E",
+      "category": "speedpaint",
+      "intensity": "medium",
+      "notes": "Neutral grey, stone and metal"
+    },
+    {
+      "id": "sp-grim-black",
+      "name": "Grim Black",
+      "hex": "#37474F",
+      "category": "speedpaint",
+      "intensity": "dark",
+      "notes": "Rich black, armor and weapons"
+    },
+    {
+      "id": "sp-hive-dweller",
+      "name": "Hive Dweller",
+      "hex": "#455A64",
+      "category": "speedpaint",
+      "intensity": "dark",
+      "notes": "Blue-grey, urban bases"
+    },
+    {
+      "id": "sp-malignant-green",
+      "name": "Malignant Green",
+      "hex": "#8BC34A",
+      "category": "speedpaint",
+      "intensity": "medium",
+      "notes": "Toxic green, Nurgle"
+    },
+    {
+      "id": "sp-drake-tooth",
+      "name": "Drake Tooth",
+      "hex": "#004D40",
+      "category": "speedpaint",
+      "intensity": "dark",
+      "notes": "Deep green, Dark Angels"
+    },
+    {
+      "id": "sp-military-green",
+      "name": "Military Green",
+      "hex": "#558B2F",
+      "category": "speedpaint",
+      "intensity": "medium",
+      "notes": "Camo green, Guard vehicles"
+    },
+    {
+      "id": "sp-runic-purple",
+      "name": "Runic Purple",
+      "hex": "#7B1FA2",
+      "category": "speedpaint",
+      "intensity": "medium",
+      "notes": "Rich purple, robes and Slaanesh"
+    },
+    {
+      "id": "sp-rave-pink",
+      "name": "Rave Pink",
+      "hex": "#E91E63",
+      "category": "speedpaint",
+      "intensity": "medium",
+      "notes": "Bright pink, Emperor's Children"
+    },
+    {
+      "id": "sp-absolution-green",
+      "name": "Absolution Green",
+      "hex": "#1B5E20",
+      "category": "speedpaint",
+      "intensity": "dark",
+      "notes": "Deep forest green, Dark Angels"
+    }
+  ]
+}

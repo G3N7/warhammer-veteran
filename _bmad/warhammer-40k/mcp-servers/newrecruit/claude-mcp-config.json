@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "newrecruit": {
+      "command": "node",
+      "args": ["./mcp-servers/newrecruit/dist/index.js"],
+      "env": {
+        "NR_LOGIN": "${NR_LOGIN}",
+        "NR_PASSWORD": "${NR_PASSWORD}"
+      }
+    }
+  }
+}
