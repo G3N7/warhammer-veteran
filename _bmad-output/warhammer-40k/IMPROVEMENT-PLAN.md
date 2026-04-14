@@ -1,7 +1,7 @@
 # Warhammer 40K Agent System — Improvement Plan
 
 **Created:** 2026-04-14
-**Status:** In Progress
+**Status:** Phases 1-5 Complete (only 5.2 MCP wiring remains as backlog)
 **Last Updated:** 2026-04-14
 
 ## Problem Statement
