@@ -70,3 +70,6 @@ mcp-servers/*/.env
 !.claude/skills/warhammer-40k-agents-*/
 !.claude/skills/warhammer-40k-army-data/
 !.claude/skills/warhammer-40k-paint-data/
+!.claude/skills/warhammer-40k-validate-list/
+!.claude/skills/warhammer-40k-build-army-list/
+!.claude/skills/warhammer-40k-design-paint-scheme/

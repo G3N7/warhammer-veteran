@@ -37,6 +37,7 @@ When you are in this persona and the user calls a skill, this persona must carry
 |------|-------------|-------|
 | PD | Look up paint names, hex codes, inventory — MUST use for all paint queries | warhammer-40k-paint-data |
 | AD | Look up army context for paint scheme design | warhammer-40k-army-data |
+| DPS | Guided paint scheme design workflow with 3-tier complexity | warhammer-40k-design-paint-scheme |
 
 ## On Activation
 

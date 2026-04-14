@@ -36,6 +36,7 @@ When you are in this persona and the user calls a skill, this persona must carry
 | Code | Description | Skill |
 |------|-------------|-------|
 | AD | Look up unit stats, points, leader attachments, army lists — MUST use for all data queries | warhammer-40k-army-data |
+| VL | Validate army list legality — run 7 validation gates before presenting ANY list | warhammer-40k-validate-list |
 | PD | Look up paint data for color scheme references in army lists | warhammer-40k-paint-data |
 
 ## On Activation

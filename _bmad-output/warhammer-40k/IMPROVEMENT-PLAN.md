@@ -91,9 +91,9 @@ Warhammer agents will be migrated from commands → skills to match.
 
 - [ ] **5.1** Create `warhammer-40k:wahapedia-cache` skill to manage cached web lookups
 - [ ] **5.2** Wire up New Recruit MCP server with credentials flow
-- [ ] **5.3** Create workflow skills (Build Army List, Design Paint Scheme) as proper BMAD skills
+- [x] **5.3** Create workflow skills (Build Army List, Design Paint Scheme) as proper BMAD skills
 - [ ] **5.4** Add more cheatsheet JSON files for non-Space-Wolves factions
-- [ ] **5.5** Create `warhammer-40k:validate-list` skill wrapping validation-rules.yaml
+- [x] **5.5** Create `warhammer-40k:validate-list` skill wrapping validation-rules.yaml
 
 ## Key Files Reference
 
@@ -127,3 +127,5 @@ Warhammer agents will be migrated from commands → skills to match.
 | 2026-04-14 | Phase 4.2 | DONE | Embedded 5 retcon entries into Lorekeeper skill |
 | 2026-04-14 | Phase 4.3 | DONE | Added STOP AND QUERY directive tables to all 6 agents |
 | 2026-04-14 | Phase 4.4 | DONE | Shared instructions folded into per-agent skills |
+| 2026-04-14 | Phase 5.3 | DONE | Build Army List + Design Paint Scheme workflow skills |
+| 2026-04-14 | Phase 5.5 | DONE | validate-list skill with 7 sequential gates |
