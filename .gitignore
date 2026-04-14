@@ -73,3 +73,5 @@ mcp-servers/*/.env
 !.claude/skills/warhammer-40k-validate-list/
 !.claude/skills/warhammer-40k-build-army-list/
 !.claude/skills/warhammer-40k-design-paint-scheme/
+!.claude/skills/warhammer-40k-generate-cheatsheet/
+!.claude/skills/warhammer-40k-wahapedia-cache/

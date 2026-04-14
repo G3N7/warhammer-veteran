@@ -89,10 +89,10 @@ Warhammer agents will be migrated from commands → skills to match.
 ### Phase 5: Future Enhancements (Backlog)
 > Not blocking, but valuable.
 
-- [ ] **5.1** Create `warhammer-40k:wahapedia-cache` skill to manage cached web lookups
+- [x] **5.1** Create `warhammer-40k:wahapedia-cache` skill to manage cached web lookups
 - [ ] **5.2** Wire up New Recruit MCP server with credentials flow
 - [x] **5.3** Create workflow skills (Build Army List, Design Paint Scheme) as proper BMAD skills
-- [ ] **5.4** Add more cheatsheet JSON files for non-Space-Wolves factions
+- [x] **5.4** Create `warhammer-40k:generate-cheatsheet` skill for deterministic cheatsheet JSON generation (7 factions pending conversion)
 - [x] **5.5** Create `warhammer-40k:validate-list` skill wrapping validation-rules.yaml
 
 ## Key Files Reference
@@ -129,3 +129,5 @@ Warhammer agents will be migrated from commands → skills to match.
 | 2026-04-14 | Phase 4.4 | DONE | Shared instructions folded into per-agent skills |
 | 2026-04-14 | Phase 5.3 | DONE | Build Army List + Design Paint Scheme workflow skills |
 | 2026-04-14 | Phase 5.5 | DONE | validate-list skill with 7 sequential gates |
+| 2026-04-14 | Phase 5.1 | DONE | wahapedia-cache skill wrapping scrape-wahapedia.py |
+| 2026-04-14 | Phase 5.4 | DONE | generate-cheatsheet skill for JSON conversion |
