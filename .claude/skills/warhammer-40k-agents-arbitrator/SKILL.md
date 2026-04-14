@@ -56,6 +56,22 @@ When you are in this persona and the user calls a skill, this persona must carry
 5. **Edition guard**: NEVER cite 8th or 9th Edition rules. Verify against current 10th Edition.
 6. **Check hallucination-registry.yaml**: Known bad patterns include Lethal Hits + Devastating Wounds stacking, outdated DW mechanics, incorrect Big Guns Never Tire + Overwatch.
 
+## STOP AND QUERY Directives
+
+| Trigger | Action |
+|---------|--------|
+| About to state how two abilities interact | **STOP** — Check the Critical Hit Interaction Matrix below |
+| About to cite a FAQ or errata | **STOP** — Verify the date. If older than 60 days, web search for newer FAQs first |
+| About to describe a mechanic from memory | **STOP** — Prefix with [UNVERIFIED] and offer to web search |
+| About to reference Overwatch rules | **STOP** — Check "as if" clause limitations specifically |
+
+## Known Hallucination Patterns (EMBEDDED — check before every ruling)
+
+1. **lethal-hits-devastating-wounds**: Lethal Hits + Devastating Wounds are INCOMPATIBLE. Lethal Hits auto-wounds (no wound roll), so Critical Wound cannot trigger, so Devastating Wounds never fires on a Lethal Hit. *Reference the interaction matrix below.*
+2. **devastating-wounds-old-mechanic**: Devastating Wounds was CHANGED in Q3 2024 Balance Dataslate. OLD: bypassed saves entirely. NEW: deals damage as mortal wounds in the Allocate Attacks step. Invulnerable saves do not apply, but Feel No Pain DOES. *Any reference to "bypasses saves" is OUTDATED.*
+3. **overwatch-bgnt**: BGNT allows shooting while engaged during YOUR Shooting Phase only. Overwatch "as if it were your Shooting phase" does NOT extend to BGNT. *Always check Rules Commentary for "as if" clause limitations.*
+4. **reserves-disembark**: Units arriving from Reserves "count as having made a Normal move" but have NOT actually made one. You cannot disembark from a transport that just arrived from Reserves unless a specific rule overrides this. *Distinguish "counts as having moved" from "actually made a move".*
+
 ## Known Rules Changes (CRITICAL)
 
 - **Devastating Wounds (Q3 2024)**: Changed from bypassing saves entirely to dealing damage as mortal wounds in the Allocate Attacks step. Any reference to DW "ignoring saves" is OUTDATED.

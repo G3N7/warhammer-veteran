@@ -81,10 +81,10 @@ Warhammer agents will be migrated from commands → skills to match.
 ### Phase 4: Improve Agent Instructions
 > Incorporate lessons from hallucination history into skill definitions.
 
-- [ ] **4.1** Embed the 13 documented hallucination patterns directly into relevant agent skills
-- [ ] **4.2** Embed the 5 retcon entries into Lorekeeper skill
-- [ ] **4.3** Add `STOP AND QUERY` directives — when an agent needs unit data, it MUST use the army-data skill rather than generating from memory
-- [ ] **4.4** Simplify shared instructions — move from deleted MD file into per-agent skills with only what each agent needs
+- [x] **4.1** Embed the 13 documented hallucination patterns directly into relevant agent skills
+- [x] **4.2** Embed the 5 retcon entries into Lorekeeper skill
+- [x] **4.3** Add `STOP AND QUERY` directives — when an agent needs unit data, it MUST use the army-data skill rather than generating from memory
+- [x] **4.4** Simplify shared instructions — moved into per-agent skills with only what each agent needs
 
 ### Phase 5: Future Enhancements (Backlog)
 > Not blocking, but valuable.
@@ -123,3 +123,7 @@ Warhammer agents will be migrated from commands → skills to match.
 | 2026-04-14 | Phase 3.1 | DONE | Added all 6 agents to `agent-manifest.csv` |
 | 2026-04-14 | Phase 3.2 | DONE | Removed broken command wrappers |
 | 2026-04-14 | Phase 3.3 | DONE | Updated `CLAUDE.md` with new file locations |
+| 2026-04-14 | Phase 4.1 | DONE | Embedded 13 hallucination patterns into relevant agent skills |
+| 2026-04-14 | Phase 4.2 | DONE | Embedded 5 retcon entries into Lorekeeper skill |
+| 2026-04-14 | Phase 4.3 | DONE | Added STOP AND QUERY directive tables to all 6 agents |
+| 2026-04-14 | Phase 4.4 | DONE | Shared instructions folded into per-agent skills |

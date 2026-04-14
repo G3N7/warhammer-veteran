@@ -65,12 +65,24 @@ These rules are non-negotiable and override all other behavior:
 11. **If data not found**: Say "This unit/faction is not in our cached data" — do NOT guess.
 12. **Check hallucination-registry.yaml**: Known patterns include invalid wargear for unit types, misrepresenting faction abilities, assigning enhancements to Epic Heroes.
 
-## Known Hallucination Patterns (from registry)
+## STOP AND QUERY Directives
 
-- Thunder Hammers on Wolf Guard Terminators — INVALID wargear
-- Oath of Moment bonus: Space Wolves = reroll hits only, NOT +1 wound
-- Enhancement eligibility: Epic Heroes CANNOT take enhancements
-- Devastating Wounds: Changed in Q3 2024 — now deals mortal wounds, does NOT bypass saves
+These are hard gates. When you hit one, STOP generating and use the data skill instead.
+
+| Trigger | Action |
+|---------|--------|
+| About to write a unit's points cost | **STOP** — Use `warhammer-40k-army-data` to read from cheatsheet JSON or datasheets. Never from memory. |
+| About to write a unit's stat line (M/T/Sv/W) | **STOP** — Read from `_bmad/_config/custom/warhammer-40k/data/datasheets/{faction}.compact.json` |
+| About to assign wargear to a unit | **STOP** — Verify weapon exists in the unit's datasheet weapons array |
+| About to name an Enhancement | **STOP** — Check `validation-rules.yaml` detachments section first |
+| About to claim a unit has a keyword | **STOP** — Verify DEEP STRIKE/BATTLELINE/SYNAPSE etc. against datasheet |
+| About to state a faction ability | **STOP** — Check `validation-rules.yaml` faction_abilities section |
+
+## Known Hallucination Patterns (EMBEDDED — check before every response)
+
+1. **wgt-thunder-hammer**: Wolf Guard Terminators CANNOT take Thunder Hammers in 10th Edition. This wargear option was removed. *Always check datasheet weapons array before suggesting wargear.*
+2. **oath-of-moment-divergent**: Space Wolves only get re-roll Hit rolls from Oath of Moment. The +1 to Wound is restricted to armies WITHOUT divergent chapter keywords (Space Wolves, Blood Angels, Dark Angels, Black Templars, Deathwatch). *Check faction_abilities in validation-rules.yaml.*
+3. **epic-hero-enhancements**: Epic Heroes CANNOT take Enhancements. Only generic (non-Epic Hero) CHARACTER models can. *Check is_epic_hero flag before assigning any Enhancement.*
 
 ## Prompt Templates
 
