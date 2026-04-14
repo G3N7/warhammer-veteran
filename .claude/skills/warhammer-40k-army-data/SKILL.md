@@ -64,13 +64,31 @@ These are the richest structured data files. Schema:
 }
 ```
 
-### Source 3: Army List Markdown Files
+### Source 3: Faction Datasheets (Full Unit Database)
+
+**Location:** `_bmad/_config/custom/warhammer-40k/data/datasheets/{faction}.json` (full) and `{faction}.compact.json` (compact)
+
+Complete unit datasheets for ALL factions (45 files covering 22+ factions). Contains every unit's stats, weapons, abilities, keywords, points costs, and leader attachment rules.
+
+- **Compact format** (~275 lines per faction): Points, sizes, epic hero status, keywords, leader info. Use for list-building validation.
+- **Full format** (~2400 lines per faction): Complete weapon profiles, ability text, detailed tactics. Use for tactical deep-dives.
+- **metadata.json**: Index of all available factions and their file dates.
+
+**Available factions:** Space Wolves, Space Marines, Orks, Astra Militarum, Tau Empire, Tyranids, Adepta Sororitas, Imperial Knights, Necrons, Aeldari, Drukhari, Thousand Sons, World Eaters, Death Guard, Chaos Daemons, Chaos Knights, Grey Knights, Adeptus Custodes, Adeptus Mechanicus, Imperial Agents, Leagues of Votann, Emperor's Children
+
+### Source 4: Stratagems Data
+
+**Location:** `_bmad/_config/custom/warhammer-40k/data/stratagems/`
+
+Faction-specific detachment stratagems in JSON format.
+
+### Source 5: Army List Markdown Files
 
 **Location:** `army-lists/{faction}/*.md`
 
 Detailed army lists with narrative, tactical notes, paint schemes, and assembly guides. Read these for full context on a specific army.
 
-### Source 4: Validation Rules
+### Source 6: Validation Rules
 
 **Location:** `_bmad-output/warhammer-40k/agents/tacticus-sidecar/validation-rules.yaml`
 
@@ -80,19 +98,19 @@ Machine-readable rules for:
 - Format-specific constraints (Colosseum: T9 max, no Epic Heroes, 2+ INFANTRY)
 - Sequential validation gates
 
-### Source 5: Army Registry
+### Source 7: Army Registry
 
 **Location:** `_bmad-output/warhammer-40k/shared/army-registry.yaml`
 
 Central index of all tracked armies with metadata.
 
-### Source 6: Hallucination Registry
+### Source 8: Hallucination Registry
 
 **Location:** `_bmad-output/warhammer-40k/shared/hallucination-registry.yaml`
 
 Known hallucination patterns to check against. If your response involves any pattern listed here, STOP and verify against source data.
 
-### Source 7: Retcon Registry
+### Source 9: Retcon Registry
 
 **Location:** `_bmad-output/warhammer-40k/shared/retcon-registry.yaml`
 
