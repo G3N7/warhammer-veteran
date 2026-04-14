@@ -13,9 +13,9 @@ jobs:
     name: Check for outdated dependencies
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: npm
@@ -76,7 +76,7 @@ jobs:
 
       - name: Create or update issue
         if: steps.outdated.outputs.has_outdated == 'true' || steps.audit.outputs.has_vulns == 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const fs = require('fs');
