@@ -1,0 +1,64 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  install:
+    name: Install dependencies
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+  test:
+    name: Module validation
+    runs-on: ubuntu-latest
+    needs: install
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run module tests
+        run: |
+          chmod +x test-module.sh
+          bash test-module.sh
+
+      - name: Validate YAML/JSON data files
+        run: |
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+
+            // Validate JSON files in army-lists
+            const armyDir = 'army-lists';
+            if (fs.existsSync(armyDir)) {
+              const walk = (dir) => {
+                for (const f of fs.readdirSync(dir, { withFileTypes: true })) {
+                  const full = path.join(dir, f.name);
+                  if (f.isDirectory()) walk(full);
+                  else if (f.name.endsWith('.json')) {
+                    try { JSON.parse(fs.readFileSync(full, 'utf8')); console.log('  ✅', full); }
+                    catch (e) { console.error('  ❌', full, e.message); process.exitCode = 1; }
+                  }
+                }
+              };
+              console.log('Validating JSON files...');
+              walk(armyDir);
+            }
+          "
