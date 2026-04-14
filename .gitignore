@@ -29,7 +29,12 @@ cache/
 # BMAD development folders (not part of module)
 _bmad/*
 !_bmad/warhammer-40k/
-_bmad-output/
+# BMAD output (ignore most, track shared registries and plan)
+_bmad-output/*
+!_bmad-output/warhammer-40k/
+_bmad-output/warhammer-40k/*
+!_bmad-output/warhammer-40k/shared/
+!_bmad-output/warhammer-40k/IMPROVEMENT-PLAN.md
 
 # Node modules
 node_modules/
@@ -58,4 +63,10 @@ mcp-servers/*/dist/
 mcp-servers/*/.env
 
 # LLMs
-.claude/
+# Claude Code config (ignore most, track Warhammer skills)
+.claude/*
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/warhammer-40k-agents-*/
+!.claude/skills/warhammer-40k-army-data/
+!.claude/skills/warhammer-40k-paint-data/
